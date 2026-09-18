@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#173149">
+<title>资料导航 · 105118 麻醉学专硕</title>
+<style>
+  :root {
+    color-scheme: light;
+    --paper: oklch(96% 0.018 83);
+    --paper-deep: oklch(91% 0.026 81);
+    --ink: oklch(27% 0.045 242);
+    --ink-soft: oklch(43% 0.035 242);
+    --navy: oklch(29% 0.065 242);
+    --navy-deep: oklch(21% 0.05 242);
+    --line: oklch(78% 0.025 82);
+    --accent: oklch(58% 0.17 31);
+    --focus: oklch(63% 0.16 245);
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--navy-deep); }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    color: var(--ink);
+    background:
+      linear-gradient(90deg, transparent 0 1.45rem, color-mix(in oklch, var(--accent) 22%, transparent) 1.45rem 1.5rem, transparent 1.5rem),
+      var(--paper);
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.6;
+    padding: 0 0 max(2rem, env(safe-area-inset-bottom));
+  }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+  .masthead {
+    position: relative;
+    overflow: hidden;
+    color: oklch(96% 0.018 83);
+    background: var(--navy);
+    padding: clamp(2rem, 7vw, 4rem) clamp(1.25rem, 6vw, 5rem) clamp(1.75rem, 5vw, 3rem);
+    border-bottom: 5px solid var(--accent);
+  }
+  .masthead::after {
+    content: "INDEX";
+    position: absolute;
+    right: -.03em; bottom: -.42em;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(5rem, 26vw, 14rem);
+    font-weight: 700; line-height: 1; letter-spacing: -.07em;
+    color: color-mix(in oklch, var(--paper) 7%, transparent);
+    pointer-events: none;
+  }
+  .eyebrow { margin: 0 0 .75rem; color: oklch(82% 0.08 70); font-size: .78rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+  h1 { position: relative; z-index: 1; margin: 0; font-family: "Songti SC", "STSong", Georgia, serif; font-size: clamp(2rem, 8vw, 3.4rem); line-height: 1.02; letter-spacing: -.04em; }
+  .dek { position: relative; z-index: 1; max-width: 56ch; margin: 1rem 0 0; color: oklch(87% 0.025 236); font-size: clamp(.95rem, 3vw, 1.06rem); }
+  main { max-width: 78rem; margin: 0 auto; padding: clamp(1.5rem, 5vw, 3rem) clamp(1rem, 4vw, 3rem); }
+  .sec-label {
+    margin: 0 0 .9rem;
+    font-size: .76rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .sec-label + .cards { margin-bottom: 2.5rem; }
+  .cards { display: grid; gap: 1rem; grid-template-columns: 1fr; }
+  @media (min-width: 640px) { .cards { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 1000px) { .cards.cols-3 { grid-template-columns: repeat(3, 1fr); } }
+  a.card {
+    display: block;
+    position: relative;
+    padding: 1.35rem 1.35rem 1.2rem;
+    color: inherit;
+    background: oklch(98.5% 0.008 83);
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--navy);
+    text-decoration: none;
+    transition: border-color .18s ease, transform .18s ease;
+  }
+  a.card:hover { border-color: var(--navy); border-top-color: var(--accent); transform: translateY(-2px); }
+  a.card.home { border-top-color: var(--accent); background: oklch(97% 0.02 40); }
+  .tag {
+    display: inline-block; margin-bottom: .7rem; padding: .1rem .5rem;
+    border: 1px solid currentColor;
+    font-size: .68rem; font-weight: 700; letter-spacing: .06em;
+    color: var(--accent);
+  }
+  .tag.plain { color: var(--ink-soft); }
+  a.card h2 { margin: 0 0 .45rem; font-size: 1.12rem; font-weight: 700; line-height: 1.35; letter-spacing: -.01em; }
+  a.card p { margin: 0; font-size: .88rem; color: var(--ink-soft); }
+  a.card .go { display: block; margin-top: .9rem; font-size: .8rem; font-weight: 700; color: var(--navy); }
+  a.card .go::after { content: " →"; }
+  .note {
+    padding: 1.2rem 1.4rem;
+    background: var(--paper-deep);
+    border-left: 3px solid var(--accent);
+  }
+  .note ul { margin: 0; padding-left: 1.15rem; }
+  .note li { font-size: .87rem; color: var(--ink-soft); margin: .35rem 0; }
+  .note li b { color: var(--ink); }
+  footer {
+    max-width: 78rem; margin: 0 auto; padding: 1.5rem clamp(1rem, 4vw, 3rem) 0;
+    border-top: 1px solid var(--line);
+    font-size: .8rem; color: var(--ink-soft);
+  }
+  footer p { margin: .3rem 0; }
+  footer a { color: var(--navy); }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: .92em; background: var(--paper-deep); padding: .08rem .35rem; }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <p class="eyebrow">105118 Anesthesiology · Index</p>
+  <h1>资料导航</h1>
+  <p class="dek">第五临床医学门类 · 麻醉学专业学位硕士。此处汇总择校速查、报考决策、专业排名与数据口径说明，全部页面可离线打开。</p>
+</header>
+
+<main>
+
+  <p class="sec-label">核心工具</p>
+  <div class="cards">
+    <a class="card home" href="index.html">
+      <span class="tag">主页 · 交互</span>
+      <h2>择校速查</h2>
+      <p>94 所院校的复试线、录取均分与人数、差额复试比，支持搜索、排序与档位筛选。</p>
+      <span class="go">打开速查表</span>
+    </a>
+    <a class="card" href="decision-mobile.html">
+      <span class="tag plain">手机版 · 决策</span>
+      <h2>考研报考决策表</h2>
+      <p>按分数、地区与院校层次筛选匹配院校，给出冲稳保梯度建议。</p>
+      <span class="go">打开决策表</span>
+    </a>
+  </div>
+
+  <p class="sec-label" style="margin-top:2.5rem">参考资料</p>
+  <div class="cards cols-3">
+    <a class="card" href="ranking.html">
+      <span class="tag plain">33 所</span>
+      <h2>专业排名</h2>
+      <p>麻醉学学科实力分档，A+ 至 B 四档，附各校学科沿革与关键事实。</p>
+      <span class="go">查看排名</span>
+    </a>
+    <a class="card" href="glossary.html">
+      <span class="tag plain">术语</span>
+      <h2>概念与术语</h2>
+      <p>复试线、录取均分、差额复试比、报录比、A/B 区等常见概念的解释。</p>
+      <span class="go">阅读说明</span>
+    </a>
+    <a class="card" href="sources.html">
+      <span class="tag plain">口径</span>
+      <h2>数据来源与口径</h2>
+      <p>档位划分标准、各校差额复试比例公开原文，以及数据局限说明。</p>
+      <span class="go">查看来源</span>
+    </a>
+  </div>
+
+  <p class="sec-label" style="margin-top:2.5rem">使用提示</p>
+  <div class="note">
+    <ul>
+      <li><b>主入口是择校速查</b>：直接访问域名会打开该页，页首有「返回导航页」按钮可回到本页。</li>
+      <li><b>空白不等于零</b>：表中留空的单元格表示未检索到可核验的公开数据，不代表该校未招生或分数为 0。</li>
+      <li><b>以官方为准</b>：所有数据来自公开信息整理，报考前请核对目标院校当年招生目录与复试细则。</li>
+    </ul>
+  </div>
+
+</main>
+
+<footer>
+  <p>105118 麻醉学专业学位硕士 · 2024—2026 公开信息整理 · 数据更新 2026-09-18</p>
+  <p>静态页面托管于 GitHub Pages，仓库 <code>kaoyan-105118-anesthesia-postgrad</code>。</p>
+</footer>
+
+</body>
+</html>
