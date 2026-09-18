@@ -1,0 +1,184 @@
+# -*- coding: utf-8 -*-
+"""从 docs/index.html 内嵌 DB 提取档位口径与复试比例原文，生成 docs/sources.html"""
+import json, html, pathlib
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+src = (ROOT / "docs/index.html").read_text(encoding="utf-8")
+s = src.index("const DB = ") + len("const DB = ")
+e = src.index("\nconst TIER_ORDER")
+DB = json.loads(src[s:e].strip().rstrip(";"))
+
+TIER_STYLE = {"S": "#8a3a2a", "A": "#9a6a1e", "B": "#6a6f28",
+              "C": "#2f6a4a", "D": "#2b5478", "U": "#5a6070"}
+
+def esc(v):
+    return html.escape(str(v), quote=True)
+
+legend_rows = "".join(
+    f'<tr><td><span class="chip" style="background:{TIER_STYLE.get(c, "#5a6070")}">{esc(c)}</span></td>'
+    f'<td class="lb">{esc(lb)}</td><td class="rg">{esc(rg)}</td></tr>'
+    for c, lb, rg in DB["legends"]
+)
+
+rule_items = "".join(
+    f'<li><b>{esc(name)}</b><span>{esc(txt)}</span></li>'
+    for name, txt in DB["rules"]
+)
+
+n_schools = len(DB["schools"])
+n_cutoffs = len(DB.get("cutoffs", []))
+n_counts = len(DB.get("counts", []))
+
+HEAD = f"""<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#173149">
+<title>数据来源与口径 · 105118 麻醉学专硕</title>
+<style>
+  :root {{
+    color-scheme: light;
+    --paper: oklch(96% 0.018 83);
+    --paper-deep: oklch(91% 0.026 81);
+    --ink: oklch(27% 0.045 242);
+    --ink-soft: oklch(43% 0.035 242);
+    --navy: oklch(29% 0.065 242);
+    --navy-deep: oklch(21% 0.05 242);
+    --line: oklch(78% 0.025 82);
+    --accent: oklch(58% 0.17 31);
+    --focus: oklch(63% 0.16 245);
+  }}
+  * {{ box-sizing: border-box; }}
+  html {{ background: var(--navy-deep); scroll-behavior: smooth; }}
+  body {{
+    margin: 0; min-height: 100vh; color: var(--ink);
+    background:
+      linear-gradient(90deg, transparent 0 1.45rem, color-mix(in oklch, var(--accent) 22%, transparent) 1.45rem 1.5rem, transparent 1.5rem),
+      var(--paper);
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.65;
+    padding: 0 0 max(2rem, env(safe-area-inset-bottom));
+  }}
+  :focus-visible {{ outline: 3px solid var(--focus); outline-offset: 3px; }}
+  .masthead {{
+    position: relative; overflow: hidden; color: oklch(96% 0.018 83);
+    background: var(--navy);
+    padding: clamp(2rem, 7vw, 4rem) clamp(1.25rem, 6vw, 5rem) clamp(1.75rem, 5vw, 3rem);
+    border-bottom: 5px solid var(--accent);
+  }}
+  .masthead::after {{
+    content: "DATA"; position: absolute; right: -.04em; bottom: -.42em;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(5rem, 26vw, 14rem); font-weight: 700; line-height: 1;
+    letter-spacing: -.07em;
+    color: color-mix(in oklch, var(--paper) 7%, transparent); pointer-events: none;
+  }}
+  .masthead-nav {{ position: relative; z-index: 2; margin: 0 0 1.5rem; }}
+  .masthead-nav a {{
+    display: inline-flex; align-items: center; gap: .4rem;
+    min-height: 42px; padding: 0 .9rem;
+    border: 1px solid oklch(62% 0.05 235); color: oklch(93% 0.02 236);
+    background: color-mix(in oklch, var(--paper) 10%, transparent);
+    font-size: .8rem; font-weight: 700; letter-spacing: .04em; text-decoration: none;
+  }}
+  .masthead-nav a:hover {{ border-color: var(--paper); background: color-mix(in oklch, var(--paper) 22%, transparent); }}
+  .eyebrow {{ position: relative; z-index: 1; margin: 0 0 .75rem; color: oklch(82% 0.08 70); font-size: .78rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }}
+  h1 {{ position: relative; z-index: 1; margin: 0; font-family: "Songti SC", "STSong", Georgia, serif; font-size: clamp(2rem, 8vw, 3.4rem); line-height: 1.02; letter-spacing: -.04em; }}
+  .dek {{ position: relative; z-index: 1; max-width: 58ch; margin: 1rem 0 0; color: oklch(87% 0.025 236); font-size: clamp(.95rem, 3vw, 1.06rem); }}
+  main {{ max-width: 60rem; margin: 0 auto; padding: clamp(1.5rem, 5vw, 3rem) clamp(1rem, 4vw, 3rem); }}
+  .stats {{ display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin: 0 0 2rem; font-variant-numeric: tabular-nums; }}
+  .stats span {{ padding-top: .4rem; border-top: 2px solid var(--navy); font-size: .85rem; color: var(--ink-soft); }}
+  .stats em {{ font-family: Georgia, serif; font-size: 1.25rem; font-style: normal; font-weight: 700; color: var(--ink); margin-right: .2rem; }}
+  h2 {{
+    margin: 2.4rem 0 .9rem; padding-bottom: .55rem;
+    border-bottom: 2px solid var(--navy);
+    font-size: 1.12rem; font-weight: 700; letter-spacing: -.01em;
+  }}
+  h2:first-of-type {{ margin-top: 0; }}
+  p {{ margin: .6rem 0; font-size: .9rem; }}
+  p strong {{ color: var(--ink); }}
+  table {{ width: 100%; border-collapse: collapse; margin: .8rem 0 0; font-size: .87rem; }}
+  th, td {{ padding: .6rem .7rem; text-align: left; border-bottom: 1px solid var(--line); }}
+  th {{ font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); border-bottom: 2px solid var(--navy); }}
+  td.lb {{ font-weight: 700; }}
+  td.rg {{ color: var(--ink-soft); font-variant-numeric: tabular-nums; }}
+  .chip {{ display: inline-block; min-width: 1.6rem; padding: .1rem .4rem; text-align: center; color: oklch(99% 0.01 83); font-size: .78rem; font-weight: 700; }}
+  .rulelist {{ list-style: none; margin: .8rem 0 0; padding: 0; }}
+  .rulelist li {{ padding: .75rem 0; border-top: 1px dashed var(--line); }}
+  .rulelist b {{ display: block; font-size: .87rem; }}
+  .rulelist span {{ display: block; margin-top: .2rem; font-size: .84rem; color: var(--ink-soft); }}
+  .callout {{
+    margin-top: 1rem; padding: 1.1rem 1.3rem;
+    background: var(--paper-deep); border-left: 3px solid var(--accent);
+  }}
+  .callout ul {{ margin: 0; padding-left: 1.15rem; }}
+  .callout li {{ font-size: .87rem; color: var(--ink-soft); margin: .4rem 0; }}
+  .callout li b {{ color: var(--ink); }}
+  footer {{
+    max-width: 60rem; margin: 0 auto; padding: 1.5rem clamp(1rem, 4vw, 3rem) 0;
+    border-top: 1px solid var(--line); font-size: .8rem; color: var(--ink-soft);
+  }}
+  footer p {{ margin: .3rem 0; }}
+  footer a {{ color: var(--navy); }}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <nav class="masthead-nav" aria-label="页面导航">
+    <a href="nav.html"><span aria-hidden="true">&larr;</span> 返回导航页</a>
+  </nav>
+  <p class="eyebrow">Anesthesiology &middot; Provenance &amp; Method</p>
+  <h1>数据来源与口径</h1>
+  <p class="dek">说明数据从哪里来、档位怎么划、哪些数字不能直接对比。择校前建议先读这一页。</p>
+</header>
+
+<main>
+
+  <div class="stats">
+    <span><em>{n_schools}</em>所院校</span>
+    <span><em>{n_cutoffs}</em>组复试线</span>
+    <span><em>{n_counts}</em>组人数样本</span>
+    <span>更新 {esc(DB["updated"])}</span>
+  </div>
+
+  <h2>一、数据来源</h2>
+  <p>全部字段来自各院校研究生院、附属医院及省级教育考试院<b>公开发布</b>的招生目录、复试细则、复试名单与拟录取名单，不采用第三方估算值。</p>
+  <p>时间范围覆盖 <strong>2024—2026</strong> 三个招生年度。每条记录都保留「参考年份」与「判定依据」，便于回溯核对。</p>
+
+  <h2>二、档位划分口径</h2>
+  <p>档位按 <strong>2025 年录取平均分</strong>划分，而不是复试线。原因是复试线只是「入场券」——多所院校的实际录取分显著高于公布线（例如某校 2026 年校线 310 分，而其附属医院一志愿录取最低分约 386 分）。</p>
+  <p>录取均分未公开的院校，依据 2026 年院线、招生计划与报录比人工归入档位，并在速查页标注为手动定档。</p>
+  <table>
+    <thead><tr><th>档位</th><th>含义</th><th>录取均分区间</th></tr></thead>
+    <tbody>{legend_rows}</tbody>
+  </table>
+
+  <h2>三、各校差额复试比例（公开口径原文）</h2>
+  <p>「进入复试人数」全国公开披露率不足 15%。未披露的院校在速查页标注为「未公布」，可用 <strong>招生计划 × 差额复试比例</strong>自行推算，不要理解为该校无数据。</p>
+  <ul class="rulelist">{rule_items}</ul>
+
+  <h2>四、数据局限</h2>
+  <div class="callout">
+    <ul>
+      <li><b>空白不等于零</b>：表中留空代表未检索到可核验的公开数据，不代表 0 分、0 人或未招生。</li>
+      <li><b>跨校比较需谨慎</b>：不同院校的成绩口径、单科要求与复试权重不同，均分高低不等同于难度高低。</li>
+      <li><b>年份会变</b>：招生计划、推免比例与院线每年调整，历史数据只能用于判断量级，不能直接外推到当年。</li>
+      <li><b>以官方为准</b>：本资料仅供择校初筛，报考前请核对目标院校当年招生目录、复试细则与拟录取名单。</li>
+    </ul>
+  </div>
+
+</main>
+
+<footer>
+  <p>105118 麻醉学专业学位硕士 · 2024—2026 公开信息整理 · 数据更新 {esc(DB["updated"])}。</p>
+  <p>返回 <a href="nav.html">资料导航</a> 或 <a href="index.html">择校速查</a>。</p>
+</footer>
+
+</body>
+</html>
+"""
+
+(ROOT / "docs/sources.html").write_text(HEAD, encoding="utf-8")
+print("written docs/sources.html", len(HEAD), "chars;", len(DB["rules"]), "rules")
