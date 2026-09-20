@@ -91,16 +91,17 @@ for r in range(3, ws.max_row + 1):
         continue
     cutoffs.append({
         "province": clean(ws.cell(r, 3).value) or "",
+        "city": clean(ws.cell(r, 4).value) or "",
         "school": str(name).strip(),
-        "level": clean(ws.cell(r, 4).value) or "—",
-        "scores": {"2024": num(ws.cell(r, 5).value),
-                   "2025": num(ws.cell(r, 6).value),
-                   "2026": num(ws.cell(r, 7).value)},
-        "single": clean(ws.cell(r, 8).value),
-        "delta": num(ws.cell(r, 9).value),
-        "above": num(ws.cell(r, 10).value),
-        "kind": clean(ws.cell(r, 11).value) or "—",
-        "note": clean(ws.cell(r, 12).value),
+        "level": clean(ws.cell(r, 5).value) or "—",
+        "scores": {"2024": num(ws.cell(r, 6).value),
+                   "2025": num(ws.cell(r, 7).value),
+                   "2026": num(ws.cell(r, 8).value)},
+        "single": clean(ws.cell(r, 9).value),
+        "delta": num(ws.cell(r, 10).value),
+        "above": num(ws.cell(r, 11).value),
+        "kind": clean(ws.cell(r, 12).value) or "—",
+        "note": clean(ws.cell(r, 13).value),
     })
 cutoff_by = {norm(c["school"]): c for c in cutoffs}
 
@@ -114,7 +115,7 @@ for r in range(3, ws.max_row + 1):
     rank_by[norm(nm)] = {
         "rank": num(ws.cell(r, 1).value),
         "grade": clean(ws.cell(r, 3).value) or "—",
-        "strength": clean(ws.cell(r, 6).value) or "",
+        "strength": clean(ws.cell(r, 7).value) or "",
     }
 
 # --- 3) 报考决策总表（94 校）
@@ -122,53 +123,54 @@ for r in range(3, ws.max_row + 1):
 plan_by = {}
 ws = wb_d["复试与录取人数明细"]
 for r in range(4, ws.max_row + 1):
-    nm = ws.cell(r, 3).value
+    nm = ws.cell(r, 4).value
     if nm:
-        plan_by[norm(nm)] = clean(ws.cell(r, 5).value)
+        plan_by[norm(nm)] = clean(ws.cell(r, 6).value)
 
 schools = []
 ws = wb_d["报考决策总表"]
 for r in range(4, ws.max_row + 1):
-    name = ws.cell(r, 3).value
+    name = ws.cell(r, 4).value
     if not name:
         continue
     name = str(name).strip()
     key = norm(name)
     province = clean(ws.cell(r, 2).value) or "—"
-    avg = num(ws.cell(r, 7).value)
-    cn_tier = ws.cell(r, 12).value
+    city = clean(ws.cell(r, 3).value) or province
+    avg = num(ws.cell(r, 8).value)
+    cn_tier = ws.cell(r, 13).value
     code = tier_of(avg, cn_tier)
 
     co = cutoff_by.get(key)
     scores = co["scores"] if co else {"2024": None, "2025": None, "2026": None}
     scores = dict(scores)
-    y26 = num(ws.cell(r, 5).value)
+    y26 = num(ws.cell(r, 6).value)
     if y26 is not None:
         scores["2026"] = y26
     latest_year = max((int(y) for y, v in scores.items() if isinstance(v, (int, float))), default=None)
     latest = scores.get(str(latest_year)) if latest_year else None
     filled = sum(1 for v in scores.values() if isinstance(v, (int, float)))
     rk = rank_by.get(key, {})
-    n = num(ws.cell(r, 8).value)
+    n = num(ws.cell(r, 9).value)
     schools.append({
         "province": province,
-        "city": province,
+        "city": city,
         "zone": "B区" if province in B_ZONE else "A区",
         "school": name,
-        "level": clean(ws.cell(r, 4).value) or "—",
+        "level": clean(ws.cell(r, 5).value) or "—",
         "scores": scores,
-        "already": num(ws.cell(r, 5).value),
-        "low": num(ws.cell(r, 6).value),
+        "already": num(ws.cell(r, 6).value),
+        "low": num(ws.cell(r, 7).value),
         "average": avg,
         "admitted": n,
-        "reexam": clean(ws.cell(r, 9).value),
-        "ratio": clean(ws.cell(r, 10).value),
-        "star": clean(ws.cell(r, 11).value) or "",
+        "reexam": clean(ws.cell(r, 10).value),
+        "ratio": clean(ws.cell(r, 11).value),
+        "star": clean(ws.cell(r, 12).value) or "",
         "tierCn": clean(cn_tier) or "",
         "tier": TIER_LABEL[code],
         "tierCode": code,
         "manual": avg is None and bool(cn_tier),
-        "advice": clean(ws.cell(r, 13).value) or "",
+        "advice": clean(ws.cell(r, 14).value) or "",
         "plan": plan_by.get(key),
         "single": (co or {}).get("single"),
         "kind": (co or {}).get("kind") or "—",
@@ -182,7 +184,7 @@ for r in range(4, ws.max_row + 1):
         "latestYear": latest_year,
         "completeness": f"{filled}/3年",
         # 大号展示值：优先录取均分，其次最新线，再次录取最低分
-        "hero": avg if avg is not None else (latest if latest is not None else num(ws.cell(r, 6).value)),
+        "hero": avg if avg is not None else (latest if latest is not None else num(ws.cell(r, 7).value)),
         "heroUnit": "2025 录取均分" if avg is not None else (f"{latest_year} 复试线" if latest else "—"),
     })
 
@@ -190,21 +192,22 @@ for r in range(4, ws.max_row + 1):
 ws = wb_d["复试与录取人数明细"]
 counts, rules = [], []
 for r in range(4, ws.max_row + 1):
-    nm = ws.cell(r, 3).value
+    nm = ws.cell(r, 4).value
     if not nm:
         continue
     counts.append({
         "region": clean(ws.cell(r, 2).value) or "—",
+        "city": clean(ws.cell(r, 3).value) or "—",
         "school": str(nm).strip(),
-        "already": num(ws.cell(r, 4).value),
-        "plan": clean(ws.cell(r, 5).value),
-        "admitted": num(ws.cell(r, 6).value),
-        "low": num(ws.cell(r, 7).value),
-        "avg": num(ws.cell(r, 8).value),
-        "reexam": clean(ws.cell(r, 9).value) or "—",
-        "ratio": clean(ws.cell(r, 10).value) or "—",
-        "year": clean(ws.cell(r, 11).value) or "—",
-        "basis": clean(ws.cell(r, 12).value) or "",
+        "already": num(ws.cell(r, 5).value),
+        "plan": clean(ws.cell(r, 6).value),
+        "admitted": num(ws.cell(r, 7).value),
+        "low": num(ws.cell(r, 8).value),
+        "avg": num(ws.cell(r, 9).value),
+        "reexam": clean(ws.cell(r, 10).value) or "—",
+        "ratio": clean(ws.cell(r, 11).value) or "—",
+        "year": clean(ws.cell(r, 12).value) or "—",
+        "basis": clean(ws.cell(r, 13).value) or "",
     })
 for r in range(4, ws.max_row + 1):
     a, b = ws.cell(r, 1).value, ws.cell(r, 2).value
@@ -304,13 +307,14 @@ HTML = """<!doctype html>
       <button class="tab" role="tab" data-view="cutoffs" aria-selected="false">复试线</button>
     </div>
     <div class="search-row">
-      <label class="search-wrap" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索院校、省份或培养单位" autocomplete="off"></label>
+      <label class="search-wrap" for="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索院校、省份、城市或培养单位" autocomplete="off"></label>
       <select id="sort" aria-label="排序方式">
         <option value="hero-desc">分数从高到低</option>
         <option value="hero-asc">分数从低到高</option>
         <option value="tier">按档位</option>
         <option value="n">按录取人数</option>
         <option value="province">按省份</option>
+        <option value="city">按城市</option>
       </select>
     </div>
     <div class="tier-strip" aria-label="分数档位筛选">
@@ -414,6 +418,7 @@ function sortItems(items) {
     if (state.sort === 'tier') return (TIER_ORDER[tierCode(a.tier)] ?? 9) - (TIER_ORDER[tierCode(b.tier)] ?? 9) || scoreOf(b) - scoreOf(a) || byName(a, b);
     if (state.sort === 'n') return Number(b.admitted ?? b.planNum ?? -1) - Number(a.admitted ?? a.planNum ?? -1) || byName(a, b);
     if (state.sort === 'province') return shown(a.province || a.region, '').localeCompare(shown(b.province || b.region, ''), 'zh-CN') || byName(a, b);
+    if (state.sort === 'city') return shown(a.city, '').localeCompare(shown(b.city, ''), 'zh-CN') || byName(a, b);
     return scoreOf(b) - scoreOf(a) || byName(a, b);
   });
 }
@@ -426,7 +431,7 @@ function schoolCard(item, index) {
   const head = node('div', 'school-head');
   const nw = node('div');
   nw.append(node('h2', 'school-name', item.school),
-    node('div', 'place', shown(item.province) + ' · ' + shown(item.zone) + ' · ' + shown(item.level)));
+    node('div', 'place', shown(item.province) + ' · ' + shown(item.city) + ' · ' + shown(item.zone) + ' · ' + shown(item.level)));
   const sb = node('div', 'score-block');
   sb.append(node('b', '', shown(item.hero)), node('small', '', item.heroUnit));
   if (item.star) sb.append(node('small', '', '难度 ' + item.star));
@@ -477,7 +482,7 @@ function countCard(item, index) {
   a.style.setProperty('--i', Math.min(index, 8));
   const top = node('div', 'record-top');
   const t = node('div');
-  t.append(node('h2', '', item.school), node('div', 'record-meta', shown(item.year) + ' · ' + shown(item.region) + ' · ' + shown(item.tier)));
+  t.append(node('h2', '', item.school), node('div', 'record-meta', shown(item.year) + ' · ' + shown(item.region) + ' · ' + shown(item.city) + ' · ' + shown(item.tier)));
   const sc = node('div', 'record-score', shown(item.reexam) + ' → ' + shown(item.admitted));
   top.append(t, sc);
   const grid = node('div', 'record-grid');
@@ -505,7 +510,7 @@ function cutoffCard(item, index) {
   const top = node('div', 'record-top');
   const t = node('div');
   t.append(node('h2', '', item.school),
-    node('div', 'record-meta', shown(item.latestYear) + ' 年线 · ' + shown(item.province) + ' · ' + shown(item.level)));
+    node('div', 'record-meta', shown(item.latestYear) + ' 年线 · ' + shown(item.province) + ' · ' + shown(item.city) + ' · ' + shown(item.level)));
   top.append(t, node('div', 'record-score', shown(item.hero)));
   const grid = node('div', 'record-grid');
   grid.append(

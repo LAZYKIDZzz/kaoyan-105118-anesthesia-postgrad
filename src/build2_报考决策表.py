@@ -88,13 +88,14 @@ for r in range(3, ws_a.max_row + 1):
         continue
     schools[name] = {
         "region": ws_a.cell(r, 3).value or "",
-        "level": ws_a.cell(r, 4).value or "",
-        "y24": ws_a.cell(r, 5).value,
-        "y25": ws_a.cell(r, 6).value,
-        "y26": ws_a.cell(r, 7).value,
-        "sub26": ws_a.cell(r, 8).value or "",
-        "nature": ws_a.cell(r, 11).value or "",
-        "note": ws_a.cell(r, 12).value or "",
+        "city": ws_a.cell(r, 4).value or "",
+        "level": ws_a.cell(r, 5).value or "",
+        "y24": ws_a.cell(r, 6).value,
+        "y25": ws_a.cell(r, 7).value,
+        "y26": ws_a.cell(r, 8).value,
+        "sub26": ws_a.cell(r, 9).value or "",
+        "nature": ws_a.cell(r, 12).value or "",
+        "note": ws_a.cell(r, 13).value or "",
         "n": None, "lo": None, "hi": None, "avg": None, "units": 0,
     }
     order.append(name)
@@ -185,13 +186,13 @@ for k, v in NOTE_AVG.items():
 # 四、新增院校（原表未收录，来自新检索）
 # ============================================================
 NEW_SCHOOLS = {
-    "东南大学": ("江苏", "985", None, None, 294, "50/50/170", "校线", "2026年医学院麻醉学线294", None, None),
-    "南京大学": ("江苏", "985", None, None, 300, "50/50/180", "校线", "2026年医学院麻醉学线300", None, None),
-    "大连理工大学": ("辽宁", "985", None, None, 300, "—", "校线", "2026年麻醉学统考招生1人", None, None),
+    "东南大学": ("江苏", "南京", "985", None, None, 294, "50/50/170", "校线", "2026年医学院麻醉学线294", None, None),
+    "南京大学": ("江苏", "南京", "985", None, None, 300, "50/50/180", "校线", "2026年医学院麻醉学线300", None, None),
+    "大连理工大学": ("辽宁", "大连", "985", None, None, 300, "—", "校线", "2026年麻醉学统考招生1人", None, None),
 }
-for name, (reg, lvl, y24, y25, y26, sub, nat, note, n, avg) in NEW_SCHOOLS.items():
+for name, (reg, cty, lvl, y24, y25, y26, sub, nat, note, n, avg) in NEW_SCHOOLS.items():
     if name not in schools:
-        schools[name] = {"region": reg, "level": lvl, "y24": y24, "y25": y25, "y26": y26,
+        schools[name] = {"region": reg, "city": cty, "level": lvl, "y24": y24, "y25": y25, "y26": y26,
                          "sub26": sub, "nature": nat, "note": note,
                          "n": n, "lo": None, "hi": None, "avg": avg, "units": 0}
         order.append(name)
@@ -245,7 +246,7 @@ if "Sheet" in wb.sheetnames:
     del wb["Sheet"]
 ws1.sheet_properties.tabColor = xl("#2F5597")
 
-HDR1 = ["序号", "地区", "院校名称", "院校层次", "2026复试线", "2025录取最低分", "2025录取平均分",
+HDR1 = ["序号", "地区", "城市", "院校名称", "院校层次", "2026复试线", "2025录取最低分", "2025录取平均分",
         "2025录取人数", "进入复试人数", "复试差额比", "难度星级", "录取难度档位", "报考建议"]
 NCOL1 = len(HDR1)
 
@@ -321,7 +322,7 @@ for i, (name, s, tno) in enumerate(rows1, start=1):
     t = TIER_BY_NO.get(tno, TIER_UNK)
     fs = FS.get(name, (None, None, None, None))
     vals = [
-        i, s["region"], name, s["level"], s["y26"], s["lo"], s["avg"], s["n"],
+        i, s["region"], s["city"], name, s["level"], s["y26"], s["lo"], s["avg"], s["n"],
         fs[0] or "未公布", fs[1] or "—", DIFF_STAR.get(tno, "—"), t[1],
         build_advice(tno, name, s),
     ]
@@ -329,24 +330,24 @@ for i, (name, s, tno) in enumerate(rows1, start=1):
         cell = ws1.cell(row=r, column=c, value=v)
         cell.font = F_BODY
         cell.border = BORDER
-        cell.alignment = AL_L if c in (3, 13) else AL_C
+        cell.alignment = AL_L if c in (4, 14) else AL_C
         cell.fill = PatternFill("solid", fgColor=xl(t[3]))
-    ws1.cell(row=r, column=3).font = F_BOLD
-    ws1.cell(row=r, column=12).font = Font(name="微软雅黑", size=10, bold=True, color=xl(t[4]))
+    ws1.cell(row=r, column=4).font = F_BOLD
+    ws1.cell(row=r, column=13).font = Font(name="微软雅黑", size=10, bold=True, color=xl(t[4]))
     r += 1
 LAST1 = r - 1
 
-for col, w in zip("ABCDEFGHIJKLM",
-                  [5, 8, 21, 12, 11, 12, 12, 11, 13, 11, 10, 16, 78]):
+for col, w in zip("ABCDEFGHIJKLMN",
+                  [5, 8, 9, 21, 12, 11, 12, 12, 11, 13, 11, 10, 16, 78]):
     ws1.column_dimensions[col].width = w
 ws1.row_dimensions[HR].height = 30
-ws1.auto_filter.ref = f"A{HR}:M{LAST1}"
+ws1.auto_filter.ref = f"A{HR}:N{LAST1}"
 ws1.freeze_panes = "E4"
 
 # ---------- Sheet 2 · 复试与录取人数明细 ----------
 ws2 = wb.create_sheet("复试与录取人数明细", 1)
 ws2.sheet_properties.tabColor = xl("#ED7D31")
-HDR2 = ["序号", "地区", "院校名称", "2026复试线", "2026招生计划", "2025录取人数",
+HDR2 = ["序号", "地区", "城市", "院校名称", "2026复试线", "2026招生计划", "2025录取人数",
         "2025录取最低分", "2025录取平均分", "进入复试人数", "复试差额比", "数据年份", "依据说明"]
 NCOL2 = len(HDR2)
 put_title(ws2, "105118 麻醉学（专硕）· 复试人数 / 录取人数 / 竞争度明细", NCOL2)
@@ -370,24 +371,24 @@ for group in (prio, rest):
         s = schools[name]
         fs = FS.get(name, (None, None, None, None))
         idx += 1
-        vals = [idx, s["region"], name, s["y26"], PLAN26.get(name, "未公布"),
+        vals = [idx, s["region"], s["city"], name, s["y26"], PLAN26.get(name, "未公布"),
                 s["n"], s["lo"], s["avg"], fs[0] or "未公布", fs[1] or "—",
                 fs[2] or "2025", fs[3] or (s["note"] or "—")]
         for c, v in enumerate(vals, start=1):
             cell = ws2.cell(row=r, column=c, value=v)
             cell.font = F_BODY
             cell.border = BORDER
-            cell.alignment = AL_L if c in (3, 11, 12) else AL_C
+            cell.alignment = AL_L if c in (4, 12, 13) else AL_C
         if name in FS:
             for c in range(1, NCOL2 + 1):
                 ws2.cell(row=r, column=c).fill = PatternFill("solid", fgColor=xl("#FDF2E9"))
         r += 1
 LAST2 = r - 1
 
-for col, w in zip("ABCDEFGHIJKL", [5, 8, 21, 11, 19, 12, 12, 12, 13, 12, 9, 62]):
+for col, w in zip("ABCDEFGHIJKLM", [5, 8, 9, 21, 11, 19, 12, 12, 12, 13, 12, 9, 62]):
     ws2.column_dimensions[col].width = w
-ws2.auto_filter.ref = f"A{HR}:L{LAST2}"
-ws2.freeze_panes = "D4"
+ws2.auto_filter.ref = f"A{HR}:M{LAST2}"
+ws2.freeze_panes = "E4"
 
 # 底部：各校复试比例规则
 r += 1
@@ -498,6 +499,7 @@ NOTES = [
     ("难度星级", "★ 越多代表报考难度越高（依据档位、招生人数、推免占比、报录比综合判断）。"),
     ("底色说明", "整行底色即档位：红＝顶尖冲击、橙＝高难冲刺、黄＝中坚匹配、浅绿＝相对稳妥、绿＝友好保底、灰＝数据有限待定。"),
     ("院校层次", "「985 / 211 / 双一流 / 省属重点 / 省属 / B区省属」为院校标签，不代表该学科实际实力。典型反例：徐州医科大学为双非，但麻醉学为中国第一个麻醉学本科专业创办单位，学科实力与录取分均居全国前列。"),
+    ("地区与城市", "「地区」为院校所属省级行政区，「城市」为院校所在（主校区/研究生培养）地级市，可直接按城市筛选与排序。直辖市地区与城市同名。个别院校多校区办学（如滨州医学院在烟台、滨州两地），城市列取考研院校代码库口径的主校区城市，实际培养校区请以当年招生简章为准。"),
     ("招生计划", "2026 年招生计划中「含推免」者，需扣除推免人数才是统考名额；表中已尽量注明。"),
     ("主要来源", "各院校研究生院官网复试公告 / 复试录取工作办法 / 拟录取名单公示；研招网国家线；软科中国大学专业排名；第三方考研数据整理（启航考研、新东方在线、路灯考研等）。"),
     ("重要免责", "所有分数线与人数均可能随院校最新公告调整。第三方整理存在误差，报考前请务必以目标院校研究生院官网的最新公告与调剂细则为准。本表仅供择校参考，不构成报考建议。"),

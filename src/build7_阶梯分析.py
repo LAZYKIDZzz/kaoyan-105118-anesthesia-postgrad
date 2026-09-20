@@ -269,6 +269,7 @@ def build_rows():
         rows.append({
             "name": x["name"],
             "region": x["region"],
+            "city": x.get("city") or "",
             "level": x["level"],
             "lo": lo,
             "avg": x.get("avg"),
@@ -460,7 +461,7 @@ def build_tier350(rows):
     cnt = {t: len([r for r in rows if r["tier"] == t]) for t in (1, 2, 3, 4)}
 
     data = [
-        {k: r[k] for k in ("name", "region", "level", "lo", "avg", "band", "n", "tier", "note", "basis")}
+        {k: r[k] for k in ("name", "region", "city", "level", "lo", "avg", "band", "n", "tier", "note", "basis")}
         for r in rows
     ]
 
@@ -547,7 +548,7 @@ def build_tier350(rows):
   <section class="sec">
     <p class="sec-label">Explorer</p>
     <h2>逐校查询</h2>
-    <p class="lead">点击任意一行展开该校的独立点评与数据依据。支持按院校名或地区搜索、按阶梯与层次筛选、按列排序。</p>
+    <p class="lead">点击任意一行展开该校的独立点评与数据依据。支持按院校名、省份或城市搜索、按阶梯与层次筛选、按列排序。</p>
 
     <div class="tools">
       <div class="toolrow">
@@ -577,7 +578,7 @@ def build_tier350(rows):
         <thead>
           <tr>
             <th class="sortable" data-key="name">院校</th>
-            <th>地区 / 层次</th>
+            <th class="sortable" data-key="city">地区 / 城市 / 层次</th>
             <th class="sortable" data-key="lo">录取最低分</th>
             <th class="sortable" data-key="avg">录取均分</th>
             <th class="sortable" data-key="band">分数带宽</th>
@@ -642,7 +643,7 @@ function match(r) {{
   if (state.lv === "big" && !(r.n >= 30)) return false;
   if (state.q) {{
     const k = state.q.trim();
-    if (!(r.name.includes(k) || r.region.includes(k))) return false;
+    if (!(r.name.includes(k) || r.region.includes(k) || r.city.includes(k))) return false;
   }}
   return true;
 }}
@@ -656,6 +657,7 @@ function render() {{
   rows.sort((a, b) => {{
     let va = a[k], vb = b[k];
     if (k === "name") {{ return mul * a.name.localeCompare(b.name, "zh-Hans-CN"); }}
+    if (k === "city") {{ return mul * (a.city || a.region).localeCompare(b.city || b.region, "zh-Hans-CN") || a.name.localeCompare(b.name, "zh-Hans-CN"); }}
     va = (va === null || va === undefined) ? -Infinity : va;
     vb = (vb === null || vb === undefined) ? -Infinity : vb;
     if (va === vb) return a.avg === b.avg ? a.name.localeCompare(b.name, "zh-Hans-CN") : b.avg - a.avg;
@@ -674,7 +676,7 @@ function render() {{
     const bw = r.band === null ? 0 : Math.max(3, Math.round(r.band / maxBand * 74));
     tr.innerHTML =
       '<td class="sch">' + r.name + '</td>' +
-      '<td>' + r.region + ' <span class="tag lv">' + r.level + '</span></td>' +
+      '<td>' + r.region + (r.city && r.city !== r.region ? ' · ' + r.city : '') + ' <span class="tag lv">' + r.level + '</span></td>' +
       '<td class="num' + (r.lo && r.lo <= 300 ? ' hi' : '') + '">' + dash(r.lo) + '</td>' +
       '<td class="num">' + dash(r.avg) + '</td>' +
       '<td><span class="band-cell"><span class="bar ' + bandClass(r.band) + '" style="width:' + bw + 'px"></span><span class="num">' + dash(r.band) + '</span></span></td>' +

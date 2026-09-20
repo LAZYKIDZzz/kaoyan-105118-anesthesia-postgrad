@@ -30,7 +30,10 @@ for grade, label, tint in GRADES:
         continue
     lis = []
     for x in items:
-        meta = " · ".join([x.get("province") or "—", x.get("level") or "—",
+        province = x.get("province") or "—"
+        city = x.get("city") or ""
+        place = province if (not city or city == province) else f"{province} · {city}"
+        meta = " · ".join([place, x.get("level") or "—",
                            "2026 考取难度 " + TIER_CN.get(x.get("tierCode") or "U", "未知")])
         why = (x.get("rankNote") or "").strip()
         why_html = f'<p class="why">{esc(why)}</p>' if why else ""

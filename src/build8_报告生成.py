@@ -23,6 +23,16 @@ TIER_HOWTO = {
 }
 
 rows = b7.build_rows()
+
+
+def loc(x):
+    """省份 · 城市；直辖市省份与城市同名时只显示一次。"""
+    p, c = x.get("region") or "", x.get("city") or ""
+    if not p:
+        return c or "—"
+    return p if (not c or c == p) else f"{p} · {c}"
+
+
 out = [
     "# 分阶梯院校深度点评 · 350 分以下麻醉学专硕（105118）",
     "",
@@ -76,7 +86,7 @@ for t in (1, 2, 3, 4):
         out += [
             f"### {idx}. {r['name']}",
             "",
-            f"`{r['level']}` · {r['region']} ｜ 最低 **{lo}** ｜ 均分 **{r['avg']}** ｜ 带宽 **{band}** ｜ 录取 **{n}** 人",
+            f"`{r['level']}` · {loc(r)} ｜ 最低 **{lo}** ｜ 均分 **{r['avg']}** ｜ 带宽 **{band}** ｜ 录取 **{n}** 人",
             "",
             r["note"] or "（暂无点评）",
             "",
@@ -99,7 +109,7 @@ try:
     gaps = [x for x in alld if x["name"] not in scope and not x.get("lo")]
     for x in sorted(gaps, key=lambda y: -(y.get("avg") or 0)):
         avg = x.get("avg") or "—"
-        out.append(f"- **{x['name']}**（{x['region']} · {x['level']}）均分 {avg}，缺最低分数据")
+        out.append(f"- **{x['name']}**（{loc(x)} · {x['level']}）均分 {avg}，缺最低分数据")
 except Exception as e:  # pragma: no cover
     out.append(f"- （读取失败：{e}）")
 
