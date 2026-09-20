@@ -86,6 +86,7 @@ summary::-webkit-details-marker{display:none}
 .r2{display:flex;align-items:center;gap:9px;margin-top:5px;padding-left:28px;flex-wrap:wrap}
 .tag{font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:6px;
   background:var(--tb);color:var(--tt);white-space:nowrap}
+.loc{font-size:11.5px;color:var(--muted);white-space:nowrap}
 .star{font-size:11px;color:var(--warn);letter-spacing:-1px}
 .r3{display:flex;gap:14px;margin-top:7px;padding-left:28px;flex-wrap:wrap}
 .m{font-size:12.5px;color:var(--muted)}
@@ -137,7 +138,7 @@ footer{padding:22px 16px calc(10px + env(safe-area-inset-bottom));font-size:11.5
 <header class="topbar">
   <h1>105118 麻醉学考研报考决策表</h1>
   <p class="sub">2024 / 2025 / 2026 三年 · 94 所院校 · 五档底色 · 逐校报考建议</p>
-  <input id="q" type="search" placeholder="搜索院校或地区，如「徐州」「四川」" autocomplete="off" enterkeyhint="search">
+  <input id="q" type="search" placeholder="搜索院校、省份或城市，如「徐州」「四川」" autocomplete="off" enterkeyhint="search">
   <div class="chips" id="chips"></div>
   <div class="rows">
     <span class="count" id="count"></span>
@@ -146,6 +147,7 @@ footer{padding:22px 16px calc(10px + env(safe-area-inset-bottom));font-size:11.5
       <option value="avg">按录取均分从高到低</option>
       <option value="n">按录取人数从多到少</option>
       <option value="y26">按 2026 复试线从高到低</option>
+      <option value="city">按城市排序</option>
     </select>
   </div>
 </header>
@@ -191,6 +193,13 @@ function val(v){
   if(v===null||v===undefined||v===''||v==='未公布') return '—';
   return v;
 }
+// 直辖市省份与城市同名（北京/天津/上海/重庆），去重后只显示一次
+function loc(r){
+  var p = r.region || '', c = r.city || '';
+  if(!p) return c || '—';
+  if(!c || c === p) return p;
+  return p + ' · ' + c;
+}
 function num(v){ return (v===null||v===undefined||v==='未公布')? -1 : Number(v); }
 function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){
   return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
@@ -219,7 +228,9 @@ function cardHTML(r, i){
     + '<summary>'
     +   '<div class="r1"><span class="idx">'+i+'</span><span class="nm">'+esc(r.name)+'</span>'
     +   (r.level?'<span class="lv">'+esc(r.level)+'</span>':'')+'</div>'
-    +   '<div class="r2"><span class="tag">'+esc(tn)+'</span><span class="star">'+esc(r.star)+'</span></div>'
+    +   '<div class="r2"><span class="tag">'+esc(tn)+'</span>'
+    +   '<span class="loc">'+esc(loc(r))+'</span>'
+    +   '<span class="star">'+esc(r.star)+'</span></div>'
     +   '<div class="r3">'
     +     '<span class="m"><b>'+val(r.avg)+'</b> 录取均分</span>'
     +     '<span class="m"><b>'+val(r.n)+'</b> 录取人数</span>'
@@ -248,7 +259,7 @@ function currentList(){
   var list = ALL.filter(function(r){
     if(state.tier && tierNo(r.tier)!==state.tier) return false;
     if(q){
-      var hay = (r.name+' '+r.region+' '+r.level).toLowerCase();
+      var hay = (r.name+' '+r.region+' '+r.city+' '+r.level).toLowerCase();
       if(hay.indexOf(q.toLowerCase())<0) return false;
     }
     return true;
@@ -258,6 +269,7 @@ function currentList(){
     if(s==='avg') return num(b.avg)-num(a.avg);
     if(s==='n') return num(b.n)-num(a.n);
     if(s==='y26') return num(b.y26)-num(a.y26);
+    if(s==='city') return String(a.city||a.region||'').localeCompare(String(b.city||b.region||''),'zh-CN');
     var d = tierNo(a.tier)-tierNo(b.tier);
     if(d) return d;
     return num(b.avg)-num(a.avg);
