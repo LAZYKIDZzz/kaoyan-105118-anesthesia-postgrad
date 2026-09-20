@@ -15,9 +15,20 @@ https://lazykidzzz.github.io/kaoyan-105118-anesthesia-postgrad/
 | `/` | 择校速查 | **主页**。搜索、排序、档位筛选 94 所院校 |
 | `/nav.html` | 资料导航 | 全部页面入口 |
 | `/decision-mobile.html` | 报考决策表 | 手机版，含冲稳保梯度建议 |
+| `/tier350.html` | **350 分以下择校分析** | 录取最低分 ≤ 350 的 67 所院校，按均分分四阶梯，含「分数带宽」指标与逐校点评 |
+| `/tier350-strategy.html` | **报考组合与实操策略** | 三套冲稳保组合、复试规则核查清单、专项与调剂通道、就业门槛 |
 | `/ranking.html` | 专业排名 | 33 所院校学科实力分档（A+ / A / B+ / B） |
 | `/glossary.html` | 概念与术语 | 复试线、差额复试比、A/B 区等概念解释 |
 | `/sources.html` | 数据来源与口径 | 档位划分标准、各校复试比例公开原文 |
+
+配套的文字报告收录在 `reports/`，索引见 [`reports/README.md`](./reports/README.md)：
+
+| 文档 | 内容 |
+| --- | --- |
+| `01-350分以下择校总报告.md` | 方法论、四阶梯全景、五个跨院校关键发现、三套组合方案、风险清单 |
+| `02-分阶梯院校深度点评.md` | 67 所院校逐校独立点评 |
+| `03-B区·专项计划与调剂通道.md` | B 区红利实测、专项计划分数线规则、调剂时间表与信号解读 |
+| `04-岗位端验证-就业门槛与地域.md` | 从 2026 年真实招聘公告反推学历门槛、规培与英语要求、地域黏性 |
 
 ## 目录结构
 
@@ -27,12 +38,15 @@ https://lazykidzzz.github.io/kaoyan-105118-anesthesia-postgrad/
 │   ├── index.html             # 主页：择校速查
 │   ├── nav.html               # 资料导航
 │   ├── decision-mobile.html   # 报考决策表（手机版）
+│   ├── tier350.html           # 350 分以下择校分析（交互）
+│   ├── tier350-strategy.html  # 报考组合与实操策略
 │   ├── ranking.html           # 专业排名
 │   ├── glossary.html          # 概念与术语
 │   └── sources.html           # 数据来源与口径
+├── reports/                   # 分析报告（Markdown）
 ├── src/                       # 数据与生成脚本
 │   ├── data.json              # 院校数据源（94 条）
-│   └── build*.py              # 各页面的生成脚本
+│   └── build*.py              # 各页面与报告的生成脚本
 ├── *.xlsx                     # 表格源文件
 └── *.html                     # 根目录留存的原始中文名页面
 ```
@@ -74,7 +88,11 @@ python3 src/build3_手机版.py           # 决策表手机版 html
 python3 src/build4_择校速查编辑版.py   # 择校速查 html
 python3 src/build5_排名页.py           # 专业排名 html（读 docs/index.html 内嵌数据）
 python3 src/build6_来源页.py           # 数据来源页 html（同上）
+python3 src/build7_阶梯分析.py         # 350 分分析页 + 策略页 html
+python3 src/build8_报告生成.py         # 分阶梯院校深度点评 md
 ```
+
+`build7` 与 `build8` 共用同一份逐校点评文本（维护在 `build7_阶梯分析.py` 的 `NOTES` 字典中），因此网页与报告的院校点评不会出现两处不一致。
 
 更新后请同步 `docs/` 下的对应页面。
 
