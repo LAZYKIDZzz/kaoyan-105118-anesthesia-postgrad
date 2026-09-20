@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#173149">
+<title>报考组合与实操策略 · 350 分以下麻醉学专硕</title>
+<style>
+  :root {
+    color-scheme: light;
+    --paper: oklch(96% 0.018 83);
+    --paper-deep: oklch(91% 0.026 81);
+    --card: oklch(98.5% 0.008 83);
+    --ink: oklch(27% 0.045 242);
+    --ink-soft: oklch(43% 0.035 242);
+    --ink-faint: oklch(58% 0.022 242);
+    --navy: oklch(29% 0.065 242);
+    --navy-deep: oklch(21% 0.05 242);
+    --line: oklch(78% 0.025 82);
+    --accent: oklch(58% 0.17 31);
+    --focus: oklch(63% 0.16 245);
+    --t1: oklch(58% 0.17 31);
+    --t2: oklch(60% 0.13 63);
+    --t3: oklch(52% 0.09 152);
+    --t4: oklch(52% 0.09 240);
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--navy-deep); scroll-behavior: smooth; }
+  body {
+    margin: 0; min-height: 100vh; color: var(--ink);
+    background: linear-gradient(90deg, transparent 0 1.45rem, color-mix(in oklch, var(--accent) 22%, transparent) 1.45rem 1.5rem, transparent 1.5rem), var(--paper);
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.6; padding: 0 0 max(2rem, env(safe-area-inset-bottom));
+  }
+  a { color: inherit; }
+  button, input, select { font: inherit; }
+  button, input, select { min-height: 44px; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+  .masthead {
+    position: relative; overflow: hidden; color: oklch(96% 0.018 83);
+    background: var(--navy); padding: clamp(2rem, 7vw, 4.5rem) clamp(1.25rem, 6vw, 5rem) clamp(1.75rem, 5vw, 3rem);
+    border-bottom: 5px solid var(--accent);
+  }
+  .masthead::after {
+    content: "350"; position: absolute; right: -.02em; bottom: -.42em;
+    font-family: Georgia, "Times New Roman", serif; font-size: clamp(7rem, 30vw, 17rem);
+    font-weight: 700; line-height: 1; letter-spacing: -.07em;
+    color: color-mix(in oklch, var(--paper) 7%, transparent); pointer-events: none;
+  }
+  .backlink {
+    position: relative; z-index: 2; display: inline-flex; align-items: center; gap: .4rem;
+    margin: 0 0 1.1rem; padding: .5rem .9rem; border-radius: 999px;
+    border: 1px solid color-mix(in oklch, var(--paper) 34%, transparent);
+    background: color-mix(in oklch, var(--paper) 12%, transparent);
+    color: oklch(94% 0.02 236); font-size: .84rem; font-weight: 600; text-decoration: none;
+    transition: background-color .2s ease;
+  }
+  .backlink:hover { background: color-mix(in oklch, var(--paper) 22%, transparent); }
+  .eyebrow { position: relative; z-index: 1; margin: 0 0 .7rem; color: oklch(82% 0.08 70); font-size: .78rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+  h1 { position: relative; z-index: 1; margin: 0; font-family: "Songti SC", "STSong", Georgia, serif; font-size: clamp(1.95rem, 7.5vw, 3.3rem); line-height: 1.05; letter-spacing: -.035em; }
+  .dek { position: relative; z-index: 1; max-width: 62ch; margin: 1rem 0 0; color: oklch(88% 0.025 236); font-size: clamp(.93rem, 2.8vw, 1.05rem); }
+  main { max-width: 82rem; margin: 0 auto; padding: clamp(1.5rem, 5vw, 3rem) clamp(1rem, 4vw, 3rem) 4rem; }
+  h2 { margin: 0 0 .35rem; font-family: "Songti SC", "STSong", Georgia, serif; font-size: clamp(1.35rem, 4vw, 1.8rem); letter-spacing: -.02em; }
+  .sec { margin: 0 0 clamp(1.75rem, 5vw, 3rem); }
+  .sec-label { margin: 0 0 .5rem; font-size: .76rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; color: var(--ink-soft); }
+  .sec > p.lead { margin: .5rem 0 1.25rem; max-width: 76ch; color: var(--ink-soft); font-size: .96rem; }
+  .kpis { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); margin: 0 0 clamp(1.75rem, 5vw, 2.75rem); }
+  .kpi { padding: 1rem 1.05rem; background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--navy); }
+  .kpi b { display: block; font-family: Georgia, serif; font-size: clamp(1.6rem, 5vw, 2.15rem); line-height: 1.05; letter-spacing: -.03em; color: var(--navy); }
+  .kpi span { display: block; margin-top: .35rem; font-size: .8rem; color: var(--ink-soft); }
+  .grid-cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); }
+  .card { padding: 1.15rem 1.25rem; background: var(--card); border: 1px solid var(--line); }
+  .card h3 { margin: 0 0 .45rem; font-size: 1.02rem; }
+  .card p { margin: 0; font-size: .9rem; color: var(--ink-soft); }
+  .card b { color: var(--ink); }
+  .tiercard { border-left: 6px solid var(--navy); }
+  .tiercard.t1 { border-left-color: var(--t1); }
+  .tiercard.t2 { border-left-color: var(--t2); }
+  .tiercard.t3 { border-left-color: var(--t3); }
+  .tiercard.t4 { border-left-color: var(--t4); }
+  .tiercard .tt { display: flex; align-items: baseline; gap: .6rem; flex-wrap: wrap; margin: 0 0 .4rem; }
+  .tiercard .tt h3 { margin: 0; font-family: "Songti SC", serif; font-size: 1.14rem; }
+  .tiercard .tt em { font-style: normal; font-size: .8rem; color: var(--ink-faint); }
+  /* 工具条 */
+  .tools { display: grid; gap: .85rem; padding: 1rem 1.1rem; background: var(--paper-deep); border: 1px solid var(--line); margin: 0 0 1rem; }
+  .toolrow { display: flex; flex-wrap: wrap; gap: .55rem; align-items: center; }
+  .toolrow > .lbl { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin-right: .2rem; }
+  .chip {
+    padding: .4rem .8rem; border-radius: 999px; border: 1px solid var(--line); background: var(--card);
+    color: var(--ink-soft); font-size: .84rem; font-weight: 600; cursor: pointer; transition: all .18s ease;
+  }
+  .chip:hover { border-color: var(--navy); color: var(--navy); }
+  .chip[aria-pressed="true"] { background: var(--navy); border-color: var(--navy); color: oklch(96% 0.018 83); }
+  #q { flex: 1 1 12rem; min-width: 10rem; padding: .5rem .8rem; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+  .count { font-size: .84rem; color: var(--ink-soft); }
+  .count b { color: var(--navy); font-family: Georgia, serif; font-size: 1.05rem; }
+  /* 表格 */
+  .tablewrap { overflow-x: auto; border: 1px solid var(--line); background: var(--card); }
+  table { width: 100%; border-collapse: collapse; font-size: .88rem; min-width: 46rem; }
+  thead th {
+    position: sticky; top: 0; z-index: 3; background: var(--navy); color: oklch(95% 0.018 83);
+    padding: .6rem .7rem; text-align: left; font-size: .78rem; font-weight: 700; letter-spacing: .04em; white-space: nowrap;
+  }
+  thead th.sortable { cursor: pointer; user-select: none; }
+  thead th.sortable::after { content: " \2195"; opacity: .38; font-size: .7rem; }
+  thead th[data-dir="asc"]::after { content: " \2191"; opacity: 1; }
+  thead th[data-dir="desc"]::after { content: " \2193"; opacity: 1; }
+  tbody td { padding: .55rem .7rem; border-bottom: 1px solid color-mix(in oklch, var(--line) 55%, transparent); vertical-align: top; }
+  tbody tr.row { cursor: pointer; }
+  tbody tr.row:hover { background: color-mix(in oklch, var(--navy) 6%, transparent); }
+  tbody tr.row.open { background: color-mix(in oklch, var(--navy) 9%, transparent); }
+  .sch { font-weight: 700; }
+  .tag { display: inline-block; padding: .1rem .42rem; border-radius: 3px; font-size: .72rem; font-weight: 700; white-space: nowrap; }
+  .tag.t1 { background: color-mix(in oklch, var(--t1) 18%, white); color: oklch(38% 0.15 31); }
+  .tag.t2 { background: color-mix(in oklch, var(--t2) 22%, white); color: oklch(38% 0.11 63); }
+  .tag.t3 { background: color-mix(in oklch, var(--t3) 18%, white); color: oklch(33% 0.08 152); }
+  .tag.t4 { background: color-mix(in oklch, var(--t4) 16%, white); color: oklch(33% 0.08 240); }
+  .tag.lv { background: var(--paper-deep); color: var(--ink-soft); }
+  .num { font-family: Georgia, "Times New Roman", serif; font-variant-numeric: tabular-nums; }
+  .num.hi { color: var(--t1); font-weight: 700; }
+  .band-cell { display: flex; align-items: center; gap: .45rem; }
+  .bar { height: .45rem; border-radius: 999px; background: color-mix(in oklch, var(--navy) 16%, transparent); min-width: 2px; }
+  .bar.b-hi { background: oklch(58% 0.17 31); }
+  .bar.b-md { background: oklch(70% 0.13 63); }
+  .bar.b-lo { background: oklch(62% 0.09 152); }
+  tr.detail td { background: color-mix(in oklch, var(--navy) 5%, transparent); padding: 0 .7rem 1rem; border-bottom: 1px solid var(--line); }
+  tr.detail .note { max-width: 84ch; font-size: .89rem; color: var(--ink); }
+  tr.detail .basis { display: block; margin-top: .6rem; font-size: .8rem; color: var(--ink-soft); }
+  tr.detail .basis b { color: var(--ink); }
+  .empty { padding: 1.5rem; text-align: center; color: var(--ink-soft); font-size: .9rem; }
+  .note-legend { display: flex; gap: 1rem; flex-wrap: wrap; margin: .75rem 0 0; font-size: .8rem; color: var(--ink-soft); }
+  footer { max-width: 82rem; margin: 0 auto; padding: 0 clamp(1rem, 4vw, 3rem) 3rem; color: var(--ink-soft); font-size: .84rem; }
+  footer a { color: var(--navy); }
+  @media (max-width: 640px) {
+    .tools { padding: .8rem; }
+    .kpi { padding: .85rem; }
+    thead th, tbody td { padding: .5rem .5rem; font-size: .82rem; }
+  }
+  @media print {
+    body { background: #fff; }
+    .tools { display: none; }
+    tbody tr.detail { display: table-row !important; }
+  }
+
+  .plan { border: 1px solid var(--line); background: var(--card); margin: 0 0 1rem; }
+  .plan header { padding: .85rem 1.15rem; background: var(--navy); color: oklch(96% 0.018 83); display: flex; flex-wrap: wrap; gap: .6rem; align-items: baseline; }
+  .plan header h3 { margin: 0; font-family: "Songti SC", serif; font-size: 1.12rem; }
+  .plan header em { font-style: normal; font-size: .8rem; color: oklch(85% 0.03 236); }
+  .plan .body { padding: 1rem 1.15rem; }
+  .plan .body p { margin: 0 0 .8rem; font-size: .9rem; color: var(--ink-soft); }
+  .plan .body p:last-child { margin-bottom: 0; }
+  .slot { display: grid; gap: .6rem; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); }
+  .slot div { padding: .7rem .8rem; border: 1px dashed var(--line); background: var(--paper); font-size: .86rem; }
+  .slot div b { display: block; font-size: .74rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); margin-bottom: .25rem; }
+  .checklist { list-style: none; margin: 0; padding: 0; }
+  .checklist li { padding: .7rem 0; border-bottom: 1px solid color-mix(in oklch, var(--line) 60%, transparent); font-size: .9rem; }
+  .checklist li:last-child { border-bottom: 0; }
+  .checklist b { display: block; color: var(--ink); }
+  .checklist span { color: var(--ink-soft); }
+  .timeline { list-style: none; margin: 0; padding: 0 0 0 1.1rem; border-left: 3px solid var(--line); }
+  .timeline li { position: relative; padding: 0 0 1.1rem 1rem; font-size: .9rem; }
+  .timeline li::before { content: ""; position: absolute; left: -1.55rem; top: .42rem; width: .68rem; height: .68rem; border-radius: 50%; background: var(--accent); }
+  .timeline b { display: block; color: var(--ink); }
+  .timeline span { color: var(--ink-soft); }
+  .warn { padding: 1rem 1.15rem; border-left: 6px solid var(--accent); background: color-mix(in oklch, var(--accent) 9%, var(--card)); font-size: .9rem; }
+  .warn b { color: var(--ink); }
+</style>
+</head>
+<body>
+<header class="masthead">
+  <a class="backlink" href="tier350.html">&larr; 返回 350 分全景分析</a>
+  <p class="eyebrow">Portfolio &middot; Operational Playbook</p>
+  <h1>报考组合<br>与实操策略</h1>
+  <p class="dek">选校不是选一所，是配一套。这一页给出三套可直接照抄的组合方案，以及复试阶段真正会决定成败的核查清单。</p>
+</header>
+
+<main>
+  <section class="sec">
+    <p class="sec-label">Premise</p>
+    <h2>先确认三件事，再谈选校</h2>
+    <div class="warn">
+      <p style="margin:0 0 .7rem"><b>一、国家线对你几乎没有约束力。</b>教育部 2026 年国家线文件写明：报考临床医学类专业学位（1051）
+      考生进入复试的初试成绩要求，<b>由招生单位自主确定并公布</b>。医学门类 A 区线 294、B 区 284 只是参考，
+      也是「临床专硕调剂到其他专业」的基本要求。所以别再问「过国家线能不能上」&mdash;&mdash;要问「这所学校自己划到哪」。</p>
+      <p style="margin:0 0 .7rem"><b>二、B 区红利只值 10 分，而且常被抢掉。</b>B 区国家线比 A 区低 10 分（284 vs 294）。
+      但海南医科大学均分 353、贵州医科大学均分 349，都远高于 B 区线&mdash;&mdash;B 区里交通与政策较好的院校，
+      红利已经被生源填平。真正吃到 B 区红利的是新疆、内蒙古、宁夏、青海、西藏这一类。</p>
+      <p style="margin:0"><b>三、容量比分数线更值得优先看。</b>3 人容量的院校（厦门大学、石河子大学、西藏大学、
+      广东省心血管病研究所），最低分与均分都不具备统计意义。相反，新疆医科大学 62 人、南昌大学 61 人、
+      大连医科大学 48 人、温州医科大学 47 人、安徽医科大学 47 人这一类，分数结构的可预测性高得多。</p>
+    </div>
+  </section>
+
+  <section class="sec">
+    <p class="sec-label">Portfolios</p>
+    <h2>三套组合方案</h2>
+    <p class="lead">以下为「冲 &mdash; 稳 &mdash; 保」三档组合示例。之所以要配三档，是因为医学专硕招生计划年际波动极大，
+    单一目标一旦缩招就没有退路。请按自己的估分与地域意愿调整。</p>
+
+    <article class="plan">
+      <header><h3>方案 A &middot; 平台优先</h3><em>适合估分 350&mdash;360，愿意为学历层次承担风险</em></header>
+      <div class="body">
+        <p>核心思路：用「985/211 里的低分窗口」博一次平台跃迁，同时用容量充足的 211 兜住底线。</p>
+        <div class="slot">
+          <div><b>冲刺</b>武汉大学（985，均分 352，19 人）<br>或 兰州大学（985，均分 354，16 人）</div>
+          <div><b>稳妥</b>南昌大学（211，均分 359，61 人）<br>或 苏州大学（211，均分 356，13 人）</div>
+          <div><b>保底</b>延边大学（211，均分 336，37 人）<br>或 江南大学（211，均分 337，9 人）</div>
+        </div>
+        <p style="margin-top:.9rem">这条线之所以成立：武大与兰大是本表里唯一两所「985 且录取均分落在 350 出头」的院校，
+        比华中科技大学（362）低了 10 分左右，容量还更大。保底端的延边大学同时具备 211、37 人容量、336 均分，
+        并且接受日语考生&mdash;&mdash;在整个 350 分以下区间里没有第二所。</p>
+      </div>
+    </article>
+
+    <article class="plan">
+      <header><h3>方案 B &middot; 容量优先</h3><em>适合估分 335&mdash;350，追求确定性</em></header>
+      <div class="body">
+        <p>核心思路：放弃校名，把预算全部押在「招生体量大、分数结构稳定」的院校上。大容量意味着复试与分数都更可预测。</p>
+        <div class="slot">
+          <div><b>冲刺</b>哈尔滨医科大学（均分 363，46 人）<br>或 中国医科大学（均分 363，42 人，扩招中）</div>
+          <div><b>稳妥</b>大连医科大学（均分 340，48 人）<br>或 昆明医科大学（均分 349，42 人，B 区）</div>
+          <div><b>保底</b>新疆医科大学（均分 324，62 人，B 区）<br>或 锦州医科大学（均分 332，42 人）</div>
+        </div>
+        <p style="margin-top:.9rem">中国医科大学与河北医科大学是本表里扩招最明确的两所（河北医科大 2026 年专硕计划
+        较上年翻倍至 45 人）。扩招年份往往是分数线相对友好的年份&mdash;&mdash;但要注意中国医科大 2026 年复试线虽有 305，
+        单科线却是 45/170，单科短板会直接被卡。</p>
+      </div>
+    </article>
+
+    <article class="plan">
+      <header><h3>方案 C &middot; 上岸优先</h3><em>适合估分 320&mdash;340，或以二战求稳为核心目标</em></header>
+      <div class="body">
+        <p>核心思路：以「过线即有较大机会」为标准，优先 B 区与省属大容量院校，把不确定性压到最低。</p>
+        <div class="slot">
+          <div><b>冲刺</b>安徽医科大学（均分 360，47 人）<br>或 河北医科大学（均分 362，44 人，扩招）</div>
+          <div><b>稳妥</b>宁夏医科大学（均分 342，20 人，B 区）<br>或 内蒙古医科大学（均分 335，43 人，B 区）</div>
+          <div><b>保底</b>新疆医科大学（均分 324，62 人，B 区）<br>或 皖南医学院（均分 335，42 人）</div>
+        </div>
+        <p style="margin-top:.9rem">新疆医科大学公开的 2026 年数据值得单独看：全校录取初试分中位数 319、
+        一志愿均分 320.59、调剂均分 316.37，复试淘汰率约 16.2%。<b>一志愿均分高于调剂均分</b>&mdash;&mdash;
+        这说明该校并不歧视一志愿，反而是调剂进来要更难。对求稳考生这是很重要的信号。</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="sec">
+    <p class="sec-label">Rules</p>
+    <h2>复试规则：真正决定成败的四项</h2>
+    <p class="lead">初试线只是入场券。以下四项在检索到的 2026 年公开复试办法里都能查到原文，建议逐项核实目标院校。</p>
+    <ul class="checklist">
+      <li>
+        <b>差额复试比例</b>
+        <span>广东医科大学 2026 年办法明确：临床医学专业学位按 <b>1:2</b> 差额复试，其他学科 1:1.5&mdash;&mdash;临床专硕的淘汰率是全学科里最高的。
+        南方医科大学与广东省心血管病研究所则按计划数分级：计划 =1 时 1:3、=2 时 1:2、≥3 时 1:1.5。比例越高，低分考生越危险。</span>
+      </li>
+      <li>
+        <b>临床技能考核是否「一票否决」</b>
+        <span>南方医科大学 2026 年办法写明：临床技能考核成绩排序在报考分委员会<b>最后 10%</b> 的考生为不合格，
+        不得参加后续复试内容考核。广东省心血管病研究所同样实行一票否决制。这类院校里，初试高分不等于安全。</span>
+      </li>
+      <li>
+        <b>单科线，而不只是总分线</b>
+        <span>中国医科大学 2026 年临床医学（1051）复试线为总分 305，但单科线是 <b>45 / 170</b>。
+        广东省心血管病研究所专硕线为总分 310，单科 45 / 45 / 160。总分过线而单科卡住，是每年都在发生的翻车方式。</span>
+      </li>
+      <li>
+        <b>培养单位差异</b>
+        <span>同一所学校的不同附属医院分数可能差出 30 分以上。检索到安徽医科大学安庆医学中心等合作附属单位录取均分
+        只有 300 出头，而本部竞争激烈；贵州医科大学麻醉学院的疼痛方向均分 338，低于麻醉方向。报名时务必确认到具体培养单位与方向。</span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="sec">
+    <p class="sec-label">Special Channels</p>
+    <h2>三条容易被忽略的通道</h2>
+    <div class="grid-cards">
+      <article class="card">
+        <h3>专项计划：低分「异常值」的真正来源</h3>
+        <p>本表里那些远低于均分的最低分（浙江大学 328、温州医科大学 295、内蒙古医科大学 285、新疆医科大学 283），
+        相当一部分来自<b>少数民族高层次骨干人才计划</b>与<b>退役大学生士兵计划</b>。
+        以北京大学医学部 2026 年为例：少骨计划总分比相同研究方向普通考生实际复试线<b>下调 10 分</b>，士兵计划则与普通线一致。
+        若你没有专项资格，这些最低分对你不构成参考。</p>
+      </article>
+      <article class="card">
+        <h3>调剂：一志愿缺额的信号价值</h3>
+        <p>调剂系统 4 月 8 日开通。检索到的 2026 年医学调剂信息显示，麻醉学在宁夏医科大学（3 人）、
+        广州医科大学、中国医科大学、南京医科大学、苏州大学、江苏大学、中山大学、中南大学湘雅等校均有名额。
+        <b>但调剂名额的存在有两面性</b>：既说明有缺口，也可能说明该校偏向调剂生源。报考前应查清一志愿与调剂是否同批次复试。</p>
+      </article>
+      <article class="card">
+        <h3>科研院所与军队院校</h3>
+        <p>广东省心血管病研究所是本表唯一科研院所：专硕复试线 310、临床技能考核一票否决、调剂按 ≤1:5 筛选，
+        优势是导师资源集中。军队院校（海军军医大学 2025 年最低 353、陆军军医大学 363）分数高于 350 未进入本表范围，
+        但报考需注意政治审查、体检与军籍要求，规则与地方院校完全不同。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec">
+    <p class="sec-label">Job Market</p>
+    <h2>岗位端验证：硕士学历是不是必须</h2>
+    <p class="lead">不引用「人才缺口多少万」这类无法溯源的数字，直接看 2026 年实际招聘公告的硬条件。</p>
+    <div class="grid-cards">
+      <article class="card">
+        <h3>三甲医院普遍要求硕士及以上</h3>
+        <p>四川大学华西第二医院 2026 年麻醉科医师岗：学历要求<b>硕士研究生及以上</b>，须持医师资格证与规培合格证，有三甲经验优先。
+        北京积水潭医院贵州医院麻醉科医师岗：硕士及以上，须医师资格证、规培合格证（麻醉科）、CET-4 ≥ 425。
+        湖南湘潭市第一人民医院（三甲）麻醉科医师岗：研究生学历，本科专业须为临床医学或麻醉学。</p>
+      </article>
+      <article class="card">
+        <h3>规培阶段的待遇可查</h3>
+        <p>上海市第一人民医院麻醉科 2026 年规培招聘：要求硕士及以上、CET6 ≥ 440、以一作发表 SCI 优先；
+        待遇为科室额外绩效补助约 5000 元/月、住房补贴 2000 元/月，优秀住院医师津贴 A 类 5500 元/月。
+        这是可溯源的官方公告口径，比二手薪资传闻可靠。</p>
+      </article>
+      <article class="card">
+        <h3>本科层的现实</h3>
+        <p>麻醉学本科（100202TK）全国就业率约 85%&mdash;90%，毕业起薪约 6829 元，毕业 5 年约 10664 元。
+        这与「98.5% 就业率」的说法差距明显。结论是：本科能进入医疗体系，但<b>要进入三甲或省会医院，硕士基本是硬门槛</b>&mdash;&mdash;
+        这正是 105118 值得投入三年的原因。</p>
+      </article>
+      <article class="card">
+        <h3>地域黏性高于校名</h3>
+        <p>规培资源、导师人脉、同门网络基本扎在就读城市。招聘公告里的地域偏好也很直白&mdash;&mdash;
+        北京积水潭医院贵州医院招的是贵州岗位，湘潭市第一人民医院招的是湖南岗位。
+        <b>如果就业城市已经确定，优先选当地认可度最高的医学院，而不是跨省冲一个名字更响的学校。</b></p>
+      </article>
+    </div>
+  </section>
+
+  <section class="sec">
+    <p class="sec-label">Timeline</p>
+    <h2>接下来一年要做的事</h2>
+    <ul class="timeline">
+      <li><b>现在 &mdash; 9 月：定范围，不锁定单校</b><span>用本页的四个阶梯圈出 6&mdash;9 所目标，覆盖冲/稳/保三档。此时只做粗筛，不投入任何针对性复习。</span></li>
+      <li><b>9 月：招生目录发布，逐所复核</b><span>这是全年最关键的一次核对。看三件事：招生计划是否缩招、推免占比是否提高、报考条件是否新增限制。任何一项变差就立刻启用备选。</span></li>
+      <li><b>10 月：报名，敲定到培养单位</b><span>医学专硕的报名单位要精确到附属医院或临床医学院。同一所学校不同培养单位分数可以差 30 分以上。</span></li>
+      <li><b>12 月底：初试</b><span>政治 + 英语一 + 306 临床医学综合能力（西医），总分 500。306 占 300 分，是绝对主战场。</span></li>
+      <li><b>次年 2 月底&mdash;3 月：出分、国家线、校线</b><span>2026 年国家线于 2 月 28 日公布，考生成绩同期可查。此时立刻核对目标院校的自划线，并重估三档组合。</span></li>
+      <li><b>3 月底：一志愿复试</b><span>多数院校要求在 4 月 7 日前完成一志愿复试录取。差额比例、技能考核权重、是否一票否决，都要在此前查清。</span></li>
+      <li><b>4 月 8 日：调剂系统开通</b><span>调剂意向采集 3 月 27 日开通。三个平行志愿按冲/稳/保搭配填报，不要全填同一层次。</span></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>规则类信息均来自各院校 2026 年公开发布的招生简章、复试录取办法与研招网公示文件；院校分数数据来自本项目整理。
+  本页仅作决策参考，最终以目标院校当年官方公告为准。</p>
+  <p><a href="tier350.html">350 分全景分析</a> &middot; <a href="nav.html">返回资料导航</a> &middot; <a href="glossary.html">概念与术语</a></p>
+</footer>
+</body>
+</html>
