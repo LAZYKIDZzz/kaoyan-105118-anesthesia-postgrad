@@ -111,7 +111,7 @@ def main():
   .masthead a {{ color:#f3eee4; text-decoration:none; font-weight:600; font-size:.85rem; }}
   .masthead h1 {{ margin:.4rem 0 .2rem; font-size:clamp(1.3rem,4vw,2rem); }}
   .masthead p {{ margin:.2rem 0; color:#cdd6e2; font-size:.9rem; }}
-  main {{ max-width:1180px; margin:0 auto; padding:1.4rem clamp(1rem,4vw,2rem) 3rem; }}
+  main {{ max-width:1400px; margin:0 auto; padding:1.4rem clamp(1rem,4vw,2rem) 3rem; }}
   .cards {{ display:flex; flex-wrap:wrap; gap:.7rem; margin:1rem 0 1.4rem; }}
   .card {{ background:var(--card); border:1px solid var(--line); border-radius:10px; padding:.7rem 1rem; min-width:110px; }}
   .card b {{ display:block; font-size:1.4rem; }}
@@ -127,16 +127,25 @@ def main():
   td.name {{ text-align:left; font-weight:700; }}
   td.name small {{ display:block; font-weight:400; color:var(--ink-soft); font-size:.74rem; }}
   .yr {{ font-size:.72rem; color:var(--ink-soft); }}
-  .badge {{ display:inline-block; padding:.15rem .55rem; border-radius:999px; color:#fff; font-size:.76rem; font-weight:700; }}
+  .badge {{ display:inline-block; padding:.15rem .55rem; border-radius:999px; color:#fff; font-size:.76rem; font-weight:700; white-space:nowrap; }}
   .v-修正 {{ background:var(--t-fix); }} .v-补充 {{ background:var(--t-add); }}
   .v-确认 {{ background:var(--t-ok); }} .v-无法核实 {{ background:var(--t-na); }}
   tr.detail td {{ background:#fbf9f4; text-align:left; }}
-  .units, .srcs {{ font-size:.78rem; }}
+  td.yc {{ white-space:nowrap; font-variant-numeric:tabular-nums; }}
+  td.yc .yn {{ display:block; font-size:.7rem; color:var(--ink-soft); }}
+  .units, .srcs {{ font-size:.78rem; line-height:1.5; }}
   .units b {{ color:var(--navy); }}
-  .srcs a {{ color:var(--t-add); }}
-  .reason {{ font-size:.8rem; color:var(--ink-soft); text-align:left; max-width:340px; }}
+  .srccell {{ text-align:left; max-width:216px; }}
+  .srcs a {{ display:inline-block; margin:.12rem .3rem .12rem 0; padding:.06rem .45rem; border:1px solid color-mix(in srgb, var(--t-add) 34%, #fff); border-radius:999px; color:var(--t-add); background:#fff; text-decoration:none; white-space:nowrap; font-size:.72rem; }}
+  .srcs a:hover {{ background:#eef5fd; }}
+  .reason {{ font-size:.8rem; color:var(--ink-soft); text-align:left; max-width:330px; }}
   .foot {{ margin-top:1.4rem; font-size:.82rem; color:var(--ink-soft); }}
   .foot code {{ background:#f1ece2; padding:.1rem .35rem; border-radius:4px; }}
+  @media (max-width:760px) {{
+    main {{ padding:1rem .7rem 2rem; }}
+    .reason {{ max-width:220px; }}
+    .srccell {{ max-width:150px; }}
+  }}
 </style>
 </head>
 <body>
@@ -180,7 +189,7 @@ def main():
     </table>
   </div>
   <p class="foot">
-    说明：表格每格为「最低分 / 均分 / 录取人数」；复试线见各年上方小字（院线·校线·国家线·自划线）。
+    说明：表格每格为「最低分 / 均分 / 录取人数」，其下小字为当年复试线（院线·校线·国家线·自划线）。
     同一院校多培养单位（附属院区）分数差异较大，已在「核对说明」与来源中按院区拆分，切勿混读。
     <code>—</code> 表示该年度官方未公布或机构来源未回验、按规范留空。本页为公开名单核对结果，最终以院校当年官方公示为准。
   </p>
@@ -212,9 +221,10 @@ function unitsHtml(u) {{
 function srcHtml(s) {{
   if(!s.length) return '—';
   return '<div class="srcs">' + s.map(x => {{
-    const t = `${{x.year}}·${{x.kind}} ${{x.title}}`;
-    return x.url ? `<a href="${{x.url}}" target="_blank" rel="noopener">${{t}}</a>` : t;
-  }}).join('<br>') + '</div>';
+    const label = (x.year ? x.year + ' ' : '') + (x.kind || '链接');
+    const title = (x.title || label).replace(/"/g, '&quot;');
+    return x.url ? `<a href="${{x.url}}" target="_blank" rel="noopener" title="${{title}}">${{label}}</a>` : `<span>${{label}}</span>`;
+  }}).join('') + '</div>';
 }}
 function avgOf(c){{ const p=c.split('/')[1]; return p&&p!=='—'? -parseInt(p):9999; }}
 
@@ -234,13 +244,13 @@ function render() {{
     return `<tr>
       <td class="name">${{r.name}}<small>${{r.city}} · ${{r.level}}</small></td>
       <td>${{r.region}}</td>
-      <td>${{r.old}}</td>
-      <td>${{r.c24}}</td>
-      <td>${{r.c25}}</td>
-      <td>${{r.c26}}</td>
+      <td class="yc">${{r.old}}</td>
+      <td class="yc"><b>${{r.c24}}</b><span class="yn">线 ${{r.f24}}</span></td>
+      <td class="yc"><b>${{r.c25}}</b><span class="yn">线 ${{r.f25}}</span></td>
+      <td class="yc"><b>${{r.c26}}</b><span class="yn">线 ${{r.f26}}</span></td>
       <td><span class="badge v-${{r.verdict}}">${{r.verdict}}</span></td>
       <td class="reason">${{r.reason}}${{detail}}</td>
-      <td style="text-align:left">${{srcHtml(r.srcs)}}</td>
+      <td class="srccell">${{srcHtml(r.srcs)}}</td>
     </tr>`;
   }}).join('');
 }}

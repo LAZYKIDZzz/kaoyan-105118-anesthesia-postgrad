@@ -279,6 +279,11 @@ def build_rows():
             "basis": x.get("basis") or "",
             "tier": tier_of(avg),
             "note": NOTES.get(x["name"], ""),
+            "hist": x.get("hist") or {},
+            "units": x.get("hist_units") or [],
+            "verdict": x.get("verdict"),
+            "reason": x.get("verdict_reason") or "",
+            "sources": x.get("sources") or [],
         })
     rows.sort(key=lambda r: (-(r["avg"] or 0), r["name"]))
     return rows
@@ -446,6 +451,28 @@ STRATEGY_EXTRA = """
   .timeline span { color: var(--ink-soft); }
   .warn { padding: 1rem 1.15rem; border-left: 6px solid var(--accent); background: color-mix(in oklch, var(--accent) 9%, var(--card)); font-size: .9rem; }
   .warn b { color: var(--ink); }
+  /* —— 核对后 · 近三年录取 —— */
+  .hist { margin-top: .85rem; padding: .78rem .9rem; border: 1px solid color-mix(in oklch, var(--navy) 26%, transparent); background: color-mix(in oklch, var(--paper) 45%, #fff); }
+  .hist-head { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin: 0 0 .45rem; }
+  .hist-head strong { font-size: .78rem; letter-spacing: .06em; color: var(--navy); }
+  .vb { display: inline-block; padding: .05rem .5rem; border-radius: 999px; color: #fff; font-size: .7rem; font-weight: 700; white-space: nowrap; }
+  .vb.v-修正 { background: oklch(52% 0.19 27); }
+  .vb.v-补充 { background: oklch(52% 0.14 250); }
+  .vb.v-确认 { background: oklch(50% 0.11 150); }
+  .vb.v-无法核实 { background: oklch(60% 0.02 260); }
+  .hyear { display: grid; grid-template-columns: 3.5rem minmax(0, 1fr); gap: .05rem .5rem; padding: .38rem 0; border-top: 1px dashed color-mix(in oklch, var(--ink) 16%, transparent); }
+  .hyear .hy { grid-row: 1 / span 2; font-weight: 700; font-size: .84rem; font-variant-numeric: tabular-nums; color: var(--navy); }
+  .hyear .hy .pick { display: block; font-weight: 400; color: var(--accent); font-size: .62rem; letter-spacing: .04em; }
+  .hyear .hm { display: flex; flex-wrap: wrap; gap: .1rem .8rem; font-size: .78rem; }
+  .hyear .hm span { white-space: nowrap; color: var(--ink-soft); }
+  .hyear .hm b { color: var(--ink); font-variant-numeric: tabular-nums; }
+  .hyear .hn { grid-column: 2; font-size: .72rem; color: var(--ink-soft); line-height: 1.45; }
+  .hyear.cur { background: color-mix(in oklch, var(--accent) 12%, transparent); }
+  .hist .hu, .hist .hr { margin-top: .45rem; font-size: .76rem; color: var(--ink-soft); line-height: 1.55; }
+  .hist .hu b { color: var(--navy); }
+  .hist .hs { margin-top: .35rem; font-size: .74rem; }
+  .hist .hs b { color: var(--navy); }
+  .hist .hs a { color: oklch(48% 0.13 250); margin-right: .6rem; }
 """
 
 
@@ -461,7 +488,7 @@ def build_tier350(rows):
     cnt = {t: len([r for r in rows if r["tier"] == t]) for t in (1, 2, 3, 4)}
 
     data = [
-        {k: r[k] for k in ("name", "region", "city", "level", "lo", "avg", "band", "n", "tier", "note", "basis")}
+        {k: r[k] for k in ("name", "region", "city", "level", "lo", "avg", "band", "n", "tier", "note", "basis", "fy", "hist", "units", "verdict", "reason", "sources")}
         for r in rows
     ]
 
@@ -651,6 +678,36 @@ function match(r) {{
 function bandClass(b) {{ if (b === null) return ""; if (b >= 40) return "b-hi"; if (b >= 25) return "b-md"; return "b-lo"; }}
 function dash(v) {{ return (v === null || v === undefined) ? "—" : v; }}
 
+function histHtml(r) {{
+  const h = r.hist || {{}};
+  let out = "";
+  ["2024","2025","2026"].forEach(y => {{
+    const yv = h[y] || {{}};
+    const fs = (yv.fs === null || yv.fs === undefined) ? "—" : (yv.fs + (yv.fs_kind && yv.fs_kind !== "未公布" ? "（" + yv.fs_kind + "）" : ""));
+    out += '<div class="hyear' + (r.fy === y ? " cur" : "") + '">'
+      + '<div class="hy">' + y + (r.fy === y ? '<span class="pick">采用</span>' : "") + '</div>'
+      + '<div class="hm">'
+      + '<span>最低 <b>' + dash(yv.lo) + '</b></span>'
+      + '<span>均分 <b>' + dash(yv.avg) + '</b></span>'
+      + '<span>人数 <b>' + dash(yv.n) + '</b></span>'
+      + '<span>复试线 <b>' + fs + '</b></span>'
+      + '</div>'
+      + (yv.note ? '<div class="hn">' + yv.note + '</div>' : "")
+      + '</div>';
+  }});
+  let u = "";
+  if (r.units && r.units.length) {{
+    u = '<div class="hu"><b>分培养单位：</b>' + r.units.map(x => x.year + " " + x.unit + "：最低 " + dash(x.lo) + " / 均分 " + dash(x.avg) + " / " + dash(x.n) + " 人").join("<br>") + '</div>';
+  }}
+  const reason = r.reason ? '<div class="hr">核对说明：' + r.reason + '</div>' : "";
+  let src = "";
+  if (r.sources && r.sources.length) {{
+    src = '<div class="hs"><b>来源：</b>' + r.sources.slice(0,5).map(s => '<a href="' + s.url + '" target="_blank" rel="noopener">' + (s.year ? s.year + " " : "") + (s.kind || "链接") + '</a>').join("") + '</div>';
+  }}
+  const vb = r.verdict ? '<span class="vb v-' + r.verdict + '">' + r.verdict + '</span>' : "";
+  return '<div class="hist"><div class="hist-head"><strong>核对后 · 近三年录取（2024—2026）</strong>' + vb + '</div>' + out + u + reason + src + '</div>';
+}}
+
 function render() {{
   const rows = ROWS.filter(match).slice();
   const k = state.key, mul = state.dir === "asc" ? 1 : -1;
@@ -687,7 +744,8 @@ function render() {{
     dr.className = "detail";
     dr.hidden = true;
     dr.innerHTML = '<td colspan="7"><div class="note">' + (r.note || "暂无点评。") + '</div>' +
-      (r.basis ? '<span class="basis"><b>数据依据：</b>' + r.basis + '</span>' : '') + '</td>';
+      (r.basis ? '<span class="basis"><b>数据依据：</b>' + r.basis + '</span>' : '') +
+      histHtml(r) + '</td>';
 
     tr.addEventListener("click", () => {{
       const open = !dr.hidden;
