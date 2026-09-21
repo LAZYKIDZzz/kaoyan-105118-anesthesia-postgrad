@@ -164,6 +164,28 @@
   .timeline span { color: var(--ink-soft); }
   .warn { padding: 1rem 1.15rem; border-left: 6px solid var(--accent); background: color-mix(in oklch, var(--accent) 9%, var(--card)); font-size: .9rem; }
   .warn b { color: var(--ink); }
+  /* —— 核对后 · 近三年录取 —— */
+  .hist { margin-top: .85rem; padding: .78rem .9rem; border: 1px solid color-mix(in oklch, var(--navy) 26%, transparent); background: color-mix(in oklch, var(--paper) 45%, #fff); }
+  .hist-head { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin: 0 0 .45rem; }
+  .hist-head strong { font-size: .78rem; letter-spacing: .06em; color: var(--navy); }
+  .vb { display: inline-block; padding: .05rem .5rem; border-radius: 999px; color: #fff; font-size: .7rem; font-weight: 700; white-space: nowrap; }
+  .vb.v-修正 { background: oklch(52% 0.19 27); }
+  .vb.v-补充 { background: oklch(52% 0.14 250); }
+  .vb.v-确认 { background: oklch(50% 0.11 150); }
+  .vb.v-无法核实 { background: oklch(60% 0.02 260); }
+  .hyear { display: grid; grid-template-columns: 3.5rem minmax(0, 1fr); gap: .05rem .5rem; padding: .38rem 0; border-top: 1px dashed color-mix(in oklch, var(--ink) 16%, transparent); }
+  .hyear .hy { grid-row: 1 / span 2; font-weight: 700; font-size: .84rem; font-variant-numeric: tabular-nums; color: var(--navy); }
+  .hyear .hy .pick { display: block; font-weight: 400; color: var(--accent); font-size: .62rem; letter-spacing: .04em; }
+  .hyear .hm { display: flex; flex-wrap: wrap; gap: .1rem .8rem; font-size: .78rem; }
+  .hyear .hm span { white-space: nowrap; color: var(--ink-soft); }
+  .hyear .hm b { color: var(--ink); font-variant-numeric: tabular-nums; }
+  .hyear .hn { grid-column: 2; font-size: .72rem; color: var(--ink-soft); line-height: 1.45; }
+  .hyear.cur { background: color-mix(in oklch, var(--accent) 12%, transparent); }
+  .hist .hu, .hist .hr { margin-top: .45rem; font-size: .76rem; color: var(--ink-soft); line-height: 1.55; }
+  .hist .hu b { color: var(--navy); }
+  .hist .hs { margin-top: .35rem; font-size: .74rem; }
+  .hist .hs b { color: var(--navy); }
+  .hist .hs a { color: oklch(48% 0.13 250); margin-right: .6rem; }
 </style>
 </head>
 <body>

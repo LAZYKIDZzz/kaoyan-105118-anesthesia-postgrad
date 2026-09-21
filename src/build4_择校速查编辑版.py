@@ -188,6 +188,52 @@ for r in range(4, ws.max_row + 1):
         "heroUnit": "2025 录取均分" if avg is not None else (f"{latest_year} 复试线" if latest else "—"),
     })
 
+# --- 3.5) 合并「三年录取分数核对」结果（src/data.json）
+# 以 data.json 更正后的快照覆盖旧值（lo/avg/n/fy），并挂载 hist 三年序列、hist_units、判定与来源。
+# 这样「择校速查」展示的就是逐校核验后的数据，而不是旧 xlsx 的未核对值。
+DATA_JSON = ROOT / "src" / "data.json"
+corr_by = {}
+if DATA_JSON.exists():
+    for x in json.load(open(DATA_JSON, encoding="utf-8")):
+        corr_by[norm(x.get("name", ""))] = x
+
+for s in schools:
+    c = corr_by.get(norm(s["school"]))
+    if not c:
+        continue
+    hist = c.get("hist") or {}
+    if c.get("lo") is not None:
+        s["low"] = c["lo"]
+    if c.get("avg") is not None:
+        s["average"] = c["avg"]
+    if c.get("n") is not None:
+        s["admitted"] = c["n"]
+    code = tier_of(s["average"], s.get("tierCn"))
+    s["tierCode"] = code
+    s["tier"] = TIER_LABEL[code]
+    s["manual"] = s["average"] is None and bool(s.get("tierCn"))
+    fy = c.get("fy")
+    if s["average"] is not None:
+        s["hero"], s["heroUnit"] = s["average"], f"{fy} 录取均分"
+    elif s["low"] is not None:
+        s["hero"], s["heroUnit"] = s["low"], f"{fy} 录取最低分"
+    # 三年复试线改用更正后的 hist.fs
+    s3 = {y: (hist.get(y) or {}).get("fs") for y in ("2024", "2025", "2026")}
+    s["scores"] = s3
+    s["completeness"] = f"{sum(1 for v in s3.values() if isinstance(v, (int, float)))}/3年"
+    s["check3"] = {
+        "years": hist,
+        "units": c.get("hist_units") or [],
+        "verdict": c.get("verdict"),
+        "reason": c.get("verdict_reason"),
+        "old": c.get("old_snapshot"),
+        "sources": c.get("sources") or [],
+        "snapshotYear": fy,
+        "basis": c.get("basis"),
+    }
+    if c.get("basis"):
+        s["note"] = c["basis"]
+
 # --- 4) 复试与录取人数明细（94 校）+ 各校复试比例规则
 ws = wb_d["复试与录取人数明细"]
 counts, rules = [], []
@@ -224,6 +270,30 @@ for bucket in (counts, cutoffs):
     for item in bucket:
         item["tier"], item["tierCode"] = tier_by.get(norm(item["school"]), (TIER_LABEL["U"], "U"))
 
+# --- 5.5) 人数 / 复试线 两个视图也同步更正后的数值
+for c in counts:
+    x = corr_by.get(norm(c["school"]))
+    if not x:
+        continue
+    if x.get("lo") is not None:
+        c["low"] = x["lo"]
+    if x.get("avg") is not None:
+        c["avg"] = x["avg"]
+    if x.get("n") is not None:
+        c["admitted"] = x["n"]
+    if x.get("fy"):
+        c["year"] = x["fy"]
+    c["_key"] = c["admitted"] if isinstance(c["admitted"], (int, float)) else -1
+for c in cutoffs:
+    x = corr_by.get(norm(c["school"]))
+    if not x:
+        continue
+    hist = x.get("hist") or {}
+    for y in ("2024", "2025", "2026"):
+        v = (hist.get(y) or {}).get("fs")
+        if v is not None:
+            c["scores"][y] = v
+
 # 排序主键：复试线视图用最新年线；人数视图用录取平均分
 for c in cutoffs:
     c["hero"] = c["scores"]["2026"] if c["scores"]["2026"] is not None else (
@@ -235,7 +305,7 @@ for c in counts:
     c["hero"] = c["avg"] if c["avg"] is not None else c["low"]
 
 DB = {
-    "updated": "2026-09-18",
+    "updated": "2026-09-21",
     "schools": schools,
     "counts": counts,
     "cutoffs": cutoffs,
@@ -276,6 +346,40 @@ EXTRA_CSS = """
     .rulelist b { color: var(--ink); }
     .badge { display: inline-block; margin-left: .4rem; padding: .05rem .38rem; border: 1px solid currentColor; font-size: .68rem; font-weight: 700; vertical-align: middle; }
     @media (min-width: 420px) { .kpi { grid-template-columns: repeat(4, minmax(0,1fr)); } }
+
+    /* —— 核对后 · 近三年录取小表格 —— */
+    .hist { margin-top: 1rem; padding: .8rem .9rem; border: 1px solid color-mix(in oklch, var(--navy) 24%, transparent); background: color-mix(in oklch, var(--paper) 40%, #fff); border-radius: 6px; }
+    .hist-head { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin-bottom: .5rem; }
+    .hist-head strong { font-size: .78rem; letter-spacing: .06em; color: var(--navy); }
+    .hist-head em { font-style: normal; font-size: .72rem; color: var(--ink-soft); }
+    .vb { display: inline-block; padding: .06rem .5rem; border-radius: 999px; color: #fff; font-size: .7rem; font-weight: 700; white-space: nowrap; }
+    .vb.v-修正 { background: oklch(52% 0.19 27); }
+    .vb.v-补充 { background: oklch(52% 0.14 250); }
+    .vb.v-确认 { background: oklch(50% 0.11 150); }
+    .vb.v-无法核实 { background: oklch(60% 0.02 260); }
+    .histtable { width: 100%; border-collapse: collapse; font-size: .8rem; font-variant-numeric: tabular-nums; }
+    .histtable th, .histtable td { padding: .32rem .4rem; border-bottom: 1px dashed color-mix(in oklch, var(--ink) 18%, transparent); text-align: center; }
+    .histtable th { color: var(--ink-soft); font-weight: 700; font-size: .72rem; }
+    .histtable td.note { text-align: left; font-size: .72rem; color: var(--ink-soft); line-height: 1.45; }
+    .histtable tr.cur { background: color-mix(in oklch, var(--accent) 12%, transparent); }
+    .histtable tr.cur td:first-child::after { content: " \2605"; color: var(--accent); font-size: .7rem; }
+    /* 窄栏自适应：每年一行两列（左侧年份 + 右侧指标/说明），避免表头竖排 */
+    .hyears { margin: 0; }
+    .hyear { display: grid; grid-template-columns: 3.5rem minmax(0, 1fr); gap: .05rem .55rem; padding: .4rem 0; border-top: 1px dashed color-mix(in oklch, var(--ink) 16%, transparent); }
+    .hyear .hy { grid-row: 1 / span 2; font-weight: 700; font-size: .84rem; font-variant-numeric: tabular-nums; color: var(--navy); }
+    .hyear .hy small { display: block; font-weight: 400; color: var(--accent); font-size: .62rem; letter-spacing: .04em; }
+    .hyear .hm { display: flex; flex-wrap: wrap; gap: .1rem .8rem; font-size: .78rem; }
+    .hyear .hm span { white-space: nowrap; color: var(--ink-soft); }
+    .hyear .hm b { color: var(--ink); font-variant-numeric: tabular-nums; }
+    .hyear .hn { grid-column: 2; font-size: .72rem; color: var(--ink-soft); line-height: 1.45; }
+    .hyear.cur { background: color-mix(in oklch, var(--accent) 12%, transparent); }
+    .hist .units { margin-top: .5rem; font-size: .76rem; color: var(--ink-soft); line-height: 1.5; }
+    .hist .units b { color: var(--navy); }
+    .hist .units span { display: inline-block; margin: .1rem .6rem .1rem 0; }
+    .hist .reason { margin: .5rem 0 0; font-size: .76rem; color: var(--ink-soft); line-height: 1.55; }
+    .hist .srcs { margin-top: .4rem; font-size: .74rem; }
+    .hist .srcs b { color: var(--navy); }
+    .hist .srcs a { color: oklch(48% 0.13 250); margin-right: .5rem; }
 """
 
 HTML = """<!doctype html>
@@ -407,6 +511,54 @@ function adviceBlock(text) {
   d.append(p);
   return d;
 }
+/* —— 核对后 · 近三年录取 —— */
+function histBlock(item) {
+  const c = item.check3;
+  if (!c) return null;
+  const wrap = node('div', 'hist');
+  const head = node('div', 'hist-head');
+  head.append(node('strong', '', '核对后 · 近三年录取（2024—2026）'));
+  if (c.verdict) head.append(node('span', 'vb v-' + c.verdict, c.verdict));
+  head.append(node('em', '', '核对日期 2026-09-21'));
+  wrap.append(head);
+  const years = node('div', 'hyears');
+  ['2024', '2025', '2026'].forEach(y => {
+    const yv = ((c.years || {})[y]) || {};
+    const row = node('div', 'hyear' + (c.snapshotYear === y ? ' cur' : ''));
+    const hy = node('div', 'hy', y);
+    if (c.snapshotYear === y) hy.append(node('small', '', '采用'));
+    row.append(hy);
+    const hm = node('div', 'hm');
+    const fs = (yv.fs == null) ? '—' : (yv.fs + (yv.fs_kind && yv.fs_kind !== '未公布' ? '（' + yv.fs_kind + '）' : ''));
+    [['最低', shown(yv.lo, '—')], ['均分', shown(yv.avg, '—')], ['人数', shown(yv.n, '—')], ['复试线', fs]].forEach(pair => {
+      const s = node('span');
+      s.append(document.createTextNode(pair[0] + ' '), node('b', '', pair[1]));
+      hm.append(s);
+    });
+    row.append(hm);
+    if (yv.note) row.append(node('div', 'hn', yv.note));
+    years.append(row);
+  });
+  wrap.append(years);
+  if (c.units && c.units.length) {
+    const u = node('div', 'units');
+    u.append(node('b', '', '分培养单位：'));
+    c.units.forEach(x => u.append(node('span', '', x.year + ' ' + x.unit + '：最低 ' + shown(x.lo, '—') + ' / 均分 ' + shown(x.avg, '—') + ' / ' + shown(x.n, '—') + ' 人')));
+    wrap.append(u);
+  }
+  if (c.reason) { const r = node('p', 'reason'); r.textContent = '核对说明：' + c.reason; wrap.append(r); }
+  if (c.sources && c.sources.length) {
+    const sl = node('div', 'srcs');
+    sl.append(node('b', '', '来源：'));
+    c.sources.slice(0, 5).forEach(s => {
+      const a = node('a', '', (s.year ? s.year + ' ' : '') + (s.kind || '链接'));
+      a.href = s.url; a.target = '_blank'; a.rel = 'noopener';
+      sl.append(a);
+    });
+    wrap.append(sl);
+  }
+  return wrap;
+}
 function scoreOf(item) {
   const v = item.hero !== undefined ? item.hero : (item.latest !== undefined ? item.latest : item.avg);
   return Number(v === null || v === undefined ? -1 : v);
@@ -468,7 +620,9 @@ function schoolCard(item, index) {
     detailLine('数据依据', item.note, 'wrap')
   );
   if (item.rank) rows.push(detailLine('软科 2025 专业排名', '第 ' + item.rank + ' 名 · ' + shown(item.rankGrade)));
-  if (item.rankNote) rows.push(detailLine('学科实力', item.rankNote, 'wrap'));
+  if (item.rankNote && !/录取|均分|最低分|人数/.test(item.rankNote)) rows.push(detailLine('学科实力', item.rankNote, 'wrap'));
+  const hb = histBlock(item);
+  if (hb) rows.push(hb);
   rows.push(adviceBlock(item.advice));
   rows.forEach(x => dl.append(x));
   body.append(dl);
