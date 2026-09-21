@@ -1,0 +1,164 @@
+{
+  "group": 11,
+  "generated_at": "2026-09-21",
+  "schools": [
+    {
+      "name": "昆明医科大学",
+      "region": "云南",
+      "city": "昆明",
+      "level": "省属",
+      "existing": {"lo": 305, "avg": 349, "n": 42, "fy": "2025"},
+      "verdict": "无法核实",
+      "verdict_reason": "旧库2025年 n=42/avg=349 与机构汇总的全国105118专硕录取统计表一致，但官方拟录取名单门户（kmmc.cn/Pages_320_55283.aspx）返回404、名单PDF无法用现有工具解析，故 lo/hi/avg/n 均无法回验官方；现有 lo=305 无可靠来源，标 null。仅能确认该校为B区、多附属医院分单位招生（专硕含第一/二/三附属、延安、甘美、曲靖、儿童、六附、九二〇等9方向），须按培养单位拆分。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到可解析的官方拟录取名单；B区国家线294"},
+        "2025": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": 349, "n": 42, "unit": "不区分院系所（多附院合计）", "scope_note": "机构汇总全国105118专硕录取统计表（与旧库一致），官方名单未回验；不含推免", "note": "fs无法确认（机构称专硕线305但自相矛盾，故不采信）；lo/hi无来源标null"},
+        "2026": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到"}
+      },
+      "units": [],
+      "sources": [
+        {"year": "2025", "kind": "机构整理", "title": "昆明医科大学2025年硕士研究生拟录取名单（启航考研汇总页，链官方）", "url": "https://jixun.iqihang.com/schoolkyfs/20254896.html"},
+        {"year": "2025", "kind": "拟录取名单", "title": "昆明医科大学2025年拟录取推荐免试硕士研究生名单（推免，仅作参考）", "url": "https://www.kmmu.edu.cn/upload/20241016/2024101615385419.pdf"}
+      ]
+    },
+    {
+      "name": "大理大学",
+      "region": "云南",
+      "city": "大理",
+      "level": "B区省属",
+      "existing": {"lo": null, "avg": 339, "n": 15, "fy": "2025"},
+      "verdict": "补充",
+      "verdict_reason": "旧库2025年 n=15/avg=339 与机构汇总一致，予以确认；补充了官方复试线 fs=311（校线）。lo/hi 官方拟录取名单PDF未解析，标 null。该校麻醉学仅临床医学院招生（专硕）。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到可解析名单；B区国家线294"},
+        "2025": {"fs": 311, "fs_kind": "校线", "fs_sub": "33/33/99", "lo": null, "hi": null, "avg": 339, "n": 15, "unit": "临床医学院", "scope_note": "机构汇总全国105118专硕录取统计表（与旧库一致），官方名单未回验；不含推免", "note": "复试线为官方公布（105118麻醉学311分）；lo/hi无来源标null"},
+        "2026": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到"}
+      },
+      "units": [],
+      "sources": [
+        {"year": "2025", "kind": "复试分数线", "title": "大理大学2025年硕士研究生招生考试考生进入复试的初试成绩要求", "url": "https://yjsc.dali.edu.cn/yjsh/content.asp?id=1093"},
+        {"year": "2025", "kind": "机构整理", "title": "大理大学2025考研分数线（启航，转载官方复试线）", "url": "https://jixun.iqihang.com/schoolscore/20254609.html"}
+      ]
+    },
+    {
+      "name": "昆明理工大学",
+      "region": "云南",
+      "city": "昆明",
+      "level": "省属",
+      "existing": {"lo": 286, "avg": 325, "n": 4, "fy": "2025"},
+      "verdict": "确认",
+      "verdict_reason": "旧库2025年 n=4/avg=325 与机构汇总一致；补充官方复试线 fs=283（B区国家线，医学院未自划线）。lo=286 无可靠来源标 null。医学部招生。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到可解析名单；B区国家线294"},
+        "2025": {"fs": 283, "fs_kind": "国家线", "fs_sub": "33/33/99", "lo": null, "hi": null, "avg": 325, "n": 4, "unit": "医学部", "scope_note": "机构汇总全国105118专硕录取统计表（与旧库一致），官方名单PDF未回验；不含推免", "note": "医学部未列入自划线学科，执行B区国家线283；lo/hi无来源标null"},
+        "2026": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到"}
+      },
+      "units": [],
+      "sources": [
+        {"year": "2025", "kind": "拟录取名单", "title": "昆明理工大学2025年硕士研究生拟录取名单公示（官方，PDF附件）", "url": "https://yjs.kmust.edu.cn/info/1254/3911.htm"},
+        {"year": "2025", "kind": "复试分数线", "title": "昆明理工大学2025年硕士研究生复试分数线要求（医学院执行B区国家线）", "url": "https://yjs.kmust.edu.cn/info/1254/3911.htm"}
+      ]
+    },
+    {
+      "name": "贵州医科大学",
+      "region": "贵州",
+      "city": "贵阳",
+      "level": "省属",
+      "existing": {"lo": 319, "avg": 349, "n": 21, "fy": "2025"},
+      "verdict": "确认",
+      "verdict_reason": "旧库2025年 n=21/avg=349 与机构汇总一致；补充官方复试线 fs=316（校线，40/40/99）。lo=319 无可靠来源标 null。注意：2026年网传“疼痛方向录取6人均分338”为疼痛方向（非105118麻醉学专硕），不得混入本专硕；2026麻醉学专硕数据未检索到，标 null。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到可解析名单；A区国家线304"},
+        "2025": {"fs": 316, "fs_kind": "校线", "fs_sub": "40/40/99", "lo": null, "hi": null, "avg": 349, "n": 21, "unit": "麻醉学院", "scope_note": "机构汇总全国105118专硕录取统计表（与旧库一致），官方名单PDF未回验；不含推免", "note": "复试线为官方公布（105118专硕316分）；lo/hi无来源标null"},
+        "2026": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "仅见“疼痛方向6人/均分338”线索，非105118麻醉学专硕，不计入；本专硕数据未检索到"}
+      },
+      "units": [],
+      "sources": [
+        {"year": "2025", "kind": "复试分数线", "title": "贵州医科大学2025年硕士研究生招生考试复试基本分数线（麻醉学专硕316）", "url": "https://sa.kaoyan365.cn/yanzhaoxinxi/sakyfsx/66519.html"},
+        {"year": "2025", "kind": "机构整理", "title": "贵州医科大学2025年硕士研究生招生考试一志愿考生拟录取名单（启航，链官方）", "url": "https://jixun.iqihang.com/schoolkyfs/20254902.html"}
+      ]
+    },
+    {
+      "name": "遵义医科大学",
+      "region": "贵州",
+      "city": "遵义",
+      "level": "省属",
+      "existing": {"lo": 310, "avg": 343, "n": 24, "fy": "2025"},
+      "verdict": "修正",
+      "verdict_reason": "经官方第一临床学院“第一志愿拟录取名单公示”逐人核验，105118专硕实际拟录取36人（一志愿统考，不含推免），最低306、最高370、平均336；旧库24人/均分343/最低310均错误（旧库或来自机构汇总少计）。复试线为官方自划线305（45/45/99）。100217学硕另列，不计入。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到可解析的官方2024名单；B区国家线294"},
+        "2025": {"fs": 305, "fs_kind": "自划线", "fs_sub": "45/45/99", "lo": 306, "hi": 370, "avg": 336, "n": 36, "unit": "第一临床学院", "scope_note": "一志愿统考拟录取，不含推免（官方公示名单逐人统计）", "note": "官方名单直接核验；旧库24人/均分343为误，已修正"},
+        "2026": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到"}
+      },
+      "units": [],
+      "sources": [
+        {"year": "2025", "kind": "拟录取名单", "title": "遵义医科大学2025年硕士研究生招生复试系列公告11：第一志愿拟录取名单公示（第一临床学院）", "url": "https://grs.zmu.edu.cn/info/1068/3810.htm"},
+        {"year": "2025", "kind": "复试分数线", "title": "遵义医科大学2025年一志愿考生进入复试的初试成绩基本要求（105118自划线305）", "url": "https://grs.zmu.edu.cn/info/1099/3773.htm"}
+      ]
+    },
+    {
+      "name": "右江民族医学院",
+      "region": "广西",
+      "city": "百色",
+      "level": "B区省属",
+      "existing": {"lo": null, "avg": 316, "n": 10, "fy": "2025"},
+      "verdict": "补充",
+      "verdict_reason": "旧库2025年未拆分培养单位。经官方“拟录取名单公示(三)”核验，临床医学院105118专硕拟录取5人（国家线考生）：最低296、最高342、平均313；另有附属西南医院（机构汇总总录4）须按单位拆分。复试线执行B区国家线283（未自划线）。旧库 n=10/avg=316 接近两单位合计，但均分需按单位重算，故补充院区拆分。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到可解析名单；B区国家线294"},
+        "2025": {"fs": 283, "fs_kind": "国家线", "fs_sub": "33/33/99", "lo": 296, "hi": 342, "avg": 313, "n": 5, "unit": "临床医学院", "scope_note": "官方公示(三)逐人统计，仅国家线考生拟录取；不含民族线/推免", "note": "临床医学院已官方核验；附属西南医院见units，官方名单未直接解析"},
+        "2026": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到"}
+      },
+      "units": [
+        {"year": "2025", "unit": "临床医学院", "fs": 283, "lo": 296, "hi": 342, "avg": 313, "n": 5, "scope_note": "一志愿统考拟录取（国家线考生），官方公示(三)核验"},
+        {"year": "2025", "unit": "附属西南医院", "fs": 283, "lo": null, "hi": null, "avg": null, "n": 4, "scope_note": "机构汇总总录4（一志愿4/4），官方名单未直接解析，待回验"}
+      ],
+      "sources": [
+        {"year": "2025", "kind": "拟录取名单", "title": "右江民族医学院2025年硕士研究生招生复试拟录取名单公示的通知(三)", "url": "https://xkb.ymun.edu.cn/info/1018/3354.htm"},
+        {"year": "2025", "kind": "复试分数线", "title": "右江民族医学院2025年考研复试分数线及上线考生名单（执行B区国家线）", "url": "https://m.chinakaoyan.com/info/article/id/601093.shtml"}
+      ]
+    },
+    {
+      "name": "川北医学院",
+      "region": "四川",
+      "city": "南充",
+      "level": "省属",
+      "existing": {"lo": 331, "avg": 359, "n": 22, "fy": "2025"},
+      "verdict": "确认",
+      "verdict_reason": "旧库2025年 n=22/avg=359 与机构汇总一致；补充官方复试线 fs=317（校线，36/36/108）。lo=331 无可靠来源标 null。注意：2026年网传“录取30人均分358（区间295-399）”为专硕+学硕合计（机构原文“麻醉学 专硕+学硕 30”），不能整体作为105118专硕数据，故2026标 null，须回官方一/二批次PDF拆分专硕后人算。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到可解析名单；A区国家线304"},
+        "2025": {"fs": 317, "fs_kind": "校线", "fs_sub": "36/36/108", "lo": null, "hi": null, "avg": 359, "n": 22, "unit": "临床医学院", "scope_note": "机构汇总全国105118专硕录取统计表（与旧库一致），官方名单PDF未回验；不含推免", "note": "复试线为官方公布（105118麻醉学317分）；lo/hi无来源标null"},
+        "2026": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "仅见专硕+学硕合计30人/358.3/295~399（机构），未拆分专硕，不计入"}
+      },
+      "units": [],
+      "sources": [
+        {"year": "2025", "kind": "拟录取名单", "title": "川北医学院2025年硕士研究生招生拟录取名单公示(一志愿考生)（官方，PDF附件）", "url": "https://www.nsmc.edu.cn/dwyjsgzb/info/1322/68088.htm"},
+        {"year": "2025", "kind": "复试分数线", "title": "2025川北医学院研究生录取分数线（麻醉学105118临床医学院317）", "url": "https://m.gaosan.com/gaokao/1605965.html"},
+        {"year": "2026", "kind": "机构整理", "title": "川北医学院2026年硕士研究生拟录取公示情况（专硕+学硕合计，须拆分）", "url": "https://www.toutiao.com/article/7686140621513425458"}
+      ]
+    },
+    {
+      "name": "成都医学院",
+      "region": "四川",
+      "city": "成都",
+      "level": "省属",
+      "existing": {"lo": null, "avg": 349, "n": 14, "fy": "2025"},
+      "verdict": "修正",
+      "verdict_reason": "旧库将“14人/最低332”误记到2025年。经机构逐项转载的官方2024拟录取名单核验，该14人实为2024年（临床医学院，一志愿统考，不含推免/调剂）：最低332、最高389、平均359，与旧库“最低332/14人”吻合，故年度应修正为2024。2025年另为 n=14/avg=349（机构汇总）。补充官方复试线 fs=332（校线，42/42/126）。",
+      "years": {
+        "2024": {"fs": 332, "fs_kind": "校线", "fs_sub": "42/42/126", "lo": 332, "hi": 389, "avg": 359, "n": 14, "unit": "临床医学院", "scope_note": "一志愿统考录取，不含推免/调剂（机构转载官方名单逐项分核验）", "note": "fs取自2024官方复试线；lo/hi/avg由14名考生初试分自算（332,337,340,340,341,347,355,363,366,369,376,380,389,389）"},
+        "2025": {"fs": 332, "fs_kind": "校线", "fs_sub": "42/42/126", "lo": null, "hi": null, "avg": 349, "n": 14, "unit": "临床医学院", "scope_note": "机构汇总全国105118专硕录取统计表（与旧库一致），官方名单未回验；不含推免", "note": "复试线2025官方公布332；lo/hi无来源标null"},
+        "2026": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到"}
+      },
+      "units": [],
+      "sources": [
+        {"year": "2024", "kind": "拟录取名单", "title": "成都医学院2024年硕士研究生招生考试拟录取名单公示（汇总，官方）", "url": "https://yjsy.cmc.edu.cn/info/1016/2127.htm"},
+        {"year": "2024", "kind": "机构整理", "title": "成都医学院105118麻醉学2024考研分数线（逐项转载官方名单）", "url": "https://kaoyan.koolearn.com/20241130/1786279.html"},
+        {"year": "2024", "kind": "复试分数线", "title": "2024成都医学院研究生分数线（105118麻醉学332）", "url": "https://www.dxsbb.com/news/45958.html"},
+        {"year": "2025", "kind": "拟录取名单", "title": "成都医学院2025年硕士研究生招生考试拟录取名单公示(汇总)（官方）", "url": "https://yjsy.cmc.edu.cn/info/1016/2356.htm"}
+      ]
+    }
+  ]
+}

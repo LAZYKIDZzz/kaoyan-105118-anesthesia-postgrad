@@ -82,7 +82,7 @@ def norm(name):
 wb_d = openpyxl.load_workbook(DECISION, data_only=True)
 wb_s = openpyxl.load_workbook(STATS, data_only=True)
 
-# --- 1) 三年复试线对比（91 校）
+# --- 1) 三年复试线对比（94 校）
 cutoffs = []
 ws = wb_s["三年复试线对比"]
 for r in range(3, ws.max_row + 1):
