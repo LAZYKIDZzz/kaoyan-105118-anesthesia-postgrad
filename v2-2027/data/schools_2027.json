@@ -1,0 +1,1085 @@
+{
+ "meta": {
+  "title": "2027年度 麻醉学专硕(105118) 招生院校名单",
+  "generated_at": "2026-09-21",
+  "code_year_note": "2027年招生简章/目录截至2026-09-21绝大多数未发布。名单口径：以2026年招生目录/简章为基准逐年核验，2027年目录发布后按校更新（研招网预计2026年10月开放2027目录查询）。",
+  "scope": "仅统计专业代码105118（麻醉学·专业学位）及105100临床医学专硕大类下明确含麻醉学方向/领域且统考可报的院校",
+  "excluded_regions": [
+   "云南",
+   "新疆",
+   "西藏",
+   "青海",
+   "广西"
+  ],
+  "excluded_regions_note": "按用户要求排除，名单内不含上述省区任何院校",
+  "counts": {
+   "total": 99,
+   "from_old_lib": 85,
+   "newly_verified": 14,
+   "note": "85 = 旧库94所排除5省区后；14 = 新东方名单有而旧库无且已逐一核验招105118者；另东南大学仅推免已标注"
+  }
+ },
+ "schools": [
+  {
+   "name": "上海交通大学",
+   "region": "上海",
+   "city": "上海",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录14人最低331",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "同济大学",
+   "region": "上海",
+   "city": "上海",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，985自划线",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "复旦大学",
+   "region": "上海",
+   "city": "上海",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，985自划线",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "海军军医大学",
+   "region": "上海",
+   "city": "上海",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录1人最低353",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "内蒙古医科大学",
+   "region": "内蒙古",
+   "city": "呼和浩特",
+   "code": "105118",
+   "admission_2026": {
+    "fs_line": 284,
+    "fs_kind": "B区国家线"
+   },
+   "note": "旧库成员，2025年录36人最低292。B区",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "内蒙古科技大学（包头医学院）",
+   "region": "内蒙古",
+   "city": "包头",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 27,
+    "subjects": "101+201英语一+306",
+    "fs_line": 284,
+    "fs_kind": "B区国家线"
+   },
+   "note": "2026招27人较2025年22人扩招；2024线294/39/117、2025线283。复试含临床技能实操（气管插管、CPR等）。B区线，350分以下重点观察对象",
+   "verified": true,
+   "source": "btmc.edu.cn 2026简章；路灯考研/启航2026目录"
+  },
+  {
+   "name": "北京协和医学院",
+   "region": "北京",
+   "city": "北京",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 7,
+    "subjects": "101+201英语一+306"
+   },
+   "note": "确认招生！2026目录105118统考7人（协和医院2/阜外2/整形外科1/中日友好2），另有100217学硕1人。顶级难度，实际录取预估350+",
+   "verified": true,
+   "source": "static.kaoyan.cn 2026统招目录PDF"
+  },
+  {
+   "name": "北京大学医学部",
+   "region": "北京",
+   "city": "北京",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员。顶级难度梯队",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "解放军医学院（301）",
+   "region": "北京",
+   "city": "北京",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 5,
+    "subjects": "101+201英语一+306",
+    "fs_line": 321,
+    "fs_kind": "教育部计划自划线"
+   },
+   "note": "确认招生，2026教育部计划105118招5人；但2026专硕临床医学教育部计划复试线321（远高于国家线294），军队/文职线另划。招生简章http://www.301graduate.mil.cn/info/1151/3154.htm。350分以下慎报",
+   "verified": true,
+   "source": "yz.chsi.com.cn复试通知；路灯考研目录"
+  },
+  {
+   "name": "首都医科大学",
+   "region": "北京",
+   "city": "北京",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录23人最低351",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "吉林大学",
+   "region": "吉林",
+   "city": "长春",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录33人最低364（偏高）",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "延边大学",
+   "region": "吉林",
+   "city": "延吉",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录37人最低309。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "长春中医药大学",
+   "region": "吉林",
+   "city": "长春",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 2,
+    "subjects": "101+201英语一+306",
+    "fs_line": 294,
+    "fs_kind": "A区国家线"
+   },
+   "note": "新增确认：临床医学院105118招2人（2022年为5人）。重要信号：2026年调剂公告显示105118缺额2人，一志愿未招满，接受1051大类306统考调剂。低分档高价值",
+   "verified": true,
+   "source": "y.ccucm.edu.cn 2026调剂公告；路灯考研"
+  },
+  {
+   "name": "四川大学",
+   "region": "四川",
+   "city": "成都",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，985，2025录7人最低359",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "川北医学院",
+   "region": "四川",
+   "city": "南充",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录22人最低331",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "成都中医药大学",
+   "region": "四川",
+   "city": "成都",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 4,
+    "fs_line": 313,
+    "fs_kind": "2026校线"
+   },
+   "note": "新增确认：医学与生命科学学院105118招4人，2026复试线313（高于国家线19分）。低分档重点候选",
+   "verified": true,
+   "source": "2026目录检索核验"
+  },
+  {
+   "name": "成都医学院",
+   "region": "四川",
+   "city": "成都",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录14人",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "电子科技大学",
+   "region": "四川",
+   "city": "成都",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，985，2025录9人最低361",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "西南医科大学",
+   "region": "四川",
+   "city": "泸州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录26人最低356",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "天津医科大学",
+   "region": "天津",
+   "city": "天津",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，211，2025录10人最低361",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "宁夏医科大学",
+   "region": "宁夏",
+   "city": "银川",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录20人最低294。B区，低分档重点候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "安徽医科大学",
+   "region": "安徽",
+   "city": "合肥",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录47人最低308",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "皖南医学院",
+   "region": "安徽",
+   "city": "芜湖",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录42人最低304。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "蚌埠医科大学",
+   "region": "安徽",
+   "city": "蚌埠",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录29人最低323",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "山东大学",
+   "region": "山东",
+   "city": "济南",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，985自划线，2026复试线340",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "山东第一医科大学",
+   "region": "山东",
+   "city": "泰安/济南",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录28人最低297。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "山东第二医科大学",
+   "region": "山东",
+   "city": "潍坊",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录30人最低326",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "济宁医学院",
+   "region": "山东",
+   "city": "济宁",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录4人",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "滨州医学院",
+   "region": "山东",
+   "city": "烟台",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录5人最低306。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "青岛大学",
+   "region": "山东",
+   "city": "青岛",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录22人",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "山西医科大学",
+   "region": "山西",
+   "city": "太原",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录42人最低334",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "长治医学院",
+   "region": "山西",
+   "city": "长治",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录17人",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "中山大学",
+   "region": "广东",
+   "city": "广州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，985，2025录29人（各附院分散）。高分梯队",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "南方医科大学",
+   "region": "广东",
+   "city": "广州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录16人最低317",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "广东医科大学",
+   "region": "广东",
+   "city": "湛江/东莞",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录28人最低332",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "广东省心血管病研究所",
+   "region": "广东",
+   "city": "广州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录6人最低316",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "广东药科大学",
+   "region": "广东",
+   "city": "广州",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 2,
+    "subjects": "101+201英语一+306"
+   },
+   "note": "新增确认：105118招2人。名额少",
+   "verified": true,
+   "source": "2026目录检索核验"
+  },
+  {
+   "name": "广州医科大学",
+   "region": "广东",
+   "city": "广州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录28人最低317",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "暨南大学",
+   "region": "广东",
+   "city": "广州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录14人最低323",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "汕头大学",
+   "region": "广东",
+   "city": "汕头",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 9,
+    "tm": 1
+   },
+   "note": "新增确认：105118招9人（含推免1）。低分档候选",
+   "verified": true,
+   "source": "2026目录检索核验"
+  },
+  {
+   "name": "东南大学",
+   "region": "江苏",
+   "city": "南京",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 0,
+    "unified_exam": false
+   },
+   "note": "重要修正：105100下麻醉方向仅招推免，统考通道关闭→统考不可报。名单保留但标注'仅推免'，数据采集与350分分析均排除其统考数据",
+   "verified": true,
+   "source": "2026目录核验"
+  },
+  {
+   "name": "南京医科大学",
+   "region": "江苏",
+   "city": "南京",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录42人最低337",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "南京大学",
+   "region": "江苏",
+   "city": "南京",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "确认保留：105100大类下含麻醉方向，2026统考108人（含麻醉）。985自划线，分数高",
+   "verified": true,
+   "source": "2026目录核验"
+  },
+  {
+   "name": "南通大学",
+   "region": "江苏",
+   "city": "南通",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录23人最低319",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "徐州医科大学",
+   "region": "江苏",
+   "city": "徐州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员（麻醉学名校），约90人",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "扬州大学",
+   "region": "江苏",
+   "city": "扬州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录8人最低299。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "江南大学",
+   "region": "江苏",
+   "city": "无锡",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录8人最低337",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "江苏大学",
+   "region": "江苏",
+   "city": "镇江",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录8人最低299。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "苏州大学",
+   "region": "江苏",
+   "city": "苏州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录10人最低374（很高）",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "南昌大学",
+   "region": "江西",
+   "city": "南昌",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录61人最低327",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "赣南医科大学",
+   "region": "江西",
+   "city": "赣州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录14人最低303。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "华北理工大学",
+   "region": "河北",
+   "city": "唐山",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 14,
+    "subjects": "101+201英语一+306",
+    "fs_line": 294,
+    "fs_kind": "A区国家线"
+   },
+   "note": "新增确认：2026目录105118招14人（2025年9人扩招）。复试科目临床麻醉学。限临床医学类五年制全日制本科。350分以下重点候选（实际录取通常高于国家线10-20分）",
+   "verified": true,
+   "source": "华北理工2026招生目录PDF(gx211)；新东方在线"
+  },
+  {
+   "name": "承德医学院",
+   "region": "河北",
+   "city": "承德",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录16人最低343",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "河北北方学院",
+   "region": "河北",
+   "city": "张家口",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 15,
+    "subjects": "101+201英语一+306"
+   },
+   "note": "新增确认：第一临床医学院105118招15人。低分档候选",
+   "verified": true,
+   "source": "2026目录检索核验"
+  },
+  {
+   "name": "河北医科大学",
+   "region": "河北",
+   "city": "石家庄",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录32人最低361（偏高）",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "新乡医学院",
+   "region": "河南",
+   "city": "新乡",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "河南大学",
+   "region": "河南",
+   "city": "开封",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录18人",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "河南科技大学",
+   "region": "河南",
+   "city": "洛阳",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 5,
+    "subjects": "101+201英语一+306"
+   },
+   "note": "新增确认：临床医学院105118招5人。低分档候选",
+   "verified": true,
+   "source": "2026目录检索核验"
+  },
+  {
+   "name": "郑州大学",
+   "region": "河南",
+   "city": "郑州",
+   "code": "105118",
+   "admission_2026": {
+    "fs_line": 370,
+    "fs_kind": "一附院院线"
+   },
+   "note": "确认保留：105118独立招生（三附院目录4人/一附院拟招14人）。关键数据：一附院2026院线370（55/55/190），拟录取名单显示一附院麻醉14人全部录取。高分梯队，350分以下基本无望一附院，但注意省医/五附院等院线较低",
+   "verified": true,
+   "source": "zdyfy.com综合排序公示；宏医教育"
+  },
+  {
+   "name": "宁波大学",
+   "region": "浙江",
+   "city": "宁波",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录13人最低307。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "杭州师范大学",
+   "region": "浙江",
+   "city": "杭州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录2人最低359",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "浙江中医药大学",
+   "region": "浙江",
+   "city": "杭州",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 14,
+    "subjects": "101+201英语一+306",
+    "fs_line": 294,
+    "fs_kind": "A区国家线"
+   },
+   "note": "新增确认：2026目录105118招14人（一临/二临/四临/五临/联合培养基地）。另一来源录13人。350分以下重点候选",
+   "verified": true,
+   "source": "yanzhaowang 2026目录；路灯考研"
+  },
+  {
+   "name": "浙江大学",
+   "region": "浙江",
+   "city": "杭州",
+   "code": "105118",
+   "admission_2026": {
+    "fs_line": 380,
+    "fs_kind": "校线"
+   },
+   "note": "确认保留：105100大类下麻醉方向2026实际录取10人（一附院3人最低395/二附院3人最低391/国际医学院2人最低387/妇产院2人最低386），校线380。分数远超350，顶级梯队",
+   "verified": true,
+   "source": "李睿马威26拟录取名单；浙大医学院复试方案"
+  },
+  {
+   "name": "温州医科大学",
+   "region": "浙江",
+   "city": "温州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录49人最低295。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "湖州师范学院",
+   "region": "浙江",
+   "city": "湖州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录5人最低347",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "绍兴文理学院",
+   "region": "浙江",
+   "city": "绍兴",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录5人最低335",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "海南医科大学",
+   "region": "海南",
+   "city": "海口",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录9人最低338",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "华中科技大学",
+   "region": "湖北",
+   "city": "武汉",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "确认保留：一临床(协和医院)/二临床(同济医院)105100下均含麻醉学方向，招生计划330/328人（含推免），拟招推免约50%。985，分数高",
+   "verified": true,
+   "source": "华中科大2026专业目录"
+  },
+  {
+   "name": "武汉大学",
+   "region": "湖北",
+   "city": "武汉",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "确认保留：105100大类下含麻醉，一临/二临2026各招79/68个统考名额（105100总盘子，含麻醉方向），院线360。高分梯队",
+   "verified": true,
+   "source": "rmhospital.com/znhospital.cn 2026复试细则"
+  },
+  {
+   "name": "武汉科技大学",
+   "region": "湖北",
+   "city": "武汉",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "新增确认：招105118",
+   "verified": true,
+   "source": "2026目录检索核验"
+  },
+  {
+   "name": "湖北医药学院",
+   "region": "湖北",
+   "city": "十堰",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 14,
+    "subjects": "101+201英语一+306"
+   },
+   "note": "新增确认：招14人。2025录14人最低309。低分档重点候选",
+   "verified": true,
+   "source": "2026目录检索核验；旧库佐证"
+  },
+  {
+   "name": "长江大学",
+   "region": "湖北",
+   "city": "荆州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "新增确认：招105118",
+   "verified": true,
+   "source": "2026目录检索核验"
+  },
+  {
+   "name": "中南大学",
+   "region": "湖南",
+   "city": "长沙",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，985，2025录24人最低351",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "南华大学",
+   "region": "湖南",
+   "city": "衡阳",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "确认保留：105100下麻醉方向，2026有3+40名额（学硕+专硕结构待细分）。低分档观察",
+   "verified": true,
+   "source": "2026目录核验"
+  },
+  {
+   "name": "吉首大学",
+   "region": "湖南",
+   "city": "吉首",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 6,
+    "subjects": "101+201英语一+306",
+    "fs_line": 294,
+    "fs_kind": "A区国家线"
+   },
+   "note": "新增确认：官方2026简章PDF明确★105118麻醉学全日制6人（另一来源录3人）。只招临床五年制全日制本科；规培已合格/在读及同等学力不得报考。低分档候选",
+   "verified": true,
+   "source": "yjsc.jsu.edu.cn 2026简章PDF；路灯考研"
+  },
+  {
+   "name": "湖南师范大学",
+   "region": "湖南",
+   "city": "长沙",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录7人",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "兰州大学",
+   "region": "甘肃",
+   "city": "兰州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，985自划线，2025录16人最低328",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "甘肃中医药大学",
+   "region": "甘肃",
+   "city": "兰州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录14人。B区",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "西北民族大学",
+   "region": "甘肃",
+   "city": "兰州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录2人，283国家线。B区，低分档",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "厦门大学",
+   "region": "福建",
+   "city": "厦门",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录3人最低304。985但名额极少",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "福建医科大学",
+   "region": "福建",
+   "city": "福州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录34人最低345",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "贵州医科大学",
+   "region": "贵州",
+   "city": "贵阳",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录21人最低319。B区",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "遵义医科大学",
+   "region": "贵州",
+   "city": "遵义",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录36人最低306。B区，低分档重点候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "中国医科大学",
+   "region": "辽宁",
+   "city": "沈阳",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录42人最低305",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "大连医科大学",
+   "region": "辽宁",
+   "city": "大连",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录45人最低310",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "大连大学",
+   "region": "辽宁",
+   "city": "大连",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 2,
+    "subjects": "101+201英语一+306"
+   },
+   "note": "新增确认：中山临床学院105118招2人。名额少",
+   "verified": true,
+   "source": "2026目录检索核验"
+  },
+  {
+   "name": "大连理工大学",
+   "region": "辽宁",
+   "city": "大连",
+   "code": "105118",
+   "admission_2026": {
+    "plan": 1,
+    "fs_line": 300,
+    "fs_kind": "2026校线"
+   },
+   "note": "确认保留：985医学部105118统考仅1人，2026校线300（45/45/170），且2026一志愿未招满发布调剂缺额。名额极少风险大，但985平台+调剂缺额信号值得关注",
+   "verified": true,
+   "source": "med.dlut.edu.cn 2026复试办法/调剂通知"
+  },
+  {
+   "name": "沈阳医学院",
+   "region": "辽宁",
+   "city": "沈阳",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录8人",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "锦州医科大学",
+   "region": "辽宁",
+   "city": "锦州",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录42人最低307。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "重庆医科大学",
+   "region": "重庆",
+   "city": "重庆",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录26人最低360",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "陆军军医大学",
+   "region": "重庆",
+   "city": "重庆",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录3人最低363",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "延安大学",
+   "region": "陕西",
+   "city": "延安",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录29人。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "西安交通大学",
+   "region": "陕西",
+   "city": "西安",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，985自划线，2025录7人最低373",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "西安医学院",
+   "region": "陕西",
+   "city": "西安",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录18人最低322",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "陕西中医药大学",
+   "region": "陕西",
+   "city": "咸阳",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录2人最低297。低分档候选",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "佳木斯大学",
+   "region": "黑龙江",
+   "city": "佳木斯",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录6人最低356",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "哈尔滨医科大学",
+   "region": "黑龙江",
+   "city": "哈尔滨",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录10人最低348",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "牡丹江医科大学",
+   "region": "黑龙江",
+   "city": "牡丹江",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录18人",
+   "verified": true,
+   "source": "旧库data.json"
+  },
+  {
+   "name": "齐齐哈尔医学院",
+   "region": "黑龙江",
+   "city": "齐齐哈尔",
+   "code": "105118",
+   "admission_2026": {},
+   "note": "旧库成员，2025录5人",
+   "verified": true,
+   "source": "旧库data.json"
+  }
+ ]
+}
