@@ -1,0 +1,134 @@
+{
+  "group": 7,
+  "generated_at": "2026-09-21",
+  "schools": [
+    {
+      "name": "中国医科大学",
+      "region": "辽宁",
+      "city": "沈阳",
+      "level": "省属重点",
+      "existing": {"lo": 305, "avg": 363, "n": 42, "fy": "2025"},
+      "verdict": "修正",
+      "verdict_reason": "现有2025单年快照(lo305/avg363/n42)来自旧库未附官方URL。核查到该校2025、2026复试线均为1051专硕305(校线,单科45/45/170)有据;但2024–2026三年统考拟录取名单官方页已404/需验证码,无法回验录取人数与均分,故lo/hi/avg/n按纪律标null,仅保留可溯源复试线。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到2024官方统考拟录取名单,无法回验"},
+        "2025": {"fs": 305, "fs_kind": "校线", "fs_sub": "45/45/170", "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "1051专硕门类线", "note": "复试线1051专硕305有据;统考拟录取名单(cmu.edu.cn/cmuyjs/info/1900/9630.htm)404,未能回验lo/hi/avg/n,旧库avg363/n42未采信"},
+        "2026": {"fs": 305, "fs_kind": "校线", "fs_sub": "45/45/170", "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "1051专硕门类线", "note": "复试线1051专硕305(研招网);统考拟录取名单未回验,lo/hi/avg/n标null"}
+      },
+      "units": [],
+      "sources": [
+        {"year": "2025", "kind": "复试分数线", "title": "中国医科大学2025硕士复试分数线(1051专硕305)", "url": "https://static.kaoyan.cn/file/2025/04/21/e28ffaa8c674209d0111356d521d6dc8.pdf"},
+        {"year": "2026", "kind": "复试分数线", "title": "中国医科大学2026硕士复试分数线(1051专硕305)", "url": "https://yz.chsi.com.cn/wap/sch/detail?schId=368048&categoryId=671014&infoId=3541471170"},
+        {"year": "2025", "kind": "拟录取名单", "title": "中国医科大学2025统考拟录取名单公示(官网已404,未回验)", "url": "https://www.cmu.edu.cn/cmuyjs/info/1900/9630.htm"}
+      ]
+    },
+    {
+      "name": "沈阳医学院",
+      "region": "辽宁",
+      "city": "沈阳",
+      "level": "省属",
+      "existing": {"lo": null, "avg": 343, "n": 8, "fy": "2025"},
+      "verdict": "修正",
+      "verdict_reason": "现有2025(avg343/n8)无官方URL且无法回验。该校执行A区国家线(2025=293),复试线可确定;但一志愿拟录取名单附件需验证码,录取明细未能官方回验,故lo/hi/avg/n标null,仅保留复试线。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到2024官方统考拟录取名单"},
+        "2025": {"fs": 293, "fs_kind": "国家线", "fs_sub": "36/36/108", "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "执行A区国家线,未设院线", "note": "一志愿拟录取名单(yjsjy.symc.edu.cn/info/1134/14158.htm)附件需验证码,未能回验;旧库avg343/n8未采信"},
+        "2026": {"fs": 294, "fs_kind": "国家线", "fs_sub": "36/36/108", "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "执行A区国家线,未设院线", "note": "统考拟录取名单未回验,lo/hi/avg/n标null"}
+      },
+      "units": [],
+      "sources": [
+        {"year": "2025", "kind": "拟录取名单", "title": "沈阳医学院2025一志愿拟录取名单公示(附件需验证码)", "url": "https://yjsjy.symc.edu.cn/info/1134/14158.htm"},
+        {"year": "2025", "kind": "复试分数线", "title": "A区国家线2025(293/36/108)", "url": "https://yz.chsi.com.cn/kyzx/zt/lnfsx/"}
+      ]
+    },
+    {
+      "name": "大连医科大学",
+      "region": "辽宁",
+      "city": "大连",
+      "level": "省属重点",
+      "existing": {"lo": 298, "avg": 340, "n": 48, "fy": "2025"},
+      "verdict": "修正",
+      "verdict_reason": "现有2025(lo298/avg340/n48)高度可疑且无法回验,已标null。补充经用户转述的2026官方窗口数据(按三培养单位拆分):一院20人/二院22人/北部战区3人,合计45人。2025因一志愿拟录取zip需验证码,录取明细未能官方回验。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到2024官方统考拟录取名单"},
+        "2025": {"fs": 293, "fs_kind": "国家线", "fs_sub": "36/36/108", "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "执行A区国家线,未设院线", "note": "一志愿拟录取zip(yjs.dmu.edu.cn/info/1017/8845.htm)需验证码;机构整理仅给招生计划(一院21/二院17/北部战区3专硕)非录取数,未回验;旧库lo298/avg340/n48未采信"},
+        "2026": {"fs": 294, "fs_kind": "国家线", "fs_sub": "36/36/108", "lo": 310, "hi": 412, "avg": 364, "n": 45, "unit": "—（见units）", "scope_note": "统考拟录取(据用户转述官方窗口)", "note": "大连执行A区国家线未设院线;数据源自2026拟录取公示官方窗口,按三培养单位拆分见units"}
+      },
+      "units": [
+        {"year": "2026", "unit": "附属第一医院及所辖基地", "fs": 294, "lo": 310, "hi": 412, "avg": 361, "n": 20, "scope_note": "一志愿统考(据官方窗口)"},
+        {"year": "2026", "unit": "附属第二医院及所辖基地", "fs": 294, "lo": 345, "hi": 401, "avg": 367, "n": 22, "scope_note": "一志愿统考(据官方窗口)"},
+        {"year": "2026", "unit": "北部战区总医院培养基地", "fs": 294, "lo": 344, "hi": 395, "avg": 369, "n": 3, "scope_note": "一志愿统考(据官方窗口)"}
+      ],
+      "sources": [
+        {"year": "2026", "kind": "拟录取名单", "title": "大连医科大学2026一志愿拟录取名单公示(官方窗口数据,用户转述)", "url": "https://yjs.dmu.edu.cn/info/1017/9295.htm"},
+        {"year": "2025", "kind": "拟录取名单", "title": "大连医科大学2025一志愿拟录取名单(zip需验证码)", "url": "https://yjs.dmu.edu.cn/info/1017/8845.htm"},
+        {"year": "2026", "kind": "复试分数线", "title": "A区国家线2026(294/36/108)", "url": "https://yz.chsi.com.cn/kyzx/zt/lnfsx/"}
+      ]
+    },
+    {
+      "name": "锦州医科大学",
+      "region": "辽宁",
+      "city": "锦州",
+      "level": "省属",
+      "existing": {"lo": 307, "avg": 332, "n": 42, "fy": "2025"},
+      "verdict": "修正",
+      "verdict_reason": "现有2025(lo307/avg332/n42)无官方URL且无法回验。该校执行A区国家线(2025=293),复试线可确定;但一志愿拟录取名单官方页已404,录取明细未能官方回验,故lo/hi/avg/n标null,仅保留复试线。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到2024官方统考拟录取名单"},
+        "2025": {"fs": 293, "fs_kind": "国家线", "fs_sub": "36/36/108", "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "执行A区国家线,未设院线", "note": "一志愿拟录取名单(yjsc.jzmu.edu.cn/info/1131/4957.htm)访问404,未能回验;旧库lo307/avg332/n42未采信"},
+        "2026": {"fs": 294, "fs_kind": "国家线", "fs_sub": "36/36/108", "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "执行A区国家线,未设院线", "note": "统考拟录取名单未回验,lo/hi/avg/n标null"}
+      },
+      "units": [],
+      "sources": [
+        {"year": "2025", "kind": "拟录取名单", "title": "锦州医科大学2025一志愿拟录取名单(官网404)", "url": "https://yjsc.jzmu.edu.cn/info/1131/4957.htm"},
+        {"year": "2025", "kind": "复试分数线", "title": "A区国家线2025(293/36/108)", "url": "https://yz.chsi.com.cn/kyzx/zt/lnfsx/"}
+      ]
+    },
+    {
+      "name": "吉林大学",
+      "region": "吉林",
+      "city": "长春",
+      "level": "985",
+      "existing": {"lo": 326, "avg": 375, "n": 28, "fy": "2025"},
+      "verdict": "修正",
+      "verdict_reason": "现有2025单年快照(lo326/avg375/n28)仅笼统计总数,须按白求恩一/二/三院拆分。已据官方统考拟录取名单逐页核实:2025非定向统考28人(一院12/二院1/三院15,一院另含定向少民2人计30),2026统考33人(一院14/二院3/三院16,均分391)。基线28与拆分后非定向合计一致,判定修正并补2026。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到2024官方统考拟录取名单,无法回验"},
+        "2025": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": 326, "hi": 399, "avg": 375, "n": 28, "unit": "—（见units）", "scope_note": "统考拟录取(一志愿+调剂合计,不含推免);主统计为非定向,一院另含定向少民2人计n=30", "note": "各院区自定复试线,仅二院2025复试线310可考,一院/三院未单独公布;数据源自yzb.jlu.edu.cn官方统考拟录取PDF"},
+        "2026": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": 364, "hi": 420, "avg": 391, "n": 33, "unit": "—（见units）", "scope_note": "统考拟录取(一志愿+调剂合计,不含推免)", "note": "各院区自定复试线,官方名单未列明fs;数据源自yjsy.jlu.edu.cn官方统考拟录取PDF"}
+      },
+      "units": [
+        {"year": "2025", "unit": "白求恩第一临床医学院(703)", "fs": null, "lo": 354, "hi": 395, "avg": 375, "n": 12, "scope_note": "统考非定向;另含定向少数民族骨干2人(310/312)"},
+        {"year": "2025", "unit": "白求恩第二临床医学院(704)", "fs": 310, "lo": 326, "hi": 326, "avg": 326, "n": 1, "scope_note": "统考非定向;复试线310"},
+        {"year": "2025", "unit": "白求恩第三临床医学院(705)", "fs": null, "lo": 360, "hi": 399, "avg": 378, "n": 15, "scope_note": "统考非定向"},
+        {"year": "2026", "unit": "白求恩第一临床医学院(703)", "fs": null, "lo": 380, "hi": 413, "avg": 397, "n": 14, "scope_note": "统考拟录取"},
+        {"year": "2026", "unit": "白求恩第二临床医学院(704)", "fs": null, "lo": 366, "hi": 374, "avg": 370, "n": 3, "scope_note": "统考拟录取"},
+        {"year": "2026", "unit": "白求恩第三临床医学院(705)", "fs": null, "lo": 364, "hi": 420, "avg": 389, "n": 16, "scope_note": "统考拟录取"}
+      ],
+      "sources": [
+        {"year": "2025", "kind": "拟录取名单", "title": "吉林大学2025年统考硕士研究生拟录取名单(官方PDF,含105118按院区)", "url": "http://yzb.jlu.edu.cn/info/1004/1729.htm"},
+        {"year": "2026", "kind": "拟录取名单", "title": "吉林大学2026年统考硕士研究生拟录取名单(官方PDF,含105118按院区)", "url": "https://yjsy.jlu.edu.cn/info/1011/6391.htm"},
+        {"year": "2025", "kind": "复试分数线", "title": "吉大二院2025复试线310(麻醉学)", "url": "https://m.kaoyan.cn:10443/news/242265"}
+      ]
+    },
+    {
+      "name": "延边大学",
+      "region": "吉林",
+      "city": "延吉",
+      "level": "211",
+      "existing": {"lo": 309, "avg": 336, "n": 37, "fy": "2025"},
+      "verdict": "修正",
+      "verdict_reason": "现有2025(lo309/avg336/n37)无官方URL且无法回验。延边属A区,2025国家线293(机构整理误列283为B区线,已纠正);一志愿拟录取名单附件需验证码,录取明细未能官方回验,故lo/hi/avg/n标null,仅保留复试线。外国语可用日语203/俄语202须在note注明。",
+      "years": {
+        "2024": {"fs": null, "fs_kind": "未公布", "fs_sub": null, "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "", "note": "未检索到2024官方统考拟录取名单"},
+        "2025": {"fs": 293, "fs_kind": "国家线", "fs_sub": "36/36/108", "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "执行A区国家线;外国语可选201英/203日/202俄", "note": "一志愿拟录取名单(grad.ybu.edu.cn/info/1188/6482.htm)需验证码,未能回验;旧库lo309/avg336/n37未采信;机构整理误列283(B区线),延边属A区应为293"},
+        "2026": {"fs": 294, "fs_kind": "国家线", "fs_sub": "36/36/108", "lo": null, "hi": null, "avg": null, "n": null, "unit": "—", "scope_note": "执行A区国家线;外国语可选201英/203日/202俄", "note": "统考拟录取名单未回验,lo/hi/avg/n标null"}
+      },
+      "units": [],
+      "sources": [
+        {"year": "2025", "kind": "拟录取名单", "title": "延边大学2025一志愿拟录取名单(附件需验证码)", "url": "https://grad.ybu.edu.cn/info/1188/6482.htm"},
+        {"year": "2025", "kind": "复试分数线", "title": "A区国家线2025(293/36/108);延边属A区", "url": "https://yz.chsi.com.cn/kyzx/zt/lnfsx/"}
+      ]
+    }
+  ]
+}
