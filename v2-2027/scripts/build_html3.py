@@ -23,6 +23,15 @@ DATA = json.dumps(rows, ensure_ascii=False)
 cand = [r for r in rows if r['g'] and r['g'] <= 350]
 tiers = [('保底 ≤300', 0, 300), ('稳妥 301-315', 301, 315), ('进取 316-330', 316, 330), ('临界 331-350', 331, 350)]
 tier_counts = {lab: len([r for r in cand if a <= r['g'] <= b]) for lab, a, b in tiers}
+full = len([r for r in rows if all(r['y'][yr]['f'] or r['y'][yr]['l'] for yr in YEARS)])
+gen  = len([s for s in D if s['gate'] is None
+            and any(s['y'][yr].get('fs_scope') == '大类' for yr in YEARS)])
+nj   = len([s for s in D if s['gate'] is None
+            and any(s['y'][yr].get('fs_scope') == '学硕' for yr in YEARS)])
+army = len([s for s in D if s['gate'] is None
+            and not any(s['y'][yr].get('fs_scope') in ('大类', '学硕') for yr in YEARS)])
+high = len([s for s in D if s['gate'] and s['gate'] > 350
+            and not all(s['y'][yr]['fs'] or s['y'][yr]['lo'] for yr in YEARS)])
 
 html = """<!DOCTYPE html>
 <html lang="zh-CN">
@@ -135,21 +144,22 @@ body{background:var(--paper);color:var(--ink);
   <div class="sub">2024 / 2025 / 2026 实际进复试线与录取最低分 · 已排除云南 新疆 西藏 青海 广西</div>
   <div class="kpis">
     <div class="kpi"><b>__TOTAL__</b><span>院校总数</span></div>
+    <div class="kpi"><b>__FULL__</b><span>三年数据齐全</span></div>
     <div class="kpi"><b>__CAND__</b><span>350分以下可选</span></div>
-    <div class="kpi"><b>294</b><span>2026 A区国家线</span></div>
-    <div class="kpi"><b>284</b><span>2026 B区国家线</span></div>
+    <div class="kpi"><b>__LOW__</b><span>保底 ≤300</span></div>
   </div>
 </header>
 
 <div class="insight">
-  <h3>三个必须先看懂的区别</h3>
-  <p>① <em>复试线 ≠ 录取线</em>。西南医科大学2026复试线325，但实际录取最低341；长江大学复试线只有294，实际录取却要353。<span class="hi">决定能否上岸的是「录取最低分」，不是校线。</span></p>
-  <p>② <em>三年波动可能极大</em>。河南大学：343 → 323 → 294（三年降49分）；牡丹江医科大学：304 → 299 → 322（2026 一年涨23分）；西南医科大学：306 → 351 → 325。<span class="hi">只看某一年的线会误判。</span></p>
-  <p>③ <em>同校不同培养单位能差 60 分以上</em>。徐州医科大麻醉学院332分，而其鼓楼临床学院、附属淮安医院按校线294执行；郑州大学一附院370，三附院310。<span class="hi">报哪个附院，比考多少分更重要。</span></p>
+  <h3>四个必须先看懂的区别</h3>
+  <p>① <em>复试线 ≠ 录取线</em>。济宁医学院2026复试线就是国家线294，但实际录取最低305、最高369；广东医科大学2025校线293，实际录取最低327；西南医科大学2026复试线325，实际录取最低341。<span class="hi">决定能否上岸的是「实际录取最低分」，不是复试线。</span></p>
+  <p>② <em>三年波动可能极大</em>。电子科技大学麻醉学院线：365 → 360 → 305（三年降60分）；苏州大学进复试最低分：347 → 318 → 374（波动56分，2026年缩招至6人后暴涨）；天津医科大学自划线：344 → 361 → 344。<span class="hi">只看某一年的线一定会误判。</span></p>
+  <p>③ <em>同校不同培养单位能差几十到上百分</em>。2026年华中科技大学：附属协和医院（一临）345分，附属同济医院（二临）370分；2024年吉林大学：白求恩一临337分，二临/三临320分；徐州医科大麻醉学院332分，而其鼓楼临床学院、附属淮安医院按校线294执行。<span class="hi">报哪个附院，比考多少分更重要。</span></p>
+  <p>④ <em>院线之外还有「暗线」</em>。东南大学2026临床医学专硕院线305，但麻醉方向实际进复试最低327——中间22分无人；该校校线294、院线305、实际327是三个不同数字。<span class="hi">拿院线当备考目标，风险极高。</span></p>
 </div>
 
 <div class="warn">
-  <b>参考门槛口径</b>：取该校 2024–2026 三年中<b>最低的实际录取最低分</b>（若三年都未公布录取分，则取最低的实际进复试线）。它代表「历史上最宽松的一年，多少分能进」。卡上的大字即此门槛，下方小字标明依据。
+  <b>参考门槛口径</b>：取该校 2024–2026 三年中<b>最低的实际录取最低分</b>（若三年都未公布录取分，则取最低的实际进复试线）。它代表「历史上最宽松的一年，多少分能进」。卡上的大字即此门槛，下方小字标明依据。<b>不采用国家线充当院校门槛</b>；仅公布「临床医学大类」校线或「100217学硕」线、无 105118 专硕线者（复旦大学、北京协和医学院、北京大学医学部、南京大学、中南大学）不计入350以下候选，避免误判。
 </div>
 
 <div class="ctrl">
@@ -167,8 +177,9 @@ body{background:var(--paper);color:var(--ink);
 
 <div class="foot">
   <b>数据来源与说明</b><br>
-  · 复试线（蓝）取自各校研究生院官方《进入复试初试成绩基本要求 / 复试分数线》或官方拟录取公示；标注「国家线」表示该校当年未自划线、直接执行国家线。<br>
+  · 复试线（蓝）取自各校研究生院官方《进入复试初试成绩基本要求 / 复试分数线》原文或官方 PDF；标注「国家线」表示该校当年未自划线、直接执行国家线。<br>
   · 录取最低分（红）为当年统考实际录取考生中的最低初试总分，取自官方拟录取名单；部分院校官方名单已过公示期下线，由机构来源补齐并保留出处。<br>
+  · <b>数据完整性</b>：99 所院校中 __FULL__ 所已补齐 2024/2025/2026 三年实际数据。另有 __GEN__ 所（复旦大学、北京协和医学院、北京大学医学部、中南大学）仅公布「临床医学大类」校线、__NJ__ 所（南京大学）仅公布「100217麻醉学学硕」线，均无 105118 专硕线，已标注但不列入350以下池；__ARMY__ 所军队院校（海军军医、陆军军医）分数线未公开；余 __HIGH__ 所门槛高于350分，年份待补，不影响本表用途。<br>
   · 2025 年录取人数/均分含机构全国不完全统计（总量1631人、加权均分349），已与南昌大学61人、河北医科44人、广东医科31人等多校官方数据交叉吻合。<br>
   · 本页仅为数据整理，报考请以目标院校研究生院当年最新公告为准。
 </div>
@@ -256,7 +267,11 @@ render();
 </body>
 </html>
 """
-html = html.replace('__DATA__', DATA).replace('__TOTAL__', str(len(rows))).replace('__CAND__', str(len(cand)))
+html = html.replace('__DATA__', DATA).replace('__TOTAL__', str(len(rows))) \
+           .replace('__FULL__', str(full)).replace('__CAND__', str(len(cand))) \
+           .replace('__LOW__', str(tier_counts['保底 ≤300'])) \
+           .replace('__GEN__', str(gen)).replace('__NJ__', str(nj)) \
+           .replace('__ARMY__', str(army)).replace('__HIGH__', str(high))
 out = os.path.join(V2, 'html', 'years3.html')
 os.makedirs(os.path.dirname(out), exist_ok=True)
 open(out, 'w', encoding='utf-8').write(html)
