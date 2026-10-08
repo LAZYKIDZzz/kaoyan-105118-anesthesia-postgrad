@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#173149">
+<title>105118 麻醉学专硕 2027 报考速查总表</title>
+<style>
+  :root {
+    color-scheme: light;
+    --paper: oklch(96% 0.018 83);
+    --paper-deep: oklch(91% 0.026 81);
+    --card: oklch(98.5% 0.008 83);
+    --ink: oklch(27% 0.045 242);
+    --ink-soft: oklch(43% 0.035 242);
+    --ink-faint: oklch(58% 0.022 242);
+    --navy: oklch(29% 0.065 242);
+    --navy-deep: oklch(21% 0.05 242);
+    --line: oklch(78% 0.025 82);
+    --accent: oklch(58% 0.17 31);
+    --focus: oklch(63% 0.16 245);
+    --t1: oklch(58% 0.17 31);
+    --t2: oklch(60% 0.13 63);
+    --t3: oklch(52% 0.09 152);
+    --t4: oklch(52% 0.09 240);
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--navy-deep); scroll-behavior: smooth; }
+  body {
+    margin: 0; min-height: 100vh; color: var(--ink);
+    background: linear-gradient(90deg, transparent 0 1.45rem, color-mix(in oklch, var(--accent) 22%, transparent) 1.45rem 1.5rem, transparent 1.5rem), var(--paper);
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    line-height: 1.6; padding: 0 0 max(2rem, env(safe-area-inset-bottom));
+  }
+  a { color: inherit; }
+  button, input, select { font: inherit; min-height: 44px; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+  .masthead {
+    position: relative; overflow: hidden; color: oklch(96% 0.018 83);
+    background: var(--navy); padding: clamp(2rem, 7vw, 4.5rem) clamp(1.25rem, 6vw, 5rem) clamp(1.75rem, 5vw, 3rem);
+    border-bottom: 5px solid var(--accent);
+  }
+  .masthead::after {
+    content: attr(data-mark); position: absolute; right: -.02em; bottom: -.42em;
+    font-family: Georgia, "Times New Roman", serif; font-size: clamp(6rem, 26vw, 15rem);
+    font-weight: 700; line-height: 1; letter-spacing: -.07em;
+    color: color-mix(in oklch, var(--paper) 7%, transparent); pointer-events: none;
+  }
+  .nav {
+    position: relative; z-index: 2; display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 1.2rem;
+  }
+  .nav a {
+    display: inline-flex; align-items: center; gap: .35rem; padding: .45rem .9rem; border-radius: 999px;
+    border: 1px solid color-mix(in oklch, var(--paper) 34%, transparent);
+    background: color-mix(in oklch, var(--paper) 12%, transparent);
+    color: oklch(94% 0.02 236); font-size: .84rem; font-weight: 600; text-decoration: none;
+  }
+  .nav a:hover { background: color-mix(in oklch, var(--paper) 24%, transparent); }
+  .nav a[aria-current="page"] { background: var(--paper); color: var(--navy); border-color: var(--paper); }
+  .eyebrow { position: relative; z-index: 1; margin: 0 0 .7rem; color: oklch(82% 0.08 70); font-size: .78rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+  h1 { position: relative; z-index: 1; margin: 0; font-family: "Songti SC", "STSong", Georgia, serif; font-size: clamp(1.8rem, 6.5vw, 3rem); line-height: 1.06; letter-spacing: -.035em; }
+  .dek { position: relative; z-index: 1; max-width: 66ch; margin: 1rem 0 0; color: oklch(88% 0.025 236); font-size: clamp(.93rem, 2.8vw, 1.05rem); }
+  main { max-width: 82rem; margin: 0 auto; padding: clamp(1.5rem, 5vw, 3rem) clamp(1rem, 4vw, 3rem) 4rem; }
+  h2 { margin: 0 0 .35rem; font-family: "Songti SC", "STSong", Georgia, serif; font-size: clamp(1.3rem, 4vw, 1.75rem); letter-spacing: -.02em; }
+  .sec { margin: 0 0 clamp(1.75rem, 5vw, 3rem); }
+  .sec-label { margin: 0 0 .5rem; font-size: .76rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; color: var(--ink-soft); }
+  .sec > p.lead { margin: .5rem 0 1.25rem; max-width: 78ch; color: var(--ink-soft); font-size: .96rem; }
+  .kpis { display: grid; gap: .75rem; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr)); margin: 0 0 clamp(1.75rem, 5vw, 2.75rem); }
+  .kpi { padding: 1rem 1.05rem; background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--navy); }
+  .kpi b { display: block; font-family: Georgia, serif; font-size: clamp(1.5rem, 5vw, 2.1rem); line-height: 1.05; letter-spacing: -.03em; color: var(--navy); }
+  .kpi span { display: block; margin-top: .35rem; font-size: .8rem; color: var(--ink-soft); }
+  .grid-cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); }
+  .card { padding: 1.15rem 1.25rem; background: var(--card); border: 1px solid var(--line); }
+  .card h3 { margin: 0 0 .45rem; font-size: 1rem; }
+  .card p { margin: 0; font-size: .89rem; color: var(--ink-soft); }
+  .card b { color: var(--ink); }
+  .tiercard { border-left: 6px solid var(--navy); }
+  .tiercard.s1 { border-left-color: var(--t3); }
+  .tiercard.s2 { border-left-color: var(--t4); }
+  .tiercard.s3 { border-left-color: var(--t2); }
+  .tiercard.s4 { border-left-color: var(--t1); }
+  .tiercard .tt { display: flex; align-items: baseline; gap: .6rem; flex-wrap: wrap; margin: 0 0 .4rem; }
+  .tiercard .tt h3 { margin: 0; font-family: "Songti SC", serif; font-size: 1.1rem; }
+  .tiercard .tt em { font-style: normal; font-size: .8rem; color: var(--ink-faint); }
+  .tiercard ul { margin: .5rem 0 0; padding-left: 1.1rem; font-size: .88rem; color: var(--ink-soft); }
+  .tiercard li { margin-bottom: .28rem; }
+  .tools { display: grid; gap: .85rem; padding: 1rem 1.1rem; background: var(--paper-deep); border: 1px solid var(--line); margin: 0 0 1rem; }
+  .toolrow { display: flex; flex-wrap: wrap; gap: .55rem; align-items: center; }
+  .toolrow > .lbl { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-soft); margin-right: .2rem; }
+  .chip { padding: .4rem .8rem; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--ink-soft); font-size: .84rem; font-weight: 600; cursor: pointer; transition: all .18s ease; }
+  .chip:hover { border-color: var(--navy); color: var(--navy); }
+  .chip[aria-pressed="true"] { background: var(--navy); border-color: var(--navy); color: oklch(96% 0.018 83); }
+  #q { flex: 1 1 12rem; min-width: 10rem; padding: .5rem .8rem; border: 1px solid var(--line); background: var(--card); color: var(--ink); min-height: 44px; }
+  .count { font-size: .84rem; color: var(--ink-soft); }
+  .count b { color: var(--navy); font-family: Georgia, serif; font-size: 1.05rem; }
+  .tablewrap { overflow-x: auto; border: 1px solid var(--line); background: var(--card); }
+  table { width: 100%; border-collapse: collapse; font-size: .87rem; min-width: 52rem; }
+  thead th { position: sticky; top: 0; z-index: 3; background: var(--navy); color: oklch(95% 0.018 83); padding: .6rem .7rem; text-align: left; font-size: .77rem; font-weight: 700; letter-spacing: .04em; white-space: nowrap; }
+  thead th.sortable { cursor: pointer; user-select: none; }
+  thead th.sortable::after { content: " \2195"; opacity: .38; font-size: .7rem; }
+  thead th[data-dir="asc"]::after { content: " \2191"; opacity: 1; }
+  thead th[data-dir="desc"]::after { content: " \2193"; opacity: 1; }
+  tbody td { padding: .55rem .7rem; border-bottom: 1px solid color-mix(in oklch, var(--line) 55%, transparent); vertical-align: top; }
+  tbody tr.row { cursor: pointer; }
+  tbody tr.row:hover { background: color-mix(in oklch, var(--navy) 6%, transparent); }
+  tbody tr.row.open { background: color-mix(in oklch, var(--navy) 9%, transparent); }
+  tbody tr.detail > td { padding: 0; background: var(--paper-deep); }
+  tbody tr.detail .box { padding: .9rem 1.1rem; display: grid; gap: .5rem; font-size: .86rem; }
+  tbody tr.detail .box p { margin: 0; color: var(--ink-soft); }
+  tbody tr.detail .box .src { color: var(--ink-faint); font-size: .8rem; }
+  .sch { font-weight: 700; }
+  .tag { display: inline-block; padding: .1rem .42rem; border-radius: 3px; font-size: .72rem; font-weight: 700; white-space: nowrap; }
+  .tag.t1 { background: color-mix(in oklch, var(--t1) 18%, white); color: oklch(38% 0.15 31); }
+  .tag.t2 { background: color-mix(in oklch, var(--t2) 22%, white); color: oklch(38% 0.11 63); }
+  .tag.t3 { background: color-mix(in oklch, var(--t3) 18%, white); color: oklch(33% 0.08 152); }
+  .tag.t4 { background: color-mix(in oklch, var(--t4) 16%, white); color: oklch(33% 0.08 240); }
+  .tag.lv { background: var(--paper-deep); color: var(--ink-soft); }
+  .num { font-family: Georgia, "Times New Roman", serif; font-variant-numeric: tabular-nums; }
+  .num.hi { color: var(--t1); font-weight: 700; }
+  .num.lo { color: var(--t3); font-weight: 700; }
+  .bar { display: inline-block; height: 8px; border-radius: 2px; vertical-align: middle; }
+  footer { max-width: 82rem; margin: 0 auto; padding: 0 clamp(1rem, 4vw, 3rem) 3rem; font-size: .82rem; color: var(--ink-faint); }
+  footer p { max-width: 78ch; }
+  @media (max-width: 40rem) { .kpis { grid-template-columns: repeat(2, 1fr); } }
+</style>
+</head>
+<body>
+<header class="masthead" data-mark="105118">
+  <nav class="nav">
+    <a href="index.html" aria-current="page">速查总表 · 99 所</a>
+    <a href="tier350.html">350 分以下专题</a>
+  </nav>
+  <p class="eyebrow">2027 年度 · 全国招生院校数据</p>
+  <h1>全国 99 所麻醉学专硕招生院校 · 速查总表</h1>
+  <p class="dek">99 所院校逐一核验（排除云南、新疆、西藏、青海、广西）。以 2026 年官方复试线与拟录取名单为准，可搜索、筛选、排序，点击展开完整来源。</p>
+</header>
+<main>
+
+<section class="sec">
+  <p class="sec-label">概览</p>
+  <h2>2027 年度 105118 麻醉学专硕 · 全国院校速查</h2>
+  <p class="lead">覆盖 99 所招生院校（已排除云南、新疆、西藏、青海、广西）。数据以 2026 年官方公告为主，
+  按“参考门槛分”升序排列——门槛分优先取<b>实录最低分</b>，其次复试线。点击任意行展开该校完整数据与来源。</p>
+  <div class="kpis">
+    <div class="kpi"><b>99</b><span>招生院校总数</span></div>
+    <div class="kpi"><b>68</b><span>门槛 ≤350 分</span></div>
+    <div class="kpi"><b>31</b><span>门槛 ≤300 分（保底）</span></div>
+    <div class="kpi"><b>294 / 284</b><span>A 区 / B 区国家线</span></div>
+    <div class="kpi"><b>31</b><span>实录数据双确认院校</span></div>
+  </div>
+</section>
+
+<section class="sec">
+  <p class="sec-label">速查表</p>
+  <h2>全院校数据表</h2>
+  <div class="tools">
+    <div class="toolrow">
+      <input id="q" type="search" placeholder="搜索院校 / 省份 / 城市…" aria-label="搜索院校">
+      <span class="count">共 <b id="cnt">99</b> 所</span>
+    </div>
+    <div class="toolrow">
+      <span class="lbl">分数线档</span>
+      <button class="chip" data-f="all" aria-pressed="true">全部</button>
+      <button class="chip" data-f="300" aria-pressed="false">≤300 保底</button>
+      <button class="chip" data-f="320" aria-pressed="false">301–320 稳妥</button>
+      <button class="chip" data-f="350" aria-pressed="false">321–350 进取</button>
+      <button class="chip" data-f="hi" aria-pressed="false">&gt;350 高分</button>
+    </div>
+    <div class="toolrow">
+      <span class="lbl">地区</span>
+      <button class="chip" data-z="all" aria-pressed="true">全部</button>
+      <button class="chip" data-z="B区" aria-pressed="false">B 区（284 线）</button>
+      <button class="chip" data-z="A区" aria-pressed="false">A 区（294 线）</button>
+    </div>
+  </div>
+  <div class="tablewrap">
+    <table id="tb">
+      <thead><tr>
+        <th class="sortable" data-k="g" data-dir="asc">门槛</th>
+        <th class="sortable" data-k="n">院校</th>
+        <th>省份</th>
+        <th>区</th>
+        <th class="sortable" data-k="p">统考计划</th>
+        <th class="sortable" data-k="fs">复试线</th>
+        <th>线别</th>
+        <th class="sortable" data-k="lo">实录最低</th>
+        <th class="sortable" data-k="avg">实录均分</th>
+        <th>实录人数</th>
+        <th>置信度</th>
+      </tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</section>
+<script>
+const DATA = [{"n": "内蒙古科技大学（包头医学院）", "r": "内蒙古", "c": "包头", "lv": "", "z": "B区", "p": 27, "fs": 284, "fk": "B区国家线", "lo": null, "avg": null, "cnt": null, "g": 284, "cf": "B｜2026复试线", "note": "2026招27（2025年22）；B区线284。2025实录22人全部一志愿", "src": "btmc.edu.cn 2026简章"}, {"n": "延边大学", "r": "吉林", "c": "延吉", "lv": "211", "z": "B区", "p": 18, "fs": 284, "fk": "B区国家线", "lo": null, "avg": null, "cnt": null, "g": 284, "cf": "B｜2026复试线", "note": "★★★B区211低分王牌。延边大学执行B类考生分数线（2026=284），是211/双一流中门槛最低者。105118统考18-23人，名额充足。★外语可用203日语替代201英语一（东北朝鲜族地区优势）。复试科目：临床麻醉学/疼痛诊疗学/诊断学。2025年专硕线283、统招20人。进入复试按计划120%", "src": "grad.ybu.edu.cn 2026复试录取工作办法(执行B类线)；路灯考研目录(10184)；鸿文考研网2026计划23人；启航考研历年分数线"}, {"n": "宁夏医科大学", "r": "宁夏", "c": "银川", "lv": "B区省属", "z": "B区", "p": 16, "fs": 284, "fk": "B区国家线", "lo": null, "avg": null, "cnt": null, "g": 284, "cf": "B｜2026复试线", "note": "2026校线=B区国家线284(33/99)。一临105118拟招16。2026拟录取：一临麻醉专硕18人(308-370,均345)、麻醉学硕4人(325-337,均329)。B区调剂大户。专硕复试含技能测试(笔试30%+面试50%+技能20%)，总成绩初试50%+复试50%", "src": "宏医教育2026院校分析；研大医学2026录取分析；路灯考研"}, {"n": "西北民族大学", "r": "甘肃", "c": "兰州", "lv": "B区省属", "z": "B区", "p": null, "fs": 284, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 284, "cf": "B｜2026复试线", "note": "", "src": "2026复试录取办法; 2026复试录取办法; 2025机构整理"}, {"n": "甘肃中医药大学", "r": "甘肃", "c": "兰州", "lv": "B区省属", "z": "B区", "p": 5, "fs": 287, "fk": "校线", "lo": null, "avg": null, "cnt": null, "g": 287, "cf": "B｜2026复试线", "note": "★★B区超低分机会。官方2026复试线：105118麻醉学仅287分(33/99)，仅高于B区国家线284计3分；麻醉学硕100217为284。全校多数临床专硕贴线（老年医学/耳鼻咽喉/放射肿瘤/核医学均284），仅超声317、肿瘤319、神经病学320偏高。★初试权重70%（综合成绩=初试70%+复试30%），高分考生极稳。一志愿按计划120%划线", "src": "yjsc.gszy.edu.cn 2026复试分数线一览表；天韵伯仲/启航转载；路灯考研目录(10735)"}, {"n": "内蒙古医科大学", "r": "内蒙古", "c": "呼和浩特", "lv": "B区省属", "z": "B区", "p": 6, "fs": 284, "fk": "B区国家线", "lo": 289, "avg": 338.1, "cnt": 49, "g": 289, "cf": "A｜2026实录", "note": "★★B区低分强推。B区国家线284(33/99)。麻醉学2026录取49人，初试下沿仅289分、均分338。培养单位高度分散（第一临床医学院231人、内蒙古临床医学院163人，另有赤峰/包头/通辽/鄂尔多斯/巴彦淖尔等盟市临床医学院）→分散报考点分数更低。一志愿录完才开调剂。差额1:1.2", "src": "内蒙古医科大学2026拟录取公示(今日头条数据整理)；2026复试录取工作方案；路灯考研目录(10132)"}, {"n": "长春中医药大学", "r": "吉林", "c": "长春", "lv": "", "z": "A区", "p": 2, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "2026招2人；2026调剂公告缺额2人→一志愿0人录取，全调剂。低分高价值信号", "src": "y.ccucm.edu.cn/info/1087/18450.htm"}, {"n": "安徽医科大学", "r": "安徽", "c": "合肥", "lv": "省属重点", "z": "A区", "p": null, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "2026校线=A区国家线294，不另划线。2026拟录取：一临麻醉专硕19人(333-398,均364)；二临麻醉专硕19人(323-395,均367)；一临麻醉学硕10人(332-393,均355)；二临麻醉学硕16人(302-378,均337)。附六安医院调剂录取105118一名380分。2025专硕录47人最低308", "src": "yjsxy.ahmu.edu.cn 2026复试录取公示；研大医学汇总；educity六安医院调剂名单"}, {"n": "皖南医学院", "r": "安徽", "c": "芜湖", "lv": "省属", "z": "A区", "p": null, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "", "src": "2026拟录取名单; 2026招生专业目录; 2025复试分数线"}, {"n": "蚌埠医科大学", "r": "安徽", "c": "蚌埠", "lv": "省属", "z": "A区", "p": null, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "", "src": "2026拟录取名单; 2026复试分数线; 2026招生专业目录"}, {"n": "长治医学院", "r": "山西", "c": "长治", "lv": "省属", "z": "A区", "p": 10, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "★★一志愿保护极强。官方2026执行A区国家线294(36/36/108)，全校未单独划线。★2026一志愿复试206人、拟录取204人，仅2人淘汰（且均在药学）——过线+复试合格基本录取。麻醉与全科/急诊/重症/超声同属“分数低易录取”方向。差额≥120%", "src": "yjsc.czmc.edu.cn/info/1062/17762.htm 2026复试录取工作方案；掌上考研长治医学院分专业线(105118=294)；路灯考研目录(10117)"}, {"n": "南昌大学", "r": "江西", "c": "南昌", "lv": "211", "z": "A区", "p": 33, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "官方一临细则：105118总计划35含推免2→统考33，复试比1:1.5。校线=A区国家线294。一临2026临床专硕复试541人最低294均361。分析提示：实际录取下沿约340，贴线多为陪跑；2025年全校麻醉专硕录61人最低327（旧库口径）。江西省内唯一211", "src": "cdyfy.com/list/222/52671.html（一附院细则）；yz.chsi.com.cn 2026复试办法"}, {"n": "华北理工大学", "r": "河北", "c": "唐山", "lv": "", "z": "A区", "p": 14, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "2026招14（2025年9）；复试科目临床麻醉学；2025专硕实录9人一志愿为主", "src": "2026目录PDF"}, {"n": "宁波大学", "r": "浙江", "c": "宁波", "lv": "双一流", "z": "A区", "p": null, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "", "src": "2024机构整理; 2025机构整理; 2025复试分数线"}, {"n": "浙江中医药大学", "r": "浙江", "c": "杭州", "lv": "", "z": "A区", "p": 14, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "2026目录105118招14（一临/二临/四临/五临/联合培养基地）", "src": "yanzhaowang 2026目录"}, {"n": "湖州师范学院", "r": "浙江", "c": "湖州", "lv": "省属", "z": "A区", "p": null, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "", "src": "2025复试录取办法; 2025复试分数线; 2025拟录取名单"}, {"n": "绍兴文理学院", "r": "浙江", "c": "绍兴", "lv": "省属", "z": "A区", "p": 5, "fs": 294, "fk": "国家线", "lo": null, "avg": 335.6, "cnt": 5, "g": 294, "cf": "A｜2026实录", "note": "", "src": "2024复试分数线; 2026复试分数线; 2024拟录取名单"}, {"n": "武汉科技大学", "r": "湖北", "c": "武汉", "lv": "", "z": "A区", "p": 5, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "2026医学部临床专硕线294(36/36/108)，仅超声医学315单独划线。105118麻醉学在医学部医学院，仅招5人（名额很少）。不接收同等学力。复试：专业技能OSCE 40分+外语20分+综合素质40分，总成绩=初试60%+复试40%。注意：麻醉不在附属天佑医院（第一临床学院）招生", "src": "路灯考研目录(10488)；wkdty.com 第一临床学院2026复试细则；研大医学2026武汉科技大学医学部分析"}, {"n": "吉首大学", "r": "湖南", "c": "吉首", "lv": "", "z": "A区", "p": 6, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "2026官方简章105118=6人（路灯库录3）；只招临床五年制；A区国家线", "src": "yjsc.jsu.edu.cn 2026简章PDF"}, {"n": "锦州医科大学", "r": "辽宁", "c": "锦州", "lv": "省属", "z": "A区", "p": 43, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "官方校线=A区国家线294(36/108)，差额≥120%。2026拟录取：麻醉专硕42人(322-391,均344)、麻醉学硕2人(296-315,均306)；麻醉专硕+学硕合计51人均340.6。初试70%+复试30%（初试占比高）。2025录42人最低307。稳妥科室300-330过线即录、复试几乎不刷", "src": "eduego 2026复试方案；今日头条2026拟录取公示汇总；宏医教育"}, {"n": "佳木斯大学", "r": "黑龙江", "c": "佳木斯", "lv": "省属", "z": "A区", "p": 6, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "★低分机会。官方2026复试线：医学门类294，仅4个方向自主划线（呼吸系病325/消化系病335/普外322/口腔336），★麻醉学105118不在自划线名单→执行国家线294。注意2025年麻醉学硕100217曾自划319，专硕105118为293。复试差额一志愿150%、调剂200%", "src": "佳木斯大学2026年硕士研究生招生复试基本分数线(官方公示)；路灯考研目录(10222)；启航考研历年分数线"}, {"n": "齐齐哈尔医学院", "r": "黑龙江", "c": "齐齐哈尔", "lv": "省属", "z": "A区", "p": 7, "fs": 294, "fk": "国家线", "lo": null, "avg": null, "cnt": null, "g": 294, "cf": "B｜2026复试线", "note": "★★低分强推（一志愿未招满）。校线=A区294。★关键信号：2026第一轮调剂计划表显示105118麻醉学尚有5个调剂名额（占计划7人的71%），一志愿严重未招满→过国家线即大概率录取。★初试权重70%（总成绩=初试/5×70%+复试×30%），高分极稳。差额≥150%。接受专升本考生（需专科与本科专业一致）", "src": "yjs.qmu.edu.cn/2026/0320/c3971a202689 2026复试录取工作方案；kaoyan.cn 2026第一轮调剂计划表；gaosan.com 2026招生计划"}, {"n": "川北医学院", "r": "四川", "c": "南充", "lv": "省属", "z": "A区", "p": 19, "fs": 333, "fk": "校线(专业学位)", "lo": 295, "avg": null, "cnt": 30, "g": 295, "cf": "A｜2026实录", "note": "官方2026专业学位复试线：105118麻醉学333(36/36/108)，高于国家线39分。同校对比：超声353/放射影像336/皮肤325/外科学肝胆317/内科消化360/精神352。★注意总成绩=初试50%+复试50%（复试1分≈初试5分），复试逆袭空间大、也易被反超。该校麻醉为院内重点发展方向，热门梯队", "src": "川北医学院2026第一志愿进入复试初试成绩基本要求；nsmc拟录取公示(网易转载)；研大医学2026川北医学院分析"}, {"n": "新乡医学院", "r": "河南", "c": "新乡", "lv": "省属", "z": "A区", "p": null, "fs": 294, "fk": "国家线(105100大类)", "lo": 295, "avg": 352, "cnt": 358, "g": 295, "cf": "A｜2026实录", "note": "⚠️口径重要：2025年6月已更名『河南医药大学』。该校以105100临床医学大类招生，麻醉为方向之一，不单列105118代码。2026拟招学硕289+专硕612。全校105100拟录取358人最低295均352。一志愿保护极强（一志愿录完才开调剂）、不歧视双非/专升本。麻醉方向复试线预计超国家线5-15分。2025年专硕录375人最低293", "src": "xxmu.edu.cn/yjsc/info/1013/4606.htm 2026复试录取办法；银成医考2023-2026报录信息；河南医药大学2026招生简章"}, {"n": "厦门大学", "r": "福建", "c": "厦门", "lv": "985", "z": "A区", "p": null, "fs": 295, "fk": "校线", "lo": null, "avg": null, "cnt": null, "g": 295, "cf": "B｜2026复试线", "note": "", "src": "2026复试分数线; 2026招生专业目录; 2026拟录取名单"}, {"n": "西安医学院", "r": "陕西", "c": "西安", "lv": "省属", "z": "A区", "p": null, "fs": 296, "fk": "院线", "lo": null, "avg": null, "cnt": null, "g": 296, "cf": "B｜2026复试线", "note": "", "src": "2025复试录取办法; 2025复试分数线; 2024复试分数线"}, {"n": "赣南医科大学", "r": "江西", "c": "赣州", "lv": "省属", "z": "A区", "p": 17, "fs": 294, "fk": "国家线", "lo": 297, "avg": 340, "cnt": 27, "g": 297, "cf": "A｜2026实录", "note": "★★350以下最稳选择之一。2026校线=A区国家线294(36/108)，校内不自主划线。麻醉专硕目录17人、一志愿27人全部录取（等额/扩招），录取下沿仅297分、均分340。麻醉学硕100217录6人最低307。麻醉学为该校国家级特色专业。总成绩=初试/5×60%+复试×40%，复试及格线60。2024年由赣南医学院更名", "src": "赣南医科大学2026复试基本分数线(2026-03-18)；研大医学2026赣南医科大学录取分析；一志愿复试结果公示"}, {"n": "扬州大学", "r": "江苏", "c": "扬州", "lv": "省属", "z": "A区", "p": null, "fs": null, "fk": "未公布", "lo": null, "avg": null, "cnt": null, "g": 299, "cf": "C｜旧库2025", "note": "", "src": "2025拟录取名单; 2025复试录取办法; 2026复试录取办法"}, {"n": "江苏大学", "r": "江苏", "c": "镇江", "lv": "省属", "z": "A区", "p": 8, "fs": 294, "fk": "国家线", "lo": 299, "avg": 335, "cnt": 8, "g": 299, "cf": "A｜2026实录", "note": "", "src": "2024复试分数线; 2025复试分数线; 2026复试分数线"}, {"n": "青岛大学", "r": "山东", "c": "青岛", "lv": "省属重点", "z": "A区", "p": 31, "fs": 294, "fk": "国家线", "lo": 300, "avg": 364, "cnt": null, "g": 300, "cf": "A｜2026实录", "note": "校线=A区294，一志愿生源充足专业150%差额。★低分关键：第四临床医学院（烟台毓璜顶医院）麻醉专硕录取下沿仅300分，而一临需341——同校差41分。2025目录：一临专硕26+四临2+联合培养3=31人。初试权重60%。青岛本地就业认可度高", "src": "青岛大学2026复试录取工作办法；研大医学2026青岛大学临床医学录取分析；路灯考研目录(11065)"}, {"n": "大连理工大学", "r": "辽宁", "c": "大连", "lv": "985", "z": "A区", "p": 1, "fs": 300, "fk": "校线", "lo": null, "avg": null, "cnt": null, "g": 300, "cf": "B｜2026复试线", "note": "985医学部105118统考1人；2026校线300；2026一志愿未满发布调剂缺额（要求300+）", "src": "med.dlut.edu.cn 10789/10899"}, {"n": "陕西中医药大学", "r": "陕西", "c": "咸阳", "lv": "省属", "z": "A区", "p": null, "fs": 302, "fk": "院线", "lo": null, "avg": null, "cnt": null, "g": 302, "cf": "B｜2026复试线", "note": "", "src": "2025拟录取名单; 2024拟录取名单; 2024复试分数线"}, {"n": "福建医科大学", "r": "福建", "c": "福州", "lv": "省属重点", "z": "A区", "p": null, "fs": 294, "fk": "校线(国家线)", "lo": 303, "avg": null, "cnt": null, "g": 303, "cf": "A｜2026实录", "note": "2026拟录取1823人，本校一志愿1557人占85.4%。麻醉学合计约51人（含学硕口径）。★低分关键：省立临床医学院麻醉学4人最低303，是全校唯一录取下沿<320的单位。其余单位普遍350+。注意：该表『麻醉学』未区分105118专硕与100217学硕，需以目录核对", "src": "yjsy.fjmu.edu.cn/2026/0514/c2439a216728/page.htm 2026统考拟录取名单公示；机构整理分学院统计"}, {"n": "海南医科大学", "r": "海南", "c": "海口", "lv": "省属", "z": "B区", "p": null, "fs": 305, "fk": "校线", "lo": null, "avg": null, "cnt": null, "g": 305, "cf": "B｜2026复试线", "note": "", "src": "2025复试录取办法; 2026复试录取办法; 2026复试录取办法"}, {"n": "湖北医药学院", "r": "湖北", "c": "十堰", "lv": "省属", "z": "A区", "p": 14, "fs": 305, "fk": "院线(2025)", "lo": null, "avg": null, "cnt": null, "g": 305, "cf": "B｜2026复试线", "note": "2026招14；2025实录14人最低309、院线305", "src": "旧库+2026目录"}, {"n": "遵义医科大学", "r": "贵州", "c": "遵义", "lv": "省属", "z": "B区", "p": 25, "fs": 305, "fk": "自划线", "lo": null, "avg": null, "cnt": null, "g": 305, "cf": "B｜2026复试线", "note": "官方研院2026复试公告：一临105118自划线305(45/99)，高于B区国家线21分！拟招25(不含推免)；另100217学硕10人。B区。2025录36人最低306", "src": "grs.zmu.edu.cn/info/1068/4535.htm；路灯考研"}, {"n": "中国医科大学", "r": "辽宁", "c": "沈阳", "lv": "省属重点", "z": "A区", "p": null, "fs": 305, "fk": "自划线", "lo": null, "avg": null, "cnt": null, "g": 305, "cf": "B｜2026复试线", "note": "官方2026校线：1051临床专硕305(45/170)高于国家线11分；1002学硕300(45/160)。一临105118拟招11；二临/四临/北部战区总医院也招。2025实录42人最低305。初试60%+复试40%", "src": "启航/掌上考研转发官方2026复试线；路灯考研目录"}, {"n": "滨州医学院", "r": "山东", "c": "滨州", "lv": "省属", "z": "A区", "p": 5, "fs": 294, "fk": "国家线", "lo": 306, "avg": 327, "cnt": 5, "g": 306, "cf": "A｜2026实录", "note": "", "src": "2025拟录取名单; 2026拟录取名单; 2026拟录取名单"}, {"n": "延安大学", "r": "陕西", "c": "延安", "lv": "省属", "z": "A区", "p": 20, "fs": 307, "fk": "校线", "lo": null, "avg": null, "cnt": null, "g": 307, "cf": "B｜2026复试线", "note": "官方2026进入复试分数线：延安医学院105118麻醉学307（高于国家线13分）。同院对比：超声329/内科313/放射影像301/护理305。招20人，名额较多。其余专业按A区国家线294执行", "src": "yjsy.yau.edu.cn/info/1025/40282.htm 2026复试分数线及一志愿复试名单公告(官方)；路灯考研目录(10719)"}, {"n": "华中科技大学", "r": "湖北", "c": "武汉", "lv": "985", "z": "A区", "p": null, "fs": null, "fk": "未公布", "lo": null, "avg": null, "cnt": null, "g": 309, "cf": "C｜旧库2025", "note": "", "src": "2025拟录取名单; 2025复试录取办法; 2025机构整理"}, {"n": "山东第一医科大学", "r": "山东", "c": "济南", "lv": "省属", "z": "A区", "p": null, "fs": 310, "fk": "校线", "lo": null, "avg": null, "cnt": null, "g": 310, "cf": "B｜2026复试线", "note": "", "src": "2025复试分数线; 2026复试分数线; 2025拟录取名单"}, {"n": "大连医科大学", "r": "辽宁", "c": "大连", "lv": "省属重点", "z": "A区", "p": 45, "fs": 294, "fk": "国家线", "lo": 310, "avg": 364, "cnt": 45, "g": 310, "cf": "A｜2026实录", "note": "2026校线=A区国家线（仅口腔英语45单列）。150%差额复试。士兵计划数据点：附一105118复试2人(316录取/287被刷)→实际录取下沿约316。2025录45人最低310（旧库）", "src": "yjs.dmu.edu.cn/info/1017/9273.htm；士兵计划拟录取名单"}, {"n": "成都中医药大学", "r": "四川", "c": "成都", "lv": "", "z": "A区", "p": 4, "fs": 313, "fk": "校线", "lo": null, "avg": null, "cnt": null, "g": 313, "cf": "B｜2026复试线", "note": "医学与生命科学学院105118招4；2026复试线313", "src": "2026目录检索"}, {"n": "河南大学", "r": "河南", "c": "开封", "lv": "双一流", "z": "A区", "p": 13, "fs": 294, "fk": "国家线", "lo": 314, "avg": null, "cnt": 18, "g": 314, "cf": "A｜2026实录", "note": "★低分机会。双一流。官方2026复试线：医学院105118麻醉学294(36/36/108)，全校医学院各专业均执行294。2026实录18人、一志愿最低314（2025年线323、2024年343→三年持续下降）。★硬性限制：报考资格为统招全日制麻醉学五年制本科，麻醉学本科只能报105118。初复试各占50%，复试任一单项<60不予录取", "src": "河南大学2026年硕士研究生复试分数线(PDF,grs.henu.edu.cn)；爱启航105118院校库；路灯考研目录(10475)"}, {"n": "广东省心血管病研究所", "r": "广东", "c": "广州", "lv": "科研院所", "z": "A区", "p": 6, "fs": null, "fk": "未公布", "lo": 316, "avg": 361, "cnt": 6, "g": 316, "cf": "C｜旧库2026", "note": "", "src": "2024拟录取名单; 2025拟录取名单; 2026拟录取名单"}, {"n": "南方医科大学", "r": "广东", "c": "广州", "lv": "省属重点", "z": "A区", "p": 16, "fs": 310, "fk": "校线", "lo": 317, "avg": 391, "cnt": 16, "g": 317, "cf": "A｜2026实录", "note": "", "src": "2026拟录取名单; 2026复试分数线; 2026机构整理"}, {"n": "广州医科大学", "r": "广东", "c": "广州", "lv": "省属重点", "z": "A区", "p": 28, "fs": 300, "fk": "校线", "lo": 317, "avg": 369, "cnt": 28, "g": 317, "cf": "A｜2026实录", "note": "", "src": "2024拟录取名单; 2025拟录取名单; 2026拟录取名单"}, {"n": "南通大学", "r": "江苏", "c": "南通", "lv": "省属", "z": "A区", "p": 23, "fs": 319, "fk": "医学院院线", "lo": 319, "avg": 348, "cnt": 23, "g": 319, "cf": "A｜2026实录", "note": "2026医学院官方细则：105118麻醉学复试线319（高于国家线25分），拟招23人，一志愿进复试35人→复录比1.5:1，属全校竞争较激烈方向之一。对比同校：骨科学294招38人、外科学神外294招17人。麻醉学硕100217仅招1人按294。复试300分制=专业课150+外语50+综合面试100，含临床技能考核", "src": "南通大学医学院2026年硕士研究生复试录取工作实施细则(含一志愿复试名单)"}, {"n": "贵州医科大学", "r": "贵州", "c": "贵阳", "lv": "省属", "z": "B区", "p": 20, "fs": 319, "fk": "麻醉学院院线", "lo": null, "avg": null, "cnt": null, "g": 319, "cf": "B｜2026复试线", "note": "B区。2026麻醉学院105118复试线319(单科48)，高于B区国家线284计35分。麻醉学硕100217执行国家线。对比：眼科学345/临床病理331/超声322/放射影像314。贵医麻醉学院独立招生、名额20，是B区麻醉专硕主力", "src": "yjsxy.gmc.edu.cn/info/1118/2452.htm 2026复试基本要求；掌上考研分专业线(105118=319)；路灯考研目录(麻醉学院20人)"}, {"n": "沈阳医学院", "r": "辽宁", "c": "沈阳", "lv": "省属", "z": "A区", "p": 7, "fs": 294, "fk": "国家线", "lo": 319, "avg": 355, "cnt": null, "g": 319, "cf": "A｜2026实录", "note": "★★低分机会（分培养基地）。校线=A区294。105118招7人，分散在多个培养基地：本部4人均分355，但盘锦基地最低仅319、鞍山基地323→同校差63分。2026全校一志愿363人中主流录取区间300-340。麻醉属该校热门方向（另有骨科/精神/皮肤）", "src": "沈阳医学院2026年拟录取数据分析(一志愿)；路灯考研目录(10164)；kaoyana 2026招生计划7人"}, {"n": "解放军医学院（301）", "r": "北京", "c": "北京", "lv": "", "z": "A区", "p": 5, "fs": 321, "fk": "教育部计划自划线", "lo": null, "avg": null, "cnt": null, "g": 321, "cf": "B｜2026复试线", "note": "2026教育部计划专硕临床医学复试线321（军队线343/文职294）；105118统考5", "src": "yz.chsi.com.cn zsgsId=3541452010"}, {"n": "南华大学", "r": "湖南", "c": "衡阳", "lv": "省属", "z": "A区", "p": null, "fs": 294, "fk": "国家线", "lo": 322, "avg": null, "cnt": null, "g": 322, "cf": "A｜2026实录", "note": "★低分机会（调剂向）。2026全校执行A区国家线294，不自主划线。麻醉学分散在第一/第二临床学院：一临2026追加麻醉专硕指标1个并补录1人；二临第三批调剂麻醉学复试6人分数357-322→调剂录取下沿约322，说明该校麻醉一志愿未满、常年接收调剂。差额复试≥120%", "src": "nhfyyy.com 第一临床学院追加名额及补录通知(2026-04-07)；educity.cn 第二临床学院2026第三批调剂复试名单；yz.chsi.com.cn 南华大学2026复试录取方案"}, {"n": "牡丹江医科大学", "r": "黑龙江", "c": "牡丹江", "lv": "省属", "z": "A区", "p": 14, "fs": 322, "fk": "校线(自划线)", "lo": null, "avg": null, "cnt": null, "g": 322, "cf": "B｜2026复试线", "note": "⚠️官方2026：105118麻醉学（附属红旗医院规培基地）单独划线322分、复试比≥1:1.2，高于国家线28分。同校放射影像学342、超声医学336——麻醉在这三者中最低但并非低分专业。其余医学专业294。2024年由牡丹江医学院更名。允许专升本考生报考", "src": "mdjmu.cn/yjsc/info/1044/2374.htm 2026复试录取工作办法(官方)；路灯考研目录(10229)"}, {"n": "山东第二医科大学", "r": "山东", "c": "潍坊", "lv": "省属", "z": "A区", "p": 26, "fs": 294, "fk": "国家线", "lo": 325, "avg": 353, "cnt": 47, "g": 325, "cf": "A｜2026实录", "note": "★低分强推。校线=A区国家线294(36/36/108)，不单独划线，麻醉学院105118目录仅26人但实录47人（大幅扩招）。麻醉专硕录取下沿325、均分353，是同档次院校中录取线最低的麻醉学院之一。总成绩=初试/5×60%+复试/3×40%。2023年由潍坊医学院更名，麻醉学院独立建制", "src": "yjshb.sdsmu.edu.cn/2026/0323/c895a163001 复试通知；研大医学2026山东第二医科大学临床医学录取分析；路灯考研目录(10438)"}, {"n": "兰州大学", "r": "甘肃", "c": "兰州", "lv": "985", "z": "B区", "p": 16, "fs": 315, "fk": "院线", "lo": 328, "avg": 366, "cnt": 16, "g": 328, "cf": "A｜2026实录", "note": "", "src": "2025拟录取名单; 2025招生专业目录; 2025拟录取名单"}, {"n": "上海交通大学", "r": "上海", "c": "上海", "lv": "985", "z": "A区", "p": 14, "fs": 330, "fk": "校线", "lo": 331, "avg": 378, "cnt": 14, "g": 331, "cf": "A｜2026实录", "note": "", "src": "2024拟录取名单; 2025拟录取名单; 2026拟录取名单"}, {"n": "广东医科大学", "r": "广东", "c": "湛江", "lv": "省属", "z": "A区", "p": 28, "fs": 294, "fk": "国家线", "lo": 332, "avg": 368, "cnt": 28, "g": 332, "cf": "A｜2026实录", "note": "", "src": "2026拟录取名单; 2026复试录取办法; 2025拟录取名单"}, {"n": "徐州医科大学", "r": "江苏", "c": "徐州", "lv": "省属重点", "z": "A区", "p": 84, "fs": 332, "fk": "麻醉学院一志愿线", "lo": null, "avg": null, "cnt": null, "g": 332, "cf": "B｜2026复试线", "note": "【全国麻醉第一】2026校线=A区294。分方向线差异极大：麻醉学院105118一志愿线332（三年321→342→332高位盘整）；鼓楼临床学院3人、附属淮安医院2人按校线294执行→同校差38分。麻醉学硕100217招60含推免12、一志愿线294、实录最低302。总成绩=初试/5×0.6+复试×0.4。调剂门槛：临床专硕总分≥310且英语≥50。★低分关键：附属淮安医院麻醉专硕294即可进复试", "src": "徐医大研究生院2026-03-18一志愿复试最低分数线；路灯考研专业目录(10313)；启航考研招生人数"}, {"n": "武汉大学", "r": "湖北", "c": "武汉", "lv": "985", "z": "A区", "p": null, "fs": null, "fk": "未公布", "lo": null, "avg": null, "cnt": null, "g": 336, "cf": "C｜旧库2025", "note": "", "src": "2025拟录取名单; 2025复试分数线; 2025拟录取名单"}, {"n": "南京医科大学", "r": "江苏", "c": "南京", "lv": "省属重点", "z": "A区", "p": 42, "fs": 323, "fk": "院线", "lo": 337, "avg": null, "cnt": 42, "g": 337, "cf": "A｜2026实录", "note": "", "src": "2024拟录取名单; 2025拟录取名单; 2026拟录取名单"}, {"n": "江南大学", "r": "江苏", "c": "无锡", "lv": "211", "z": "A区", "p": 8, "fs": 335, "fk": "院线", "lo": 337, "avg": 357, "cnt": 8, "g": 337, "cf": "A｜2026实录", "note": "", "src": "2024拟录取名单; 2025拟录取名单; 2025复试分数线"}, {"n": "山东大学", "r": "山东", "c": "济南", "lv": "985", "z": "A区", "p": null, "fs": 340, "fk": "校线", "lo": null, "avg": null, "cnt": null, "g": 340, "cf": "B｜2026复试线", "note": "", "src": "2025拟录取名单; 2026拟录取名单; 2026复试录取办法"}, {"n": "西南医科大学", "r": "四川", "c": "泸州", "lv": "省属", "z": "A区", "p": 24, "fs": 325, "fk": "校线(专业学位)", "lo": 341, "avg": 370.8, "cnt": null, "g": 341, "cf": "A｜2026实录", "note": "官方2026专业学位复试线：105118麻醉学325(36/36/108)，较2025下降26分。但★实际录取平均分370.8、一志愿名单下沿341——校线325≠录取线。同校对比：精神病372/皮肤370/内科343/临床病理341/眼科334/骨科333/外科305。复试含专业笔试+临床技能+综合面试，极其保护一志愿、不歧视双非。注意调剂极难（2026调剂169人进复试仅录38人）", "src": "yjs.swmu.edu.cn/info/1014/10689.htm 2026复试基本要求；yjs.swmu.edu.cn/info/1014/10839.htm 一志愿拟录取名单(第六批)；新东方在线2026难度对比表"}, {"n": "承德医学院", "r": "河北", "c": "承德", "lv": "省属", "z": "A区", "p": 16, "fs": 294, "fk": "国家线", "lo": 343, "avg": 357, "cnt": 16, "g": 343, "cf": "A｜2026实录", "note": "", "src": "2024拟录取名单; 2025拟录取名单; 2026拟录取名单"}, {"n": "成都医学院", "r": "四川", "c": "成都", "lv": "省属", "z": "A区", "p": 14, "fs": 347, "fk": "校线(专业学位)", "lo": null, "avg": null, "cnt": null, "g": 347, "cf": "B｜2026复试线", "note": "⚠️高分预警。官方2026复试线：105118麻醉学347(36/36/108)，全校第二高（仅次超声354），高于国家线53分。同校：超声354/放射影像343/内科331/外科319/急诊321/全科317。总成绩=初试50%+复试50%，一志愿录完才录调剂。350分以下报考该校麻醉风险极高", "src": "成都医学院2026年第一志愿考生进入复试初试成绩基本要求(研究生院)；okaoyan 2026分数线；路灯考研目录(13705)"}, {"n": "河北医科大学", "r": "河北", "c": "石家庄", "lv": "省属重点", "z": "A区", "p": 22, "fs": 294, "fk": "国家线", "lo": 348, "avg": 385, "cnt": 32, "g": 348, "cf": "A｜2026实录", "note": "校线=A区294(热门科室院内二次划线，麻醉属“常规科室”基本持平国家线)。105118全校招22人不分院系统筹。★实际录取按四大临床组分化：第一临床组最低349、第三临床组最低348、第二临床组369起。总成绩=初试/5×60%+复试/3×40%（临床专硕复试含技能考核，满分300）。1:1.2差额、保护一志愿", "src": "河北医科大学2026复试录取工作办法；研大医学2026河北医科大学临床医学录取分析；宏医教育2026附属医院与录取全解"}, {"n": "哈尔滨医科大学", "r": "黑龙江", "c": "哈尔滨", "lv": "省属重点", "z": "A区", "p": 38, "fs": 310, "fk": "校线(临床专硕)", "lo": 348, "avg": 373, "cnt": 10, "g": 348, "cf": "A｜2026实录", "note": "⚠️单科陷阱。官方2026复试线：1051临床医学专硕310分，但★单科线政治/外语50分、业务课160分——远高于国家线36/108，总分够但单科卡人。麻醉学专硕实录10人最低348，校线310≠录取线。初复试各占50%，差额120%。临床专硕线三年稳定310（2024/2025/2026）", "src": "yjsy.hrbmu.edu.cn/info/1024/3263.htm 2026复试录取办法(官方复试线)；2026一志愿拟录取名单统计；哈医大2026招生专业目录"}, {"n": "温州医科大学", "r": "浙江", "c": "温州", "lv": "省属重点", "z": "A区", "p": 17, "fs": 350, "fk": "校线", "lo": null, "avg": null, "cnt": null, "g": 350, "cf": "B｜2026复试线", "note": "官方：一临105118拟招19含推免2→统考17；2026校线350（重要：高于国家线56分！）。另有二临100217麻醉学硕17人。旧库2025录49人最低295是老口径需复核", "src": "yjsy.wmu.edu.cn/info/3541/159913.htm (校线)；yjsy.wmu.edu.cn/info/2481/157041.htm (拟招人数)"}, {"n": "首都医科大学", "r": "北京", "c": "北京", "lv": "双一流", "z": "A区", "p": null, "fs": null, "fk": "未公布", "lo": null, "avg": null, "cnt": null, "g": 351, "cf": "C｜旧库2025", "note": "", "src": "2024拟录取名单; 2024拟录取名单; 2025拟录取名单"}, {"n": "中南大学", "r": "湖南", "c": "长沙", "lv": "985", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": 351, "cf": "C｜旧库2025", "note": "", "src": ""}, {"n": "暨南大学", "r": "广东", "c": "广州", "lv": "211", "z": "A区", "p": null, "fs": 352, "fk": "院线", "lo": null, "avg": null, "cnt": null, "g": 352, "cf": "B｜2026复试线", "note": "", "src": "2026复试分数线; 2026复试分数线; 2026复试分数线"}, {"n": "海军军医大学", "r": "上海", "c": "上海", "lv": "211/军队", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": 353, "cf": "C｜旧库2025", "note": "", "src": ""}, {"n": "长江大学", "r": "湖北", "c": "荆州", "lv": "", "z": "A区", "p": 5, "fs": 294, "fk": "国家线", "lo": 353, "avg": null, "cnt": null, "g": 353, "cf": "A｜2026实录", "note": "校线=A区294不单独划线，但★实际录取下沿约353（增补批公示分353/359），说明一志愿满额且有高分考生递补。招生分散在两个附属单位、各2-3人，名额极少。注意：麻醉实际录取线远高于294的校线，不要被校线误导", "src": "lcyxy1.yangtzeu.edu.cn 附属第一医院2026复试办法及增补拟录取公示；lcyxy2.yangtzeu.edu.cn 附属荆州医院第四批增补拟录取公示；路灯考研目录(10489)"}, {"n": "四川大学", "r": "四川", "c": "成都", "lv": "985", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": 359, "cf": "C｜旧库2025", "note": "", "src": ""}, {"n": "杭州师范大学", "r": "浙江", "c": "杭州", "lv": "省属", "z": "A区", "p": 2, "fs": 320, "fk": "院线", "lo": 359, "avg": null, "cnt": 2, "g": 359, "cf": "A｜2026实录", "note": "", "src": "2026复试分数线; 2026拟录取名单; 2024复试分数线"}, {"n": "电子科技大学", "r": "四川", "c": "成都", "lv": "985", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": 361, "cf": "C｜旧库2025", "note": "", "src": ""}, {"n": "天津医科大学", "r": "天津", "c": "天津", "lv": "211/双一流", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": 361, "cf": "C｜旧库2025", "note": "", "src": ""}, {"n": "陆军军医大学", "r": "重庆", "c": "重庆", "lv": "军队", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": 363, "cf": "C｜旧库2025", "note": "", "src": ""}, {"n": "吉林大学", "r": "吉林", "c": "长春", "lv": "985", "z": "A区", "p": 33, "fs": null, "fk": "未公布", "lo": 364, "avg": 391, "cnt": 33, "g": 364, "cf": "C｜旧库2026", "note": "", "src": "2025拟录取名单; 2026拟录取名单; 2025复试分数线"}, {"n": "郑州大学", "r": "河南", "c": "郑州", "lv": "211", "z": "A区", "p": 18, "fs": 370, "fk": "一附院院线", "lo": null, "avg": null, "cnt": null, "g": 370, "cf": "B｜2026复试线", "note": "一附院105118拟招14、三附院目录4；一附院2026院线370(55/55/190)；一附院拟录取14人全部录取（综合排序78-85分区间）。三附院/省医等院线另核", "src": "zdyfy.com content_35565；宏医教育"}, {"n": "西安交通大学", "r": "陕西", "c": "西安", "lv": "985", "z": "A区", "p": 7, "fs": 370, "fk": "院线", "lo": 373, "avg": 381, "cnt": 7, "g": 373, "cf": "A｜2026实录", "note": "", "src": "2024拟录取名单; 2025拟录取名单; 2026拟录取名单"}, {"n": "苏州大学", "r": "江苏", "c": "苏州", "lv": "211", "z": "A区", "p": 10, "fs": null, "fk": "未公布", "lo": 374, "avg": 391, "cnt": 10, "g": 374, "cf": "C｜旧库2026", "note": "", "src": "2024拟录取名单; 2025拟录取名单; 2026拟录取名单"}, {"n": "山西医科大学", "r": "山西", "c": "太原", "lv": "省属重点", "z": "A区", "p": 30, "fs": 336, "fk": "校线(自划线)", "lo": 375, "avg": 380, "cnt": 53, "g": 375, "cf": "A｜2026实录", "note": "官方2026自划线：105118麻醉学336(36/108)，与放射影像学并列全校较高。麻醉学院实录下沿372-375（公示前10最低372）。★硬门槛：只招五年制临床/麻醉本科，复试时CET-4须≥425分。全校1982人中43.5%为校外调剂（来自148所院校），调剂机会多但竞争也大", "src": "sxmu.edu.cn/yjs/info/1017/4442.htm 2026复试基本分数线；educity.cn 麻醉学院2026复试结果公示；路灯考研目录(10114)"}, {"n": "浙江大学", "r": "浙江", "c": "杭州", "lv": "985", "z": "A区", "p": null, "fs": 380, "fk": "校线", "lo": null, "avg": null, "cnt": null, "g": 380, "cf": "B｜2026复试线", "note": "", "src": "2024复试分数线; 2025复试分数线; 2026复试分数线"}, {"n": "重庆医科大学", "r": "重庆", "c": "重庆", "lv": "省属重点", "z": "A区", "p": 13, "fs": 335, "fk": "校线(专业学位)", "lo": 394, "avg": null, "cnt": 7, "g": 394, "cf": "A｜2026实录", "note": "官方2026专业学位复试基本线：105118麻醉学335(36/108)，远高于国家线41分。105118拟招13(不含推免)。第二临床学院实录7人最低394、候补线363。重医各专业线普遍高：外科学375/内科学368/超声372。校线≠录取线，实际门槛≈380+", "src": "yjszs.cqmu.edu.cn 2026复试基本分数线通知(2026-03-26)；cqsahcqmu.cn 第二临床学院2026一志愿复试成绩公示"}, {"n": "同济大学", "r": "上海", "c": "上海", "lv": "985", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "", "src": ""}, {"n": "复旦大学", "r": "上海", "c": "上海", "lv": "985", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "", "src": ""}, {"n": "北京协和医学院", "r": "北京", "c": "北京", "lv": "双一流", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "", "src": ""}, {"n": "北京大学医学部", "r": "北京", "c": "北京", "lv": "985/双一流", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "", "src": ""}, {"n": "济宁医学院", "r": "山东", "c": "济宁", "lv": "省属", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "", "src": ""}, {"n": "中山大学", "r": "广东", "c": "广州", "lv": "985", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "", "src": ""}, {"n": "广东药科大学", "r": "广东", "c": "广州", "lv": "", "z": "A区", "p": 2, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "105118招2", "src": "2026目录检索"}, {"n": "汕头大学", "r": "广东", "c": "汕头", "lv": "", "z": "A区", "p": 8, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "105118招9含推免1→统考8", "src": "2026目录检索"}, {"n": "东南大学", "r": "江苏", "c": "南京", "lv": "985", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "", "src": ""}, {"n": "南京大学", "r": "江苏", "c": "南京", "lv": "985", "z": "A区", "p": null, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "", "src": ""}, {"n": "河北北方学院", "r": "河北", "c": "张家口", "lv": "", "z": "A区", "p": 15, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "第一临床医学院105118招15", "src": "2026目录检索"}, {"n": "河南科技大学", "r": "河南", "c": "洛阳", "lv": "", "z": "A区", "p": 5, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "临床医学院105118招5", "src": "2026目录检索"}, {"n": "湖南师范大学", "r": "湖南", "c": "长沙", "lv": "211", "z": "A区", "p": null, "fs": null, "fk": "未公布", "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "", "src": "2025拟录取名单; 2025机构整理"}, {"n": "大连大学", "r": "辽宁", "c": "大连", "lv": "", "z": "A区", "p": 2, "fs": null, "fk": null, "lo": null, "avg": null, "cnt": null, "g": null, "cf": "D｜待核实", "note": "中山临床学院105118招2", "src": "2026目录检索"}];
+let filter = 'all', zone = 'all', kw = '', sortKey = 'g', sortDir = 'asc';
+const tb = document.getElementById('tbody'), cnt = document.getElementById('cnt');
+const MAXV = 435;
+function bar(v) {
+  if (v == null) return '<span class="num" style="color:#9a958c">—</span>';
+  const w = Math.max(2, Math.round((v - 280) / (MAXV - 280) * 52));
+  const col = v <= 310 ? '#3f7d54' : (v <= 335 ? '#4a6f8f' : (v <= 350 ? '#b8860b' : '#b23b32'));
+  return '<span class="bar" style="width:' + w + 'px;background:' + col + '" aria-hidden="true"></span> ' +
+         '<span class="num" style="color:' + col + ';font-weight:700">' + v + '</span>';
+}
+function pass(r) {
+  if (zone !== 'all' && r.z !== zone) return false;
+  if (filter === 'all') {}
+  else if (filter === 'hi') { if (r.g == null || r.g <= 350) return false; }
+  else if (filter === '300') { if (r.g == null || r.g > 300) return false; }
+  else if (filter === '320') { if (r.g == null || r.g <= 300 || r.g > 320) return false; }
+  else if (filter === '350') { if (r.g == null || r.g <= 320 || r.g > 350) return false; }
+  if (kw) {
+    const s = (r.n + r.r + r.c).toLowerCase();
+    if (s.indexOf(kw.toLowerCase()) < 0) return false;
+  }
+  return true;
+}
+function render() {
+  let rows = DATA.filter(pass);
+  rows.sort((a, b) => {
+    let x = a[sortKey], y = b[sortKey];
+    if (x == null) x = sortDir === 'asc' ? 1e9 : -1e9;
+    if (y == null) y = sortDir === 'asc' ? 1e9 : -1e9;
+    if (typeof x === 'string') return sortDir === 'asc' ? x.localeCompare(y, 'zh') : y.localeCompare(x, 'zh');
+    return sortDir === 'asc' ? x - y : y - x;
+  });
+  cnt.textContent = rows.length;
+  tb.innerHTML = rows.map(r => {
+    const gc = r.g == null ? 'lv' : (r.g <= 310 ? 't3' : (r.g <= 335 ? 't4' : (r.g <= 350 ? 't2' : 't1')));
+    return '<tr class="row" data-n="' + r.n + '">' +
+      '<td><span class="tag ' + gc + '">' + (r.g == null ? '待补' : r.g) + '</span></td>' +
+      '<td><span class="sch">' + r.n + '</span>' + (r.lv ? ' <span class="tag lv">' + r.lv + '</span>' : '') + '</td>' +
+      '<td>' + r.r + '</td><td>' + (r.z === 'B区' ? '<b>B</b>' : 'A') + '</td>' +
+      '<td class="num">' + (r.p == null ? '—' : r.p) + '</td>' +
+      '<td class="num">' + (r.fs == null ? '—' : r.fs) + '</td>' +
+      '<td style="font-size:.78rem;color:#6b665e">' + (r.fk || '—') + '</td>' +
+      '<td class="num' + (r.lo != null && r.lo <= 320 ? ' lo' : '') + '">' + (r.lo == null ? '—' : r.lo) + '</td>' +
+      '<td class="num">' + (r.avg == null ? '—' : r.avg) + '</td>' +
+      '<td class="num">' + (r.cnt == null ? '—' : r.cnt) + '</td>' +
+      '<td style="font-size:.75rem">' + r.cf + '</td></tr>' +
+      '<tr class="detail" data-for="' + r.n + '" hidden><td colspan="11"><div class="box">' +
+        '<p><b>门槛分可视化：</b>' + bar(r.g) + ' （A 区国家线 294 · B 区 284）</p>' +
+        (r.note ? '<p>' + r.note + '</p>' : '') +
+        (r.src ? '<p class="src">来源：' + r.src + '</p>' : '') +
+      '</div></td></tr>';
+  }).join('');
+}
+tb.addEventListener('click', e => {
+  const tr = e.target.closest('tr.row'); if (!tr) return;
+  const d = tb.querySelector('tr.detail[data-for="' + CSS.escape(tr.dataset.n) + '"]');
+  if (d) { d.hidden = !d.hidden; tr.classList.toggle('open', !d.hidden); }
+});
+document.getElementById('q').addEventListener('input', e => { kw = e.target.value.trim(); render(); });
+document.querySelectorAll('.chip[data-f]').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.chip[data-f]').forEach(x => x.setAttribute('aria-pressed', 'false'));
+  b.setAttribute('aria-pressed', 'true'); filter = b.dataset.f; render();
+}));
+document.querySelectorAll('.chip[data-z]').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.chip[data-z]').forEach(x => x.setAttribute('aria-pressed', 'false'));
+  b.setAttribute('aria-pressed', 'true'); zone = b.dataset.z; render();
+}));
+document.querySelectorAll('th.sortable').forEach(th => th.addEventListener('click', () => {
+  const k = th.dataset.k;
+  if (sortKey === k) sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+  else { sortKey = k; sortDir = 'asc'; }
+  document.querySelectorAll('th.sortable').forEach(x => x.removeAttribute('data-dir'));
+  th.setAttribute('data-dir', sortDir); render();
+}));
+render();
+</script>
+
+</main>
+<footer>
+  <p>数据以 2026 年（最新完整招生年度）各校研究生院官方公告为主，含复试分数线通知、复试录取办法与拟录取名单公示；
+  无 2026 数据者回落到 2025 年值并已标注。<b>“参考门槛”优先取实录最低分，其次复试线。</b>
+  校线只是入场券，实际录取分往往高出 20–60 分，请以实录数据为准。2027 年招生政策以各校当年正式公告为准。</p>
+</footer>
+</body>
+</html>
