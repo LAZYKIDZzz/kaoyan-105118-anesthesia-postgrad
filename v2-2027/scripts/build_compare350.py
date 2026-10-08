@@ -15,6 +15,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 V2 = os.path.dirname(BASE)
 DATA = os.path.join(V2, 'data', 'years3.json')
 OUT_HTML = os.path.join(V2, 'html', 'compare.html')
+OUT_PREVIEW = os.path.join(V2, 'html', 'mobile-summary-preview.html')
 OUT_CSV = os.path.join(V2, 'data', '择校分数对照_实测版.csv')
 YEARS = ['2024', '2025', '2026']
 
@@ -144,7 +145,7 @@ a{color:inherit}
 .wrap{max-width:1180px;margin:0 auto;padding:0 16px 90px}
 .masthead{position:relative;overflow:hidden;color:#f4efe6;background:linear-gradient(135deg,var(--navy),var(--navy-deep));
   margin:0 -16px 22px;padding:30px 24px 26px;border-bottom:5px solid var(--accent)}
-.masthead .crumb{margin:0 0 12px;position:relative;z-index:2}
+.masthead .crumb{margin:0 0 12px;position:relative;z-index:2;display:flex;gap:7px;flex-wrap:wrap}
 .masthead .crumb a{color:#e9e2d6;text-decoration:none;font-size:12.5px;border:1px solid rgba(255,255,255,.28);
   padding:4px 11px;border-radius:20px;background:rgba(255,255,255,.08)}
 .masthead .crumb a:hover{background:rgba(255,255,255,.2)}
@@ -173,6 +174,7 @@ a{color:inherit}
 select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:13px;outline:none;max-width:220px}
 .chip{padding:7px 12px;border:1px solid var(--line);border-radius:20px;background:#fff;font-size:12.5px;cursor:pointer;color:var(--ink-soft);white-space:nowrap}
 .chip.on{background:var(--focus);color:#fff;border-color:var(--focus)}
+.chip[aria-pressed="false"]{opacity:.65}
 .toggles{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:9px;font-size:12.5px;color:var(--ink-soft)}
 .toggles label{display:flex;gap:6px;align-items:center;cursor:pointer}
 .count{font-size:12.5px;color:var(--ink-faint);margin:10px 2px 4px}
@@ -193,16 +195,23 @@ select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;backgroun
 .seg .sg+.sg{border-left:1px solid var(--line)}
 .seg .sg.on{background:var(--navy);color:#fff}
 .mini{padding:8px 10px;border:1px solid var(--line);border-radius:9px;background:#fff;font-size:12.5px;color:var(--ink-soft);outline:none}
+.yearnav{display:none;align-items:center;gap:5px}
+.yearnav span{font-size:12px;color:var(--ink-soft);white-space:nowrap}
+.yearnav button{padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:#fff;color:var(--navy);font-size:12px;font-weight:700;cursor:pointer}
+.yearnav button:focus-visible,.vtab:focus-visible,.chip:focus-visible,.sg:focus-visible,.btn:focus-visible,.fsexit:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.scrollhint{display:none;color:var(--ink-soft);font-size:12px}
 
 /* ---- 表格 ---- */
 .gridwrap{position:relative}
 .tablewrap{overflow:auto;max-height:74vh;border:1px solid var(--line);border-radius:10px;background:#fff;
-  box-shadow:0 1px 2px rgba(0,0,0,.03);-webkit-overflow-scrolling:touch}
+  box-shadow:0 1px 2px rgba(0,0,0,.03);-webkit-overflow-scrolling:touch;scrollbar-width:thin;overscroll-behavior:contain}
 .tablewrap table{width:100%;border-collapse:separate;border-spacing:0;font-size:12.5px;min-width:1140px}
 /* 年度分区竖线：明显分隔 2024 / 2025 / 2026 */
 .tablewrap th.sep,.tablewrap td.sep{border-left:2px solid #c3b9a7}
 .tablewrap td.plan{font-weight:700;color:var(--navy)}
 .tablewrap td.plan sup{color:#c0492f;font-weight:700;margin-left:1px}
+.planbtn{border:0;background:transparent;color:var(--navy);font-weight:700;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px;cursor:pointer;padding:4px}
+.planbtn:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
 .tablewrap th,.tablewrap td{padding:8px 9px;text-align:center;border-bottom:1px solid var(--line-soft);white-space:nowrap;background:#fff}
 .tablewrap thead th{background:#f0ece4;color:var(--navy);font-weight:700;cursor:pointer;user-select:none;
   position:sticky;z-index:2;border-bottom:1px solid var(--line)}
@@ -215,6 +224,7 @@ select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;backgroun
 .tablewrap th.col-name{z-index:4;border-right:1px solid var(--line)}
 .tablewrap td.name{background:#fff;border-right:1px solid var(--line)}
 .tablewrap td.name{font-weight:600;white-space:normal;min-width:150px;max-width:190px;line-height:1.35}
+.tablewrap thead tr:nth-child(2) th.col-name{z-index:4}
 .tablewrap td .yr{color:var(--ink-faint);font-size:11px;font-weight:400}
 .tablewrap tbody tr:hover td{background:#faf8f3}
 .tablewrap tbody tr:hover td.name{background:#f6f2ea}
@@ -225,42 +235,38 @@ select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;backgroun
 .bbadge.real{background:#e6f6ec;color:#1f7a45;border:1px solid #b9e3c8}
 .bbadge.est{background:#f3eee4;color:#8a7a4f;border:1px solid #e0d6bf}
 
-/* ---- 移动端卡片视图（窄屏默认） ---- */
+/* ---- 卡片视图：每张卡片完整展示三个年度 ---- */
 .cards{display:grid;grid-template-columns:1fr;gap:10px}
 .scard{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;box-shadow:0 1px 2px rgba(0,0,0,.03)}
-.sc-h{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}
+.sc-h{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;flex-wrap:wrap}
 .sc-name{font-weight:700;font-size:14.5px;line-height:1.3}
-.sc-badges{white-space:nowrap;display:flex;gap:5px;flex-shrink:0}
+.sc-badges{display:flex;gap:5px;flex-wrap:wrap}
 .sc-meta{font-size:11.5px;color:var(--ink-faint);margin:3px 0 8px}
 .sc-facts{display:flex;gap:18px;font-size:12px;color:var(--ink-soft);margin-bottom:8px;flex-wrap:wrap}
 .sc-facts b{color:var(--navy);font-size:14px}
-.sc-t{width:100%;border-collapse:collapse;font-size:12.5px}
-.sc-t th,.sc-t td{border-bottom:1px solid var(--line-soft);padding:6px 4px;text-align:center;background:#fff;white-space:nowrap}
-.sc-t tbody th{text-align:left;color:var(--ink-soft);font-weight:600;width:72px}
-.sc-t thead th{color:var(--navy);font-weight:700;background:#f6f2ea}
-.sc-t tr:last-child th,.sc-t tr:last-child td{border-bottom:0}
+.sc-year{border-top:1px solid var(--line-soft);padding:8px 0}
+.sc-year:last-child{padding-bottom:0}
+.sc-year h4{margin:0 0 5px;color:var(--navy);font-size:13px}
+.sc-metrics{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:3px}
+.sc-metrics span{min-width:0;text-align:center;border-right:1px solid var(--line-soft);font-size:12.5px;font-weight:700;white-space:nowrap}
+.sc-metrics span:last-child{border:0}
+.sc-metrics small{display:block;font-size:10.5px;font-weight:400;color:var(--ink-soft);white-space:nowrap}
 @media(min-width:721px){.cards{grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}}
 
-/* ---- 全屏模式 ---- */
+/* ---- 专注模式：筛选、排序和完整矩阵一起进入视口 ---- */
 .fsbar{display:none}
-.gridwrap .fsexit,.gridwrap .fsorientation{display:none}
-.gridwrap.fs{position:fixed;inset:0;z-index:999;background:#fff;overflow:hidden;height:100dvh;width:100vw;border-radius:0}
-.gridwrap.fs .fsbar{display:flex;position:fixed;top:0;left:0;right:0;z-index:1001;height:44px;align-items:center;
-  justify-content:flex-end;gap:10px;padding:0 12px;background:#fff;border-bottom:1px solid var(--line)}
-.gridwrap.fs .fsexit{display:inline-flex;align-items:center;gap:6px;padding:7px 14px;border:0;border-radius:20px;
-  background:var(--navy);color:#fff;font-size:12.5px;font-weight:700;cursor:pointer}
-.gridwrap.fs .fsorientation{display:none;margin-right:auto;padding:6px 13px;border-radius:20px;
-  background:#fff5ea;border:1px solid #f0d9c6;color:var(--accent);font-size:12.5px;font-weight:700}
-@media (orientation:portrait) and (max-width:900px){
-  .gridwrap.fs .fsorientation{display:inline-flex}
-}
-.gridwrap.fs .tablewrap{max-height:none;height:calc(100% - 44px);margin-top:44px;border:0;border-radius:0;box-shadow:none}
-.gridwrap.fs .cards{height:100%;overflow:auto;max-height:none;padding:56px 12px 20px;background:var(--paper)}
-/* 全屏时压缩表格，横屏可一屏看全 */
-.gridwrap.fs .tablewrap table{min-width:0}
-.gridwrap.fs .tablewrap th,.gridwrap.fs .tablewrap td{padding:5px 4px;font-size:11px}
-.gridwrap.fs .tablewrap td.name{min-width:106px;max-width:130px}
+.workarea.fs{position:fixed;inset:0;z-index:999;background:var(--paper);width:100%;height:100dvh;overflow:auto;padding:0 12px 24px;overscroll-behavior:contain}
+.workarea.fs .fsbar{display:flex;position:sticky;top:0;z-index:50;min-height:48px;align-items:center;justify-content:space-between;gap:10px;background:var(--navy);color:#fff;margin:0 -12px 8px;padding:env(safe-area-inset-top) 12px 0}
+.workarea.fs .fsexit{min-height:40px;padding:7px 12px;border:1px solid rgba(255,255,255,.5);border-radius:8px;background:transparent;color:#fff;font-size:13px;font-weight:700;cursor:pointer}
+.workarea.fs .ctrl{top:48px}
+.workarea.fs .tablewrap{max-height:calc(100dvh - 210px);min-height:240px}
+.workarea.fs .legend{display:none}
 body.noscroll{overflow:hidden}
+.plandialog{width:min(92vw,430px);border:1px solid var(--line);border-radius:12px;padding:18px;background:#fff;color:var(--ink);box-shadow:0 12px 40px rgba(0,0,0,.18)}
+.plandialog::backdrop{background:rgba(22,40,58,.55)}
+.plandialog h2{font-size:17px;margin:0 0 10px}
+.plandialog p{font-size:13px;margin:7px 0;overflow-wrap:anywhere}
+.plandialog button{min-height:40px;margin-top:12px;padding:8px 16px;border:0;border-radius:8px;background:var(--navy);color:#fff;font-weight:700;cursor:pointer}
 
 /* horizontal band rows */
 .hrow{display:grid;grid-template-columns:210px 1fr 64px;gap:10px;align-items:center;background:#fff;
@@ -289,12 +295,55 @@ select.school{width:100%;max-width:none}
 .empty{text-align:center;color:var(--ink-faint);padding:40px;font-size:14px}
 .btn{padding:7px 13px;border:1px solid var(--line);border-radius:8px;background:#fff;font-size:12.5px;cursor:pointer;color:var(--ink-soft)}
 .btn:hover{border-color:var(--focus);color:var(--focus)}
+@media(max-width:720px){
+  .wrap{padding:0 10px 48px}
+  .masthead{margin:0 -10px 12px;padding:16px 14px 14px}
+  .masthead h1{font-size:20px;line-height:1.32}
+  .masthead .sub{font-size:12px;line-height:1.55}
+  .masthead .kpis{gap:6px;margin-top:11px;overflow-x:auto;flex-wrap:nowrap;padding-bottom:4px}
+  .kpi{min-width:94px;padding:7px 9px;flex:0 0 auto}
+  .kpi b{font-size:18px}
+  .notice{font-size:12px;padding:10px 11px;margin-bottom:10px}
+  .ctrl{position:static;backdrop-filter:none;padding:3px 0 10px;margin-bottom:8px}
+  .viewtabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px}
+  .vtab{min-width:0;min-height:44px;padding:6px 3px;font-size:11.5px;line-height:1.25;text-align:center}
+  .ctrl2 input[type=text]{flex-basis:100%;min-width:0;min-height:44px;border-radius:8px}
+  .ctrl2 select{flex:1;min-width:0;max-width:none;min-height:42px}
+  .toggles{gap:6px;margin-top:8px}
+  .toggles .tier-label{flex-basis:100%}
+  .toggles .chip{min-height:38px;padding:7px 9px;font-size:11.5px}
+  .toggles label{flex-basis:100%;min-height:36px}
+  .legend{margin-bottom:8px;font-size:11px;gap:8px;padding:8px}
+  .toolbar{gap:7px;margin-bottom:7px}
+  .toolbar .tbinfo{flex-basis:100%}
+  .seg .sg{min-height:40px;padding:7px 10px}
+  .mini,.btn{min-height:40px}
+  #sortSel{flex:1;min-width:118px}
+  .yearnav{display:flex;flex-basis:100%;overflow-x:auto;padding:2px 0}
+  .scrollhint{display:block;flex-basis:100%}
+  #modeTip{display:none}
+  .tablewrap{height:min(68dvh,680px);max-height:none;border-radius:8px}
+  .tablewrap table{min-width:1170px;font-size:12px}
+  .tablewrap td.name{min-width:116px;max-width:116px;font-size:11.5px}
+  .tablewrap th,.tablewrap td{padding:8px 7px}
+  .tablewrap thead tr:nth-child(2) th{top:36px}
+  .workarea.fs .ctrl{position:static}
+  .workarea.fs .tablewrap{height:calc(100dvh - 72px);max-height:none}
+  .workarea.fs .scrollhint{display:none}
+  .scard{padding:11px 12px}
+  .sc-metrics{gap:0}
+}
+@media(max-width:360px){
+  .sc-metrics small{font-size:9.5px}
+  .sc-metrics span{font-size:11.5px}
+  .toggles .chip{font-size:11px;padding:6px 7px}
+}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="masthead">
-    <div class="crumb"><a href="nav.html">← 资料导航</a></div>
+    <div class="crumb"><a href="nav.html">← 资料导航</a><a href="mobile-summary-preview.html">手机端精简方案预览</a></div>
     <h1>麻醉学专硕择校参考 · 三年分数与人数对照</h1>
     <div class="sub">105118 麻醉学专硕 · 2024–2026 三年实际复试线与录取分数/人数。本页只展示「查得到」的真实录取最低/最高分，查不到的留空（—），<b>绝不把国家线或复试线当作录取分</b>。分数只是参考，找到与你合拍的城市和平台才是关键，别被任何一个数字吓到。</div>
     <div class="kpis" id="kpis"></div>
@@ -304,11 +353,13 @@ select.school{width:100%;max-width:none}
     <b>数据说明：</b> ① <b>录取最低 / 录取最高</b>来自各校拟录取名单公示或机构交叉验证，是「真实进面并上岸」的分数区间；② <b>复试线</b>只是入场券，往往远低于实际录取分；③ <b>国家线（A区 304/293/294，B区 294/283/284）</b>仅为政策参考，<u>不是任何院校的实际门槛</u>；④ <b>—</b> 表示「未检索到可核验的公开录取分」<b>不代表 0 分或未招生</b>；⑤ 每校带 <span class="bbadge real">实测</span>/<span class="bbadge est">线估</span> 标记，线估=仅有复试线、实际录取分未知；⑥ <b>27计划</b>为 2027 年（27考研）招生目录的检索整理值（多为不含推免），带 <b style="color:#c0492f">*</b> 者含推免或为总数，<b>—</b> 表示暂未检索到。
   </div>
 
+  <div class="workarea" id="workArea">
+    <div class="fsbar"><strong>三年数据对照</strong><button class="fsexit" id="fsExit" type="button">退出专注模式</button></div>
   <div class="ctrl">
     <div class="viewtabs">
-      <div class="vtab on" data-view="table">📋 数据总表</div>
-      <div class="vtab" data-view="h">↔ 横向·同年对比</div>
-      <div class="vtab" data-view="v">↕ 纵向·同校三年</div>
+      <button class="vtab on" data-view="table" type="button">数据总表</button>
+      <button class="vtab" data-view="h" type="button">同年横向对比</button>
+      <button class="vtab" data-view="v" type="button">同校三年趋势</button>
     </div>
     <div class="ctrl2">
       <input type="text" id="search" placeholder="搜索院校 / 地区 / 城市…">
@@ -316,11 +367,11 @@ select.school{width:100%;max-width:none}
       <select id="schoolSel"></select>
     </div>
     <div class="toggles">
-      <span style="font-weight:700;color:var(--ink)">梯度参考：</span>
-      <span class="chip on" data-tier="从容区">从容区 ≤300</span>
-      <span class="chip on" data-tier="稳健区">稳健区 301–320</span>
-      <span class="chip on" data-tier="进取区">进取区 321–335</span>
-      <span class="chip on" data-tier="冲刺区">冲刺区 336+</span>
+      <span class="tier-label" style="font-weight:700;color:var(--ink)">梯度参考：</span>
+      <button class="chip on" data-tier="从容区" aria-pressed="true" type="button">从容区 ≤300</button>
+      <button class="chip on" data-tier="稳健区" aria-pressed="true" type="button">稳健区 301–320</button>
+      <button class="chip on" data-tier="进取区" aria-pressed="true" type="button">进取区 321–335</button>
+      <button class="chip on" data-tier="冲刺区" aria-pressed="true" type="button">冲刺区 336+</button>
       <label><input type="checkbox" id="onlyReal"> 只显示「实测录取分」院校</label>
     </div>
   </div>
@@ -332,28 +383,29 @@ select.school{width:100%;max-width:none}
   <div class="toolbar" id="tabletoolbar">
     <span class="tbinfo" id="tbInfo"></span>
     <span class="seg" id="modeSeg">
-      <button class="sg" data-mode="card" type="button">📱 卡片视图</button>
-      <button class="sg" data-mode="table" type="button">📋 表格视图</button>
+      <button class="sg" data-mode="card" type="button">逐校卡片</button>
+      <button class="sg" data-mode="table" type="button">完整表格</button>
     </span>
     <select class="mini" id="sortSel" title="排序方式">
+      <option value="" disabled>按表头排序中</option>
       <option value="gate:1">门槛 低→高</option>
       <option value="gate:-1">门槛 高→低</option>
       <option value="name:1">院校名 A→Z</option>
       <option value="name:-1">院校名 Z→A</option>
     </select>
-    <button class="btn" id="fsBtn" type="button">⛶ 全屏查看</button>
+    <button class="btn" id="fsBtn" type="button">专注查看</button>
+    <div class="yearnav" id="yearNav" aria-label="表格年份定位"><span>跳至</span><button type="button" data-jump="start">院校</button><button type="button" data-jump="2024">2024</button><button type="button" data-jump="2025">2025</button><button type="button" data-jump="2026">2026</button></div>
+    <span class="scrollhint" id="scrollHint">表格可左右滑动；院校列固定，三年数据均在表内。</span>
     <span class="mini" id="modeTip" style="border-style:dashed"></span>
   </div>
 
   <div class="gridwrap" id="gridWrap">
-    <div class="fsbar" id="fsBar">
-      <span class="fsorientation" id="fsOrient">↻ 横屏查看更清爽</span>
-      <button class="fsexit" id="fsExit" type="button">✕ 退出全屏</button>
-    </div>
     <div id="viewTable"></div>
   </div>
   <div id="viewH"></div>
   <div id="viewV"></div>
+  <dialog class="plandialog" id="planDialog"><h2 id="planTitle"></h2><p id="planBasis"></p><p id="planSource"></p><button id="planClose" type="button">关闭</button></dialog>
+  </div>
 
   <div class="foot" id="foot"></div>
 </div>
@@ -409,9 +461,8 @@ function renderLegend(){
 
 // ---------- Table view ----------
 let sortKey='gate', sortDir=1;
-const mqNarrow = window.matchMedia('(max-width:720px)');
-let cardPref = null;            // null=自动（窄屏用卡片）; true/false=用户强制
-function useCard(){ return cardPref===null ? mqNarrow.matches : cardPref; }
+let cardPref = false;           // 完整矩阵是手机与桌面的默认视图
+function useCard(){ return cardPref; }
 
 function sortList(list){
   list.sort((a,b)=>{
@@ -429,7 +480,7 @@ function renderTable(){
   const list=sortList(filtered().slice());
   const head=`<tr>
     <th class="col-name" data-k="name">院校 ⇅</th><th data-k="gate">门槛 ⇅</th><th class="noSort">梯度</th><th class="noSort">状态</th><th class="noSort sep">27计划</th>
-    ${YEARS.map(y=>`<th class="sep" colspan="5">${y} 年</th>`).join('')}
+    ${YEARS.map(y=>`<th class="sep" colspan="5" data-year="${y}">${y} 年</th>`).join('')}
   </tr><tr>
     <th class="col-name noSort"></th><th class="noSort"></th><th class="noSort"></th><th class="noSort"></th><th class="noSort sep"></th>
     ${YEARS.map(y=>`<th class="sep" data-k="${y}fs">线</th><th data-k="${y}lo">最低</th><th data-k="${y}hi">最高</th><th data-k="${y}avg">均分</th><th data-k="${y}n">人数</th>`).join('')}
@@ -439,11 +490,11 @@ function renderTable(){
     const hasPlan = s.plan27!==null && s.plan27!==undefined;
     const mark = (hasPlan && s.plan27Basis!=='统考/不含推免') ? '<sup>*</sup>' : '';
     const planCell = hasPlan ? `<span class="cellnum">${s.plan27}</span>${mark}` : `<span class="cellnull">—</span>`;
-    const plTitle = (s.plan27Basis||s.plan27Src) ? `口径：${s.plan27Basis||'未知'}｜来源：${(s.plan27Src||'').replace(/"/g,'')}` : '暂未检索到 2027 计划';
+    const idx=DATA.schools.indexOf(s);
     return `<tr>
       <td class="name">${s.n}<div class="yr">${s.r}·${s.c} ${s.z}${s.lv?' · '+s.lv:''}</div></td>
       <td><b>${s.gate}</b></td><td>${tierBadge(s.tier)}</td><td>${basisBadge(s.basis)}</td>
-      <td class="plan sep" title="${plTitle}">${planCell}</td>
+      <td class="plan sep"><button class="planbtn" type="button" data-plan-index="${idx}" aria-label="${s.n} 2027 计划口径与来源">${planCell}</button></td>
       ${cells}</tr>`;
   }).join('');
   document.getElementById('viewTable').innerHTML=`<div class="tablewrap"><table><thead>${head}</thead><tbody>${body||'<tr><td colspan="20" class="empty">无匹配院校</td></tr>'}</tbody></table></div>`;
@@ -455,21 +506,17 @@ function renderTable(){
 // ---------- Mobile card view ----------
 function renderCards(){
   const list=sortList(filtered().slice());
-  const rows=[['复试线','fs'],['录取最低','lo'],['录取最高','hi'],['录取均分','avg'],['录取人数','n']];
+  const metrics=[['复试线','fs'],['最低','lo'],['最高','hi'],['均分','avg'],['人数','n']];
   const cards=list.map(s=>{
-    const th=YEARS.map(y=>`<th>${y}</th>`).join('');
-    const tr=rows.map(([lab,k])=>{
-      const tds=YEARS.map(y=>`<td>${fmt(s.y[y][k])}</td>`).join('');
-      return `<tr><th>${lab}</th>${tds}</tr>`;
-    }).join('');
+    const years=YEARS.map(y=>`<section class="sc-year"><h4>${y} 年</h4><div class="sc-metrics">${metrics.map(([lab,k])=>`<span><small>${lab}</small>${fmt(s.y[y][k])}</span>`).join('')}</div></section>`).join('');
     const hasPlan=s.plan27!==null&&s.plan27!==undefined;
     const mark=(hasPlan&&s.plan27Basis!=='统考/不含推免')?'<sup>*</sup>':'';
-    const plTitle=(s.plan27Basis||s.plan27Src)?`口径：${s.plan27Basis||'未知'}｜来源：${(s.plan27Src||'').replace(/"/g,'')}`:'暂未检索到 2027 计划';
+    const idx=DATA.schools.indexOf(s);
     return `<div class="scard">
       <div class="sc-h"><div class="sc-name">${s.n}</div><div class="sc-badges">${tierBadge(s.tier)}${basisBadge(s.basis)}</div></div>
       <div class="sc-meta">${s.r}·${s.c} ${s.z}${s.lv?' · '+s.lv:''}</div>
-      <div class="sc-facts"><span>门槛 <b>${s.gate}</b></span><span title="${plTitle}">27计划 <b>${hasPlan?s.plan27+mark:'—'}</b></span></div>
-      <table class="sc-t"><thead><tr><th></th>${th}</tr></thead><tbody>${tr}</tbody></table>
+      <div class="sc-facts"><span>门槛 <b>${s.gate}</b></span><button class="planbtn" type="button" data-plan-index="${idx}">27计划 ${hasPlan?s.plan27+mark:'—'} · 查看口径</button></div>
+      ${years}
     </div>`;
   }).join('');
   document.getElementById('viewTable').innerHTML=`<div class="cards">${cards||'<div class="empty">无匹配院校</div>'}</div>`;
@@ -477,16 +524,44 @@ function renderCards(){
 
 function syncToolbar(){
   const onCard=useCard();
-  document.querySelectorAll('#modeSeg .sg').forEach(b=>b.classList.toggle('on',(b.getAttribute('data-mode')==='card')===onCard));
+  document.querySelectorAll('#modeSeg .sg').forEach(b=>{
+    const active=(b.getAttribute('data-mode')==='card')===onCard;
+    b.classList.toggle('on',active); b.setAttribute('aria-pressed',String(active));
+  });
   const ss=document.getElementById('sortSel'); const val=sortKey+':'+sortDir;
-  if([...ss.options].some(o=>o.value===val)) ss.value=val;
+  ss.value=[...ss.options].some(o=>o.value===val)?val:'';
   document.getElementById('tbInfo').textContent=`共 ${filtered().length} 所`;
   const tip=document.getElementById('modeTip');
-  if(cardPref===null) tip.textContent = mqNarrow.matches?'已按窄屏自动切换为卡片':'当前自动模式（宽屏用表格）';
-  else tip.textContent = cardPref?'已固定为卡片视图':'已固定为表格视图';
+  tip.textContent = cardPref?'三年全部字段逐校展示':'三年全部字段横向展开';
+  document.getElementById('yearNav').style.display=onCard?'none':'';
+  document.getElementById('scrollHint').style.display=onCard?'none':'';
 }
 
-function renderListView(){ syncToolbar(); if(useCard()) renderCards(); else renderTable(); }
+function renderListView(){
+  const old=document.querySelector('#viewTable .tablewrap');
+  const left=old?old.scrollLeft:0, top=old?old.scrollTop:0;
+  syncToolbar();
+  if(useCard()) renderCards();
+  else { renderTable(); const wrap=document.querySelector('#viewTable .tablewrap'); wrap.scrollLeft=left;wrap.scrollTop=top; }
+}
+
+function jumpToYear(year){
+  if(useCard()){cardPref=false;renderListView();}
+  const wrap=document.querySelector('#viewTable .tablewrap');
+  if(!wrap) return;
+  const th=year==='start'?null:wrap.querySelector(`th[data-year="${year}"]`);
+  const target=th?wrap.scrollLeft+th.getBoundingClientRect().left-wrap.getBoundingClientRect().left-wrap.querySelector('th.col-name').offsetWidth:0;
+  wrap.scrollTo({left:Math.max(0,target),behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+}
+
+function showPlanInfo(index){
+  const s=DATA.schools[index];
+  if(!s) return;
+  document.getElementById('planTitle').textContent=`${s.n} · 2027 计划`;
+  document.getElementById('planBasis').textContent=`招生计划：${s.plan27===null?'暂未检索到':s.plan27}；口径：${s.plan27Basis||'未知'}`;
+  document.getElementById('planSource').textContent=`来源：${s.plan27Src||'暂未检索到'}`;
+  document.getElementById('planDialog').showModal();
+}
 
 // ---------- Horizontal view ----------
 function renderH(){
@@ -567,28 +642,30 @@ function renderV(){
   </div>`;
 }
 
-// ---------- 全屏模式 ----------
+// ---------- 专注模式 ----------
 function setFs(on){
-  const gw=document.getElementById('gridWrap');
-  gw.classList.toggle('fs', !!on);
+  const area=document.getElementById('workArea');
+  area.classList.toggle('fs', !!on);
   document.body.classList.toggle('noscroll', !!on);
-  if(on){ if(gw.requestFullscreen){ const p=gw.requestFullscreen(); if(p&&p.catch) p.catch(()=>{}); } }
-  else { if(document.fullscreenElement && document.exitFullscreen){ const p=document.exitFullscreen(); if(p&&p.catch) p.catch(()=>{}); } }
+  if(on){ area.scrollTop=0; if(area.requestFullscreen){ const p=area.requestFullscreen(); if(p&&p.catch) p.catch(()=>{}); } }
+  else if(document.fullscreenElement===area && document.exitFullscreen){ const p=document.exitFullscreen(); if(p&&p.catch) p.catch(()=>{}); }
 }
 document.addEventListener('fullscreenchange', ()=>{
-  const gw=document.getElementById('gridWrap');
-  if(!document.fullscreenElement && gw.classList.contains('fs')) setFs(false);
+  const area=document.getElementById('workArea');
+  if(!document.fullscreenElement && area.classList.contains('fs')) setFs(false);
 });
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.getElementById('workArea').classList.contains('fs'))setFs(false);});
 
 function showView(){
-  document.querySelectorAll('.vtab').forEach(t=>t.classList.toggle('on',t.getAttribute('data-view')===state.view));
+  document.querySelectorAll('.vtab').forEach(t=>{const active=t.getAttribute('data-view')===state.view;t.classList.toggle('on',active);t.setAttribute('aria-pressed',String(active));});
   const isTable = state.view==='table';
   document.getElementById('tabletoolbar').style.display = isTable?'flex':'none';
   document.getElementById('gridWrap').style.display = isTable?'block':'none';
   document.getElementById('viewH').style.display = state.view==='h'?'block':'none';
   document.getElementById('viewV').style.display = state.view==='v'?'block':'none';
+  document.getElementById('yearSel').style.display=state.view==='h'?'block':'none';
+  document.getElementById('schoolSel').style.display=state.view==='v'?'block':'none';
   document.getElementById('count').textContent='';
-  if(!isTable) setFs(false);
   if(isTable) renderListView();
   else if(state.view==='h') renderH();
   else renderV();
@@ -598,16 +675,16 @@ function refresh(){ renderKpis(); renderLegend(); showView(); }
 
 function init(){
   // year select
-  const ys=document.getElementById('yearSel'); ys.innerHTML=YEARS.map(y=>`<option value="${y}">横向年份：${y}</option>`).join('')+`<option value="__all">（横向用）</option>`;
-  ys.value=state.year; ys.onchange=()=>{ if(ys.value!=='__all') state.year=ys.value; };
+  const ys=document.getElementById('yearSel'); ys.innerHTML=YEARS.map(y=>`<option value="${y}">横向年份：${y}</option>`).join('');
+  ys.value=state.year; ys.onchange=()=>{state.year=ys.value;if(state.view==='h')renderH();};
   // school select
   const ss=document.getElementById('schoolSel');
   ss.innerHTML=`<option value="">纵向院校：选择…</option>`+DATA.schools.map(s=>`<option value="${s.n}">${s.n}（${s.tier}·${s.basis}）</option>`).join('');
   ss.onchange=()=>{ state.schoolSel=ss.value; if(state.view!=='v'){state.view='v';} showView(); };
   // tabs
-  document.querySelectorAll('.vtab').forEach(t=>t.onclick=()=>{ state.view=t.getAttribute('data-view'); if(state.view==='v'&&!state.schoolSel) state.schoolSel=DATA.schools[0].n; showView(); });
+  document.querySelectorAll('.vtab').forEach(t=>t.onclick=()=>{ state.view=t.getAttribute('data-view'); if(state.view==='v'&&!state.schoolSel){state.schoolSel=DATA.schools[0].n;ss.value=state.schoolSel;} showView(); });
   // chips
-  document.querySelectorAll('.chip[data-tier]').forEach(c=>c.onclick=()=>{ const t=c.getAttribute('data-tier'); state.tier[t]=!state.tier[t]; c.classList.toggle('on',state.tier[t]); refresh(); });
+  document.querySelectorAll('.chip[data-tier]').forEach(c=>c.onclick=()=>{ const t=c.getAttribute('data-tier'); state.tier[t]=!state.tier[t]; c.classList.toggle('on',state.tier[t]);c.setAttribute('aria-pressed',String(state.tier[t])); refresh(); });
   document.getElementById('onlyReal').onchange=e=>{ state.onlyReal=e.target.checked; refresh(); };
   document.getElementById('search').oninput=e=>{ state.q=e.target.value; refresh(); };
   // 视图模式（卡片 / 表格）
@@ -617,12 +694,12 @@ function init(){
   // 全屏
   document.getElementById('fsBtn').onclick=()=>setFs(true);
   document.getElementById('fsExit').onclick=()=>setFs(false);
-  // 屏幕宽度变化：自动模式（未手动固定）时自动在卡片/表格间切换
-  const onMq=()=>{ if(state.view==='table' && cardPref===null) renderListView(); };
-  if(mqNarrow.addEventListener) mqNarrow.addEventListener('change',onMq); else if(mqNarrow.addListener) mqNarrow.addListener(onMq);
+  document.querySelectorAll('#yearNav button').forEach(b=>b.onclick=()=>jumpToYear(b.dataset.jump));
+  document.getElementById('viewTable').addEventListener('click',e=>{const b=e.target.closest('.planbtn');if(b)showPlanInfo(Number(b.dataset.planIndex));});
+  document.getElementById('planClose').onclick=()=>document.getElementById('planDialog').close();
   // foot
   document.getElementById('foot').innerHTML=`数据基准：2024 / 2025 / 2026 三个完整招生年度。本页收录 ${DATA.schools.length} 所「三年内录取分数相对友好」的院校（含只查到复试线、录取分待核实的）。`+
-    `「27计划」= 2027 年（27考研）105118 麻醉学专硕拟招生人数，为联网检索整理值，多为「不含推免」口径；带 <sup style="color:#c0492f">*</sup> 者为含推免或总数口径（悬停单元格看口径与来源）；「—」表示暂未检索到，报考以各校当年官方招生目录为准。`+
+    `「27计划」= 2027 年（27考研）105118 麻醉学专硕拟招生人数，为联网检索整理值，多为「不含推免」口径；带 <sup style="color:#c0492f">*</sup> 者为含推免或总数口径（点击计划数字查看口径与来源）；「—」表示暂未检索到，报考以各校当年官方招生目录为准。`+
     `「录取最低/最高」= 统考实际录取考生初试总分区间；「复试线」= 该校/院当年公布线（含国家线/校线/院线/自划线，见 fsKind）。`+
     `来源优先级：官方拟录取公示 / 复试线通知 ＞ 研招网 ＞ 启航/路灯/掌上考研/中公等机构整理（已交叉验证）。`+
     `未查到公开录取分的院校标注「线估」，其复试线不代表实际录取门槛。本页仅供初筛，报考请以目标院校当年官方公告为准。`;
@@ -638,4 +715,83 @@ init();
 html = html.replace('__DATA_JSON__', DATA_JSON)
 open(OUT_HTML, 'w', encoding='utf-8').write(html)
 print('HTML written:', OUT_HTML)
+
+# 独立的手机端精简方案预览。正式主页始终保留完整三年矩阵。
+preview = """<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>手机端精简方案预览 · 麻醉学专硕择校</title>
+<style>
+:root{color-scheme:light;--navy:#1f3a52;--paper:#f6f4ef;--line:#e3ddd2;--ink:#27303d;--muted:#5d6874;--accent:#c0492f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.5 "PingFang SC","Microsoft YaHei",sans-serif}
+button,input,select{font:inherit}
+.page{max-width:720px;margin:auto;padding:0 12px 48px}
+header{margin:0 -12px;padding:18px 16px 16px;background:var(--navy);color:#fff}
+header a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+header h1{margin:9px 0 4px;font-size:21px;line-height:1.3}
+header p{margin:0;font-size:12.5px;color:#e0e9ef}
+.notice{background:#fff3e7;color:#62452e;border-left:4px solid var(--accent);padding:10px 12px;margin:12px 0;font-size:12px}
+.controls{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0}
+.controls input{grid-column:1/-1}
+.controls input,.controls select{min-width:0;min-height:44px;border:1px solid var(--line);border-radius:8px;padding:9px;background:#fff;color:var(--ink)}
+.count{font-size:12px;color:var(--muted);margin-bottom:8px}
+.list{display:grid;gap:9px}
+.card{background:#fff;border:1px solid var(--line);border-radius:11px;padding:13px 14px}
+.top{display:flex;justify-content:space-between;gap:8px;align-items:baseline}
+.name{font-size:16px;font-weight:700;line-height:1.3}
+.tier{font-size:11px;font-weight:700;white-space:nowrap}
+.meta{font-size:11.5px;color:var(--muted);margin:4px 0 9px}
+.primary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:5px;background:#f3f6f7;border-radius:8px;padding:9px}
+.primary div{min-width:0}
+.primary small,.secondary small{display:block;color:var(--muted);font-size:10.5px;white-space:nowrap}
+.primary b{font-size:19px;color:var(--navy);line-height:1.3}
+.secondary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:9px;padding-top:8px;border-top:1px solid #eee}
+.secondary b{font-size:13px}
+.missing{color:#9da4ad}
+.foot{font-size:11.5px;color:var(--muted);margin-top:16px;line-height:1.6}
+@media(min-width:560px){.list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+:focus-visible{outline:3px solid #2f7fd1;outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="page">
+  <header><a href="index.html">← 返回完整三年数据总表</a><h1>手机端精简方案预览</h1><p>按一个年度快速浏览关键分数，再决定是否适合长期使用。</p></header>
+  <div class="notice">这是独立的交互预览。完整三年复试线、最低、最高、均分、人数仍在<a href="index.html">数据总表</a>，本页不用于全量对照。</div>
+  <div class="controls"><input id="search" type="search" placeholder="搜索院校、地区或城市" aria-label="搜索院校、地区或城市"><select id="year" aria-label="选择年度"></select><select id="sort" aria-label="排序方式"><option value="gate">门槛从低到高</option><option value="lo">当年录取最低分</option><option value="avg">当年录取均分</option><option value="name">院校名称</option></select></div>
+  <div class="count" id="count"></div><div class="list" id="list"></div>
+  <div class="foot">“—”表示未检索到可核验数据，不代表 0 分或未招生。分数仅供初筛，报考以学校当年公告为准。</div>
+</div>
+<script>
+const DATA=__DATA_JSON__;
+const $=id=>document.getElementById(id);
+const fmt=v=>v===null||v===undefined?'<span class="missing">—</span>':String(v);
+function render(){
+  const year=$('year').value, key=$('sort').value, q=$('search').value.trim().toLowerCase();
+  const list=DATA.schools.filter(s=>!q||[s.n,s.r,s.c].some(v=>(v||'').toLowerCase().includes(q)));
+  list.sort((a,b)=>{
+    if(key==='name')return a.n.localeCompare(b.n,'zh');
+    const av=key==='gate'?a.gate:a.y[year][key],bv=key==='gate'?b.gate:b.y[year][key];
+    return (av===null?Infinity:av)-(bv===null?Infinity:bv)||a.n.localeCompare(b.n,'zh');
+  });
+  $('count').textContent=`${year} 年 · 共 ${list.length} 所院校`;
+  $('list').innerHTML=list.map(s=>{
+    const r=s.y[year];
+    return `<article class="card"><div class="top"><div class="name">${s.n}</div><span class="tier">${s.tier}</span></div>
+      <div class="meta">${s.r} · ${s.c} · ${s.basis}</div>
+      <div class="primary"><div><small>三年门槛</small><b>${fmt(s.gate)}</b></div><div><small>${year} 录取最低</small><b>${fmt(r.lo)}</b></div><div><small>${year} 录取均分</small><b>${fmt(r.avg)}</b></div></div>
+      <div class="secondary"><div><small>复试线</small><b>${fmt(r.fs)}</b></div><div><small>录取人数</small><b>${fmt(r.n)}</b></div><div><small>2027 计划</small><b>${fmt(s.plan27)}${s.plan27!==null&&s.plan27Basis!=='统考/不含推免'?'*':''}</b></div></div></article>`;
+  }).join('')||'<div class="card">没有匹配的院校，请调整搜索词。</div>';
+}
+$('year').innerHTML=DATA.years.map(y=>`<option value="${y}">${y} 年</option>`).join('');
+$('year').value='2026';
+['search','year','sort'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',render));
+render();
+</script>
+</body></html>
+""".replace('__DATA_JSON__', DATA_JSON)
+open(OUT_PREVIEW, 'w', encoding='utf-8').write(preview)
+print('HTML written:', OUT_PREVIEW)
 print('candidates:', n_total, '| 实测:', n_real, '| 线估:', n_est, '| tier:', tier_dist)

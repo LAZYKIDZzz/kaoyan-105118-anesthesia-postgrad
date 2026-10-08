@@ -4,6 +4,7 @@
 
 映射：
   html/compare.html   -> docs/index.html       （首页：三年分数与人数对照）
+  html/mobile-summary-preview.html -> docs/mobile-summary-preview.html （手机端精简方案预览）
   html/index.html     -> docs/v2/index.html    （2027 报考速查总表）
   html/tier350.html   -> docs/v2/tier350.html
   html/years3.html    -> docs/v2/years3.html
@@ -40,6 +41,7 @@ def main():
     os.makedirs(V2DOCS, exist_ok=True)
     pairs = [
         (os.path.join(SRC, 'compare.html'), os.path.join(DOCS, 'index.html'), False),
+        (os.path.join(SRC, 'mobile-summary-preview.html'), os.path.join(DOCS, 'mobile-summary-preview.html'), False),
         (os.path.join(SRC, 'index.html'), os.path.join(V2DOCS, 'index.html'), True),
         (os.path.join(SRC, 'tier350.html'), os.path.join(V2DOCS, 'tier350.html'), True),
         (os.path.join(SRC, 'years3.html'), os.path.join(V2DOCS, 'years3.html'), True),
