@@ -206,7 +206,7 @@ select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;backgroun
 .tablewrap{overflow:auto;max-height:74vh;border:1px solid var(--line);border-radius:10px;background:#fff;
   box-shadow:0 1px 2px rgba(0,0,0,.03);-webkit-overflow-scrolling:touch;scrollbar-width:thin;overscroll-behavior:contain}
 .tablewrap table{width:100%;border-collapse:separate;border-spacing:0;font-size:12.5px;min-width:1140px}
-/* 年度分区竖线：明显分隔 2024 / 2025 / 2026 */
+/* 年度分区竖线：明显分隔 2026 / 2025 / 2024 */
 .tablewrap th.sep,.tablewrap td.sep{border-left:2px solid #c3b9a7}
 .tablewrap td.plan{font-weight:700;color:var(--navy)}
 .tablewrap td.plan sup{color:#c0492f;font-weight:700;margin-left:1px}
@@ -394,7 +394,7 @@ select.school{width:100%;max-width:none}
       <option value="name:-1">院校名 Z→A</option>
     </select>
     <button class="btn" id="fsBtn" type="button">专注查看</button>
-    <div class="yearnav" id="yearNav" aria-label="表格年份定位"><span>跳至</span><button type="button" data-jump="start">院校</button><button type="button" data-jump="2024">2024</button><button type="button" data-jump="2025">2025</button><button type="button" data-jump="2026">2026</button></div>
+    <div class="yearnav" id="yearNav" aria-label="表格年份定位"><span>跳至</span><button type="button" data-jump="start">院校</button><button type="button" data-jump="2026">2026</button><button type="button" data-jump="2025">2025</button><button type="button" data-jump="2024">2024</button></div>
     <span class="scrollhint" id="scrollHint">表格可左右滑动；院校列固定，三年数据均在表内。</span>
     <span class="mini" id="modeTip" style="border-style:dashed"></span>
   </div>
@@ -413,6 +413,7 @@ select.school{width:100%;max-width:none}
 <script>
 const DATA = __DATA_JSON__;
 const YEARS = DATA.years;
+const TABLE_YEARS = [...YEARS].reverse();
 const TIER_COLOR = DATA.tierColor;
 const NAT = DATA.natline;
 let state = { view:'table', year:'2026', tier:{从容区:true,稳健区:true,进取区:true,冲刺区:true}, onlyReal:false, q:'' };
@@ -480,13 +481,13 @@ function renderTable(){
   const list=sortList(filtered().slice());
   const head=`<tr>
     <th class="col-name" data-k="name">院校 ⇅</th><th data-k="gate">门槛 ⇅</th><th class="noSort">梯度</th><th class="noSort">状态</th><th class="noSort sep">27计划</th>
-    ${YEARS.map(y=>`<th class="sep" colspan="5" data-year="${y}">${y} 年</th>`).join('')}
+    ${TABLE_YEARS.map(y=>`<th class="sep" colspan="5" data-year="${y}">${y} 年</th>`).join('')}
   </tr><tr>
     <th class="col-name noSort"></th><th class="noSort"></th><th class="noSort"></th><th class="noSort"></th><th class="noSort sep"></th>
-    ${YEARS.map(y=>`<th class="sep" data-k="${y}fs">线</th><th data-k="${y}lo">最低</th><th data-k="${y}hi">最高</th><th data-k="${y}avg">均分</th><th data-k="${y}n">人数</th>`).join('')}
+    ${TABLE_YEARS.map(y=>`<th class="sep" data-k="${y}fs">线</th><th data-k="${y}lo">最低</th><th data-k="${y}hi">最高</th><th data-k="${y}avg">均分</th><th data-k="${y}n">人数</th>`).join('')}
   </tr>`;
   const body=list.map(s=>{
-    const cells=YEARS.map(y=>{const r=s.y[y];return `<td class="sep">${fmt(r.fs)}</td><td>${fmt(r.lo)}</td><td>${fmt(r.hi)}</td><td>${fmt(r.avg)}</td><td>${fmt(r.n)}</td>`;}).join('');
+    const cells=TABLE_YEARS.map(y=>{const r=s.y[y];return `<td class="sep">${fmt(r.fs)}</td><td>${fmt(r.lo)}</td><td>${fmt(r.hi)}</td><td>${fmt(r.avg)}</td><td>${fmt(r.n)}</td>`;}).join('');
     const hasPlan = s.plan27!==null && s.plan27!==undefined;
     const mark = (hasPlan && s.plan27Basis!=='统考/不含推免') ? '<sup>*</sup>' : '';
     const planCell = hasPlan ? `<span class="cellnum">${s.plan27}</span>${mark}` : `<span class="cellnull">—</span>`;
