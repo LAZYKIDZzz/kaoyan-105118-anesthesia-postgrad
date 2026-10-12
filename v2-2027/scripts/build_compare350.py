@@ -85,6 +85,15 @@ for c in cands:
     c['plan27'] = p.get('plan')
     c['plan27Basis'] = p.get('basis') or ''
     c['plan27Src'] = p.get('source') or ''
+    # 27 计划 vs 2026 年统考录取人数：>= 记为 up（页面显示绿色），< 记为 down（显示红色）
+    n26 = (c['y'].get('2026') or {}).get('n')
+    c['n2026'] = n26
+    if c['plan27'] is not None and n26 is not None:
+        c['plan27Cmp'] = 'up' if c['plan27'] >= n26 else 'down'
+        c['plan27Delta'] = c['plan27'] - n26
+    else:
+        c['plan27Cmp'] = ''
+        c['plan27Delta'] = None
 
 NATLINE = {'2024': [304, 294], '2025': [293, 283], '2026': [294, 284]}
 
@@ -102,14 +111,18 @@ from collections import Counter
 tier_dist = dict(Counter(c['tier'] for c in cands))
 
 # ================= CSV 导出 =================
-headers = ['院校', '地区', '城市', '区', '层次', '档位', '数据状态', '门槛(三年最低)', '真实录取分年份数']
+headers = ['院校', '地区', '城市', '区', '层次', '档位', '数据状态', '门槛(三年最低)', '真实录取分年份数', '2027计划', '2027计划口径', '2026统考录取人数', '27计划对26人数']
 for y in YEARS:
     headers += [f'{y}复试线', f'{y}录取最低', f'{y}录取最高', f'{y}录取均分', f'{y}统考人数', f'{y}置信度', f'{y}数据来源']
 with open(OUT_CSV, 'w', encoding='utf-8-sig', newline='') as f:
     w = csv.writer(f)
     w.writerow(headers)
     for c in cands:
-        row = [c['n'], c['r'], c['c'], c['z'], c['lv'], c['tier'], c['basis'], c['gate'], c['real_years']]
+        row = [c['n'], c['r'], c['c'], c['z'], c['lv'], c['tier'], c['basis'], c['gate'], c['real_years'],
+               c['plan27'] if c['plan27'] is not None else '',
+               c['plan27Basis'],
+               c['n2026'] if c['n2026'] is not None else '',
+               {'up': '不减少', 'down': '减少', '': '无法比较'}[c['plan27Cmp']]]
         for y in YEARS:
             r = c['y'][y]
             row += [r['fs'] if r['fs'] is not None else '',
@@ -215,6 +228,14 @@ select{padding:9px 10px;border:1px solid var(--line);border-radius:8px;backgroun
 .tablewrap td.plan sup{color:#c0492f;font-weight:700;margin-left:1px}
 .planbtn{border:0;background:transparent;color:var(--navy);font-weight:700;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px;cursor:pointer;padding:4px}
 .planbtn:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+/* 27计划 vs 2026年录取人数：不减少=绿，减少=红 */
+.planup{color:#1f7a45}
+.plandown{color:#c0492f}
+.planbtn.planup{color:#1f7a45}
+.planbtn.plandown{color:#c0492f}
+.planarrow{font-size:10.5px;font-weight:700;margin-left:1px}
+.plan-cmp{color:var(--ink-faint);font-weight:400}
+.legend .planup,.legend .plandown{font-weight:700}
 .tablewrap th,.tablewrap td{padding:8px 9px;text-align:center;border-bottom:1px solid var(--line-soft);white-space:nowrap;background:#fff}
 .tablewrap thead th{background:#f0ece4;color:var(--navy);font-weight:700;cursor:pointer;user-select:none;
   position:sticky;z-index:2;border-bottom:1px solid var(--line)}
@@ -355,7 +376,7 @@ select.school{width:100%;max-width:none}
   </header>
 
   <div class="notice">
-    <b>数据说明：</b> ① <b>录取最低 / 录取最高</b>来自各校拟录取名单公示等官方原文，是「真实进面并上岸」的分数区间，口径为<b>普通计划统考</b>（含一志愿与调剂）；少数民族骨干、退役士兵、定向就业等专项计划<b>单列不计入门槛</b>（见各校备注）；② <b>复试线</b>只是入场券，往往远低于实际录取分；③ <b>国家线（A区 304/293/294，B区 294/283/284）</b>仅为政策参考，<u>不是任何院校的实际门槛</u>；④ <b>—</b> 表示「未检索到可核验的公开录取分」<b>不代表 0 分或未招生</b>；⑤ 每校带 <span class="bbadge real">实测</span>/<span class="bbadge est">线估</span> 标记，线估=仅有复试线、实际录取分未知；⑥ <span class="confwarn">⚠</span> 表示该年数据仅部分覆盖招生单位或来自二次来源，请结合备注判断；⑦ <b>27计划</b>为 2027 年（27考研）招生目录的检索整理值（多为不含推免），带 <b style="color:#c0492f">*</b> 者含推免或为总数，<b>—</b> 表示暂未检索到。<br><span style="opacity:.8">数据刷新：2026-10-12（第三轮全网检索，新增 19 所院校官方录取分、33 所院校 2027 计划数）。</span>
+    <b>数据说明：</b> ① <b>录取最低 / 录取最高</b>来自各校拟录取名单公示等官方原文，是「真实进面并上岸」的分数区间，口径为<b>普通计划统考</b>（含一志愿与调剂）；少数民族骨干、退役士兵、定向就业等专项计划<b>单列不计入门槛</b>（见各校备注）；② <b>复试线</b>只是入场券，往往远低于实际录取分；③ <b>国家线（A区 304/293/294，B区 294/283/284）</b>仅为政策参考，<u>不是任何院校的实际门槛</u>；④ <b>—</b> 表示「未检索到可核验的公开录取分」<b>不代表 0 分或未招生</b>；⑤ 每校带 <span class="bbadge real">实测</span>/<span class="bbadge est">线估</span> 标记，线估=仅有复试线、实际录取分未知；⑥ <span class="confwarn">⚠</span> 表示该年数据仅部分覆盖招生单位或来自二次来源，请结合备注判断；⑦ <b>27计划</b>为 2027 年（27考研）招生目录的检索整理值（多为不含推免），带 <b style="color:#c0492f">*</b> 者含推免或为总数，<b>—</b> 表示暂未检索到；<b>27计划数字的颜色</b>是与 <b>2026 年统考录取人数</b>对比的结果：<span class="planup" style="font-weight:700">绿色 = 2027 计划不减少（≥26年人数）</span>、<span class="plandown" style="font-weight:700">红色 = 2027 计划减少（&lt;26年人数）</span>，蓝色为 2026 年录取人数缺失、暂不比较。<br><span style="opacity:.8">数据刷新：2026-10-12（第三轮全网检索，新增 19 所院校官方录取分、33 所院校 2027 计划数）。</span>
   </div>
 
   <div class="workarea" id="workArea">
@@ -409,7 +430,7 @@ select.school{width:100%;max-width:none}
   </div>
   <div id="viewH"></div>
   <div id="viewV"></div>
-  <dialog class="plandialog" id="planDialog"><h2 id="planTitle"></h2><p id="planBasis"></p><p id="planSource"></p><button id="planClose" type="button">关闭</button></dialog>
+  <dialog class="plandialog" id="planDialog"><h2 id="planTitle"></h2><p id="planBasis"></p><p id="planCompare"></p><p id="planSource"></p><button id="planClose" type="button">关闭</button></dialog>
   </div>
 
   <div class="foot" id="foot"></div>
@@ -467,7 +488,8 @@ function renderLegend(){
     <div class="it"><span class="dash"></span>仅复试线·录取分未知</div>
     <div class="it"><span class="bbadge real">实测</span>有真实录取最低/最高分</div>
     <div class="it"><span class="bbadge est">线估</span>仅复试线·未知</div>
-    <div class="it"><span class="confwarn">⚠</span>置信度有限（口径不全或二次来源），看备注</div>`;
+    <div class="it"><span class="confwarn">⚠</span>置信度有限（口径不全或二次来源），看备注</div>
+    <div class="it"><span class="planup">27计划</span>绿=不减少 / <span class="plandown">27计划</span>红=较26年人数减少</div>`;
 }
 
 // ---------- Table view ----------
@@ -487,6 +509,19 @@ function sortList(list){
   return list;
 }
 
+// 27计划 与 2026 年录取人数 的比较：不减少→绿(up)，减少→红(down)，无法比较→中性
+function planMeta(s){
+  const has=s.plan27!==null&&s.plan27!==undefined;
+  const cls=has&&s.plan27Cmp?('plan'+s.plan27Cmp):'';
+  const arrow=has&&s.plan27Cmp?(s.plan27Cmp==='up'?'↑':'↓'):'';
+  const mark=(has&&s.plan27Basis!=='统考/不含推免')?'<sup>*</sup>':'';
+  let tip;
+  if(!has) tip='2027 计划暂未检索到'+(s.n2026!==null&&s.n2026!==undefined?`（2026 年录取 ${s.n2026} 人）`:'');
+  else if(s.plan27Cmp) tip=`2027 计划 ${s.plan27} 人 ${s.plan27Cmp==='up'?'≥':'&lt;'} 2026 年录取 ${s.n2026} 人`;
+  else tip=`2027 计划 ${s.plan27} 人（2026 年录取人数未检索到，暂不比较）`;
+  return {has,cls,arrow,mark,tip};
+}
+
 function renderTable(){
   const list=sortList(filtered().slice());
   const head=`<tr>
@@ -498,14 +533,13 @@ function renderTable(){
   </tr>`;
   const body=list.map(s=>{
     const cells=TABLE_YEARS.map(y=>{const r=s.y[y];return `<td class="sep">${fmt(r.fs)}</td><td>${cellConf(r,r.lo)}</td><td>${fmt(r.hi)}</td><td>${fmt(r.avg)}</td><td>${fmt(r.n)}</td>`;}).join('');
-    const hasPlan = s.plan27!==null && s.plan27!==undefined;
-    const mark = (hasPlan && s.plan27Basis!=='统考/不含推免') ? '<sup>*</sup>' : '';
-    const planCell = hasPlan ? `<span class="cellnum">${s.plan27}</span>${mark}` : `<span class="cellnull">—</span>`;
+    const pm=planMeta(s);
+    const planCell = pm.has ? `<span class="cellnum ${pm.cls}">${s.plan27}</span><span class="planarrow ${pm.cls}">${pm.arrow}</span>${pm.mark}` : `<span class="cellnull">—</span>`;
     const idx=DATA.schools.indexOf(s);
     return `<tr>
       <td class="name">${s.n}<div class="yr">${s.r}·${s.c} ${s.z}${s.lv?' · '+s.lv:''}</div></td>
       <td><b>${s.gate}</b></td><td>${tierBadge(s.tier)}</td><td>${basisBadge(s.basis)}</td>
-      <td class="plan sep"><button class="planbtn" type="button" data-plan-index="${idx}" aria-label="${s.n} 2027 计划口径与来源">${planCell}</button></td>
+      <td class="plan sep"><button class="planbtn ${pm.cls}" type="button" data-plan-index="${idx}" title="${pm.tip}" aria-label="${s.n} 2027 计划口径与来源">${planCell}</button></td>
       ${cells}</tr>`;
   }).join('');
   document.getElementById('viewTable').innerHTML=`<div class="tablewrap"><table><thead>${head}</thead><tbody>${body||'<tr><td colspan="20" class="empty">无匹配院校</td></tr>'}</tbody></table></div>`;
@@ -520,13 +554,12 @@ function renderCards(){
   const metrics=[['复试线','fs'],['最低','lo'],['最高','hi'],['均分','avg'],['人数','n']];
   const cards=list.map(s=>{
     const years=YEARS.map(y=>`<section class="sc-year"><h4>${y} 年</h4><div class="sc-metrics">${metrics.map(([lab,k])=>`<span><small>${lab}</small>${k==='lo'?cellConf(s.y[y],s.y[y][k]):fmt(s.y[y][k])}</span>`).join('')}</div></section>`).join('');
-    const hasPlan=s.plan27!==null&&s.plan27!==undefined;
-    const mark=(hasPlan&&s.plan27Basis!=='统考/不含推免')?'<sup>*</sup>':'';
+    const pm=planMeta(s);
     const idx=DATA.schools.indexOf(s);
     return `<div class="scard">
       <div class="sc-h"><div class="sc-name">${s.n}</div><div class="sc-badges">${tierBadge(s.tier)}${basisBadge(s.basis)}</div></div>
       <div class="sc-meta">${s.r}·${s.c} ${s.z}${s.lv?' · '+s.lv:''}</div>
-      <div class="sc-facts"><span>门槛 <b>${s.gate}</b></span><button class="planbtn" type="button" data-plan-index="${idx}">27计划 ${hasPlan?s.plan27+mark:'—'} · 查看口径</button></div>
+      <div class="sc-facts"><span>门槛 <b>${s.gate}</b></span><button class="planbtn ${pm.cls}" type="button" data-plan-index="${idx}" title="${pm.tip}">27计划 <b>${pm.has?s.plan27:'—'}</b><span class="planarrow ${pm.cls}">${pm.arrow}</span>${pm.mark} · 查看口径</button></div>
       ${years}
     </div>`;
   }).join('');
@@ -570,6 +603,17 @@ function showPlanInfo(index){
   if(!s) return;
   document.getElementById('planTitle').textContent=`${s.n} · 2027 计划`;
   document.getElementById('planBasis').textContent=`招生计划：${s.plan27===null?'暂未检索到':s.plan27}；口径：${s.plan27Basis||'未知'}`;
+  const cmp=document.getElementById('planCompare');
+  if(s.plan27!==null&&s.plan27!==undefined&&s.plan27Cmp){
+    const d=s.plan27Delta;
+    const txt=d===0?'与 2026 年录取人数持平':(d>0?`较 2026 年录取人数多 ${d} 人`:`较 2026 年录取人数少 ${-d} 人`);
+    cmp.innerHTML=`<span class="${s.plan27Cmp==='up'?'planup':'plandown'}">2026 年统考录取 ${s.n2026} 人 → 2027 计划 ${s.plan27} 人，${txt}。</span>`+
+      `<span class="plan-cmp">（口径提示：2027 计划多为「不含推免」的拟招数，2026 人数为实际统考录取数，二者口径可能不完全一致，仅供趋势参考。）</span>`;
+  }else if(s.plan27!==null&&s.plan27!==undefined){
+    cmp.innerHTML=`<span class="plan-cmp">2026 年录取人数未检索到，暂不做增减少比较。</span>`;
+  }else{
+    cmp.textContent=`2026 年统考录取人数：${s.n2026!==null&&s.n2026!==undefined?s.n2026+' 人':'未检索到'}；2027 计划暂未检索到。`;
+  }
   document.getElementById('planSource').textContent=`来源：${s.plan27Src||'暂未检索到'}`;
   document.getElementById('planDialog').showModal();
 }
@@ -643,9 +687,12 @@ function renderV(){
   svg+=`</svg>`;
   const ml=YEARS.map(y=>{const r=s.y[y];return `<div class="m"><b>${y}</b> 线${fmt(r.fs)} / 最低${fmt(r.lo)} / 最高${fmt(r.hi)} / 均${fmt(r.avg)} / 人${fmt(r.n)}</div>`;}).join('');
   const notes=YEARS.map(y=>{const r=s.y[y];if(!r.note)return '';const tag=(r.conf&&r.conf!=='high')?`<span class="confwarn-inline">⚠ ${r.conf==='mid'?'置信度中':'置信度低'}</span>`:'';return `<div class="note">${y}：${tag}${r.note}</div>`;}).join('');
+  const pm=planMeta(s);
+  const planTxt=pm.has?`<b class="${pm.cls}">${s.plan27}<span class="planarrow ${pm.cls}">${pm.arrow}</span></b>${pm.mark}`:'—';
+  const cmpTxt=(pm.has&&s.plan27Cmp)?(s.plan27Delta===0?`（与2026年录取 ${s.n2026} 人持平）`:`（2026年录取 ${s.n2026} 人，${s.plan27Delta>0?'多':'少'} ${Math.abs(s.plan27Delta)} 人）`):'';
   document.getElementById('viewV').innerHTML=`<div class="vcard">
     <h3>${s.n} ${tierBadge(s.tier)} ${basisBadge(s.basis)}</h3>
-    <div class="vsub">${s.r}·${s.c} ${s.z}${s.lv?' · '+s.lv:''} ｜ 门槛(三年最低) ${s.gate} ｜ 27计划 ${s.plan27!==null&&s.plan27!==undefined?s.plan27:'—'}</div>
+    <div class="vsub">${s.r}·${s.c} ${s.z}${s.lv?' · '+s.lv:''} ｜ 门槛(三年最低) ${s.gate} ｜ 27计划 ${planTxt}<span class="plan-cmp">${cmpTxt}</span></div>
     ${svg}
     <div class="metricline">${ml}</div>
     ${notes}
@@ -711,6 +758,7 @@ function init(){
   // foot
   document.getElementById('foot').innerHTML=`数据基准：2024 / 2025 / 2026 三个完整招生年度。本页收录 ${DATA.schools.length} 所「三年内录取分数相对友好」的院校（含只查到复试线、录取分待核实的）。`+
     `「27计划」= 2027 年（27考研）105118 麻醉学专硕拟招生人数，为联网检索整理值，多为「不含推免」口径；带 <sup style="color:#c0492f">*</sup> 者为含推免或总数口径（点击计划数字查看口径与来源）；「—」表示暂未检索到，报考以各校当年官方招生目录为准。`+
+    `「27计划」数字的颜色为与 <b>2026 年统考录取人数</b>的对比：<span class="planup" style="font-weight:700">绿色 = 2027 计划 ≥ 2026 年录取人数（计划未减少）</span>，<span class="plandown" style="font-weight:700">红色 = 2027 计划 &lt; 2026 年录取人数（计划减少）</span>，蓝色为 2026 年录取人数缺失、暂不比较。`+
     `「录取最低/最高」= 统考实际录取考生初试总分区间；「复试线」= 该校/院当年公布线（含国家线/校线/院线/自划线，见 fsKind）。`+
     `来源优先级：官方拟录取公示 / 复试线通知 ＞ 研招网 ＞ 启航/路灯/掌上考研/中公等机构整理（已交叉验证）。`+
     `未查到公开录取分的院校标注「线估」，其复试线不代表实际录取门槛。本页仅供初筛，报考请以目标院校当年官方公告为准。`;
@@ -762,6 +810,8 @@ header p{margin:0;font-size:12.5px;color:#e0e9ef}
 .secondary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:9px;padding-top:8px;border-top:1px solid #eee}
 .secondary b{font-size:13px}
 .missing{color:#9da4ad}
+.planup{color:#1f7a45}
+.plandown{color:#c0492f}
 .foot{font-size:11.5px;color:var(--muted);margin-top:16px;line-height:1.6}
 @media(min-width:560px){.list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 :focus-visible{outline:3px solid #2f7fd1;outline-offset:2px}
@@ -773,7 +823,7 @@ header p{margin:0;font-size:12.5px;color:#e0e9ef}
   <div class="notice">这是独立的交互预览。完整三年复试线、最低、最高、均分、人数仍在<a href="index.html">数据总表</a>，本页不用于全量对照。</div>
   <div class="controls"><input id="search" type="search" placeholder="搜索院校、地区或城市" aria-label="搜索院校、地区或城市"><select id="year" aria-label="选择年度"></select><select id="sort" aria-label="排序方式"><option value="gate">门槛从低到高</option><option value="lo">当年录取最低分</option><option value="avg">当年录取均分</option><option value="name">院校名称</option></select></div>
   <div class="count" id="count"></div><div class="list" id="list"></div>
-  <div class="foot">“—”表示未检索到可核验数据，不代表 0 分或未招生。分数仅供初筛，报考以学校当年公告为准。</div>
+  <div class="foot">“—”表示未检索到可核验数据，不代表 0 分或未招生。分数仅供初筛，报考以学校当年公告为准。<br>“2027 计划”的颜色为与 2026 年录取人数的对比：<b class="planup">绿色=计划未减少</b>，<b class="plandown">红色=计划减少</b>，无色=2026 年录取人数缺失。</div>
 </div>
 <script>
 const DATA=__DATA_JSON__;
@@ -793,7 +843,7 @@ function render(){
     return `<article class="card"><div class="top"><div class="name">${s.n}</div><span class="tier">${s.tier}</span></div>
       <div class="meta">${s.r} · ${s.c} · ${s.basis}</div>
       <div class="primary"><div><small>三年门槛</small><b>${fmt(s.gate)}</b></div><div><small>${year} 录取最低</small><b>${fmt(r.lo)}</b></div><div><small>${year} 录取均分</small><b>${fmt(r.avg)}</b></div></div>
-      <div class="secondary"><div><small>复试线</small><b>${fmt(r.fs)}</b></div><div><small>录取人数</small><b>${fmt(r.n)}</b></div><div><small>2027 计划</small><b>${fmt(s.plan27)}${s.plan27!==null&&s.plan27Basis!=='统考/不含推免'?'*':''}</b></div></div></article>`;
+      <div class="secondary"><div><small>复试线</small><b>${fmt(r.fs)}</b></div><div><small>录取人数</small><b>${fmt(r.n)}</b></div><div><small>2027 计划</small><b class="${(s.plan27!==null&&s.plan27!==undefined&&s.plan27Cmp)?('plan'+s.plan27Cmp):''}">${fmt(s.plan27)}${(s.plan27!==null&&s.plan27!==undefined&&s.plan27Cmp)?(s.plan27Cmp==='up'?'↑':'↓'):''}${s.plan27!==null&&s.plan27Basis!=='统考/不含推免'?'*':''}</b></div></div></article>`;
   }).join('')||'<div class="card">没有匹配的院校，请调整搜索词。</div>';
 }
 $('year').innerHTML=DATA.years.map(y=>`<option value="${y}">${y} 年</option>`).join('');
