@@ -20,7 +20,8 @@ OLD = json.load(open(os.path.join(ROOT, 'src', 'data.json'), encoding='utf-8'))
 NEW = load('data/raw/y2026_core.json')['schools']
 LIST = load('data/schools_2027.json')['schools']
 # 多批手采补丁，按顺序应用（后面的覆盖前面的）
-PATCH_FILES = ['data/raw/years_patch.json', 'data/raw/years_patch2.json']
+PATCH_FILES = ['data/raw/years_patch.json', 'data/raw/years_patch2.json',
+               'data/raw/years_patch3.json']
 PATCH_BATCHES = [load(f)['schools'] for f in PATCH_FILES]
 SUMMARY = load('data/raw/summary2025.json')['schools']
 
@@ -77,6 +78,7 @@ for item in LIST:
             'fs_scope': h.get('fs_scope') or '',
             'lo': h.get('lo'), 'hi': h.get('hi'), 'avg': h.get('avg'), 'n': h.get('n'),
             'unit': h.get('unit') or '', 'note': h.get('note') or '', 'src': 'old',
+            'conf': None,
         }
 
     # 2026 用本轮新采覆盖
@@ -99,7 +101,8 @@ for item in LIST:
             pr = pm_.get('y' + yr)
             if pr:
                 r = y[yr]
-                for k in ('fs', 'fs_kind', 'fs_sub', 'fs_scope', 'lo', 'hi', 'avg', 'n', 'unit'):
+                for k in ('fs', 'fs_kind', 'fs_sub', 'fs_scope', 'lo', 'hi', 'avg', 'n', 'unit',
+                          'note', 'conf'):
                     if pr.get(k) is not None:
                         r[k] = pr[k]
                 if pr.get('src'):
@@ -151,7 +154,10 @@ out = {
         'excluded_regions': sorted(EXCLUDED),
         'note': 'fs=该校该年公布的进入复试分数线（fs_kind 区分 国家线/校线/院线/自划线）；lo=实际录取最低分(统考)；'
                 'avg=录取均分；n=统考录取人数。gate=三年最低门槛(优先实际录取最低分)。'
-                '来源优先级：官方分数线/拟录取公示 > 启航/路灯/掌上考研/中公等机构整理。',
+                '口径：lo/hi/avg/n 一律为【普通计划统考】，少数民族骨干/退役士兵/定向等专项计划单列于 note，不计入门槛。'
+                'conf=该年数据置信度(high 官方原文可核验 / mid 官方原文部分覆盖或镜像转录 / low 二次来源转载)。'
+                '来源优先级：官方分数线/拟录取公示 > 启航/路灯/掌上考研/中公等机构整理。'
+                '最近刷新：2026-10-12（第三批手采补丁 years_patch3.json）。',
     },
     'schools': schools,
 }

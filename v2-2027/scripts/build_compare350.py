@@ -69,6 +69,7 @@ for s in schools_src:
             'n': r.get('n'),
             'note': r.get('note') or '',
             'src': r.get('src') or '',
+            'conf': r.get('conf') or '',
         }
     cands.append(rec)
 
@@ -103,7 +104,7 @@ tier_dist = dict(Counter(c['tier'] for c in cands))
 # ================= CSV 导出 =================
 headers = ['院校', '地区', '城市', '区', '层次', '档位', '数据状态', '门槛(三年最低)', '真实录取分年份数']
 for y in YEARS:
-    headers += [f'{y}复试线', f'{y}录取最低', f'{y}录取最高', f'{y}录取均分', f'{y}统考人数']
+    headers += [f'{y}复试线', f'{y}录取最低', f'{y}录取最高', f'{y}录取均分', f'{y}统考人数', f'{y}置信度', f'{y}数据来源']
 with open(OUT_CSV, 'w', encoding='utf-8-sig', newline='') as f:
     w = csv.writer(f)
     w.writerow(headers)
@@ -115,7 +116,9 @@ with open(OUT_CSV, 'w', encoding='utf-8-sig', newline='') as f:
                     r['lo'] if r['lo'] is not None else '',
                     r['hi'] if r['hi'] is not None else '',
                     r['avg'] if r['avg'] is not None else '',
-                    r['n'] if r['n'] is not None else '']
+                    r['n'] if r['n'] is not None else '',
+                    {'high': '高', 'mid': '中', 'low': '低'}.get(r.get('conf'), ''),
+                    r.get('src') or '']
         w.writerow(row)
 print('CSV written:', OUT_CSV, 'rows:', len(cands))
 
@@ -289,6 +292,8 @@ body.noscroll{overflow:hidden}
 .metricline .m{display:flex;gap:6px;align-items:center}
 .note{font-size:11.5px;color:var(--ink-faint);margin-top:8px;line-height:1.5}
 .src{font-size:11px;color:#a89; margin-top:4px}
+.confwarn{color:#c0492f;font-weight:700;font-size:11px;margin-left:1px;cursor:help}
+.confwarn-inline{color:#c0492f;font-weight:700;font-size:11px;margin-right:4px}
 select.school{width:100%;max-width:none}
 
 .foot{margin-top:26px;font-size:11.5px;color:var(--ink-faint);line-height:1.7;border-top:1px solid var(--line);padding-top:14px}
@@ -350,7 +355,7 @@ select.school{width:100%;max-width:none}
   </header>
 
   <div class="notice">
-    <b>数据说明：</b> ① <b>录取最低 / 录取最高</b>来自各校拟录取名单公示或机构交叉验证，是「真实进面并上岸」的分数区间；② <b>复试线</b>只是入场券，往往远低于实际录取分；③ <b>国家线（A区 304/293/294，B区 294/283/284）</b>仅为政策参考，<u>不是任何院校的实际门槛</u>；④ <b>—</b> 表示「未检索到可核验的公开录取分」<b>不代表 0 分或未招生</b>；⑤ 每校带 <span class="bbadge real">实测</span>/<span class="bbadge est">线估</span> 标记，线估=仅有复试线、实际录取分未知；⑥ <b>27计划</b>为 2027 年（27考研）招生目录的检索整理值（多为不含推免），带 <b style="color:#c0492f">*</b> 者含推免或为总数，<b>—</b> 表示暂未检索到。
+    <b>数据说明：</b> ① <b>录取最低 / 录取最高</b>来自各校拟录取名单公示等官方原文，是「真实进面并上岸」的分数区间，口径为<b>普通计划统考</b>（含一志愿与调剂）；少数民族骨干、退役士兵、定向就业等专项计划<b>单列不计入门槛</b>（见各校备注）；② <b>复试线</b>只是入场券，往往远低于实际录取分；③ <b>国家线（A区 304/293/294，B区 294/283/284）</b>仅为政策参考，<u>不是任何院校的实际门槛</u>；④ <b>—</b> 表示「未检索到可核验的公开录取分」<b>不代表 0 分或未招生</b>；⑤ 每校带 <span class="bbadge real">实测</span>/<span class="bbadge est">线估</span> 标记，线估=仅有复试线、实际录取分未知；⑥ <span class="confwarn">⚠</span> 表示该年数据仅部分覆盖招生单位或来自二次来源，请结合备注判断；⑦ <b>27计划</b>为 2027 年（27考研）招生目录的检索整理值（多为不含推免），带 <b style="color:#c0492f">*</b> 者含推免或为总数，<b>—</b> 表示暂未检索到。<br><span style="opacity:.8">数据刷新：2026-10-12（第三轮全网检索，新增 19 所院校官方录取分、33 所院校 2027 计划数）。</span>
   </div>
 
   <div class="workarea" id="workArea">
@@ -421,6 +426,10 @@ let state = { view:'table', year:'2026', tier:{从容区:true,稳健区:true,进
 function tierBadge(t){ const c=TIER_COLOR[t]||'#888'; return `<span class="tbadge" style="background:${c}">${t}</span>`; }
 function basisBadge(b){ return b==='实测'?`<span class="bbadge real">实测</span>`:`<span class="bbadge est">线估</span>`; }
 function fmt(v){ return v===null||v===undefined||v===''?`<span class="cellnull">—</span>`:`<span class="cellnum">${v}</span>`; }
+// 置信度标记：官方原文可核验(high) 不加标；mid/low 加 ⚠ 并给 tooltip
+const CONF_TXT={mid:'官方原文部分覆盖或镜像转录，可能不完整',low:'二次来源转载且完整性存疑，请以官方为准'};
+function confMark(c){ if(!c||c==='high')return ''; return `<sup class="confwarn" title="${CONF_TXT[c]||'数据置信度有限'}">⚠</sup>`; }
+function cellConf(r,v){ const f=fmt(v); return (f.indexOf('cellnull')>=0)?f:(f+confMark(r.conf)); }
 
 function filtered(){
   const q = state.q.trim().toLowerCase();
@@ -457,7 +466,8 @@ function renderLegend(){
     <div class="it"><span class="swatch" style="background:#c0492f;border-radius:50%"></span>录取均分(avg)</div>
     <div class="it"><span class="dash"></span>仅复试线·录取分未知</div>
     <div class="it"><span class="bbadge real">实测</span>有真实录取最低/最高分</div>
-    <div class="it"><span class="bbadge est">线估</span>仅复试线·未知</div>`;
+    <div class="it"><span class="bbadge est">线估</span>仅复试线·未知</div>
+    <div class="it"><span class="confwarn">⚠</span>置信度有限（口径不全或二次来源），看备注</div>`;
 }
 
 // ---------- Table view ----------
@@ -487,7 +497,7 @@ function renderTable(){
     ${TABLE_YEARS.map(y=>`<th class="sep" data-k="${y}fs">线</th><th data-k="${y}lo">最低</th><th data-k="${y}hi">最高</th><th data-k="${y}avg">均分</th><th data-k="${y}n">人数</th>`).join('')}
   </tr>`;
   const body=list.map(s=>{
-    const cells=TABLE_YEARS.map(y=>{const r=s.y[y];return `<td class="sep">${fmt(r.fs)}</td><td>${fmt(r.lo)}</td><td>${fmt(r.hi)}</td><td>${fmt(r.avg)}</td><td>${fmt(r.n)}</td>`;}).join('');
+    const cells=TABLE_YEARS.map(y=>{const r=s.y[y];return `<td class="sep">${fmt(r.fs)}</td><td>${cellConf(r,r.lo)}</td><td>${fmt(r.hi)}</td><td>${fmt(r.avg)}</td><td>${fmt(r.n)}</td>`;}).join('');
     const hasPlan = s.plan27!==null && s.plan27!==undefined;
     const mark = (hasPlan && s.plan27Basis!=='统考/不含推免') ? '<sup>*</sup>' : '';
     const planCell = hasPlan ? `<span class="cellnum">${s.plan27}</span>${mark}` : `<span class="cellnull">—</span>`;
@@ -509,7 +519,7 @@ function renderCards(){
   const list=sortList(filtered().slice());
   const metrics=[['复试线','fs'],['最低','lo'],['最高','hi'],['均分','avg'],['人数','n']];
   const cards=list.map(s=>{
-    const years=YEARS.map(y=>`<section class="sc-year"><h4>${y} 年</h4><div class="sc-metrics">${metrics.map(([lab,k])=>`<span><small>${lab}</small>${fmt(s.y[y][k])}</span>`).join('')}</div></section>`).join('');
+    const years=YEARS.map(y=>`<section class="sc-year"><h4>${y} 年</h4><div class="sc-metrics">${metrics.map(([lab,k])=>`<span><small>${lab}</small>${k==='lo'?cellConf(s.y[y],s.y[y][k]):fmt(s.y[y][k])}</span>`).join('')}</div></section>`).join('');
     const hasPlan=s.plan27!==null&&s.plan27!==undefined;
     const mark=(hasPlan&&s.plan27Basis!=='统考/不含推免')?'<sup>*</sup>':'';
     const idx=DATA.schools.indexOf(s);
@@ -632,7 +642,7 @@ function renderV(){
   svg+=path('avg','#c0492f',false);
   svg+=`</svg>`;
   const ml=YEARS.map(y=>{const r=s.y[y];return `<div class="m"><b>${y}</b> 线${fmt(r.fs)} / 最低${fmt(r.lo)} / 最高${fmt(r.hi)} / 均${fmt(r.avg)} / 人${fmt(r.n)}</div>`;}).join('');
-  const notes=YEARS.map(y=>{const r=s.y[y];return r.note?`<div class="note">${y}：${r.note}</div>`:'';}).join('');
+  const notes=YEARS.map(y=>{const r=s.y[y];if(!r.note)return '';const tag=(r.conf&&r.conf!=='high')?`<span class="confwarn-inline">⚠ ${r.conf==='mid'?'置信度中':'置信度低'}</span>`:'';return `<div class="note">${y}：${tag}${r.note}</div>`;}).join('');
   document.getElementById('viewV').innerHTML=`<div class="vcard">
     <h3>${s.n} ${tierBadge(s.tier)} ${basisBadge(s.basis)}</h3>
     <div class="vsub">${s.r}·${s.c} ${s.z}${s.lv?' · '+s.lv:''} ｜ 门槛(三年最低) ${s.gate} ｜ 27计划 ${s.plan27!==null&&s.plan27!==undefined?s.plan27:'—'}</div>
