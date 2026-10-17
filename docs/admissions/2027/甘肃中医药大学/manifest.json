@@ -1,0 +1,82 @@
+{
+  "name": "甘肃中医药大学",
+  "tier": "从容区",
+  "gate": 287,
+  "region": "甘肃",
+  "candidates": [
+    {
+      "title": "甘肃中医药大学招生栏目",
+      "url": "https://yjsc.gszy.edu.cn/html/cid/91.html"
+    },
+    {
+      "title": "甘肃中医药大学招生官网（查找2027目录）",
+      "url": "https://yjsc.gszy.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "甘肃中医药大学招生栏目",
+      "url": "https://yjsc.gszy.edu.cn/html/cid/91.html",
+      "effective_url": "https://yjsc.gszy.edu.cn/html/cid/91.html",
+      "path": "docs/admissions/2027/甘肃中医药大学/page-3e080886d7.html",
+      "sha256": "c21c4d1c7994c37f795c9619c6a18271a1790ad9c583651e593df79d61ba3c3c",
+      "bytes": 33218
+    },
+    {
+      "title": "甘肃中医药大学招生官网（查找2027目录）",
+      "url": "https://yjsc.gszy.edu.cn/",
+      "effective_url": "https://yjsc.gszy.edu.cn/",
+      "path": "docs/admissions/2027/甘肃中医药大学/page-16398f8eda.html",
+      "sha256": "9315479018f9b9ab5d3ea3835ff2c71061f62c5d2db685acc14cd9cf35758236",
+      "bytes": 44378
+    },
+    {
+      "title": "2026-10-14 甘肃中医药大学2027年硕士研究生招生专业目录",
+      "url": "https://yjsc.gszy.edu.cn/show/id/5475.html",
+      "effective_url": "https://yjsc.gszy.edu.cn/show/id/5475.html",
+      "path": "docs/admissions/2027/甘肃中医药大学/page-98854b3370.html",
+      "sha256": "242332a3f6335e28d928970b7008f85461e3b564b0f7ff15bdc4e482b13c39ba",
+      "bytes": 32670
+    },
+    {
+      "title": "2026-09-18 甘肃中医药大学2027年硕士研究生考试招生简章",
+      "url": "https://yjsc.gszy.edu.cn/show/id/5474.html",
+      "effective_url": "https://yjsc.gszy.edu.cn/show/id/5474.html",
+      "path": "docs/admissions/2027/甘肃中医药大学/page-674caf6c7f.html",
+      "sha256": "b56bd2ba4e4d5905bc9a4cf92a81a2b6806ea8a85e4965cb38bf7c3bcc9e470f",
+      "bytes": 57481
+    },
+    {
+      "title": "2026-09-18 甘肃中医药大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生（含中医学专业“5+3”一体化学生转段）招生专业目录",
+      "url": "https://yjsc.gszy.edu.cn/show/id/5473.html",
+      "effective_url": "https://yjsc.gszy.edu.cn/show/id/5473.html",
+      "path": "docs/admissions/2027/甘肃中医药大学/page-87db647c89.html",
+      "sha256": "c33494afcf5d5ac968f284b170230fdd7953c7284f96ca93c2f5a06ee20c815b",
+      "bytes": 33153
+    }
+  ],
+  "files": [
+    {
+      "title": "甘肃中医药大学2027年硕士研究生招生专业目录.pdf",
+      "url": "https://yjsc.gszy.edu.cn/ueditor/php/upload/file/20261014/1791964652982466.pdf",
+      "path": "docs/admissions/2027/甘肃中医药大学/甘肃中医药大学2027年硕士研究生招生专业目录.pdf",
+      "sha256": "76dad28a4464b980a35eb973ae8a700946cac9880282ec8c42fd7be302c6135c",
+      "bytes": 288156,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjsc.gszy.edu.cn/show/id/甘肃中医药大学2027年硕士研究生招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://yjsc.gszy.edu.cn/show/id/甘肃中医药大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生（含中医学专业“5+3”一体化学生转段）招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "attachment response has no recognized file signature"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

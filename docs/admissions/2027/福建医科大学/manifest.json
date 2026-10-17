@@ -1,0 +1,67 @@
+{
+  "name": "福建医科大学",
+  "tier": "稳健区",
+  "gate": 303,
+  "region": "福建",
+  "candidates": [
+    {
+      "title": "福建医科大学招生官网（查找2027目录）",
+      "url": "https://yjsy.fjmu.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "福建医科大学招生官网（查找2027目录）",
+      "url": "https://yjsy.fjmu.edu.cn/",
+      "effective_url": "https://yjsy.fjmu.edu.cn/",
+      "path": "docs/admissions/2027/福建医科大学/page-9da2818e20.html",
+      "sha256": "f885b1b48de16dd8cfe8ccfdb75ddfd7b595ae6170186d046bdb9184c886a90a",
+      "bytes": 46719
+    },
+    {
+      "title": "福建医科大学2027年攻读硕士学位研究生招生章程及专业目录福建医科大学2027年攻读硕士学位...",
+      "url": "https://yjsy.fjmu.edu.cn/2026/0929/c2437a220123/page.htm",
+      "effective_url": "https://yjsy.fjmu.edu.cn/2026/0929/c2437a220123/page.htm",
+      "path": "docs/admissions/2027/福建医科大学/page-02443136b1.html",
+      "sha256": "dd2f5342f1c5580a98ee5bf7fa9416bbe06975f9f02c165d7e7ce5d50682bcc7",
+      "bytes": 20858
+    }
+  ],
+  "files": [
+    {
+      "title": "福建医科大2027年攻读硕士学位研究生招生章程及专业目录.pdf",
+      "url": "https://yjsy.fjmu.edu.cn/_upload/article/files/0a/b2/9e6667374d21bbe6f8e54a5c889b/c519ddd3-da43-46d0-ba02-d1c0a05a69c8.pdf",
+      "path": "docs/admissions/2027/福建医科大学/福建医科大2027年攻读硕士学位研究生招生章程及专业目录.pdf",
+      "sha256": "61337bfce68d13d85b06ed871893748e6a557041bcab8ee2c83bff75852cbcc9",
+      "bytes": 1172283,
+      "kind": "original"
+    },
+    {
+      "title": "福建医科大学2027年招生章程",
+      "url": "https://yjsy.fjmu.edu.cn/_upload/article/files/0a/b2/9e6667374d21bbe6f8e54a5c889b/3d00f0f9-8d5e-431c-9879-b8c079d9a498.pdf",
+      "path": "docs/admissions/2027/福建医科大学/福建医科大学2027年招生章程.pdf",
+      "sha256": "4f7629e78273ebcf9886f9d4bbfa973a2e82886b18bb02b4959993dd43020970",
+      "bytes": 411756,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjsy.fjmu.edu.cn/2026/0929/c2437a220123/福建医科大学2027年攻读硕士学位研究生招生章程及专业目录.pdf福建医科大学各研究生招生学院简介（2026年9月）.pdf",
+      "title": "内嵌文件",
+      "error": "curl: (52) Empty reply from server\n"
+    },
+    {
+      "url": "https://yjsy.fjmu.edu.cn/2026/0929/c2437a220123/福建医科大2027年攻读硕士学位研究生招生章程及专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "curl: (52) Empty reply from server\n"
+    },
+    {
+      "url": "https://yjsy.fjmu.edu.cn/2026/0929/c2437a220123/福建医科大学各研究生招生学院简介（2026年9月）.pdf",
+      "title": "内嵌文件",
+      "error": "curl: (52) Empty reply from server\n"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

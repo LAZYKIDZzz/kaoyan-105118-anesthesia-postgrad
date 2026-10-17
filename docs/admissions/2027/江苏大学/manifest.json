@@ -1,0 +1,51 @@
+{
+  "name": "江苏大学",
+  "tier": "从容区",
+  "gate": 299,
+  "region": "江苏",
+  "candidates": [
+    {
+      "title": "江苏大学招生官网（查找2027目录）",
+      "url": "https://yz.ujs.edu.cn/zsjzml/sszsjzml.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "江苏大学招生官网（查找2027目录）",
+      "url": "https://yz.ujs.edu.cn/zsjzml/sszsjzml.htm",
+      "effective_url": "https://yz.ujs.edu.cn/zsjzml/sszsjzml.htm",
+      "path": "docs/admissions/2027/江苏大学/page-7f7d7736df.html",
+      "sha256": "e0b85eeb09ada1f23a684119217f40a625604a70ce08b0192ffe07bf6a6aee8b",
+      "bytes": 24157
+    },
+    {
+      "title": "江苏大学2027年硕士研究生招生章程",
+      "url": "https://yz.ujs.edu.cn/info/1016/8917.htm",
+      "effective_url": "https://yz.ujs.edu.cn/info/1016/8917.htm",
+      "path": "docs/admissions/2027/江苏大学/page-13a4831aed.html",
+      "sha256": "e2ac05c1eed3c0c78508128671a62d98e2980d48710752793ce5e7cb931cc5e3",
+      "bytes": 21966
+    },
+    {
+      "title": "江苏大学2027年硕士研究生招生专业目录",
+      "url": "https://yz.ujs.edu.cn/info/1016/8907.htm",
+      "effective_url": "https://yz.ujs.edu.cn/info/1016/8907.htm",
+      "path": "docs/admissions/2027/江苏大学/page-a6f10f3d66.html",
+      "sha256": "027e29e62d2074431a4d396540c4ad27b5101c2bdc1880062b6e785a42ce35be",
+      "bytes": 23576
+    }
+  ],
+  "files": [
+    {
+      "title": "江苏大学2027年招生专业目录",
+      "url": "https://yz.ujs.edu.cn/__local/D/6A/E2/FB84E657B8EF5CBC0B5583C0D6D_0640C056_19E28F.pdf",
+      "path": "docs/admissions/2027/江苏大学/江苏大学2027年招生专业目录.pdf",
+      "sha256": "5c760f761f1d8067824c9e4262bd9739427e986be9f9d78c4d8526de81e30db6",
+      "bytes": 1696399,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

@@ -1,0 +1,460 @@
+
+  
+  
+  
+ 吉首大学研究生招生专业目录-吉首大学研究生院  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+
+		 
+			 
+				 
+					 
+						 
+						 
+							 
+								 
+									 
+									 
+									 
+									 
+								 
+							 
+						 
+					 
+				 
+				 
+					 
+						 
+					 
+					 
+						 
+							 
+							 
+								  网站首页  
+							 
+							 
+								  部门概况  
+								 
+								 
+									 概况 
+									 机构设置 
+									 部门职责 
+								 
+							 
+							 
+								  招生管理  
+								 
+								 
+									 硕士招生 
+									 博士招生 
+									 同等学力招生 
+									 吉首大学研究生招生专业目录 
+									 吉首大学研究生招生学院及专业介绍 
+								 
+							 
+							 
+								  培养管理  
+								 
+								 
+									 培养过程 
+									 教改教研 
+									 科研创新 
+									 资料下载 
+								 
+							 
+							 
+								  质量管理  
+								 
+								 
+									 日常管理 
+									 暑期学校 
+									 创新论坛 
+								 
+							 
+							 
+								  学位管理  
+								 
+								 
+									 学位论文管理 
+									 学位授予 
+									 导师队伍建设 
+									 学位点建设评估 
+									 资料下载 
+								 
+							 
+							 
+								  教育管理  
+								 
+								 
+									 日常管理 
+									 奖助学金 
+									 研究生活动 
+									 研究生会 
+									 资料下载 
+								 
+							 
+							 
+								  党建工作  
+								 
+								 
+									 组织信息 
+									 党建动态 
+								 
+							 
+						 
+
+					 
+					 
+						 
+					 
+				 
+			 
+
+			 
+			 
+				 
+					 
+				 
+				 
+					 
+				 
+				 
+					 
+					 
+						  网站首页  
+					 
+					 
+						  部门概况  
+						 
+						 
+							 概况 
+							 机构设置 
+							 部门职责 
+						 
+					 
+					 
+						  招生管理  
+						 
+						 
+							 硕士招生 
+							 博士招生 
+							 同等学力招生 
+							 吉首大学研究生招生专业目录 
+							 吉首大学研究生招生学院及专业介绍 
+						 
+					 
+					 
+						  培养管理  
+						 
+						 
+							 培养过程 
+							 教改教研 
+							 科研创新 
+							 资料下载 
+						 
+					 
+					 
+						  质量管理  
+						 
+						 
+							 日常管理 
+							 暑期学校 
+							 创新论坛 
+						 
+					 
+					 
+						  学位管理  
+						 
+						 
+							 学位论文管理 
+							 学位授予 
+							 导师队伍建设 
+							 学位点建设评估 
+							 资料下载 
+						 
+					 
+					 
+						  教育管理  
+						 
+						 
+							 日常管理 
+							 奖助学金 
+							 研究生活动 
+							 研究生会 
+							 资料下载 
+						 
+					 
+					 
+						  党建工作  
+						 
+						 
+							 组织信息 
+							 党建动态 
+						 
+					 
+				 
+
+			 
+
+		 		 
+		 
+			 
+		 
+
+		 
+			 
+				 
+					 
+						当前位置：              首页 »
+              招生管理 »
+    吉首大学研究生招生专业目录
+
+					 
+				 
+			 
+			 
+				 
+				 
+					 
+						 
+招生管理 
+					 
+					 
+						 
+
+ 
+
+					 硕士招生 
+ 
+
+					 博士招生 
+ 
+
+					 同等学力招生 
+ 
+
+					 吉首大学研究生招生专业目录 
+ 
+
+					 吉首大学研究生招生学院及专业介绍 
+						 
+					 
+				 
+				 
+				 
+					 
+						 
+						 吉首大学研究生招生专业目录 
+						 
+					 
+					 
+
+					 
+						 
+							   
+								 吉首大学2027年硕士研究生招生专业目录 
+								 2026-09-25 
+							 
+						 
+					 
+ 
+          
+             共1条  
+              每页  20 条  
+    首页    
+                上一页     
+         
+            
+            
+             
+                 1  
+           
+            
+                下一页     
+    末页    
+
+
+             跳转   
+             1  
+            
+             1  
+             
+             页  
+           
+         				 
+			 
+			 
+		 
+
+		 
+
+ 
+			 
+				 
+					 友情链接 
+					 
+						 
+							 校内网址导航 
+							 
+								 吉首大学 
+								 教务处 
+							 
+						 
+						 
+							 校外网址导航 
+							 
+							 
+						 
+					 
+
+				 
+
+				 
+				 
+					
+					 
+						 地 址：湖南省吉首市人民南路120号 
+						 电话：0743-8565122  
+						 邮编：416000 
+					 
+ 
+				 
+			 
+			 版权所有 吉首大学 研究生院 研究生工作部 教QS3-200505-000069 湘ICP备 05003899号-1  
+		 		 
+
+		 
+		 
+		 
+		 
+			$(function() {
+				//超过一定高度导航添加类名
+				var nav = $("header"); //得到导航对象
+				var win = $(window); //得到窗口对象
+				var sc = $(document); //得到document文档对象。
+				win.scroll(function() {
+					if (sc.scrollTop() >= 100) {
+						nav.addClass("on");
+					} else {
+						nav.removeClass("on");
+					}
+				})
+
+				//移动端展开nav
+				$('#navToggle').on('click', function() {
+					$('.m_nav').addClass('open');
+				})
+				//关闭nav
+				$('.m_nav .top .closed').on('click', function() {
+					$('.m_nav').removeClass('open');
+				})
+
+				//二级导航  移动端
+				$(".m_nav .ul li").click(function() {
+					$(this).children("div.dropdown_menu").slideToggle('slow')
+					$(this).siblings('li').children('.dropdown_menu').slideUp('slow');
+				});
+
+			})
+		 
+
+		 
+		 
+			//轮播
+			jQuery(".slideBox").slide({
+				mainCell: ".bd ul",
+				effect: "leftLoop",
+				vis: "auto",
+				autoPlay: true,
+				trigger: "mouseover"
+			});
+			//模块左滑动
+			jQuery(".swiper").slide({
+				mainCell: "ul",
+				autoPlay: true,
+				effect: "leftMarquee",
+				interTime: 50,
+				vis: 4
+			});
+			//信息tab切换
+			jQuery(".notice").slide({
+				titCell: ".tab-hd li",
+				mainCell: ".tab-bd",
+				delayTime: 0
+			});
+			//广告轮播
+			jQuery(".adPart").slide({
+				mainCell: "ul",
+				autoPlay: true,
+				effect: "left",
+				vis: 4,
+				scroll: 1,
+				autoPage: true,
+				pnLoop: false
+			});
+			if (screen.width < 500) {
+				//模块左滑动
+				jQuery(".swiper").slide({
+					mainCell: "ul",
+					autoPlay: true,
+					effect: "leftMarquee",
+					interTime: 50,
+					vis: 2
+				});
+				//信息tab切换
+				jQuery(".notice").slide({
+					titCell: ".tab-hd li",
+					mainCell: ".tab-bd",
+					delayTime: 0
+				});
+				//广告轮播
+				jQuery(".adPart").slide({
+					mainCell: "ul",
+					autoPlay: true,
+					effect: "left",
+					vis: 1,
+					scroll: 1,
+					autoPage: true,
+					pnLoop: false
+				});
+			}
+		 
+		 
+		 
+		 
+		 
+		 
+			if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+				new WOW().init();
+			};
+			//返回顶部
+			$(function() {
+				$(window).scroll(function() {
+					if ($(window).scrollTop() >= 100) { //向下滚动像素大于这个值时，即出现~
+						$('.actGotop').fadeIn(500); //淡入的时间，越小出现的越快~
+					} else {
+						$('.actGotop').fadeOut(500); //淡出的时间，越小消失的越快~
+					}
+				});
+				$('.actGotop').click(function() {
+					$('html,body').animate({
+						scrollTop: '0px'
+					}, 800);
+				}); //火箭动画停留时间，越小消失的越快~
+			});
+		 
+
+	
+ .selectTdClass{background-color:#edf5fa !important}.gpTable{ border-collapse:collapse;border:1px solid #000 }.gpTable td,.gpTable th{border:1px solid #000;  padding: 2px 3px;}.gpTable caption{border:1px dashed #DDD;border-bottom:0;padding:3px;text-align:center;}.gpTable th{border-top:1px solid #BBB;background-color:#F7F7F7;}.gpTable tr.firstRow th{border-top-width:2px;}.ue-table-interlace-color-single{ background-color: #fcfcfc; } .ue-table-interlace-color-double{ background-color: #f7faff; }td p{margin:0;padding:0;} th p{margin:0;padding:0;}blockquote {padding: 0 0 0 15px;margin: 0 0 18px;border-left: 5px solid #EEE;} 

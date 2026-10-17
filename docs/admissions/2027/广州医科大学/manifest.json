@@ -1,0 +1,32 @@
+{
+  "name": "广州医科大学",
+  "tier": "稳健区",
+  "gate": 313,
+  "region": "广东",
+  "candidates": [
+    {
+      "title": "广州医科大学官方招生入口",
+      "url": "http://yjs.gzhmu.edu.cn/info/1003/39972.htm"
+    },
+    {
+      "title": "广州医科大学2027年硕士研究生招生简章-广州医科大学研究生院",
+      "url": "https://yjs.gzhmu.edu.cn/info/1003/39972.htm"
+    }
+  ],
+  "pages": [],
+  "files": [],
+  "failures": [
+    {
+      "url": "http://yjs.gzhmu.edu.cn/info/1003/39972.htm",
+      "title": "广州医科大学官方招生入口",
+      "error": "483\nhttps://yjs.gzhmu.edu.cn/info/1003/39972.htm"
+    },
+    {
+      "url": "https://yjs.gzhmu.edu.cn/info/1003/39972.htm",
+      "title": "广州医科大学2027年硕士研究生招生简章-广州医科大学研究生院",
+      "error": "483\nhttps://yjs.gzhmu.edu.cn/info/1003/39972.htm"
+    }
+  ],
+  "status": "官网访问受限，待补原件",
+  "checked_at": "2026-10-18"
+}

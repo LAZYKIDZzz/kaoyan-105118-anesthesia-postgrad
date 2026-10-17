@@ -1,0 +1,432 @@
+
+ 
+
+ 
+	 
+	 
+	 
+	 
+	 苏州大学2027年硕士研究生招生专业目录 
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+  
+  
+  
+ 
+ 
+	 
+	 
+	 
+	
+ 
+
+ 
+
+	 
+	 
+		 
+			 
+				 
+					 
+						 
+							 
+						 
+					 
+				 
+				 
+					 
+						 
+							 
+								 学校主页 
+							 
+						 
+						 								 
+									 
+									 
+								 
+							 
+					 
+				 
+			 
+		 
+	 
+
+
+	 
+	 
+		 
+			 
+			 
+				
+				 
+					
+					 
+						 网站首页 
+						
+					 
+					
+					 
+						 机构概况 
+						
+						 
+							
+							 领导职责分工 
+							
+							 科室职能 
+							
+							 人员配置及联... 
+							
+							 研究生院作风... 
+							
+						 
+						
+					 
+					
+					 
+						 导师学院 
+						
+						 
+							
+							 工作职责 
+							
+							 规章制度 
+							
+							 工作通知 
+							
+							 工作报道 
+							
+							 培训考核 
+							
+							 相关下载 
+							
+							 导师风采 
+							
+						 
+						
+					 
+					
+					 
+						 招生工作 
+						
+						 
+							
+							 博士招生 
+							
+							 硕士招生 
+							
+							 港澳台研究生... 
+							
+							 国际研究生招... 
+							
+							 各基层招生单... 
+							
+						 
+						
+					 
+					
+					 
+						 学籍教学 
+						
+						 
+							
+							 培养过程 
+							
+							 教学管理 
+							
+							 学籍管理 
+							
+							 相关下载 
+							
+							 江苏省高级访... 
+							
+						 
+						
+					 
+					
+					 
+						 教改创新 
+						
+						 
+							
+							 各类项目 
+							
+							 美育教育 
+							
+							 学生竞赛 
+							
+						 
+						
+					 
+					
+					 
+						 实践教育 
+						
+						 
+							
+							 产业教授 
+							
+							 工作站和实践... 
+							
+							 规章制度 
+							
+						 
+						
+					 
+					
+					 
+						 质量监督 
+						
+						 
+							
+							 培养过程监督 
+							
+							 研究生教育督... 
+							
+							 博士研究生助... 
+							
+							 相关下载 
+							
+						 
+						
+					 
+					
+					 
+						 学位工作 
+						
+						 
+							
+							 学位管理 
+							
+							 导师管理 
+							
+							 学位点管理 
+							
+							 考试管理 
+							
+							 相关下载 
+							
+						 
+						
+					 
+					
+					 
+						 卓工学院 
+						
+						 
+							
+							 学院概况 
+							
+							 通知公告 
+							
+							 新闻动态 
+							
+							 招生培养 
+							
+							 产教融合 
+							
+							 规章制度 
+							
+						 
+						
+					 
+					
+					 
+						 党员之家 
+						
+					 
+					
+					 
+						 规章制度 
+						
+						 
+							
+							 招生工作 
+							
+							 教改创新 
+							
+							 学籍教学 
+							
+							 实践教育 
+							
+							 质量监督 
+							
+							 学位管理 
+							
+							 导师管理 
+							
+							 其它 
+							
+						 
+						
+					 
+					
+				 
+				
+			 
+		 
+	 
+
+	 
+	 
+		 
+			 
+				 
+			 
+		 
+	 
+
+	 
+	 
+		 
+			 
+				 
+					 
+						苏州大学2027年硕士研究生招生专业目录
+					 
+					 
+						时间: 2026-10-06  浏览次数:  50869 
+					 
+				 
+				 
+					 
+				 
+			 
+
+			 
+			 扫一扫分享本文章 
+
+			 
+			 
+				var qrcode = new QRCode('qrcode', {
+					text: '',
+					width: 100,
+					height: 100,
+					colorDark: '#000000',
+					colorLight: '#fafafa',
+					correctLevel: QRCode.CorrectLevel.H
+				});
+				qrcode.clear();
+				qrcode.makeCode(window.location.href);
+			 
+		 
+	 
+
+
+	 
+	 
+		 
+			 
+				 
+					 
+						 
+					 
+				 
+				 
+					 
+						 友情链接 
+						 
+							 
+								 
+									 
+										document.addEventListener('DOMContentLoaded', function () {
+											var firstLink = document.querySelector('.link-items .link-item a span');
+											if (firstLink) {
+												var linkText = firstLink.textContent;
+												document.querySelector('.links-arrow').textContent = '--   ' + linkText + '   --';
+											}
+										});
+									 
+									 --{标题}-- 
+								 
+							 
+							 
+								
+									 
+										
+										 
+											 苏州大学 
+										 
+										
+									 
+								
+							 
+						 
+					 
+
+				 
+				 
+					 
+						 
+							 
+								 
+								 苏州大学研究生教育 
+							 
+							 
+								 
+								 苏州大学研究生会 
+							 
+						 
+					 
+
+				 
+			 
+			 
+				 
+					 
+						 地址：苏州市姑苏区十梓街1号    邮编：215006 
+						 
+						 版权所有 © 苏州大学研究生院 
+					 
+				 
+			 
+		 
+	 
+
+	 
+	 
+	 
+
+	 
+		$('.header').hover(function () {
+			$('.header').addClass('active');
+		}, function () {
+			$('.header').removeClass('active');
+		});
+
+		/*友情链接下拉*/
+		$(".botlinks").each(function (index, el) {
+			$(el).find(".links-wrap").hover(function () {
+				$(this).addClass('wrap-open').children('.link-items').stop(true, true).slideDown(300);
+			}, function () {
+				$(this).removeClass('wrap-open').children('.link-items').stop(true, true).slideUp(100);
+			});
+		});
+	 
+ 
+
+ 
+ 

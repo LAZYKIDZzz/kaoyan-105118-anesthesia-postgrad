@@ -1,0 +1,67 @@
+{
+  "name": "滨州医学院",
+  "tier": "稳健区",
+  "gate": 304,
+  "region": "山东",
+  "candidates": [
+    {
+      "title": "滨州医学院招生官网（查找2027目录）",
+      "url": "https://yjszs.sdmpu.edu.cn/2056/list.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "滨州医学院招生官网（查找2027目录）",
+      "url": "https://yjszs.sdmpu.edu.cn/2056/list.htm",
+      "effective_url": "https://yjszs.sdmpu.edu.cn/2056/list.htm",
+      "path": "docs/admissions/2027/滨州医学院/page-a465809905.html",
+      "sha256": "2bb380c6d179a64e5abd49aa3d346fa0e6d2c6441339f6a0027bc596b58a29e5",
+      "bytes": 18294
+    },
+    {
+      "title": "山东医药大学2027年硕士研究生招生章程山东医药大学2027年硕士研究生招生章程",
+      "url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/page.htm",
+      "effective_url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/page.htm",
+      "path": "docs/admissions/2027/滨州医学院/page-e63489e498.html",
+      "sha256": "d8ba9ce080086fd9390b5c44ed04fec828f7bb2bc480a229afeb32c0e9ba7e59",
+      "bytes": 12397
+    },
+    {
+      "title": "山东医药大学2027年硕士研究生招生专业目录山东医药大学2027年硕士研究生招生专业目录",
+      "url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148952/page.htm",
+      "effective_url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148952/page.htm",
+      "path": "docs/admissions/2027/滨州医学院/page-a47cf9d6c6.html",
+      "sha256": "76601c2eb9b1d007eedfc8c2780c698c82e720378f9eeeac1b1e1ccedc1b941e",
+      "bytes": 11973
+    }
+  ],
+  "files": [
+    {
+      "title": "山东医药大学2027年硕士研究生招生专业目录.pdf",
+      "url": "https://yjszs.sdmpu.edu.cn/_upload/article/files/ac/e8/c690ea5240b1ab878c8d8598f288/0a825fa3-2ccc-4925-84d3-aca3ff05b721.pdf",
+      "path": "docs/admissions/2027/滨州医学院/山东医药大学2027年硕士研究生招生专业目录.pdf",
+      "sha256": "fb82efb3d835ad72cd8ca1f7101bf6e580bcba1ef450ac23fad3609c4fc9894b",
+      "bytes": 434414,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/山东医药大学2027年硕士研究生招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/%E5%B1%B1%E4%B8%9C%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+    },
+    {
+      "url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/山东医药大学2027年硕士研究生招生章程.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/%E5%B1%B1%E4%B8%9C%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E7%AB%A0%E7%A8%8B.pdf"
+    },
+    {
+      "url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148952/山东医药大学2027年硕士研究生招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjszs.sdmpu.edu.cn/2026/1002/c2056a148952/%E5%B1%B1%E4%B8%9C%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

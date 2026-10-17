@@ -1,0 +1,707 @@
+﻿ 
+ 
+
+
+ 
+ 
+
+ 
+
+ 河南科技大学研究生院 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+  
+  
+ 
+     
+     
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1001,'/index.jsp',-1,1721696689) 
+  
+
+ 
+
+ 
+ 
+     
+         
+             
+         
+
+ 
+
+
+ 
+    #appu1 .qwss{}
+    #appu1 .tj{}
+ 
+ 
+ 
+    <div id="appu1" class="search">
+        <p class="bai12"><a href="https://www.haust.edu.cn/" target="_blank">河南科技大学</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ygb.haust.edu.cn/" target="_blank">党委研究生工作部</a></p>
+        <div v-if="!isError"  class="sousuo">
+            <input type="text" class="qianhui14 shuru" placeholder="全文搜索" autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+            <input class="tijiao bai16" name="submit_button" type="button" value="提交" v-on:click="onSubmit()"/>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+ 
+ 
+    $("#divu1").html($("#htmlu1").text());
+ 
+ 
+    var appOwner = "1721696689";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu1",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "https://wsgapp.haust.edu.cn/" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+ 
+
+         
+   
+     
+    
+ 
+
+ 
+ 
+         
+            
+             
+                  首页 
+             
+            
+             
+                  机构设置 
+                 
+
+                     
+                          研究生院简介 
+                     
+
+                     
+                          综合科 
+                     
+
+                     
+                          招生办公室 
+                     
+
+                     
+                          培养科 
+                     
+
+                     
+                          学位办公室 
+                     
+
+                     
+                          质量与评估办公室 
+                     
+                    
+                 
+             
+            
+             
+                  招生在线 
+                 
+
+                     
+                          招生动态 
+                     
+
+                     
+                          招生简章 
+                         
+
+                               博士招生简章 
+
+ 
+
+                               硕士招生简章 
+
+ 
+
+                               同等学力申硕 
+
+ 
+                            
+                         
+                     
+
+                     
+                          历史数据 
+                     
+                    
+                 
+             
+            
+             
+                  培养工作 
+                 
+
+                     
+                          教务管理 
+                     
+
+                     
+                          培养方案 
+                     
+
+                     
+                          信息服务 
+                     
+
+                     
+                          在线课程 
+                     
+                    
+                 
+             
+            
+             
+                  学位工作 
+                 
+
+                     
+                          学位动态 
+                     
+
+                     
+                          学位评定委员会 
+                     
+
+                     
+                          学位授予名单 
+                         
+
+                               全日制博士 
+
+ 
+
+                               全日制硕士 
+
+ 
+
+                               非全日制硕士 
+
+ 
+                            
+                         
+                     
+
+                     
+                          学位认证 
+                     
+
+                     
+                          学历认证 
+                     
+                    
+                 
+             
+            
+             
+                  质量工作 
+                 
+
+                     
+                          评估动态 
+                     
+
+                     
+                          导师队伍建设 
+                         
+
+                               导师队伍 
+
+ 
+
+                               导师遴选 
+
+ 
+
+                               导师培训 
+
+ 
+                            
+                         
+                     
+
+                     
+                          质量督导 
+                     
+
+                     
+                          教改项目 
+                         
+
+                               省级项目 
+
+ 
+
+                               校级项目 
+
+ 
+                            
+                         
+                     
+
+                     
+                          优秀学位论文 
+                         
+
+                               校级优秀学位论文 
+
+ 
+
+                               省级优秀学位论文 
+
+ 
+                            
+                         
+                     
+
+                     
+                          教学成果奖 
+                     
+                    
+                 
+             
+            
+             
+                  制度与流程 
+                 
+
+                     
+                          规章制度 
+                         
+
+                               上级文件 
+
+ 
+
+                               招生文件 
+
+ 
+
+                               培养文件 
+
+ 
+
+                               学位文件 
+
+ 
+
+                               质量文件 
+
+ 
+                            
+                         
+                     
+
+                     
+                          工作流程 
+                         
+
+                               招生工作 
+
+ 
+
+                               培养工作 
+
+ 
+
+                               学位工作 
+
+ 
+
+                               质量工作 
+
+ 
+                            
+                         
+                     
+
+                     
+                          资料下载 
+                         
+
+                               招生工作 
+
+ 
+
+                               培养工作 
+
+ 
+
+                               学位工作 
+
+ 
+
+                               质量工作 
+
+ 
+                            
+                         
+                     
+                    
+                 
+             
+            
+         
+  
+
+ 
+ 
+   
+   
+     
+     
+     
+     
+   
+
+   
+   
+     
+       
+     
+     
+       
+     
+     
+       
+     
+     
+       
+     
+   
+  
+   
+     
+       
+       Previous 
+     
+     
+       
+       Next 
+     
+ 
+ 
+ 
+ 
+     
+         
+             
+                 
+                 通知公告 
+             
+             
+                 查看更多 
+             
+         
+
+
+         
+ 
+                 
+                       河南科技大学2027年硕士研究生招生考试自命题科目考试大纲（持续更新中）   
+                     
+                         2026/10/14 
+                     
+                 
+                 我校所有自命题初试科目均不得携带、使用计算器。 
+ 
+                 
+                     关于组织申报来华留学研究生全英（外）文授课培养项目建设典型案例的通知 
+                     2026/10/09 
+                 
+                 
+                     河南科技大学2027年硕士研究生招生简章（含招生专业目录） 
+                     2026/10/03 
+                 
+                 
+                     河南科技大学2027年接收推荐免试硕士研究生章程 
+                     2026/09/16 
+                 
+                 
+                     河南科技大学关于2027年硕士研究生招生考试部分专业初试科目调整的通知 
+                     2026/07/23 
+                 
+                 
+                     关于河南科技大学2026年度工程案例立项征集项目拟推荐名单的公示 
+                     2026/09/02 
+                 
+                 
+                     关于开展河南科技大学2026年度工程案例立项征集工作的通知 
+                     2026/07/30 
+                 
+ _showDynClickBatch(['dynclicks_u4_8712','dynclicks_u4_8702','dynclicks_u4_8682','dynclicks_u4_8672','dynclicks_u4_8582','dynclicks_u4_8632','dynclicks_u4_8612'],[8712,8702,8682,8672,8582,8632,8612],"wbnews", 1721696689) 
+
+
+
+                 
+         
+         
+             
+                
+                 新闻动态 
+             
+             
+                 查看更多 
+             
+         
+ 
+ 
+ 
+var u_u5_icn = new ImageChangeNews("u_u5_", 460, 190, 4, 2.0, true, false, true, true, true,"#u_u5_centerCutImg");
+
+//初始化图片, 并启动定时
+function u_u5_init_img()
+{
+
+    u_u5_icn.addimg("\/__local\/C\/8A\/9A\/3AA72010F039F7298A72BFDB047_F58E5857_2C3AE.jpg", "info\/1054\/7572.htm", "我校在2025年全国农林高校研究生招生培养管理学术年会上分享兽医硕士培养经验", "","我校在2025年全国农林高校研究生招生培养管理学术年会上分享兽医硕士培养经验");
+
+    u_u5_icn.addimg("\/__local\/F\/E7\/D2\/D52BB10442F39059AD974DB6363_8510190A_2A122.png", "info\/1054\/6482.htm", "我校梁坤峰教授在2024年河南省骨干研究生导师（管理干部）研修班上做经验交流发言", "","我校梁坤峰教授在2024年河南省骨干研究生导师（管理干部）研修班上做经验交流发言");
+
+    u_u5_icn.addimg("\/__local\/0\/2A\/43\/6CD9731914DD56381B1464DBEB9_2A3664DB_16440.jpg", "info\/1054\/4217.htm", "学校召开2021年新聘研究生导师培训会议", "","学校召开2021年新聘研究生导师培训会议");
+
+    u_u5_icn.addimg("\/__local\/5\/6E\/D6\/392F470470149C353F81BEAA8E7_E378721B_40E51.jpg?e=.jpg", "info\/1054\/1625.htm", "我校毕业生李建房荣获“全国突出贡献兽医专业学位获得者”荣誉称号", "","我校毕业生李建房荣获“全国突出贡献兽医专业学位获得者”荣誉称号");
+
+    u_u5_icn.changeimg(0);
+}
+ 
+     
+         
+             
+                 
+             
+             
+ 1 2 3 4 
+             
+       
+     
+         
+     
+    
+ u_u5_init_img(); 
+
+
+ 
+    
+	 我校在2025年全国农林高校研究生招生培养管理学术年会上分享兽医硕士培养经验 
+    
+    
+	 我校梁坤峰教授在2024年河南省骨干研究生导师（管理干部）研修班上做经验交流发言 
+    
+    
+	 研究生院召开2024年研究生教育督导工作会议 
+    
+    
+	 我校开展新增研究生导师培训 
+    
+    
+	 学校召开2022年下半年研究生教育工作会议 
+    
+    
+	 研究生院召开研究生教育督导工作会议 
+    
+ 
+
+ _showDynClickBatch(['dynclicks_u6_7572','dynclicks_u6_6482','dynclicks_u6_6032','dynclicks_u6_6022','dynclicks_u6_4369','dynclicks_u6_4333'],[7572,6482,6032,6022,4369,4333],"wbnews", 1721696689) 
+
+
+     
+     
+ 
+ 
+ 
+     
+         
+             
+             快速导航 
+         
+     
+     
+         
+             
+                 
+                 研究生系统管理 
+             
+
+                 
+                     
+                         
+                         博士硕士成绩查询 
+                     
+                     
+                         
+                         研究生智慧教学平台 
+                     
+                    
+                     
+                         
+                         新研究生系统(校外人员) 
+                     
+                     
+                         
+                         新研究生系统(校内人员) 
+                     
+                      
+                    
+                 
+         
+        
+         
+             
+                 
+                 答辩信息 
+             
+             
+                 
+                 课程安排 
+             
+             
+                 
+                 调课安排 
+             
+             
+                 
+                 培养环节安排 
+             
+             
+                 
+                 培养方案 
+             
+             
+                 
+                 考核公示 
+             
+         
+         
+     
+ 
+ 
+ 
+     
+         
+             
+             友情链接： 
+             
+                 中华人民共和国教育部 
+                 中国高等教育学生信息网 
+                 中国研究生招生信息网 
+                 中国学位与研究生教育信息网 
+                 河南省高等教育学生信息网 
+                 河南省教育厅学位委员会 
+             
+         
+         
+             
+                 
+             
+             
+                 
+                     版权所有 : 河南科技大学研究生院  
+                     邮箱 ： yjscb@haust.edu.com 
+                 
+                 
+                     地址：中国·洛阳 洛龙区开元大道263号 
+                     邮编：471023      网站维护：中原洛科 
+                 
+             
+         
+         
+     
+ 
+
+
+
+  
+ 
+ 
+  
+
+
+
+ 

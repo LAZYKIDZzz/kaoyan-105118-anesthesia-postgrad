@@ -1,0 +1,316 @@
+﻿ 
+ 
+    
+     
+     
+     成都医学院2027年研究生招生指南-成都医学院党委研究生工作部、研究生院 
+ 
+
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1016,'/content.jsp',2710,1545786161) 
+ 
+     
+   
+   
+     
+       
+ 
+        
+ 
+function dosuba238611a()
+{
+    try{
+    if (document.all) 
+        window.external.AddFavorite(document.location.href, document.title); 
+        else if (window.sidebar) 
+        window.sidebar.addPanel(document.title, document.location.href, "") 
+    }
+    catch (e){alert("当前浏览器不支持该操作，请升级浏览器版本");}
+}
+function setHomepagea238611a()
+{
+    var url = document.location.href;
+    if (document.all){
+        document.body.style.behavior='url(#default#homepage)';
+        document.body.setHomePage(url);
+    }else if (window.sidebar){
+        if(window.netscape){
+             try{
+                  netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+             }catch (e){
+                   alert("该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+             }
+    }
+var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+prefs.setCharPref('browser.startup.homepage',url);}
+}
+ 
+
+ 
+ 学校首页      
+     |       加入收藏  
+     |       研管系统 
+     |       招办邮箱 
+ 
+ 
+
+
+
+
+
+ 
+   
+                 
+                 
+                 
+                   
+                 
+
+ 
+ 
+function subsearchdataa238613a()
+{ 
+    if(checkDataa238613a(document.a238613a))
+    {
+       return true;  
+    }
+    return false;
+}       
+ 
+
+     
+     
+     
+     
+       
+     
+     
+         
+    
+         
+    news_searcha238613a = new vsb_news_search();
+    news_searcha238613a.isShowCode=false;
+    news_searcha238613a.tooltipid = 'tooltipa238613a';
+    news_searcha238613a.apptag = 'intextspana238613a';
+    news_searcha238613a.frametag = 'intextframea238613a';
+    news_search_entrya238613a = new vsb_news_search_entry();
+    news_search_entrya238613a.formname = "a238613a";
+    news_search_entrya238613a.news_search_obj = news_searcha238613a; 
+    news_search_entrya238613a.querytxtsize = 155
+    news_search_entrya238613a.yzmts ="您的查询过于频繁，请输入验证码后继续查询";
+    news_search_entrya238613a.qdstyle ="";
+    news_search_entrya238613a.qdname = "确定";
+    news_search_entrya238613a.qxstyle = "";
+    news_search_entrya238613a.qxname = "取消";    
+    function checkDataa238613a(formname)
+    {    
+        return news_search_entrya238613a.checkdata(formname)   
+    }
+     
+  
+ 
+       
+ 
+   
+
+    
+ 
+     首页 
+   
+   部门概况 
+   
+   部门设置及职责 
+   学位点情况 
+   联系方式 
+   
+   
+   党群工作 
+   
+   党委工作 
+   团委工作 
+   
+   
+   招生工作 
+   
+   通知公告 
+   招生章程 
+   导师简介 
+   
+   
+   培养工作 
+   
+   办事流程 
+   培养动态 
+   
+   
+   学位工作 
+   
+   通知公告 
+   同等学力 
+   
+   
+   学科建设 
+   
+   学位点动态 
+   年度质量报告 
+   
+   
+   学生工作 
+   
+   通知公告 
+   奖助工作 
+   学生活动 
+   
+   
+   下载专区 
+   
+   招生 
+   培养 
+   学工 
+   就业 
+   
+   
+  
+    
+ 
+$("#nav li").hover(function(){
+if(!$(this).find('div').is(':animated') && $(this).find('div a').length>0)$(this).find('div').slideDown(200);},function(){  
+$(this).removeClass('x');$(this).find('div').slideUp(100);
+});
+ 
+
+ 
+ 
+        
+	  
+
+ 
+     
+         
+             
+             
+             
+            
+         
+     
+     
+     
+     
+ 
+  
+  
+ 
+$(".fullSlide").hover(function(){
+    $(this).find(".prev,.next").stop(true, true).fadeTo("show", 0.5)
+},
+function(){
+    $(this).find(".prev,.next").fadeOut()
+});
+$(".fullSlide").slide({
+    titCell: ".hd ul",
+    mainCell: ".bd ul",
+    effect: "fold",
+    autoPlay: true,
+    autoPage: true,
+    trigger: "mouseover",
+    startFun: function(i) {
+        var curLi = jQuery(".fullSlide .bd li").eq(i);
+        if ( !! curLi.attr("_src")) {
+            curLi.css("background-image", curLi.attr("_src")).removeAttr("_src")
+        }
+    }
+});
+ _showDynClickBatch(['dynclicks_u4_2213','dynclicks_u4_2715','dynclicks_u4_2710','dynclicks_u4_2667','dynclicks_u4_2657','dynclicks_u4_2648','dynclicks_u4_2370','dynclicks_u4_2636','dynclicks_u4_2634','dynclicks_u4_2630'],[2213,2715,2710,2667,2657,2648,2370,2636,2634,2630],"wbnews", 1545786161) 
+
+   
+   
+       
+       
+招生工作 
+         
+     
+             通知公告 
+         招生章程 
+         导师简介 
+   
+   
+     联系我们 
+     
+      
+     
+   
+ 
+ 
+     
+    
+     
+           
+         
+通知公告 
+           
+ 当前位置：   
+ 首页 > 招生工作 > 通知公告 > 正文 
+       
+        
+ 
+         
+               成都医学院2027年研究生招生指南 
+               发布时间：2026年09月23日 
+             
+          
+ 各位考生： 
+ 为便于广大考生对我校研究生招生有更加深入的了解，我们制作了《成都医学院2027年研究生招生指南》，请有需要的考生自行查看。 
+ 为帮助大家更全面地获取报考信息，现将有关事项说明如下： 
+ 一、指南内容 
+ 《成都医学院2027年研究生招生指南》涵盖学校和各学院概况、招生专业目录、奖助体系、联系方式等主要内容，供考生在报考前系统了解我校研究生招生的整体情况。 
+ 二、查看方式 
+ 有需要的考生请点击《 成都医学院2027年研究生招生指南 》自行查阅。如遇链接无法打开或内容显示异常，请及时与研究生招生办公室联系。 
+ 三、注意事项 
+  1.指南内容如与教育部或四川省教育考试院最新文件不一致，以官方最新文件为准。 
+  2.招生政策、专业目录、考试科目等信息如有调整，我校将及时发布公告，请考生持续关注官方渠道，避免因信息滞后影响报考。 
+  3.请考生切勿轻信非官方来源的招生信息，谨防上当受骗。 
+ 四、咨询方式 
+ 如有疑问，可通过以下方式咨询： 
+ 研招办咨询电话：028-62739178 
+ 电子邮箱： yzb@cmc.edu.cn 
+ 各学院咨询方式 
+ 请广大考生合理安排时间，及时查阅相关材料，做好报考准备。预祝各位考生备考顺利！ 
+ 成都医学院研究生招生办公室 
+ 2026年9月23日 
+ 
+  
+         
+  
+         
+               
+             
+                   上一条： 成都医学院2027年硕士研究生招生报名温馨提示 
+                 
+             
+                   下一条： 成都医学院2026级硕士研究生入学报到指南   
+                 
+           
+             
+       
+  
+      
+    
+   
+        
+   研招办：028-62739178             招办邮箱：yzb#cmc.edu.cn（将#替换为@） 培养科：028-62739181             学生科：028-62739183             党建办：028-62739191 学位/学科办：028-62739177     同等学力申硕：028-62739177、62739179 成医官微 成医研究生 Copyright©  成都医学院党委研究生工作部、研究生院  All Rights Reserved.      地址：四川省成都市新都区新都大道783号    邮编：610500   
+ 

@@ -1,0 +1,53 @@
+{
+  "name": "大连理工大学",
+  "tier": "从容区",
+  "gate": 300,
+  "region": "辽宁",
+  "candidates": [
+    {
+      "title": "大连理工大学官方招生入口",
+      "url": "https://gs.dlut.edu.cn/info/1172/51892.htm"
+    },
+    {
+      "title": "大连理工大学官方招生入口",
+      "url": "https://yjszs.dlut.edu.cn/zsbm/zsml/sszsml/index/2027"
+    }
+  ],
+  "pages": [
+    {
+      "title": "大连理工大学官方招生入口",
+      "url": "https://gs.dlut.edu.cn/info/1172/51892.htm",
+      "effective_url": "https://gs.dlut.edu.cn/info/1172/51892.htm",
+      "path": "docs/admissions/2027/大连理工大学/page-7ef3db5e46.html",
+      "sha256": "feccb0489aab19647119b6c158d265a5d9f0787363c36c0a8e6c7950372e5526",
+      "bytes": 43868
+    },
+    {
+      "title": "大连理工大学官方招生入口",
+      "url": "https://yjszs.dlut.edu.cn/zsbm/zsml/sszsml/index/2027",
+      "effective_url": "https://yjszs.dlut.edu.cn/zsbm/zsml/sszsml/index/2027",
+      "path": "docs/admissions/2027/大连理工大学/page-1de8f65524.html",
+      "sha256": "3ab7c72e0258af4734e5e598dafca2a1412946c01b72f7847f6a944ca3549017",
+      "bytes": 4867
+    }
+  ],
+  "files": [
+    {
+      "title": "大连理工大学2027年105118专业目录",
+      "url": "https://yjszs.dlut.edu.cn/zsbm/zsml/sszsml/zsmlYjfx/2027/500/105118?ksfs=21",
+      "path": "docs/admissions/2027/大连理工大学/大连理工大学2027年105118专业目录.html",
+      "bytes": 3198,
+      "sha256": "da5e17dc20511f8f08f357e01d9dfdab9aae61476335c836b6503281dd1e664e",
+      "kind": "official_web_catalogue"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://gs.dlut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1502106601&wbfileid=814681C9ED5028507E1834C6ACAD643D",
+      "title": "附件1：大连理工大学研究生思想政治与综合文化素质考核表.docx",
+      "error": "attachment response has no recognized file signature"
+    }
+  ],
+  "status": "已归档官方网页目录",
+  "checked_at": "2026-10-18"
+}

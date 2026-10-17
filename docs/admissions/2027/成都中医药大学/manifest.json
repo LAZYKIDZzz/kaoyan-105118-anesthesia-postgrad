@@ -1,0 +1,74 @@
+{
+  "name": "成都中医药大学",
+  "tier": "进取区",
+  "gate": 323,
+  "region": "四川",
+  "candidates": [
+    {
+      "title": "成都中医药大学招生栏目",
+      "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs"
+    },
+    {
+      "title": "成都中医药大学招生官网（查找2027目录）",
+      "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_142106"
+    },
+    {
+      "title": "成都中医药大学招生官网（查找2027目录）",
+      "url": "https://yjs.cdutcm.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "成都中医药大学招生栏目",
+      "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs",
+      "effective_url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs",
+      "path": "docs/admissions/2027/成都中医药大学/page-626f4a5beb.html",
+      "sha256": "593930937609aadabe9753f6e2a33032b6b1f58bab8551177402cb51327356e4",
+      "bytes": 40959
+    },
+    {
+      "title": "成都中医药大学招生官网（查找2027目录）",
+      "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_142106",
+      "effective_url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_142106",
+      "path": "docs/admissions/2027/成都中医药大学/page-1af2276d79.html",
+      "sha256": "9541b8d698a665a19001ff1d5599fbe34f6a3ac886914bcaf8754785dfe500c0",
+      "bytes": 39859
+    },
+    {
+      "title": "成都中医药大学2027年攻读硕士学位统招研究生招生专业目录成都中医药大学2027年攻读硕士学位统招研究生招生专业目录",
+      "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143619",
+      "effective_url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143619",
+      "path": "docs/admissions/2027/成都中医药大学/page-7b18392e04.html",
+      "sha256": "991eb95eebb77e10ece6e9218e7a2a5f84fa6f5ceb81f249ee4edb241ff82002",
+      "bytes": 393665
+    },
+    {
+      "title": "成都中医药大学2027年攻读硕士学位统招研究生招生章程成都中医药大学2027年攻读硕士学位统招研究生招生章程",
+      "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143618",
+      "effective_url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143618",
+      "path": "docs/admissions/2027/成都中医药大学/page-6eef87ba40.html",
+      "sha256": "1051701d129999c500d373ee097ee5031525405ea2221af44b7223ede822c5e5",
+      "bytes": 68233
+    }
+  ],
+  "files": [
+    {
+      "title": "成都中医药大学2027年攻读硕士学位统招研究生招生专业目录成都中医药大学2027年攻读硕士学位统招研究生招生专业目录",
+      "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143619",
+      "effective_url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143619",
+      "path": "docs/admissions/2027/成都中医药大学/page-7b18392e04.html",
+      "sha256": "991eb95eebb77e10ece6e9218e7a2a5f84fa6f5ceb81f249ee4edb241ff82002",
+      "bytes": 393665,
+      "kind": "official_web_catalogue"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjs.cdutcm.edu.cn/",
+      "title": "成都中医药大学招生官网（查找2027目录）",
+      "error": "502\nhttps://yjs.cdutcm.edu.cn/"
+    }
+  ],
+  "status": "已归档官方网页目录",
+  "checked_at": "2026-10-18"
+}

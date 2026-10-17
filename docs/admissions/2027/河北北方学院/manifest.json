@@ -1,0 +1,79 @@
+{
+  "name": "河北北方学院",
+  "tier": "稳健区",
+  "gate": 301,
+  "region": "河北",
+  "candidates": [
+    {
+      "title": "河北北方学院招生栏目",
+      "url": "https://yjs.hebeinu.edu.cn/index.php"
+    },
+    {
+      "title": "河北北方学院2027年硕士研究生招生章程-河北北方学院-研究生学院、学位与学科建设办公室",
+      "url": "https://yjs.hebeinu.edu.cn/index.php?s=%2FShow%2Findex%2Fcid%2F11%2Fid%2F491.html"
+    }
+  ],
+  "pages": [
+    {
+      "title": "河北北方学院招生栏目",
+      "url": "https://yjs.hebeinu.edu.cn/index.php",
+      "effective_url": "https://yjs.hebeinu.edu.cn/index.php",
+      "path": "docs/admissions/2027/河北北方学院/page-62c1db44cb.html",
+      "sha256": "caa463f57f04c12534b4832ecdfe69e234bf00cc2e2697caf7d3008adf572c6e",
+      "bytes": 16280
+    },
+    {
+      "title": "河北北方学院2027年硕士研究生招生章程-河北北方学院-研究生学院、学位与学科建设办公室",
+      "url": "https://yjs.hebeinu.edu.cn/index.php?s=%2FShow%2Findex%2Fcid%2F11%2Fid%2F491.html",
+      "effective_url": "https://yjs.hebeinu.edu.cn/index.php?s=%2FShow%2Findex%2Fcid%2F11%2Fid%2F491.html",
+      "path": "docs/admissions/2027/河北北方学院/page-4b867a57a9.html",
+      "sha256": "93922a302a0f14ae1a2d969680c424e8e4241cb8a2bbaec928ad4216e60a3a12",
+      "bytes": 35260
+    },
+    {
+      "title": "河北北方学院2027年硕士研究生招生章程",
+      "url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/491.html",
+      "effective_url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/491.html",
+      "path": "docs/admissions/2027/河北北方学院/page-4d608dc649.html",
+      "sha256": "0997de59db18159a4166d15a8274f6b1945a84e731447673c23de6884e51267f",
+      "bytes": 35260
+    },
+    {
+      "title": "河北北方学院2027年硕士研究生分专业拟招生计划",
+      "url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/488.html",
+      "effective_url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/488.html",
+      "path": "docs/admissions/2027/河北北方学院/page-f74d26f115.html",
+      "sha256": "8c1fa5bfce9bd86ee9f1068bc85cf8cc733a488e6fbb6787c1635491ab41e61a",
+      "bytes": 8893
+    }
+  ],
+  "files": [
+    {
+      "title": "河北北方学院2027年硕士研究生分专业拟招生计划（全日制）.pdf",
+      "url": "https://yjs.hebeinu.edu.cn/uploads/file1/20260926/6ab71e31bec0a.pdf",
+      "path": "docs/admissions/2027/河北北方学院/河北北方学院2027年硕士研究生分专业拟招生计划（全日制）.pdf",
+      "sha256": "fb7ca91bd3067f3f9c6bed2f6abcba9033e772f8d6e1efabeec3c6d4ba511ea0",
+      "bytes": 67134,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjs.hebeinu.edu.cn/河北北方学院2027年硕士研究生分专业拟招生计划（全日制）.pdf河北北方学院2027年硕士研究生分专业拟招生计划（非全日制）.pdf",
+      "title": "内嵌文件",
+      "error": "%E5%88%92%EF%BC%88%E5%85%A8%E6%97%A5%E5%88%B6%EF%BC%89.pdf%E6%B2%B3%E5%8C%97%E5%8C%97%E6%96%B9%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%88%86%E4%B8%93%E4%B8%9A%E6%8B%9F%E6%8B%9B%E7%94%9F%E8%AE%A1%E5%88%92%EF%BC%88%E9%9D%9E%E5%85%A8%E6%97%A5%E5%88%B6%EF%BC%89.pdf"
+    },
+    {
+      "url": "https://yjs.hebeinu.edu.cn/河北北方学院2027年硕士研究生分专业拟招生计划（全日制）.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjs.hebeinu.edu.cn/%E6%B2%B3%E5%8C%97%E5%8C%97%E6%96%B9%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%88%86%E4%B8%93%E4%B8%9A%E6%8B%9F%E6%8B%9B%E7%94%9F%E8%AE%A1%E5%88%92%EF%BC%88%E5%85%A8%E6%97%A5%E5%88%B6%EF%BC%89.pdf"
+    },
+    {
+      "url": "https://yjs.hebeinu.edu.cn/河北北方学院2027年硕士研究生分专业拟招生计划（非全日制）.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjs.hebeinu.edu.cn/%E6%B2%B3%E5%8C%97%E5%8C%97%E6%96%B9%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%88%86%E4%B8%93%E4%B8%9A%E6%8B%9F%E6%8B%9B%E7%94%9F%E8%AE%A1%E5%88%92%EF%BC%88%E9%9D%9E%E5%85%A8%E6%97%A5%E5%88%B6%EF%BC%89.pdf"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

@@ -1,0 +1,910 @@
+﻿ 
+ 
+ 
+     
+     
+     
+     宁波大学2027年接收推荐免试研究生（含直博生）章程-宁波大学研究生院/研究生工作部 
+ 
+ 
+ 
+
+     
+     
+     
+     
+     
+     
+     
+
+     
+     
+
+     
+     
+     
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1072,'/2019/zs-content.jsp',29201,1202972803) 
+ 
+ 
+     
+
+         
+             
+             
+             
+                 
+                     
+                         
+                             
+ 
+ 欢迎您访问宁波大学研究生院/研究生工作部
+ 
+                         
+                     
+                 
+             
+             
+
+             
+             
+                 
+                     
+                         
+                             
+                                 
+                                     
+                                             
+ 
+ 
+                                     
+                                     
+                                         
+                                        
+  
+   
+    
+    招生官方微信 
+    
+  硕士招生:  0574-87600226 博士招生:  0574-87609136  
+ 
+                                         
+                                     
+                                 
+                             
+                         
+                     
+                 
+                 
+                     
+                         
+                             
+                                 
+
+                                     
+                                        
+
+                                         
+                                         
+
+
+
+ 
+ 
+    <div id="appu3">
+        <div v-if="!isError" id="search-form" class="search-form">
+        
+           <input type="search" class="search-field" placeholder="请输入搜索内容" value="" name="INTEXT" autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+    <button type="submit" class="search-submit"   v-on:click="onSubmit()"><i class="fa fa-search"></i></button>
+        
+           
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+ 
+ 
+    $("#divu3").html($("#htmlu3").text());
+ 
+ 
+    var appOwner = "1202972803";
+    var token = "tourist";
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu3",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+ 
+
+ 
+   var appElementu3 = document.querySelector("#appu3");
+   if (appElementu3 && appElementu3.__vue__) {
+
+   } else {
+      $("#divu3").html($("#htmlu3").text());
+      var appOwner = "1202972803";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou3 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu3(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu3();
+        }
+      };
+
+      function onSubmitu3(e) {
+        queryInfou3.query.keyWord= $("#appu3  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou3.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+ 
+
+                                     
+                                     
+                                         
+                                    
+ 部门主页 
+ 招生首页 
+ 
+
+ 博士生招生 
+ 
+
+ 硕士生招生 
+ 
+
+ 港澳台招生 
+ 
+
+ 同等学力招生 
+ 
+
+
+                                    
+                                         
+                                     
+                                     
+                                 
+                             
+                         
+                     
+                 
+
+             
+             
+        
+             
+                 
+                     
+                         
+                     
+                     
+                         
+                     
+                 
+                 
+                     
+                         
+                         部门主页 
+ 招生首页 
+
+
+ 
+
+ 博士生招生 
+
+
+ 
+
+ 硕士生招生 
+
+
+ 
+
+ 港澳台招生 
+
+
+ 
+
+ 同等学力招生 
+
+
+ 
+
+
+                     
+                         
+                     
+                 
+             
+         
+
+         
+             
+                 
+                     
+                         
+                             
+                                 
+博士生招生 
+                             
+                             
+                                 
+    当前位置: 
+                         招生工作 
+                
+                 博士生招生 
+                
+                 正文 
+ 
+                             
+                         
+                     
+                 
+             
+             
+                 
+                     
+                    
+                         
+                             
+
+                                 
+                                    
+
+ 
+ 
+     宁波大学2027年接收推荐免试研究生（含直博生）章程 
+     发表日期：2026-09-15  访问人次： _showDynClicks("wbnews", 1202972803, 29201) 次 
+     
+ .docx-wrapper { background: gray; padding: 30px; padding-bottom: 0px; display: flex; flex-flow: column; align-items: center;} 
+.docx-wrapper>section.docx { background: white; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); margin-bottom: 30px;}
+.docx { color: black; hyphens: auto;}
+section.docx { box-sizing: border-box; display: flex; flex-flow: column nowrap; position: relative; overflow: hidden;}
+section.docx>article { margin-bottom: auto; z-index: 1;}
+section.docx>footer { z-index: 1;}
+.docx table { border-collapse: collapse;}
+.docx table td, .docx table th { vertical-align: top;}
+.docx p { margin: 0pt !important; min-height: 1em;}
+.docx span { white-space: pre-wrap; overflow-wrap: break-word;}
+.docx a { color: inherit; text-decoration: inherit;} .docx {
+  --docx-majorhansi-font: Cambria;
+  --docx-minorhansi-font: Calibri;
+  --docx-dk1-color: #000000;
+  --docx-lt1-color: #FFFFFF;
+  --docx-dk2-color: #1F497D;
+  --docx-lt2-color: #EEECE1;
+  --docx-accent1-color: #4F81BD;
+  --docx-accent2-color: #C0504D;
+  --docx-accent3-color: #9BBB59;
+  --docx-accent4-color: #8064A2;
+  --docx-accent5-color: #4BACC6;
+  --docx-accent6-color: #F79646;
+  --docx-hlink-color: #0000FF;
+  --docx-folhlink-color: #800080;} .docx span {
+  font-family: Times New Roman;}
+.docx p, p.docx_1 {
+  text-align: justify;}
+.docx p, p.docx_1 span {
+  font-family: Calibri;
+  min-height: 10.50pt;
+  font-size: 10.50pt;}
+p.docx_2 {
+  margin-top: 10.00pt;
+  margin-bottom: 0.00pt;
+  text-align: justify;}
+p.docx_2 span {
+  font-family: var(--docx-majorHAnsi-font);
+  font-weight: bold;
+  color: #4F81BD;
+  min-height: 10.50pt;
+  font-size: 10.50pt;}
+p.docx_3 {
+  margin-top: 5.00pt;
+  margin-bottom: 5.00pt;
+  text-align: left;}
+p.docx_3 span {
+  font-family: 宋体;
+  font-weight: bold;
+  min-height: 12.00pt;
+  font-size: 12.00pt;}
+.docx table, table.docx_6 td {
+  padding-top: 0.00pt;
+  padding-left: 5.40pt;
+  padding-bottom: 0.00pt;
+  padding-right: 5.40pt;}
+p.docx_4 {
+  text-align: justify;}
+p.docx_4 span {
+  font-family: Calibri;
+  min-height: 10.50pt;
+  font-size: 10.50pt;}
+p.docx_5 {
+  margin-top: 5.00pt;
+  margin-bottom: 5.00pt;
+  margin-left: 0.00pt;
+  margin-right: 0.00pt;
+  text-align: left;}
+p.docx_5 span {
+  min-height: 12.00pt;
+  font-size: 12.00pt;
+  font-family: Calibri;}
+table.docx_7 p {
+  text-align: justify;}
+table.docx_7 td {
+  border-top: 0.50pt solid black;
+  border-left: 0.50pt solid black;
+  border-bottom: 0.50pt solid black;
+  border-right: 0.50pt solid black;
+  padding-top: 0.00pt;
+  padding-left: 5.40pt;
+  padding-bottom: 0.00pt;
+  padding-right: 5.40pt;}
+span.docx_9 {
+  color: #333333;
+  text-decoration: none;}
+span.docx_10 {
+  font-family: Tahoma;
+  color: #333333;
+  min-height: 9.00pt;
+  font-size: 9.00pt;
+  text-decoration: none;}
+p.docx_13 span {
+  font-family: Calibri;
+  min-height: 10.50pt;
+  font-size: 10.50pt;} p.docx-num-1-0:before {
+  content: ""counter(docx-num-1-0, decimal)".\9";
+  counter-increment: docx-num-1-0;}
+p.docx-num-1-0 {
+  display: list-item;
+  list-style-position: inside;
+  list-style-type: none;
+  text-indent: -18.00pt;
+  margin-left: 18.00pt;}
+:root {
+  counter-reset: docx-num-1-0 0;} 为做好 我校 202 7 年接收 推荐免试研究生（以下简称“ 推免生 ”） 工作 ，加强科学选拔，规范工作程序，保证公平公正，制定本章程。 一、 招生 专业和招生计划 我校接收优秀应届本科毕业生免试攻读硕士学位研究生或直接攻读博士学位研究生（以下简称“直博生”）。 接收推免生的 具体招生专业和招生计划详见招生 专业 目录。 二、申请条件 （一）中华人民共和国公民 。 （二）拥护中国共产党的领导，品德良好，遵纪守法 。 （三）身体健康状况符合国家和我校规定的体检要求 。 （四）取得所在学校202 7 年推免资格的优秀应届本科毕业生 。 （五）申请专业符合当年国家及我校规定的报考条件 。 （六）申请直博者，除满足以上条件外，本科阶段学习成绩应名列专业前茅，具有博士生培养潜质，并且拟攻读非定向博士研究生。支教团推免计划一般不能申请直博。 三、申请材料 （一） 近期证件照1张。 （二） 有效期内二代身份证（正反面） （ 验原件） 。 （ 三 ）学生证或在读证明（验高校教务部门颁发的学生证原件） 。 （ 四）《 教育部学籍在线验证报告 》（来源网址：http://www.chsi.com.cn/xlcx/bgcx.jsp）。 （ 五 ）《宁波大学思想政治品德考核表》，需由考生所在单位盖章并密封 。 （ 六 ）大学英语六级 （ 或四级 ） 考试证书（小语种的相应水平证书）复印件1份 （ 验原件） 。 （ 七 ）大学学习期间 的完整成绩单、 获得的各类奖励 、 学术科研成果（如公开发表论文、出版物等）、发明专利等证明材料复印件各1份 （ 验原件） 。 （ 八 ）提供两名及以上所报考学科专业领域内教授（或相当专业技术职称专家）的书面推荐意见（仅限直博生提交）。 注：考生参加复试时，须向招生学院 （ 学部 ） 提交以上材料，并带上原件以备审验。 四、申请程序与时间安排 （一）申请人在教育部规定的时间 登录 “全国推荐免试攻读研究生信息公开暨管理服务系统”（以下简称“推免服务系统”，网址 为http ://yz.chsi.com.cn/tm），完成信息注册。 （二）申请人 从 9月 21 日 （ 上午 ） 9时开始，到10月16日（中午）12时为止， 登录“推免服务系统”填报志愿。 （三）10月 19 日 前 ：招生学院 （ 学部 ） 审核 后 确定参加复试名单，分批次发出复试通知并组织复试，根据招生规模，分批次按复试成绩从高到低确定拟录取名单。具体复试时间等相关事项详见各 招生 学院 （ 学部 ） 复试方案。 五、学制、学费与奖助政策 （一）基本学制 1.硕士研究生基本学制2.5 - 3年， 其中：全日制专硕金融、国际商务、会计、数字经济、体育、翻译专业基本学制均为2.5年；其他专业基本学制为3年 。 2.直博生基本学制5年。 （二）学费与奖助政策 1.招收直博生的各专业，学费均为10000元 /生·学年 ； 招收全日制硕士生的各专业，学费详见如下表格： 专业 类型 学制（年） 学费（元/生·学年） 旅游管理（中法合作） 全日制学硕 3 20000 其他 3 8000 临床医学 、 音乐、美术与书法、设计 全日制专硕 3 10000 交通运输（中外合作） 3 28800 其他 2.5或3 8000 2. 我校已建立较为完善的奖助体系以确保研究生顺利完成学业，具体详见 https://graduate.nbu.edu.cn/zsgz/xxfw/xfyjz.htm 。 六、 注意事项 （一） 被我校录取的推免生 在 入学前未获得本科毕业证书和学士学位证书，或受到处分，将取消录取资格 。 （二）申请人应保证其所提供的材料真实，一旦发现申请人弄虚作假，即取消其申请资格、录取资格。 （三）已被我校接收的推免生，不得再参加全国统考，否则取消其推免录取资格。 （四）直博生入学后即为博士研究生，享受博士研究生待遇。 （五）我校确定接收的推免生均须参加体检。 （六）本章程如与国家相关政策不符或国家调整招生政策的，以国家政策为准。 七、联系方式 联系地址：浙江省宁波市江北区风华路818号  宁波大学研究生院 学校代码：11646 邮政编码：315211 电话：0574-87600226，87609136 网址：https://graduate.nbu.edu.cn/zsgz/zssy.htm    附件1 ： 2027年推免硕士生招生专业目录 附件2：2027年直博生招生专业目录 附件3：宁波大学思想政治品德考核表（推免生） 附件4：宁波大学报考攻读博士学位研究生专家推荐书 附件5：研究生推免复试专用体检表 
+ 
+    
+     
+          
+             附件【 附件1：2027年推免硕士生招生专业目录.pdf 】已下载 getClickTimes(15221649,1202972803,"wbnewsfile","attach") 次 
+             附件【 附件2：2027年直博生招生专业目录.pdf 】已下载 getClickTimes(15221650,1202972803,"wbnewsfile","attach") 次 
+             附件【 附件3：宁波大学思想政治品德考核表（推免生）.doc 】已下载 getClickTimes(15221648,1202972803,"wbnewsfile","attach") 次 
+             附件【 附件4：宁波大学报考攻读博士学位研究生专家推荐书.doc 】已下载 getClickTimes(15221651,1202972803,"wbnewsfile","attach") 次 
+             附件【 附件5：研究生推免复试专用体检表.doc 】已下载 getClickTimes(15221652,1202972803,"wbnewsfile","attach") 次 
+         
+     
+     【 关闭 】 
+ 
+ 
+
+                                 
+
+                             
+                             
+                         
+
+                         
+                            
+                             
+                                 
+博士生招生 
+                 
+ 
+                             
+                             
+
+
+
+ 
+ 
+    <div id="appu11">
+        <div v-if="!isError" id="search-form" class="search-form">
+        
+           <input type="search" class="search-field" placeholder="请输入搜索内容" value="" name="INTEXT" autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+    <button type="submit" class="search-submit"   v-on:click="onSubmit()"><i class="fa fa-search"></i></button>
+        
+           
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+ 
+ 
+    $("#divu11").html($("#htmlu11").text());
+ 
+ 
+    var appOwner = "1202972803";
+    var token = "tourist";
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu11",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+ 
+
+ 
+   var appElementu11 = document.querySelector("#appu11");
+   if (appElementu11 && appElementu11.__vue__) {
+
+   } else {
+      $("#divu11").html($("#htmlu11").text());
+      var appOwner = "1202972803";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou11 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu11(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu11();
+        }
+      };
+
+      function onSubmitu11(e) {
+        queryInfou11.query.keyWord= $("#appu11  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou11.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+ 
+                             
+                                 热点推荐 
+                                
+
+ 
+ 
+ 
+ 
+function getHotNewsTitleu12()
+{
+    var mediaisshow = 'false';
+    var _this = this;
+    var loaddiv = jQuery("#load_div_u12");
+    var contenttable = jQuery("#hotnews_content_table_u12");
+    _this.t_body = jQuery("#hotnews_content_table_u12");
+    _this.clickshow = false;
+    _this.clickname = '点击';
+    _this.clickstyle = 'clickstyle251242';
+    _this.endimageposition = false;
+    _this.isfollowtilte = false;
+    //构造 参数
+    var param =  {owner:'1202972803',treeid:'1072',viewid:'251242',mode:'10',
+            locale:'zh_CN',
+            pageUrl:'/info/1072/29281.htm',uniqueId:'u12',
+            PAGENUM:_this.curpage,actionmethod:'getnewslist'}
+     var ajaxurl  = "/system/resource/js/news/hotdynpullnews.jsp";        
+     _this._getResult = function()
+     {
+        jQuery.post(ajaxurl,param,
+            function(data){
+                _this.dataloadComplete(data);
+            },
+            "json"
+        );
+      }
+      _this.show = function()
+      {
+        loaddiv.css("display","none");
+        contenttable.css("display","");
+      }
+      var newsidarray = new Array();
+      var newsidspanarray = new Array();
+     //数据加载
+     _this.dataloadComplete = function(data)
+     {
+             if(data&&data.length>0)
+            {
+                 var  img = '';
+                 var video = ''; 
+                 var attach = ''; 
+                 
+                 var isshowimg = false;
+                 var showimgalign =  '';
+                 var isshowvideo = false;
+                 var showvideoalign = 'left';
+                 var isshowattach = false;
+                 var showattachalign = 'left';
+                 for(var i=0;i<data.length;i++)
+                 {
+                     var notice_val = data[i];
+                     var wbishaveimg = notice_val.wbishaveimg;
+                     var wbishavevideo = notice_val.wbishavevideo;
+                     var wbhasattach = notice_val.wbhasattach;
+                     var wbpicurl = notice_val.wbpicurl;
+                     if(mediaisshow&&wbpicurl!=null&&wbpicurl!="")
+                     {
+                        var pic_tr = jQuery("<tr></tr>");
+                        var pic_td = jQuery("<td colspan='5'></td>");
+                        pic_td.html(notice_val.picdiv);
+                        _this.t_body.append(pic_tr);
+                     }
+                     var notice_tr = jQuery("<tr></tr>");
+                     //前导图
+                     var leader_td = jQuery("<td align='center' valign='middle' width=10 nowrap ></td>");
+                     var leaderspan =jQuery("<span >·</span>");
+                     leaderspan.addClass("leaderfont251242");
+                     leader_td.append(leaderspan);
+                     notice_tr.append(leader_td);
+                     var title_td = jQuery("<td valign='middle' align='left' ></td>");
+                     title_td.addClass("");
+                     
+                     var columnstr = jQuery(notice_val.columnstr);
+                     title_td.append(columnstr);
+                     
+                     if(isshowimg&&showimgalign=="left"&&(wbishaveimg==1))
+                     {
+                        var imgspan = jQuery("<span >"+img+"</span>");
+                        title_td.append(imgspan);
+                     }
+                     if(isshowvideo&&showvideoalign=="left"&&(wbishavevideo==1))
+                     {
+                        var videospan = jQuery("<span >"+video+"</span>");
+                        title_td.append(videospan);
+                     }
+                     if(isshowattach&&showattachalign=="left"&&(wbhasattach==1))
+                     {
+                        var attachspan = jQuery("<span >"+attach+"</span>");
+                        title_td.append(attachspan);
+                     }
+                     
+                     var link_a = jQuery("<a class='c251242' target=_blank  title='"+notice_val.showtitle+"'>"+notice_val.title+"</a>");
+                     link_a.attr("href",notice_val.linkurl);
+                     title_td.append(link_a);
+                     if(false)
+                     {
+                        var endimgspan = jQuery("<span>"+notice_val.endimg+"</span>");
+                        title_td.append(endimgspan);
+                     }
+                     
+                     if(isshowimg&&showimgalign=="right"&&(wbishaveimg==1))
+                     {
+                        var imgspan = jQuery("<span >"+img+"</span>");
+                        title_td.append(imgspan);
+                     }
+                     if(isshowvideo&&showvideoalign=="right"&&(wbishavevideo==1))
+                     {
+                        var videospan = jQuery("<span >"+video+"</span>");
+                        title_td.append(videospan);
+                     }
+                     if(isshowattach&&showattachalign=="right"&&(wbhasattach==1))
+                     {
+                        var attachspan = jQuery("<span >"+attach+"</span>");
+                        title_td.append(attachspan);
+                     }
+                     
+                     if(_this.clickshow)
+                     {
+                        var clicktimespan = jQuery("<span></span>");
+                        clicktimespan.html("("+_this.clickname+"&nbsp;<span id='_wzdjcs_"+notice_val.newsid+"' name='_wzdjcs_"+notice_val.newsid+"'></span>"+")");
+                        clicktimespan.addClass(_this.clickstyle);
+                        newsidarray.push(notice_val.newsid);
+                        newsidspanarray.push("_wzdjcs_"+notice_val.newsid);
+                        title_td.append(clicktimespan);
+                     }
+                     
+                     if(false)
+                     {
+                         var time_span = jQuery("<span width='1%' ></span>")
+                         
+                         time_span.html((new Base64()).decode(notice_val.timestr));
+                         
+                         time_span.addClass("timestyle251242");
+                         if(true)
+                         {
+                             var endimgspan = jQuery("<span>"+notice_val.endimg+"</span>");
+                             time_span.append(endimgspan);
+                         }  
+                         title_td.append(time_span); 
+                     }
+                     notice_tr.append(title_td);
+                     
+                     
+                     if(true)
+                     {
+                        var time_td = jQuery("<td valign='middle' align=right   width='1%' nowrap>");
+                        time_td.addClass("timestyle251242");
+                        
+                        time_td.html((new Base64()).decode(notice_val.timestr));
+                        
+                        if(true)
+                        {
+                            var time_span = jQuery("<span width='1%' ></span>")
+                            var endimgspan = jQuery("<span>"+notice_val.endimg+"</span>");
+                            time_span.append(endimgspan);
+                            time_td.append(time_span);
+                        }
+                        notice_tr.append(time_td);
+                     }
+                     
+                     _this.t_body.append(notice_tr);
+                     
+                     var lineimg = '';
+                     if(lineimg!=null&&lineimg!='')
+                     {
+                        var lineimgheight = 1;
+                        var line_tr = jQuery("<tr><td colspan='4' height='" + lineimgheight + "' BACKGROUND='" + lineimg + "'></td></tr>")
+                        _this.t_body.append(line_tr);
+                     }
+                 }
+                 _showDynClickBatch(newsidspanarray,newsidarray,'wbnews','1202972803');
+            }else
+            {
+                _this.t_body.append("<tr><td colspan=4 align=center style='color:#222222;font-size:12px;'>没有记录</td></tr>");
+            }      
+     }
+}
+jQuery(document).ready(function(){
+    var showcontentu12 = new getHotNewsTitleu12();
+    showcontentu12._getResult();
+    showcontentu12.show();
+});
+ 
+                             
+                         
+
+                     
+                 
+             
+         
+        
+
+         
+            
+             
+             
+                 
+                     
+                         
+                             
+                                
+ 
+ © 2019 宁波大学 研究生院/研究生工作部
+ 
+                             
+                         
+                         
+                             
+                                 
+     宁波大学 
+     电子邮箱 
+     管理入口 
+ 
+                             
+                         
+                     
+                 
+             
+             
+             
+         
+         
+     
+
+     
+     
+     
+     
+     
+     
+     
+     
+        Royal_Preloader.config({
+            logo: "../2019/images/logo-blue.png", 
+        });
+     
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

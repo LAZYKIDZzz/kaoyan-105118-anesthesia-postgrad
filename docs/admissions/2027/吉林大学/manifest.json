@@ -1,0 +1,91 @@
+{
+  "name": "吉林大学",
+  "tier": "进取区",
+  "gate": 326,
+  "region": "吉林",
+  "candidates": [
+    {
+      "title": "吉林大学2027年硕士研究生招生章程及招生专业目录-吉林大学研究生招生信息网",
+      "url": "https://yzb.jlu.edu.cn/info/1047/3678.htm"
+    },
+    {
+      "title": "吉林大学公共卫生学院2027年硕士研究生招生专业目录-吉林大学公共卫生学院",
+      "url": "https://sph.jlu.edu.cn/info/1045/9803.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "吉林大学2027年硕士研究生招生章程及招生专业目录-吉林大学研究生招生信息网",
+      "url": "https://yzb.jlu.edu.cn/info/1047/3678.htm",
+      "effective_url": "https://yzb.jlu.edu.cn/info/1047/3678.htm",
+      "path": "docs/admissions/2027/吉林大学/page-496f5c4890.html",
+      "sha256": "07b63f1cf43ebd9bbb9789014c9bbea312a2f0e664a6b93dcf31d8dd33d80ea3",
+      "bytes": 116232
+    },
+    {
+      "title": "吉林大学公共卫生学院2027年硕士研究生招生专业目录-吉林大学公共卫生学院",
+      "url": "https://sph.jlu.edu.cn/info/1045/9803.htm",
+      "effective_url": "https://sph.jlu.edu.cn/info/1045/9803.htm",
+      "path": "docs/admissions/2027/吉林大学/page-6616a1546a.html",
+      "sha256": "7702bfceec69aa46ff50f4b62fdae714786b42d4f3d4aaf532ce49628ebe32e0",
+      "bytes": 16583
+    },
+    {
+      "title": "吉林大学2027年接收优秀应届本科毕业生免试攻读研究生招生简章及专业目录",
+      "url": "https://yzb.jlu.edu.cn/info/1047/3637.htm",
+      "effective_url": "https://yzb.jlu.edu.cn/info/1047/3637.htm",
+      "path": "docs/admissions/2027/吉林大学/page-feecc85f9b.html",
+      "sha256": "714c10026971b53445345cd25945f501f5fe43c85d9a83982391c4194c889c5a",
+      "bytes": 85168
+    }
+  ],
+  "files": [
+    {
+      "title": "附件1吉林大学2027年全日制硕士研究生招生专业目录.pdf",
+      "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18205630",
+      "path": "docs/admissions/2027/吉林大学/附件1吉林大学2027年全日制硕士研究生招生专业目录.pdf",
+      "sha256": "670f10e7484e655d73be201a36d1e235f951a2ae2d115146216b87359544daef",
+      "bytes": 542829,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18205632",
+      "title": "附件3吉林大学2027年退役大学生士兵专项计划招生专业目录.pdf",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://zsb.jlu.edu.cn/Public/uploads/ueditor/file/20220919/1663579172479007.pdf",
+      "title": "吉林大学2023年接收推荐免试硕士研究生招生专业目录.pdf吉林大学2027年接收推荐免试硕士研究生招生专业目录",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://zsb.jlu.edu.cn/Public/uploads/ueditor/file/20220919/1663579186950151.pdf",
+      "title": "吉林大学2023年接收推荐免试直博生招生专业目录.pdf吉林大学2027年接收推荐免试直博生招生专业目录",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18196643",
+      "title": "附件1 吉林大学2027年接收推荐免试硕士研究生招生专业目录.pdf",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18196644",
+      "title": "附件2 吉林大学2027年接收推荐免试直博生招生专业目录.pdf",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1047/吉林大学2023年接收推荐免试硕士研究生招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "400\nhttps://yzb.jlu.edu.cn/info/1047/%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A62023%E5%B9%B4%E6%8E%A5%E6%94%B6%E6%8E%A8%E8%8D%90%E5%85%8D%E8%AF%95%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+    },
+    {
+      "url": "https://yzb.jlu.edu.cn/info/1047/吉林大学2023年接收推荐免试直博生招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "400\nhttps://yzb.jlu.edu.cn/info/1047/%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A62023%E5%B9%B4%E6%8E%A5%E6%94%B6%E6%8E%A8%E8%8D%90%E5%85%8D%E8%AF%95%E7%9B%B4%E5%8D%9A%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

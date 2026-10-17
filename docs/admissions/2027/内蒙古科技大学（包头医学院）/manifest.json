@@ -1,0 +1,35 @@
+{
+  "name": "内蒙古科技大学（包头医学院）",
+  "tier": "稳健区",
+  "gate": 303,
+  "region": "内蒙古",
+  "candidates": [
+    {
+      "title": "内蒙古科技大学包头医学院2027年硕士研究生招生章程-研究生学院",
+      "url": "https://www.btmc.edu.cn/yjsxy/info/1019/3314.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "内蒙古科技大学包头医学院2027年硕士研究生招生章程-研究生学院",
+      "url": "https://www.btmc.edu.cn/yjsxy/info/1019/3314.htm",
+      "effective_url": "https://www.btmc.edu.cn/yjsxy/info/1019/3314.htm",
+      "path": "docs/admissions/2027/内蒙古科技大学（包头医学院）/page-b694875f6d.html",
+      "sha256": "20ebca1391abb363d58183437e42d3215914bad36e41e426b8bfa640a3efbb7c",
+      "bytes": 91108
+    }
+  ],
+  "files": [
+    {
+      "title": "附件1：内蒙古科技大学包头医学院2027年硕士研究生招生专业目录.pdf",
+      "url": "https://www.btmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1275874854&wbfileid=14792125",
+      "path": "docs/admissions/2027/内蒙古科技大学（包头医学院）/附件1：内蒙古科技大学包头医学院2027年硕士研究生招生专业目录.pdf",
+      "sha256": "89a9272d8c44990afce2ef63f3d4f682f51e03ff19ec432ce9149a66c8b24e10",
+      "bytes": 139169,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

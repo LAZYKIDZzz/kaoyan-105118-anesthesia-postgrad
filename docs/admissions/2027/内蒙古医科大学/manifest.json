@@ -1,0 +1,32 @@
+{
+  "name": "内蒙古医科大学",
+  "tier": "从容区",
+  "gate": 289,
+  "region": "内蒙古",
+  "candidates": [
+    {
+      "title": "内蒙古医科大学官方招生入口",
+      "url": "http://yjsxy.immu.edu.cn/"
+    },
+    {
+      "title": "内蒙古医科大学招生官网（查找2027目录）",
+      "url": "https://yjsxy.immu.edu.cn/"
+    }
+  ],
+  "pages": [],
+  "files": [],
+  "failures": [
+    {
+      "url": "http://yjsxy.immu.edu.cn/",
+      "title": "内蒙古医科大学官方招生入口",
+      "error": "curl: (6) Could not resolve host: yjsxy.immu.edu.cn\ncurl: (6) Could not resolve host: yjsxy.immu.edu.cn\n"
+    },
+    {
+      "url": "https://yjsxy.immu.edu.cn/",
+      "title": "内蒙古医科大学招生官网（查找2027目录）",
+      "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to yjsxy.immu.edu.cn:443 \n"
+    }
+  ],
+  "status": "官网访问受限，待补原件",
+  "checked_at": "2026-10-18"
+}

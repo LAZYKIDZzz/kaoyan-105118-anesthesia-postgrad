@@ -1,0 +1,43 @@
+{
+  "name": "中国医科大学",
+  "tier": "进取区",
+  "gate": 335,
+  "region": "辽宁",
+  "candidates": [
+    {
+      "title": "中国医科大学招生官网（查找2027目录）",
+      "url": "https://www.cmu.edu.cn/cmuyjs/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "中国医科大学招生官网（查找2027目录）",
+      "url": "https://www.cmu.edu.cn/cmuyjs/",
+      "effective_url": "https://www.cmu.edu.cn/cmuyjs/",
+      "path": "docs/admissions/2027/中国医科大学/page-4d84c41840.html",
+      "sha256": "42790a55c4422ce66ed6d28508793ac788f90b422025823c580db96ccb672f23",
+      "bytes": 36003
+    },
+    {
+      "title": "中国医科大学2027年全国硕士研究生招生章程中国医科大学2027年全国硕士研究生招生章程",
+      "url": "https://www.cmu.edu.cn/cmuyjs/info/1900/9894.htm",
+      "effective_url": "https://www.cmu.edu.cn/cmuyjs/info/1900/9894.htm",
+      "path": "docs/admissions/2027/中国医科大学/page-468b11309b.html",
+      "sha256": "6794de76ec643054e3d5e2f94b7499dc400fe28b3d14d45e37698e0a68c0833e",
+      "bytes": 106207
+    }
+  ],
+  "files": [
+    {
+      "title": "中国医科大学2027年硕士研究生拟招生总计划（规培类专业）.pdf",
+      "url": "https://www.cmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1778759152&wbfileid=13265833",
+      "path": "docs/admissions/2027/中国医科大学/中国医科大学2027年硕士研究生拟招生总计划（规培类专业）.pdf",
+      "sha256": "1de26ee3ce783a3db428b2e797960df0f19b4a902e31115ce15733466eb1c674",
+      "bytes": 158818,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "贵州医科大学",
+  "tier": "稳健区",
+  "gate": 316,
+  "region": "贵州",
+  "candidates": [
+    {
+      "title": "贵州医科大学招生官网（查找2027目录）",
+      "url": "https://yjsxy.gmc.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "贵州医科大学招生官网（查找2027目录）",
+      "url": "https://yjsxy.gmc.edu.cn/",
+      "effective_url": "https://yjsxy.gmc.edu.cn/",
+      "path": "docs/admissions/2027/贵州医科大学/page-969f44cb1c.html",
+      "sha256": "75d2cb7e9f54c4300d6e5d025867adf936e0bc72e3ed9c0eb3cb3596564612c1",
+      "bytes": 44830
+    },
+    {
+      "title": "贵州医科大学2027年硕士研究生招生专业目录贵州医科大学2027年硕士研究生招生专业目录",
+      "url": "https://yjsxy.gmc.edu.cn/info/1118/2581.htm",
+      "effective_url": "https://yjsxy.gmc.edu.cn/info/1118/2581.htm",
+      "path": "docs/admissions/2027/贵州医科大学/page-bd2a90d75d.html",
+      "sha256": "b6f54aa24dcb6dd8d8618e6e1578aae0c1b2483a8b8ad820da44a96f4a0e8c35",
+      "bytes": 12777
+    },
+    {
+      "title": "贵州医科大学2027年硕士研究生招生章程贵州医科大学2027年硕士研究生招生章程",
+      "url": "https://yjsxy.gmc.edu.cn/info/1118/2580.htm",
+      "effective_url": "https://yjsxy.gmc.edu.cn/info/1118/2580.htm",
+      "path": "docs/admissions/2027/贵州医科大学/page-1958b90b6f.html",
+      "sha256": "f2b801936a44819606c0a6a21d75302780b1e0626aa9de312ac0bd7640122265",
+      "bytes": 108542
+    }
+  ],
+  "files": [
+    {
+      "title": "贵州医科大学2027年招生专业目录",
+      "url": "https://yjsxy.gmc.edu.cn/__local/D/EA/81/1BB3FB4C92886959C6658B0A566_0BB91F7D_1797A.pdf",
+      "path": "docs/admissions/2027/贵州医科大学/贵州医科大学2027年招生专业目录.pdf",
+      "sha256": "cb2a7ae5d399729034907c676c166fcf66553bccac928ec91cd7968fb7c49e76",
+      "bytes": 96634,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

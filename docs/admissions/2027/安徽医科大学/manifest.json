@@ -1,0 +1,98 @@
+{
+  "name": "安徽医科大学",
+  "tier": "进取区",
+  "gate": 333,
+  "region": "安徽",
+  "candidates": [
+    {
+      "title": "安徽医科大学招生栏目",
+      "url": "https://yjsxy.ahmu.edu.cn/sszs/list.htm"
+    },
+    {
+      "title": "安徽医科大学官方招生入口",
+      "url": "https://yjsxy.ahmu.edu.cn/7773/list.htm"
+    },
+    {
+      "title": "安徽医科大学研究生院招生入口",
+      "url": "https://yjsxy.ahmu.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "安徽医科大学招生栏目",
+      "url": "https://yjsxy.ahmu.edu.cn/sszs/list.htm",
+      "effective_url": "https://yjsxy.ahmu.edu.cn/sszs/list.htm",
+      "path": "docs/admissions/2027/安徽医科大学/page-83abc2ccd9.html",
+      "sha256": "e9f0f149723fd710a260964c23731ab2a34988bd370ac20b53d00174315c4879",
+      "bytes": 22801
+    },
+    {
+      "title": "安徽医科大学研究生院招生入口",
+      "url": "https://yjsxy.ahmu.edu.cn/",
+      "effective_url": "https://yjsxy.ahmu.edu.cn/",
+      "path": "docs/admissions/2027/安徽医科大学/page-e128416108.html",
+      "sha256": "492b6aea04a17dd7ca7edf6e4aa2a04cd5d6b7968ebeedaa4769289e939e1793",
+      "bytes": 60733
+    },
+    {
+      "title": "安徽医科大学2027年硕士研究生招生章程安徽医科大学2027年硕士研究生招生章程",
+      "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/page.htm",
+      "effective_url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/page.htm",
+      "path": "docs/admissions/2027/安徽医科大学/page-b00abd5b6b.html",
+      "sha256": "e8ddbfc715e28a371f3bd5c754b68ccbc70b0206deb03da0e9982cc3403ab587",
+      "bytes": 17734
+    }
+  ],
+  "files": [
+    {
+      "title": "1.2027年硕士研究生招生专业目录.xlsx",
+      "url": "https://yjsxy.ahmu.edu.cn/_upload/article/files/a6/38/9543533a4307a08eb451bb5b06ec/b72b1906-1b99-4e1c-8858-170b732a955c.xlsx",
+      "path": "docs/admissions/2027/安徽医科大学/1.2027年硕士研究生招生专业目录.xlsx",
+      "sha256": "924c96752e4c3dafb30ecefb635bc5d6336b99de1b4bdf22082fa3699ae414e8",
+      "bytes": 49998,
+      "kind": "original"
+    },
+    {
+      "title": "安徽医科大学2027年招生专业目录",
+      "url": "https://yjsxy.ahmu.edu.cn/_upload/article/files/a6/38/9543533a4307a08eb451bb5b06ec/63387708-4f33-4c5b-b5b2-525f12327a60.pdf",
+      "path": "docs/admissions/2027/安徽医科大学/安徽医科大学2027年招生专业目录.pdf",
+      "sha256": "c81b457150f05f62192d0a05bfa9dffa6b6a452c1b9b1bd03dc427c3e51e7213",
+      "bytes": 517046,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjsxy.ahmu.edu.cn/7773/list.htm",
+      "title": "安徽医科大学官方招生入口",
+      "error": "410\nhttps://yjsxy.ahmu.edu.cn/7773/list.psp"
+    },
+    {
+      "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/安徽医科大学2027年硕士研究生招生章程.pdf",
+      "title": "内嵌文件",
+      "error": "curl: (47) Maximum (50) redirects followed\n"
+    },
+    {
+      "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/2.2027年招生二级培养单位及代码表.pdf",
+      "title": "内嵌文件",
+      "error": "curl: (47) Maximum (50) redirects followed\n"
+    },
+    {
+      "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/4.2027年硕士招生初试自命题科目参考书目.pdf",
+      "title": "内嵌文件",
+      "error": "curl: (47) Maximum (50) redirects followed\n"
+    },
+    {
+      "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/5.安徽医科大学研究生资助政策简介.pdf",
+      "title": "内嵌文件",
+      "error": "curl: (47) Maximum (50) redirects followed\n"
+    },
+    {
+      "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/6.安徽医科大学《349药学综合》考试大纲.pdf",
+      "title": "内嵌文件",
+      "error": "curl: (47) Maximum (50) redirects followed\n"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

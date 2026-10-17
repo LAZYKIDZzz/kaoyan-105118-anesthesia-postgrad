@@ -1,0 +1,43 @@
+{
+  "name": "宁波大学",
+  "tier": "稳健区",
+  "gate": 307,
+  "region": "浙江",
+  "candidates": [
+    {
+      "title": "宁波大学招生官网（查找2027目录）",
+      "url": "https://graduate.nbu.edu.cn/zsgz/ssszs.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "宁波大学招生官网（查找2027目录）",
+      "url": "https://graduate.nbu.edu.cn/zsgz/ssszs.htm",
+      "effective_url": "https://graduate.nbu.edu.cn/zsgz/ssszs.htm",
+      "path": "docs/admissions/2027/宁波大学/page-ab5c48e2c3.html",
+      "sha256": "b9e7e43a599d65f80f5377e3fcfb172c7064a682c2bbb7edf69f81cdd42a060e",
+      "bytes": 38512
+    },
+    {
+      "title": "宁波大学2027年硕士研究生招生章程宁波大学2027年硕士研究生招生章程",
+      "url": "https://graduate.nbu.edu.cn/info/1073/29431.htm",
+      "effective_url": "https://graduate.nbu.edu.cn/info/1073/29431.htm",
+      "path": "docs/admissions/2027/宁波大学/page-c9248c4fc3.html",
+      "sha256": "637bbb5f84bd581a28e52185cd26f1e4de630e55c8182e050d88e28bee68db04",
+      "bytes": 141219
+    }
+  ],
+  "files": [
+    {
+      "title": "2027年全日制硕士研究生招生专业目录.pdf",
+      "url": "https://graduate.nbu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1202972803&wbfileid=ED243B697921E32A29EBE39553E6C08A",
+      "path": "docs/admissions/2027/宁波大学/2027年全日制硕士研究生招生专业目录.pdf",
+      "sha256": "3b95047c9312cba6b8e74e49e1761d8af9283dee944e04af177bb11e00399dd0",
+      "bytes": 237807,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

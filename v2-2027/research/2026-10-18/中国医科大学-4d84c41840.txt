@@ -1,0 +1,517 @@
+﻿ 
+
+
+
+ 中国医科大学研究生院 
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1712,'/index.jsp',-1,1778759152) 
+ 
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+/* 以下脚本不用修改 开始*/
+    function nav_menufun_2_switch(o)
+    {
+        var lis = o.parentNode.parentNode.getElementsByTagName("A");
+        var pos = 0;
+        for(var i = 0; i < lis.length; i++)
+        {
+            if(lis[i] == o)
+            {
+                lis[i].className="nav_on"
+                pos = i;
+            }
+            else
+            {
+                lis[i].className=""
+            }
+        }
+    
+        
+        var div2 = o.parentNode.parentNode.parentNode.nextSibling;
+        while(div2.nodeType == 3)
+        {
+            div2 = div2.nextSibling;
+        }
+        
+        var divs = div2.childNodes;
+        
+        i = 0;
+        for(var j = 0; j < divs.length; j++)
+        {
+            if(divs[j].nodeType == 3)
+                continue;
+    
+            if(i == pos)
+                divs[j].className = "nav_on";
+            else
+                divs[j].className = "";
+            i++;
+        }
+    }
+    
+    function nav_menufun_2_recover(o)
+    {
+        try
+        {
+            nav_menufun_2_cleartimeout(o);
+            
+            
+            var divs = o.getElementsByTagName("DIV");
+            for(var i = 0; i < divs.length; i++)
+            {
+                //menu1
+                if(divs[i].className=="menu1")
+                {
+                    var lis = o.parentNode.parentNode.getElementsByTagName("A");
+        
+                    for(var j = 0; j < lis.length; j++)
+                    {
+                        if(lis[j].getAttribute("isFocus") == "true")
+                        {
+                            lis[j].className="nav_on"
+                        }
+                        else
+                        {
+                            lis[j].className=""
+                        }
+                    }
+                }
+                //menu2
+                if(divs[i].className=="menu2")
+                {
+                    var menu2divs = divs[i].childNodes;
+                    
+                    for(var j = 0; j < menu2divs.length; j++)
+                    {
+                        if(menu2divs[j].nodeType == 3)
+                            continue;
+                        if(menu2divs[j].getAttribute("isFocus") == "true")
+                            menu2divs[j].className = "nav_on";
+                        else
+                            menu2divs[j].className = "";
+                    }
+                }
+            }
+        }
+        catch(e)
+        {
+        }
+    }
+    
+    function nav_menufun_2_settimeout(o, rms)
+    {
+        o.setAttribute("rTimerID", window.setTimeout(function(){nav_menufun_2_recover(o);}, rms));
+    }
+    
+    function nav_menufun_2_cleartimeout(o)
+    {
+        var rTimerID = o.getAttribute("rTimerID");
+        if(rTimerID != null)
+        {
+            window.clearTimeout(rTimerID);
+            o.removeAttribute("rTimerID");
+        }
+    }
+    
+    function nav_menufun_2_mouseover(o)
+    {
+        nav_menufun_2_cleartimeout(o);
+    }
+    
+    //rms为鼠标移开后关闭的时间， 默认50
+    function nav_menufun_2_mouseout(o, rms)
+    {
+        nav_menufun_2_cleartimeout(o);
+        //nav_menufun_2_settimeout(o, rms);
+    }
+/* 以上脚本不用修改 结束*/
+ 
+ 
+     
+         
+             本站首页 
+             
+             研院概况 
+             
+             招生信息 
+             
+             培养信息 
+             
+             教学信息 
+             
+             学工信息 
+             
+             就业信息 
+             
+             学位信息 
+             
+             学科信息 
+            
+         
+     
+     
+         
+             中国医科大学研究生院 
+         
+         
+             
+                 研院简介 
+             
+                 机构设置 
+             
+                 联系我们 
+            
+             
+         
+         
+             
+                 统招博士 
+             
+                 统考硕士 
+             
+                 推荐免试 
+             
+                 同等学力 
+             
+                 导师风采 
+            
+             
+         
+         
+             
+                 培养过程 
+             
+                 硕博连读 
+             
+                 专业学位 
+             
+                 国际交流 
+            
+             
+         
+         
+             
+                 课程通知 
+             
+                 考试通知 
+             
+                 教师通知 
+             
+                 学术通知 
+            
+             
+         
+         
+             
+                 党建思政 
+             
+                 日常管理 
+             
+                 奖助工作 
+             
+                 评优工作 
+             
+                 学生组织 
+            
+             
+         
+         
+             
+                 招聘信息 
+             
+                 就业指导 
+            
+             
+         
+         
+             
+                 论文评选 
+             
+                 学位申请 
+             
+                 导师管理 
+             
+                 学位授权 
+            
+             
+         
+         
+             
+                 学科建设 
+             
+                 导师资格 
+             
+                 学科评估 
+            
+             
+         
+     
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+ 
+ 
+     
+     
+         
+         
+         
+         
+
+
+
+ 
+ 
+ 
+ 
+var u_u2_icn = new ImageChangeNews("u_u2_", 475, 400, 4, 2.0, true, false, false, true, false,"#u_u2_centerCutImg");
+
+//初始化图片, 并启动定时
+function u_u2_init_img()
+{
+
+    u_u2_icn.addimg("\/__local\/7\/AE\/67\/AEDAEC3590EB075321858684864_CB737602_C148.jpg", "info\/1832\/9245.htm", "辽宁省第三届临床医学超声...", "","辽宁省第三届临床医学超声专业研究生技能大赛如期举行");
+
+    u_u2_icn.addimg("\/__local\/5\/FC\/94\/F284CB5F6606B69D619AF6C412F_5F5D4C22_7021.jpg", "info\/1832\/8705.htm", "研究生院顺利完成新增研究...", "","研究生院顺利完成新增研究生培养基地研究生开题培训工作");
+
+    u_u2_icn.changeimg(0);
+}
+ 
+     
+         
+             
+                 
+             
+             
+ 1 2 
+             
+       
+     
+         
+     
+    
+ u_u2_init_img(); 
+ 
+   新闻速递  
+ 更多..  -  我校召开2020-2025年学位授权点周…   - 06/18 
+  -  辽宁省第三届临床医学超声专业研究…   - 10/30 
+  -  研究生院顺利完成新增研究生培养基…   - 08/20 
+ _showDynClickBatch(['dynclicks_u3_9664','dynclicks_u3_9245','dynclicks_u3_8705'],[9664,9245,8705],"wbnews", 1778759152) 
+ 
+ 
+   通知公告  
+ 更多 ..  -  关于举办中国医科大学2024-2025学年度医学生医学技术技能大赛的通知   - 04/03 
+  -  关于2024级研究生复核学信网学籍注册信息的通知   - 10/29 
+  -  关于举办2024年辽宁省临床研究生创新系列活动-首届消化专业研究生技能大赛的通知   - 10/15 
+  -  关于2023-2024学年学生发表高质量论文情况采集工作的通知   - 08/30 
+  -  关于2023级研究生复核学信网学籍注册信息的通知   - 11/02 
+ _showDynClickBatch(['dynclicks_u4_9607','dynclicks_u4_9520','dynclicks_u4_9512','dynclicks_u4_9482','dynclicks_u4_9253'],[9607,9520,9512,9482,9253],"wbnews", 1778759152) 
+ 
+ 
+   招生信息  
+ 更多..  -  中国医科大学2027年全国硕士研究生招生章程   - 2026年10月09日 
+  -  关于中国医科大学接收2027年优秀应届本科毕业生免试攻读硕士研究生的通知   - 2026年09月21日 
+  -  关于中国医科大学2027年选拔优秀应届本科毕业生直接攻博报名的通知   - 2026年09月21日 
+  -  中国医科大学2027年硕士研究生招生考试部分初试科目调整公告   - 2026年06月05日 
+  -  关于2026年拟录取硕士研究生确认录取通知书接收地址的通知   - 2026年05月25日 
+ _showDynClickBatch(['dynclicks_u5_9894','dynclicks_u5_9885','dynclicks_u5_9884','dynclicks_u5_9843','dynclicks_u5_9838'],[9894,9885,9884,9843,9838],"wbnews", 1778759152) 
+ 
+ 
+   培养信息  
+ 更多..  -  2024年辽宁省临床研究生创新系列活动——首届消化专业研究生技能大赛竞赛方案 (第二轮通知)   - 2024年10月23日 
+  -  关于举办2024年辽宁省临床研究生创新系列活动-首届消化专业研究生技能大赛的通知   - 2024年10月15日 
+  -  关于2023级规培专硕研究生新生入学教育暨安全教育相关安排的通知   - 2023年07月06日 
+  -  国家留学基金委与日本顺天堂大学合作奖学金选派信息   - 2021年08月26日 
+  -  关于开展2021年资助研究生出国联合培养项目选拔工作的通知   - 2021年05月28日 
+ _showDynClickBatch(['dynclicks_u6_9517','dynclicks_u6_9513','dynclicks_u6_9059','dynclicks_u6_3309','dynclicks_u6_3307'],[9517,9513,9059,3309,3307],"wbnews", 1778759152) 
+ 
+ 
+   教学信息  
+ 更多..  -  关于开展2026-2027学年秋季学期研究生选修课开课的通知   - 2026年09月21日 
+  -  2026年规培硕士研究生必修课程考试安排   - 2026年09月04日 
+  -  关于2026-2027学年秋季学期研究生必修课程教学安排的通知   - 2026年08月27日 
+  -  2026年规培硕士研究生《中国特色社会主义理论与实践》课程考试安排   - 2026年08月27日 
+  -  2026年规培硕士研究生《医学科研方法概论》课程考试安排   - 2026年08月27日 
+ _showDynClickBatch(['dynclicks_u7_9886','dynclicks_u7_9883','dynclicks_u7_9882','dynclicks_u7_9881','dynclicks_u7_9880'],[9886,9883,9882,9881,9880],"wbnews", 1778759152) 
+ 
+ 
+   学工信息  
+ 更多..  -  关于2026级非规培硕士研究生报到的通知   - 2026年07月24日 
+  -  关于2025级博士、非规培硕士研究生报到的通知   - 2025年08月11日 
+  -  关于2025级临床医学、口腔医学专业学位硕士研究生入学报到的通知   - 2025年06月17日 
+  -  关于2024级博士、非规培硕士研究生入学报到的通知   - 2024年08月22日 
+  -  关于2024级临床医学、口腔医学专业学位硕士研究生入学报到的通知   - 2024年06月20日 
+ _showDynClickBatch(['dynclicks_u8_9873','dynclicks_u8_9683','dynclicks_u8_9661','dynclicks_u8_9480','dynclicks_u8_9450'],[9873,9683,9661,9480,9450],"wbnews", 1778759152) 
+ 
+ 
+   就业信息  
+ 更多..  -  中国医科大学关于2024届沈阳市高校、中职（含技工学校）毕业生求职创业补贴的名单公示（研究生）   - 2023年09月22日 
+  -  2023 年大连市公共卫生临床中心自主招聘公告   - 2023年03月27日 
+  -  济宁市市属公立医院急需紧缺专业人才引进2023年“校园双选会”公告   - 2023年03月09日 
+  -  浙江大学医学院附属第二医院招聘公告   - 2022年11月15日 
+ _showDynClickBatch(['dynclicks_u9_9213','dynclicks_u9_8880','dynclicks_u9_8871','dynclicks_u9_8812'],[9213,8880,8871,8812],"wbnews", 1778759152) 
+ 
+ 
+   学位信息  
+ 更多..  -  中国医科大学关于开展2026年校级优秀博士、硕士学位论文评选及推荐省级优秀论文资格工作的通知   - 2026年09月30日 
+  -  关于开展2026年秋季学期学位论文答辩与学位申请工作安排的通知   - 2026年07月24日 
+  -  关于开展2027年博士、硕士生导师招生资格审核工作的通知   - 2026年07月02日 
+  -  关于开展2026年第二批硕士生导师遴选的通知   - 2026年07月02日 
+  -  关于2026年春季学期学位存档材料工作安排的通知   - 2026年05月19日 
+ _showDynClickBatch(['dynclicks_u10_9890','dynclicks_u10_9874','dynclicks_u10_9872','dynclicks_u10_9871','dynclicks_u10_9835'],[9890,9874,9872,9871,9835],"wbnews", 1778759152) 
+ 
+ 
+
+
+ 
+
+
+
+
+
+ 
+     
+     
+         
+         
+         
+         
+         
+ 
+
+
+
+
+
+ 
+     
+     
+         
+         
+         
+         
+
+
+ 
+
+   友情链接： 
+
+ 
+
+
+
+
+ 
+        
+         
+             
+            	 国家教育部 
+             
+             
+         
+             | 
+        
+         
+             
+            	 教育部学位与研究生教育发展中心 
+             
+             
+         
+             | 
+        
+         
+             
+            	 辽宁省毕业后医学教育管理平台 
+             
+             
+         
+             | 
+        
+         
+             
+            	 辽宁省教育厅 
+             
+             
+         
+             
+ 
+
+
+ 
+ 
+
+
+
+.dvicent{
+        margin: 0 auto;
+        width: 1000px;
+        width:1000px;
+        position:relative;
+        z-index:1;}
+ 
+ 
+ 
+ 
+中国医科大学研究生院 版权所有  地址：辽宁省沈阳市沈北新区蒲河路77号  邮箱： cmugs@cmu.edu.cn  邮编：110122
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

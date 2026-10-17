@@ -1,0 +1,344 @@
+﻿ 
+ 招生首页-绍兴大学研究生院 
+
+
+
+
+
+
+ 
+
+ 
+$(function(){
+    $('.menu .lm').mouseover(function(){ $(this).children('div').show();});
+    $('.menu .lm').mouseout(function(){ $(this).children('div').hide();});
+})
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1001,'/index.jsp',-1,1497962951) 
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1161,'/yzw/index.jsp',-1,1269980530) 
+ 
+ 
+ 
+    
+   
+   
+   
+    
+ 
+ 
+ 
+ 
+ 
+ 部门首页  
+ 
+ 招生首页
+  
+ 
+ 学校概况
+  
+ 
+ 通知公告
+  
+ 
+ 招生信息
+ 
+  
+ 
+ 
+ 招生简章   
+ 专业目录   
+ 考试大纲   
+ 历年情况   
+ 联系院系   
+ 
+ 
+ 常见问题
+  
+ 
+ 
+ 
+ul,li{
+    padding:0;
+    margin:0;
+    list-style:none;}
+#flashBoxu_u2_{
+    width:1250px;
+    height:357px;
+    border:0px solid #EEE;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;}
+#flashBoxu_u2_ img{
+    /*初始不要显示*/
+    display:none;
+    /*用边框来实现空位，因为margin和paading有时会引起些麻烦*/
+    border:0px solid #FFF;}
+#flashBoxu_u2_ ul{
+    position:absolute;
+    right:7px;
+    bottom:3px;
+    font:9px tahoma;}
+#flashBoxu_u2_ ul li{
+    display:block;
+    float:left;
+    width:12px;
+    height:12px;
+    line-height:12px;
+    margin-right:3px;
+    border:0px solid #999;
+    background:#F0F0F0;
+    text-align:center;
+    cursor:pointer;}
+#flashBoxu_u2_ ul li.hover{
+    border-color:red;
+    background:#FFE1E1;
+    color:red;}
+ 
+ 
+function flashBoxCtrl(o){
+    this.obj=document.getElementById(o);
+    //这个私有方法虽然写了，但暂时没用到
+    function addListener(ele,eventName,functionBody){
+        if (ele.attachEvent){
+            ele.attachEvent("on"+eventName, functionBody);
+        }else if (ele.addEventListener){
+            ele.addEventListener("on"+eventName,functionBody, false);
+        }else{
+            return false;
+        }
+    }
+    //初始化
+    this.init=function(){
+        var objImg=this.obj.getElementsByTagName("img");
+        var tagLength=objImg.length;
+        if (tagLength>0){
+            var oUl=document.createElement("ul");
+            oUl.setAttribute("id",o+"numTag");
+            for (var i=0;i<tagLength;i++){
+                var oLi=oUl.appendChild(document.createElement("li"));
+                if (i==0){
+                    oLi.setAttribute("class","hover"); //初始化时把第一个设置为高亮
+                    oLi.setAttribute("className","hover");
+                }
+                //设置标签的数字
+                oLi.appendChild(document.createTextNode((i+1)));
+            }
+            this.obj.appendChild(oUl);
+            objImg[0].style.display="block";
+            //设置标签事件
+            var oTag=this.obj.getElementsByTagName("li");
+            for (var i=0;i<oTag.length;i++){
+                var flag = 0;
+                var temp = 0;
+                var timeout=null;
+                var step = function(){
+                    for (j=0;j<oTag.length;j++){
+                        oTag[j].className="";
+                        objImg[j].style.display="none";
+                    }
+                    this.className="hover";
+                    flag = flag>=oTag.length-1?0:flag+1;
+                    objImg[flag].style.display="block";
+                    oTag[flag].className = "hover";
+                    timeout = setTimeout(step,5000);
+                };
+                oTag[i].onmouseover=function(){
+                    for (j=0;j<oTag.length;j++){
+                        oTag[j].className="";
+                        objImg[j].style.display="none";
+                        temp = j;
+                    }
+                    this.className="hover";
+                    objImg[this.innerHTML-1].style.display="block";
+                    temp = this.innerHTML-1;
+                    flag = i;
+                    clearInterval(timeout);
+                }
+                oTag[i].onmouseout = function(){
+                    for (j=0;j<oTag.length;j++){
+                        oTag[j].className="";
+                        objImg[j].style.display="none";
+                    }
+                    flag = temp;
+                    objImg[temp].style.display="block";
+                    oTag[temp].className = "hover";
+                    timeout = setTimeout(step,5000);
+                }
+                if(i==0)
+                {
+                    timeout = setTimeout(step,5000);
+                }
+            }
+        }
+    };
+    //自动滚动的方法还没写
+    this.imgRoll=function(){};
+    //生成对象时自动加载init()方法以初始化对象
+    this.init();
+}
+ 
+ new flashBoxCtrl("flashBoxu_u2_"); 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+                
+                通知公告
+                
+                 
+                       更多   
+                 
+             
+
+  
+  
+  
+ 
+ 
+ 
+ 
+ 绍兴大学2027年硕士研究生招生简章   
+ 绍兴大学研究生招生学院联系方式   
+ 绍兴大学2027年硕士研究生招生自命题考...   
+ 绍兴大学2026年硕士研究生招生调剂公告   
+ 绍兴大学2026年硕士研究生招生计划   
+ 绍兴大学2026年硕士研究生复试分数线   
+ _showDynClickBatch(['dynclicks_u3_5766','dynclicks_u3_5774','dynclicks_u3_5771','dynclicks_u3_5701','dynclicks_u3_5694','dynclicks_u3_5692'],[5766,5774,5771,5701,5694,5692],"wbnews", 1269980530) 
+ _showDynClickBatch(['dynclicks_u2_1677','dynclicks_u2_1674','dynclicks_u2_1672','dynclicks_u2_1671','dynclicks_u2_1670','dynclicks_u2_1668'],[1677,1674,1672,1671,1670,1668],"wbnews", 1497962951) 
+ 
+ 
+ 
+ 
+ 
+  
+                
+              硕士招生目录
+                
+                 
+                       更多   
+                 
+             
+
+  
+ 
+ 绍兴大学2027年硕士研究生招生专业目录   
+ 2026年硕士研究生招生专业目录   
+ 2025年硕士研究生招生专业目录   
+ 2024年硕士研究生招生专业目录   
+ 2023年硕士研究生招生专业目录   
+ 2022年硕士研究生招生专业目录   
+ _showDynClickBatch(['dynclicks_u4_5769','dynclicks_u4_5721','dynclicks_u4_5216','dynclicks_u4_4852','dynclicks_u4_4486','dynclicks_u4_3199'],[5769,5721,5216,4852,4486,3199],"wbnews", 1269980530) 
+ _showDynClickBatch(['dynclicks_u3_1622','dynclicks_u3_1515','dynclicks_u3_1626','dynclicks_u3_1198','dynclicks_u3_1197','dynclicks_u3_1196'],[1622,1515,1626,1198,1197,1196],"wbnews", 1497962951) 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+                
+              信息服务
+                
+                 
+                       更多   
+                 
+             
+
+ 
+ 
+ 2026分数线   
+ 2026研究生招生自命题考试大纲   
+ 绍兴文理学院2023年硕士研究生招生复试...   
+ 绍兴文理学院2025年研究生初试自命题科...   
+ 2024年全国硕士研究生招生考试国家分数...   
+ 绍兴文理学院2024年研究生入学考试初试...   
+ _showDynClickBatch(['dynclicks_u5_5724','dynclicks_u5_5722','dynclicks_u5_5366','dynclicks_u5_5214','dynclicks_u5_5064','dynclicks_u5_5100'],[5724,5722,5366,5214,5064,5100],"wbnews", 1269980530) 
+ _showDynClickBatch(['dynclicks_u4_1657','dynclicks_u4_1625','dynclicks_u4_1624','dynclicks_u4_1562','dynclicks_u4_1138','dynclicks_u4_1139'],[1657,1625,1624,1562,1138,1139],"wbnews", 1497962951) 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+                
+             常见问题
+                
+                 
+                       更多   
+                 
+             
+
+ 
+ 
+ 考研复试、调剂流程   
+ 我校硕士研究生常见问答   
+ _showDynClickBatch(['dynclicks_u6_3179','dynclicks_u6_3182'],[3179,3182],"wbnews", 1269980530) 
+ _showDynClickBatch(['dynclicks_u5_1620','dynclicks_u5_1618','dynclicks_u5_1619','dynclicks_u5_1152','dynclicks_u5_1151','dynclicks_u5_1150'],[1620,1618,1619,1152,1151,1150],"wbnews", 1497962951) 
+ 
+ 
+  
+ 
+     --学校主页-- 
+     绍兴大学 
+ 
+ 
+     --院系导航-- 
+     鲁迅人文学院 
+     马克思主义学院 
+     外国语学院 
+     数理信息学院 
+     生命与环境科学学院 
+     化学化工学院 
+     智能工程学院 
+     土木工程学院 
+     纺织科学与工程学院 
+     商学院（法学院） 
+     医学院 
+     蔡元培艺术与设计学院 
+     兰亭书法艺术学院 
+     教育与心理学院 
+     体育学院 
+ 
+ 
+     --友情链接-- 
+     学历认证网站 
+     硕士报名网站 
+     中国学位与研究生教育信息网 
+     浙江省教育厅 
+     中国研究生招生信息网 
+     教育部 
+     浙江省教育考试院 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 地址：浙江省绍兴市城南大道1077号 联系电话：0575-88348020 电子邮箱：yzb@usx.edu.cn 邮编：312000 
+ Copyright 2014　绍兴大学研究生招生信息网　版权所有 
+
+
+
+
+
+
+
+ 

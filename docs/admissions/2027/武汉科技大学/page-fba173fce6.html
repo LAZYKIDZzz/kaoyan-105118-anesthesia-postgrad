@@ -1,0 +1,430 @@
+﻿<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="renderer" content="webkit" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>武汉科技大学2027年硕士研究生招生简章-研究生院、党委研究生工作部、湖北省卓越工程师学院</title><meta name="pageType" content="3">
+<meta name="pageTitle" content="武汉科技大学2027年硕士研究生招生简章">
+<META Name="keywords" Content="研究生院、党委研究生工作部、湖北省卓越工程师学院,通知公告,研究生,大学,硕士,招生,科技,简章,武汉" />
+
+        <link rel="stylesheet" href="../../css/style.css" type="text/css" />
+        <script type="text/javascript" src="../../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../../js/jquery.agilebins-v1.0.4.min.js"></script>
+    <!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../../_sitegray/_sitegray_d.css" />
+<script language="javascript" src="../../_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:7765626265723230697547505055574200020000465d -->
+<link rel="stylesheet" type="text/css" href="../../info.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1831,'/info.jsp',50612,1903045674)</script>
+</head>
+    <body>
+        <!--Start||head-->
+        <div class="toubs">
+        <div class="wrapper header" id="header">
+            <div class="inner">
+                <!--头部信息-->
+                <div class="head">
+                    <!--logo开始-->
+                    <div class="sitelogo">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+<a href="../../index.htm" title="研究生院"><img src="../../images/logo.png" /></a></div>
+                    <!--站点名称-->
+                    <div class="sitetitle">研究生院、党委研究生工作部、湖北省卓越工程师学院</div>
+                    <!--搜索-->
+                    <div class="search">
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><style>
+    #appu1 .qwss{
+        height: 30px;
+        font-size: 14px;
+        width: 220px;
+        padding-left: 0px;
+        border-radius: 25px;
+        border:none;
+        text-indent: 25px;}
+    #appu1 .tj{
+        width: 60px;
+        height: 45px;
+        border: 0;
+        background:url(../../images/ss.png) no-repeat 0 0;
+        position: absolute;
+        background-size:42px;
+        top: 0;
+        right: -16px;}
+</style>
+<div id="divu1"></div>
+<script type="text/html" id="htmlu1">
+    <div id="appu1">
+        <div v-if="!isError">
+            <input type="text" class="qwss"  autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+            <input class="tj" name="submit_button" type="button" v-on:click="onSubmit()"/>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu1").html($("#htmlu1").text());
+</script>
+<script>
+    var appOwner = "1903045674";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu1",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "https://wzdtyy.wust.edu.cn/" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script></div>
+                </div>
+                <!--导航-->
+                <div class="wrapper nav">
+                    <div class="nav">
+                                    <li class="nav_menu-item"><a href="../../index.htm" title="部门首页">部门首页</a></li>
+           <li class="nav_menu-item"><a href="../../jgjj.htm" title="机构简介">机构简介</a>                
+                <ul class="nav_submenu">                       
+                            <li class="nav_submenu-item"> <a href="../../jgjj/gk.htm" title="概况">概况</a></li>
+                            <li class="nav_submenu-item"> <a href="../../jgjj/jgsz.htm" title="机构设置">机构设置</a></li>
+                            <li class="nav_submenu-item"> <a href="../../jgjj/yzxx.htm" title="院长信箱">院长信箱</a></li>
+              </ul>
+            </li>
+           <li class="nav_menu-item"><a href="../../zsgz.htm" title="招生工作">招生工作</a>                
+                <ul class="nav_submenu">                       
+                            <li class="nav_submenu-item"> <a href="../../zsgz/tzgg.htm" title="通知公告">通知公告</a></li>
+                            <li class="nav_submenu-item"> <a href="../../zsgz/bszs.htm" title="博士招生">博士招生</a></li>
+                            <li class="nav_submenu-item"> <a href="../../zsgz/sszs.htm" title="硕士招生">硕士招生</a></li>
+                            <li class="nav_submenu-item"> <a href="../../zsgz/zsjz.htm" title="招生简章">招生简章</a></li>
+              </ul>
+            </li>
+           <li class="nav_menu-item"><a href="../../pygz.htm" title="培养工作">培养工作</a>                
+                <ul class="nav_submenu">                       
+                                <li class="nav_submenu-item"><a href="../../pygz/pyjx.htm" title="培养教学">培养教学</a>
+                                    <ul class="nav_submenu_three">
+                                            <li class="nav_submenu_three-item"><a href="../../pygz/pyjx/tzgg.htm" title="通知公告">通知公告</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../pygz/pyjx/pyfa.htm" title="培养方案">培养方案</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../pygz/pyjx/jxyj.htm" title="教学研究">教学研究</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../pygz/pyjx/jxxx.htm" title="教学信息">教学信息</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../pygz/pyjx/glbf.htm" title="管理办法">管理办法</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../pygz/pyjx/xjgl.htm" title="学籍管理">学籍管理</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../pygz/pyjx/sxsj.htm" title="实习实践">实习实践</a> </li>
+                                                               
+                                    </ul>
+                                 </li>
+                                <li class="nav_submenu-item"><a href="../../pygz/lxspy.htm" title="留学生培养">留学生培养</a>
+                                    <ul class="nav_submenu_three">
+                                            <li class="nav_submenu_three-item"><a href="../../pygz/lxspy/zytz.htm" title="重要通知">重要通知</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../pygz/lxspy/gzzd.htm" title="规章制度">规章制度</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../pygz/lxspy/wjxz.htm" title="文件下载">文件下载</a> </li>
+                                                               
+                                    </ul>
+                                 </li>
+                            <li class="nav_submenu-item"> <a href="../../pygz/pyzljk.htm" title="培养质量监控">培养质量监控</a></li>
+              </ul>
+            </li>
+           <li class="nav_menu-item"><a href="../../xwgz.htm" title="学位工作">学位工作</a>                
+                <ul class="nav_submenu">                       
+                                <li class="nav_submenu-item"><a href="../../xwgz/xwdjs.htm" title="学位点建设">学位点建设</a>
+                                    <ul class="nav_submenu_three">
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/xwdjs/tzgg.htm" title="通知公告">通知公告</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/xwdjs/xkdt.htm" title="学科动态">学科动态</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/xwdjs/xkzyml.htm" title="学科专业目录">学科专业目录</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/xwdjs/hgpg.htm" title="合格评估">合格评估</a> </li>
+                                                               
+                                    </ul>
+                                 </li>
+                                <li class="nav_submenu-item"><a href="../../xwgz/xwgl.htm" title="学位管理">学位管理</a>
+                                    <ul class="nav_submenu_three">
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/xwgl/tzgg.htm" title="通知公告">通知公告</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/xwgl/xwgltl.htm" title="学位管理条例">学位管理条例</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/xwgl/xwsy.htm" title="学位授予">学位授予</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/xwgl/xwsqzn.htm" title="学位申请指南">学位申请指南</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/xwgl/yxxwlw.htm" title="优秀学位论文">优秀学位论文</a> </li>
+                                                               
+                                    </ul>
+                                 </li>
+                                <li class="nav_submenu-item"><a href="../../xwgz/dsdw.htm" title="导师队伍">导师队伍</a>
+                                    <ul class="nav_submenu_three">
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/dsdw/tzgg.htm" title="通知公告">通知公告</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="https://yjsjygl.wust.edu.cn/dsfc/dsfc_yx_New?dslx=bs" title="博导信息">博导信息</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="https://yjsjygl.wust.edu.cn/dsfc/dsfc_yx_New?dslx=xs" title="学硕导师信息">学硕导师信息</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="https://yjsjygl.wust.edu.cn/dsfc/dsfc_yx_New?dslx=zs" title="专硕导师信息">专硕导师信息</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/dsdw/dsxp.htm" title="导师选聘">导师选聘</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/dsdw/dspx.htm" title="导师培训">导师培训</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xwgz/dsdw/yxdsfc.htm" title="优秀导师风采">优秀导师风采</a> </li>
+                                                               
+                                    </ul>
+                                 </li>
+              </ul>
+            </li>
+           <li class="nav_menu-item"><a href="../../szjy.htm" title="思政教育">思政教育</a>                
+                <ul class="nav_submenu">                       
+                            <li class="nav_submenu-item"> <a href="../../szjy/tzgg.htm" title="通知公告">通知公告</a></li>
+                            <li class="nav_submenu-item"> <a href="../../szjy/xywh.htm" title="校园文化">校园文化</a></li>
+                            <li class="nav_submenu-item"> <a href="../../szjy/cxsj.htm" title="创新实践">创新实践</a></li>
+                            <li class="nav_submenu-item"> <a href="../../szjy/zzgz.htm" title="资助工作">资助工作</a></li>
+                            <li class="nav_submenu-item"> <a href="#" title="心理在线">心理在线</a></li>
+                            <li class="nav_submenu-item"> <a href="https://wustyjs.91wllm.cn/" title="研究生就业信息网">研究生就业信息网</a></li>
+              </ul>
+            </li>
+           <li class="nav_menu-item"><a href="../../zygcsxy.htm" title="卓越工程师学院">卓越工程师学院</a>                
+                <ul class="nav_submenu">                       
+                            <li class="nav_submenu-item"> <a href="../../zygcsxy/tzgg.htm" title="通知公告">通知公告</a></li>
+                            <li class="nav_submenu-item"> <a href="../../zygcsxy/gzzd.htm" title="规章制度">规章制度</a></li>
+                            <li class="nav_submenu-item"> <a href="../../zygcsxy/szdw.htm" title="师资队伍">师资队伍</a></li>
+                            <li class="nav_submenu-item"> <a href="../../zygcsxy/rcpy.htm" title="人才培养">人才培养</a></li>
+              </ul>
+            </li>
+           <li class="nav_menu-item"><a href="../../xzzx.htm" title="下载中心">下载中心</a>                
+                <ul class="nav_submenu">                       
+                                <li class="nav_submenu-item"><a href="../../xzzx/zsgz.htm" title="招生工作">招生工作</a>
+                                    <ul class="nav_submenu_three">
+                                            <li class="nav_submenu_three-item"><a href="../../xzzx/zsgz/zsxx.htm" title="招生信息">招生信息</a> </li>
+                                                               
+                                    </ul>
+                                 </li>
+                            <li class="nav_submenu-item"> <a href="../../xzzx/pygz.htm" title="培养工作">培养工作</a></li>
+                                <li class="nav_submenu-item"><a href="../../xzzx/xwgz.htm" title="学位工作">学位工作</a>
+                                    <ul class="nav_submenu_three">
+                                            <li class="nav_submenu_three-item"><a href="../../xzzx/xwgz/xkjs.htm" title="学科建设">学科建设</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xzzx/xwgz/xwgl.htm" title="学位管理">学位管理</a> </li>
+                                                               
+                                            <li class="nav_submenu_three-item"><a href="../../xzzx/xwgz/dsdw.htm" title="导师队伍">导师队伍</a> </li>
+                                                               
+                                    </ul>
+                                 </li>
+                            <li class="nav_submenu-item"> <a href="../../xzzx/szjy.htm" title="思政教育">思政教育</a></li>
+              </ul>
+            </li>
+            <li class="nav_menu-item"><a href="https://www.wust.edu.cn/" title="学校主页">学校主页</a></li>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End||head-->
+</div>
+        <!--Start||content-->
+        <div class="wrapper" id="container">
+            <div class="inner">
+                <div class="col_news_head">
+                    <ul class="col_metas clearfix"><div>
+    当前位置: 
+                        <a href="../../index.htm">部门首页</a>
+                >>
+                <a href="../../zsgz.htm">招生工作</a>
+                >>
+                <a href="../../zsgz/tzgg.htm">通知公告</a>
+                >>
+                正文
+</div></ul>
+                 </div>
+                 <!--文章列表-->
+                 <div class="infobox">
+
+<script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="../../_dwr/interface/NewsvoteDWR.js"></script><script language="javascript" src="../../_dwr/engine.js"></script><script language="javascript" src="/system/resource/js/news/newscontent.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><form name="_newscontent_fromname">
+<div class="article">
+    <h1 class="arti_title" align="center" style="font-weight:bold;">武汉科技大学2027年硕士研究生招生简章</h1>
+    <div class="arti_metas" align="center">2026-09-30&nbsp;&nbsp;点击：[<script>_showDynClicks("wbnews", 1903045674, 50612)</script>] </div>
+    <hr>
+    <div class="arti_content" id="vsb_content"><div class="v_news_content">
+<p style="text-indent: 0"><script>var vsb_pdf_image_data = ["/__local/3/02/DB/A875730D5B03D91CCCB52B59A61_640D7EFA_1C7FE.jpg","/__local/2/D2/B2/E3C087E940DF98928A54EECF86A_E1B701F0_453FA.jpg","/__local/9/3C/A1/4D79026E9918A68624B4BC00872_5B590C76_6CA78.jpg","/__local/D/25/C4/9C6AE540343FC9556DAB8A4DB93_F9D133F4_58929.jpg","/__local/5/FF/BD/9E5BD9F3441F0C6A2CEDC0C4E54_86CBF82C_63E98.jpg","/__local/1/7B/E1/9CF5FE8FB95E1855490F054F5C1_37532E71_5A1D1.jpg","/__local/9/B8/62/6EED17E9714E9DE8536AC323F0B_EEE108EC_66BEA.jpg","/__local/4/CB/70/6164522AB243E70DA1914EF6C39_4E92DF16_55565.jpg","/__local/9/11/5E/723C7FB1DC87047CA459A47AC3E_522788FD_33ECC.jpg","/__local/1/72/D3/536556B199E7840A492567019BF_8F1CF890_58DD1.jpg","/__local/1/C9/88/852AC94B519DB0D91BF179C4148_A305B96F_4927F.jpg","/__local/9/55/4C/C0CBB3269611C46BA91B0BA60A3_B80C0A40_472A0.jpg","/__local/B/B6/DF/B85BF241A4087C29A838F95DBFC_4399D302_4A003.jpg","/__local/C/0C/BD/58264574D955F8B65583FC6AF42_449E7DD8_4C568.jpg","/__local/0/04/A2/D06AB62E542E3B73B5075418F54_F975D3B1_50978.jpg","/__local/3/62/F1/6FE70F7FDCA3D2692E32B2172B7_9A113FDC_4D4A3.jpg","/__local/2/BE/21/84B04AAE68845EA05E10162F2B3_E85DD936_3DA46.jpg","/__local/7/61/38/9F98BBFAB90B3A6968E5E3CCC27_A2ABCA5A_4AC9B.jpg","/__local/C/4F/38/563B8CC02BE46D72457BD0B8434_518DFC0C_4864A.jpg","/__local/8/06/B8/97A475EED6AEC51E5417CB1F617_35070E8E_4B380.jpg","/__local/8/84/74/B6C3D9C696A054E5F0C98A0EF4E_409D6E0E_30BF2.jpg","/__local/6/F5/E8/088A36635A495204055BC6DD0FB_52EB0BCB_4FCB6.jpg","/__local/4/F0/0E/4DBE496A34A302B341840990278_B24F90D7_4B464.jpg","/__local/3/74/F6/9AAA120FEEDE7E9B4D697144E7E_DD8738AA_55786.jpg","/__local/D/23/AA/47ABB8696D35AE5597123AF4A95_B74ABD44_417EB.jpg","/__local/7/4A/76/DD27692607ADC1C5F1D14B5D745_6A66F39B_51F08.jpg","/__local/7/1D/E5/1E76DBF4C97313D966A72BF3628_6FD1DC7B_50BF5.jpg","/__local/B/F2/12/B382A9782E634572C54986AEF10_9AF9C0B9_50608.jpg","/__local/7/02/C7/FCAE17B523ABBB1A62AB25147D1_005C2B76_4DC4F.jpg","/__local/5/49/6D/E2B6742E21A380B57AD6DE79F84_388155CD_45F2A.jpg","/__local/2/CC/60/67F3593A01BEC55432B91E383ED_3B1FC651_4109A.jpg","/__local/D/C1/47/F0613D377711E36845A7805CE97_AB6A1D4E_4F774.jpg","/__local/6/F6/D8/9C187B910927DBB00209F0F293B_FD12D36A_5272B.jpg","/__local/2/18/61/800B56C04985700B3DF59033002_6BEBC964_30EE2.jpg","/__local/7/66/6F/D650370C4D2294A7BBB5508375C_BA819B01_3EA6F.jpg","/__local/D/24/EA/CEB8E6D3C2A5C43E41A6BB55AF2_9FF405FB_48D2F.jpg","/__local/1/6E/2F/E3CB518EFEF64909020AE444748_4CC6C7EE_42685.jpg","/__local/1/D0/8D/424504FF461BD255F77758C4734_CB773232_31DD7.jpg","/__local/E/3B/6D/61000E356D833E115791E1BDD9B_8682361F_3A0C6.jpg","/__local/9/59/2C/C09152E456D14E4E83463AA162A_E3E8208D_43365.jpg","/__local/F/48/24/506411342CDFD11977852CAFABE_E767B678_3D779.jpg","/__local/3/B1/05/D87A1AF655115909E892583CB19_205CE89C_4F79C.jpg","/__local/A/AD/98/F0A4E23D9BA181F43C2061DC3E6_D570F1B3_4A340.jpg","/__local/5/DF/3D/8DC39360131E636F41A84487625_AD3541A6_4BBAB.jpg","/__local/3/FA/4B/0F3799B1D2F8FC6F5B8AEE475BA_C738A597_4552C.jpg","/__local/F/99/25/341ADD89641DA323DCB7480508F_B637A1D2_17DB3.jpg","/__local/F/33/E4/84BD4A2633BD5309ED29A1B2765_4D577BAB_5542F.jpg","/__local/9/DD/5F/7B74850BEB57F760C7CEC6A9491_E5C8FD96_56576.jpg","/__local/5/AA/41/D768C072B012B0909B3E04A0544_4E981C85_5FE0B.jpg","/__local/B/80/84/CE544BFDA506DEC6BF03283A59A_D8CC20F3_57C80.jpg","/__local/6/60/0D/A929F1FED562F3B4258C38F7E4B_C4E35214_5705F.jpg","/__local/3/F6/D1/AFA6280E549A55AC382BED8876A_5C286778_5323F.jpg","/__local/0/FE/D3/191C42A23AD96F0DEB201DD7A42_C92A09DC_603E4.jpg","/__local/D/3E/CD/50415544707BD29A0C236C60F11_C6A04F61_5988A.jpg","/__local/2/E2/63/C50F62F3138EA72910192D08A42_48FA5D87_510C9.jpg","/__local/A/9B/8F/57C31BB4441E9575B4FC9FD237F_99A56DDF_5FA58.jpg","/__local/5/68/40/78A1DB3A1821253E9DA5AF84CC1_B58090B9_5BFD2.jpg","/__local/A/DD/18/1A1EFF4388C33DC8B70CDB17748_4AD4E135_5ADFC.jpg","/__local/E/D5/C3/E188B4097C53C0FB0CE01239E7C_3B648F25_6115D.jpg","/__local/5/97/98/D30ADCC3340CD67F48EADDC0578_AAA84905_1E747.jpg","/__local/A/53/32/8531B3F905DF95787F31F30E3FC_3D605A6A_7DDDB.jpg"];showVsbpdfIframe("/__local/3/1F/81/3F7A98C6BAE74FCFBCF8042DAC7_1B98D29B_BACD2.pdf","100%","600","0","border:1px solid #DDDDDD",vsb_pdf_image_data);</script></p><p><br></p>
+</div></div><div id="div_vote_id"></div>
+    
+    <p>
+        <UL style="list-style-type:none;"> 
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=52EC44FFC9C4A3D1D21008AEF25AD7AB&deal=1" target="_blank">111-思想政治理论（单独考试）.pdf</a>】已下载<span id="nattach11995957"><script language="javascript">getClickTimes(11995957,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=6D36ED0283C348E2B4C7AD7AB3D4E754&deal=1" target="_blank">211翻译硕士（英语）.pdf</a>】已下载<span id="nattach11995955"><script language="javascript">getClickTimes(11995955,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=72B3B1902216619455E8106A4CA55FF4&deal=1" target="_blank">241法语.pdf</a>】已下载<span id="nattach11995956"><script language="javascript">getClickTimes(11995956,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=680CBF01DEA543CD568C2084139A452B&deal=1" target="_blank">246-英语（单）.pdf</a>】已下载<span id="nattach11995958"><script language="javascript">getClickTimes(11995958,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=583FCD5159F286683D185F4A5F360007&deal=1" target="_blank">308-护理综合.pdf</a>】已下载<span id="nattach11995959"><script language="javascript">getClickTimes(11995959,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=2BE331DA306E24FAC1A4DF346BF42DED&deal=1" target="_blank">331-社会工作原理.pdf</a>】已下载<span id="nattach11995961"><script language="javascript">getClickTimes(11995961,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=10F6C0E9485F0157FAC2ACBD91CADBB2&deal=1" target="_blank">336-艺术基础.pdf</a>】已下载<span id="nattach11995960"><script language="javascript">getClickTimes(11995960,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=866F8215D38EBA3D06D6D544C692FE62&deal=1" target="_blank">338-生物化学.pdf</a>】已下载<span id="nattach11995962"><script language="javascript">getClickTimes(11995962,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=B18ABCA2B1CB2C2745AB433150027B94&deal=1" target="_blank">349-药学综合.pdf</a>】已下载<span id="nattach11995963"><script language="javascript">getClickTimes(11995963,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=B5222D721B21BE0506D3C5742F7BABEA&deal=1" target="_blank">353-卫生综合.pdf</a>】已下载<span id="nattach11995964"><script language="javascript">getClickTimes(11995964,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=F5D7C4307000E1F98B060ECA6C545A15&deal=1" target="_blank">357翻译基础（英语）.pdf</a>】已下载<span id="nattach11995965"><script language="javascript">getClickTimes(11995965,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=07199D23C6454260C47CEF841EE0869F&deal=1" target="_blank">432-统计学.pdf</a>】已下载<span id="nattach11995966"><script language="javascript">getClickTimes(11995966,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=A91C59766AD4523C62189FA80F7735A7&deal=1" target="_blank">434-国际商务专业基础.pdf</a>】已下载<span id="nattach11995967"><script language="javascript">getClickTimes(11995967,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=5D431400C3C06AF30F05B389EC22F769&deal=1" target="_blank">437-社会工作实务.pdf</a>】已下载<span id="nattach11995970"><script language="javascript">getClickTimes(11995970,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=7BA1360646EE17DFD48CF2F15B96D6CE&deal=1" target="_blank">448-汉语写作与百科知识.pdf</a>】已下载<span id="nattach11995968"><script language="javascript">getClickTimes(11995968,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=6DCAB316C08E5E4B2BDE34A3AF07D985&deal=1" target="_blank">610-马克思主义哲学原理.pdf</a>】已下载<span id="nattach11995969"><script language="javascript">getClickTimes(11995969,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=4CEC1718E8E0CD1BEBE8D8F2820750B8&deal=1" target="_blank">611-行政管理学.pdf</a>】已下载<span id="nattach11995973"><script language="javascript">getClickTimes(11995973,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=B4D77337A00D415FCB2960FE5E653BF1&deal=1" target="_blank">612-马克思主义基本原理.pdf</a>】已下载<span id="nattach11995972"><script language="javascript">getClickTimes(11995972,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=E0CB7FEA7F509680B296682F481FB205&deal=1" target="_blank">613-量子力学.pdf</a>】已下载<span id="nattach11995971"><script language="javascript">getClickTimes(11995971,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=49315591B4E83E28139D16B85407C587&deal=1" target="_blank">614-数学分析.pdf</a>】已下载<span id="nattach11995974"><script language="javascript">getClickTimes(11995974,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=44752BC67829912F887E45AA1D552382&deal=1" target="_blank">615-分子生物学.pdf</a>】已下载<span id="nattach11995977"><script language="javascript">getClickTimes(11995977,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=74C91484FDE75E37A3C7EBF1C6DDD049&deal=1" target="_blank">616-基础德语.pdf</a>】已下载<span id="nattach11995975"><script language="javascript">getClickTimes(11995975,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=ECC8A37B7AFF2FE4A87D72920B605E4C&deal=1" target="_blank">617-有机化学.pdf</a>】已下载<span id="nattach11995976"><script language="javascript">getClickTimes(11995976,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=487D1800B93E80D115B87856B5F78330&deal=1" target="_blank">618-基础医学综合.pdf</a>】已下载<span id="nattach11995979"><script language="javascript">getClickTimes(11995979,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=F8E57C19CB82499BF16E5028BBC4B9B8&deal=1" target="_blank">619-设计学专业史论.pdf</a>】已下载<span id="nattach11995978"><script language="javascript">getClickTimes(11995978,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=E7FAFE222CAF1DA2AA28393C02904EC6&deal=1" target="_blank">620-基础英语.pdf</a>】已下载<span id="nattach11995980"><script language="javascript">getClickTimes(11995980,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=E8EE740F4FAE706C33B6ECC190F2FB46&deal=1" target="_blank">621-数学（单）.pdf</a>】已下载<span id="nattach11995981"><script language="javascript">getClickTimes(11995981,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=D43B9AB3C8BDF1DD00089051B2E7ADBA&deal=1" target="_blank">622-社会工作原理（单）.pdf</a>】已下载<span id="nattach11995983"><script language="javascript">getClickTimes(11995983,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=4CA9176875DFB2BDC3C354821EAF0038&deal=1" target="_blank">624-中外建筑史.pdf</a>】已下载<span id="nattach11995982"><script language="javascript">getClickTimes(11995982,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=D28CC982FEF4DE8DAD362CECA10F07DF&deal=1" target="_blank">801-汽车理论.pdf</a>】已下载<span id="nattach11995984"><script language="javascript">getClickTimes(11995984,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=94AF1465C96CEC8B3C5608474BA4CFE5&deal=1" target="_blank">802-岩石力学.pdf</a>】已下载<span id="nattach11995985"><script language="javascript">getClickTimes(11995985,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=D577F1357CEE2323DD93293BA08D245F&deal=1" target="_blank">803-固体物料分选理论与工艺.pdf</a>】已下载<span id="nattach11995986"><script language="javascript">getClickTimes(11995986,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=081490D081DB02A79818DE23DE193367&deal=1" target="_blank">804-环境化学.pdf</a>】已下载<span id="nattach11995988"><script language="javascript">getClickTimes(11995988,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=B54121F7749CCF09EEEC20CB78935444&deal=1" target="_blank">805-安全系统工程.pdf</a>】已下载<span id="nattach11995987"><script language="javascript">getClickTimes(11995987,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=44D2D37E83E335DC1C91B0603F81D892&deal=1" target="_blank">806-物理化学.pdf</a>】已下载<span id="nattach11995989"><script language="javascript">getClickTimes(11995989,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=514627F286EB82738F481399D963D24C&deal=1" target="_blank">807-材料科学基础.pdf</a>】已下载<span id="nattach11995991"><script language="javascript">getClickTimes(11995991,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=E498286F82F9AE6AA4BE4FC6E864BE3C&deal=1" target="_blank">808-公共建筑设计原理.pdf</a>】已下载<span id="nattach11995990"><script language="javascript">getClickTimes(11995990,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=21AF646F4864F6D922706028AC2B25F5&deal=1" target="_blank">809-冶金原理.pdf</a>】已下载<span id="nattach11995992"><script language="javascript">getClickTimes(11995992,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=D81122A8F9E04E824D70D6C68062649D&deal=1" target="_blank">810-传热学.pdf</a>】已下载<span id="nattach11995994"><script language="javascript">getClickTimes(11995994,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=5FD238F56D8F4F53063FDF1C190A9FB3&deal=1" target="_blank">811-机械原理.pdf</a>】已下载<span id="nattach11995993"><script language="javascript">getClickTimes(11995993,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=FDB07E6A3D696C787BF1F1C65A023F22&deal=1" target="_blank">812-电路.pdf</a>】已下载<span id="nattach11995995"><script language="javascript">getClickTimes(11995995,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=C417767962F74D5E0110B8262878C4E2&deal=1" target="_blank">813-信号与系统.pdf</a>】已下载<span id="nattach11995996"><script language="javascript">getClickTimes(11995996,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=3E409908A1666FCC57AA9870B013287F&deal=1" target="_blank">814-自动控制原理.pdf</a>】已下载<span id="nattach11995998"><script language="javascript">getClickTimes(11995998,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=C0DC9599603FD6C3C2767E1F870D5AF3&deal=1" target="_blank">816-管理学.pdf</a>】已下载<span id="nattach11995997"><script language="javascript">getClickTimes(11995997,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=12BA555988A27D25F0099B082952594B&deal=1" target="_blank">818-科学技术哲学.pdf</a>】已下载<span id="nattach11995999"><script language="javascript">getClickTimes(11995999,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=9B636D0F3E42616DF47625DE7368115B&deal=1" target="_blank">819-中国特色社会主义理论体系.pdf</a>】已下载<span id="nattach11996001"><script language="javascript">getClickTimes(11996001,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=8106295120859E74E5328D785F735978&deal=1" target="_blank">820-社会保障学.pdf</a>】已下载<span id="nattach11996000"><script language="javascript">getClickTimes(11996000,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=4950B0EE0D2A65B82147EDBF0A1854FC&deal=1" target="_blank">821-经济学.pdf</a>】已下载<span id="nattach11996002"><script language="javascript">getClickTimes(11996002,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=EC6690F8690C341CA482C234E124A176&deal=1" target="_blank">822-高等代数.pdf</a>】已下载<span id="nattach11996003"><script language="javascript">getClickTimes(11996003,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=1A10DAF5FB53F9D50D4142A31AC7E271&deal=1" target="_blank">823-大学物理.pdf</a>】已下载<span id="nattach11996004"><script language="javascript">getClickTimes(11996004,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=36F2F96752F791254DB0A207191D3EAC&deal=1" target="_blank">824运筹学与交通系统分析.pdf</a>】已下载<span id="nattach11996005"><script language="javascript">getClickTimes(11996005,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=64446E2C9398FC98C5387E721935491A&deal=1" target="_blank">825-工程力学.pdf</a>】已下载<span id="nattach11996007"><script language="javascript">getClickTimes(11996007,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=C93A8BD9146456EB27C44E04CC67EBD2&deal=1" target="_blank">826-细胞生物学.pdf</a>】已下载<span id="nattach11996006"><script language="javascript">getClickTimes(11996006,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=354C471B11FE3E71DF9B2457E37C14DE&deal=1" target="_blank">828-德语写作与翻译.pdf</a>】已下载<span id="nattach11996008"><script language="javascript">getClickTimes(11996008,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=11C6C55A500412609842DBE36E766A1B&deal=1" target="_blank">829-数据结构与算法.pdf</a>】已下载<span id="nattach11996010"><script language="javascript">getClickTimes(11996010,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=BBD0B178BA37BFC257060738EEE20AD8&deal=1" target="_blank">830-英语写作与翻译.pdf</a>】已下载<span id="nattach11996009"><script language="javascript">getClickTimes(11996009,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=379AD1ADAAD7975D2A8FB300DBBA955B&deal=1" target="_blank">831-化工原理.pdf</a>】已下载<span id="nattach11996011"><script language="javascript">getClickTimes(11996011,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=FB5E42E4CE3BD57062FF88E6211FCDA4&deal=1" target="_blank">832-精密机械设计.pdf</a>】已下载<span id="nattach11996012"><script language="javascript">getClickTimes(11996012,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=05DDB63EF312C716C16D2C9915DDE4AF&deal=1" target="_blank">834-结构力学.pdf</a>】已下载<span id="nattach11996013"><script language="javascript">getClickTimes(11996013,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=BEFC61EE6E5C44B06A467F354D5B6049&deal=1" target="_blank">835-水力学.pdf</a>】已下载<span id="nattach11996014"><script language="javascript">getClickTimes(11996014,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=4D68F65D3461E04F114A1CAA5D1FF47D&deal=1" target="_blank">838-机械原理（单）.pdf</a>】已下载<span id="nattach11996015"><script language="javascript">getClickTimes(11996015,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=4F1830BD6DF1374BAD14AF5D5EC6FF06&deal=1" target="_blank">839-冶金原理（单）.pdf</a>】已下载<span id="nattach11996016"><script language="javascript">getClickTimes(11996016,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=00B54D031446496B9ADA1317D83D9539&deal=1" target="_blank">840-化工原理（单）.pdf</a>】已下载<span id="nattach11996017"><script language="javascript">getClickTimes(11996017,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=E7A78172B170A01085D8B9BBB5A7CB60&deal=1" target="_blank">841-自动控制原理（单）.pdf</a>】已下载<span id="nattach11996018"><script language="javascript">getClickTimes(11996018,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=3AD307DC908D1D24383B13960AEE6369&deal=1" target="_blank">842-材料科学基础（单）.pdf</a>】已下载<span id="nattach11996019"><script language="javascript">getClickTimes(11996019,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=1C446051811481F3AEFB98C15D364718&deal=1" target="_blank">843-社会工作实务（单）.pdf</a>】已下载<span id="nattach11996021"><script language="javascript">getClickTimes(11996021,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=A6A6F19AC05ED88206E731BC2C0B9997&deal=1" target="_blank">844-安全系统工程（单）.pdf</a>】已下载<span id="nattach11996020"><script language="javascript">getClickTimes(11996020,1903045674,"wbnewsfile","attach")</script></span>次</li>
+            <li>附件【<a href="/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1903045674&wbfileid=3A91B984B10409B7B40407B87D9A1F4C&deal=1" target="_blank">845-管理学（单）.pdf</a>】已下载<span id="nattach11996022"><script language="javascript">getClickTimes(11996022,1903045674,"wbnewsfile","attach")</script></span>次</li>
+        </UL>
+    </p>
+    <p align="right">
+        上一条：<a href="50642.htm">关于举办2027年全国研究生招生现场咨询会的通知</a>
+        下一条：<a href="50502.htm">武汉科技大学2027年接收优秀应届本科毕业生免试攻读研究生工作办法</a>
+    </p>
+    <p align="right">【<a href="javascript:window.opener=null;window.open('','_self');window.close();">关闭</a>】</p>
+</div>
+</form>
+</div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--End||content-->
+
+
+
+        <!--Start||footer-->
+        <div class="wrapper footer" id="footer">
+            <div class="inner">
+                <div class="foot">
+                    <div class="foot_l">
+                        <div class="foot_logo"><img src="../../images/logobt.png"></div>
+                        <div class="foot_banquan">
+                           <!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>Copyright©2023&nbsp; 武汉科技大学研究生院、党委研究生工作部、湖北省卓越工程师学院 邮编:430081 &nbsp;鄂ICP备05003334-1</p><p>地址:湖北省武汉市青山区和平大道947号</p><p>设计支持 武汉科技大学艺术与设计学院</p>
+                        </div>
+                    </div>
+                    <div class="foot_r">
+                        <div class="erw">
+                                
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End||footer-->
+    </body>
+</html>

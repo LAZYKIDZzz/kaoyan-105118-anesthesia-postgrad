@@ -1,0 +1,35 @@
+{
+  "name": "蚌埠医科大学",
+  "tier": "从容区",
+  "gate": 293,
+  "region": "安徽",
+  "candidates": [
+    {
+      "title": "蚌埠医科大学2027年招收攻读硕士学位研究生招生简章及专业目录-蚌埠医科大学研究生院",
+      "url": "https://yjsy.bbmu.edu.cn/info/1049/8892.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "蚌埠医科大学2027年招收攻读硕士学位研究生招生简章及专业目录-蚌埠医科大学研究生院",
+      "url": "https://yjsy.bbmu.edu.cn/info/1049/8892.htm",
+      "effective_url": "https://yjsy.bbmu.edu.cn/info/1049/8892.htm",
+      "path": "docs/admissions/2027/蚌埠医科大学/page-e97a502faa.html",
+      "sha256": "a32706e2f9c58ac2c9121246d6fe346280209048cabccd4410e536b2b9be1501",
+      "bytes": 81573
+    }
+  ],
+  "files": [
+    {
+      "title": "蚌埠医科大学2027年招生专业目录",
+      "url": "https://yjsy.bbmu.edu.cn/__local/9/99/55/0CF1BDDC2D6AA63A2AB55602496_E1BCCA59_20D63.pdf",
+      "path": "docs/admissions/2027/蚌埠医科大学/蚌埠医科大学2027年招生专业目录.pdf",
+      "sha256": "3cb2e914e2e1bf7fe7f64a483593df361b1d3830a31fb50a93e3a2fd25a50911",
+      "bytes": 134499,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

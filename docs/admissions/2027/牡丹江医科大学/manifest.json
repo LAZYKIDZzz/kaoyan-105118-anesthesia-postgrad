@@ -1,0 +1,35 @@
+{
+  "name": "牡丹江医科大学",
+  "tier": "从容区",
+  "gate": 299,
+  "region": "黑龙江",
+  "candidates": [
+    {
+      "title": "牡丹江医科大学2027年硕士研究生招生简章-牡丹江医科大学研究生处",
+      "url": "https://www.mdjmu.cn/yjsc/info/1044/2340.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "牡丹江医科大学2027年硕士研究生招生简章-牡丹江医科大学研究生处",
+      "url": "https://www.mdjmu.cn/yjsc/info/1044/2340.htm",
+      "effective_url": "https://www.mdjmu.cn/yjsc/info/1044/2340.htm",
+      "path": "docs/admissions/2027/牡丹江医科大学/page-8abc42573e.html",
+      "sha256": "bfb9de0d468e496eebaffb63e568b9b7cfaf74a129d825153cdceecb1c616f05",
+      "bytes": 22652
+    }
+  ],
+  "files": [
+    {
+      "title": "专业目录.pdf",
+      "url": "https://www.mdjmu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1389254872&wbfileid=15088932",
+      "path": "docs/admissions/2027/牡丹江医科大学/专业目录.pdf",
+      "sha256": "6cbf0f58d83be4d26088be3d7867c9a49fe445bf54260312b2b253a3cf0620c3",
+      "bytes": 99673,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

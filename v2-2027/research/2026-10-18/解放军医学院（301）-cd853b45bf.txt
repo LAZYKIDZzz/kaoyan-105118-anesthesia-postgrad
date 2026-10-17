@@ -1,0 +1,4237 @@
+
+
+
+  
+
+
+
+
+
+
+ 
+ 
+ 
+     
+     
+     解放军医学院_院校信息_中国研究生招生信息网 
+     
+     
+     
+     
+    
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    body {
+        font-family: "Helvetica Neue",Helvetica,"PingFang SC","Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",Arial,"SimSun",sans-serif;
+    }
+
+    .yz-header-banner-wrapper {
+        margin-bottom: 30px;
+        background: linear-gradient(179deg,#2094f0,#1887e0 53%);
+    }
+
+    .yz-header-banner-wrapper .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+        line-height: 200px;
+        background: url("https://t2.chei.com.cn/yz/assets/images/header-banner-2x.jpg") no-repeat top;
+        background-size: auto 100%;
+        color: #fff;
+        text-shadow: 0px 2px 2px rgba(0,0,0,0.06);
+        text-align: center;
+    }
+
+    .yz-header-banner-wrapper h1 {
+        line-height: 46px;
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    .yz-header-banner-wrapper .ch-sub-title {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .zyk-detail h2 {
+        padding-top: 0;
+    }
+ 
+ 
+ 
+ 
+     
+        /*分页*/
+        .ch-page .iconfont {
+            font-size: 14px;
+        }
+        .ch-page li.lip {
+            float: left;
+            min-width: 30px;
+            height: 30px;
+            line-height: 30px;
+            margin: 0 4px;
+            background: #fff;
+            border: 1px solid #D5D7DB;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .ch-page li.lip a, .ch-page li.lip a:link, .ch-page li.lip a:visited {
+            color: #65696E;
+            text-decoration: none;
+            display: block;
+            height: 30px;
+            padding: 0 6px;
+        }
+        .ch-page li.lip:hover {
+            border-color: #1887E0;
+            color: #1887E0;
+        }
+        .ch-page li.lip:hover a {
+            color: #1887E0;
+        }
+        .ch-page li.selected, .ch-page li.selected:hover {
+            background: #fff;
+            border-color: #1887E0;
+            color: #1887E0;
+        }
+        .ch-page li.selected a, .ch-page li.selected a:link, .ch-page li.selected a:visited {
+            cursor: default;
+            color: #1887E0;
+        }
+        .ch-page li.unable, .ch-page li.unable:hover {
+            color: #ccc;
+            background: #fff;
+            border-color: #D5D7DB;
+            padding: 0;
+            cursor: not-allowed;
+        }
+        .ch-page li.dot {
+            border: none;
+            width: 24px;
+            color: #93989E;
+            background: none;
+        }
+        .ch-page li.lip-input-box {
+            width: auto;
+            border: none;
+        }
+        .ch-page li.lip-input-box .page-input {
+            float: left;
+            width: 30px;
+            padding: 0 5px;
+            height: 30px;
+            line-height: 28px;
+            border: 1px solid #D5D7DB;
+            border-radius: 4px 0 0 4px;
+            color: #65696E;
+            outline: 0;
+        }
+        .ch-page li.lip-input-box .page-btn {
+            float: left;
+            height: 32px;
+            line-height: 1;
+            padding: 0 10px;
+            border: 1px solid #D5D7DB;
+            border-radius: 0 4px 4px 0;
+            border-left-color: transparent;
+            font-size: 14px;
+            background: #fff;
+            cursor: pointer;
+            color: #65696E;
+            box-sizing: border-box;
+        }
+        .ch-page li.lip-input-box .page-btn:hover {
+            border-color: #1887E0;
+            color: #1887E0;
+        }
+     
+    
+ 
+// 百度统计
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?3916ecc93c59d4c6e9d954a54f37d84c";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+ 
+ 
+ 
+function gaTrackerOutboundLink(params) { //ga链接埋点
+    gtag('event', params.eventAction, {
+        'event_category': params.eventCategory,
+        'event_label': params.eventLabel
+    });
+    return true;
+};
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-100524-7', {'sample_rate': 5});
+ 
+ 
+
+ 
+ 
+ 
+    
+ 
+ 
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .top-nav-wrapper {
+        width: 100%;
+        height: 48px;
+        line-height: 48px;
+        background: #fff;
+        font-size: 14px;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+        z-index: 100;
+        position: relative;
+    }
+    .top-nav-wrapper a {
+        color: #2b2e33;
+    }
+    .top-nav-wrapper a:hover {
+        color: #1887e0;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .top-nav-wrapper .top-nav {
+        width: 1180px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-wrapper .top-nav-list {
+        flex: 1;
+        height: 48px;
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-wrapper .top-nav-list a {
+        margin-right: 20px;
+    }
+    .top-nav-wrapper .top-nav-list a.top-nav-home {
+        display: inline-block;
+        width: 98px;
+        height: 36px;
+        margin-right: 20px;
+        margin-left: 0px;
+        background-image: url("https://t2.chei.com.cn/yz/assets/images/logo-min.png");
+        background-image: -webkit-image-set(
+            url("https://t2.chei.com.cn/yz/assets/images/logo-min.png") 1x,
+            url("https://t4.chei.com.cn/yz/assets/images/logo-min2x.png") 2x
+        );
+        background-repeat: no-repeat;
+        background-position: center left;
+    }
+    .top-nav-hide {
+        position: relative;
+        cursor: pointer;
+        color: #2b2e33;
+    }
+    .top-nav-hide:hover {
+        color: #2b2e33;
+    }
+    .top-nav-hide:hover .top-nav-pop {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .top-nav-pop {
+        padding: 18px 30px 18px 16px;
+        visibility: hidden;
+        box-sizing: border-box;
+        background-color: #fff;
+        color: #2b2e33;
+        text-align: center;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 1;
+        top: 44px;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12);
+        font-size: 12px;
+        line-height: 20px;
+        display: flex;
+    }
+    .top-nav-pop-arrow {
+        display: block;
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-color: transparent;
+        border-style: solid;
+        left: 50%;
+        margin-left: -14px;
+        top: -7px;
+        border-width: 0 7px 7px;
+        border-bottom-color: rgba(0, 0, 0, 0.03);
+    }
+    .top-nav-pop-arrow::after {
+        display: block;
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-color: transparent;
+        border-style: solid;
+        left: 50%;
+        margin-left: -7px;
+        top: 1px;
+        border-width: 0 7px 7px;
+        border-bottom-color: #fff;
+    }
+    .top-nav-wrapper .top-nav-list a.top-nav-home:hover {
+        text-decoration: none;
+    }
+    .top-nav-wrapper .top-nav-load {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .top-nav-wrapper a.username {
+        flex: 1;
+        color: #1887e0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: right;
+    }
+    .top-nav-pop-clo {
+        font-size: 14px;
+        line-height: 22px;
+        margin-right: 22px;
+    }
+    .top-nav-pop-clo:last-child {
+        margin-right: 0;
+    }
+    .top-nav-wrapper .top-nav-pop-clo a {
+        display: block;
+        margin-right: 0;
+        white-space: nowrap;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+    .top-nav-wrapper .top-nav-pop-clo a:last-child {
+        margin-bottom: 0;
+    }
+    .top-nav-more {
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-hide:hover .top-nav-more {
+        color: #1887e0;
+        font-weight: 700;
+    }
+    .top-nav-more img {
+        width: 14px;
+        margin-left: 4px;
+        transform: rotate(90deg);
+    }
+    .top-nav-hide:hover img {
+        transform: rotate(-90deg);
+    }
+    .info-line {
+        display: block;
+        width: 1px;
+        height: 12px;
+        background: #e8eaed;
+        margin: 0 12px;
+    }
+    .top-nav-wrapper.active .seach-toggel {
+        display: none;
+    }
+    .search-cancel {
+        display: none;
+        margin-left: 12px;
+        cursor: pointer;
+    }
+    .top-nav-wrapper.active .search-cancel{
+        display: block;
+    }
+    .top-nav-load-search {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("https://t2.chei.com.cn/common/images/icon-search.svg") center center no-repeat;
+        cursor: pointer;
+    }
+    .top-nav-search-input {
+        display: none;
+    }
+    .top-nav-search-input .search-input {
+        display: block;
+        width: 200px;
+        border: 1px solid #D5D7DB;
+        height: 30px;
+        background: #FFF;
+        border-radius: 4px;
+        outline: none;
+        padding: 0 28px 0 8px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .top-nav-search-input .search-input:focus {
+        border: 1px solid #1887E0;
+    }
+    .top-nav-wrapper.active .top-nav-search-input {
+        display: block;
+    }
+    .top-nav-wrapper.active .top-nav-load {
+        max-width: none;
+    }
+    .site-search {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-wrapper.active .top-nav-load-search {
+        display: none;
+    }
+    .top-nav-wrapper.active .search-button {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("https://t2.chei.com.cn/common/images/icon-search.svg") center center no-repeat;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        position: absolute;
+        right: 8px;
+        top: 5px;
+    }
+    .top-nav-load-info {
+        display: flex;
+        align-items: center;
+    }
+ 
+ 
+     
+         
+               
+             首页 
+             国家政策 
+             资讯 
+             院校库 
+             在线咨询 
+             硕士目录 
+             网报公告 
+             统考网报 
+             成绩查询 
+             复试调剂 
+             信息公开 
+             推免服务 
+             
+                 更多 
+                 
+                     
+                     
+                         教育部政策 
+                         复试分数线 
+                         管理类专硕 
+                     
+                     
+                         院校政策 
+                         研招访谈 
+                         专业学位 
+                     
+                     
+                         招生简章 
+                         专业库 
+                     
+                     
+                         博士目录 
+                         博士网报 
+                     
+                 
+             
+         
+         
+             
+                 
+                     
+                     
+                     
+                 
+             
+             取消 
+             
+             
+             用户中心 
+             
+             注册 
+         
+     
+ 
+ 
+function handleLinkClick(event, type) {
+    event = event || window.event;
+    var target = event.target || event.srcElement;
+
+    var link = findClosestLink(target);
+    if (link) {
+        var href = link.getAttribute('href');
+        var label = link.textContent.trim();
+
+        gaTrackerOutboundLink({ eventCategory: type, eventAction: 'click', eventLabel: label });
+    }
+}
+
+function findClosestLink(element) {
+    while (element && element.nodeName !== 'A') {
+        element = element.parentNode;
+    }
+    if (element) {
+        return element;
+    }
+    return null;
+}
+document.addEventListener('DOMContentLoaded', function () {
+    const topNavSearch = document.getElementById('top-nav-search');
+    const searchCancel = document.querySelector('.search-cancel');
+    const searchInput = document.querySelector('.search-input');
+    const realQuery = document.querySelector('.realQuery');
+    const searchForm = document.querySelector('.site-search');
+
+    // 点击搜索图标：显示输入框（添加 active 类）
+    if (topNavSearch) {
+        topNavSearch.addEventListener('click', function (event) {
+            event.stopPropagation();
+            document.querySelector('.top-nav-wrapper').classList.add('active');
+            searchInput.focus();
+        });
+    }
+
+    // 点击取消按钮：移除 active 类
+    if (searchCancel) {
+        searchCancel.addEventListener('click', function (event) {
+            document.querySelector('.top-nav-wrapper').classList.remove('active');
+        });
+    }
+
+    // 点击文档其他地方：移除 active 类
+    document.addEventListener('click', function (event) {
+        const wrapper = document.querySelector('.top-nav-wrapper');
+        if (wrapper && !wrapper.contains(event.target)) {
+            wrapper.classList.remove('active');
+        }
+    });
+
+    // 提交表单前处理搜索词
+    if (searchForm) {
+        searchForm.addEventListener('submit', function (e) {
+            e.preventDefault(); // 阻止默认提交
+
+            const val = searchInput.value.trim();
+
+            if (!val) {
+                alert("请输入关键词");
+                return;
+            }
+
+            // 设置 realQuery 的值为关键词 + site:xxx
+            realQuery.value = val + ' site:yz.chsi.com.cn';
+
+            // 手动提交表单
+            searchForm.submit();
+        });
+    }
+});
+ 
+     
+     
+         
+            
+                
+            
+
+
+
+
+
+ 
+    .zx-yx-header-wrapper {
+        height: 220px;
+        background: linear-gradient(179deg, #2094F0 0%, #1787E0 53%);
+    }
+    .zx-yx-header-wrapper .zx-yx-header {
+        display: flex;
+        align-items: center;
+        height: 220px;
+        background: url("https://t1.chei.com.cn/yz/assets/images/sch/sch-banner.png") no-repeat center top;
+    }
+    .zx-yx-header-wrapper .yz-sch-header-xh {
+        width: 160px;
+        height: 160px;
+        padding: 12px;
+        margin-right: 28px;
+        box-sizing: border-box;
+        border-radius: 6px;
+        background: #fff;
+    }
+    .zx-yx-header-wrapper .yz-sch-header-xh img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .zx-yx-header-wrapper .yz-sch-header-con {
+        padding-top: 3px;
+        flex: 1;
+        min-width: 0;
+        color: #fff;
+    }
+    .zx-yx-header-wrapper .yz-sch-header-con a {
+        color: #fff;
+    }
+    .yz-sch-header-con .name {
+        height: 37px;
+        line-height: 37px;
+    }
+    .yz-sch-header-con .name a {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .yz-sch-header-con .location {
+        line-height: 28px;
+        margin-top: 6px;
+    }
+    .yz-sch-header-con .iconfont {
+        line-height: 1;
+        margin-right: 2px;
+        font-size: 14px;
+    }
+    .yz-sch-header-con .location span + span {
+        margin-left: 18px;
+    }
+    .yz-sch-header-con .yxtx {
+        display: flex;
+        align-items: center;
+        margin-top: 6px;
+        line-height: 28px;
+    }
+    .yz-sch-header-con .yxtx .sch-tag {
+        display: inline-flex;
+        align-items: center;
+        height: 28px;
+        padding: 0 12px;
+        border: 1px solid rgba(255, 255, 255, 0.55);
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .yz-sch-header-con .yxtx .sch-tag + .sch-tag {
+        margin-left: 12px;
+    }
+    .yz-sch-header-con .btn-con {
+        margin-top: 12px;
+    }
+    .yz-sch-header-con .btn-con a {
+        display: block;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        background: #FFC24E;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+ 
+ 
+     
+ 
+ 
+     
+         解放军医学院 
+     
+     
+          
+         所在地：北京市 
+         主管部门：解放军 
+     
+    
+     
+         
+            在线咨询
+         
+     
+ 
+         
+     
+
+     
+        
+
+
+
+
+
+
+ 2010年硕士研究生招生目录 
+
+ 
+     
+ 
+ 
+ 
+ 
+ 院系所、专业、 
+ 研究方向、科目组 
+ 
+ 招生人数 
+ 
+ 考试科目 
+ 
+ 备注 
+ 
+ 
+ 001 解放军总医院（本部） 
+ 
+ 
+ 071010 生物化学与分子生物学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 生物化学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 710 生物综合④ 858 生物化学 
+ 
+   
+ 
+ 
+ 02 分子生物学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 710 生物综合④ 901 分子生物学 
+ 
+   
+ 
+ 
+ 083100 生物医学工程 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 医学信息处理 , 生物医学电子学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 301 数学一④ 902 模拟与数字电路 
+ 
+   
+ 
+ 
+ 02 计算机应用 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 301 数学一④ 903 数据结构 
+ 
+   
+ 
+ 
+ 03 核医学图像定量分析 , 远程医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 301 数学一④ 904 C 语言 
+ 
+   
+ 
+ 
+ 100102 免疫学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 肿瘤免疫学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100104 病理学与病理生理学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 病理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 病理生理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 临床动物实验学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 呼吸内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 肾脏病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 心血管内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 内分泌与代谢病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 05 血液病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 06 消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 07 风湿病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100202 儿科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 小儿内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100203 老年医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 老年呼吸内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 老年心血管内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 老年内分泌与代谢病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 老年消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 05 老年血液病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 06 老年肾脏病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100204 神经病学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 神经内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 老年神经病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 医学心理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100206 皮肤病与性病学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 皮肤病与性病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100207 影像医学与核医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 放射诊断 学（ 普放 、 CT 、 MRI ） 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 超声诊断学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+   03 核医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 放射介入学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 05 超声介入学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100208 临床检验诊断学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 临床生物化学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 临床检验诊断学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 临床微生物学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 临床输血学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100209 护理学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 重症监护；内外科护理；护理管理 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 308 护理综合④ -- 无 
+ 
+   
+ 
+ 
+ 100210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 骨科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 泌尿外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 胸外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 小儿外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 05 普通外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 06 肝胆外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 07 心血管外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 08 神经外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 09 血管外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 10 野战外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 11 整形外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100211 妇产科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 妇产科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100212 眼科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 眼科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100213 耳鼻咽喉科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 耳鼻咽喉 - 头颈外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100214 肿瘤学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 肿瘤内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 肿瘤放射治疗学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100215 康复医学与理疗学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 康复医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 理疗学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 激光医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100217 麻醉学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 麻醉学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 重症监护学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100218 急诊医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 急诊内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 急诊外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100301 口腔基础医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 口腔基础医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 601 口腔综合④ -- 无 
+ 
+   
+ 
+ 
+ 100302 口腔临床医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 口腔内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 601 口腔综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 口腔外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 601 口腔综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 口腔修复学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 601 口腔综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 口腔正畸学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 601 口腔综合④ -- 无 
+ 
+   
+ 
+ 
+ 05 老年口腔医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 601 口腔综合④ -- 无 
+ 
+   
+ 
+ 
+ 100403 营养与食品卫生学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 营养与食品卫生学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合或 603 卫生综合④ -- 无 
+ 
+   
+ 
+ 
+ 100512 针灸推拿学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 针灸学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 307 中医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100600 中西医结合 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 中医西结合基础 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 307 中医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 中西医结合临床 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 307 中医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 军队中医师承制 
+ 
+   
+ 
+ ① 111 单独考试思想政治理论② 241 英语③ 711 中医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100706 药理学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 药理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合或 604 药学综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 中药临床药理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 307 中医综合或 604 药学综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 药剂学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合或 604 药学综合④ -- 无 
+ 
+   
+ 
+ 
+ 107302 社会医学与卫生事业管理 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 医院管理 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 呼吸内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 肾脏病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 心血管内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 内分泌与代谢病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 05 血液病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 06 消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 07 风湿病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450202 儿科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 小儿内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450203 老年医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 老年呼吸内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 老年心血管内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 老年内分泌与代谢病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 老年消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 05 老年血液病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 06 老年肾脏病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450204 神经病学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 神经内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 老年神经病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 医学心理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450206 皮肤病与性病学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 皮肤病与性病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450207 影像医学与核医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 放射诊断学（普放、 CT 、 MRI ） 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 超声诊断学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 核医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 放射介入学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 05 超声介入学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450208 临床检验诊断学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 临床生物化学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 临床检验诊断学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 临床微生物学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 临床输血学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450209 护理学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 重症监护；内外科护理；护理管理 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 308 护理综合④ -- 无 
+ 
+   
+ 
+ 
+ 450210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 骨科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 泌尿外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 胸外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 小儿外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 05 普通外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 06 肝胆外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 07 心血管外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 08 神经外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 09 血管外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 10 野战外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 11 整形外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450211 妇产科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 妇产科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450212 眼科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 眼科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450213 耳鼻咽喉科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 耳鼻咽喉 - 头颈外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450214 肿瘤学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 肿瘤内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 肿瘤放射治疗学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450215 康复医学与理疗学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 康复医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 理疗学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 激光医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450217 麻醉学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 麻醉学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 重症监护学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450218 急诊医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 急诊内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 急诊外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 002 解放军总医院（第 304 临床部） 
+ 
+ 
+ 100104 病理学与病理生理学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 病理学与病理生理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 内分泌与代谢病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 心血管病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 血液病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 呼吸内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100206 皮肤病与性病学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 皮肤病与性病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100207 影像医学与核医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 影像诊断学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100208 临床检验诊断学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 临床检验学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 骨科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 烧伤学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 整形医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 神经外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100211 妇产科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 妇产科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100214 肿瘤学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 肿瘤内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100218 急诊医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 急诊医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100600 中西医结合 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 中西医结合临床 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 307 中医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 内分泌与代谢病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 心血管病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 血液病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 呼吸内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450206 皮肤病与性病学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 皮肤病与性病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450207 影像医学与核医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 影像诊断学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450208 临床检验诊断学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 临床检验学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 骨科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 烧伤学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 整形医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 神经外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450211 妇产科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 妇产科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450214 肿瘤学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 肿瘤内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450218 急诊医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 急诊医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 003 解放军 309 医院 
+ 
+ 
+ 071010 生物化学与分子生物学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 分子生物学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 710 生物综合④ 901 分子生物学 
+ 
+   
+ 
+ 
+ 100104 病理学与病理生理学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 病理学与病理生理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 传染病（结核）学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100207 影像医学与核医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 放射介入学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 骨科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 普通外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 泌尿外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100213 耳鼻咽喉科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 耳鼻咽喉科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100218 急诊医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 急诊医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 传染病（结核）学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450207 影像医学与核医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 放射介入学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 骨科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 普通外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 泌尿外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450213 耳鼻咽喉科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 耳鼻咽喉科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450218 急诊医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 急诊医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 004 解放军 302 医院 
+ 
+ 
+ 100102 免疫学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 临床免疫学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 传染病（肝病）学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100208 临床检验诊断学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 临床检验诊断学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100706 药理学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 药理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合或 604 药学综合④ -- 无 
+ 
+   
+ 
+ 
+ 107302 社会医学与卫生事业管理 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 医院管理 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 传染病（肝病）学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450208 临床检验诊断学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 临床检验诊断学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 005 海军总医院 
+ 
+ 
+ 100107 航空、航天与航海医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 航海医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 呼吸内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100211 妇产科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 妇产科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100213 耳鼻咽喉科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 耳鼻咽喉科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100600 中西医结合 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 中西医结合临床 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 307 中医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100706 药理学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 临床药理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合或 604 药学综合④ -- 无 
+ 
+   
+ 
+ 
+ 450201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 呼吸内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450211 妇产科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 妇产科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450213 耳鼻咽喉科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 耳鼻咽喉科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 006 北京军区总医院 
+ 
+ 
+ 100201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 血液病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100206 皮肤病与性病学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 皮肤病与性病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100207 影像医学与核医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 肿瘤核医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 骨科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100218 急诊医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 急诊医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 107302 社会医学与卫生事业管理 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 医院管理 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 血液病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450206 皮肤病与性病学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 皮肤病与性病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450207 影像医学与核医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 肿瘤核医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 骨科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450218 急诊医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 急诊医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 007 空军总医院 
+ 
+ 
+ 100107 航空、航天与航海医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 航空、航天医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 呼吸内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100207 影像医学与核医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 超声医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 肝胆外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100213 耳鼻咽喉科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 耳鼻咽喉科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100706 药理学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 药理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合或 604 药学综合④ -- 无 
+ 
+   
+ 
+ 
+ 450201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 呼吸内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 消化内科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450207 影像医学与核医学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 超声医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 肝胆外科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450213 耳鼻咽喉科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 耳鼻咽喉科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 008 武警总医院 
+ 
+ 
+ 100212 眼科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 眼科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 107302 社会医学与卫生事业管理 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 医院管理 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450212 眼科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 眼科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 009 解放军 306 医院 
+ 
+ 
+ 100210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 烧伤学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100213 耳鼻咽喉科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 耳鼻咽喉科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 100706 药理学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 药理学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合或 604 药学综合④ -- 无 
+ 
+   
+ 
+ 
+ 450210 外科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 烧伤学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450213 耳鼻咽喉科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 耳鼻咽喉科学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 010 解放军白求恩国际和平医院 
+ 
+ 
+ 100201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 肾脏病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 肾脏病学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 011 军事医学科学院附属医院 
+ 
+ 
+ 450201 内科学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 造血干细胞移植 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 中毒急救 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 中毒及危重症救治 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 中毒救治及急重病急救医学 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 05 血液病和造血干细胞移植 1 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 06 血液病和造血干细胞移植 2 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 07 血液病和造血干细胞移植 3 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 08 肾脏病学化学中毒救治 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 09 药物依赖 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 450214 肿瘤学 
+ 
+   
+ 
+   
+ 
+   
+ 
+ 
+ 01 乳腺癌诊治 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 02 脑肿瘤 1 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 03 脑肿瘤 2 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 04 肺癌的基础和临床研究 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 05 消化道肿瘤的临床和基础研究 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 06 肿瘤影像诊断与介入治疗 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 07 泌尿生殖系恶性肿瘤综合治疗 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ --  无 
+ 
+   
+ 
+ 
+ 08 肺癌的综合治疗 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 09 乳腺癌临床与基础 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 10 乳腺癌前哨淋巴结分子病理检测 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 11 恶性肿瘤的生物学行为及其对策机制研究 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+ 
+ 12 肿瘤发生机制 
+ 
+   
+ 
+ ① 101 思想政治理论② 201 英语一③ 306 西医综合④ -- 无 
+ 
+   
+ 
+
+     
+ 
+
+
+
+
+ 
+ 
+    /**
+     * description: footer 共用底部;
+     * author:myx;
+     * date:2017-07;
+     */
+
+    .footer-wrapper {
+        line-height: 30px;
+        background: #282828;
+        color: #ababab;
+    }
+
+    .footer-wrapper a {
+        color: #ababab;
+    }
+
+    .footer-wrapper a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-wrapper .footer {
+        position: relative;
+        width: 1180px;
+        height: 198px;
+        margin: 0 auto;
+    }
+
+    .footer-wrapper .footer-list {
+        position: absolute;
+        top: 32px;
+        left: 0px;
+    }
+
+    .footer-wrapper .footer-list a {
+        margin-right: 15px;
+    }
+
+    .footer-wrapper .footer-units {
+        position: absolute;
+        top: 75px;
+        left: 0px;
+    }
+
+    .footer-wrapper .footer-media {
+        position: absolute;
+        top: 32px;
+        left: 844px;
+    }
+
+    .footer-wrapper .footer-media a {
+        display: inline-block;
+        margin-right: 30px;
+        vertical-align: top;
+    }
+
+    .footer-wrapper .footer-media a:hover {
+        text-decoration: none;
+    }
+
+    .footer-wrapper .footer-media .iconfont {
+        margin-right: 5px;
+        font-size: 20px;
+        vertical-align: middle;
+    }
+
+    .footer-wrapper .svg-icon {
+        display: inline-block;
+        width: 20px;
+        height: 23px;
+        margin-right: 3px;
+        vertical-align: middle;
+    }
+
+    .footer-wrapper svg use {
+        color: #ababab;
+    }
+
+    .footer-wrapper .footer-msg {
+        position: absolute;
+        top: 75px;
+        left: 844px;
+    }
+ 
+ 
+     
+         
+             
+                 
+                     
+                         
+                         
+                         
+                         
+                     
+                 
+             
+         
+         
+             
+                 
+                     
+                         
+                         
+                     
+                 
+             
+         
+     
+ 
+ 
+     
+         
+             学信网 
+             中心简介 
+             关于我们 
+             版权声明 
+             帮助中心 
+             网站地图 
+             网站宣传 
+         
+         
+            主办单位： 教育部学生服务与素质发展中心 
+            Copyright © 2003-2026  学信网  All Rights Reserved 
+             京ICP备19004913号-1 
+             
+                 
+                京公网安备11010202009747号
+             
+         
+         
+             
+                 
+                     
+                 
+                官方微信
+             
+             
+                 
+                     
+                 
+                官方微博
+             
+         
+         
+            客服热线：010-67410388 
+            客服邮箱：kefu@chsi.com.cn
+         
+     
+ 
+
+
+
+ 
+ 
+ 
+ 

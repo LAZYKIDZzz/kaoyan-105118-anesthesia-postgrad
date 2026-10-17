@@ -1,0 +1,58 @@
+{
+  "name": "齐齐哈尔医学院",
+  "tier": "从容区",
+  "gate": 293,
+  "region": "黑龙江",
+  "candidates": [
+    {
+      "title": "齐齐哈尔医学院2027年硕士研究生招生简章",
+      "url": "https://www.qmu.edu.cn/2026/1008/c345a210827/page.htm"
+    },
+    {
+      "title": "齐齐哈尔医学院2027年硕士研究生招生简章",
+      "url": "https://www.qmu.edu.cn/2026/1008/c6157a210827/page.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "齐齐哈尔医学院2027年硕士研究生招生简章",
+      "url": "https://www.qmu.edu.cn/2026/1008/c345a210827/page.htm",
+      "effective_url": "https://www.qmu.edu.cn/2026/1008/c345a210827/page.htm",
+      "path": "docs/admissions/2027/齐齐哈尔医学院/page-32938d1246.html",
+      "sha256": "83f53073f89b7743a596e67b5a8c06877f48b29a2540621913e37882fc816e79",
+      "bytes": 58253
+    },
+    {
+      "title": "齐齐哈尔医学院2027年硕士研究生招生简章",
+      "url": "https://www.qmu.edu.cn/2026/1008/c6157a210827/page.htm",
+      "effective_url": "https://www.qmu.edu.cn/2026/1008/c6157a210827/page.htm",
+      "path": "docs/admissions/2027/齐齐哈尔医学院/page-171852c26d.html",
+      "sha256": "290bb67398e96f41c55b0def7a3ad1edac4f29507b0f2c699ce914b4b627d9bb",
+      "bytes": 59691
+    }
+  ],
+  "files": [
+    {
+      "title": "附件1：齐齐哈尔医学院2027年硕士研究生招生专业目录.pdf",
+      "url": "https://www.qmu.edu.cn/_upload/article/files/91/d7/20cc552b476d8f13f06647b0aeba/e335ae50-e885-4ff5-9ea7-66cf7b819382.pdf",
+      "path": "docs/admissions/2027/齐齐哈尔医学院/附件1：齐齐哈尔医学院2027年硕士研究生招生专业目录.pdf",
+      "sha256": "54e556220298ab6f0c6916833fbfada24cbbb3bacc888ede8402a82875693047",
+      "bytes": 92191,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://www.qmu.edu.cn/2026/1008/c345a210827/附件1：齐齐哈尔医学院2027年硕士研究生招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://www.qmu.edu.cn/2026/1008/c345a210827/%E9%99%84%E4%BB%B61%EF%BC%9A%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E5%8C%BB%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+    },
+    {
+      "url": "https://www.qmu.edu.cn/2026/1008/c6157a210827/附件1：齐齐哈尔医学院2027年硕士研究生招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://www.qmu.edu.cn/2026/1008/c6157a210827/%E9%99%84%E4%BB%B61%EF%BC%9A%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E5%8C%BB%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

@@ -1,0 +1,249 @@
+﻿ 
+ 绍兴大学2027年硕士研究生招生专业目录-绍兴大学研究生院 
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+$(function(){
+    $('.menu .lm').mouseover(function(){ $(this).children('div').show();});
+    $('.menu .lm').mouseout(function(){ $(this).children('div').hide();});
+})
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1005,'/listact.jsp',1677,1497962951) 
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1173,'/yzw/news.jsp',5769,1269980530) 
+ 
+ 
+ 
+ 
+ 
+ 部门首页  
+ 
+ 招生首页
+  
+ 
+ 学校概况
+  
+ 
+ 通知公告
+  
+ 
+ 招生信息
+ 
+  
+ 
+ 
+ 招生简章   
+ 专业目录   
+ 考试大纲   
+ 历年情况   
+ 联系院系   
+ 
+ 
+ 常见问题
+  
+ 
+ 
+ 
+ul,li{
+    padding:0;
+    margin:0;
+    list-style:none;}
+#flashBoxu_u1_{
+    width:1250px;
+    height:357px;
+    border:0px solid #EEE;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;}
+#flashBoxu_u1_ img{
+    /*初始不要显示*/
+    display:none;
+    /*用边框来实现空位，因为margin和paading有时会引起些麻烦*/
+    border:0px solid #FFF;}
+#flashBoxu_u1_ ul{
+    position:absolute;
+    right:7px;
+    bottom:3px;
+    font:9px tahoma;}
+#flashBoxu_u1_ ul li{
+    display:block;
+    float:left;
+    width:12px;
+    height:12px;
+    line-height:12px;
+    margin-right:3px;
+    border:0px solid #999;
+    background:#F0F0F0;
+    text-align:center;
+    cursor:pointer;}
+#flashBoxu_u1_ ul li.hover{
+    border-color:red;
+    background:#FFE1E1;
+    color:red;}
+ 
+ 
+function flashBoxCtrl(o){
+    this.obj=document.getElementById(o);
+    //这个私有方法虽然写了，但暂时没用到
+    function addListener(ele,eventName,functionBody){
+        if (ele.attachEvent){
+            ele.attachEvent("on"+eventName, functionBody);
+        }else if (ele.addEventListener){
+            ele.addEventListener("on"+eventName,functionBody, false);
+        }else{
+            return false;
+        }
+    }
+    //初始化
+    this.init=function(){
+        var objImg=this.obj.getElementsByTagName("img");
+        var tagLength=objImg.length;
+        if (tagLength>0){
+            var oUl=document.createElement("ul");
+            oUl.setAttribute("id",o+"numTag");
+            for (var i=0;i<tagLength;i++){
+                var oLi=oUl.appendChild(document.createElement("li"));
+                if (i==0){
+                    oLi.setAttribute("class","hover"); //初始化时把第一个设置为高亮
+                    oLi.setAttribute("className","hover");
+                }
+                //设置标签的数字
+                oLi.appendChild(document.createTextNode((i+1)));
+            }
+            this.obj.appendChild(oUl);
+            objImg[0].style.display="block";
+            //设置标签事件
+            var oTag=this.obj.getElementsByTagName("li");
+            for (var i=0;i<oTag.length;i++){
+                var flag = 0;
+                var temp = 0;
+                var timeout=null;
+                var step = function(){
+                    for (j=0;j<oTag.length;j++){
+                        oTag[j].className="";
+                        objImg[j].style.display="none";
+                    }
+                    this.className="hover";
+                    flag = flag>=oTag.length-1?0:flag+1;
+                    objImg[flag].style.display="block";
+                    oTag[flag].className = "hover";
+                    timeout = setTimeout(step,5000);
+                };
+                oTag[i].onmouseover=function(){
+                    for (j=0;j<oTag.length;j++){
+                        oTag[j].className="";
+                        objImg[j].style.display="none";
+                        temp = j;
+                    }
+                    this.className="hover";
+                    objImg[this.innerHTML-1].style.display="block";
+                    temp = this.innerHTML-1;
+                    flag = i;
+                    clearInterval(timeout);
+                }
+                oTag[i].onmouseout = function(){
+                    for (j=0;j<oTag.length;j++){
+                        oTag[j].className="";
+                        objImg[j].style.display="none";
+                    }
+                    flag = temp;
+                    objImg[temp].style.display="block";
+                    oTag[temp].className = "hover";
+                    timeout = setTimeout(step,5000);
+                }
+                if(i==0)
+                {
+                    timeout = setTimeout(step,5000);
+                }
+            }
+        }
+    };
+    //自动滚动的方法还没写
+    this.imgRoll=function(){};
+    //生成对象时自动加载init()方法以初始化对象
+    this.init();
+}
+ 
+ new flashBoxCtrl("flashBoxu_u1_"); 
+ 
+ 
+ 
+ 
+
+
+
+硕士招生目录 
+ 
+  
+ 
+ 
+
+     
+
+
+
+硕士招生目录 您现在所在的位置: 
+                         首页 
+                >>
+                正文
+ 
+     
+ 
+ 
+ 
+     绍兴大学2027年硕士研究生招生专业目录 
+     2026年09月28日 16:55  点击：[ _showDynClicks("wbnews", 1269980530, 5769) ]  
+     
+     
+ 绍兴大学2027年硕士研究生招生专业目录 
+ 
+ 
+    
+     
+          
+             附件【 2027年硕士研究生招生专业目录-全日制专硕.xlsx 】已下载 getClickTimes(5476157,1269980530,"wbnewsfile","attach") 次 
+             附件【 2027年硕士研究生招生专业目录-全日制学硕.xlsx 】已下载 getClickTimes(5476156,1269980530,"wbnewsfile","attach") 次 
+             附件【 2027年硕士研究生招生专业目录-非全日制.xlsx 】已下载 getClickTimes(5476155,1269980530,"wbnewsfile","attach") 次 
+         
+     
+     
+        
+        下一篇： 2026年硕士研究生招生专业目录 
+     
+     【 关闭 】 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 地址：浙江省绍兴市城南大道1077号 联系电话：0575-88348020 电子邮箱：yzb@usx.edu.cn 邮编：312000 
+ Copyright 2014　绍兴大学研究生招生信息网　版权所有 
+
+ 

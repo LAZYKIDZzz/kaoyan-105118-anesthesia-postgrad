@@ -1,0 +1,162 @@
+[
+  {
+    "name": "甘肃中医药大学",
+    "tier": "从容区",
+    "gate": 287,
+    "region": "甘肃",
+    "candidates": [
+      {
+        "title": "甘肃中医药大学招生栏目",
+        "url": "https://yjsc.gszy.edu.cn/html/cid/91.html"
+      },
+      {
+        "title": "甘肃中医药大学招生官网（查找2027目录）",
+        "url": "https://yjsc.gszy.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "湖南师范大学",
+    "tier": "从容区",
+    "gate": 293,
+    "region": "湖南",
+    "candidates": [
+      {
+        "title": "湖南师范大学招生栏目",
+        "url": "https://yjsc.hunnu.edu.cn/zsks/sszk1.htm"
+      },
+      {
+        "title": "湖南师范大学2027年硕士研究生招生章程及自命题科目考试大纲-研究生院",
+        "url": "https://yjsc.hunnu.edu.cn/info/1027/16364.htm"
+      }
+    ]
+  },
+  {
+    "name": "河北北方学院",
+    "tier": "稳健区",
+    "gate": 301,
+    "region": "河北",
+    "candidates": [
+      {
+        "title": "河北北方学院招生栏目",
+        "url": "https://yjs.hebeinu.edu.cn/index.php"
+      },
+      {
+        "title": "河北北方学院2027年硕士研究生招生章程-河北北方学院-研究生学院、学位与学科建设办公室",
+        "url": "https://yjs.hebeinu.edu.cn/index.php?s=%2FShow%2Findex%2Fcid%2F11%2Fid%2F491.html"
+      }
+    ]
+  },
+  {
+    "name": "厦门大学",
+    "tier": "稳健区",
+    "gate": 304,
+    "region": "福建",
+    "candidates": [
+      {
+        "title": "厦门大学招生栏目",
+        "url": "https://zs.xmu.edu.cn/sss/zyml.htm"
+      },
+      {
+        "title": "厦门大学2027年硕士研究生招生章程-厦门大学招生网",
+        "url": "https://zs.xmu.edu.cn/info/1174/36942.htm"
+      },
+      {
+        "title": "厦门大学2027年硕士研究生招生章程-厦门大学招生网",
+        "url": "https://zs.xmu.edu.cn/info/1971/36892.htm"
+      }
+    ]
+  },
+  {
+    "name": "济宁医学院",
+    "tier": "稳健区",
+    "gate": 305,
+    "region": "山东",
+    "candidates": [
+      {
+        "title": "济宁医学院招生栏目",
+        "url": "https://grad.jnmc.edu.cn/10/list.htm"
+      },
+      {
+        "title": "济宁医学院2027年硕士研究生招生章程",
+        "url": "https://grad.jnmc.edu.cn/2026/1001/c10a184209/page.htm"
+      }
+    ]
+  },
+  {
+    "name": "浙江中医药大学",
+    "tier": "稳健区",
+    "gate": 307,
+    "region": "浙江",
+    "candidates": [
+      {
+        "title": "浙江中医药大学招生栏目",
+        "url": "https://yjsgl.zcmu.edu.cn/list/20"
+      },
+      {
+        "title": "浙江中医药大学招生官网（查找2027目录）",
+        "url": "https://yjsgl.zcmu.edu.cn/show/6007"
+      },
+      {
+        "title": "浙江中医药大学招生官网（查找2027目录）",
+        "url": "https://yjsgl.zcmu.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "河南科技大学",
+    "tier": "稳健区",
+    "gate": 310,
+    "region": "河南",
+    "candidates": [
+      {
+        "title": "河南科技大学招生栏目",
+        "url": "https://yjsc.haust.edu.cn/"
+      },
+      {
+        "title": "河南科技大学食品与生物工程学院2027年硕士研究生招生专业目录-河南科技大学食品与生物工程学院",
+        "url": "https://spsw.haust.edu.cn/info/1009/18323.htm"
+      }
+    ]
+  },
+  {
+    "name": "成都中医药大学",
+    "tier": "进取区",
+    "gate": 323,
+    "region": "四川",
+    "candidates": [
+      {
+        "title": "成都中医药大学招生栏目",
+        "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs"
+      },
+      {
+        "title": "成都中医药大学招生官网（查找2027目录）",
+        "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_142106"
+      },
+      {
+        "title": "成都中医药大学招生官网（查找2027目录）",
+        "url": "https://yjs.cdutcm.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "安徽医科大学",
+    "tier": "进取区",
+    "gate": 333,
+    "region": "安徽",
+    "candidates": [
+      {
+        "title": "安徽医科大学招生栏目",
+        "url": "https://yjsxy.ahmu.edu.cn/sszs/list.htm"
+      },
+      {
+        "title": "安徽医科大学官方招生入口",
+        "url": "https://yjsxy.ahmu.edu.cn/7773/list.htm"
+      },
+      {
+        "title": "安徽医科大学研究生院招生入口",
+        "url": "https://yjsxy.ahmu.edu.cn/"
+      }
+    ]
+  }
+]

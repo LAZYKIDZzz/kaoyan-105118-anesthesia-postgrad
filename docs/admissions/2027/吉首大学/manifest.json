@@ -1,0 +1,35 @@
+{
+  "name": "吉首大学",
+  "tier": "从容区",
+  "gate": 283,
+  "region": "湖南",
+  "candidates": [
+    {
+      "title": "吉首大学2027年硕士研究生招生简章-硕士招生-吉首大学研究生院",
+      "url": "https://yjsc.jsu.edu.cn/zsgz/sszs/e6215b80647f424b85f142f42ffac6ef.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "吉首大学2027年硕士研究生招生简章-硕士招生-吉首大学研究生院",
+      "url": "https://yjsc.jsu.edu.cn/zsgz/sszs/e6215b80647f424b85f142f42ffac6ef.htm",
+      "effective_url": "https://yjsc.jsu.edu.cn/zsgz/sszs/e6215b80647f424b85f142f42ffac6ef.htm",
+      "path": "docs/admissions/2027/吉首大学/page-0ef17245cc.html",
+      "sha256": "11fd347a6c454760b9d0ade9695f0f80457b728cfdfcf3a01504f14252f4889d",
+      "bytes": 54272
+    }
+  ],
+  "files": [
+    {
+      "title": "吉首大学2027年硕士研究生招生章程.pdf",
+      "url": "https://yjsc.jsu.edu.cn/docs/2026-10/aab503f50376462ab17462a7cfb52d0a.pdf",
+      "path": "docs/admissions/2027/吉首大学/吉首大学2027年硕士研究生招生章程.pdf",
+      "sha256": "9637b8adcaf0d01ca051d844bf22bc5fb209e76a2eb42f45fd818f47fc7747c0",
+      "bytes": 403273,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

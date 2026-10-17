@@ -10,6 +10,7 @@
 输出：html/compare.html + data/择校分数对照_实测版.csv
 """
 import json, os, csv
+from html import escape
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 V2 = os.path.dirname(BASE)
@@ -85,6 +86,14 @@ for c in cands:
     c['plan27'] = p.get('plan')
     c['plan27Basis'] = p.get('basis') or ''
     c['plan27Src'] = p.get('source') or ''
+    c['plan27Verification'] = p.get('verification') or ''
+    c['plan27CheckedAt'] = p.get('checked_at') or ''
+    c['plan27Urls'] = p.get('official_urls') or []
+    c['plan27Archive'] = p.get('archive') or ''
+    c['plan27Note'] = p.get('latest_note') or ''
+    c['policy2027'] = p.get('policy2027') or ''
+    if p.get('zone2027'):
+        c['z'] = p['zone2027']
     # 27 计划 vs 2026 年统考录取人数：>= 记为 up（页面显示绿色），< 记为 down（显示红色）
     n26 = (c['y'].get('2026') or {}).get('n')
     c['n2026'] = n26
@@ -110,19 +119,49 @@ n_est = n_total - n_real
 from collections import Counter
 tier_dist = dict(Counter(c['tier'] for c in cands))
 
+# 与招生文件档案共用核验结果，首页直接展示本轮修正与下载入口。
+with open(os.path.join(V2, 'data', 'admissions2027.json'), encoding='utf-8') as f:
+    admission_update = json.load(f)
+update_meta = admission_update['meta']
+plan_changes = [s for s in admission_update['schools']
+                if s['verified'] and s.get('plan') != s.get('previous_plan')]
+change_items = []
+for s in plan_changes:
+    archive = PLAN27[s['name']]['archive']
+    previous = '—' if s.get('previous_plan') is None else str(s['previous_plan'])
+    change_items.append('<li><a href="' + escape(archive, quote=True) + '">' +
+                        escape(s['name']) + '</a><strong>' + previous + ' → ' +
+                        str(s['plan']) + '</strong><small>' + escape(s['basis']) + '</small></li>')
+UPDATE_HTML = (
+    '<section class="update-note" aria-labelledby="updateTitle">'
+    '<div class="update-heading"><h2 id="updateTitle">2027 招生信息已更新</h2>'
+    '<time datetime="' + escape(update_meta['checked_at']) + '">' + escape(update_meta['checked_at']) + '</time></div>'
+    '<p>从容区、稳健区、进取区共 <b>' + str(update_meta['schools']) + '</b> 所逐校检索；'
+    '<b>' + str(update_meta['verified_plans']) + '</b> 所计划人数已核验，本页 <b>' + str(len(plan_changes)) + '</b> 所计划数值已修正。'
+    '点击表中「27计划」可查看招生口径、核验说明与官方文件。</p>'
+    '<p class="update-policy">报考要求补充：延边大学 2027 年按 A 类分数线执行，医学院要求英语四级 ≥425 分。'
+    '各校含推免、转段或专项的总数已分别标注，数值修正不直接等于扩招或缩招。</p>'
+    '<div class="update-links"><a href="admissions/index.html">查看 72 所招生文件与核验清单 →</a>'
+    '<a href="admissions/招生文件合集-' + escape(update_meta['checked_at']) + '.zip" download>下载官方文件合集 ZIP</a></div>'
+    '<details><summary>查看本页 ' + str(len(plan_changes)) + ' 所计划数值修正（原展示值 → 本次核验值）</summary>'
+    '<ul class="update-changes">' + ''.join(change_items) + '</ul></details></section>'
+)
+
 # ================= CSV 导出 =================
-headers = ['院校', '地区', '城市', '区', '层次', '档位', '数据状态', '门槛(三年最低)', '真实录取分年份数', '2027计划', '2027计划口径', '2026统考录取人数', '27计划对26人数']
+headers = ['院校', '地区', '城市', '区', '层次', '档位', '数据状态', '门槛(三年最低)', '真实录取分年份数', '2027计划', '2027计划口径', '2026统考录取人数', '27计划对26人数', '2027计划核验', '2027核验日期', '2027官方来源', '2027补充说明', '2027报考政策']
 for y in YEARS:
     headers += [f'{y}复试线', f'{y}录取最低', f'{y}录取最高', f'{y}录取均分', f'{y}统考人数', f'{y}置信度', f'{y}数据来源']
 with open(OUT_CSV, 'w', encoding='utf-8-sig', newline='') as f:
-    w = csv.writer(f)
+    w = csv.writer(f, lineterminator='\n')
     w.writerow(headers)
     for c in cands:
         row = [c['n'], c['r'], c['c'], c['z'], c['lv'], c['tier'], c['basis'], c['gate'], c['real_years'],
                c['plan27'] if c['plan27'] is not None else '',
                c['plan27Basis'],
                c['n2026'] if c['n2026'] is not None else '',
-               {'up': '不减少', 'down': '减少', '': '无法比较'}[c['plan27Cmp']]]
+               {'up': '不减少', 'down': '减少', '': '无法比较'}[c['plan27Cmp']],
+               {'verified': '官方原文已核验', 'pending': '既有数值待复核'}.get(c['plan27Verification'], '未纳入本轮核验'),
+               c['plan27CheckedAt'], '\n'.join(c['plan27Urls']), c['plan27Note'], c['policy2027']]
         for y in YEARS:
             r = c['y'][y]
             row += [r['fs'] if r['fs'] is not None else '',
@@ -177,6 +216,19 @@ a{color:inherit}
 .notice{background:#fff7ef;border:1px solid #f0d9c6;border-left:4px solid var(--accent);
   border-radius:8px;padding:13px 16px;margin-bottom:16px;font-size:13px;color:#5a4636}
 .notice b{color:var(--accent)}
+.update-note{background:#fff;border:1px solid #ceded4;border-left:4px solid #2f9e6f;border-radius:8px;padding:14px 16px;margin-bottom:16px;font-size:13px}
+.update-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.update-heading h2{font-size:17px;color:var(--navy);margin:0}
+.update-heading time{font-size:12px;color:var(--ink-soft)}
+.update-note p{margin:8px 0}
+.update-policy{color:var(--ink-soft);font-size:12px}
+.update-links{display:flex;flex-wrap:wrap;gap:8px 20px;margin:10px 0}
+.update-links a,.update-changes a{color:#246c53;text-underline-offset:3px}
+.update-note summary{cursor:pointer;color:var(--navy);padding:4px 0}
+.update-changes{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px 20px;padding:4px 0 0;list-style:none}
+.update-changes li{border-top:1px solid var(--line-soft);padding-top:7px;display:flex;gap:6px 12px;flex-wrap:wrap}
+.update-changes strong{margin-left:auto}
+.update-changes small{width:100%;color:var(--ink-soft)}
 
 /* controls */
 .ctrl{position:sticky;top:0;z-index:30;background:rgba(246,244,239,.96);backdrop-filter:blur(6px);
@@ -369,14 +421,16 @@ select.school{width:100%;max-width:none}
 <body>
 <div class="wrap">
   <header class="masthead">
-    <div class="crumb"><a href="nav.html">← 资料导航</a><a href="mobile-summary-preview.html">手机端精简方案预览</a></div>
+    <div class="crumb" style="flex-wrap:wrap;gap:12px"><a href="nav.html">← 资料导航</a><a href="admissions/index.html">2027招生文件与核验清单</a><a href="mobile-summary-preview.html">手机端精简方案预览</a></div>
     <h1>麻醉学专硕择校参考 · 三年分数与人数对照</h1>
     <div class="sub">105118 麻醉学专硕 · 2024–2026 三年实际复试线与录取分数/人数。本页只展示「查得到」的真实录取最低/最高分，查不到的留空（—），<b>绝不把国家线或复试线当作录取分</b>。分数只是参考，找到与你合拍的城市和平台才是关键，别被任何一个数字吓到。</div>
     <div class="kpis" id="kpis"></div>
   </header>
 
+  __UPDATE_HTML__
+
   <div class="notice">
-    <b>数据说明：</b> ① <b>录取最低 / 录取最高</b>来自各校拟录取名单公示等官方原文，是「真实进面并上岸」的分数区间，口径为<b>普通计划统考</b>（含一志愿与调剂）；少数民族骨干、退役士兵、定向就业等专项计划<b>单列不计入门槛</b>（见各校备注）；② <b>复试线</b>只是入场券，往往远低于实际录取分；③ <b>国家线（A区 304/293/294，B区 294/283/284）</b>仅为政策参考，<u>不是任何院校的实际门槛</u>；④ <b>—</b> 表示「未检索到可核验的公开录取分」<b>不代表 0 分或未招生</b>；⑤ 每校带 <span class="bbadge real">实测</span>/<span class="bbadge est">线估</span> 标记，线估=仅有复试线、实际录取分未知；⑥ <span class="confwarn">⚠</span> 表示该年数据仅部分覆盖招生单位或来自二次来源，请结合备注判断；⑦ <b>27计划</b>为 2027 年（27考研）招生目录的检索整理值（多为不含推免），带 <b style="color:#c0492f">*</b> 者含推免或为总数，<b>—</b> 表示暂未检索到；<b>27计划数字的颜色</b>是与 <b>2026 年统考录取人数</b>对比的结果：<span class="planup" style="font-weight:700">绿色 = 2027 计划不减少（≥26年人数）</span>、<span class="plandown" style="font-weight:700">红色 = 2027 计划减少（&lt;26年人数）</span>，蓝色为 2026 年录取人数缺失、暂不比较。<br><span style="opacity:.8">数据刷新：2026-10-12（第三轮全网检索，新增 19 所院校官方录取分、33 所院校 2027 计划数）。</span>
+    <b>数据说明：</b> ① <b>录取最低 / 录取最高</b>来自各校拟录取名单公示等官方原文，是「真实进面并上岸」的分数区间，口径为<b>普通计划统考</b>（含一志愿与调剂）；少数民族骨干、退役士兵、定向就业等专项计划<b>单列不计入门槛</b>（见各校备注）；② <b>复试线</b>只是入场券，往往远低于实际录取分；③ <b>国家线（A区 304/293/294，B区 294/283/284）</b>仅为政策参考，<u>不是任何院校的实际门槛</u>；④ <b>—</b> 表示「未检索到可核验的公开录取分」<b>不代表 0 分或未招生</b>；⑤ 每校带 <span class="bbadge real">实测</span>/<span class="bbadge est">线估</span> 标记，线估=仅有复试线、实际录取分未知；⑥ <span class="confwarn">⚠</span> 表示该年数据仅部分覆盖招生单位或来自二次来源，请结合备注判断；⑦ <b>27计划</b>为2027年拟招生计划，分别标明普通统考、含推免总数及含转段或专项总数，带 <b style="color:#c0492f">*</b> 者含推免或为总数，<b>—</b> 表示暂未检索到；<b>27计划数字的颜色</b>是与 <b>2026 年统考录取人数</b>对比的结果：<span class="planup" style="font-weight:700">绿色 = 2027 计划不减少（≥26年人数）</span>、<span class="plandown" style="font-weight:700">红色 = 2027 计划减少（&lt;26年人数）</span>，蓝色为2026年录取人数缺失、暂不比较。颜色仅表示数值比较，不能据不同口径直接判定扩缩招；计划旁警示符号表示既有数值本轮尚未复核。<br><span style="opacity:.8">招生信息刷新：2026-10-18（从容区、稳健区、进取区72所逐校检索；官方文件及待补情况见招生资料页）。</span>
   </div>
 
   <div class="workarea" id="workArea">
@@ -514,7 +568,8 @@ function planMeta(s){
   const has=s.plan27!==null&&s.plan27!==undefined;
   const cls=has&&s.plan27Cmp?('plan'+s.plan27Cmp):'';
   const arrow=has&&s.plan27Cmp?(s.plan27Cmp==='up'?'↑':'↓'):'';
-  const mark=(has&&s.plan27Basis!=='统考/不含推免')?'<sup>*</sup>':'';
+  const mark=((has&&s.plan27Basis!=='统考/不含推免')?'<sup>*</sup>':'')+
+    (s.plan27Verification==='pending'?'<sup class="confwarn" title="本轮未核实既有计划数，请打开查看官方来源与待补说明">⚠</sup>':'');
   let tip;
   if(!has) tip='2027 计划暂未检索到'+(s.n2026!==null&&s.n2026!==undefined?`（2026 年录取 ${s.n2026} 人）`:'');
   else if(s.plan27Cmp) tip=`2027 计划 ${s.plan27} 人 ${s.plan27Cmp==='up'?'≥':'&lt;'} 2026 年录取 ${s.n2026} 人`;
@@ -608,13 +663,21 @@ function showPlanInfo(index){
     const d=s.plan27Delta;
     const txt=d===0?'与 2026 年录取人数持平':(d>0?`较 2026 年录取人数多 ${d} 人`:`较 2026 年录取人数少 ${-d} 人`);
     cmp.innerHTML=`<span class="${s.plan27Cmp==='up'?'planup':'plandown'}">2026 年统考录取 ${s.n2026} 人 → 2027 计划 ${s.plan27} 人，${txt}。</span>`+
-      `<span class="plan-cmp">（口径提示：2027 计划多为「不含推免」的拟招数，2026 人数为实际统考录取数，二者口径可能不完全一致，仅供趋势参考。）</span>`;
+      `<span class="plan-cmp">（口径提示：请核对上方口径；含推免、转段或专项的2027总计划与2026普通统考实录不能直接判定扩缩招。）</span>`;
   }else if(s.plan27!==null&&s.plan27!==undefined){
     cmp.innerHTML=`<span class="plan-cmp">2026 年录取人数未检索到，暂不做增减少比较。</span>`;
   }else{
     cmp.textContent=`2026 年统考录取人数：${s.n2026!==null&&s.n2026!==undefined?s.n2026+' 人':'未检索到'}；2027 计划暂未检索到。`;
   }
-  document.getElementById('planSource').textContent=`来源：${s.plan27Src||'暂未检索到'}`;
+  const src=document.getElementById('planSource');
+  src.textContent=s.plan27Verification==='verified'?'来源：本轮已下载的官方2027招生目录或官网原文。':`来源：${s.plan27Src||'暂未检索到'}`;
+  if(s.plan27CheckedAt){
+    const p=document.createElement('p');
+    p.textContent=`${s.plan27CheckedAt}：${s.plan27Verification==='verified'?'官方原文已核验':'既有数值待复核'}。${s.plan27Note||''}`;
+    src.appendChild(p);
+  }
+  if(s.policy2027){const p=document.createElement('p');p.textContent=s.policy2027;src.appendChild(p);}
+  if(s.plan27Archive){const p=document.createElement('p'),a=document.createElement('a');a.href=s.plan27Archive;a.textContent='查看本校官方文件、下载状态与逐项核验';p.appendChild(a);src.appendChild(p);}
   document.getElementById('planDialog').showModal();
 }
 
@@ -758,7 +821,7 @@ function init(){
   // foot
   document.getElementById('foot').innerHTML=`数据基准：2024 / 2025 / 2026 三个完整招生年度。本页收录 ${DATA.schools.length} 所「三年内录取分数相对友好」的院校（含只查到复试线、录取分待核实的）。`+
     `「27计划」= 2027 年（27考研）105118 麻醉学专硕拟招生人数，为联网检索整理值，多为「不含推免」口径；带 <sup style="color:#c0492f">*</sup> 者为含推免或总数口径（点击计划数字查看口径与来源）；「—」表示暂未检索到，报考以各校当年官方招生目录为准。`+
-    `「27计划」数字的颜色为与 <b>2026 年统考录取人数</b>的对比：<span class="planup" style="font-weight:700">绿色 = 2027 计划 ≥ 2026 年录取人数（计划未减少）</span>，<span class="plandown" style="font-weight:700">红色 = 2027 计划 &lt; 2026 年录取人数（计划减少）</span>，蓝色为 2026 年录取人数缺失、暂不比较。`+
+    `「27计划」数字的颜色为与 <b>2026 年统考录取人数</b>的对比：<span class="planup" style="font-weight:700">绿色 = 2027 计划 ≥ 2026 年录取人数（计划未减少）</span>，<span class="plandown" style="font-weight:700">红色 = 2027 计划 &lt; 2026 年录取人数（计划减少）</span>，蓝色为2026年录取人数缺失、暂不比较。颜色仅表示数值比较，不能据不同口径直接判定扩缩招；计划旁警示符号表示既有数值本轮尚未复核。`+
     `「录取最低/最高」= 统考实际录取考生初试总分区间；「复试线」= 该校/院当年公布线（含国家线/校线/院线/自划线，见 fsKind）。`+
     `来源优先级：官方拟录取公示 / 复试线通知 ＞ 研招网 ＞ 启航/路灯/掌上考研/中公等机构整理（已交叉验证）。`+
     `未查到公开录取分的院校标注「线估」，其复试线不代表实际录取门槛。本页仅供初筛，报考请以目标院校当年官方公告为准。`;
@@ -772,6 +835,7 @@ init();
 """
 
 html = html.replace('__DATA_JSON__', DATA_JSON)
+html = html.replace('__UPDATE_HTML__', UPDATE_HTML)
 open(OUT_HTML, 'w', encoding='utf-8').write(html)
 print('HTML written:', OUT_HTML)
 

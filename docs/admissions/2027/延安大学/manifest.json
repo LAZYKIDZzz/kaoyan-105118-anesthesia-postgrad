@@ -1,0 +1,41 @@
+{
+  "name": "延安大学",
+  "tier": "稳健区",
+  "gate": 308,
+  "region": "陕西",
+  "candidates": [
+    {
+      "title": "延安大学2027年硕士研究生招生简章-研究生院",
+      "url": "https://yjsy.yau.edu.cn/info/1025/40802.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "延安大学2027年硕士研究生招生简章-研究生院",
+      "url": "https://yjsy.yau.edu.cn/info/1025/40802.htm",
+      "effective_url": "https://yjsy.yau.edu.cn/info/1025/40802.htm",
+      "path": "docs/admissions/2027/延安大学/page-f15d314118.html",
+      "sha256": "2ee30269e87cdf47187265b2cbe23ce92877ffbdcffeccfb4c209f3df7ea34cb",
+      "bytes": 73332
+    }
+  ],
+  "files": [
+    {
+      "title": "附件3：延安大学2027年硕士研究生招生专业目录.xlsx",
+      "url": "https://yjsy.yau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2130581067&wbfileid=63958A8AA4E9B771B963F903FF16276E",
+      "path": "docs/admissions/2027/延安大学/附件3：延安大学2027年硕士研究生招生专业目录.xlsx",
+      "sha256": "a5f7ad62d72e4a865bca99abc100563e9bb5d835744ec066d6925d0296955e52",
+      "bytes": 92283,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjsy.yau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2130581067&wbfileid=B373266EA750C5E86AD4317D95B39FF3",
+      "title": "附件2：延安大学2027年专业学位硕士研究生招生专业一览表.xlsx",
+      "error": "attachment response has no recognized file signature"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

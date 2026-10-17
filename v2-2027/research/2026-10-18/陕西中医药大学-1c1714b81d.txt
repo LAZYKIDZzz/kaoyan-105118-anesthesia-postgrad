@@ -1,0 +1,228 @@
+
+ 
+ 
+ 
+ 
+   
+
+ 陕西中医药大学研究生院-陕西中医药大学2027年硕士研究生招生简章 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+   
+
+
+ 
+
+      
+ 
+ 
+ 
+ 
+ $(function(){
+    $(".nav>li").hover(function(){
+      $(this).children('ul').stop(true,true).show(300);
+    },function(){
+      $(this).children('ul').stop(true,true).hide(300);
+    })
+  }) 
+   
+ function glb_searchTextOnfocus(obj) {
+          if (obj.value == '请输入关键字...')
+            obj.value = '';
+          obj.style.color = '#cacaca';
+        }
+        function glb_searchTextOnBlur(obj) {
+          if (obj.value == '') {
+            obj.value = '请输入关键字...';
+          } else {
+            obj.style.color = '#cacaca';
+          }
+        } 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 网站首页 
+ 研究生院简介 
+ 招生工作   
+                     硕士生招生 
+                     博士生招生 
+                    
+                 
+ 
+ 教学培养   学籍管理 
+ 培养公告 
+ 学期课表 
+ 学术科研 
+ 规章制度 
+ 相关表格 
+ 
+ 
+ 学位工作   最新动态 
+ 学位授予   
+ 导师管理 
+ 学位点建设 
+ 学位制度 
+ 资料下载 
+ 
+ 
+ 
+ 资料下载 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+  
+ 
+ 
+ 
+   
+                     
+               
+           
+           当前位置： 
+                   首页 
+            >>  
+         招生工作 
+             >>  
+       正文 
+            
+              
+                  
+              
+         
+             
+           
+               
+
+ 
+陕西中医药大学2027年硕士研究生招生简章
+ 
+ 
+  来源： 研究生招生网 
+    作者： 研招网 
+    点击数： 
+    发表时间： 2026-10-08 08:18:44 
+ 
+
+  
+
+  
+ 
+ 
+
+ 
+    
+   A   A   A  
+   
+     陕西中医药大学2027年硕士研究生招生简章 .pdf 
+  
+
+ 
+ 
+
+
+
+  
+ 
+  【 打印本页 】
+    【 关闭窗口 】
+ 
+ 
+           
+           
+           
+ 
+ 
+ 
+
+
+
+  
+
+ 
+ 
+ 
+   
+     
+       
+        友情链接:
+       
+       
+         
+           中国学位与研究生教育信息网 
+           学位与管理研究生教育处 
+           学信网 
+           研究生招生信息网 
+
+           学校首页 
+         
+       
+       
+     
+   
+ 
+   
+    
+   地址：陕西省西咸新区西咸大道 邮编：712046 版权所有：陕西中医药大学  
+   技术支持：信息化建设管理处  陕ICP备05001612号-1    陕公网安备 61040202000395号 
+ 
+
+ 
+ 
+
+document.oncontextmenu=new Function("event.returnValue=false"); //禁止右键
+
+document.onselectstart=new Function("event.returnValue=false"); //禁止选取
+
+ 
+ 
+
+ 
+
+ 
+//禁止鼠标右键功能
+            document.oncontextmenu = function () {
+                return false;
+            }
+
+
+    var options = {
+
+                    pdfOpenParams: {
+                        pagemode: "thumbs",
+                        toolbar: 0,
+                        navpanes: 0,
+                        statesbar: 0,
+                        view: 'FitV'
+                    }
+                }
+  
+      
+            // 我的pdf文件放在项目的pdf文件夹下，名字叫做Java.pdf
+      
+            PDFObject.embed("#toolbar=0", "#example1",options);
+        
+ 
+ 
+ 
+

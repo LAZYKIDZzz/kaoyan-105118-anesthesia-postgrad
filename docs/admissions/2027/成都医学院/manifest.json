@@ -1,0 +1,26 @@
+{
+  "name": "成都医学院",
+  "tier": "进取区",
+  "gate": 332,
+  "region": "四川",
+  "candidates": [
+    {
+      "title": "成都医学院2027年研究生招生指南-成都医学院党委研究生工作部、研究生院",
+      "url": "https://yjsy.cmc.edu.cn/info/1016/2710.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "成都医学院2027年研究生招生指南-成都医学院党委研究生工作部、研究生院",
+      "url": "https://yjsy.cmc.edu.cn/info/1016/2710.htm",
+      "effective_url": "https://yjsy.cmc.edu.cn/info/1016/2710.htm",
+      "path": "docs/admissions/2027/成都医学院/page-8dca92b082.html",
+      "sha256": "47486eb562febb28530974f63b6f7b87d477804500b9a3cfc037850e42c70dce",
+      "bytes": 18126
+    }
+  ],
+  "files": [],
+  "failures": [],
+  "status": "仅归档招生网页，目录待补",
+  "checked_at": "2026-10-18"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "新乡医学院",
+  "tier": "从容区",
+  "gate": 295,
+  "region": "河南",
+  "candidates": [
+    {
+      "title": "河南医药大学2027年硕士研究生招生章程-党委研究生工作部",
+      "url": "https://www.hamu.edu.cn/yjsc/info/1013/4835.htm"
+    },
+    {
+      "title": "河南医药大学2027年硕士研究生招生章程-党委研究生工作部",
+      "url": "https://www.xxmu.edu.cn/yjsc/info/1013/4835.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "河南医药大学2027年硕士研究生招生章程-党委研究生工作部",
+      "url": "https://www.hamu.edu.cn/yjsc/info/1013/4835.htm",
+      "effective_url": "https://www.hamu.edu.cn/yjsc/info/1013/4835.htm",
+      "path": "docs/admissions/2027/新乡医学院/page-8bcf9d2788.html",
+      "sha256": "53759b128fc1a182aa20d5648566f0a86a0f788f61a8636411979c76e40c1225",
+      "bytes": 97779
+    },
+    {
+      "title": "河南医药大学2027年硕士研究生招生章程-党委研究生工作部",
+      "url": "https://www.xxmu.edu.cn/yjsc/info/1013/4835.htm",
+      "effective_url": "https://www.xxmu.edu.cn/yjsc/info/1013/4835.htm",
+      "path": "docs/admissions/2027/新乡医学院/page-9acb678dbc.html",
+      "sha256": "f30dbfbb2a83ac861c0dadb97be114ec2347b6540a4ec04b2ce9c65259cfba42",
+      "bytes": 97779
+    },
+    {
+      "title": "河南医药大学2027年接收推荐免试硕士研究生招生章程",
+      "url": "https://www.hamu.edu.cn/yjsc/info/1013/4818.htm",
+      "effective_url": "https://www.hamu.edu.cn/yjsc/info/1013/4818.htm",
+      "path": "docs/admissions/2027/新乡医学院/page-b85025d4c9.html",
+      "sha256": "4ae77ef6892a368fe017b4a382e5e466d086125fa153d01d985c9c5f533c943e",
+      "bytes": 52775
+    },
+    {
+      "title": "河南医药大学2027年接收推荐免试硕士研究生招生章程",
+      "url": "https://www.xxmu.edu.cn/yjsc/info/1013/4818.htm",
+      "effective_url": "https://www.xxmu.edu.cn/yjsc/info/1013/4818.htm",
+      "path": "docs/admissions/2027/新乡医学院/page-d33df0f898.html",
+      "sha256": "4430b261f88703180c5004782386064da9447b16bb830b6d264278e5abe2670d",
+      "bytes": 52775
+    }
+  ],
+  "files": [
+    {
+      "title": "附件2：河南医药大学2027年硕士研究生招生专业目录（专业学位）.pdf",
+      "url": "https://www.hamu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12011265",
+      "path": "docs/admissions/2027/新乡医学院/附件2：河南医药大学2027年硕士研究生招生专业目录（专业学位）.pdf",
+      "sha256": "66041ecabb56fc590a00c586cb8e549ebca6e7896664e498aa38c4e2868b22f1",
+      "bytes": 128101,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://www.xxmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12011265",
+      "title": "附件2：河南医药大学2027年硕士研究生招生专业目录（专业学位）.pdf",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://www.hamu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12010262",
+      "title": "附件1：河南医药大学2027年接收推荐免试攻读研究生招生专业目录.pdf",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://www.hamu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12010263",
+      "title": "附件2：河南医药大学接收推荐免试攻读硕士学位研究生申请表.doc",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://www.xxmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12010262",
+      "title": "附件1：河南医药大学2027年接收推荐免试攻读研究生招生专业目录.pdf",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://www.xxmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12010263",
+      "title": "附件2：河南医药大学接收推荐免试攻读硕士学位研究生申请表.doc",
+      "error": "attachment response has no recognized file signature"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

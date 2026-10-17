@@ -1,0 +1,195 @@
+
+ 
+ 
+ 
+ 
+ 
+ 华北理工大学2027年硕士研究生招生专业目录-硕士招生-研究生学院 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+	 
+		 
+ 
+.yjs_top1{margin-top: 27px;} 
+		 
+ 
+     
+     
+ 
+ 
+ 
+.search_box{border-top: #9a9a9a 1px solid; height:36px;  border-right: #9a9a9a 1px solid; width: 302px; border-bottom: #9a9a9a 1px solid; border-left: #9a9a9a 1px solid; margin-top:55px; margin-right:30px;}
+input{border:0;outline:none;}
+.input_div1{width: 257px; float: left}
+.input_div2{width: 45px; float: left;text-align: right; padding-top: 0px;background: #bb2325;}
+.input_b{font-size: 14px; border-top: 0px; height: 36px; border-right: 1px; width: 99%; background: none transparent scroll repeat 0% 0%; border-bottom: 0px; color: #949496; padding-left: 3px; border-left: 0px; line-height: 36px}
+.input_s{cursor: pointer; border-top: 0px; height: 36px; border-right: 0px; width: 45px; background: url(https://yjsxy.ncst.edu.cn/atm/1625446419309/20210902160207803.jpg) no-repeat center center; border-bottom: 0px; border-left: 0px}
+ 
+	 
+ 
+ 
+	 
+     首页 
+     学院概况 
+     
+         学院简介 
+         学院领导 
+         机构设置 
+     
+     
+     招生就业 
+     
+         硕士招生 
+         博士招生 
+         就业工作 
+     
+     
+     培养管理 
+     
+         培养工作 
+         教学工作 
+         学籍管理 
+     
+     
+     学位管理 
+     
+         学位工作 
+         导师遴选 
+         质量保障监督 
+         答辩公告 
+     
+     
+     学生工作 
+     教学研究 
+     非学历教育 
+     党团建设 
+     规章制度 
+     
+         招生工作 
+         教学培养 
+         学位管理 
+         学生工作 
+         教学研究 
+         导师管理 
+         党团建设 
+         办事指南 
+     
+     
+     下载中心 
+     
+         招生工作 
+         就业工作 
+         教学培养 
+         学位管理 
+         学生工作 
+         教学研究 
+         党团建设 
+     
+     
+ 
+ 
+	.col_ul{ width:1280px; background:#bb2325;margin:0 auto; height:52px;}
+	.col1{ width:9%; float:left; height:52px; line-height:52px; text-align:center; position:relative; font-size:18px;}
+	.col1:hover{ border-bottom:3px #ddb260 solid; box-sizing: border-box;}
+	.col1 a{color:#fff; text-decoration:none;}
+	.col1 ul{display:none;}
+	.col1 ul{ width:100%; z-index:999}
+	.col1 ul .col2{ width:100%; height:52px; line-height:52px; text-align:center; font-size:16px;}
+	.col1:hover ul{ display:block; position:absolute; top:52px; right:0; width:100%;}
+	.col1:hover ul .col2{ background:#bb2325; color:#fff; position:relative; z-index:999}
+	.col1:hover ul .col2:hover{ background:#a30002; color:#fff;}
+	    
+     
+ 
+ 
+	 
+	    
+ 当前位置： 首页 
+>>  招生就业 
+>>  硕士招生 
+
+ 
+ 
+ 
+ 
+.t-30{margin-bottom:30px;}
+.dqwz_box{border-bottom: 3px #ca0000 solid; margin:0 1px;}
+.dqwz_msize{font-size:18px;color:#333;float:left; line-height:60px;}
+.dqwz_msize a{font-size:18px;color:#333;}
+
+    
+
+ 
+	 
+
+ 华北理工大学2027年硕士研究生招生专业目录 
+ 发布时间：2026年09月29日  点击数： 
+ 附件： 华北理工大学2027年硕士研究生招生专业目录 
+
+ 
+ 
+.titleN{font-size:25px;font-weight:bold;line-height:40px;text-align:center; color:#bb2325 ;}
+.titleN2{font-size:18px;font-weight:bold;line-height:40px;text-align:center; }
+#conN div,#conN p{line-height:40px;font-size:16px; text-indent:2em; text-justify:distribute-all-lines;  margin-top:15px;} //两端对齐
+#conN td div{text-indent:0em; text-align:center;display:table-cell; vertical-align:middle; }#conN table{width:95%; margin:auto;}#conN div table{width:95%;margin:auto;}#conN div table td div{text-indent:0em;}
+#conN table td{text-indent:0em;}#conN td div,#conN td,#conN td p{text-indent:0em;}
+#conN img{max-width: 700px !important; height: auto!important; width:expression(this.width > 700? "700px" : this.width)!important; text-indent:0em !important;}#conN div img,#conN p img{max-width: 700px !important; text-align:center;text-indent:0em; height: auto!important; width:expression(this.width > 700? "700px" : this.width)!important;}
+@media screen and (max-width: 1280px){
+.yjs_bottom,.yjs_nav,.yjs_top{width: 1280px;}
+}
+
+ 
+ 
+ 
+	 
+    	    友情链接 
+
+ 中国研究生招生信息网 
+
+ 高等教育学生信息网（学信网） 
+
+ 同等学力人员申请硕士学位管理平台 
+
+ 国家大学生就业服务平台 
+
+ 学校首页 
+
+ 
+ 
+.links{background:#ededed;height:58px;}
+.dh_mz{float:left;font-size:16px;line-height:62px;padding-left:20px;color:#ffffff !important;}
+.wz_dh{float:left;margin-left:50px;font-size:15px;line-height:62px;}
+.wz_dh a{ color:#ffffff !important;padding: 5px;}
+.wz_dh a:hover{ color:#bb2325 !important;background: #fff;display: block;border-radius: 13px;height: 40px;line-height: 40px;margin-top: 7px;}
+ 
+     
+	 
+ 通讯地址：河北省唐山市曹妃甸新城渤海大道21号科技楼五层 063210 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 

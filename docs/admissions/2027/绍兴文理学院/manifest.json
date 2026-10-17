@@ -1,0 +1,51 @@
+{
+  "name": "绍兴文理学院",
+  "tier": "从容区",
+  "gate": 293,
+  "region": "浙江",
+  "candidates": [
+    {
+      "title": "绍兴文理学院招生官网（查找2027目录）",
+      "url": "https://yjsc.usx.edu.cn/yzw/sy.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "绍兴文理学院招生官网（查找2027目录）",
+      "url": "https://yjsc.usx.edu.cn/yzw/sy.htm",
+      "effective_url": "https://yjsc.usx.edu.cn/yzw/sy.htm",
+      "path": "docs/admissions/2027/绍兴文理学院/page-5182beb72b.html",
+      "sha256": "5b7cca105a11647b606cc7fe714a1433a54d99a93e05c19f08ab8a85e29d8ee3",
+      "bytes": 22760
+    },
+    {
+      "title": "绍兴大学2027年硕士研究生招生简章绍兴大学2027年硕士研究生招生简章",
+      "url": "https://yjsc.usx.edu.cn/info/1186/5766.htm",
+      "effective_url": "https://yjsc.usx.edu.cn/info/1186/5766.htm",
+      "path": "docs/admissions/2027/绍兴文理学院/page-99e1baec09.html",
+      "sha256": "e169fe126338cb2b42774ecc80b0157128123b323093ab7e982cb65c651bf271",
+      "bytes": 62846
+    },
+    {
+      "title": "绍兴大学2027年硕士研究生招生专业目录绍兴大学2027年硕士研究生招生专业目录",
+      "url": "https://yjsc.usx.edu.cn/info/1173/5769.htm",
+      "effective_url": "https://yjsc.usx.edu.cn/info/1173/5769.htm",
+      "path": "docs/admissions/2027/绍兴文理学院/page-151fe022c6.html",
+      "sha256": "9a807d2c3379f8de1977921dd17485d0f4d5c503f039d76d13aa428844b58502",
+      "bytes": 11925
+    }
+  ],
+  "files": [
+    {
+      "title": "2027年硕士研究生招生专业目录-全日制专硕.xlsx",
+      "url": "https://yjsc.usx.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1269980530&wbfileid=5476134",
+      "path": "docs/admissions/2027/绍兴文理学院/2027年硕士研究生招生专业目录-全日制专硕.xlsx",
+      "sha256": "f39e13e84cd402065772abe8f385401f6c4ff2454e81c6b9bd6b07585be40d64",
+      "bytes": 18135,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

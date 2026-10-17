@@ -1,0 +1,430 @@
+﻿ 
+ 
+     
+         
+         
+         
+         武汉科技大学2027年硕士研究生招生简章-研究生院、党委研究生工作部、湖北省卓越工程师学院 
+ 
+ 
+
+         
+         
+         
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1831,'/info.jsp',50612,1903045674) 
+ 
+     
+         
+         
+         
+             
+                 
+                 
+                     
+                     
+ 
+ 
+                     
+                     研究生院、党委研究生工作部、湖北省卓越工程师学院 
+                     
+                     
+
+
+ 
+    #appu1 .qwss{
+        height: 30px;
+        font-size: 14px;
+        width: 220px;
+        padding-left: 0px;
+        border-radius: 25px;
+        border:none;
+        text-indent: 25px;}
+    #appu1 .tj{
+        width: 60px;
+        height: 45px;
+        border: 0;
+        background:url(../../images/ss.png) no-repeat 0 0;
+        position: absolute;
+        background-size:42px;
+        top: 0;
+        right: -16px;}
+ 
+ 
+ 
+    <div id="appu1">
+        <div v-if="!isError">
+            <input type="text" class="qwss"  autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+            <input class="tj" name="submit_button" type="button" v-on:click="onSubmit()"/>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+ 
+ 
+    $("#divu1").html($("#htmlu1").text());
+ 
+ 
+    var appOwner = "1903045674";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu1",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "https://wzdtyy.wust.edu.cn/" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+ 
+                 
+                 
+                 
+                     
+                                     部门首页 
+            机构简介                 
+                                        
+                               概况 
+                               机构设置 
+                               院长信箱 
+               
+             
+            招生工作                 
+                                        
+                               通知公告 
+                               博士招生 
+                               硕士招生 
+                               招生简章 
+               
+             
+            培养工作                 
+                                        
+                                 培养教学 
+                                     
+                                             通知公告   
+                                                               
+                                             培养方案   
+                                                               
+                                             教学研究   
+                                                               
+                                             教学信息   
+                                                               
+                                             管理办法   
+                                                               
+                                             学籍管理   
+                                                               
+                                             实习实践   
+                                                               
+                                     
+                                  
+                                 留学生培养 
+                                     
+                                             重要通知   
+                                                               
+                                             规章制度   
+                                                               
+                                             文件下载   
+                                                               
+                                     
+                                  
+                               培养质量监控 
+               
+             
+            学位工作                 
+                                        
+                                 学位点建设 
+                                     
+                                             通知公告   
+                                                               
+                                             学科动态   
+                                                               
+                                             学科专业目录   
+                                                               
+                                             合格评估   
+                                                               
+                                     
+                                  
+                                 学位管理 
+                                     
+                                             通知公告   
+                                                               
+                                             学位管理条例   
+                                                               
+                                             学位授予   
+                                                               
+                                             学位申请指南   
+                                                               
+                                             优秀学位论文   
+                                                               
+                                     
+                                  
+                                 导师队伍 
+                                     
+                                             通知公告   
+                                                               
+                                             博导信息   
+                                                               
+                                             学硕导师信息   
+                                                               
+                                             专硕导师信息   
+                                                               
+                                             导师选聘   
+                                                               
+                                             导师培训   
+                                                               
+                                             优秀导师风采   
+                                                               
+                                     
+                                  
+               
+             
+            思政教育                 
+                                        
+                               通知公告 
+                               校园文化 
+                               创新实践 
+                               资助工作 
+                               心理在线 
+                               研究生就业信息网 
+               
+             
+            卓越工程师学院                 
+                                        
+                               通知公告 
+                               规章制度 
+                               师资队伍 
+                               人才培养 
+               
+             
+            下载中心                 
+                                        
+                                 招生工作 
+                                     
+                                             招生信息   
+                                                               
+                                     
+                                  
+                               培养工作 
+                                 学位工作 
+                                     
+                                             学科建设   
+                                                               
+                                             学位管理   
+                                                               
+                                             导师队伍   
+                                                               
+                                     
+                                  
+                               思政教育 
+               
+             
+             学校主页 
+
+                     
+                 
+             
+         
+         
+ 
+         
+         
+             
+                 
+                     
+    当前位置: 
+                         部门首页 
+                >>
+                 招生工作 
+                >>
+                 通知公告 
+                >>
+                正文
+ 
+                  
+                  
+                  
+
+ 
+ 
+     武汉科技大学2027年硕士研究生招生简章 
+     2026-09-30  点击：[ _showDynClicks("wbnews", 1903045674, 50612) ]  
+     
+     
+ var vsb_pdf_image_data = ["/__local/3/02/DB/A875730D5B03D91CCCB52B59A61_640D7EFA_1C7FE.jpg","/__local/2/D2/B2/E3C087E940DF98928A54EECF86A_E1B701F0_453FA.jpg","/__local/9/3C/A1/4D79026E9918A68624B4BC00872_5B590C76_6CA78.jpg","/__local/D/25/C4/9C6AE540343FC9556DAB8A4DB93_F9D133F4_58929.jpg","/__local/5/FF/BD/9E5BD9F3441F0C6A2CEDC0C4E54_86CBF82C_63E98.jpg","/__local/1/7B/E1/9CF5FE8FB95E1855490F054F5C1_37532E71_5A1D1.jpg","/__local/9/B8/62/6EED17E9714E9DE8536AC323F0B_EEE108EC_66BEA.jpg","/__local/4/CB/70/6164522AB243E70DA1914EF6C39_4E92DF16_55565.jpg","/__local/9/11/5E/723C7FB1DC87047CA459A47AC3E_522788FD_33ECC.jpg","/__local/1/72/D3/536556B199E7840A492567019BF_8F1CF890_58DD1.jpg","/__local/1/C9/88/852AC94B519DB0D91BF179C4148_A305B96F_4927F.jpg","/__local/9/55/4C/C0CBB3269611C46BA91B0BA60A3_B80C0A40_472A0.jpg","/__local/B/B6/DF/B85BF241A4087C29A838F95DBFC_4399D302_4A003.jpg","/__local/C/0C/BD/58264574D955F8B65583FC6AF42_449E7DD8_4C568.jpg","/__local/0/04/A2/D06AB62E542E3B73B5075418F54_F975D3B1_50978.jpg","/__local/3/62/F1/6FE70F7FDCA3D2692E32B2172B7_9A113FDC_4D4A3.jpg","/__local/2/BE/21/84B04AAE68845EA05E10162F2B3_E85DD936_3DA46.jpg","/__local/7/61/38/9F98BBFAB90B3A6968E5E3CCC27_A2ABCA5A_4AC9B.jpg","/__local/C/4F/38/563B8CC02BE46D72457BD0B8434_518DFC0C_4864A.jpg","/__local/8/06/B8/97A475EED6AEC51E5417CB1F617_35070E8E_4B380.jpg","/__local/8/84/74/B6C3D9C696A054E5F0C98A0EF4E_409D6E0E_30BF2.jpg","/__local/6/F5/E8/088A36635A495204055BC6DD0FB_52EB0BCB_4FCB6.jpg","/__local/4/F0/0E/4DBE496A34A302B341840990278_B24F90D7_4B464.jpg","/__local/3/74/F6/9AAA120FEEDE7E9B4D697144E7E_DD8738AA_55786.jpg","/__local/D/23/AA/47ABB8696D35AE5597123AF4A95_B74ABD44_417EB.jpg","/__local/7/4A/76/DD27692607ADC1C5F1D14B5D745_6A66F39B_51F08.jpg","/__local/7/1D/E5/1E76DBF4C97313D966A72BF3628_6FD1DC7B_50BF5.jpg","/__local/B/F2/12/B382A9782E634572C54986AEF10_9AF9C0B9_50608.jpg","/__local/7/02/C7/FCAE17B523ABBB1A62AB25147D1_005C2B76_4DC4F.jpg","/__local/5/49/6D/E2B6742E21A380B57AD6DE79F84_388155CD_45F2A.jpg","/__local/2/CC/60/67F3593A01BEC55432B91E383ED_3B1FC651_4109A.jpg","/__local/D/C1/47/F0613D377711E36845A7805CE97_AB6A1D4E_4F774.jpg","/__local/6/F6/D8/9C187B910927DBB00209F0F293B_FD12D36A_5272B.jpg","/__local/2/18/61/800B56C04985700B3DF59033002_6BEBC964_30EE2.jpg","/__local/7/66/6F/D650370C4D2294A7BBB5508375C_BA819B01_3EA6F.jpg","/__local/D/24/EA/CEB8E6D3C2A5C43E41A6BB55AF2_9FF405FB_48D2F.jpg","/__local/1/6E/2F/E3CB518EFEF64909020AE444748_4CC6C7EE_42685.jpg","/__local/1/D0/8D/424504FF461BD255F77758C4734_CB773232_31DD7.jpg","/__local/E/3B/6D/61000E356D833E115791E1BDD9B_8682361F_3A0C6.jpg","/__local/9/59/2C/C09152E456D14E4E83463AA162A_E3E8208D_43365.jpg","/__local/F/48/24/506411342CDFD11977852CAFABE_E767B678_3D779.jpg","/__local/3/B1/05/D87A1AF655115909E892583CB19_205CE89C_4F79C.jpg","/__local/A/AD/98/F0A4E23D9BA181F43C2061DC3E6_D570F1B3_4A340.jpg","/__local/5/DF/3D/8DC39360131E636F41A84487625_AD3541A6_4BBAB.jpg","/__local/3/FA/4B/0F3799B1D2F8FC6F5B8AEE475BA_C738A597_4552C.jpg","/__local/F/99/25/341ADD89641DA323DCB7480508F_B637A1D2_17DB3.jpg","/__local/F/33/E4/84BD4A2633BD5309ED29A1B2765_4D577BAB_5542F.jpg","/__local/9/DD/5F/7B74850BEB57F760C7CEC6A9491_E5C8FD96_56576.jpg","/__local/5/AA/41/D768C072B012B0909B3E04A0544_4E981C85_5FE0B.jpg","/__local/B/80/84/CE544BFDA506DEC6BF03283A59A_D8CC20F3_57C80.jpg","/__local/6/60/0D/A929F1FED562F3B4258C38F7E4B_C4E35214_5705F.jpg","/__local/3/F6/D1/AFA6280E549A55AC382BED8876A_5C286778_5323F.jpg","/__local/0/FE/D3/191C42A23AD96F0DEB201DD7A42_C92A09DC_603E4.jpg","/__local/D/3E/CD/50415544707BD29A0C236C60F11_C6A04F61_5988A.jpg","/__local/2/E2/63/C50F62F3138EA72910192D08A42_48FA5D87_510C9.jpg","/__local/A/9B/8F/57C31BB4441E9575B4FC9FD237F_99A56DDF_5FA58.jpg","/__local/5/68/40/78A1DB3A1821253E9DA5AF84CC1_B58090B9_5BFD2.jpg","/__local/A/DD/18/1A1EFF4388C33DC8B70CDB17748_4AD4E135_5ADFC.jpg","/__local/E/D5/C3/E188B4097C53C0FB0CE01239E7C_3B648F25_6115D.jpg","/__local/5/97/98/D30ADCC3340CD67F48EADDC0578_AAA84905_1E747.jpg","/__local/A/53/32/8531B3F905DF95787F31F30E3FC_3D605A6A_7DDDB.jpg"];showVsbpdfIframe("/__local/3/1F/81/3F7A98C6BAE74FCFBCF8042DAC7_1B98D29B_BACD2.pdf","100%","600","0","border:1px solid #DDDDDD",vsb_pdf_image_data); 
+ 
+    
+     
+          
+             附件【 111-思想政治理论（单独考试）.pdf 】已下载 getClickTimes(11995957,1903045674,"wbnewsfile","attach") 次 
+             附件【 211翻译硕士（英语）.pdf 】已下载 getClickTimes(11995955,1903045674,"wbnewsfile","attach") 次 
+             附件【 241法语.pdf 】已下载 getClickTimes(11995956,1903045674,"wbnewsfile","attach") 次 
+             附件【 246-英语（单）.pdf 】已下载 getClickTimes(11995958,1903045674,"wbnewsfile","attach") 次 
+             附件【 308-护理综合.pdf 】已下载 getClickTimes(11995959,1903045674,"wbnewsfile","attach") 次 
+             附件【 331-社会工作原理.pdf 】已下载 getClickTimes(11995961,1903045674,"wbnewsfile","attach") 次 
+             附件【 336-艺术基础.pdf 】已下载 getClickTimes(11995960,1903045674,"wbnewsfile","attach") 次 
+             附件【 338-生物化学.pdf 】已下载 getClickTimes(11995962,1903045674,"wbnewsfile","attach") 次 
+             附件【 349-药学综合.pdf 】已下载 getClickTimes(11995963,1903045674,"wbnewsfile","attach") 次 
+             附件【 353-卫生综合.pdf 】已下载 getClickTimes(11995964,1903045674,"wbnewsfile","attach") 次 
+             附件【 357翻译基础（英语）.pdf 】已下载 getClickTimes(11995965,1903045674,"wbnewsfile","attach") 次 
+             附件【 432-统计学.pdf 】已下载 getClickTimes(11995966,1903045674,"wbnewsfile","attach") 次 
+             附件【 434-国际商务专业基础.pdf 】已下载 getClickTimes(11995967,1903045674,"wbnewsfile","attach") 次 
+             附件【 437-社会工作实务.pdf 】已下载 getClickTimes(11995970,1903045674,"wbnewsfile","attach") 次 
+             附件【 448-汉语写作与百科知识.pdf 】已下载 getClickTimes(11995968,1903045674,"wbnewsfile","attach") 次 
+             附件【 610-马克思主义哲学原理.pdf 】已下载 getClickTimes(11995969,1903045674,"wbnewsfile","attach") 次 
+             附件【 611-行政管理学.pdf 】已下载 getClickTimes(11995973,1903045674,"wbnewsfile","attach") 次 
+             附件【 612-马克思主义基本原理.pdf 】已下载 getClickTimes(11995972,1903045674,"wbnewsfile","attach") 次 
+             附件【 613-量子力学.pdf 】已下载 getClickTimes(11995971,1903045674,"wbnewsfile","attach") 次 
+             附件【 614-数学分析.pdf 】已下载 getClickTimes(11995974,1903045674,"wbnewsfile","attach") 次 
+             附件【 615-分子生物学.pdf 】已下载 getClickTimes(11995977,1903045674,"wbnewsfile","attach") 次 
+             附件【 616-基础德语.pdf 】已下载 getClickTimes(11995975,1903045674,"wbnewsfile","attach") 次 
+             附件【 617-有机化学.pdf 】已下载 getClickTimes(11995976,1903045674,"wbnewsfile","attach") 次 
+             附件【 618-基础医学综合.pdf 】已下载 getClickTimes(11995979,1903045674,"wbnewsfile","attach") 次 
+             附件【 619-设计学专业史论.pdf 】已下载 getClickTimes(11995978,1903045674,"wbnewsfile","attach") 次 
+             附件【 620-基础英语.pdf 】已下载 getClickTimes(11995980,1903045674,"wbnewsfile","attach") 次 
+             附件【 621-数学（单）.pdf 】已下载 getClickTimes(11995981,1903045674,"wbnewsfile","attach") 次 
+             附件【 622-社会工作原理（单）.pdf 】已下载 getClickTimes(11995983,1903045674,"wbnewsfile","attach") 次 
+             附件【 624-中外建筑史.pdf 】已下载 getClickTimes(11995982,1903045674,"wbnewsfile","attach") 次 
+             附件【 801-汽车理论.pdf 】已下载 getClickTimes(11995984,1903045674,"wbnewsfile","attach") 次 
+             附件【 802-岩石力学.pdf 】已下载 getClickTimes(11995985,1903045674,"wbnewsfile","attach") 次 
+             附件【 803-固体物料分选理论与工艺.pdf 】已下载 getClickTimes(11995986,1903045674,"wbnewsfile","attach") 次 
+             附件【 804-环境化学.pdf 】已下载 getClickTimes(11995988,1903045674,"wbnewsfile","attach") 次 
+             附件【 805-安全系统工程.pdf 】已下载 getClickTimes(11995987,1903045674,"wbnewsfile","attach") 次 
+             附件【 806-物理化学.pdf 】已下载 getClickTimes(11995989,1903045674,"wbnewsfile","attach") 次 
+             附件【 807-材料科学基础.pdf 】已下载 getClickTimes(11995991,1903045674,"wbnewsfile","attach") 次 
+             附件【 808-公共建筑设计原理.pdf 】已下载 getClickTimes(11995990,1903045674,"wbnewsfile","attach") 次 
+             附件【 809-冶金原理.pdf 】已下载 getClickTimes(11995992,1903045674,"wbnewsfile","attach") 次 
+             附件【 810-传热学.pdf 】已下载 getClickTimes(11995994,1903045674,"wbnewsfile","attach") 次 
+             附件【 811-机械原理.pdf 】已下载 getClickTimes(11995993,1903045674,"wbnewsfile","attach") 次 
+             附件【 812-电路.pdf 】已下载 getClickTimes(11995995,1903045674,"wbnewsfile","attach") 次 
+             附件【 813-信号与系统.pdf 】已下载 getClickTimes(11995996,1903045674,"wbnewsfile","attach") 次 
+             附件【 814-自动控制原理.pdf 】已下载 getClickTimes(11995998,1903045674,"wbnewsfile","attach") 次 
+             附件【 816-管理学.pdf 】已下载 getClickTimes(11995997,1903045674,"wbnewsfile","attach") 次 
+             附件【 818-科学技术哲学.pdf 】已下载 getClickTimes(11995999,1903045674,"wbnewsfile","attach") 次 
+             附件【 819-中国特色社会主义理论体系.pdf 】已下载 getClickTimes(11996001,1903045674,"wbnewsfile","attach") 次 
+             附件【 820-社会保障学.pdf 】已下载 getClickTimes(11996000,1903045674,"wbnewsfile","attach") 次 
+             附件【 821-经济学.pdf 】已下载 getClickTimes(11996002,1903045674,"wbnewsfile","attach") 次 
+             附件【 822-高等代数.pdf 】已下载 getClickTimes(11996003,1903045674,"wbnewsfile","attach") 次 
+             附件【 823-大学物理.pdf 】已下载 getClickTimes(11996004,1903045674,"wbnewsfile","attach") 次 
+             附件【 824运筹学与交通系统分析.pdf 】已下载 getClickTimes(11996005,1903045674,"wbnewsfile","attach") 次 
+             附件【 825-工程力学.pdf 】已下载 getClickTimes(11996007,1903045674,"wbnewsfile","attach") 次 
+             附件【 826-细胞生物学.pdf 】已下载 getClickTimes(11996006,1903045674,"wbnewsfile","attach") 次 
+             附件【 828-德语写作与翻译.pdf 】已下载 getClickTimes(11996008,1903045674,"wbnewsfile","attach") 次 
+             附件【 829-数据结构与算法.pdf 】已下载 getClickTimes(11996010,1903045674,"wbnewsfile","attach") 次 
+             附件【 830-英语写作与翻译.pdf 】已下载 getClickTimes(11996009,1903045674,"wbnewsfile","attach") 次 
+             附件【 831-化工原理.pdf 】已下载 getClickTimes(11996011,1903045674,"wbnewsfile","attach") 次 
+             附件【 832-精密机械设计.pdf 】已下载 getClickTimes(11996012,1903045674,"wbnewsfile","attach") 次 
+             附件【 834-结构力学.pdf 】已下载 getClickTimes(11996013,1903045674,"wbnewsfile","attach") 次 
+             附件【 835-水力学.pdf 】已下载 getClickTimes(11996014,1903045674,"wbnewsfile","attach") 次 
+             附件【 838-机械原理（单）.pdf 】已下载 getClickTimes(11996015,1903045674,"wbnewsfile","attach") 次 
+             附件【 839-冶金原理（单）.pdf 】已下载 getClickTimes(11996016,1903045674,"wbnewsfile","attach") 次 
+             附件【 840-化工原理（单）.pdf 】已下载 getClickTimes(11996017,1903045674,"wbnewsfile","attach") 次 
+             附件【 841-自动控制原理（单）.pdf 】已下载 getClickTimes(11996018,1903045674,"wbnewsfile","attach") 次 
+             附件【 842-材料科学基础（单）.pdf 】已下载 getClickTimes(11996019,1903045674,"wbnewsfile","attach") 次 
+             附件【 843-社会工作实务（单）.pdf 】已下载 getClickTimes(11996021,1903045674,"wbnewsfile","attach") 次 
+             附件【 844-安全系统工程（单）.pdf 】已下载 getClickTimes(11996020,1903045674,"wbnewsfile","attach") 次 
+             附件【 845-管理学（单）.pdf 】已下载 getClickTimes(11996022,1903045674,"wbnewsfile","attach") 次 
+         
+     
+     
+        上一条： 关于举办2027年全国研究生招生现场咨询会的通知 
+        下一条： 武汉科技大学2027年接收优秀应届本科毕业生免试攻读研究生工作办法 
+     
+     【 关闭 】 
+ 
+ 
+ 
+                 
+             
+         
+         
+
+
+
+         
+         
+             
+                 
+                     
+                         
+                         
+                            
+ Copyright©2023  武汉科技大学研究生院、党委研究生工作部、湖北省卓越工程师学院 邮编:430081  鄂ICP备05003334-1 地址:湖北省武汉市青山区和平大道947号 设计支持 武汉科技大学艺术与设计学院 
+                         
+                     
+                     
+                         
+                                
+                         
+                        
+                     
+                 
+             
+         
+         
+     
+ 

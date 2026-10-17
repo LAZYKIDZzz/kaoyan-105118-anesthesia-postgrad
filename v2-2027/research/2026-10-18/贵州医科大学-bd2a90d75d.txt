@@ -1,0 +1,288 @@
+﻿ 
+
+
+
+     
+     
+     
+     贵州医科大学2027年硕士研究生招生专业目录-贵州医科大学研究生院 
+
+     
+     
+
+     
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1118,'/content_test.jsp',2581,886223400) 
+ 
+
+ 
+     
+          站内搜索
+     
+     
+         
+             
+ 
+                     
+                     
+                 
+
+                
+                  
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1063410').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1063410").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1063410").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1063410").value = base64.encode(document.getElementById("lucenenewssearchkey1063410").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1063410"));
+        return true;
+    } 
+ 
+
+ 
+  
+ 
+ 
+ 
+                             
+                                 
+                             
+                         
+ 
+ 
+
+                 
+                 
+             
+         
+     
+     
+         
+             
+                 
+                     
+                 
+                 
+
+                 
+             
+         
+     
+     
+         
+             
+                 
+                     
+                     
+                     
+                 
+             
+             
+                 
+                     
+		 首页 
+		 
+			 概况 
+			 
+					 机构设置 
+					 部门职责 
+			 
+		 
+		 
+			 基层党建 
+			 
+					 支部建设 
+					 学习材料 
+			 
+		 
+		 
+			 招生信息 
+			 
+					 博士招生 
+					 硕士招生 
+					 同等学力招生 
+			 
+		 
+		 
+			 培养管理 
+			 
+					 教学管理 
+					 管理规章 
+					 培养过程 
+			 
+		 
+		 
+			 质量监控 
+			 
+					 教育质量平台 
+					 工作通知 
+			 
+		 
+		 
+			 学位管理 
+			 
+					 管理规章 
+					 学位点评估 
+			 
+		 
+		 
+			 学生管理 
+			 
+					 工作通知 
+					 奖助工作 
+					 评优评奖 
+					 政策文件 
+			 
+		 
+		 
+			 就业指导 
+			 
+					 招聘信息 
+					 就业通知 
+			 
+		 
+		 
+			 学科建设 
+			 
+					 学科动态 
+					 学位授权点 
+					 一流学科 
+					 重点学科 
+					 重点专科 
+					 政策文件 
+			 
+		 
+		 
+			 下载中心 
+			 
+					 培养工作 
+					 学位工作 
+					 学生工作 
+					 学科建设 
+					 综合工作 
+			 
+		 
+		 联系我们 
+ 
+                 
+             
+         
+     
+  
+         
+           
+               
+  
+                 
+                     
+                         
+    当前位置： 
+                         首页 
+                >>
+                 招生信息 
+                >>
+                 硕士招生 
+                >>
+                正文
+ 
+
+                     
+
+                     
+            
+ 
+ 
+     贵州医科大学2027年硕士研究生招生专业目录 
+     2026-09-30 浏览量：[ _showDynClicks("wbnews", 886223400, 2581) ]  
+     
+     
+ 
+  var vsb_pdf_image_data = ["/__local/8/B8/03/CA7934692324373CEB80034B509_3BC4AF9F_11152.jpg","/__local/E/69/76/98CB14F1FF4380149BA5D76CF4C_A2350510_10A68.jpg","/__local/5/B3/A8/AB1A1B495F546C7C5BFF1F9C935_A45D797A_FEF8.jpg","/__local/5/22/37/EF6282A6094201E8EFB80225480_ABA9AEE0_10102.jpg","/__local/0/2E/7A/E01F5A305CBE8DBA1F72810E05C_D4E52951_FE8B.jpg","/__local/E/AB/4A/024F6FEA9AE8091029ADBC17ECC_2FDB21D0_13DE3.jpg","/__local/4/9F/5A/49C65DF8108AA1767764E430AD3_3D68C3A1_12AF6.jpg"];showVsbpdfIframe("/__local/D/EA/81/1BB3FB4C92886959C6658B0A566_0BB91F7D_1797A.pdf","100%","600","7","border:1px solid #DDDDDD",vsb_pdf_image_data); 
+ 
+ 
+         
+        
+        下一条： 贵州医科大学2027年硕士研究生招生章程 
+     
+     【 关闭 】 
+ 
+ 
+
+                        
+                     
+                 
+                
+             
+         
+     
+     
+         
+             
+                 
+                     
+ 
+ 快速链接： 
+ 
+                 
+                
+                     
+ 通讯地址：贵州省贵安新区安康大道6号贵州医科大学    邮政编码：561113 　 通讯地址：贵州省贵阳市云岩区北京路9号                     邮政编码：550004 
+                 
+             
+         
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

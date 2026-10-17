@@ -1,0 +1,875 @@
+
+
+
+  
+
+
+
+
+
+
+ 
+ 
+ 
+     
+     
+     兰州大学_院校信息_中国研究生招生信息网 
+     
+     
+     
+     
+    
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    body {
+        font-family: "Helvetica Neue",Helvetica,"PingFang SC","Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",Arial,"SimSun",sans-serif;
+    }
+
+    .yz-header-banner-wrapper {
+        margin-bottom: 30px;
+        background: linear-gradient(179deg,#2094f0,#1887e0 53%);
+    }
+
+    .yz-header-banner-wrapper .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+        line-height: 200px;
+        background: url("https://t2.chei.com.cn/yz/assets/images/header-banner-2x.jpg") no-repeat top;
+        background-size: auto 100%;
+        color: #fff;
+        text-shadow: 0px 2px 2px rgba(0,0,0,0.06);
+        text-align: center;
+    }
+
+    .yz-header-banner-wrapper h1 {
+        line-height: 46px;
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    .yz-header-banner-wrapper .ch-sub-title {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .zyk-detail h2 {
+        padding-top: 0;
+    }
+ 
+ 
+ 
+ 
+     
+        /*分页*/
+        .ch-page .iconfont {
+            font-size: 14px;
+        }
+        .ch-page li.lip {
+            float: left;
+            min-width: 30px;
+            height: 30px;
+            line-height: 30px;
+            margin: 0 4px;
+            background: #fff;
+            border: 1px solid #D5D7DB;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .ch-page li.lip a, .ch-page li.lip a:link, .ch-page li.lip a:visited {
+            color: #65696E;
+            text-decoration: none;
+            display: block;
+            height: 30px;
+            padding: 0 6px;
+        }
+        .ch-page li.lip:hover {
+            border-color: #1887E0;
+            color: #1887E0;
+        }
+        .ch-page li.lip:hover a {
+            color: #1887E0;
+        }
+        .ch-page li.selected, .ch-page li.selected:hover {
+            background: #fff;
+            border-color: #1887E0;
+            color: #1887E0;
+        }
+        .ch-page li.selected a, .ch-page li.selected a:link, .ch-page li.selected a:visited {
+            cursor: default;
+            color: #1887E0;
+        }
+        .ch-page li.unable, .ch-page li.unable:hover {
+            color: #ccc;
+            background: #fff;
+            border-color: #D5D7DB;
+            padding: 0;
+            cursor: not-allowed;
+        }
+        .ch-page li.dot {
+            border: none;
+            width: 24px;
+            color: #93989E;
+            background: none;
+        }
+        .ch-page li.lip-input-box {
+            width: auto;
+            border: none;
+        }
+        .ch-page li.lip-input-box .page-input {
+            float: left;
+            width: 30px;
+            padding: 0 5px;
+            height: 30px;
+            line-height: 28px;
+            border: 1px solid #D5D7DB;
+            border-radius: 4px 0 0 4px;
+            color: #65696E;
+            outline: 0;
+        }
+        .ch-page li.lip-input-box .page-btn {
+            float: left;
+            height: 32px;
+            line-height: 1;
+            padding: 0 10px;
+            border: 1px solid #D5D7DB;
+            border-radius: 0 4px 4px 0;
+            border-left-color: transparent;
+            font-size: 14px;
+            background: #fff;
+            cursor: pointer;
+            color: #65696E;
+            box-sizing: border-box;
+        }
+        .ch-page li.lip-input-box .page-btn:hover {
+            border-color: #1887E0;
+            color: #1887E0;
+        }
+     
+    
+ 
+// 百度统计
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?3916ecc93c59d4c6e9d954a54f37d84c";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+ 
+ 
+ 
+function gaTrackerOutboundLink(params) { //ga链接埋点
+    gtag('event', params.eventAction, {
+        'event_category': params.eventCategory,
+        'event_label': params.eventLabel
+    });
+    return true;
+};
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-100524-7', {'sample_rate': 5});
+ 
+ 
+
+ 
+ 
+ 
+    
+ 
+ 
+    body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .top-nav-wrapper {
+        width: 100%;
+        height: 48px;
+        line-height: 48px;
+        background: #fff;
+        font-size: 14px;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+        z-index: 100;
+        position: relative;
+    }
+    .top-nav-wrapper a {
+        color: #2b2e33;
+    }
+    .top-nav-wrapper a:hover {
+        color: #1887e0;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .top-nav-wrapper .top-nav {
+        width: 1180px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-wrapper .top-nav-list {
+        flex: 1;
+        height: 48px;
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-wrapper .top-nav-list a {
+        margin-right: 20px;
+    }
+    .top-nav-wrapper .top-nav-list a.top-nav-home {
+        display: inline-block;
+        width: 98px;
+        height: 36px;
+        margin-right: 20px;
+        margin-left: 0px;
+        background-image: url("https://t2.chei.com.cn/yz/assets/images/logo-min.png");
+        background-image: -webkit-image-set(
+            url("https://t2.chei.com.cn/yz/assets/images/logo-min.png") 1x,
+            url("https://t4.chei.com.cn/yz/assets/images/logo-min2x.png") 2x
+        );
+        background-repeat: no-repeat;
+        background-position: center left;
+    }
+    .top-nav-hide {
+        position: relative;
+        cursor: pointer;
+        color: #2b2e33;
+    }
+    .top-nav-hide:hover {
+        color: #2b2e33;
+    }
+    .top-nav-hide:hover .top-nav-pop {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .top-nav-pop {
+        padding: 18px 30px 18px 16px;
+        visibility: hidden;
+        box-sizing: border-box;
+        background-color: #fff;
+        color: #2b2e33;
+        text-align: center;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 1;
+        top: 44px;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12);
+        font-size: 12px;
+        line-height: 20px;
+        display: flex;
+    }
+    .top-nav-pop-arrow {
+        display: block;
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-color: transparent;
+        border-style: solid;
+        left: 50%;
+        margin-left: -14px;
+        top: -7px;
+        border-width: 0 7px 7px;
+        border-bottom-color: rgba(0, 0, 0, 0.03);
+    }
+    .top-nav-pop-arrow::after {
+        display: block;
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-color: transparent;
+        border-style: solid;
+        left: 50%;
+        margin-left: -7px;
+        top: 1px;
+        border-width: 0 7px 7px;
+        border-bottom-color: #fff;
+    }
+    .top-nav-wrapper .top-nav-list a.top-nav-home:hover {
+        text-decoration: none;
+    }
+    .top-nav-wrapper .top-nav-load {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .top-nav-wrapper a.username {
+        flex: 1;
+        color: #1887e0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: right;
+    }
+    .top-nav-pop-clo {
+        font-size: 14px;
+        line-height: 22px;
+        margin-right: 22px;
+    }
+    .top-nav-pop-clo:last-child {
+        margin-right: 0;
+    }
+    .top-nav-wrapper .top-nav-pop-clo a {
+        display: block;
+        margin-right: 0;
+        white-space: nowrap;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+    .top-nav-wrapper .top-nav-pop-clo a:last-child {
+        margin-bottom: 0;
+    }
+    .top-nav-more {
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-hide:hover .top-nav-more {
+        color: #1887e0;
+        font-weight: 700;
+    }
+    .top-nav-more img {
+        width: 14px;
+        margin-left: 4px;
+        transform: rotate(90deg);
+    }
+    .top-nav-hide:hover img {
+        transform: rotate(-90deg);
+    }
+    .info-line {
+        display: block;
+        width: 1px;
+        height: 12px;
+        background: #e8eaed;
+        margin: 0 12px;
+    }
+    .top-nav-wrapper.active .seach-toggel {
+        display: none;
+    }
+    .search-cancel {
+        display: none;
+        margin-left: 12px;
+        cursor: pointer;
+    }
+    .top-nav-wrapper.active .search-cancel{
+        display: block;
+    }
+    .top-nav-load-search {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("https://t2.chei.com.cn/common/images/icon-search.svg") center center no-repeat;
+        cursor: pointer;
+    }
+    .top-nav-search-input {
+        display: none;
+    }
+    .top-nav-search-input .search-input {
+        display: block;
+        width: 200px;
+        border: 1px solid #D5D7DB;
+        height: 30px;
+        background: #FFF;
+        border-radius: 4px;
+        outline: none;
+        padding: 0 28px 0 8px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    .top-nav-search-input .search-input:focus {
+        border: 1px solid #1887E0;
+    }
+    .top-nav-wrapper.active .top-nav-search-input {
+        display: block;
+    }
+    .top-nav-wrapper.active .top-nav-load {
+        max-width: none;
+    }
+    .site-search {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    .top-nav-wrapper.active .top-nav-load-search {
+        display: none;
+    }
+    .top-nav-wrapper.active .search-button {
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: url("https://t2.chei.com.cn/common/images/icon-search.svg") center center no-repeat;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        position: absolute;
+        right: 8px;
+        top: 5px;
+    }
+    .top-nav-load-info {
+        display: flex;
+        align-items: center;
+    }
+ 
+ 
+     
+         
+               
+             首页 
+             国家政策 
+             资讯 
+             院校库 
+             在线咨询 
+             硕士目录 
+             网报公告 
+             统考网报 
+             成绩查询 
+             复试调剂 
+             信息公开 
+             推免服务 
+             
+                 更多 
+                 
+                     
+                     
+                         教育部政策 
+                         复试分数线 
+                         管理类专硕 
+                     
+                     
+                         院校政策 
+                         研招访谈 
+                         专业学位 
+                     
+                     
+                         招生简章 
+                         专业库 
+                     
+                     
+                         博士目录 
+                         博士网报 
+                     
+                 
+             
+         
+         
+             
+                 
+                     
+                     
+                     
+                 
+             
+             取消 
+             
+             
+             用户中心 
+             
+             注册 
+         
+     
+ 
+ 
+function handleLinkClick(event, type) {
+    event = event || window.event;
+    var target = event.target || event.srcElement;
+
+    var link = findClosestLink(target);
+    if (link) {
+        var href = link.getAttribute('href');
+        var label = link.textContent.trim();
+
+        gaTrackerOutboundLink({ eventCategory: type, eventAction: 'click', eventLabel: label });
+    }
+}
+
+function findClosestLink(element) {
+    while (element && element.nodeName !== 'A') {
+        element = element.parentNode;
+    }
+    if (element) {
+        return element;
+    }
+    return null;
+}
+document.addEventListener('DOMContentLoaded', function () {
+    const topNavSearch = document.getElementById('top-nav-search');
+    const searchCancel = document.querySelector('.search-cancel');
+    const searchInput = document.querySelector('.search-input');
+    const realQuery = document.querySelector('.realQuery');
+    const searchForm = document.querySelector('.site-search');
+
+    // 点击搜索图标：显示输入框（添加 active 类）
+    if (topNavSearch) {
+        topNavSearch.addEventListener('click', function (event) {
+            event.stopPropagation();
+            document.querySelector('.top-nav-wrapper').classList.add('active');
+            searchInput.focus();
+        });
+    }
+
+    // 点击取消按钮：移除 active 类
+    if (searchCancel) {
+        searchCancel.addEventListener('click', function (event) {
+            document.querySelector('.top-nav-wrapper').classList.remove('active');
+        });
+    }
+
+    // 点击文档其他地方：移除 active 类
+    document.addEventListener('click', function (event) {
+        const wrapper = document.querySelector('.top-nav-wrapper');
+        if (wrapper && !wrapper.contains(event.target)) {
+            wrapper.classList.remove('active');
+        }
+    });
+
+    // 提交表单前处理搜索词
+    if (searchForm) {
+        searchForm.addEventListener('submit', function (e) {
+            e.preventDefault(); // 阻止默认提交
+
+            const val = searchInput.value.trim();
+
+            if (!val) {
+                alert("请输入关键词");
+                return;
+            }
+
+            // 设置 realQuery 的值为关键词 + site:xxx
+            realQuery.value = val + ' site:yz.chsi.com.cn';
+
+            // 手动提交表单
+            searchForm.submit();
+        });
+    }
+});
+ 
+     
+     
+         
+            
+                
+            
+
+
+
+
+
+ 
+    .zx-yx-header-wrapper {
+        height: 220px;
+        background: linear-gradient(179deg, #2094F0 0%, #1787E0 53%);
+    }
+    .zx-yx-header-wrapper .zx-yx-header {
+        display: flex;
+        align-items: center;
+        height: 220px;
+        background: url("https://t1.chei.com.cn/yz/assets/images/sch/sch-banner.png") no-repeat center top;
+    }
+    .zx-yx-header-wrapper .yz-sch-header-xh {
+        width: 160px;
+        height: 160px;
+        padding: 12px;
+        margin-right: 28px;
+        box-sizing: border-box;
+        border-radius: 6px;
+        background: #fff;
+    }
+    .zx-yx-header-wrapper .yz-sch-header-xh img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .zx-yx-header-wrapper .yz-sch-header-con {
+        padding-top: 3px;
+        flex: 1;
+        min-width: 0;
+        color: #fff;
+    }
+    .zx-yx-header-wrapper .yz-sch-header-con a {
+        color: #fff;
+    }
+    .yz-sch-header-con .name {
+        height: 37px;
+        line-height: 37px;
+    }
+    .yz-sch-header-con .name a {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .yz-sch-header-con .location {
+        line-height: 28px;
+        margin-top: 6px;
+    }
+    .yz-sch-header-con .iconfont {
+        line-height: 1;
+        margin-right: 2px;
+        font-size: 14px;
+    }
+    .yz-sch-header-con .location span + span {
+        margin-left: 18px;
+    }
+    .yz-sch-header-con .yxtx {
+        display: flex;
+        align-items: center;
+        margin-top: 6px;
+        line-height: 28px;
+    }
+    .yz-sch-header-con .yxtx .sch-tag {
+        display: inline-flex;
+        align-items: center;
+        height: 28px;
+        padding: 0 12px;
+        border: 1px solid rgba(255, 255, 255, 0.55);
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .yz-sch-header-con .yxtx .sch-tag + .sch-tag {
+        margin-left: 12px;
+    }
+    .yz-sch-header-con .btn-con {
+        margin-top: 12px;
+    }
+    .yz-sch-header-con .btn-con a {
+        display: block;
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        background: #FFC24E;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+ 
+ 
+     
+ 
+ 
+     
+         兰州大学 
+     
+     
+          
+         所在地：甘肃省 
+         主管部门：教育部 
+     
+    
+         
+            院校特性：
+            
+                 “双一流”建设高校 
+            
+            
+                 研究生院 
+            
+            
+                 自划线 
+            
+         
+    
+     
+         
+            在线咨询
+         
+     
+ 
+         
+     
+
+     
+        
+
+
+
+
+
+
+ 兰州大学2027年硕士研究生招生章程 
+
+ 
+     请查阅：https://yz.lzu.edu.cn/shuoshishengzhaosheng/shuoshijianzhang/2026/1009/338206.html 
+ 
+
+     
+ 
+
+
+
+
+ 
+ 
+    /**
+     * description: footer 共用底部;
+     * author:myx;
+     * date:2017-07;
+     */
+
+    .footer-wrapper {
+        line-height: 30px;
+        background: #282828;
+        color: #ababab;
+    }
+
+    .footer-wrapper a {
+        color: #ababab;
+    }
+
+    .footer-wrapper a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-wrapper .footer {
+        position: relative;
+        width: 1180px;
+        height: 198px;
+        margin: 0 auto;
+    }
+
+    .footer-wrapper .footer-list {
+        position: absolute;
+        top: 32px;
+        left: 0px;
+    }
+
+    .footer-wrapper .footer-list a {
+        margin-right: 15px;
+    }
+
+    .footer-wrapper .footer-units {
+        position: absolute;
+        top: 75px;
+        left: 0px;
+    }
+
+    .footer-wrapper .footer-media {
+        position: absolute;
+        top: 32px;
+        left: 844px;
+    }
+
+    .footer-wrapper .footer-media a {
+        display: inline-block;
+        margin-right: 30px;
+        vertical-align: top;
+    }
+
+    .footer-wrapper .footer-media a:hover {
+        text-decoration: none;
+    }
+
+    .footer-wrapper .footer-media .iconfont {
+        margin-right: 5px;
+        font-size: 20px;
+        vertical-align: middle;
+    }
+
+    .footer-wrapper .svg-icon {
+        display: inline-block;
+        width: 20px;
+        height: 23px;
+        margin-right: 3px;
+        vertical-align: middle;
+    }
+
+    .footer-wrapper svg use {
+        color: #ababab;
+    }
+
+    .footer-wrapper .footer-msg {
+        position: absolute;
+        top: 75px;
+        left: 844px;
+    }
+ 
+ 
+     
+         
+             
+                 
+                     
+                         
+                         
+                         
+                         
+                     
+                 
+             
+         
+         
+             
+                 
+                     
+                         
+                         
+                     
+                 
+             
+         
+     
+ 
+ 
+     
+         
+             学信网 
+             中心简介 
+             关于我们 
+             版权声明 
+             帮助中心 
+             网站地图 
+             网站宣传 
+         
+         
+            主办单位： 教育部学生服务与素质发展中心 
+            Copyright © 2003-2026  学信网  All Rights Reserved 
+             京ICP备19004913号-1 
+             
+                 
+                京公网安备11010202009747号
+             
+         
+         
+             
+                 
+                     
+                 
+                官方微信
+             
+             
+                 
+                     
+                 
+                官方微博
+             
+         
+         
+            客服热线：010-67410388 
+            客服邮箱：kefu@chsi.com.cn
+         
+     
+ 
+
+
+
+ 
+ 
+ 
+ 

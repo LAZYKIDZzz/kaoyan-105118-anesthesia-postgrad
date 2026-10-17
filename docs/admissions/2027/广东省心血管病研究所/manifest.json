@@ -1,0 +1,33 @@
+{
+  "name": "广东省心血管病研究所",
+  "tier": "稳健区",
+  "gate": 311,
+  "region": "广东",
+  "candidates": [
+    {
+      "title": "广东省心血管病研究所官方招生入口",
+      "url": "https://www.gdghospital.org.cn/GraduateEnrollment/info_itemid_72662.html"
+    }
+  ],
+  "pages": [
+    {
+      "title": "广东省心血管病研究所官方招生入口",
+      "url": "https://www.gdghospital.org.cn/GraduateEnrollment/info_itemid_72662.html",
+      "effective_url": "https://www.gdghospital.org.cn/GraduateEnrollment/info_itemid_72662.html",
+      "path": "docs/admissions/2027/广东省心血管病研究所/page-97ec68722a.html",
+      "sha256": "92d50db49f84dbfadeae1be692d9f5146717d554f95e51a877716b065845528e",
+      "bytes": 28932
+    },
+    {
+      "title": "广东省心血管病研究所2027年硕士研究生招生简章",
+      "url": "https://www.gdghospital.org.cn/GraduateEnrollment/info_itemid_73248.html",
+      "path": "docs/admissions/2027/广东省心血管病研究所/最新2027招生简章官方网页.html",
+      "sha256": "2c80fe4ac57aebc51bb467364be19299d5275449c07fefaaa5ad2ba0c7e0df4e",
+      "bytes": 34034
+    }
+  ],
+  "files": [],
+  "failures": [],
+  "status": "仅归档招生网页，目录待补",
+  "checked_at": "2026-10-18"
+}

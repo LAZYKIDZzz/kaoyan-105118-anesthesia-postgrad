@@ -1,0 +1,955 @@
+
+ 
+	 
+     
+     
+     甘肃中医药大学党委研究生工作部（研究生院） 
+         
+     
+         
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+        var winWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidht
+        console.log(winWidth)
+        if (winWidth<1000){
+            document.write('<script type="text/javascript" src="/static/style_yjz/js/flexible_m.js"><\/script>');
+        }else if (winWidth<1500){
+            document.write('<script type="text/javascript" src="/static/style_yjz/js/flexible_1600.js"><\/script>');
+        }else{
+            document.write('<script type="text/javascript" src="/static/style_yjz/js/flexible.js"><\/script>');
+        }
+     
+ 
+	 
+		 
+			
+
+ 
+     
+         
+             
+         
+         
+             
+                 
+                     
+                     
+                     
+                     
+                     
+                     
+                 
+                 
+                    layui.use(['form','layer'], function() {
+                        $ = layui.jquery;
+                        var form = layui.form
+                            , layer = layui.layer;
+                        //自定义验证规则
+                        form.verify({
+                            keywords: function (value) {
+                                if ($('#keywords').val() == '') {
+                                    return '搜索关键词不能为空';
+                                }
+                            }
+                        });
+                    });
+                 
+             
+             
+                 学校首页 
+                  |  
+                 院长信箱 
+             
+             
+                .header_right_a {
+                    position: relative; 
+                    display: inline-block;
+                }
+                .header_right_a .email-link {
+                    position: relative;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+                .header_right_a .email-link:hover::after {
+                    content: 'jysc@gszy.edu.cn';
+                    position: absolute;
+                    left: 0;
+                    top: 100%;          /* 显示在文字正下方 */
+                    margin-top: 5px;    /* 距离文字的间距 */
+                    z-index: 999;       /* 确保在最上层 */
+                    
+                    background-color: #fff; /* 背景颜色 (深灰) */
+                    color: #123b7e;            /* 文字颜色 (白色) */
+                    padding: 5px 10px;      /* 内边距 */
+                    font-size: 12px;        /* 字体大小 */
+                    border-radius: 4px;     /* 圆角 */
+                    white-space: nowrap;    /* 强制不换行 */
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* 阴影效果 */
+                    text-align: center;
+                }
+             
+         
+     
+ 
+ 
+     
+         
+             
+                 网站首页 
+             
+         
+                 
+             
+             机构简介 
+             
+                         
+                 
+                                         
+                         研究生院概况 
+                     
+                                         
+                         研究生院领导 
+                     
+                                         
+                         各科室职责 
+                     
+                                     
+             
+                     
+                 
+             
+             党建工作 
+             
+                         
+                 
+                                         
+                         党建新闻 
+                     
+                                         
+                         办事流程 
+                     
+                                     
+             
+                     
+                 
+             
+             招生工作 
+             
+                         
+                 
+                                         
+                         招生在线 
+                     
+                                         
+                         规章制度 
+                     
+                                         
+                         硕士招生 
+                     
+                                         
+                         博士招生 
+                     
+                                     
+             
+                     
+                 
+             
+             教育培养工作 
+             
+                         
+                 
+                                         
+                         导师队伍建设 
+                     
+                                         
+                         规章制度 
+                     
+                                         
+                         创新能力培养 
+                     
+                                         
+                         教学成果奖与教改项目展示 
+                     
+                                         
+                         培养方案 
+                     
+                                         
+                         实践基地 
+                     
+                                     
+             
+                     
+                 
+             
+             学位工作 
+             
+                         
+                 
+                                         
+                         规章制度 
+                     
+                                         
+                         学位申请 
+                     
+                                         
+                         优博优硕 
+                     
+                                         
+                         办事流程 
+                     
+                                     
+             
+                     
+                 
+             
+             学生管理 
+             
+                         
+                 
+                                         
+                         规章制度 
+                     
+                                         
+                         奖助工作 
+                     
+                                         
+                         学生活动 
+                     
+                                         
+                         学生工作 
+                     
+                                     
+             
+                     
+                 
+             
+             就业工作 
+             
+                         
+                 
+                                         
+                         就业公告 
+                     
+                                         
+                         就业政策 
+                     
+                                     
+             
+                     
+             
+     
+        $(".nav_li").hover(function () {
+            $(this).find(".nav_li_ziul").stop().show()
+        },function () {
+            $(this).find(".nav_li_ziul").stop().hide()
+        });
+     
+ 
+ 
+     
+     
+         
+             
+             
+             
+         
+     
+     
+         首页 
+                 
+             机构简介 
+             
+                                 研究生院概况 
+                                 研究生院领导 
+                                 各科室职责 
+                             
+         
+                         
+             党建工作 
+             
+                                 党建新闻 
+                                 办事流程 
+                             
+         
+                         
+             招生工作 
+             
+                                 招生在线 
+                                 规章制度 
+                                 硕士招生 
+                                 博士招生 
+                             
+         
+                         
+             教育培养工作 
+             
+                                 导师队伍建设 
+                                 规章制度 
+                                 创新能力培养 
+                                 教学成果奖与教改项目展示 
+                                 培养方案 
+                                 实践基地 
+                             
+         
+                         
+             学位工作 
+             
+                                 规章制度 
+                                 学位申请 
+                                 优博优硕 
+                                 办事流程 
+                             
+         
+                         
+             学生管理 
+             
+                                 规章制度 
+                                 奖助工作 
+                                 学生活动 
+                                 学生工作 
+                             
+         
+                         
+             就业工作 
+             
+                                 就业公告 
+                                 就业政策 
+                             
+         
+                     
+     
+        $(".header_m_nav_bnt").click(function () {
+            if($("#nav_bnt1").hasClass("rotate")){
+                $("#nav_bnt1").removeClass("rotate").addClass("rotate1");
+            }else{
+                $("#nav_bnt1").removeClass("rotate1").addClass("rotate");
+            };
+            if($("#nav_bnt3").hasClass("rotate")){
+                $("#nav_bnt3").removeClass("rotate").addClass("rotate2");
+            }else{
+                $("#nav_bnt3").removeClass("rotate2").addClass("rotate");
+            };
+            $("#nav_bnt2").toggle(500);
+            $("#navbox").toggle(300);
+            return false;
+        })
+
+        $(function(){
+            $(document).bind("click",function(e){
+                var target = $(e.target);
+                if(target.closest("#navbox").length == 0){
+                    $('#navbox').hide(300);
+                }
+            })
+            $(".navlist").click(
+                function(){
+                    $(this).children(".navlistbox").toggle(300);
+                    $(this).siblings().children(".navlistbox").hide()
+                }
+            );
+        });
+     
+ 
+			 
+				 
+					 
+					 
+					 
+				 
+				 
+					 
+												 
+												 
+												 
+												 
+											 
+				 
+			 
+			 
+			 
+				/* 调用SuperSlide */
+				jQuery(".banner").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click",interTime:5000,
+					startFun:function(i){
+						var curLi = jQuery(".banner .bd li").eq(i); /* 当前大图的li */
+						if( !!curLi.attr("_src") ){
+							curLi.css("background-image",curLi.attr("_src")).removeAttr("_src") /* 将_src地址赋予li背景，然后删除_src */
+						}
+					}
+				});
+			 
+			 
+				 
+			     
+				     
+										     
+				 
+				 
+			 
+			 
+			        var mySwiper = new Swiper('.swiper-container0',{
+				    pagination: '.pagination0',
+				    loop:true,
+				    grabCursor: true,
+				    paginationClickable: true,
+				    autoplay: 2500,
+			        autoplayDisableOnInteraction: false
+				  })
+			 
+			
+			 
+				 
+					 
+						 
+							 快捷入口 
+						 
+						 
+							 
+								 
+									 
+									 学位工作 
+								 
+							 
+							 
+							 
+								 
+									 
+									 导师队伍建设 
+								 
+							 
+							 
+							 
+								 
+									 
+									 下载中心 
+								 
+							 
+							 
+							 
+								 
+									 
+									 研究生管理系统 
+								 
+							 
+							 
+							 
+								 
+									 
+									 学科学位管理中心 
+								 
+							 
+							 
+							 
+								 
+									 
+									 玄晏•论衡 
+								 
+							 
+						 
+					 
+					 
+						 
+							 
+								 新闻动态 
+								 更多+ 
+							 
+							 
+								 
+									 
+										 
+										 
+											 
+										 
+										 
+									 
+									 
+										 
+									 
+								 
+
+								 
+									 
+								 
+							 
+						 
+						 
+							 
+								 通知公告 
+								 更多+ 
+							 
+							 
+								 
+							 
+						 
+					 
+				 
+				 
+					 
+						 
+							 
+								 招生信息 
+								 更多+ 
+							 
+							 
+						 
+						 
+							 
+								 教育培养 
+								 更多+ 
+							 
+							 
+						 
+					 
+				 
+				 
+					 
+						 
+							 研究生活动 
+							 
+						 
+						 
+							 
+								 
+								 
+							 
+							 
+								 
+								    								     
+										 
+										    											 
+																						 【就业导航】1093-(4)山东省东营港经济开发区卫生类事业单位2026年公开招聘工作人员公告 
+										 
+									 
+								    								     
+										 
+										    										     
+										    											 硕博学术论坛第53期成功举办 
+										 
+									 
+								    								     
+										 
+										    										     
+										    											 搭建研学平台 迸发思想火花---研究生院常态化开展硕博学术论坛 
+										 
+									 
+								    								     
+										 
+										    										     
+										    											 清明祭英烈 薪火永相传      —研究生第二党支部开展清明节主题党日活动 
+										 
+									 
+								    								     
+										 
+										    										     
+										    											 缅怀革命先烈  传承红色基因 — 研究生第七党支部开展清明节祭扫主题党日活动 
+										 
+									 
+								    								     
+										 
+										    										     
+										    											 党委研究生工作部召开研究生管理工作专题调研学生干部座谈会 
+										 
+									 
+								    								     
+										 
+										    										     
+										    											 党建引领聚合力 健康服务暖民心 —— 研究生院党委组织研究生党员开展社区志愿服务活动 
+										 
+									 
+								    								 
+							 
+						 
+						 
+							jQuery(".main3_1_img").slide({titCell:".hd ul",mainCell:".bd .main3_1_img_ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:4,interTime:4000});
+						 
+						 
+							 
+							    							     
+									 
+									    										 
+																				 党建引领聚合力 健康服务暖民心 —— 研究生院党委组织研究生党员开展社区志愿服务活动 
+									 
+								 
+															     
+									 
+									    										 
+																				 党委研究生工作部召开研究生管理工作专题调研学生干部座谈会 
+									 
+								 
+															     
+									 
+									    										 
+																				 缅怀革命先烈  传承红色基因 — 研究生第七党支部开展清明节祭扫主题党日活动 
+									 
+								 
+															     
+									 
+									    										 
+																				 清明祭英烈 薪火永相传      —研究生第二党支部开展清明节主题党日活动 
+									 
+								 
+															     
+									 
+									    										 
+																				 搭建研学平台 迸发思想火花---研究生院常态化开展硕博学术论坛 
+									 
+								 
+															     
+									 
+									    										 
+																				 硕博学术论坛第53期成功举办 
+									 
+								 
+															     
+									 
+									    										 
+																				 【就业导航】1093-(4)山东省东营港经济开发区卫生类事业单位2026年公开招聘工作人员公告 
+									 
+								 
+															 
+						 
+					 
+				 
+			 
+			 
+    function getAdvertiseInfo() {
+        $.ajax({
+            url:"/index/Api/getAdvertiseList",
+            data:{type_id:2,num:1},
+            dataType:"json",
+            type:"Get",
+            success:function (res) {
+                let data = res.list;
+                $("#wap_banner").attr("src",data.thumb);
+            }
+            ,error:function (xhr) {
+                console.log(xhr.statusText);
+            }
+        })
+    }
+    //获取焦点图推荐
+    function getPositionThumbList(){
+        $.ajax({
+            url:"/index/Api/getPositionThumbList",
+            data:{type_id:1,num:3,cid:65},
+            dataType:"json",
+            type:"Get",
+            success:function (res) {
+                let data = res.list;
+                let html = "";
+                for (let i=0;i<data.length;i++){
+                    let url = data[i].url;
+                    console.log(url);
+                    html += '<div class="main1_left_li">';
+                    html += '<a href="'+url+'">'
+                        +'<i><span style="display: block;width: 100%;height: 100%;background: url('+data[i].thumb+') no-repeat;background-size: cover;background-position: center center;"></span></i>'
+                        +'<div class="main1_left_li1">'
+                        +'<h3>'+data[i].title+'</h3>'
+                        +'<p>'+data[i].description+'</p>'
+                        +'</div>'
+                        +'</a>';
+                    html += '</div>';
+                }
+                $("#position1").html(html);
+                jQuery(".main1_left11").slide({titCell:".hd ul",mainCell:".bd .main1_left_ul",autoPage:true,effect:"leftLoop",autoPlay:true,vis:1,interTime:4000});
+            }
+            ,error:function (xhr) {
+                console.log(xhr.statusText);
+            }
+        })
+    }
+    //获取新闻动态信息
+    function getArticleList(cid, num) {
+        $.ajax({
+            url: "/index/Api/getArticleList",
+            data: {
+                cid: cid,
+                num: num,
+            },
+            dataType: "json",
+            type: "GET",
+            success: function (res) {
+                let data = res.list || [];
+                let html = '';
+
+                if (data.length === 0) {
+                    html = '<div class="main_li"><a href="#">暂无数据</a></div>';
+                } else {
+                    data.forEach(item => {
+                        // 假设接口返回字段：title（标题）、date（日期字符串如 "09-25"）、url（可选）
+                        const title = item.title || '无标题';
+                        const date = formatTimestamp(item.updatetime,'MM-DD') || '--';
+                        const url = item.url || '#';
+                        html += '<div class="main_li">'+
+                            '<a href="'+url+'">' +
+                            '<h3>'+title+'</h3>'+
+                            '<span>'+date+'</span>'+
+                            '</a>'+
+                            '</div>';
+                    });
+                }
+                $('#news').html(html);
+            },
+            error: function (xhr) {
+                console.error('获取文章列表失败:', xhr.statusText);
+                $('#news').html('<div class="main_li"><a href="#">加载失败，请稍后重试</a></div>');
+            }
+        });
+    }
+    //获取通知公告信息
+    function getNoticeList(cid, num) {
+        $.ajax({
+            url: "/index/Api/getArticleList",
+            data: {
+                cid: cid,
+                num: num,
+            },
+            dataType: "json",
+            type: "GET",
+            success: function (res) {
+                let data = res.list || [];
+                let html = '';
+
+                if (data.length === 0) {
+                    html = '<div class="main_li"><a href="#">暂无数据</a></div>';
+                } else {
+                    data.forEach(item => {
+                        // 假设接口返回字段：title（标题）、date（日期字符串如 "09-25"）、url（可选）
+                        const title = item.title || '无标题';
+                        const date = formatTimestamp(item.updatetime,'MM-DD') || '--';
+                        const url = item.url || '#';
+                        html += '<div class="main_li">'+
+                            '<a href="'+url+'">' +
+                            '<h3>'+title+'</h3>'+
+                            '<span>'+date+'</span>'+
+                            '</a>'+
+                            '</div>';
+                    });
+                }
+                $('#notice').html(html);
+            },
+            error: function (xhr) {
+                console.error('获取文章列表失败:', xhr.statusText);
+                $('#notice').html('<div class="main_li"><a href="#">加载失败，请稍后重试</a></div>');
+            }
+        });
+    }
+    //招生信息
+    function getZsList(cid, num) {
+        $.ajax({
+            url: "/index/Api/getArticleList",
+            data: { cid: cid, num: num },
+            dataType: "json",
+            type: "GET",
+            success: function (res) {
+                const list = res.list || [];
+                let html = '';
+
+                if (list.length === 0) {
+                    html = '<div class="main2_li"><a href="#">暂无公告</a></div>';
+                } else {
+                    list.forEach(item => {
+                        // 假设字段：title（标题）、create_time 或 publish_time（时间戳）
+                        let title = item.title || '无标题';
+                        let url = item.url || '#';
+                        let day = formatTimestamp(item.updatetime,'DD') || '--';
+                        let yearMonth = formatTimestamp(item.updatetime,'YYYY-MM') || '--';
+                        let fullDate = formatTimestamp(item.updatetime,'YYYY-MM-DD') || '--';
+                        html += '<div class="main2_li">'+
+                            '<a href="'+url+'">'+
+                            '<div class="main2_li1">'+
+                            '<h4>'+day+'</h4>'+
+                            '<h5>'+yearMonth+'</h5>'+
+                            '<span>'+fullDate+'</span>'+
+                            '</div>'+
+                            '<div class="main2_li2">'+
+                            '<h3>'+title+'</h3>'+
+                            '</div>'+
+                            '</a>'+
+                            '</div>';
+                    });
+                }
+                $('#zs').html(html);
+            },
+            error: function (xhr) {
+                console.error('加载失败:', xhr.statusText);
+                $('#zs').html('<div class="main2_li"><a href="#">加载失败</a></div>');
+            }
+        });
+    }
+    //教育培养
+    function getEducationList(cid, num) {
+        $.ajax({
+            url: "/index/Api/getArticleList",
+            data: { cid: cid, num: num },
+            dataType: "json",
+            type: "GET",
+            success: function (res) {
+                const list = res.list || [];
+                let html = '';
+
+                if (list.length === 0) {
+                    html = '<div class="main2_li"><a href="#">暂无公告</a></div>';
+                } else {
+                    list.forEach(item => {
+                        // 假设字段：title（标题）、create_time 或 publish_time（时间戳）
+                        const title = item.title || '无标题';
+                        const url = item.url || '#';
+                        const day = formatTimestamp(item.updatetime,'DD') || '--';
+                        const yearMonth = formatTimestamp(item.updatetime,'YYYY-MM') || '--';
+                        const fullDate = formatTimestamp(item.updatetime,'YYYY-MM-DD') || '--';
+                        html += '<div class="main2_li">'+
+                            '<a href="'+url+'">'+
+                            '<div class="main2_li1">'+
+                            '<h4>'+day+'</h4>'+
+                            '<h5>'+yearMonth+'</h5>'+
+                            '<span>'+fullDate+'</span>'+
+                            '</div>'+
+                            '<div class="main2_li2">'+
+                            '<h3>'+title+'</h3>'+
+                            '</div>'+
+                            '</a>'+
+                            '</div>';
+                    });
+                }
+                $('#py').html(html);
+            },
+            error: function (xhr) {
+                console.error('加载失败:', xhr.statusText);
+                $('#py').html('<div class="main2_li"><a href="#">加载失败</a></div>');
+            }
+        });
+    }
+    /**
+     * 将时间戳转换为指定格式的日期字符串
+     * @param {number} timestamp - 时间戳（支持秒或毫秒）
+     * @param {string} format - 日期格式模板，例如 'YYYY-MM-DD'、'MM/DD/YYYY HH:mm:ss'
+     * @returns {string} 格式化后的日期字符串
+     */
+    function formatTimestamp(timestamp, format = 'YYYY-MM-DD') {
+        // 如果是 10 位时间戳（秒），则转为毫秒
+        if (String(timestamp).length === 10) {
+            timestamp = timestamp * 1000;
+        }
+
+        const date = new Date(timestamp);
+        if (isNaN(date.getTime())) {
+            return 'Invalid Date';
+        }
+
+        const year = date.getFullYear();
+        const month = String(date.getMonth() + 1).padStart(2, '0'); // 月份从0开始
+        const day = String(date.getDate()).padStart(2, '0');
+        const hours = String(date.getHours()).padStart(2, '0');
+        const minutes = String(date.getMinutes()).padStart(2, '0');
+        const seconds = String(date.getSeconds()).padStart(2, '0');
+
+        return format
+            .replace(/YYYY/g, year)
+            .replace(/YY/g, String(year).slice(-2))
+            .replace(/MM/g, month)
+            .replace(/DD/g, day)
+            .replace(/HH/g, hours)
+            .replace(/mm/g, minutes)
+            .replace(/ss/g, seconds);
+    }
+    $(function () {
+        getAdvertiseInfo();
+        getPositionThumbList();
+        getArticleList(65,6);
+        getNoticeList([66],6);
+        getZsList(12,6);
+        getEducationList(22,6);
+        getActivity([137,80], 10);
+    })
+ 
+			 
+    //友情链接
+    function getLinkList(type_id, sort) {
+        $.ajax({
+            url: "/index/Api/getLinkList",
+            data: { type_id: type_id, show_style: sort },
+            dataType: "json",
+            type: "GET",
+            success: function (res) {
+                const list = res.list || [];
+                let html = '';
+
+                if (list.length === 0) {
+                    html = '<div class="main3_1_img_li"><a href="#">暂无数据</a></div>';
+                } else {
+                    list.forEach(item => {
+                        // 假设字段：title（标题）、create_time 或 publish_time（时间戳）
+                        const title = item.name || '无标题';
+                        const url = item.url || '#';
+                        html += '<li>' +
+                            '<a href="'+url+'" target="_blank">' + title+'</a>' +
+                            '</li>'
+                    });
+                }
+                $('#link').html(html);
+            },
+            error: function (xhr) {
+                console.error('加载失败:', xhr.statusText);
+                $('#link').html('<li><a href="#">加载失败</a></li>');
+            }
+        });
+    }
+    $(function () {
+        getLinkList(1,1);
+    })
+ 
+			 
+	 
+		 友情链接 
+		 
+	 
+	 
+		 
+			 
+				 招生科：5162472 
+				 教育管理科：5162622 5162451 
+			 
+			 
+				 主办单位：甘肃中医药大学党委研究生工作部（研究生院） 
+				 本站由 载鲲软件 提供技术支持 
+			 
+		 
+		 
+			 
+				 Copyright © 2017-2026 甘肃中医药大学党委研究生工作部（研究生院） 
+			 
+			 
+				 备案序号： 陇ICP备17003159号 
+				 甘公网安备62012302000079号 			 
+		 
+		 
+			 
+			 手机站 
+		 
+	 
+ 
+ 
+	 
+		 
+			 招生科：5162472 
+			 教育管理科：5162622 5162451 
+			 主办单位：甘肃中医药大学党委研究生工作部（研究生院） 
+		 
+		 
+			 Copyright © 2017-2026 甘肃中医药大学党委研究生工作部（研究生院） 
+			 备案序号： 陇ICP备17003159号 
+			 甘公网安备62012302000079号 			 本站由 载鲲软件 提供技术支持 
+		 
+	 
+ 
+		 
+	 
+ 

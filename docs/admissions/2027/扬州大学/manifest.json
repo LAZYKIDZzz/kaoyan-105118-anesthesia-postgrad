@@ -1,0 +1,32 @@
+{
+  "name": "扬州大学",
+  "tier": "从容区",
+  "gate": 299,
+  "region": "江苏",
+  "candidates": [
+    {
+      "title": "扬州大学官方招生入口",
+      "url": "http://yjsc.yzu.edu.cn/index.htm"
+    },
+    {
+      "title": "扬州大学招生官网（查找2027目录）",
+      "url": "https://yjsc.yzu.edu.cn/"
+    }
+  ],
+  "pages": [],
+  "files": [],
+  "failures": [
+    {
+      "url": "http://yjsc.yzu.edu.cn/index.htm",
+      "title": "扬州大学官方招生入口",
+      "error": "412\nhttp://yjsc.yzu.edu.cn/index.htm"
+    },
+    {
+      "url": "https://yjsc.yzu.edu.cn/",
+      "title": "扬州大学招生官网（查找2027目录）",
+      "error": "412\nhttps://yjsc.yzu.edu.cn/"
+    }
+  ],
+  "status": "官网访问受限，待补原件",
+  "checked_at": "2026-10-18"
+}

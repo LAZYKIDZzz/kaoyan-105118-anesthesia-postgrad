@@ -1,0 +1,43 @@
+{
+  "name": "西安医学院",
+  "tier": "从容区",
+  "gate": 293,
+  "region": "陕西",
+  "candidates": [
+    {
+      "title": "西安医学院官方招生入口",
+      "url": "https://yjsc.xiyi.edu.cn/zsgl/zsxx.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "西安医学院官方招生入口",
+      "url": "https://yjsc.xiyi.edu.cn/zsgl/zsxx.htm",
+      "effective_url": "https://yjsc.xiyi.edu.cn/zsgl/zsxx.htm",
+      "path": "docs/admissions/2027/西安医学院/page-152513b99a.html",
+      "sha256": "47108c7adff714f9d255a6d8dcd6edf0b2f1d083a54e1611bb3dd33cd0de50ba",
+      "bytes": 13600
+    },
+    {
+      "title": "西安医学院2027年硕士研究生招生专业目录西安医学院2027年硕士研究生招生专业目录",
+      "url": "https://yjsc.xiyi.edu.cn/info/1008/4626.htm",
+      "effective_url": "https://yjsc.xiyi.edu.cn/info/1008/4626.htm",
+      "path": "docs/admissions/2027/西安医学院/page-5262e28003.html",
+      "sha256": "f868f0e9811fdc0651c38aafaf3091a60ded9f09bf2647eb576bc9a38511885d",
+      "bytes": 7527
+    }
+  ],
+  "files": [
+    {
+      "title": "西安医学院2027年招生专业目录",
+      "url": "https://yjsc.xiyi.edu.cn/__local/4/E0/C9/D9910D2C2C85BEA7C1101A6A28D_17AE892D_122EE.pdf",
+      "path": "docs/admissions/2027/西安医学院/西安医学院2027年招生专业目录.pdf",
+      "sha256": "8f1a6f617ccc342e2608c4a3f6127c279dda013f78b87c27f7622b379b26bfe2",
+      "bytes": 74478,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

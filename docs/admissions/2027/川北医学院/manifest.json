@@ -1,0 +1,35 @@
+{
+  "name": "川北医学院",
+  "tier": "从容区",
+  "gate": 295,
+  "region": "四川",
+  "candidates": [
+    {
+      "title": "川北医学院2027年招生目录入口",
+      "url": "https://www.nsmc.edu.cn/dwyjsgzb/info/1322/70948.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "川北医学院2027年招生目录入口",
+      "url": "https://www.nsmc.edu.cn/dwyjsgzb/info/1322/70948.htm",
+      "effective_url": "https://www.nsmc.edu.cn/dwyjsgzb/info/1322/70948.htm",
+      "path": "docs/admissions/2027/川北医学院/page-b2927b97a1.html",
+      "sha256": "531325d5d94997f016f11da3e14222f55bfbbb5e826647f6c53cdd855700c28a",
+      "bytes": 11844
+    }
+  ],
+  "files": [
+    {
+      "title": "川北医学院二〇二七年硕士研究生招生简章与专业目录.pdf",
+      "url": "https://www.nsmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1998980164&wbfileid=9B0D013D0F715CB960F0199F9E56931F",
+      "path": "docs/admissions/2027/川北医学院/川北医学院二〇二七年硕士研究生招生简章与专业目录.pdf",
+      "sha256": "a37c493dc6a8cdb599e95e6dd56b48c4d6bceb98ef906d0ea01d1bfe9db037e1",
+      "bytes": 1552911,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

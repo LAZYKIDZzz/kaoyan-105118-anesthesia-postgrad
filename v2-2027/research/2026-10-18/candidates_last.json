@@ -1,0 +1,38 @@
+[
+  {
+    "name": "川北医学院",
+    "tier": "从容区",
+    "gate": 295,
+    "region": "四川",
+    "candidates": [
+      {
+        "title": "川北医学院2027年招生目录入口",
+        "url": "https://www.nsmc.edu.cn/dwyjsgzb/info/1322/70948.htm"
+      }
+    ]
+  },
+  {
+    "name": "陕西中医药大学",
+    "tier": "从容区",
+    "gate": 297,
+    "region": "陕西",
+    "candidates": [
+      {
+        "title": "陕西中医药大学2027年招生目录入口",
+        "url": "http://yjsc.sntcm.edu.cn/zsgz/129290.htm"
+      }
+    ]
+  },
+  {
+    "name": "青岛大学",
+    "tier": "从容区",
+    "gate": 300,
+    "region": "山东",
+    "candidates": [
+      {
+        "title": "青岛大学2027年招生目录入口",
+        "url": "https://grad.qdu.edu.cn/yzb/zsjz/ssyjs/zyml.htm"
+      }
+    ]
+  }
+]

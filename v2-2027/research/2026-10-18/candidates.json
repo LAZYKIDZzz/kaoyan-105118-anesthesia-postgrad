@@ -1,0 +1,990 @@
+[
+  {
+    "name": "吉首大学",
+    "tier": "从容区",
+    "gate": 283,
+    "region": "湖南",
+    "candidates": [
+      {
+        "title": "吉首大学2027年硕士研究生招生简章-硕士招生-吉首大学研究生院",
+        "url": "https://yjsc.jsu.edu.cn/zsgz/sszs/e6215b80647f424b85f142f42ffac6ef.htm"
+      }
+    ]
+  },
+  {
+    "name": "延边大学",
+    "tier": "从容区",
+    "gate": 283,
+    "region": "吉林",
+    "candidates": [
+      {
+        "title": "延边大学2027年招收攻读硕士学位研究生招生章程 -研究生院",
+        "url": "https://grad.ybu.edu.cn/info/1188/6824.htm"
+      },
+      {
+        "title": "延边大学招生官网（查找2027目录）",
+        "url": "https://grad.ybu.edu.cn/zsgz/sszs.htm"
+      }
+    ]
+  },
+  {
+    "name": "甘肃中医药大学",
+    "tier": "从容区",
+    "gate": 287,
+    "region": "甘肃",
+    "candidates": [
+      {
+        "title": "甘肃中医药大学招生官网（查找2027目录）",
+        "url": "https://yjsc.gszy.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "内蒙古医科大学",
+    "tier": "从容区",
+    "gate": 289,
+    "region": "内蒙古",
+    "candidates": [
+      {
+        "title": "内蒙古医科大学官方招生入口",
+        "url": "http://yjsxy.immu.edu.cn/"
+      },
+      {
+        "title": "内蒙古医科大学招生官网（查找2027目录）",
+        "url": "https://yjsxy.immu.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "华北理工大学",
+    "tier": "从容区",
+    "gate": 293,
+    "region": "河北",
+    "candidates": [
+      {
+        "title": "华北理工大学招生官网（查找2027目录）",
+        "url": "https://yjsxy.ncst.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "武汉科技大学",
+    "tier": "从容区",
+    "gate": 293,
+    "region": "湖北",
+    "candidates": [
+      {
+        "title": "武汉科技大学招生官网（查找2027目录）",
+        "url": "https://ysxy.wust.edu.cn/info/1831/50612.htm"
+      },
+      {
+        "title": "武汉科技大学招生官网（查找2027目录）",
+        "url": "https://ysxy.wust.edu.cn/zsgz/tzgg.htm"
+      }
+    ]
+  },
+  {
+    "name": "湖南师范大学",
+    "tier": "从容区",
+    "gate": 293,
+    "region": "湖南",
+    "candidates": [
+      {
+        "title": "湖南师范大学2027年硕士研究生招生章程及自命题科目考试大纲-研究生院",
+        "url": "https://yjsc.hunnu.edu.cn/info/1027/16364.htm"
+      }
+    ]
+  },
+  {
+    "name": "皖南医学院",
+    "tier": "从容区",
+    "gate": 293,
+    "region": "安徽",
+    "candidates": [
+      {
+        "title": "皖南医科大学2027年硕士研究生招生章程-皖南医科大学",
+        "url": "https://www.wnmc.edu.cn/info/1451/762841.htm"
+      },
+      {
+        "title": "皖南医科大学2027年硕士研究生招生章程-皖南医科大学-研究生学院",
+        "url": "https://yjs.wnmc.edu.cn/info/1007/20701.htm"
+      }
+    ]
+  },
+  {
+    "name": "绍兴文理学院",
+    "tier": "从容区",
+    "gate": 293,
+    "region": "浙江",
+    "candidates": [
+      {
+        "title": "绍兴文理学院招生官网（查找2027目录）",
+        "url": "https://yjsc.usx.edu.cn/yzw/sy.htm"
+      }
+    ]
+  },
+  {
+    "name": "蚌埠医科大学",
+    "tier": "从容区",
+    "gate": 293,
+    "region": "安徽",
+    "candidates": [
+      {
+        "title": "蚌埠医科大学2027年招收攻读硕士学位研究生招生简章及专业目录-蚌埠医科大学研究生院",
+        "url": "https://yjsy.bbmu.edu.cn/info/1049/8892.htm"
+      }
+    ]
+  },
+  {
+    "name": "西安医学院",
+    "tier": "从容区",
+    "gate": 293,
+    "region": "陕西",
+    "candidates": [
+      {
+        "title": "西安医学院2027年全日制硕士研究生招生简章-研究生处-西安医学院",
+        "url": "https://yjsc.xiyi.edu.cn/info/1030/4631.htm"
+      }
+    ]
+  },
+  {
+    "name": "齐齐哈尔医学院",
+    "tier": "从容区",
+    "gate": 293,
+    "region": "黑龙江",
+    "candidates": [
+      {
+        "title": "齐齐哈尔医学院2027年硕士研究生招生简章",
+        "url": "https://www.qmu.edu.cn/2026/1008/c345a210827/page.htm"
+      },
+      {
+        "title": "齐齐哈尔医学院2027年硕士研究生招生简章",
+        "url": "https://www.qmu.edu.cn/2026/1008/c6157a210827/page.htm"
+      }
+    ]
+  },
+  {
+    "name": "南华大学",
+    "tier": "从容区",
+    "gate": 294,
+    "region": "湖南",
+    "candidates": [
+      {
+        "title": "南华大学2027年硕士研究生招生简章-南华大学-研究生处（部）",
+        "url": "https://yjs.usc.edu.cn/info/1313/12932.htm"
+      }
+    ]
+  },
+  {
+    "name": "长治医学院",
+    "tier": "从容区",
+    "gate": 294,
+    "region": "山西",
+    "candidates": [
+      {
+        "title": "长治医学院官方招生入口",
+        "url": "http://yjsc.czmc.edu.cn/info/1022/18302.htm"
+      },
+      {
+        "title": "长治医学院2027年硕士研究生招生简章-长治医学院研究生学院",
+        "url": "https://yjsc.czmc.edu.cn/info/1022/18302.htm"
+      }
+    ]
+  },
+  {
+    "name": "川北医学院",
+    "tier": "从容区",
+    "gate": 295,
+    "region": "四川",
+    "candidates": [
+      {
+        "title": "川北医学院招生官网（查找2027目录）",
+        "url": "https://www.nsmc.edu.cn/dwyjsgzb/info/1322/68888.htm"
+      },
+      {
+        "title": "川北医学院招生官网（查找2027目录）",
+        "url": "https://www.nsmc.edu.cn/dwyjsgzb/"
+      }
+    ]
+  },
+  {
+    "name": "新乡医学院",
+    "tier": "从容区",
+    "gate": 295,
+    "region": "河南",
+    "candidates": [
+      {
+        "title": "河南医药大学2027年硕士研究生招生章程-党委研究生工作部",
+        "url": "https://www.hamu.edu.cn/yjsc/info/1013/4835.htm"
+      },
+      {
+        "title": "河南医药大学2027年硕士研究生招生章程-党委研究生工作部",
+        "url": "https://www.xxmu.edu.cn/yjsc/info/1013/4835.htm"
+      }
+    ]
+  },
+  {
+    "name": "温州医科大学",
+    "tier": "从容区",
+    "gate": 295,
+    "region": "浙江",
+    "candidates": [
+      {
+        "title": "温州医科大学招生官网（查找2027目录）",
+        "url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/index/2027"
+      },
+      {
+        "title": "温州医科大学招生官网（查找2027目录）",
+        "url": "https://yjsy.wmu.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "湖州师范学院",
+    "tier": "从容区",
+    "gate": 295,
+    "region": "浙江",
+    "candidates": [
+      {
+        "title": "湖州师范大学2027年硕士研究生招生章程",
+        "url": "https://yjsy.huznu.edu.cn/2026/0930/c1784a256202/page.htm"
+      },
+      {
+        "title": "湖州师范学院招生官网（查找2027目录）",
+        "url": "https://yjsy.huznu.edu.cn/2026/0930/c1785a256211/page.htm"
+      }
+    ]
+  },
+  {
+    "name": "佳木斯大学",
+    "tier": "从容区",
+    "gate": 296,
+    "region": "黑龙江",
+    "candidates": [
+      {
+        "title": "佳木斯大学官方招生入口",
+        "url": "https://yjs.jmsu.edu.cn/info/1061/4118.htm"
+      },
+      {
+        "title": "佳木斯大学2027年硕士研究生招生简章-佳木斯大学",
+        "url": "https://www.jmsu.edu.cn/info/1055/20571.htm"
+      }
+    ]
+  },
+  {
+    "name": "徐州医科大学",
+    "tier": "从容区",
+    "gate": 296,
+    "region": "江苏",
+    "candidates": [
+      {
+        "title": "徐州医科大学2027年公共管理硕士（MPA）招生简章-徐州医科大学MPA中心",
+        "url": "https://mpa.xzhmu.edu.cn/info/1003/1289.htm"
+      },
+      {
+        "title": "徐州医科大学招生官网（查找2027目录）",
+        "url": "https://yjs.xzhmu.edu.cn/zs/sszs.htm"
+      }
+    ]
+  },
+  {
+    "name": "山东第一医科大学",
+    "tier": "从容区",
+    "gate": 297,
+    "region": "山东",
+    "candidates": [
+      {
+        "title": "山东第一医科大学官方招生入口",
+        "url": "https://yjszs.sdfmu.edu.cn/zsml/enterViewZsml?nd=2027"
+      },
+      {
+        "title": "山东第一医科大学2027年硕士研究生招生章程-研究生招生信息网",
+        "url": "https://yz.sdfmu.edu.cn/info/1102/6425.htm"
+      },
+      {
+        "title": "山东第一医科大学招生官网（查找2027目录）",
+        "url": "https://yz.sdfmu.edu.cn/sszs1/zyml.htm"
+      }
+    ]
+  },
+  {
+    "name": "赣南医科大学",
+    "tier": "从容区",
+    "gate": 297,
+    "region": "江西",
+    "candidates": [
+      {
+        "title": "赣南医科大学2027年硕士研究生招生简章-赣南医科大学研究生工作部（处）",
+        "url": "https://yjs.gmu.cn/info/1295/14152.htm"
+      }
+    ]
+  },
+  {
+    "name": "陕西中医药大学",
+    "tier": "从容区",
+    "gate": 297,
+    "region": "陕西",
+    "candidates": [
+      {
+        "title": "陕西中医药大学官方招生入口",
+        "url": "http://yjsc.sntcm.edu.cn/"
+      },
+      {
+        "title": "陕西中医药大学招生官网（查找2027目录）",
+        "url": "https://yzb.sntcm.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "汕头大学",
+    "tier": "从容区",
+    "gate": 298,
+    "region": "广东",
+    "candidates": [
+      {
+        "title": "汕头大学招生官网（查找2027目录）",
+        "url": "https://www.gs.stu.edu.cn/Open/RecruitTkss/ZsDir_View.aspx"
+      },
+      {
+        "title": "汕头大学招生官网（查找2027目录）",
+        "url": "https://gs.stu.edu.cn/yjszs/master_zsjz.htm"
+      }
+    ]
+  },
+  {
+    "name": "扬州大学",
+    "tier": "从容区",
+    "gate": 299,
+    "region": "江苏",
+    "candidates": [
+      {
+        "title": "扬州大学官方招生入口",
+        "url": "http://yjsc.yzu.edu.cn/index.htm"
+      },
+      {
+        "title": "扬州大学招生官网（查找2027目录）",
+        "url": "https://yjsc.yzu.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "江苏大学",
+    "tier": "从容区",
+    "gate": 299,
+    "region": "江苏",
+    "candidates": [
+      {
+        "title": "江苏大学招生官网（查找2027目录）",
+        "url": "https://yz.ujs.edu.cn/zsjzml/sszsjzml.htm"
+      }
+    ]
+  },
+  {
+    "name": "牡丹江医科大学",
+    "tier": "从容区",
+    "gate": 299,
+    "region": "黑龙江",
+    "candidates": [
+      {
+        "title": "牡丹江医科大学2027年硕士研究生招生简章-牡丹江医科大学研究生处",
+        "url": "https://www.mdjmu.cn/yjsc/info/1044/2340.htm"
+      }
+    ]
+  },
+  {
+    "name": "大连理工大学",
+    "tier": "从容区",
+    "gate": 300,
+    "region": "辽宁",
+    "candidates": [
+      {
+        "title": "大连理工大学2027年硕士研究生招生章程-大连理工大学信息公开网",
+        "url": "https://info.dlut.edu.cn/info/1163/14336.htm"
+      }
+    ]
+  },
+  {
+    "name": "青岛大学",
+    "tier": "从容区",
+    "gate": 300,
+    "region": "山东",
+    "candidates": [
+      {
+        "title": "青岛大学2027年硕士研究生招生章程-青岛大学研究生院",
+        "url": "https://grad.qdu.edu.cn/info/1130/4619.htm"
+      }
+    ]
+  },
+  {
+    "name": "南通大学",
+    "tier": "稳健区",
+    "gate": 301,
+    "region": "江苏",
+    "candidates": [
+      {
+        "title": "南通大学2027年硕士研究生招生章程、专业目录和考试科目",
+        "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/page.htm"
+      }
+    ]
+  },
+  {
+    "name": "河北北方学院",
+    "tier": "稳健区",
+    "gate": 301,
+    "region": "河北",
+    "candidates": [
+      {
+        "title": "河北北方学院2027年硕士研究生招生章程-河北北方学院-研究生学院、学位与学科建设办公室",
+        "url": "https://yjs.hebeinu.edu.cn/index.php?s=%2FShow%2Findex%2Fcid%2F11%2Fid%2F491.html"
+      }
+    ]
+  },
+  {
+    "name": "内蒙古科技大学（包头医学院）",
+    "tier": "稳健区",
+    "gate": 303,
+    "region": "内蒙古",
+    "candidates": [
+      {
+        "title": "内蒙古科技大学包头医学院2027年硕士研究生招生章程-研究生学院",
+        "url": "https://www.btmc.edu.cn/yjsxy/info/1019/3314.htm"
+      }
+    ]
+  },
+  {
+    "name": "福建医科大学",
+    "tier": "稳健区",
+    "gate": 303,
+    "region": "福建",
+    "candidates": [
+      {
+        "title": "福建医科大学招生官网（查找2027目录）",
+        "url": "https://yjsy.fjmu.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "厦门大学",
+    "tier": "稳健区",
+    "gate": 304,
+    "region": "福建",
+    "candidates": [
+      {
+        "title": "厦门大学2027年硕士研究生招生章程-厦门大学招生网",
+        "url": "https://zs.xmu.edu.cn/info/1174/36942.htm"
+      },
+      {
+        "title": "厦门大学2027年硕士研究生招生章程-厦门大学招生网",
+        "url": "https://zs.xmu.edu.cn/info/1971/36892.htm"
+      }
+    ]
+  },
+  {
+    "name": "滨州医学院",
+    "tier": "稳健区",
+    "gate": 304,
+    "region": "山东",
+    "candidates": [
+      {
+        "title": "滨州医学院招生官网（查找2027目录）",
+        "url": "https://yjszs.sdmpu.edu.cn/2056/list.htm"
+      }
+    ]
+  },
+  {
+    "name": "解放军医学院（301）",
+    "tier": "稳健区",
+    "gate": 304,
+    "region": "北京",
+    "candidates": [
+      {
+        "title": "解放军医学院（301）招生官网（查找2027目录）",
+        "url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-25318117%2CcategoryId-10462685%2CschId-367823%2Cmindex-12.dhtml"
+      }
+    ]
+  },
+  {
+    "name": "东南大学",
+    "tier": "稳健区",
+    "gate": 305,
+    "region": "江苏",
+    "candidates": [
+      {
+        "title": "东南大学2027年硕士研究生招生章程",
+        "url": "https://xxgk.seu.edu.cn/2026/1008/c10807a585158/page.htm"
+      }
+    ]
+  },
+  {
+    "name": "承德医学院",
+    "tier": "稳健区",
+    "gate": 305,
+    "region": "河北",
+    "candidates": [
+      {
+        "title": "研究生院 信息发布 承德医学院2027年招收攻读硕士学位研究生招生章程",
+        "url": "https://yjs.cdmc.edu.cn/art/2026/9/30/art_145_105464.html"
+      }
+    ]
+  },
+  {
+    "name": "济宁医学院",
+    "tier": "稳健区",
+    "gate": 305,
+    "region": "山东",
+    "candidates": [
+      {
+        "title": "济宁医学院2027年硕士研究生招生章程",
+        "url": "https://grad.jnmc.edu.cn/2026/1001/c10a184209/page.htm"
+      }
+    ]
+  },
+  {
+    "name": "海南医科大学",
+    "tier": "稳健区",
+    "gate": 305,
+    "region": "海南",
+    "candidates": [
+      {
+        "title": "海南医科大学2027年硕士研究生招生简章-海南医科大学招生信息网",
+        "url": "https://www.muhn.edu.cn/zsw/info/1092/12574.htm"
+      },
+      {
+        "title": "海南医科大学2027年硕士研究生招生简章-海南医科大学招生信息网",
+        "url": "https://muhn.edu.cn/zsw/info/1092/12574.htm"
+      }
+    ]
+  },
+  {
+    "name": "电子科技大学",
+    "tier": "稳健区",
+    "gate": 305,
+    "region": "四川",
+    "candidates": [
+      {
+        "title": "电子科技大学2027年硕士研究生招生章程-电子科技大学研究生招生网",
+        "url": "https://yz.uestc.edu.cn/info/1081/5968.htm"
+      }
+    ]
+  },
+  {
+    "name": "遵义医科大学",
+    "tier": "稳健区",
+    "gate": 306,
+    "region": "贵州",
+    "candidates": [
+      {
+        "title": "遵义医科大学官方招生入口",
+        "url": "https://grs.zmu.edu.cn/info/1099/6790.htm"
+      },
+      {
+        "title": "遵义医科大学招生官网（查找2027目录）",
+        "url": "https://grs.zmu.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "宁波大学",
+    "tier": "稳健区",
+    "gate": 307,
+    "region": "浙江",
+    "candidates": [
+      {
+        "title": "宁波大学招生官网（查找2027目录）",
+        "url": "https://graduate.nbu.edu.cn/zsgz/ssszs.htm"
+      }
+    ]
+  },
+  {
+    "name": "浙江中医药大学",
+    "tier": "稳健区",
+    "gate": 307,
+    "region": "浙江",
+    "candidates": [
+      {
+        "title": "浙江中医药大学招生官网（查找2027目录）",
+        "url": "https://yjsgl.zcmu.edu.cn/show/6007"
+      },
+      {
+        "title": "浙江中医药大学招生官网（查找2027目录）",
+        "url": "https://yjsgl.zcmu.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "宁夏医科大学",
+    "tier": "稳健区",
+    "gate": 308,
+    "region": "宁夏",
+    "candidates": [
+      {
+        "title": "宁夏医科大学招生官网（查找2027目录）",
+        "url": "https://www.nxmu.edu.cn/yjsy/zsgz/ssszs.htm"
+      }
+    ]
+  },
+  {
+    "name": "延安大学",
+    "tier": "稳健区",
+    "gate": 308,
+    "region": "陕西",
+    "candidates": [
+      {
+        "title": "延安大学2027年硕士研究生招生简章-研究生院",
+        "url": "https://yjsy.yau.edu.cn/info/1025/40802.htm"
+      }
+    ]
+  },
+  {
+    "name": "华中科技大学",
+    "tier": "稳健区",
+    "gate": 309,
+    "region": "湖北",
+    "candidates": [
+      {
+        "title": "华中科技大学招生官网（查找2027目录）",
+        "url": "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx"
+      }
+    ]
+  },
+  {
+    "name": "湖北医药学院",
+    "tier": "稳健区",
+    "gate": 309,
+    "region": "湖北",
+    "candidates": [
+      {
+        "title": "湖北医药学院官方招生入口",
+        "url": "http://yjsy.hbmu.edu.cn/2026/0930/c254a172840/page.htm"
+      },
+      {
+        "title": "湖北医药学院2027年硕士研究生招生章程",
+        "url": "https://yjsy.hbmu.edu.cn/2026/0930/c254a172840/page.htm"
+      }
+    ]
+  },
+  {
+    "name": "大连医科大学",
+    "tier": "稳健区",
+    "gate": 310,
+    "region": "辽宁",
+    "candidates": [
+      {
+        "title": "大连医科大学2027年硕士研究生招生章程-大连医科大学-研究生院",
+        "url": "https://yjs.dmu.edu.cn/info/1017/9470.htm"
+      }
+    ]
+  },
+  {
+    "name": "江南大学",
+    "tier": "稳健区",
+    "gate": 310,
+    "region": "江苏",
+    "candidates": [
+      {
+        "title": "江南大学2027年硕士研究生招生专业目录-江南大学研究生招生信息网",
+        "url": "https://yz.jiangnan.edu.cn/info/1029/3881.htm"
+      }
+    ]
+  },
+  {
+    "name": "河南科技大学",
+    "tier": "稳健区",
+    "gate": 310,
+    "region": "河南",
+    "candidates": [
+      {
+        "title": "河南科技大学食品与生物工程学院2027年硕士研究生招生专业目录-河南科技大学食品与生物工程学院",
+        "url": "https://spsw.haust.edu.cn/info/1009/18323.htm"
+      }
+    ]
+  },
+  {
+    "name": "广东省心血管病研究所",
+    "tier": "稳健区",
+    "gate": 311,
+    "region": "广东",
+    "candidates": [
+      {
+        "title": "广东省心血管病研究所招生官网（查找2027目录）",
+        "url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-3122169199%2CcategoryId-10462591%2CschId-368406%2Cmindex-12.dhtml"
+      }
+    ]
+  },
+  {
+    "name": "广州医科大学",
+    "tier": "稳健区",
+    "gate": 313,
+    "region": "广东",
+    "candidates": [
+      {
+        "title": "广州医科大学官方招生入口",
+        "url": "http://yjs.gzhmu.edu.cn/info/1003/39972.htm"
+      },
+      {
+        "title": "广州医科大学2027年硕士研究生招生简章-广州医科大学研究生院",
+        "url": "https://yjs.gzhmu.edu.cn/info/1003/39972.htm"
+      }
+    ]
+  },
+  {
+    "name": "河南大学",
+    "tier": "稳健区",
+    "gate": 314,
+    "region": "河南",
+    "candidates": [
+      {
+        "title": "河南大学官方招生入口",
+        "url": "https://grs.henu.edu.cn/"
+      },
+      {
+        "title": "河南大学招生官网（查找2027目录）",
+        "url": "https://grs.henu.edu.cn/zsgz/sszs.htm"
+      }
+    ]
+  },
+  {
+    "name": "贵州医科大学",
+    "tier": "稳健区",
+    "gate": 316,
+    "region": "贵州",
+    "candidates": [
+      {
+        "title": "贵州医科大学招生官网（查找2027目录）",
+        "url": "https://yjsxy.gmc.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "南京医科大学",
+    "tier": "稳健区",
+    "gate": 317,
+    "region": "江苏",
+    "candidates": [
+      {
+        "title": "南京医科大学2027年硕士研究生招生章程",
+        "url": "https://yjszs.njmu.edu.cn/2026/1008/c10171a307487/page.htm"
+      }
+    ]
+  },
+  {
+    "name": "南方医科大学",
+    "tier": "稳健区",
+    "gate": 317,
+    "region": "广东",
+    "candidates": [
+      {
+        "title": "南方医科大学2027年硕士研究生招生简章-南方医科大学研究生招生网",
+        "url": "https://portal.smu.edu.cn/yzw/info/1002/12431.htm"
+      }
+    ]
+  },
+  {
+    "name": "广东医科大学",
+    "tier": "稳健区",
+    "gate": 317,
+    "region": "广东",
+    "candidates": [
+      {
+        "title": "广东医科大学招生官网（查找2027目录）",
+        "url": "https://yjsxy.gdmu.edu.cn/zsgz/sszs.htm"
+      }
+    ]
+  },
+  {
+    "name": "沈阳医学院",
+    "tier": "稳健区",
+    "gate": 319,
+    "region": "辽宁",
+    "candidates": [
+      {
+        "title": "沈阳医学院招生官网（查找2027目录）",
+        "url": "https://yjsjy.symc.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "大连大学",
+    "tier": "稳健区",
+    "gate": 320,
+    "region": "辽宁",
+    "candidates": [
+      {
+        "title": "大连大学招生官网（查找2027目录）",
+        "url": "https://yjs.dlu.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "山东大学",
+    "tier": "稳健区",
+    "gate": 320,
+    "region": "山东",
+    "candidates": [
+      {
+        "title": "山东大学招生官网（查找2027目录）",
+        "url": "https://yz.sdu.edu.cn/sszs/zyml.htm"
+      }
+    ]
+  },
+  {
+    "name": "锦州医科大学",
+    "tier": "进取区",
+    "gate": 322,
+    "region": "辽宁",
+    "candidates": [
+      {
+        "title": "锦州医科大学2027年全国硕士研究生招生章程-锦州医科大学-研究生学院",
+        "url": "https://yjsc.jzmu.edu.cn/info/1097/5488.htm"
+      }
+    ]
+  },
+  {
+    "name": "成都中医药大学",
+    "tier": "进取区",
+    "gate": 323,
+    "region": "四川",
+    "candidates": [
+      {
+        "title": "成都中医药大学招生官网（查找2027目录）",
+        "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_142106"
+      },
+      {
+        "title": "成都中医药大学招生官网（查找2027目录）",
+        "url": "https://yjs.cdutcm.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "山东第二医科大学",
+    "tier": "进取区",
+    "gate": 325,
+    "region": "山东",
+    "candidates": [
+      {
+        "title": "山东第二医科大学2027年硕士研究生招生章程",
+        "url": "https://yjshb.sdsmu.edu.cn/yjszsxxw/2026/0928/c9463a180668/page.htm"
+      }
+    ]
+  },
+  {
+    "name": "吉林大学",
+    "tier": "进取区",
+    "gate": 326,
+    "region": "吉林",
+    "candidates": [
+      {
+        "title": "吉林大学2027年硕士研究生招生章程及招生专业目录-吉林大学研究生招生信息网",
+        "url": "https://yzb.jlu.edu.cn/info/1047/3678.htm"
+      },
+      {
+        "title": "吉林大学公共卫生学院2027年硕士研究生招生专业目录-吉林大学公共卫生学院",
+        "url": "https://sph.jlu.edu.cn/info/1045/9803.htm"
+      }
+    ]
+  },
+  {
+    "name": "南昌大学",
+    "tier": "进取区",
+    "gate": 327,
+    "region": "江西",
+    "candidates": [
+      {
+        "title": "南昌大学官方招生入口",
+        "url": "https://gsas.ncu.edu.cn/zsml/sszsml/index/2027"
+      },
+      {
+        "title": "南昌大学招生官网（查找2027目录）",
+        "url": "https://yjsy.ncu.edu.cn/zsgz/sszs.htm"
+      }
+    ]
+  },
+  {
+    "name": "苏州大学",
+    "tier": "进取区",
+    "gate": 327,
+    "region": "江苏",
+    "candidates": [
+      {
+        "title": "苏州大学2027年硕士研究生招生专业目录",
+        "url": "https://yjs.suda.edu.cn/ea/63/c8386a715363/page.htm"
+      },
+      {
+        "title": "苏州大学2027年硕士研究生招生简章",
+        "url": "https://yjs.suda.edu.cn/ea/64/c8365a715364/page.htm"
+      }
+    ]
+  },
+  {
+    "name": "兰州大学",
+    "tier": "进取区",
+    "gate": 328,
+    "region": "甘肃",
+    "candidates": [
+      {
+        "title": "兰州大学官方招生入口",
+        "url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-3556155899%2CcategoryId-10461788%2CschId-368587%2Cmindex-12.dhtml"
+      },
+      {
+        "title": "兰州大学招生官网（查找2027目录）",
+        "url": "https://yz.lzu.edu.cn/shuoshishengzhaosheng/shuoshijianzhang/2026/1009/338207.html"
+      },
+      {
+        "title": "兰州大学招生官网（查找2027目录）",
+        "url": "https://yz.lzu.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "上海交通大学",
+    "tier": "进取区",
+    "gate": 331,
+    "region": "上海",
+    "candidates": [
+      {
+        "title": "上海交通大学医学院2027年硕士研究生招生简章-上海交通大学医学院研究生院网站",
+        "url": "https://www.shsmu.edu.cn/yjsy/info/1068/8181.htm"
+      }
+    ]
+  },
+  {
+    "name": "成都医学院",
+    "tier": "进取区",
+    "gate": 332,
+    "region": "四川",
+    "candidates": [
+      {
+        "title": "成都医学院2027年研究生招生指南-成都医学院党委研究生工作部、研究生院",
+        "url": "https://yjsy.cmc.edu.cn/info/1016/2710.htm"
+      }
+    ]
+  },
+  {
+    "name": "安徽医科大学",
+    "tier": "进取区",
+    "gate": 333,
+    "region": "安徽",
+    "candidates": [
+      {
+        "title": "安徽医科大学官方招生入口",
+        "url": "https://yjsxy.ahmu.edu.cn/7773/list.htm"
+      },
+      {
+        "title": "安徽医科大学研究生院招生入口",
+        "url": "https://yjsxy.ahmu.edu.cn/"
+      }
+    ]
+  },
+  {
+    "name": "中国医科大学",
+    "tier": "进取区",
+    "gate": 335,
+    "region": "辽宁",
+    "candidates": [
+      {
+        "title": "中国医科大学招生官网（查找2027目录）",
+        "url": "https://www.cmu.edu.cn/cmuyjs/"
+      }
+    ]
+  }
+]

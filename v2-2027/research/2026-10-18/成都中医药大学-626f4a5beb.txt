@@ -1,0 +1,846 @@
+
+ 
+ 
+     
+     
+     
+     
+     
+     
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+      
+     硕士招生_招生工作_研究生院 
+    
+     
+     
+    
+     
+
+
+     
+     
+     
+    
+     
+     
+     
+     
+     
+     
+ 
+ 
+    
+ 
+     
+
+
+
+
+
+ 
+ 
+     
+         
+            
+
+
+ 
+     
+         
+     
+     
+         
+     
+ 
+
+ 
+    document.getElementById("inputkeyword").onkeydown = function (e) {
+        e = e || window.event;
+        if (e.keyCode == 13) {
+            gSearch();
+        }
+    };
+
+    function gSearch() {
+        var keyword = document.getElementById('inputkeyword').value;
+        if (keyword == '' || keyword == "请输入关键词") {
+            alert("请输入关键词");
+        } else {
+            window.location = 'https://zyd.cdutcm.edu.cn/yjs/s?sid=100&wd=' +
+                encodeURIComponent(keyword);
+        }
+    }
+ 
+             
+
+
+
+ 
+     站群导航 
+     
+                 
+                     
+                         
+                             主站 
+                         
+                         
+                             
+                                     成都中医药大学 
+                             
+                         
+                     
+                 
+                 
+                     
+                         
+                             教学机构 
+                         
+                         
+                             
+                                     继续教育学院/高等职业技术学院 
+                                     智能医学学院 
+                                     公共卫生学院 
+                                     药学院/现代中药产业学院 
+                                     国际教育学院 
+                                     管理学院 
+                                     护理学院 
+                                     国学院 
+                                     基础医学院 
+                                     马克思主义学院 
+                                     养生康复学院 
+                                     医学技术学院 
+                                     医学与生命科学学院 
+                                     针灸推拿学院 
+                                     国际教育英文版 
+                                     外语学院 
+                                     民族医药学院 
+                                     基尔健康医学院 
+                                     体育健康学院 
+                                     创新创业学院 
+                                     基尔健康医学院英文版 
+                             
+                         
+                     
+                 
+                 
+                     
+                         
+                             党政管理 
+                         
+                         
+                             
+                                     学校党政办公室 
+                                     科技处 
+                                     驻校纪检监查组/校纪委办公室/纪检监察室 
+                                     工会办公室 
+                                     校团委 
+                                     医院管理处 
+                                     党校教师工作部/人事处/人才工作办公室 
+                                     党委离退休工作部/离退休工作处 
+                                     审计处 
+                                     保卫处 
+                                     党委组织部2023 
+                                     研究生院 
+                                     教务处 
+                                     后勤基建处/后勤服务中心 
+                                     资产与实验室管理处 
+                                     发展规划处/双一流建设办公室2022 
+                                     学工部2023 
+                             
+                         
+                     
+                 
+                 
+                     
+                         
+                             科研及产业机构 
+                         
+                         
+                             
+                                     资产管理公司 
+                                     中国出土医学文献与文物研究院 
+                                     中医药创新研究院 
+                                     出土医学文献文物保护研究数字重点实验室 
+                                     中医药健康产业技术研究院 
+                                     科技园 
+                             
+                         
+                     
+                 
+                 
+                     
+                         
+                             公共服务 
+                         
+                         
+                             
+                                     数智创新中心 
+                                     全科中心 
+                                     教师发展中心 
+                                     博士后 
+                                     博物馆（校史馆） 
+                             
+                         
+                     
+                 
+                 
+                     
+                         
+                             专题栏目 
+                         
+                         
+                             
+                                     不忘初心牢记使命 
+                                     成中医故事 
+                                     中共成都中医药大学附属医院代表大会 
+                                     药学院科学研究 
+                                     新时代高校党建“双创”专题网 
+                                     课程思政教学研究中心 
+                                     药学院党建双创专题 
+                                     教育教学审核评估 
+                                     党史学习教育专题 
+                                     校庆专题网站 
+                                     中药学专业认证 
+                                     中药资源国家重点实验室 
+                                     三全育人 
+                                     中药种质资源四川省科技资源共享服务平台 
+                                     中塔中心 
+                                     中塔中心俄语版 
+                                     喜迎党的二十大 
+                                     校园网络安全专题网站 
+                                     “针灸+”多学科交叉创新教育实践基地 
+                                     创新创业教育实践基地 
+                                     喜迎学校第三次党代会 
+                                     本草基因组学研究院 
+                                     主题教育 
+                                     杏林选粹 
+                             
+                         
+                     
+                 
+                 
+                     
+                         
+                             虚拟仿真实验平台 
+                         
+                         
+                             
+                                     国家级实验示范中心 
+                                     针灸推拿虚拟仿真实验平台 
+                             
+                         
+                     
+                 
+                 
+                     
+                         
+                             国家教学成果 
+                         
+                         
+                             
+                                     中医现代师承教育模式的探索与实践 
+                                     守正创新、多维融通，中药学实践创新人才培 
+                                     构筑与实践以教育家精神为引领的中医药院校 
+                             
+                         
+                     
+                 
+                 
+                     
+                         未指定 
+                         
+                             
+                                     校档案馆 
+                                     学术与期刊中心 
+                             
+                         
+                     
+                 
+         
+     
+ 
+ hover($("#siteLast"),"on"); //显示站群导航  
+                 设为首页 | 加入收藏 
+             
+         
+     
+     
+         
+             
+         
+        
+
+
+ 
+     
+         
+                 首页 
+         
+     
+
+         
+             
+                 我院概况 
+         
+         
+             
+                 通知公告 
+                 
+                    
+
+
+
+     
+         新闻速递 
+     
+     
+         交流活动 
+     
+     
+         文娱志愿 
+     
+     
+         内部建设 
+     
+
+                 
+         
+         
+             
+                 招生工作 
+                 
+                    
+
+
+
+     
+         硕士招生 
+     
+     
+         博士招生 
+     
+     
+         复试录取 
+     
+     
+         考点公告 
+     
+     
+         同等学力 
+     
+
+                 
+         
+         
+             
+                 培养工作 
+                 
+                    
+
+
+
+     
+         培养公告 
+     
+     
+         学期课表 
+     
+     
+         学术科研 
+     
+     
+         规章表格 
+     
+
+                 
+         
+         
+             
+                 学位工作 
+                 
+                    
+
+
+
+     
+         学位公告 
+     
+     
+         导师遴选 
+     
+     
+         相关规定 
+     
+     
+         相关下载 
+     
+
+                 
+         
+         
+             
+                 学生工作 
+                 
+                    
+
+
+
+     
+         学生公告 
+     
+     
+         奖助学金 
+     
+     
+         管理规定 
+     
+     
+         相关下载 
+     
+
+                 
+         
+         
+             
+                 就业信息 
+         
+         
+             
+                 研究生教学成果奖展示 
+         
+         
+             
+                 重要公告 
+         
+ 
+
+     
+        (function () {
+            var navST;
+            var navST1;
+            var name = 'mainNav';
+            var t = 200;
+            var type = 2;
+            var removeOn = 'False';
+            var effect = 'fade';
+            var appendItem = '#';
+            var li = "#" + name + " li";
+            var index = 0;
+
+            if (!$("#" + name + " .li1").hasClass("on1")) {
+                $("#" + name + " .li1").first().addClass("on1");
+            } //默认第一个加.on1类
+            index = $("#" + name + " .li1").index($("#" + name + " .on1"));
+
+            //鼠标离开导航后，回复默认.on1类位置
+            $("#" + name)
+                .hover(
+                    function () {
+                        if (navST1 != null) {
+                            clearTimeout(navST1);
+                        }
+                    },
+                    function () {
+                        navST1 = setTimeout(function () {
+                                $("#" + name + " .li1").removeClass("on1").eq(index).addClass("on1");
+                            },
+                            500);
+                    }
+                );
+
+            if (type == '1') {
+                li = "#" + name + " .li1";
+            }
+            if (appendItem != '#') { //插入内容
+                var appendHtml = $(appendItem).html();
+                $(li).first().append(appendHtml);
+                $(appendItem).remove();
+            }
+
+            if (type == '3') {
+                $("#" + name + " .on1").find("ul").first().show();
+            }
+
+            $(li)
+                .hover(function () {
+                        var curItem = $(this);
+                        var onNum = (curItem.attr("class").split(" "))[0].replace("li", "");
+                        $(li).removeClass("on" + onNum);
+                        curItem.addClass("on" + onNum);
+                        navST = setTimeout(function () { //延时触发
+
+                                if ($("ul:first", curItem).css("display") != "block") {
+                                    $(li + " .ul" + onNum).hide();
+                                    if (effect == 'fade') {
+                                        $("ul:first", curItem).fadeIn(t);
+                                    } else {
+                                        $("ul:first", curItem).slideDown(t);
+                                    }
+                                };
+                                navST = null;
+                            },
+                            t);
+                    },
+                    function () {
+                        if (navST != null) {
+                            clearTimeout(navST);
+                        }
+                        if (type == '1' || type == '2') {
+                            if (effect == 'fade') {
+                                $(this).find("ul").first().fadeOut(t);
+                            } else {
+                                $(this).find("ul").first().slideUp(t);
+                            }
+                        }
+                        if (removeOn == 'True') {
+                            $(this).removeClass("on1");
+                        }
+                    },
+                    t); //end hover
+        })()
+     
+
+     
+ 
+ 
+    
+
+
+
+ 
+ 
+     
+     
+        
+
+
+         
+             
+                 招生工作 
+             
+             
+                 
+                         硕士招生 
+                         博士招生 
+                         复试录取 
+                         考点公告 
+                         同等学力 
+                 
+             
+         
+
+
+
+     
+ 
+     
+     
+     
+     
+         
+             
+                 
+
+ 您的位置： 首页 
+> 招生工作 > 硕士招生 
+                 硕士招生 
+             
+             
+
+                 
+                
+
+
+
+
+
+                 
+                    
+
+
+ 
+
+     
+         成都中医药大学2027年攻读硕士学位统招研究生招生专业目录 
+     
+
+
+     
+
+             
+                招生学院、专业、方向统考招生计划考试科目导师信息备注001基础医学院（028-61800159)100501中医基础理论501《黄帝内经》学术思想与应用研究（全日制）①101思想政治理论周宜②201英语（一)刘文平③307临床医学综合能力（中医)复试科目：黄帝内经02中医藏象理论与应用研究（全日制）①101思想政治理...
+             
+
+         
+                 [硕士招生] 
+                             发表时间：2026-10-01 
+         
+
+     
+
+ 
+
+
+
+ 
+
+     
+         成都中医药大学2027年攻读硕士学位统招研究生招生章程 
+     
+
+
+     
+
+             
+                第一条 招生人数   2027年我校拟招收统招硕士研究生计划详见学科专业目录，实际招生人数以当年国家下达的计划数为准。第二条 报考条件  符合下列条件的，可以报名参加国家组织的全国统一招生考试。 （一）拥护中国共产党的领导，遵守中华人民共和国宪法和法律，诚实守信。（二）身心健康。我校执...
+             
+
+         
+                 [硕士招生] 
+                             发表时间：2026-10-01 
+         
+
+     
+
+ 
+
+
+
+ 
+
+     
+         2027年各学院接收推荐免试研究生工作实施细则 
+     
+
+
+     
+
+             
+                1、基础医学院 https://zyd.cdutcm.edu.cn/jcyxy/tzgg/content_1431522、临床医学院 http://lcyxy.cdutcm.edu.cn/get/news/lcyxyxgw/yjsjy/zsgz/2026-09/13787.html3、针灸推拿学院 https://zyd.cdutcm.edu.cn/zjtnxydsfsyy/tzgg/content_1431024、药学院 https://zyd.cdutcm.edu.cn/yxy/yjsjy/...
+             
+
+         
+                 [硕士招生] 
+                             发表时间：2026-09-18 
+         
+
+     
+
+ 
+
+
+
+ 
+
+     
+         成都中医药大学2027年接收优秀应届本科毕业生免试攻读研究生工作办法 
+     
+
+
+     
+
+             
+                接收优秀应届本科毕业生免试攻读研究生（以下简称推免生）是研究生多元招生录取机制的重要组成部分，是加强拔尖创新人才选拔、推动高校提高人才培养质量的重要举措，是激励在校本科生勤奋学习、勇于创新、全面发展的有效手段。2027年推免生工作要以习近平新时代中国特色社会主义思想为指导，紧紧围...
+             
+
+         
+                 [硕士招生] 
+                             发表时间：2026-09-16 
+         
+
+     
+
+ 
+
+
+
+ 
+
+     
+         成都中医药大学2027年新增招生专业的公告 
+     
+
+
+     
+
+             
+                各位考生：根据国家及学校相关规定，现新增管理学院公共管理学（专业代码开头：1204）从2027年开始招收硕士研究生，该专业招生考试科目组成为：①思想政治理论  ②英语（一）③公共管理学④卫生管理学。  请广大考生知悉并积极备考，具体内容以我校2027年硕士研究生招生简章及专业目录为准。  ...
+             
+
+         
+                 [硕士招生] 
+                             发表时间：2026-07-15 
+         
+
+     
+
+ 
+
+
+
+ 
+
+     
+         成都中医药大学关于调整2027年硕士研究生招生考试初试科目&科目构成的公告 
+     
+
+
+     
+
+             
+                各位考生: 根据《教育部办公厅关于进一步规范和加强研究生考试招生工作的通知》等有关文件精神，为进一步加强硕士研究生初试考试科目优化调整和规范管理，结合我校学科发展需要和实际情况，我校2027年硕士研究生招生考试以下专业初试科目和部份初试科目构成进行调整，具体如下：一、中医药信息学（...
+             
+
+         
+                 [硕士招生] 
+                             发表时间：2026-07-15 
+         
+
+     
+
+ 
+
+
+
+ 
+
+     
+          成都中医药大学2026级硕士研究生入学须知 
+     
+
+
+     
+
+             
+                一、入学报到时间和地点（一）学术学位：以研究生院官网“成都中医药大学关于2026级研究生入学报到时间、地点的通知”为准。https://zyd.cdutcm.edu.cn/yjs/yjsh/content_141959（二）专业学位：1.临床医学和中医类专业学位：以研究生院官网“成都中医药大学2026级医学类专业学位硕士研究生规范化培...
+             
+
+         
+                 [硕士招生] 
+                             发表时间：2026-06-22 
+         
+
+     
+
+ 
+
+
+
+ 
+
+     
+         2026年拟录取硕士研究生通讯地址信息核对的通知 
+     
+
+
+     
+
+             
+                2026级拟录取硕士考生：我校2026级硕士录取数据已进入教育部录取检查阶段，录取通知书和调档函发放时间预计在六月中下旬，请各位考生耐心等待并及时关注研究院官网通知。现请各位考生进行通讯地址信息核对，通过研究生院官网首页“学生服务系统”登入成都中医药大学研究生教育教学管理系统登录，账...
+             
+
+         
+                 [硕士招生] 
+                             发表时间：2026-06-02 
+         
+
+     
+
+ 
+
+
+
+ 
+
+     
+         成都中医药大学各学院2026年第三批硕士研究生调剂复试办法 
+     
+
+
+     
+
+             
+                1、公共卫生学院 https://zyd.cdutcm.edu.cn/ggwsxy/tzgg/content_1395442、医学技术学院 https://zyd.cdutcm.edu.cn/yxjsxy/tzgg/content_1395433、智能医学学院 https://zyd.cdutcm.edu.cn/yxxxgcxy/tzgg/content_1395044、基础医学院 https://zyd.cdutcm.edu.cn/jcyxy/tzgg/content_1395575...
+             
+
+         
+                 [硕士招生] 
+                             发表时间：2026-04-17 
+         
+
+     
+
+ 
+
+
+
+ 
+
+     
+         成都中医药大学各学院2026年第二批硕士研究生调剂复试办法 
+     
+
+
+     
+
+             
+                1、民族医药学院 https://zyd.cdutcm.edu.cn/mzyyxy/yjsjy/zsgz/content_1393412、医学技术学院 https://zyd.cdutcm.edu.cn/yxjsxy/tzgg/content_1393773、基础医学院 https://zyd.cdutcm.edu.cn/jcyxy/tzgg/content_1393804、现代中药产业学院 https://www.cdutcm.edu.cn/xdzycyxy/info/1161/2...
+             
+
+         
+                 [硕士招生] 
+                             发表时间：2026-04-13 
+         
+
+     
+
+ 
+
+                 
+                 
+
+         首页 
+         上一页 
+ 1   2   3   4   5   6   7   8   9           下一页 
+         尾页 
+         共213条信息/共22页 
+         转到第 var pageNameUrl = '/yjs/zsgz/sszs_{pageid}';function quickJumpPage(event){if (event.keyCode == 13 && !(event.srcElement && (event.srcElement.tagName.toLowerCase() == 'textarea'))) {var number = document.getElementById('quickJumpInput').value;if (/\d+/i.test(number)){if (number > 22) number = 22;if(number < 1) number = 1;window.location.href = pageNameUrl.replace("{pageid}", number);}else{alert('输入的页数有误！');}}}function checkInput() {if (document.getElementById('quickJumpInput').value.length == 1) {document.getElementById('quickJumpInput').value = document.getElementById('quickJumpInput').value.replace(/[^1-9]/g, '');} else {document.getElementById('quickJumpInput').value = document.getElementById('quickJumpInput').value.replace(/\D/g, '');}} 页 
+ 
+                 
+
+             
+         
+     
+     
+ 
+ 
+
+
+ 
+ 
+     
+       
+         成都中医药大学研究生院　版权所有 地址：成都市温江区柳台大道1166号行政楼2楼　邮编： 611100 招生办电话：82713803   培养办电话：82717572    学位办电话：82716812   学生科电话：82630803 
+     
+ 
+ 
+ 
+
+     
+     
+     
+     
+
+    
+    
+
+ 

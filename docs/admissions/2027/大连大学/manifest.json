@@ -1,0 +1,51 @@
+{
+  "name": "大连大学",
+  "tier": "稳健区",
+  "gate": 320,
+  "region": "辽宁",
+  "candidates": [
+    {
+      "title": "大连大学招生官网（查找2027目录）",
+      "url": "https://yjs.dlu.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "大连大学招生官网（查找2027目录）",
+      "url": "https://yjs.dlu.edu.cn/",
+      "effective_url": "https://yjs.dlu.edu.cn/",
+      "path": "docs/admissions/2027/大连大学/page-d4a6c7fcec.html",
+      "sha256": "f404e2d652dbdfdacb3526e94579b375a4e1a20059a03ba4f3577dd73383164d",
+      "bytes": 36126
+    },
+    {
+      "title": "大连大学2027年硕士研究生招生专业目录、复试科目、加试科目大连大学2027年硕士研究生招生专业目录、复试科目、加试科目",
+      "url": "https://yjs.dlu.edu.cn/info/1065/3891.htm",
+      "effective_url": "https://yjs.dlu.edu.cn/info/1065/3891.htm",
+      "path": "docs/admissions/2027/大连大学/page-467869df3b.html",
+      "sha256": "39dd193deb2f2852ed05c016edc792557f157f558e43278c7b98658aefb64587",
+      "bytes": 14751
+    },
+    {
+      "title": "大连大学2027年全国硕士研究生招生章程大连大学2027年全国硕士研究生招生章程",
+      "url": "https://yjs.dlu.edu.cn/info/1065/3890.htm",
+      "effective_url": "https://yjs.dlu.edu.cn/info/1065/3890.htm",
+      "path": "docs/admissions/2027/大连大学/page-b3650243e7.html",
+      "sha256": "bce0b2fe2a350250be1dcef2378aaa3f870f482713afe29867e7941337a088f9",
+      "bytes": 14178
+    }
+  ],
+  "files": [
+    {
+      "title": "大连大学2027年招生专业目录",
+      "url": "https://yjs.dlu.edu.cn/__local/7/AC/58/653638450D67974839DA8B6DA8D_7A38CB23_B164D.pdf",
+      "path": "docs/admissions/2027/大连大学/大连大学2027年招生专业目录.pdf",
+      "sha256": "9c3dbe2cffb9a691b791654ecb2dbd8d40c950e073264544d82285616fe7b3ce",
+      "bytes": 726605,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

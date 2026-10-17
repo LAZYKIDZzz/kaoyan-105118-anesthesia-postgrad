@@ -1,0 +1,43 @@
+{
+  "name": "大连医科大学",
+  "tier": "稳健区",
+  "gate": 310,
+  "region": "辽宁",
+  "candidates": [
+    {
+      "title": "大连医科大学2027年硕士研究生招生章程-大连医科大学-研究生院",
+      "url": "https://yjs.dmu.edu.cn/info/1017/9470.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "大连医科大学2027年硕士研究生招生章程-大连医科大学-研究生院",
+      "url": "https://yjs.dmu.edu.cn/info/1017/9470.htm",
+      "effective_url": "https://yjs.dmu.edu.cn/info/1017/9470.htm",
+      "path": "docs/admissions/2027/大连医科大学/page-53dc8ab398.html",
+      "sha256": "f5fd7071b04ca8fc9284864198ab524bcd2c486f677808f6ac9ed5be12c89e61",
+      "bytes": 47119
+    }
+  ],
+  "files": [
+    {
+      "title": "附件1：《大连医科大学2027年硕士研究生招生专业目录》.pdf",
+      "url": "https://yjs.dmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1383548158&wbfileid=14782967",
+      "path": "docs/admissions/2027/大连医科大学/附件1：《大连医科大学2027年硕士研究生招生专业目录》.pdf",
+      "sha256": "7a7fd7060cdcd8df986fbca6da8c24ee051e7e2aa5d121587943b5675e44ee1a",
+      "bytes": 103489,
+      "kind": "original"
+    },
+    {
+      "title": "附件2：《大连医科大学2027年规培类硕士研究生各培养单位招生计划》.pdf",
+      "url": "https://yjs.dmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1383548158&wbfileid=14782972",
+      "path": "docs/admissions/2027/大连医科大学/附件2：《大连医科大学2027年规培类硕士研究生各培养单位招生计划》.pdf",
+      "sha256": "1063fc9270c64976d22833f44404dbe9b4f6c67f98b2b0f09c8b3c0614b10e1c",
+      "bytes": 71320,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

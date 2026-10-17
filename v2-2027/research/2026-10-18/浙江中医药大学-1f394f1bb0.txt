@@ -1,0 +1,557 @@
+
+ 
+ 
+     
+     
+     
+     浙江中医药大学研究生院 
+	 
+	 
+     
+	 
+     
+     
+     
+	 
+	#page-index .system ul li a{
+		background-size: 217px 100px;
+	}
+	#page-index .system ul li a:hover{
+		background-size: 217px 100px;
+	}
+	#page-index .system ul li{width:217px;}
+	#page-index .passageway ul li{padding: 0 20px 0 46px;width: 120px;}
+	
+#page-index .system1 {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background: url(/images/index/system_bg.png) no-repeat bottom;
+    background-size: 1102px auto
+}
+
+#page-index .system1 ul {
+    margin: 0 auto;
+    width: 1102px
+}
+
+#page-index .system1 ul li {
+    width: 315px;
+    margin-left: 78px;
+    float: left;
+    text-align: center
+}
+
+#page-index .system1 ul li a {
+    padding: 20px 0 6px;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: url(/images/index/system_button_bg_out.png) no-repeat 0 0;
+    background-size: 315px 100px
+}
+
+#page-index .system1 ul li a:hover {
+    padding: 6px 0 20px;
+    background: url(/images/index/system_button_bg_over.png) no-repeat 0 0;
+    background-size: 315px 100px;
+    position: relative;
+    animation: mymove 1s 1;
+    -webkit-animation: mymove 1s 1;
+    bottom: 20px
+}
+
+#page-index .system1 ul li .iconfont {
+    font-size: 48px;
+    display: block
+}
+
+#page-index .system1 ul li:first-child {
+    margin-left: 0
+}
+    
+ 
+ 
+ 
+
+ 
+     
+         
+             
+         
+     
+     
+         
+             首页 | 
+             联系我们 | 
+	     院长信箱 
+         
+         
+             
+                 
+                 
+             
+         
+     
+ 
+ 
+     
+         
+             
+                 
+                 首页 
+             
+         
+		 
+                     
+                 
+                     
+                     部门简介 
+                 
+                 
+
+                                        		                                                     教育概况 
+                                                                                        		                                                     学位点建设 
+                                                                                        		                                                     岗位职责 
+                                                                    
+					                 
+             
+           
+                     
+                 
+                     
+                     招生管理 
+                 
+                 
+
+                                        		                                                     博士生招生 
+                                                                                        		                                                     硕士生招生 
+                                                                                        		                                                     港澳台招生 
+                                                                                        		                                                     常见问题解答 
+                                                                    
+					                 
+             
+           
+                     
+                 
+                     
+                     培养管理 
+                 
+                 
+
+                                        		                                                     通知公告 
+                                                                                        		                                        		                                                     住培信息 
+                                                                                        		                                        		                                        		                    
+					                 
+             
+           
+                     
+                 
+                     
+                     学位管理 
+                 
+                 
+
+                                        		                                                     通知公告 
+                                                                                        		                                                     文件规定 
+                                                                                        		                                        		                                                     学位论文 
+                                                                                        		                                        		                                        		                    
+					                 
+             
+           
+                     
+                 
+                     
+                     联合培养基地 
+                 
+                 
+
+                                        		                                        		                                                     通知公告 
+                                                                                        		                                        		                                        		                    
+											 导师风采 
+					                 
+             
+           
+                     
+                 
+                     
+                     学生管理与思政 
+                 
+                 
+
+                                        		                                                     通知公告 
+                                                                                        		                                        		                                        		                    
+					                 
+             
+           
+                     
+                 
+                     
+                     就业指导 
+                 
+                 
+
+                                        		                                        		                                                     招聘信息 
+                                                                                        		                                                     就业管理 
+                                                                    
+					                 
+             
+           
+                     
+                 
+                     
+                     同等学力 
+                 
+                 
+
+                                        		                                                     招生宣传 
+                                                                                        		                                                     通知公告 
+                                                                                        		                                        		                                                     全国统考 
+                                                                                        		                                                     学位管理 
+                                                                    
+					                 
+             
+           
+                     
+                 
+                     
+                     下载专区 
+                 
+                 
+
+                                        		                                                     招生下载 
+                                                                                        		                                                     培养下载 
+                                                                                        		                                                     学位下载 
+                                                                                        		                                                     管理下载 
+                                                                                        		                                                     文件下载 
+                                                                    
+					                 
+             
+           
+             
+ 
+
+
+ 
+	#page-index .system ul li a{
+		background-size: 217px 100px;
+	}
+	#page-index .system ul li a:hover{
+		background-size: 217px 100px;
+	}
+	#page-index .system ul li{width:217px;}
+	#page-index .passageway ul li{padding: 0 20px 0 46px;width: 120px;}
+	
+#page-index .system1 {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background: url(/images/index/system_bg.png) no-repeat bottom;
+    background-size: 1102px auto
+}
+
+#page-index .system1 ul {
+    margin: 0 auto;
+    width: 1102px
+}
+
+#page-index .system1 ul li {
+    width: 315px;
+    margin-left: 78px;
+    float: left;
+    text-align: center
+}
+
+#page-index .system1 ul li a {
+    padding: 20px 0 6px;
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background: url(/images/index/system_button_bg_out.png) no-repeat 0 0;
+    background-size: 315px 100px
+}
+
+#page-index .system1 ul li a:hover {
+    padding: 6px 0 20px;
+    background: url(/images/index/system_button_bg_over.png) no-repeat 0 0;
+    background-size: 315px 100px;
+    position: relative;
+    animation: mymove 1s 1;
+    -webkit-animation: mymove 1s 1;
+    bottom: 20px
+}
+
+#page-index .system1 ul li .iconfont {
+    font-size: 48px;
+    display: block
+}
+
+#page-index .system1 ul li:first-child {
+    margin-left: 0
+}
+    
+ 
+
+     
+                             
+                 
+                     
+                         
+                                                                                                 
+                                                                                                                                 
+                                                                                                                                 
+                                                                                                                                 
+                                                                                     
+                     
+                     
+                     < 
+                     > 
+                 
+             
+        
+         
+             
+                 
+                     
+                         
+                                                             
+                                     
+                                         
+                                         学校召开研究生教育管理研讨会 
+                                     
+                                 
+                                                             
+                                     
+                                         
+                                         中医药研究生高质量发展专题学术研讨会在我校举行 
+                                     
+                                 
+                                                             
+                                     
+                                         
+                                         研究生院邀请马玉玲教授开展《科学家谈科技创新》研究生学术讲座 
+                                     
+                                 
+                                                             
+                                     
+                                         
+                                         研究生院邀请李梢院士开展《科学家谈科技创新》研究生学术讲座 
+                                     
+                                 
+                                                             
+                                     
+                                         
+                                         学校召开研究生联合培养工作会议 
+                                     
+                                 
+                                                     
+                     
+                     
+                 
+             
+             
+                 更多 
+                 
+                     
+                                                     通知公告 
+                                                     新闻动态 
+                                                     讲座预告 
+                                             
+                                             
+                             
+                                                                                                                      [同等学力]                                             关于公布2027届同等学力人员申请硕士学位资格审查结果的通知 10-16 
+                                     
+                                                                                                                      [学位管理]                                             关于做好2026年冬季全日制研究生学位授予工作的通知 10-16 
+                                     
+                                                                                                                 2026年博士研究生国家奖学金业绩审核结果公示 10-15 
+                                     
+                                                                                                                      [培养管理]                                             硕士生《医学技术研究进展》课程调整通知 10-14 
+                                     
+                                                                                                                      [培养管理]                                             关于核对2026级研究生学信网学籍信息的通知 10-13 
+                                     
+                                                                                                                      [学生管理与思政]                                             关于2026-2027学年研究生"三助一辅”助管岗位设置公示的通知 10-12 
+                                     
+                                                                                                                      [培养管理]                                             关于做好2025级研究生中期考核工作的通知 10-12 
+                                     
+                                                                                                                      [学生管理与思政]                                             浙江省教育厅办公室关于印发《浙江省现行 学生资助政策问答（2026 年）》的通知 09-29 
+                                     
+                                                             
+                         
+                                             
+                             
+                                                                                                                 育人模式新突破！我校1名硕士研究生首次以实践成果通过学位答辩 05-25 
+                                     
+                                                                                                                 研究生院邀请周华教授开展《科学家谈科技创新》研究生学术讲座 03-20 
+                                     
+                                                                                                                 学校召开研究生教育管理研讨会 11-21 
+                                     
+                                                                                                                 中医药研究生高质量发展专题学术研讨会在我校举行 07-03 
+                                     
+                                                                                                                 我校博士生作为第一作者在《Acta Pharmaceutica Sinica B》发表研究成果 06-03 
+                                     
+                                                                                                                 研究生院邀请马玉玲教授开展《科学家谈科技创新》研究生学术讲座 05-23 
+                                     
+                                                                                                                 研究生院邀请李梢院士开展《科学家谈科技创新》研究生学术讲座 04-10 
+                                     
+                                                                                                                 我校博士研究生在国际知名期刊Epilepsia发表文章 02-13 
+                                     
+                                                             
+                         
+                                             
+                             
+                                                                                                                 《科学家谈科技创新》研究生系列讲座——青藤碱抗类风湿性关节炎中的疗效与作用机理研究 03-17 
+                                     
+                                                                                                                 《科学家谈科技创新》研究生系列讲座预告——从东方到西方，从细胞生物学到传统中药研究——学研悟之道路 05-20 
+                                     
+                                                                                                                 《科学家谈科技创新》研究生系列讲座预告——AI、网络药理学与中医药创新发展 04-07 
+                                     
+                                                                                                                 《科学家谈科技创新》研究生系列讲座预告——如何产出高品质的中医药临床研究 01-12 
+                                     
+                                                                                                                 《科学家谈科技创新》研究生系列讲座预告——本草基因组学研究与应用 12-13 
+                                     
+                                                                                                                 【转发】非正常专利申请专题讲座 11-03 
+                                     
+                                                                                                                 远志大讲堂第66讲预告 09-18 
+                                     
+                                                                                                                 求真科学系列学术讲座预告（5月19日） 05-17 
+                                     
+                                                             
+                         
+                                     
+             
+         
+
+		
+         
+             
+                 学生服务系统 
+                 
+                 教师服务系统 
+                 
+				  导师登录 
+                 
+                 
+				 
+				 同等学力 
+                 
+             
+         
+
+		 
+             
+                 研究生培养单位（校本部二级学院） 
+                 
+                 研究生培养单位（临床医学院） 
+                 
+				  研究生培养单位（联合培养基地） 
+                 
+               
+             
+         
+		
+
+
+         
+             快速通道 
+             
+			 
+                
+								  
+				 
+				  查询导师 
+                 
+				                 期刊目录 
+                 
+                 实验室安全 
+				 
+
+				 
+			  在线课程 
+			     学术专题讲座 
+				 
+				 
+				 
+
+				 出国境交流 
+                 
+
+				 研究生优秀教学案例 
+
+				 
+             
+         
+
+
+     
+
+ 
+     
+         
+
+             Copyright @ 1959-2026 浙江中医药大学研究生院 浙ICP备05040830号    浙公网安备 33010802003635号 
+             地址：浙江省杭州市滨江区滨文路548号（310053） 
+         
+         
+             研究生院公众号 
+         
+     
+ 
+
+ 
+ 
+    $(function () {
+        $("li:has(ul)", '#menu .menus').hover(function () {
+            $(this).children("a").addClass("on");
+            $(this).children("ul").stop(true, true).slideDown(300);
+        }, function () {
+            $(this).children("a").removeClass("on");
+            $(this).children("ul").stop(true, true).slideUp(300);
+        });
+    });
+ 
+     
+        $(function () {
+            $(".mainImg .sliderBox .foo ul").carouFredSel({
+                auto: true,
+                pagination: '.mainImg .sliderBox .foopage',
+                scroll: {
+                    fx: 'crossfade',
+                    timeoutDuration: 4000,
+                },
+                prev: '.mainImg .sliderBox .prev',
+                next: '.mainImg .sliderBox .next'
+            });
+
+            $('.next,.prev', '.mainImg .sliderBox').hide();
+            $('.mainImg .sliderBox').hover(function () {
+                $('.next,.prev', $(this)).fadeIn(200);
+            }, function () {
+                $('.next,.prev', $(this)).fadeOut(200);
+            });
+
+            $(".visual .sliderBox .foo ul").carouFredSel({
+                auto: true,
+                pagination: '.visual .sliderBox .foopage',
+            });
+
+            //tab切换
+            $('.tabPanel .tabUl li a', '#news').click(function () {
+                var ind = $(this).parent('li').index();
+                $(this).parent('li').addClass('on').siblings().removeClass('on');
+                $('.tabBox').hide();
+                $('.tabBox:eq(' + ind + ')').show();
+                return false;
+            });
+
+
+        });
+
+        // 更多
+        function news_more() {
+            var id = $('.tabPanel .tabUl li.on', '#news').data('id');
+            location.href = "https://yjsgl.zcmu.edu.cn/list/__id__".replace('__id__', id);
+        }
+     
+ 

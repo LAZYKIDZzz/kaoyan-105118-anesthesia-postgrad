@@ -1,0 +1,657 @@
+﻿ 
+ 
+
+ 青岛大学2027年硕士研究生招生专业目录-青岛大学研究生院 
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1131,'/neirong.jsp',4620,1918568246) 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 青岛大学   
+
+ | 
+
+
+
+
+
+ 研究生综合管理系统   
+
+ | 
+
+
+
+
+
+ 信息管理系统   
+
+ | 
+
+
+
+
+
+ 网络教学平台   
+
+
+
+
+ 
+ 
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1076340').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1076340").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1076340").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1076340").value = base64.encode(document.getElementById("lucenenewssearchkey1076340").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1076340"));
+        return true;
+    } 
+ 
+ 
+  
+   
+
+ 
+
+
+
+
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+ 
+ 
+ 
+   首页  
+ 
+
+ 
+
+
+ 
+ 
+ 
+   研院概况  
+   
+ 
+
+ 
+ 
+ 
+ 
+ 研院简介 
+ 
+ 现任领导 
+ 
+ 机构设置 
+
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+   招生工作  
+   
+ 
+
+ 
+ 
+ 
+ 
+ 博士招生 
+ 
+ 硕士招生 
+ 
+ 推免生招生 
+ 
+ 学院导航 
+
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+   学籍工作  
+   
+ 
+
+ 
+ 
+ 
+ 
+ 通知公告 
+ 
+ 规章制度 
+ 
+ 常用下载 
+ 
+ 服务指南 
+
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+   培养工作  
+   
+ 
+
+ 
+ 
+ 
+ 
+ 通知公告 
+ 
+ 培养方案 
+ 
+ 教学管理 
+ 
+ 培养过程 
+ 
+ 交流合作 
+ 
+ 创新培优 
+ 
+ 制度文件 
+ 
+ 下载专区 
+
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+   学位工作  
+   
+ 
+
+ 
+ 
+ 
+ 
+ 通知公告 
+ 
+ 规章制度 
+ 
+ 导师队伍 
+ 
+ 质量监督 
+ 
+ 常用下载 
+ 
+ 服务指南 
+
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+   信息公示  
+ 
+
+ 
+
+
+ 
+ 
+ 
+   服务指南  
+   
+ 
+
+ 
+ 
+ 
+ 
+ 制度汇编 
+ 
+ 下载专区 
+ 
+ 工作流程 
+
+ 
+ 
+ 
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+
+ 首页   
+
+
+
+
+
+ 研院概况  
+ 
+ 研院简介   
+ 现任领导   
+ 机构设置   
+
+ 
+ 
+
+
+
+
+ 招生工作  
+ 
+ 博士招生   
+ 硕士招生   
+ 推免生招生   
+ 学院导航   
+
+ 
+ 
+
+
+
+
+ 学籍工作  
+ 
+ 通知公告   
+ 规章制度   
+ 常用下载   
+ 服务指南   
+
+ 
+ 
+
+
+
+
+ 培养工作  
+ 
+ 通知公告   
+ 培养方案   
+ 教学管理   
+ 培养过程   
+ 交流合作   
+ 创新培优   
+ 制度文件   
+ 下载专区   
+
+ 
+ 
+
+
+
+
+ 学位工作  
+ 
+ 通知公告   
+ 规章制度   
+ 导师队伍   
+ 质量监督   
+ 常用下载   
+ 服务指南   
+
+ 
+ 
+
+
+
+
+ 信息公示  
+ 
+
+
+
+
+ 服务指南  
+ 
+ 制度汇编   
+ 下载专区   
+ 工作流程   
+
+ 
+ 
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+ 
+
+ 
+              
+             
+                         
+        
+ 
+
+
+
+         
+ 
+         
+             
+                 
+
+
+
+专业目录 
+
+             
+         
+     
+     
+         
+ 
+
+ 
+
+
+ 
+         青岛大学2027年硕士研究生招生专业目录 
+         
+         
+         作者: 
+        
+           
+             发布时间:2026-10-08 
+             点击量: _showDynClicks("wbnews", 1918568246, 4620) 
+         
+     
+ 
+     
+ 
+  var vsb_pdf_image_data = ["/__local/D/C5/4C/BD166289B9AF0C2DC0460135B3C_83A9D248_1D835.jpg","/__local/9/0B/64/4853193659658B9287FF0BF5E9E_71EE95F8_1B912.jpg","/__local/E/41/CB/9823378AC93C1E73D600DE20C68_F3FFFEE9_1C59C.jpg","/__local/9/25/56/F7DA5F070F5FD72D5848E1F0E5E_B37A6A7E_1DC0F.jpg","/__local/E/6D/21/19DA40D37140B7FB777FD927A9D_00F4ABC0_1D3C8.jpg","/__local/8/4F/DD/36701193A6F67476AFE5B91CBEE_F35C9CE5_1C4E4.jpg","/__local/8/42/9E/5B2AD4EA132394A4760E511EEE3_9A3CBAB2_17FFE.jpg","/__local/6/7E/0E/82A22A0B379BD96D5A32AD6F1CD_C96B7575_1BB80.jpg","/__local/3/61/5B/0803830A1402EE5861005614D86_2A1A88BE_1FE22.jpg","/__local/3/21/93/2AC6150C1B368B8E90FB482BA44_12708F65_1F433.jpg","/__local/8/97/FD/33AFCF456B35F9D6761AC0035A5_F9A4AB74_1D79B.jpg","/__local/D/EB/71/DB76464813071570B781E2EFAAB_58FE39A2_1BDFA.jpg","/__local/A/61/6B/09C3F0332E8B7EF3F6290D2DCB1_8B6A6283_1CA1F.jpg","/__local/3/EC/5E/927C0D434909D1A1E7BC840FA7B_4E1D8450_1FC33.jpg","/__local/9/AE/7C/D25489B0C02401A6B5FA1620EB5_AD4D9C30_1B114.jpg","/__local/F/2C/02/E24CC6AA01C4F414E4174984E32_C8EE18DA_1C40E.jpg","/__local/C/64/82/2FE8D21164953BAF599BCB8CC86_A7871DA3_1D37F.jpg","/__local/5/11/28/67F4E163EFEF3FACFAE1942DEB7_9964DD6B_1F385.jpg","/__local/2/8D/3C/0C689731B98F87C9EDF40A1A6B6_A73FD665_205CD.jpg","/__local/E/FB/81/17A69B9883B232CBCF7D992D9FD_C31A8603_21348.jpg","/__local/9/11/4C/395429905CC8ADB1E246564C6EE_E50B243E_1DCA6.jpg","/__local/D/E1/41/6934E31A42A6FFCB64389947EBB_964BFCF9_19A8E.jpg","/__local/7/CC/5F/A0EFB950D66C368056FCAF448BA_C8BF623A_1AF72.jpg","/__local/1/EB/14/40D8AFB15C7D0D2DD333F6C46AB_0E7EDF38_4BA0.jpg"];showVsbpdfIframe("/__local/4/09/90/B0AA1C286546F7A5BD5076C3645_D787C8EB_4E902.pdf","100%","600","0","border: 1px solid rgb(221, 221, 221); border-image: none;",vsb_pdf_image_data); 
+ 
+ 
+    
+
+  
+
+ 
+  
+
+
+                     
+                         下一篇：青岛大学2026年同等学力人员申请硕士学位招生专业目录 
+                     
+             
+
+ 
+
+ 
+
+
+
+ 
+     
+    
+    
+
+ 
+ 
+
+ 
+
+
+ 青岛大学   
+
+ | 
+
+
+
+
+
+ 研究生综合管理系统   
+
+ | 
+
+
+
+
+
+ 信息管理系统   
+
+ | 
+
+
+
+
+
+ 网络教学平台   
+
+
+
+
+ 
+
+     
+ 
+ 
+ 
+
+  
+  
+   联系我们 
+   
+  
+地址：中国青岛市宁夏路308号 
+ 邮编：266071 
+ 邮箱：yjsy@qdu.edu.cn  
+  
+    
+   
+ 
+ 
+
+ 
+  
+  
+   友情链接
+   
+  教育部学位与研究生教育发展中心    
+
+
+
+ 专业学位教指委    
+
+
+
+ 中国学位与研究生教育学会    
+
+
+
+ 学科建设办公室    
+
+
+
+  
+ 
+ 
+
+
+      
+  
+ 
+   公众号
+   
+  
+ 
+   小程序
+   
+  
+ 
+ 
+ 
+ 
+ 版权所有  青岛大学研究生院 
+
+ 
+ 
+
+ 
+ 
+$(function(){
+
+<!--下拉菜单开始-->
+  $('#nav>li.mainlevel').mousemove(function(){
+    if($(this).children('ul').children('li').length>0){
+    $(this).find('ul').slideDown();
+    $(this).addClass('hover');
+    }
+    });
+  $('#nav>li.mainlevel').mouseleave(function(){
+  $(this).find('ul').slideUp("fast");
+  $(this).removeClass('hover');
+   });
+ 
+})
+ 
+
+
+ 
+       
+      
+
+            // 动画
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+            new WOW().init();
+        };
+        
+     
+
+   
+self.onError=null;  
+lastScrollXu19=0;
+lastScrollYu19=0;
+NS=(document.layeru19)?1:0;
+IE=(document.all)?1:0;  
+function moveu19()  
+{  
+    try
+    {
+        diffYu19=(document.documentElement && document.documentElement.scrollTop)?document.documentElement.scrollTop:document.body.scrollTop;
+        diffXu19=(document.documentElement&&document.documentElement.scrollLeft)?document.documentElement.scrollLeft:document.body.scrollLeft;
+     
+        if(diffYu19!=lastScrollYu19)
+        {
+            percent =.1*(diffYu19-lastScrollYu19);  
+            if(percent>0)
+                percent=Math.ceil(percent);
+            else 
+                percent=Math.floor(percent);  
+            document.getElementById("layeru19").style.top=parseInt(document.getElementById("layeru19").style.top)+percent+"px";
+                
+            lastScrollYu19=lastScrollYu19+percent;
+        }  
+        
+        
+        if(diffXu19!=lastScrollXu19)
+        {
+            percent=.1*(diffXu19-lastScrollXu19);  
+            if(percent>0)
+                percent=Math.ceil(percent);else percent = Math.floor(percent);  
+           
+                    document.getElementById("layeru19").style.Left+=percent;
+             
+             lastScrollXu19=lastScrollXu19+percent;
+         }
+    }
+    catch(e)
+    {
+    
+    }
+}  
+        action =window.setInterval('moveu19()',1);  
+   
+  
+   
+    function imageCloseu19(id)  
+    {  
+        document.getElementById(id).style.display = 'none';  
+    }  
+   
+
+ 
+
+
+
+ 

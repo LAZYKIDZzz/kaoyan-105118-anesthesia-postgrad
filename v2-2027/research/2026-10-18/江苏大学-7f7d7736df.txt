@@ -1,0 +1,410 @@
+﻿ 
+ 
+ 
+ 
+ 
+ 硕士招生简章目录-江苏大学研究生招生信息网 
+ 
+ 
+
+ 
+body {
+    background-color: #F1F3FC;}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1016,'/listnew2.jsp',-1,1347509089) 
+ 
+
+ 
+ 
+   
+     
+       
+         
+         研究生招生信息网 
+         
+           
+             江苏大学官网 　｜　 江苏大学研究生院 
+           
+           
+             
+
+
+
+ 
+    #appu0 .qwss{
+        height: 31px;
+        font-size: 12px;
+        min-width: 190px;
+        max-width: 600px;
+        width: 60%;
+        margin-top: -15px;
+        outline: none;
+        padding-left: 10px;
+        border-radius: 2px;
+        border: 1px solid #e4e7ed;}
+    #appu0 .tj{
+        padding-left: 6px;
+        letter-spacing: 5px;
+        color: white;
+        min-width: 53px;
+        max-width: 150px;
+        height: 32px;
+        border: 0;
+        border-radius: 2px;
+        background-color: #9c039b;
+        position: relative;
+        top: 1px;
+        width: 20%;
+        margin-top: -15px;}
+ 
+ 
+ 
+    <div id="appu0">
+        <div v-if="!isError">
+            <input type="text" class="qwss" placeholder="全文搜索" autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+            <input class="tj" name="submit_button" type="button" value="提交" v-on:click="onSubmit()"/>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+ 
+ 
+    $("#divu0").html($("#htmlu0").text());
+ 
+ 
+    var appOwner = "1347509089";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu0",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+ 
+
+ 
+   var appElementu0 = document.querySelector("#appu0");
+   if (appElementu0 && appElementu0.__vue__) {
+
+   } else {
+      $("#divu0").html($("#htmlu0").text());
+      var appOwner = "1347509089";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou0 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu0(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu0();
+        }
+      };
+
+      function onSubmitu0(e) {
+        queryInfou0.query.keyWord= $("#appu0  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou0.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+ 
+             
+         
+       
+     
+   
+ 
+ 
+   
+     
+       
+         首页 
+         研究生教育概况 
+         学科专业 
+         招生简章目录 
+         考点信息 
+         规章制度 
+         资料下载 
+         联系方式 
+         
+     
+   
+ 
+ 
+   
+     
+   
+ 
+ 
+   
+     
+       
+         
+       
+     
+       
+         
+           
+   
+     硕士招生简章目录 
+     
+   
+   
+     
+   
+ 
+ 
+   
+     博士招生简章目录 
+     
+   
+   
+     
+   
+ 
+ 
+         
+       
+       
+         
+           
+         
+     
+       
+         
+           
+         
+     
+     
+         
+           　　当前位置：
+                首页
+        
+                >
+                招生简章目录
+        
+                >
+                硕士招生简章目录
+        　 
+         
+       
+       
+         
+           
+         
+       
+       
+         
+           
+         
+       
+       
+         
+           硕士招生简章目录 
+         
+       
+       
+         
+           
+         
+       
+       
+         
+           
+         
+       
+       
+         
+           
+   
+     
+     江苏大学2027年硕士研究生招生章程 
+     2026-09-30 
+   
+   
+     
+   
+ 
+ 
+   
+     
+     江苏大学2027年硕士研究生招生专业目录 
+     2026-09-30 
+   
+   
+     
+   
+ 
+ 
+   
+     
+     江苏大学2027年硕士研究生入学考试初试科目主要参考书 
+     2026-09-30 
+   
+   
+     
+   
+ 
+ 
+   
+     
+     江苏大学2027年硕士研究生入学考试复试科目主要参考书 
+     2026-09-30 
+   
+   
+     
+   
+ 
+ 
+   
+     
+     江苏大学2027年硕士研究生招生单位联系人与联系电话 
+     2026-09-30 
+   
+   
+     
+   
+ 
+   
+       
+         
+ 
+ 
+.headStyle1j6ppl51p0, .headStyle1j6ppl51p0 td, .headStyle1j6ppl51p0 div {font-size: 12px;font-family:宋体; color: #000000; margin-left: auto; margin-right: auto; line-height:14px;}
+.defaultButtonStyle {font-size: 12px;font-family:宋体; height:20px;color: #000000;BORDER: #AFD5F5 1px solid; margin: 0px;padding: 0px; FILTER:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#ffffff, EndColorStr=#BDDBF7);  CURSOR: pointer; line-height:14px;background:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#BDDBF7));background: -moz-linear-gradient( top,#ffffff,#BDDBF7);background:-ms-linear-gradient(top,#ffffff 0%,#bddbf7 100%);}
+.defaultinputStyle {font-size: 12px;font-family:宋体; height:20px; border:1px solid #AFD5F5; line-height:14px;}
+.colHeader {font-size: 12px;font-family:宋体; line-height:14px;}
+.headStyle1j6ppl51p0 a, .pageList .this-page {font-size: 12px;font-family:宋体; display:inline-block; height:14px; padding: 2px 4px; border: solid 1px #AFD5F5; background: #fff; text-decoration: none; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1j6ppl51p0 a:visited {font-size: 12px;font-family:宋体; color: #000000; text-decoration: none; line-height:14px;}
+.headStyle1j6ppl51p0 .PrevDisabled {font-size: 12px;font-family:宋体; display:inline-block;height:14px;  margin-right: 3px; padding: 2px 4px; background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}
+.headStyle1j6ppl51p0 .SelectList {font-size: 12px;font-family:宋体;line-height:14px;}
+.headStyle1j6ppl51p0 .Prev { font-size: 12px;font-family:宋体; margin-right: 3px; padding: 2px 4px;line-height:14px;}
+.headStyle1j6ppl51p0 .break {font-size: 12px;font-family:宋体; border: none; text-decoration: none; line-height:14px;}
+.headStyle1j6ppl51p0 .NextDisabled { font-size: 12px;font-family:宋体;display:inline-block; height:14px; margin-left: 2px; padding: 2px 4px;background: #fff;color:#ccc;border: solid 1px #AFD5F5; line-height:14px;}
+.headStyle1j6ppl51p0 .Next { font-size: 12px;font-family:宋体; margin-left: 2px; padding: 2px 4px;line-height:14px;}
+.headStyle1j6ppl51p0 .this-page {font-size: 12px;font-family:宋体;display:inline-block;height:14px;padding: 2px 4px; border: solid 1px #AFD5F5; background: #E1F0FD; font-weight: bold; color:black; MARGIN-RIGHT: 1px;line-height:14px;}
+.headStyle1j6ppl51p0 a:hover {font-size: 12px;font-family:宋体;color: black; background: #EFF7FE; border-color: #AFD5F5; text-decoration: none;line-height:14px;}
+.headStyle1j6ppl51p0 a:link {font-size: 12px;font-family:宋体;color: #000000; text-decoration: none;line-height:14px;}
+.headStyle1j6ppl51p0 a:active { font-size: 12px;font-family:宋体;color: black; text-decoration: none; background: #EFF7FE; line-height:14px;}
+ function a216340_gopage_fun(){_simple_list_gotopage_fun(1,'a216340GOPAGE',2)} 共5条  1/1  首页 上页 下页 尾页 _showDynClickBatch(['dynclicks_u5_8917','dynclicks_u5_8907','dynclicks_u5_8897','dynclicks_u5_8887','dynclicks_u5_8877'],[8917,8907,8897,8887,8877],"wbnews", 1347509089) 
+         
+       
+       
+         
+           
+         
+     
+   
+ 
+ 
+   
+     
+   
+     版权所有： 江苏大学研究生招生办公室　　 var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1253181888'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D1253181888%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E")); 
+   
+ 
+   
+ 
+ 
+ 

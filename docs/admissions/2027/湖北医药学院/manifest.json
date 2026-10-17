@@ -1,0 +1,32 @@
+{
+  "name": "湖北医药学院",
+  "tier": "稳健区",
+  "gate": 309,
+  "region": "湖北",
+  "candidates": [
+    {
+      "title": "湖北医药学院官方招生入口",
+      "url": "http://yjsy.hbmu.edu.cn/2026/0930/c254a172840/page.htm"
+    },
+    {
+      "title": "湖北医药学院2027年硕士研究生招生章程",
+      "url": "https://yjsy.hbmu.edu.cn/2026/0930/c254a172840/page.htm"
+    }
+  ],
+  "pages": [],
+  "files": [],
+  "failures": [
+    {
+      "url": "http://yjsy.hbmu.edu.cn/2026/0930/c254a172840/page.htm",
+      "title": "湖北医药学院官方招生入口",
+      "error": "curl: (28) Failed to connect to yjsy.hbmu.edu.cn port 80 after 12004 ms: Timeout was reached\ncurl: (28) Failed to connect to yjsy.hbmu.edu.cn port 80 after 12004 ms: Timeout was reached\n"
+    },
+    {
+      "url": "https://yjsy.hbmu.edu.cn/2026/0930/c254a172840/page.htm",
+      "title": "湖北医药学院2027年硕士研究生招生章程",
+      "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to yjsy.hbmu.edu.cn:443 \n"
+    }
+  ],
+  "status": "官网访问受限，待补原件",
+  "checked_at": "2026-10-18"
+}

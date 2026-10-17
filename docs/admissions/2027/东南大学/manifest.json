@@ -1,0 +1,35 @@
+{
+  "name": "东南大学",
+  "tier": "稳健区",
+  "gate": 305,
+  "region": "江苏",
+  "candidates": [
+    {
+      "title": "东南大学2027年硕士研究生招生章程",
+      "url": "https://xxgk.seu.edu.cn/2026/1008/c10807a585158/page.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "东南大学2027年硕士研究生招生章程",
+      "url": "https://xxgk.seu.edu.cn/2026/1008/c10807a585158/page.htm",
+      "effective_url": "https://xxgk.seu.edu.cn/2026/1008/c10807a585158/page.htm",
+      "path": "docs/admissions/2027/东南大学/page-6cbf641317.html",
+      "sha256": "0aa68a11fd2226a08a470f00c6bcc3a636f211b03fc90bcf07b4c8f663e9017c",
+      "bytes": 62340
+    }
+  ],
+  "files": [
+    {
+      "title": "东南大学2027年目录官方数据",
+      "url": "https://gsas.seu.edu.cn/ssmlcx2027/pages/js/data.js",
+      "path": "docs/admissions/2027/东南大学/东南大学2027年目录官方数据.js",
+      "bytes": 521626,
+      "sha256": "be4d8ffefa86fb12ada91a7c87ac1b6e705a62d68289f2b207b0feabb5c74b0c",
+      "kind": "official_directory_data"
+    }
+  ],
+  "failures": [],
+  "status": "已归档官方网页目录",
+  "checked_at": "2026-10-18"
+}

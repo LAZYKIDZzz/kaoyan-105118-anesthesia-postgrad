@@ -1,0 +1,67 @@
+{
+  "name": "山东大学",
+  "tier": "稳健区",
+  "gate": 320,
+  "region": "山东",
+  "candidates": [
+    {
+      "title": "山东大学招生官网（查找2027目录）",
+      "url": "https://yz.sdu.edu.cn/sszs/zyml.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "山东大学招生官网（查找2027目录）",
+      "url": "https://yz.sdu.edu.cn/sszs/zyml.htm",
+      "effective_url": "https://yz.sdu.edu.cn/sszs/zyml.htm",
+      "path": "docs/admissions/2027/山东大学/page-9a192f73b8.html",
+      "sha256": "ac4e917aa31afa38638dd17b191e223064521cccabfb47be98d60bbd6afcb9d3",
+      "bytes": 16156
+    },
+    {
+      "title": "山东大学2027年硕士研究生招生专业目录302026.09山东大学2027年硕士研究生招生专业目录",
+      "url": "https://yz.sdu.edu.cn/info/1004/1487.htm",
+      "effective_url": "https://yz.sdu.edu.cn/info/1004/1487.htm",
+      "path": "docs/admissions/2027/山东大学/page-61d90db89d.html",
+      "sha256": "54c6a66c40b5169d6837ad93b0b44d7fa05f8cee7d75f34bc5cbe85cb541c0d2",
+      "bytes": 22275
+    },
+    {
+      "title": "2027硕士专业目录山东大学2027年硕士研究生招生专业目录",
+      "url": "https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/sszs/zsxxfb/index",
+      "effective_url": "https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/sszs/zsxxfb/index",
+      "path": "docs/admissions/2027/山东大学/page-7243b262b2.html",
+      "sha256": "402a1e5f086e4bee2d42e810852bbbd608900bf4837554f39e3a70bfa496a693",
+      "bytes": 2101
+    }
+  ],
+  "files": [
+    {
+      "title": "山东大学2027年105118目录官方数据",
+      "url": "https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/sszs/xdeh3mizwpj6Psdm/zsxxfb/list/zymlxqV2",
+      "path": "docs/admissions/2027/山东大学/山东大学2027年105118目录官方数据.json",
+      "bytes": 1892,
+      "sha256": "9f287d6ab50a7090d7fc374d33e99aee150fb145520d8c68734c27b386ae10ee",
+      "kind": "official_directory_data"
+    },
+    {
+      "title": "山东大学2027年目录官方表头",
+      "url": "https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/sszs/xdeh3mizwpj6Psdm/zsxxfb/list/getZymlDetailTableFields",
+      "path": "docs/admissions/2027/山东大学/山东大学2027年目录官方表头.json",
+      "bytes": 686,
+      "sha256": "4d69af8490dcb00f836be4f1b56595549ea13d9123621f8b68501c1fe3b800da",
+      "kind": "official_directory_data"
+    },
+    {
+      "title": "山东大学2027年105118目录正文整理",
+      "url": "https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/sszs/zsxxfb/index",
+      "path": "docs/admissions/2027/山东大学/山东大学2027年105118目录正文整理.html",
+      "bytes": 1390,
+      "sha256": "c50b621a31f839380ba51ff9b2cc057d81b2cb5344dc05c30cbf3070657cbc25",
+      "kind": "research_snapshot"
+    }
+  ],
+  "failures": [],
+  "status": "已归档官方网页目录",
+  "checked_at": "2026-10-18"
+}

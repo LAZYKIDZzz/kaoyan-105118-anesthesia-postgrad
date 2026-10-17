@@ -1,0 +1,156 @@
+﻿ 
+ 
+ 
+ 
+ 西安医学院2027年硕士研究生招生专业目录-研究生处-西安医学院 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+jQuery(function($){
+  getInfoClickCount("69494","hits");
+});
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1008,'/content.jsp',4626,1696454864) 
+ 
+ 
+     
+ 
+  function check_input(){
+     var tep='';
+     tep=document.searchform.q.value;
+     if(tep==''){
+       alert("请输入关键字!");
+       return false;
+       }else{
+         document.searchform.submit();
+         }
+   }  
+ 
+     
+     
+     
+      
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1014127').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1014127").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1014127").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1014127").value = base64.encode(document.getElementById("lucenenewssearchkey1014127").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1014127"));
+        return true;
+    } 
+ 
+ 
+  
+           
+           
+           
+          
+           
+          
+ 
+
+
+
+
+
+ 
+ 
+     
+    
+    
+       
+     首页 
+     部门概况 
+     招生管理 
+     培养工作 
+     学生工作 
+     党建工作 
+     资料下载 
+ 
+       
+      
+ 
+
+    
+       
+    
+      您的位置： 
+                    
+                 首页 
+                
+                >>
+            
+                 招生管理 
+                
+                >>
+            
+                 招生信息 
+                
+                >>
+                正文
+ 
+     
+      
+     
+ 
+
+     西安医学院2027年硕士研究生招生专业目录 
+      
+      
+       作者：研招办   发布时间：2026-09-29   点击数： _showDynClicks("wbnews", 1696454864, 4626) 
+      
+      
+    
+     
+ 
+  var vsb_pdf_image_data = ["/__local/7/2D/35/B515C24C6EBAEBD40C4DBE27D8A_CE77DB44_42B0B.jpg","/__local/6/9B/A3/E827964A8B82FF7F3D46765382B_F4572015_3FE4B.jpg"];showVsbpdfIframe("/__local/4/E0/C9/D9910D2C2C85BEA7C1101A6A28D_17AE892D_122EE.pdf","100%","600","0","border:1px solid #DDDDDD",vsb_pdf_image_data); 
+ 
+ 
+     
+
+    
+    
+      
+      
+  
+ 西安医学院研究生处主办  联系电话：17795951157  E-mail:yjsc@xiyi.edu.cn 
+ 
+
+ 
+ 
+ 
+         var url = window.location.href;
+         if(url.indexOf("contentView.jsp") == -1)
+          {//后台点的时候不用触发
+             var click_info_id = url.substring(url.lastIndexOf("/")+1,url.lastIndexOf(".")).replace(/_.*/ig,"");
+             jsonrpc.InfoBaseRPC.addInfoHits(click_info_id,1);
+             jsonrpc.InfoBaseRPC.insertAccessInfo(69494,'西安医学院 2021年全日制临床医学硕士研究生招生简章',11485,'cms','CMSyjs',url);
+          }
+      

@@ -1,0 +1,916 @@
+
+ 
+ 
+ 
+ 
+ 
+ 研究生学院- 华北理工大学研究生学院 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+$(function(){
+	Nav('#nav')//导航
+	ImgHeight()//banner图片高度
+	$(".banner .flexslider").flexslider({
+	animation:'left',
+	slideshowSpeed: 8000, //展示时间间隔ms
+	animationSpeed: 1000, //滚动时间ms
+	touch: true //是否支持触屏滑动
+	});
+}); 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+	 
+		 
+ 
+.yjs_top1{margin-top: 27px;} 
+		 
+ 
+     
+     
+ 
+ 
+ 
+.search_box{border-top: #9a9a9a 1px solid; height:36px;  border-right: #9a9a9a 1px solid; width: 302px; border-bottom: #9a9a9a 1px solid; border-left: #9a9a9a 1px solid; margin-top:55px; margin-right:30px;}
+input{border:0;outline:none;}
+.input_div1{width: 257px; float: left}
+.input_div2{width: 45px; float: left;text-align: right; padding-top: 0px;background: #bb2325;}
+.input_b{font-size: 14px; border-top: 0px; height: 36px; border-right: 1px; width: 99%; background: none transparent scroll repeat 0% 0%; border-bottom: 0px; color: #949496; padding-left: 3px; border-left: 0px; line-height: 36px}
+.input_s{cursor: pointer; border-top: 0px; height: 36px; border-right: 0px; width: 45px; background: url(https://yjsxy.ncst.edu.cn/atm/1625446419309/20210902160207803.jpg) no-repeat center center; border-bottom: 0px; border-left: 0px}
+ 
+	 
+ 
+ 
+	 
+     首页 
+     学院概况 
+     
+         学院简介 
+         学院领导 
+         机构设置 
+     
+     
+     招生就业 
+     
+         硕士招生 
+         博士招生 
+         就业工作 
+     
+     
+     培养管理 
+     
+         培养工作 
+         教学工作 
+         学籍管理 
+     
+     
+     学位管理 
+     
+         学位工作 
+         导师遴选 
+         质量保障监督 
+         答辩公告 
+     
+     
+     学生工作 
+     教学研究 
+     非学历教育 
+     党团建设 
+     规章制度 
+     
+         招生工作 
+         教学培养 
+         学位管理 
+         学生工作 
+         教学研究 
+         导师管理 
+         党团建设 
+         办事指南 
+     
+     
+     下载中心 
+     
+         招生工作 
+         就业工作 
+         教学培养 
+         学位管理 
+         学生工作 
+         教学研究 
+         党团建设 
+     
+     
+ 
+ 
+	.col_ul{ width:1280px; background:#bb2325;margin:0 auto; height:52px;}
+	.col1{ width:9%; float:left; height:52px; line-height:52px; text-align:center; position:relative; font-size:18px;}
+	.col1:hover{ border-bottom:3px #ddb260 solid; box-sizing: border-box;}
+	.col1 a{color:#fff; text-decoration:none;}
+	.col1 ul{display:none;}
+	.col1 ul{ width:100%; z-index:999}
+	.col1 ul .col2{ width:100%; height:52px; line-height:52px; text-align:center; font-size:16px;}
+	.col1:hover ul{ display:block; position:absolute; top:52px; right:0; width:100%;}
+	.col1:hover ul .col2{ background:#bb2325; color:#fff; position:relative; z-index:999}
+	.col1:hover ul .col2:hover{ background:#a30002; color:#fff;}
+	 
+ 
+ 
+	   
+
+ 
+
+ 
+
+ 
+ 
+ 
+	 
+         
+                 
+
+  
+   研究生学院教工党支部开展党纪学习教育主题实践活动 
+   
+ 
+
+  
+   2023级博士研究生入学教育 
+   
+ 
+
+  
+   访企拓岗 
+   
+ 
+
+ 
+             
+               
+                 
+                 
+                 
+                 
+                 
+               
+             
+         
+     
+     
+    	    
+ 
+   学院新闻 
+ 更多+ 
+ 
+
+ 
+.notice{margin-left:20px;margin-right:20px;}
+#font1,#font2,#font3,#font4,#font5,#font6,#font9,#font8{width:105px !important}
+#font7{width:120px !important}
+ 
+         
+
+ 
+ 
+ 研究生学院开展“中华魂”军史国防主题宣讲活动 2026-10-10 
+ 
+ 
+
+ 
+ 
+ 研究生学院开展“研途有爱，温暖护航”志愿服务活动 2026-10-08 
+ 
+ 
+
+ 
+ 
+ 关于2026级研究生会纳新的通知 2026-09-07 
+ 
+ 
+
+ 
+ 
+ 华北理工大学研究生学院开展“千团万人推普强国行”暑期社会实践... 2026-07-20 
+ 
+ 
+
+ 
+ 
+ 研究生学院开展社区安全治理志愿服务活动 2026-07-07 
+ 
+ 
+
+ 
+ 
+ 喜报：研究生学院在2026年河北省青年志愿服务项目大赛中斩获... 2026-07-02 
+ 
+ 
+
+ 
+ 
+ 研究生学院开展“关爱儿童”志愿服务活动 2026-05-28 
+ 
+ 
+
+ 
+ 
+.xw23-li{height: 44px;line-height: 44px;border-bottom: 1px dashed #e7e7e7;}
+.xw23-li:hover a{color:#bb2325}
+.xw23-li:hover font{color:#bb2325}
+@media screen and (max-width: 1280px){
+.yjs_bottom,.yjs_nav,.yjs_top{width: 1280px;}
+.banner{width: 1280px !important;}
+.yjs_main2{width:1280px}
+    }
+ 
+     
+ 
+ 
+	 
+    	 
+        	 
+				 
+					 硕士招生 
+ | 
+					 博士招生 
+ | 
+					 就业工作 
+  
+				 
+				 
+					   
+ 更多+ 
+ 
+.jx-more:hover{color:#ba2325 !important}
+ 
+					   
+ 更多+ 
+ 
+.jx-more:hover{color:#ba2325 !important}
+ 
+					   
+ 更多+ 
+ 
+.jx-more:hover{color:#ba2325 !important}
+ 
+				 
+				    
+
+ 
+ 
+ 华北理工大学2027年接收推免生复试成绩及拟录取结果公示（第... 2026-10-16 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2027年接收推免生复试名单（第二批次） 2026-10-16 
+ 
+ 
+
+ 
+ 
+ 华北理工大学报考点（1346）2027年全国硕士研究生招生考... 2026-10-08 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2027年硕士研究生招生章程 2026-09-29 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2027年硕士研究生招生专业目录 2026-09-29 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2027年硕士研究生初试科目参考书目 2026-09-29 
+ 
+ 
+
+ 
+ 
+.jxyj-li{height: 42px;line-height: 42px;}
+.jxyj-li:hover a{color:#bb2325}
+.jxyj-li:hover font{color:#bb2325}
+.yjs_main2{background: unset !important;padding: unset !important;}
+.yjs_nmain2{background: unset !important;}
+ 
+				    
+
+ 
+ 
+ 华北理工大学2026年博士研究生分学科（专业）招生计划 2026-06-08 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2026年普通招考博士研究生招生考试通知 2026-05-11 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2026年博士研究生招生考试工作方案 2026-05-11 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2026年普通招考攻读博士研究生报名工作的通知 2026-04-19 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2026年硕博连读、申请-考核制博士研究生招生报... 2026-04-07 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2026年硕博连读、申请-考核制博士研究生招生报... 2025-11-28 
+ 
+ 
+
+ 
+ 
+.jxyj-li{height: 42px;line-height: 42px;}
+.jxyj-li:hover a{color:#bb2325}
+.jxyj-li:hover font{color:#bb2325}
+#font1,#font2,#font3,#font4,#font5,#font6,#font9,#font8{width:105px !important}
+#font7{width:120px !important}
+ 
+				    
+
+ 
+ 
+ 石家庄精英中学(初中部)诚聘学科教师 2026-10-12 
+ 
+ 
+
+ 
+ 
+ 兰州化物所2026年人才招聘启事 2026-10-12 
+ 
+ 
+
+ 
+ 
+ 北京科技职业大学2026年公开招聘公告（第四批） 2026-10-12 
+ 
+ 
+
+ 
+ 
+ 国家管网集团2027届校园招聘 2026-10-08 
+ 
+ 
+
+ 
+ 
+ 中国海油2027届招聘公告 2026-10-08 
+ 
+ 
+
+ 
+ 
+ 中粮集团2027届校园招聘 2026-10-08 
+ 
+ 
+
+ 
+ 
+.jxyj-li{height: 42px;line-height: 42px;}
+.jxyj-li:hover a{color:#bb2325}
+.jxyj-li:hover font{color:#bb2325}
+#font1,#font2,#font3,#font4,#font5,#font6,#font9,#font8{width:105px !important}
+#font7{width:120px !important}
+ 
+			 
+		 
+         
+        	 
+				 
+					 培养工作 | 
+					 教学研究 | 
+					 学籍管理 
+  | 
+                     非学历教育 
+   
+				 
+				 
+					   
+ 更多+ 
+ 
+.jx-more:hover{color:#ba2325 !important}
+ 
+					   
+ 更多+ 
+ 
+.jx-more:hover{color:#ba2325 !important}
+ 
+					    
+ 更多+ 
+ 
+.jx-more:hover{color:#ba2325 !important}
+ 
+                        
+ 更多+ 
+ 
+.jx-more:hover{color:#ba2325 !important}
+ 
+				 
+				    
+
+ 
+ 
+ 关于做好2026级硕士研究生与指导教师双向选择工作的通知 2026-09-02 
+ 
+ 
+
+ 
+ 
+ 关于开展研究生学位论文开题及中期考核相关工作的通知 2026-09-01 
+ 
+ 
+
+ 
+ 
+ 关于组织申报2026年中国科协青年科技人才培育工程博士生专项... 2026-09-01 
+ 
+ 
+
+ 
+ 
+ 关于开展2026年度研究生导师培训工作的通知 2026-06-30 
+ 
+ 
+
+ 
+ 
+ 研究生学院召开工程类硕士专业学位研究生培养方案修订工作推进会 2026-06-08 
+ 
+ 
+
+ 
+ 
+ 关于开展2025年华北理工大学优秀研究生教育工作者评选工作的... 2026-05-25 
+ 
+ 
+
+ 
+ 
+.jxyj-li{height: 42px;line-height: 42px;}
+.jxyj-li:hover a{color:#bb2325}
+.jxyj-li:hover font{color:#bb2325}
+#font1,#font2,#font3,#font4,#font5,#font6,#font9,#font8{width:105px !important}
+#font7{width:120px !important}
+ 
+				    
+
+ 
+ 
+ 研究生学院举办了教学设计专题培训 2026-09-18 
+ 
+ 
+
+ 
+ 
+ 关于公布2027年度华北理工大学研究生教育教学改革研究项目的... 2026-07-09 
+ 
+ 
+
+ 
+ 
+ 关于公布2027年度华北理工大学研究生优质课程、专业学位教学... 2026-07-09 
+ 
+ 
+
+ 
+ 
+ 研究生学院组织了研究生教学成果奖分享会 2026-06-18 
+ 
+ 
+
+ 
+ 
+ 研究生学院组织了研究生教学成果奖分享会 2026-05-28 
+ 
+ 
+
+ 
+ 
+ 华北理工大学关于开展2027年度研究生教育教学改革研究项目立... 2026-05-07 
+ 
+ 
+
+ 
+ 
+.jxyj-li{height: 42px;line-height: 42px;}
+.jxyj-li:hover a{color:#bb2325}
+.jxyj-li:hover font{color:#bb2325}
+#font1,#font2,#font3,#font4,#font5,#font6,#font9,#font8{width:105px !important}
+#font7{width:120px !important}
+ 
+				    
+
+ 
+ 
+ 关于做好2026级研究生新生图像信息采集工作的通知 2026-10-13 
+ 
+ 
+
+ 
+ 
+ 关于做好2027届毕业生图像信息采集工作的通知 2026-10-12 
+ 
+ 
+
+ 
+ 
+.jxyj-li{height: 42px;line-height: 42px;}
+.jxyj-li:hover a{color:#bb2325}
+.jxyj-li:hover font{color:#bb2325}
+#font1,#font2,#font3,#font4,#font5,#font6,#font9,#font8{width:105px !important}
+#font7{width:120px !important}
+ 
+                     
+
+ 
+ 
+ 关于2026年同等学力申请硕士学位人员缴费、现场确认等相关工... 2026-09-01 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2026年同等学力申请硕士学位招生简章 2026-07-08 
+ 
+ 
+
+ 
+ 
+ 关于2025年同等学力申请硕士学位人员缴费、现场确认等相关工... 2025-08-25 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2025年同等学力申请硕士学位招生简章 2025-07-02 
+ 
+ 
+
+ 
+ 
+ 关于2024级同等学力申请硕士学位人员缴费、现场确认等相关工... 2024-08-27 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2024年以研究生毕业同等学力申请硕士学位招生简... 2024-07-05 
+ 
+ 
+
+ 
+ 
+.jxyj-li{height: 42px;line-height: 42px;}
+.jxyj-li:hover a{color:#bb2325}
+.jxyj-li:hover font{color:#bb2325}
+#font1,#font2,#font3,#font4,#font5,#font6,#font9,#font8{width:105px !important}
+#font7{width:120px !important}
+ 
+			 
+         
+     
+ 
+ 
+	 
+    	 
+			 
+				 学位工作 | 
+				 导师遴选 
+			 
+			 
+				    
+ 更多+ 
+ 
+.jx-more:hover{color:#ba2325 !important}
+ 
+				    
+ 更多+ 
+ 
+.jx-more:hover{color:#ba2325 !important}
+ 
+			 
+			    
+
+ 
+ 
+ 关于2026学年秋季学期研究生论文答辩及学位授予工作安排的通... 2026-09-24 
+ 
+ 
+
+ 
+ 
+ 华北理工大学公共卫生学院博士学位论文答辩公告 2026-09-18 
+ 
+ 
+
+ 
+ 
+ 关于开展2025/2026学年度博士硕士学位论文统一交存工作... 2026-09-04 
+ 
+ 
+
+ 
+ 
+ 关于2026年华北理工大学学位论文最美致谢辞评选结果的公示 2026-06-16 
+ 
+ 
+
+ 
+ 
+ 华北理工大学关于表彰2026年春季毕业研究生“优秀博士/硕士... 2026-06-16 
+ 
+ 
+
+ 
+ 
+ 关于华北理工大学2026年春季授予学位人员的公示 2026-06-16 
+ 
+ 
+
+ 
+ 
+.jxyj-li{height: 42px;line-height: 42px;}
+.jxyj-li:hover a{color:#bb2325}
+.jxyj-li:hover font{color:#bb2325}
+#font1,#font2,#font3,#font4,#font5,#font6,#font9,#font8{width:105px !important}
+#font7{width:120px !important}
+ 
+			    
+
+ 
+ 
+ 华北理工大学2026年新增研究生指导教师名单的公示 2026-06-16 
+ 
+ 
+
+ 
+ 
+ 关于2026年度硕士研究生指导教师遴选结果的集中公示 2026-05-26 
+ 
+ 
+
+ 
+ 
+ 关于进行2026年度硕士研究生指导教师遴选工作的通知 2026-04-17 
+ 
+ 
+
+ 
+ 
+ 华北理工大学2025年度新增博士生导师任职资格人员公示 2026-01-15 
+ 
+ 
+
+ 
+ 
+ 关于进行2025年度博士研究生指导教师遴选工作的通知 2025-12-17 
+ 
+ 
+
+ 
+ 
+ 关于2025年度硕士研究生指导教师遴选结果的集中公示 2025-05-23 
+ 
+ 
+
+ 
+ 
+.jxyj-li{height: 42px;line-height: 42px;}
+.jxyj-li:hover a{color:#bb2325}
+.jxyj-li:hover font{color:#bb2325}
+#font1,#font2,#font3,#font4,#font5,#font6,#font9,#font8{width:105px !important}
+#font7{width:120px !important}
+ 
+		 
+     
+	 
+    	 
+			 
+				 学生工作 
+  | 
+				 党团建设 
+  
+			 
+			 
+				   
+ 更多+ 
+ 
+.jx-more:hover{color:#ba2325 !important}
+ 
+				   
+ 更多+ 
+ 
+.jx-more:hover{color:#ba2325 !important}
+ 
+			 
+			   
+
+ 
+ 
+ 关于开展2026年度研究生奖学金评选工作的通知 2026-09-10 
+ 
+ 
+
+ 
+ 
+ 关于2027年度华北理工大学在读研究生创新能力培养资助项目推... 2026-07-09 
+ 
+ 
+
+ 
+ 
+ 2025年研究生学业奖学金评定结果公示 2025-10-20 
+ 
+ 
+
+ 
+ 
+ 2025年度研究生国家奖学金评定结果公示 2025-10-20 
+ 
+ 
+
+ 
+ 
+ 关于举办“弘扬长征精神，赓续红色血脉”征文的通知 2025-09-29 
+ 
+ 
+
+ 
+ 
+ 关于开展2025年度研究生奖学金评选工作的通知 2025-09-18 
+ 
+ 
+
+ 
+ 
+.jxyj-li{height: 42px;line-height: 42px;}
+.jxyj-li:hover a{color:#bb2325}
+.jxyj-li:hover font{color:#bb2325}
+#font1,#font2,#font3,#font4,#font5,#font6,#font9,#font8{width:105px !important}
+#font7{width:120px !important}
+ 
+			    
+
+ 
+ 
+ 研究生学院开展“中华魂”军史国防主题宣讲活动 2026-10-10 
+ 
+ 
+
+ 
+ 
+ 研究生学院开展“研途有爱，温暖护航”志愿服务活动 2026-10-08 
+ 
+ 
+
+ 
+ 
+ 关于2026级研究生会纳新的通知 2026-09-07 
+ 
+ 
+
+ 
+ 
+ 华北理工大学研究生学院开展“千团万人推普强国行”暑期社会实践... 2026-07-20 
+ 
+ 
+
+ 
+ 
+ 研究生学院开展社区安全治理志愿服务活动 2026-07-07 
+ 
+ 
+
+ 
+ 
+ 喜报：研究生学院在2026年河北省青年志愿服务项目大赛中斩获... 2026-07-02 
+ 
+ 
+
+ 
+ 
+.jxyj-li{height: 42px;line-height: 42px;}
+.jxyj-li:hover a{color:#bb2325}
+.jxyj-li:hover font{color:#bb2325}
+#font1,#font2,#font3,#font4,#font5,#font6,#font9,#font8{width:105px !important}
+#font7{width:120px !important}
+ 
+		 
+     
+    
+ 
+ 
+	     
+ 
+   系统登录 
+ 更多+ 
+ 
+
+ 
+.notice{margin-left:20px;margin-right:20px;}
+ 
+     
+
+ 
+ 
+ 
+ 研究生管理系统 
+ 
+ 
+ 
+ 
+ 
+.xt-li{float:left; width: 300px;height: 80px;margin: 30px 10px; background:#fff; border-radius:10px; box-shadow:0 0 6px #e6e6e6; overflow:hidden; transition:0.5s;}
+.xt_tb{float:left; margin-top:15px; margin-left:30px; margin-right:20px;}
+.xt-li:hover{ background:#f5f5f5; transition:0.5s;}
+.xt_tb img{ border:0;}
+.xt_name{float:left; line-height:80px;}
+.xt-li:hover .xt_name{ color:#bb2325;}
+ 
+ 
+ 
+	 
+    	    快速链接： 
+
+ 中国研究生招生信息网 
+
+ 高等教育学生信息网（学信网） 
+
+ 同等学力人员申请硕士学位管理平台 
+
+ 国家大学生就业服务平台 
+
+ 学校首页 
+
+ 
+ 
+.links{background:#ededed;height:58px;}
+.dh_mz{float:left;font-size:16px;line-height:62px;padding-left:20px;color:#ffffff !important;}
+.wz_dh{float:left;margin-left:50px;font-size:15px;line-height:62px;}
+.wz_dh a{ color:#ffffff !important;padding: 5px;}
+.wz_dh a:hover{ color:#bb2325 !important;background: #fff;display: block;border-radius: 13px;height: 40px;line-height: 40px;margin-top: 7px;}
+ 
+     
+	 
+ 通讯地址：河北省唐山市曹妃甸新城渤海大道21号科技楼五层 063210 
+ 
+ 
+ 
+ 
+ 
+$(document).ready(function(){
+	$(".titBox0301 li").onclick(function(){
+		$(this).addClass("tit0301C").siblings().removeClass("tit0301C");
+		var i = $(this).index(".titBox0301 li");
+		$(".list0301").eq(i).removeClass("hide").siblings(".list0301").addClass("hide");
+	})
+})
+ 
+  
+ jQuery(".slideBox").slide({ mainCell:".bd ul",effect:"leftLoop",autoPlay:true} );  
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 

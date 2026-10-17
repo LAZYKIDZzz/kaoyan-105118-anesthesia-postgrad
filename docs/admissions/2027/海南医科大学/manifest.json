@@ -1,0 +1,89 @@
+{
+  "name": "海南医科大学",
+  "tier": "稳健区",
+  "gate": 305,
+  "region": "海南",
+  "candidates": [
+    {
+      "title": "海南医科大学2027年硕士研究生招生简章-海南医科大学招生信息网",
+      "url": "https://www.muhn.edu.cn/zsw/info/1092/12574.htm"
+    },
+    {
+      "title": "海南医科大学2027年硕士研究生招生简章-海南医科大学招生信息网",
+      "url": "https://muhn.edu.cn/zsw/info/1092/12574.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "海南医科大学2027年硕士研究生招生简章-海南医科大学招生信息网",
+      "url": "https://www.muhn.edu.cn/zsw/info/1092/12574.htm",
+      "effective_url": "https://www.muhn.edu.cn/zsw/info/1092/12574.htm",
+      "path": "docs/admissions/2027/海南医科大学/page-6e0ab477b2.html",
+      "sha256": "577fe390aa64e32d212bb6966eda8bb643591c7369c0b66ce883bb925a29eafc",
+      "bytes": 41551
+    },
+    {
+      "title": "海南医科大学2027年硕士研究生招生简章-海南医科大学招生信息网",
+      "url": "https://muhn.edu.cn/zsw/info/1092/12574.htm",
+      "effective_url": "https://muhn.edu.cn/zsw/info/1092/12574.htm",
+      "path": "docs/admissions/2027/海南医科大学/page-779962e83a.html",
+      "sha256": "577fe390aa64e32d212bb6966eda8bb643591c7369c0b66ce883bb925a29eafc",
+      "bytes": 41551
+    },
+    {
+      "title": "下一篇：海南医科大学2027年接收优秀应届本科毕业生免试攻读硕士研究生招生简章>",
+      "url": "https://www.muhn.edu.cn/zsw/info/1092/12514.htm",
+      "effective_url": "https://www.muhn.edu.cn/zsw/info/1092/12514.htm",
+      "path": "docs/admissions/2027/海南医科大学/page-eb970d57d5.html",
+      "sha256": "0793b1b6b09aa597982a42f0b5a0f960f92ffe2f2c08f6dcc4ab65d1b035ba0c",
+      "bytes": 88896
+    },
+    {
+      "title": "下一篇：海南医科大学2027年接收优秀应届本科毕业生免试攻读硕士研究生招生简章>",
+      "url": "https://muhn.edu.cn/zsw/info/1092/12514.htm",
+      "effective_url": "https://muhn.edu.cn/zsw/info/1092/12514.htm",
+      "path": "docs/admissions/2027/海南医科大学/page-f433b7dbeb.html",
+      "sha256": "0793b1b6b09aa597982a42f0b5a0f960f92ffe2f2c08f6dcc4ab65d1b035ba0c",
+      "bytes": 88896
+    }
+  ],
+  "files": [
+    {
+      "title": "海南医科大学2027年硕士研究生招生专业目录（专业型）.xlsx",
+      "url": "https://www.muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=6C1A6DA42FB4A70D390D20AC95EC48B3",
+      "path": "docs/admissions/2027/海南医科大学/海南医科大学2027年硕士研究生招生专业目录（专业型）.xlsx",
+      "sha256": "2b95f705032d6a9b5f1c9c0e704a6c7ef3c8f85e0ad66a66bbe0435f1c308a7d",
+      "bytes": 42193,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://www.muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=8D482973D4FE4035CC57EDE3DE8C7C59",
+      "title": "海南医科大学2027年硕士研究生招生专业目录（学术型）.xlsx",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=8D482973D4FE4035CC57EDE3DE8C7C59",
+      "title": "海南医科大学2027年硕士研究生招生专业目录（学术型）.xlsx",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=6C1A6DA42FB4A70D390D20AC95EC48B3",
+      "title": "海南医科大学2027年硕士研究生招生专业目录（专业型）.xlsx",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://www.muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=769584E25225B299E65B578F02CA8223",
+      "title": "海南医科大学2027年接收推荐免试攻读研究生专业目录（终版）.xlsx",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "url": "https://muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=769584E25225B299E65B578F02CA8223",
+      "title": "海南医科大学2027年接收推荐免试攻读研究生专业目录（终版）.xlsx",
+      "error": "attachment response has no recognized file signature"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}
