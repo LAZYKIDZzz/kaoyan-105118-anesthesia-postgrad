@@ -1,0 +1,532 @@
+
+ 
+ 
+ 
+	汕头大学统考硕士研究生招生系统
+ 
+    
+        a,a:visited
+        {
+            font-size: 12px;
+            text-decoration: none;
+            color: #515151;
+        }
+        a:hover
+        {
+            text-decoration: none;
+            color: #FF6600;
+        }
+        body
+        {
+            border: 0px;
+            text-align: center;
+            font-size: 12px;
+            margin: 0px;
+            font-family: arial,宋体,arial,sans-serif;
+            background-image: url(../../images/web/c_bg.gif);
+            background-attachment: fixed;
+        }
+     
+     
+     
+      
+   
+     
+        function initForm() {
+            $('#btSearch').linkbutton();
+        }
+     
+
+      
+         $(document).ready(function () { if (typeof (initForm) == "function") { initForm() } })
+         $(document).ready(function () { if (typeof (reload) == "function") { reload() } })   
+     
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+ 
+
+
+ 
+
+
+ 
+ 
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax 客户端框架未能加载。');
+//]]>
+ 
+
+ 
+ 
+
+	 
+	 
+	 
+ 
+     
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'Form1', ['tctl00$contentParent$UpdatePanel1','','tctl00$contentParent$UpdatePanel2',''], ['ctl00$contentParent$btSearch','btSearch','ctl00$contentParent$drpYx','','ctl00$contentParent$drpNd','','ctl00$contentParent$drpXxfs','','ctl00$contentParent$drpZylx',''], [], 90, 'ctl00');
+//]]>
+ 
+
+     
+        
+     
+         
+                 
+                     
+                        汕头大学 
+                     
+                     
+                        2027年硕士研究生入学招生目录
+                     
+                 
+                 
+                     招生简章 
+                 
+                 
+                    年度： 
+	 2027 
+
+ 
+                       学习方式： 
+	 全日制 
+	 非全日制 
+
+ 
+                      关键字： 
+                     查询 
+                 
+                 
+                     信息列表 共：241 条 
+                      
+                   院系： 
+	 --请选择-- 
+	 文学院 
+	 长江新闻与传播学院 
+	 长江艺术与设计学院 
+	 高等教育研究所 
+	 马克思主义学院 
+	 法学院 
+	 商学院 
+	 理学院 
+	 工学院 
+	 数学与计算机学院 
+	 医学院 
+	 化学化工学院（碳中和未来技术学院） 
+
+ 
+                                         
+                   专业类型： 
+	 --请选择-- 
+	 学术型 
+	 专业型 
+
+ 
+                 
+             
+         
+             
+                     
+	 
+		 
+			 专业代码 专业名称 招生院系 研究方向 指导教师 专业 类型 
+		 
+			 
+                                    020202
+                                 
+                                     区域经济学 
+                                 
+                                    
+                                     商学院 
+                                 
+                                     01|区域产业合作 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                     02|地域文化与区域经济发展 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                     03|区域协调发展与区域创新治理 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                    020204
+                                 
+                                     金融学 
+                                 
+                                    
+                                     商学院 
+                                 
+                                     01|货币理论与政策 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                     02|微观金融 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                     03|数字金融 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                    020205
+                                 
+                                     产业经济学 
+                                 
+                                    
+                                     商学院 
+                                 
+                                     01|产业数字化转型 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                     02|产业集群与组织创新 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                     03|产业发展与产业政策 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                     04|海洋经济 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                    030501
+                                 
+                                     马克思主义基本原理 
+                                 
+                                    
+                                     马克思主义学院 
+                                 
+                                     01|马克思主义理论内在逻辑研究 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                     02|马克思主义与当代中国实践研究 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                     03|马克思主义意识形态研究 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                    035101
+                                 
+                                     法律（非法学） 
+                                 
+                                    
+                                     法学院 
+                                 
+                                     00|不区分研究方向 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    专业型
+                                 
+		 
+			 
+                                    035102
+                                 
+                                     法律（法学） 
+                                 
+                                    
+                                     法学院 
+                                 
+                                     00|不区分研究方向 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    专业型
+                                 
+		 
+			 
+                                    040100
+                                 
+                                     教育学 
+                                 
+                                    
+                                     高等教育研究所 
+                                 
+                                     00|不区分研究方向 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                    040111
+                                 
+                                     教育法学 
+                                 
+                                    
+                                     高等教育研究所 
+                                 
+                                     00|不区分研究方向 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                    045115
+                                 
+                                     小学教育 
+                                 
+                                    
+                                     高等教育研究所 
+                                 
+                                     00|不区分研究方向 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    专业型
+                                 
+		 
+			 
+                                    050100
+                                 
+                                     中国语言文学 
+                                 
+                                    
+                                     文学院 
+                                 
+                                     01|文艺学 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                                     02|汉语言文字学 
+                                 
+                                     
+                                             导师组 
+                                         
+                                 
+                                    学术型
+                                 
+		 
+			 
+                            
+ 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+ 10 
+ ... 
+ 
+
+                         
+		 
+	 
+ 
+                 
+         
+         
+            联系信息
+         
+         
+             
+                 
+                     招生单位码
+                     
+                     
+                        
+                     
+                     招生单位名称
+                     
+                     
+                        
+                     
+                 
+                 
+                     所在省市
+                     
+                     
+                        
+                     
+                     城市名称
+                     
+                     
+                        
+                     
+                 
+                 
+                     地 址
+                     
+                     
+                        
+                     
+                     邮政编码
+                     
+                     
+                        
+                     
+                 
+                 
+                     联系部门
+                     
+                     
+                        
+                     
+                     联系人
+                     
+                     
+                        
+                     
+                 
+                 
+                     联系电话
+                     
+                     
+                        
+                     
+                     传 真
+                     
+                     
+                        
+                     
+                 
+                 
+                     Email
+                     
+                     
+                        
+                     
+                     职 务
+                     
+                     
+                        
+                     
+                 
+             
+         
+
+     
+     
+ 
+ 

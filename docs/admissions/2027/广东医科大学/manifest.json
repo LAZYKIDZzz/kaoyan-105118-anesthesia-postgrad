@@ -1,0 +1,49 @@
+{
+  "name": "广东医科大学",
+  "tier": "稳健区",
+  "gate": 317,
+  "region": "广东",
+  "candidates": [
+    {
+      "title": "广东医科大学招生官网（查找2027目录）",
+      "url": "https://yjsxy.gdmu.edu.cn/zsgz/sszs.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "广东医科大学招生官网（查找2027目录）",
+      "url": "https://yjsxy.gdmu.edu.cn/zsgz/sszs.htm",
+      "effective_url": "https://yjsxy.gdmu.edu.cn/zsgz/sszs.htm",
+      "path": "docs/admissions/2027/广东医科大学/page-389beb77e5.html",
+      "sha256": "e9f6427ec899015740014bb370be78ea59d3900b2b55afe7bcea24d4e1381857",
+      "bytes": 23680
+    },
+    {
+      "title": "广东医科大学2027年硕士研究生招生章程",
+      "url": "https://yjsxy.gdmu.edu.cn/info/1300/64797.htm",
+      "effective_url": "https://yjsxy.gdmu.edu.cn/info/1300/64797.htm",
+      "path": "docs/admissions/2027/广东医科大学/page-81e9614efb.html",
+      "sha256": "74771dcb6d0130b84df04b763a7e9aa07664381c481435a07112d6b3d95d697a",
+      "bytes": 145596
+    }
+  ],
+  "files": [
+    {
+      "title": "附件1 广东医科大学2027年硕士研究生招生专业目录.pdf",
+      "url": "https://yjsxy.gdmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2117637288&wbfileid=48C70AB4E08DA33209B86B2A73999D9A",
+      "path": "docs/admissions/2027/广东医科大学/附件1_广东医科大学2027年硕士研究生招生专业目录.pdf",
+      "sha256": "bcea2c4fdc93f913ee9a7e19eeec450b982e5e6618e2d0aa6ab3cba8d2fd66c9",
+      "bytes": 148780,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjsxy.gdmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2117637288&wbfileid=791267E1675CB836FFAD22DCE002A127",
+      "title": "附件2 广东医科大学2027年硕士研究生招生专业报考条件.pdf",
+      "error": "attachment response has no recognized file signature"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

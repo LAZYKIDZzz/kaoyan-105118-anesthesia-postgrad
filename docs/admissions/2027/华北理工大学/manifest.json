@@ -1,0 +1,51 @@
+{
+  "name": "华北理工大学",
+  "tier": "从容区",
+  "gate": 293,
+  "region": "河北",
+  "candidates": [
+    {
+      "title": "华北理工大学招生官网（查找2027目录）",
+      "url": "https://yjsxy.ncst.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "华北理工大学招生官网（查找2027目录）",
+      "url": "https://yjsxy.ncst.edu.cn/",
+      "effective_url": "https://yjsxy.ncst.edu.cn/",
+      "path": "docs/admissions/2027/华北理工大学/page-f7b68eb425.html",
+      "sha256": "645c85fcebb6ec2f6f8648f6993055cc070132204e7b2c70f680b4618b3b518b",
+      "bytes": 51246
+    },
+    {
+      "title": "华北理工大学2027年硕士研究生招生章程",
+      "url": "https://yjsxy.ncst.edu.cn/col/1695864352045/2026/09/29/1790664739250.html",
+      "effective_url": "https://yjsxy.ncst.edu.cn/col/1695864352045/2026/09/29/1790664739250.html",
+      "path": "docs/admissions/2027/华北理工大学/page-ce61ba40c7.html",
+      "sha256": "b195289547aebb4b3c2dc32bdc058804901554986ceceba3b14ef04e5d2f032f",
+      "bytes": 46761
+    },
+    {
+      "title": "华北理工大学2027年硕士研究生招生专业目录",
+      "url": "https://yjsxy.ncst.edu.cn/col/1695864352045/2026/09/29/1790664573019.html",
+      "effective_url": "https://yjsxy.ncst.edu.cn/col/1695864352045/2026/09/29/1790664573019.html",
+      "path": "docs/admissions/2027/华北理工大学/page-afb479ce5a.html",
+      "sha256": "56a903097d3b7bca26c4f02c9e10ffced495d4ad4e444648f807e3e423f0fee4",
+      "bytes": 11589
+    }
+  ],
+  "files": [
+    {
+      "title": "华北理工大学2027年硕士研究生招生专业目录",
+      "url": "https://yjsxy.ncst.edu.cn/atm/7/20260929144915701.doc",
+      "path": "docs/admissions/2027/华北理工大学/华北理工大学2027年硕士研究生招生专业目录.doc",
+      "sha256": "2be93d2c093a93afa9cfef90502f8dd3a3424ca2e6e0394a8e82e33b41731f3c",
+      "bytes": 730927,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

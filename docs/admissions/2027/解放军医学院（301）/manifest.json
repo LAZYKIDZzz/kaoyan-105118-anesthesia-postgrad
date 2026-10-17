@@ -1,0 +1,26 @@
+{
+  "name": "解放军医学院（301）",
+  "tier": "稳健区",
+  "gate": 304,
+  "region": "北京",
+  "candidates": [
+    {
+      "title": "解放军医学院（301）招生官网（查找2027目录）",
+      "url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-25318117%2CcategoryId-10462685%2CschId-367823%2Cmindex-12.dhtml"
+    }
+  ],
+  "pages": [
+    {
+      "title": "解放军医学院（301）招生官网（查找2027目录）",
+      "url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-25318117%2CcategoryId-10462685%2CschId-367823%2Cmindex-12.dhtml",
+      "effective_url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-25318117%2CcategoryId-10462685%2CschId-367823%2Cmindex-12.dhtml",
+      "path": "docs/admissions/2027/解放军医学院（301）/page-cd853b45bf.html",
+      "sha256": "1c9ec7ec5a49125f259c526ede466cc443798fb24248ca00a65f45c707fbe0e6",
+      "bytes": 1025462
+    }
+  ],
+  "files": [],
+  "failures": [],
+  "status": "仅归档招生网页，目录待补",
+  "checked_at": "2026-10-18"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "青岛大学",
+  "tier": "从容区",
+  "gate": 300,
+  "region": "山东",
+  "candidates": [
+    {
+      "title": "青岛大学2027年招生目录入口",
+      "url": "https://grad.qdu.edu.cn/yzb/zsjz/ssyjs/zyml.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "青岛大学2027年招生目录入口",
+      "url": "https://grad.qdu.edu.cn/yzb/zsjz/ssyjs/zyml.htm",
+      "effective_url": "https://grad.qdu.edu.cn/yzb/zsjz/ssyjs/zyml.htm",
+      "path": "docs/admissions/2027/青岛大学/page-994922179a.html",
+      "sha256": "064d68116a0490f2792a97be529871ed0adec8813fd98fbc654dddd9983d23ee",
+      "bytes": 16706
+    },
+    {
+      "title": "青岛大学2027年硕士研究生招生专业目录",
+      "url": "https://grad.qdu.edu.cn/info/1131/4620.htm",
+      "effective_url": "https://grad.qdu.edu.cn/info/1131/4620.htm",
+      "path": "docs/admissions/2027/青岛大学/page-f78aca2518.html",
+      "sha256": "353aa4dc63b114f9a11d7c47bb50149ab4f8b57a7a22347ad969966bc444ab34",
+      "bytes": 20031
+    }
+  ],
+  "files": [
+    {
+      "title": "青岛大学2027年招生专业目录",
+      "url": "https://grad.qdu.edu.cn/__local/4/09/90/B0AA1C286546F7A5BD5076C3645_D787C8EB_4E902.pdf",
+      "path": "docs/admissions/2027/青岛大学/青岛大学2027年招生专业目录.pdf",
+      "sha256": "9fb207fc8c2f72743055224f29d2d113559f544b2d41fd253e9cfebe7eb2ce04",
+      "bytes": 321794,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "南华大学",
+  "tier": "从容区",
+  "gate": 294,
+  "region": "湖南",
+  "candidates": [
+    {
+      "title": "南华大学2027年硕士研究生招生简章-南华大学-研究生处（部）",
+      "url": "https://yjs.usc.edu.cn/info/1313/12932.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "南华大学2027年硕士研究生招生简章-南华大学-研究生处（部）",
+      "url": "https://yjs.usc.edu.cn/info/1313/12932.htm",
+      "effective_url": "https://yjs.usc.edu.cn/info/1313/12932.htm",
+      "path": "docs/admissions/2027/南华大学/page-8d5bd4cdb6.html",
+      "sha256": "c1fe5ec30abd513bd242536773a51d3a0d0c64f478fc849a455b2f4194ee74cb",
+      "bytes": 179925
+    }
+  ],
+  "files": [
+    {
+      "title": "南华大学2027年硕士研究生招生专业目录.pdf",
+      "url": "https://yjs.usc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=999409215&wbfileid=13211384",
+      "path": "docs/admissions/2027/南华大学/南华大学2027年硕士研究生招生专业目录.pdf",
+      "sha256": "4f84b9fc2f7e8991a8d4572bfec7342d64ca120133301418710e6522feadf448",
+      "bytes": 239387,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

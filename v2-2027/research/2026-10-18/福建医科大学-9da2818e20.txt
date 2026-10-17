@@ -1,0 +1,841 @@
+
+ 
+ 
+ 
+ 研究生处(研究生院) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  $(function(){
+    $(".focus").sudyfocus({
+      p:31,
+	  zWidth: 1400,
+      zHeight: 418, // 窗口高度
+      response: false, // 是否自适应缩放
+	  isNavHover: true,
+	  pagination: true,
+      title: {active: true, // 是否显示标题
+			isAutoWidth: false, // 标题背景自动宽度
+			href: false // 标题是否加文章链接
+},
+      speed:700
+    });
+  });
+ 
+ 
+
+ 
+ 
+     
+         
+             
+                   联系我们 学校主页   
+                 
+                     
+                         
+                             
+                                 
+                             
+                         
+                     
+                    
+                     
+                         
+                             
+     
+         
+             
+                 
+                     
+                 
+                 
+                     
+                 
+             
+         
+     
+ 
+                         
+                     
+                 
+             
+         
+     
+
+
+
+
+ 
+         
+             
+                 
+                     
+  
+#wp_nav_w102 .wp_nav { margin: 0px; padding: 0px; display: block; }#wp_nav_w102 .wp_nav * { margin: 0px; padding: 0px; }#wp_nav_w102 .wp_nav::after { clear: both; content: "."; display: block; height: 0px; visibility: hidden; }#wp_nav_w102 .wp_nav .nav-item { display: inline-block; float: left; position: relative; vertical-align: bottom; }#wp_nav_w102 .wp_nav .on { z-index: 10; }#wp_nav_w102 .wp_nav .nav-item .mark { display: block; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; z-index: 99; opacity: 1; }#wp_nav_w102 .wp_nav .nav-item a { display: block; text-align: center; position: relative; z-index: 100; }#wp_nav_w102 .wp_nav .nav-item a.parent:hover { }#wp_nav_w102 .wp_nav .nav-item a.parent { color: rgb(0, 0, 0); }#wp_nav_w102 .wp_nav .nav-item a span.item-name { display: inline-block; padding: 15px 10px 0px; line-height: 22px; cursor: pointer; }#wp_nav_w102 .wp_nav .sub-nav { display: block; width: 100%; position: absolute; z-index: 200; visibility: hidden; border-right: 1px solid rgb(204, 204, 204); border-bottom: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204); border-image: initial; border-top: none; }#wp_nav_w102 .wp_nav .sub-nav .nav-item { white-space: nowrap; }#wp_nav_w102 .wp_nav .sub-nav .nav-item .mark { background: rgb(255, 255, 255); opacity: 1; }#wp_nav_w102 .wp_nav .sub-nav .nav-item a { font-size: 13px; font-weight: normal; color: rgb(0, 0, 0); text-align: left; border-top: 1px solid rgb(216, 225, 204); min-width: 80px; }#wp_nav_w102 .wp_nav .sub-nav .nav-item a.parent:hover { background: rgb(238, 238, 238); color: rgb(0, 0, 0); }#wp_nav_w102 .wp_nav .sub-nav .nav-item a.parent { background: rgb(238, 238, 238); color: rgb(0, 0, 0); }#wp_nav_w102 .wp_nav .sub-nav .nav-item a span.item-name { padding: 5px 10px; line-height: 22px; }#wp_nav_w102 .wp_nav .nav-item a.parent:hover span.item-name { }#wp_nav_w102 .wp_nav .nav-item a.parent span.item-name { }#wp_nav_w102 .wp_nav .sub-nav .nav-item a.parent:hover span.item-name { }#wp_nav_w102 .wp_nav .sub-nav .nav-item a.parent span.item-name { text-decoration: none; }
+  
+  
+
+ 
+ 
+      
+       
+          首页  
+          
+       
+      
+       
+          研院简介  
+          
+           
+              
+               
+                  研究生院简介  
+                  
+               
+              
+               
+                  机构设置  
+                  
+               
+              
+           
+          
+       
+      
+       
+          招生工作  
+          
+           
+              
+               
+                  招收博士学位研究生  
+                  
+               
+              
+               
+                  招收硕士学位研究生  
+                  
+               
+              
+               
+                  招收港澳台硕士学位研...  
+                  
+               
+              
+           
+          
+       
+      
+       
+          培养工作  
+          
+           
+              
+               
+                  文件&规章制度  
+                  
+               
+              
+               
+                  通知公告  
+                  
+               
+              
+               
+                  培养过程  
+                  
+               
+              
+               
+                  课程安排  
+                  
+               
+              
+               
+                  考试安排  
+                  
+               
+              
+               
+                  学术交流  
+                  
+               
+              
+           
+          
+       
+      
+       
+          学位工作  
+          
+           
+              
+               
+                  表格下载  
+                  
+               
+              
+               
+                  博士研究生学位申请  
+                  
+               
+              
+               
+                  硕士研究生学位申请  
+                  
+               
+              
+               
+                  学位点建设  
+                  
+               
+              
+           
+          
+       
+      
+       
+          临床医学联合培养  
+          
+       
+      
+       
+          在职教育  
+          
+           
+              
+               
+                  在职博士  
+                  
+           
+              
+               
+                  通知公告  
+                  
+               
+              
+               
+                  课程与考试  
+                  
+               
+              
+               
+                  学位申请  
+                  
+               
+              
+               
+                  文件下载  
+                  
+               
+              
+           
+          
+               
+              
+               
+                  同等学力申请硕士学位  
+                  
+           
+              
+               
+                  通知公告  
+                  
+               
+              
+               
+                  课程与考试  
+                  
+               
+              
+               
+                  学位申请  
+                  
+               
+              
+               
+                  文件下载  
+                  
+               
+              
+           
+          
+               
+              
+           
+          
+       
+      
+       
+          质量督导  
+          
+       
+      
+       
+          导师队伍建设  
+          
+           
+              
+               
+                  导师风采  
+                  
+               
+              
+           
+          
+       
+      
+       
+          下载专区  
+          
+           
+              
+               
+                  院标专区  
+                  
+               
+              
+               
+                  通知文件  
+                  
+               
+              
+               
+                  全日制研究生手册  
+                  
+               
+              
+               
+                  各式表格  
+                  
+               
+              
+           
+          
+       
+      
+  
+ 
+ 
+  
+             
+         
+     
+
+
+
+
+   
+
+
+
+
+
+
+     
+         
+             
+                 
+
+
+ 
+
+                     
+                         
+                             
+                                 
+                                     新闻动态 
+                                     
+                                         更多>> 
+                                     
+                                 
+                                 
+                                    
+                                         
+                                            
+                                             
+                                                 
+                                                 欢迎报考福建医科大学！ 
+                                             
+                                            
+                                             
+                                                 
+                                                 “职”说学业，共话未来 
+                                             
+                                            
+                                             
+                                                 
+                                                 我校召开2026年硕士研究生... 
+                                             
+                                            
+                                             
+                                                 
+                                                 我校举办2025级在职博士开... 
+                                             
+                                            
+                                         
+                                    
+                                 
+                             
+                         
+                     
+
+
+
+
+
+                 
+
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+
+
+
+                     
+                         
+                             
+                                 
+                                     
+                                             招生工作 
+                                         
+                                             更多>> 
+                                         
+                                     
+                                     
+                                          
+ 
+  
+      
+       
+           
+              1  
+              福建医科大学2027年硕士研究生招...  
+           
+           
+              
+              2026-10-16  
+              
+           
+       
+      
+       
+           
+              2  
+              福建医科大学2027年推免第二轮入...  
+           
+           
+              
+              2026-10-10  
+              
+           
+       
+      
+       
+           
+              3  
+              福建医科大学2027年攻读硕士学位...  
+           
+           
+              
+              2026-10-02  
+              
+           
+       
+      
+       
+           
+              4  
+              福建医科大学2027年推荐免试攻读...  
+           
+           
+              
+              2026-09-30  
+              
+           
+       
+      
+       
+           
+              5  
+              福建医科大学2027年推免生入围复...  
+           
+           
+              
+              2026-09-24  
+              
+           
+       
+      
+  
+  
+
+                                     
+                                 
+                             
+                         
+                         
+                             
+                                 
+                                     
+                                         学位工作 
+                                         
+                                             更多>> 
+                                         
+                                     
+                                     
+                                          
+ 
+  
+      
+       
+           
+              1  
+              关于2026年12月拟申请学位在职博...  
+           
+           
+              
+              2026-09-21  
+              
+           
+       
+      
+       
+           
+              2  
+              关于2026年9月拟申请博士学位全...  
+           
+           
+              
+              2026-09-20  
+              
+           
+       
+      
+       
+           
+              3  
+              关于2026年6月拟申请博士学位全...  
+           
+           
+              
+              2026-06-12  
+              
+           
+       
+      
+       
+           
+              4  
+              关于做好2026年6月授学位批次论...  
+           
+           
+              
+              2026-04-28  
+              
+           
+       
+      
+       
+           
+              5  
+              关于2026年6月拟申请学位在职博...  
+           
+           
+              
+              2026-04-03  
+              
+           
+       
+      
+       
+           
+              6  
+              关于2026年3月拟申请博士学位全...  
+           
+           
+              
+              2026-03-26  
+              
+           
+       
+      
+  
+  
+
+                                     
+                                 
+                             
+                         
+                     
+                     
+                         
+                             
+                                 
+                                     
+                                         培养工作 
+                                         
+                                             更多>> 
+                                         
+                                     
+                                     
+                                          
+ 
+  
+      
+       
+           
+              1  
+              关于2026级研究生2026-2027学年...  
+           
+           
+              
+              2026-08-06  
+              
+           
+       
+      
+       
+           
+              2  
+              关于2026级硕士研究生（含5+3一...  
+           
+           
+              
+              2026-07-24  
+              
+           
+       
+      
+       
+           
+              3  
+               关于做好2025-2026学年第二学期...  
+           
+           
+              
+              2026-06-04  
+              
+           
+       
+      
+       
+           
+              4  
+              关于2026年福建省基础医学创新与...  
+           
+           
+              
+              2026-05-19  
+              
+           
+       
+      
+       
+           
+              5  
+              关于组织做好2026年上半年专业学...  
+           
+           
+              
+              2026-03-26  
+              
+           
+       
+      
+  
+  
+
+                                     
+                                 
+                             
+                         
+                         
+                             
+                                 
+                                     
+                                         在职教育 
+                                         
+                                             更多>> 
+                                         
+                                     
+                                     
+                                          
+ 
+  
+      
+       
+           
+              1  
+              关于福建医科大学2026级在职医师...  
+           
+           
+              
+              2026-10-11  
+              
+           
+       
+      
+       
+           
+              2  
+              关于开展2026年度同等学力申请硕...  
+           
+           
+              
+              2026-09-20  
+              
+           
+       
+      
+       
+           
+              3  
+              2026年在职博士招生公告（6）——...  
+           
+           
+              
+              2026-07-02  
+              
+           
+       
+      
+       
+           
+              4  
+              福建医科大学2026年招收同等学力...  
+           
+           
+              
+              2026-06-30  
+              
+           
+       
+      
+       
+           
+              5  
+              关于印发《福建医科大学关于在职...  
+           
+           
+              
+              2026-06-26  
+              
+           
+       
+      
+       
+           
+              6  
+              2026年在职博士招生公告（5）——...  
+           
+           
+              
+              2026-06-10  
+              
+           
+       
+      
+  
+  
+
+                                     
+                                 
+                             
+                     
+                 
+               
+
+
+
+
+
+             
+         
+     
+     
+         
+             
+                 
+                     
+                         
+                            
+                             
+                                 友情链接 ——————————————— 学校官网 福建省卫生健康委员会 学位网 学信网 中华人民共和国教育部 function goto_site(selectControl) { var v = selectControl.value; if (v != "") { window.open(v); selectControl.blur(); } selectControl.selectedIndex=0; } 
+                             
+                         
+                     
+                 
+                
+
+ 
+                     
+                         
+                            
+                             
+                                 校园服务 ——————————————— 导师服务系统 研究生服务系统 课程云平台 function goto_site(selectControl) { var v = selectControl.value; if (v != "") { window.open(v); selectControl.blur(); } selectControl.selectedIndex=0; } 
+                             
+                         
+                     
+                 
+
+
+             
+         
+     
+     
+         
+             
+                 
+                     
+                                                     联系我们 
+地址：福州市闽侯县上街镇学府北路1号行政楼C座三楼，邮编：350122 
+电话：0591-22862107（研招办）；22860082（培养办）；22862992（学位办）；22860092（质量监督与在职教育办）；22860092（传真） 
+师生信访邮箱：fjmuyjsc@163.com 
+教师违反师德师风举报投诉邮箱：yjsydzb@fjmu.edu.cn
+  
+                        
+                     
+                 
+
+ 
+
+
+
+             
+         
+     
+ 
+ 
+ 
+ 

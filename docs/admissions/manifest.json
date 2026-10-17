@@ -1,0 +1,3949 @@
+{
+  "meta": {
+    "checked_at": "2026-10-18",
+    "schools": 72,
+    "verified_plans": 51,
+    "download_status": {
+      "已下载官方原附件": 54,
+      "官网访问受限，待补原件": 5,
+      "已归档官方网页目录": 7,
+      "仅归档招生网页，目录待补": 6
+    },
+    "scope_note": "沿用本轮开始时的三档院校，历史复试线和实录数据不因本轮招生计划变更而改写。",
+    "plan_note": "官方目录通常是拟计划；总数与普通统考名额不可混用。pending数值保留用于追溯，不作新确认。"
+  },
+  "schools": [
+    {
+      "name": "吉首大学",
+      "tier": "从容区",
+      "gate": 283,
+      "region": "湖南",
+      "current_name": "吉首大学",
+      "plan": 5,
+      "basis": "总数",
+      "previous_plan": 5,
+      "previous_basis": "总数",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "官方2027章程所附目录105118拟招5人。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsc.jsu.edu.cn/docs/2026-10/aab503f50376462ab17462a7cfb52d0a.pdf"
+      ],
+      "files": [
+        {
+          "title": "吉首大学2027年硕士研究生招生章程.pdf",
+          "url": "https://yjsc.jsu.edu.cn/docs/2026-10/aab503f50376462ab17462a7cfb52d0a.pdf",
+          "path": "docs/admissions/2027/吉首大学/吉首大学2027年硕士研究生招生章程.pdf",
+          "sha256": "9637b8adcaf0d01ca051d844bf22bc5fb209e76a2eb42f45fd818f47fc7747c0",
+          "bytes": 403273,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "吉首大学2027年硕士研究生招生简章-硕士招生-吉首大学研究生院",
+          "url": "https://yjsc.jsu.edu.cn/zsgz/sszs/e6215b80647f424b85f142f42ffac6ef.htm",
+          "effective_url": "https://yjsc.jsu.edu.cn/zsgz/sszs/e6215b80647f424b85f142f42ffac6ef.htm",
+          "path": "docs/admissions/2027/吉首大学/page-0ef17245cc.html",
+          "sha256": "11fd347a6c454760b9d0ade9695f0f80457b728cfdfcf3a01504f14252f4889d",
+          "bytes": 54272
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "延边大学",
+      "tier": "从容区",
+      "gate": 283,
+      "region": "吉林",
+      "current_name": "延边大学",
+      "plan": 20,
+      "basis": "统考/不含推免",
+      "previous_plan": 20,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "医学院专业型目录105118拟招20人，明确不含推免；CET4须达到425分（含）。2027章程明确改按一区A类线执行，不能沿用历年B类线理解。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://grad.ybu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1254623853&wbfileid=4773933"
+      ],
+      "files": [
+        {
+          "title": "011医学院专业目录（专业型）.pdf",
+          "url": "https://grad.ybu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1254623853&wbfileid=4773933",
+          "path": "docs/admissions/2027/延边大学/011医学院专业目录（专业型）.pdf",
+          "sha256": "11161544c8e89a80defdeb91d6f2818a791c44381741caebc86b5811a4eca927",
+          "bytes": 199339,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "延边大学2027年招收攻读硕士学位研究生招生章程 -研究生院",
+          "url": "https://grad.ybu.edu.cn/info/1188/6824.htm",
+          "effective_url": "https://grad.ybu.edu.cn/info/1188/6824.htm",
+          "path": "docs/admissions/2027/延边大学/page-0087a3a5de.html",
+          "sha256": "d3e7f91459a5da39229847a0ffd7cd55155976bc7fb2c219d6cf9c9eda1356db",
+          "bytes": 83250
+        },
+        {
+          "title": "延边大学招生官网（查找2027目录）",
+          "url": "https://grad.ybu.edu.cn/zsgz/sszs.htm",
+          "effective_url": "https://grad.ybu.edu.cn/zsgz/sszs.htm",
+          "path": "docs/admissions/2027/延边大学/page-f69661fdae.html",
+          "sha256": "33ef14a55519b20f8b8687f70519c3c2acb44dcbd834f79c55f731e50cf4241c",
+          "bytes": 24548
+        },
+        {
+          "title": "延边大学2027年硕士研究生招生专业目录",
+          "url": "https://grad.ybu.edu.cn/info/1188/6825.htm",
+          "effective_url": "https://grad.ybu.edu.cn/info/1188/6825.htm",
+          "path": "docs/admissions/2027/延边大学/page-4fb7ebdc66.html",
+          "sha256": "ffbfb793ab2c2b72ab15b2eac40140081e14ea6af5206a36667fd9cb03d452b3",
+          "bytes": 37714
+        }
+      ],
+      "failures": [],
+      "zone2027": "A区"
+    },
+    {
+      "name": "甘肃中医药大学",
+      "tier": "从容区",
+      "gate": 287,
+      "region": "甘肃",
+      "current_name": "甘肃中医药大学",
+      "plan": 10,
+      "basis": "统考/不含推免",
+      "previous_plan": 10,
+      "previous_basis": "总数",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "10月14日官方目录分列：统考10、推免1、总计划11，采用统考栏10。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsc.gszy.edu.cn/ueditor/php/upload/file/20261014/1791964652982466.pdf"
+      ],
+      "files": [
+        {
+          "title": "甘肃中医药大学2027年硕士研究生招生专业目录.pdf",
+          "url": "https://yjsc.gszy.edu.cn/ueditor/php/upload/file/20261014/1791964652982466.pdf",
+          "path": "docs/admissions/2027/甘肃中医药大学/甘肃中医药大学2027年硕士研究生招生专业目录.pdf",
+          "sha256": "76dad28a4464b980a35eb973ae8a700946cac9880282ec8c42fd7be302c6135c",
+          "bytes": 288156,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "甘肃中医药大学招生栏目",
+          "url": "https://yjsc.gszy.edu.cn/html/cid/91.html",
+          "effective_url": "https://yjsc.gszy.edu.cn/html/cid/91.html",
+          "path": "docs/admissions/2027/甘肃中医药大学/page-3e080886d7.html",
+          "sha256": "c21c4d1c7994c37f795c9619c6a18271a1790ad9c583651e593df79d61ba3c3c",
+          "bytes": 33218
+        },
+        {
+          "title": "甘肃中医药大学招生官网（查找2027目录）",
+          "url": "https://yjsc.gszy.edu.cn/",
+          "effective_url": "https://yjsc.gszy.edu.cn/",
+          "path": "docs/admissions/2027/甘肃中医药大学/page-16398f8eda.html",
+          "sha256": "9315479018f9b9ab5d3ea3835ff2c71061f62c5d2db685acc14cd9cf35758236",
+          "bytes": 44378
+        },
+        {
+          "title": "2026-10-14 甘肃中医药大学2027年硕士研究生招生专业目录",
+          "url": "https://yjsc.gszy.edu.cn/show/id/5475.html",
+          "effective_url": "https://yjsc.gszy.edu.cn/show/id/5475.html",
+          "path": "docs/admissions/2027/甘肃中医药大学/page-98854b3370.html",
+          "sha256": "242332a3f6335e28d928970b7008f85461e3b564b0f7ff15bdc4e482b13c39ba",
+          "bytes": 32670
+        },
+        {
+          "title": "2026-09-18 甘肃中医药大学2027年硕士研究生考试招生简章",
+          "url": "https://yjsc.gszy.edu.cn/show/id/5474.html",
+          "effective_url": "https://yjsc.gszy.edu.cn/show/id/5474.html",
+          "path": "docs/admissions/2027/甘肃中医药大学/page-674caf6c7f.html",
+          "sha256": "b56bd2ba4e4d5905bc9a4cf92a81a2b6806ea8a85e4965cb38bf7c3bcc9e470f",
+          "bytes": 57481
+        },
+        {
+          "title": "2026-09-18 甘肃中医药大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生（含中医学专业“5+3”一体化学生转段）招生专业目录",
+          "url": "https://yjsc.gszy.edu.cn/show/id/5473.html",
+          "effective_url": "https://yjsc.gszy.edu.cn/show/id/5473.html",
+          "path": "docs/admissions/2027/甘肃中医药大学/page-87db647c89.html",
+          "sha256": "c33494afcf5d5ac968f284b170230fdd7953c7284f96ca93c2f5a06ee20c815b",
+          "bytes": 33153
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjsc.gszy.edu.cn/show/id/甘肃中医药大学2027年硕士研究生招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://yjsc.gszy.edu.cn/show/id/甘肃中医药大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生（含中医学专业“5+3”一体化学生转段）招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "attachment response has no recognized file signature"
+        }
+      ]
+    },
+    {
+      "name": "内蒙古医科大学",
+      "tier": "从容区",
+      "gate": 289,
+      "region": "内蒙古",
+      "current_name": "内蒙古医科大学",
+      "plan": 38,
+      "basis": "统考/不含推免",
+      "previous_plan": 38,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "官网访问受限；本轮未取得可核验的招生计划原件，保留既有数值并标记待核。",
+      "status": "官网访问受限，待补原件",
+      "official_urls": [
+        "http://yjsxy.immu.edu.cn/",
+        "https://yjsxy.immu.edu.cn/"
+      ],
+      "files": [],
+      "pages": [],
+      "failures": [
+        {
+          "url": "http://yjsxy.immu.edu.cn/",
+          "title": "内蒙古医科大学官方招生入口",
+          "error": "curl: (6) Could not resolve host: yjsxy.immu.edu.cn\ncurl: (6) Could not resolve host: yjsxy.immu.edu.cn\n"
+        },
+        {
+          "url": "https://yjsxy.immu.edu.cn/",
+          "title": "内蒙古医科大学招生官网（查找2027目录）",
+          "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to yjsxy.immu.edu.cn:443 \n"
+        }
+      ]
+    },
+    {
+      "name": "华北理工大学",
+      "tier": "从容区",
+      "gate": 293,
+      "region": "河北",
+      "current_name": "华北理工大学",
+      "plan": 11,
+      "basis": "统考/不含推免",
+      "previous_plan": 14,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "官方2027 Word目录105118为11人；表头明确不含推免，旧14人应修正。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsxy.ncst.edu.cn/atm/7/20260929144915701.doc"
+      ],
+      "files": [
+        {
+          "title": "华北理工大学2027年硕士研究生招生专业目录",
+          "url": "https://yjsxy.ncst.edu.cn/atm/7/20260929144915701.doc",
+          "path": "docs/admissions/2027/华北理工大学/华北理工大学2027年硕士研究生招生专业目录.doc",
+          "sha256": "2be93d2c093a93afa9cfef90502f8dd3a3424ca2e6e0394a8e82e33b41731f3c",
+          "bytes": 730927,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "华北理工大学招生官网（查找2027目录）",
+          "url": "https://yjsxy.ncst.edu.cn/",
+          "effective_url": "https://yjsxy.ncst.edu.cn/",
+          "path": "docs/admissions/2027/华北理工大学/page-f7b68eb425.html",
+          "sha256": "645c85fcebb6ec2f6f8648f6993055cc070132204e7b2c70f680b4618b3b518b",
+          "bytes": 51246
+        },
+        {
+          "title": "华北理工大学2027年硕士研究生招生章程",
+          "url": "https://yjsxy.ncst.edu.cn/col/1695864352045/2026/09/29/1790664739250.html",
+          "effective_url": "https://yjsxy.ncst.edu.cn/col/1695864352045/2026/09/29/1790664739250.html",
+          "path": "docs/admissions/2027/华北理工大学/page-ce61ba40c7.html",
+          "sha256": "b195289547aebb4b3c2dc32bdc058804901554986ceceba3b14ef04e5d2f032f",
+          "bytes": 46761
+        },
+        {
+          "title": "华北理工大学2027年硕士研究生招生专业目录",
+          "url": "https://yjsxy.ncst.edu.cn/col/1695864352045/2026/09/29/1790664573019.html",
+          "effective_url": "https://yjsxy.ncst.edu.cn/col/1695864352045/2026/09/29/1790664573019.html",
+          "path": "docs/admissions/2027/华北理工大学/page-afb479ce5a.html",
+          "sha256": "56a903097d3b7bca26c4f02c9e10ffced495d4ad4e444648f807e3e423f0fee4",
+          "bytes": 11589
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "武汉科技大学",
+      "tier": "从容区",
+      "gate": 293,
+      "region": "湖北",
+      "current_name": "武汉科技大学",
+      "plan": 12,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 9,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027专业目录医学部105118拟招12人；不能沿用旧9人或5人，普通统考余额待核。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://ysxy.wust.edu.cn/__local/3/1F/81/3F7A98C6BAE74FCFBCF8042DAC7_1B98D29B_BACD2.pdf",
+        "https://ysxy.wust.edu.cn/__local/B/6F/80/41363820842F1AB54D78DC96EB8_BD16EBA9_34B97.pdf",
+        "https://ysxy.wust.edu.cn/__local/3/0C/91/B2C692B101BE12C7B157838E48E_7CE3EACE_33C3D.pdf"
+      ],
+      "files": [
+        {
+          "title": "武汉科技大学2027年招生专业目录",
+          "url": "https://ysxy.wust.edu.cn/__local/3/1F/81/3F7A98C6BAE74FCFBCF8042DAC7_1B98D29B_BACD2.pdf",
+          "path": "docs/admissions/2027/武汉科技大学/武汉科技大学2027年招生专业目录.pdf",
+          "sha256": "1078c547a4a8f1451be8daff2364602ccb7159c6ada221f3d6035d4db2627a8d",
+          "bytes": 765138,
+          "kind": "original"
+        },
+        {
+          "title": "武汉科技大学2027年招生专业目录",
+          "url": "https://ysxy.wust.edu.cn/__local/B/6F/80/41363820842F1AB54D78DC96EB8_BD16EBA9_34B97.pdf",
+          "path": "docs/admissions/2027/武汉科技大学/武汉科技大学2027年招生专业目录-978941.pdf",
+          "sha256": "978941c48bed19c3aaac475f06f797325eba285839fd3439b9133affbd68c17c",
+          "bytes": 215959,
+          "kind": "original"
+        },
+        {
+          "title": "武汉科技大学2027年招生章程",
+          "url": "https://ysxy.wust.edu.cn/__local/3/0C/91/B2C692B101BE12C7B157838E48E_7CE3EACE_33C3D.pdf",
+          "path": "docs/admissions/2027/武汉科技大学/武汉科技大学2027年招生章程.pdf",
+          "sha256": "d0d449c05e8fb0fdffb874608fec0eb9609438d7d4ed9474d288774fa9a57ad9",
+          "bytes": 212029,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "武汉科技大学招生官网（查找2027目录）",
+          "url": "https://ysxy.wust.edu.cn/info/1831/50612.htm",
+          "effective_url": "https://ysxy.wust.edu.cn/info/1831/50612.htm",
+          "path": "docs/admissions/2027/武汉科技大学/page-fba173fce6.html",
+          "sha256": "67a65c9bf7f4d19e91b4b6d6d05482a8c27214b7abb878895151132d6021656a",
+          "bytes": 52026
+        },
+        {
+          "title": "武汉科技大学招生官网（查找2027目录）",
+          "url": "https://ysxy.wust.edu.cn/zsgz/tzgg.htm",
+          "effective_url": "https://ysxy.wust.edu.cn/zsgz/tzgg.htm",
+          "path": "docs/admissions/2027/武汉科技大学/page-38c0431f10.html",
+          "sha256": "dfd081d1ea106aa171a9b5ab49fc351aec9996af00936f426ac8fa437e6df124",
+          "bytes": 29159
+        },
+        {
+          "title": "武汉科技大学2027年接收推荐免试研究生（含直博生）招生简章武汉科技大学2027年接收推荐免试研究生（含直博生）招生简章",
+          "url": "https://ysxy.wust.edu.cn/info/1831/50482.htm",
+          "effective_url": "https://ysxy.wust.edu.cn/info/1831/50482.htm",
+          "path": "docs/admissions/2027/武汉科技大学/page-3f82829833.html",
+          "sha256": "6cb1bf232016204a9d8ac689ce6ad51c5d30f12a2ab5d335718bbec17f474595",
+          "bytes": 24959
+        },
+        {
+          "title": "武汉科技大学马德里康普顿斯学院2026-2027学年外国硕士研究生学历教育专业招生简章武汉科技大学马德里康普顿斯学院2026-2027学年外国硕士研究生学历教育专业招生简章",
+          "url": "https://ysxy.wust.edu.cn/info/1831/50342.htm",
+          "effective_url": "https://ysxy.wust.edu.cn/info/1831/50342.htm",
+          "path": "docs/admissions/2027/武汉科技大学/page-e6c90fb857.html",
+          "sha256": "9619e0d86ef21a8523cef4ce50b47406e24a9995bd9bd97df9d96b1865570cbd",
+          "bytes": 24298
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "湖南师范大学",
+      "tier": "从容区",
+      "gate": 293,
+      "region": "湖南",
+      "current_name": "湖南师范大学",
+      "plan": 4,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 4,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027章程所附目录：第一附属医院105118临床医疗技能训练与研究4人。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsc.hunnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1564202631&wbfileid=15558754"
+      ],
+      "files": [
+        {
+          "title": "湖南师范大学2027年硕士研究生招生章程.pdf",
+          "url": "https://yjsc.hunnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1564202631&wbfileid=15558754",
+          "path": "docs/admissions/2027/湖南师范大学/湖南师范大学2027年硕士研究生招生章程.pdf",
+          "sha256": "138ab892ea8b522db87f52afb16fd3d72cffc6d77027032fc00f291b2e7d55a4",
+          "bytes": 603655,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "湖南师范大学招生栏目",
+          "url": "https://yjsc.hunnu.edu.cn/zsks/sszk1.htm",
+          "effective_url": "https://yjsc.hunnu.edu.cn/zsks/sszk1.htm",
+          "path": "docs/admissions/2027/湖南师范大学/page-66e6a215eb.html",
+          "sha256": "0d0765c7889fb14ba9cb245eb815f2f353b3fc9da09f331b86d204b8e1f8dfc4",
+          "bytes": 26286
+        },
+        {
+          "title": "湖南师范大学2027年硕士研究生招生章程及自命题科目考试大纲-研究生院",
+          "url": "https://yjsc.hunnu.edu.cn/info/1027/16364.htm",
+          "effective_url": "https://yjsc.hunnu.edu.cn/info/1027/16364.htm",
+          "path": "docs/admissions/2027/湖南师范大学/page-f6733d72e8.html",
+          "sha256": "f29097afe6f16a1db38cef44bee5c18f2d957038332f47a884d8c57d77498583",
+          "bytes": 55935
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "皖南医学院",
+      "tier": "从容区",
+      "gate": 293,
+      "region": "安徽",
+      "current_name": "皖南医科大学",
+      "plan": 42,
+      "basis": "含推免及士兵专项",
+      "previous_plan": 36,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录原文42人，明确含士兵计划2人；扣士兵后40人仍不能直接当成已扣推免的统考名额。学校现名皖南医科大学。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://www.wnmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2032463272&wbfileid=9B6361D3E964DB9ADD811A9EB4527C99"
+      ],
+      "files": [
+        {
+          "title": "附件二、皖南医科大学2027年硕士研究生招生专业目录（临床医学、口腔医学专业学位）.pdf",
+          "url": "https://www.wnmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2032463272&wbfileid=9B6361D3E964DB9ADD811A9EB4527C99",
+          "path": "docs/admissions/2027/皖南医学院/附件二、皖南医科大学2027年硕士研究生招生专业目录（临床医学、口腔医学专业学位）.pdf",
+          "sha256": "9ec38f7794eedeb07c6a8c8d0982d6de425f3e6332a96c516f6b988a7db00d6b",
+          "bytes": 68221,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "皖南医科大学2027年硕士研究生招生章程-皖南医科大学",
+          "url": "https://www.wnmc.edu.cn/info/1451/762841.htm",
+          "effective_url": "https://www.wnmc.edu.cn/info/1451/762841.htm",
+          "path": "docs/admissions/2027/皖南医学院/page-7639873631.html",
+          "sha256": "59a70e57af1e4aeafc201f343b2110dcab6a7f03a5decc972a5927d4110dde93",
+          "bytes": 44254
+        },
+        {
+          "title": "皖南医科大学2027年硕士研究生招生章程-皖南医科大学-研究生学院",
+          "url": "https://yjs.wnmc.edu.cn/info/1007/20701.htm",
+          "effective_url": "https://yjs.wnmc.edu.cn/info/1007/20701.htm",
+          "path": "docs/admissions/2027/皖南医学院/page-763ca2543d.html",
+          "sha256": "4685bb2c08b5cfee924c29972dceb3fddf6c3eadc5017cf71de6c3363ab35c05",
+          "bytes": 58624
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://www.wnmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2032463272&wbfileid=B8099335897AB7F869E8880F47B5A8A4",
+          "title": "附件三、皖南医科大学2027年硕士研究生招生专业目录（应用心理、公共卫生、护理、药学、电子信息、生物与医药专业学位）.pdf",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://yjs.wnmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2032712688&wbfileid=A2EB05864DDA1D901AA283DC730001C9",
+          "title": "附件二、皖南医科大学2027年硕士研究生招生专业目录（临床医学、口腔医学专业学位）.pdf",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://yjs.wnmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2032712688&wbfileid=ED9F7070524E5CDDCF4A9B70947DF314",
+          "title": "附件三、皖南医科大学2027年硕士研究生招生专业目录（应用心理、公共卫生、护理、药学、电子信息、生物与医药专业学位）.pdf",
+          "error": "attachment response has no recognized file signature"
+        }
+      ]
+    },
+    {
+      "name": "绍兴文理学院",
+      "tier": "从容区",
+      "gate": 293,
+      "region": "浙江",
+      "current_name": "绍兴大学",
+      "plan": 5,
+      "basis": "总数",
+      "previous_plan": 5,
+      "previous_basis": "总数",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "全日制专硕Excel目录105118为5人；学校现名绍兴大学。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsc.usx.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1269980530&wbfileid=5476134"
+      ],
+      "files": [
+        {
+          "title": "2027年硕士研究生招生专业目录-全日制专硕.xlsx",
+          "url": "https://yjsc.usx.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1269980530&wbfileid=5476134",
+          "path": "docs/admissions/2027/绍兴文理学院/2027年硕士研究生招生专业目录-全日制专硕.xlsx",
+          "sha256": "f39e13e84cd402065772abe8f385401f6c4ff2454e81c6b9bd6b07585be40d64",
+          "bytes": 18135,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "绍兴文理学院招生官网（查找2027目录）",
+          "url": "https://yjsc.usx.edu.cn/yzw/sy.htm",
+          "effective_url": "https://yjsc.usx.edu.cn/yzw/sy.htm",
+          "path": "docs/admissions/2027/绍兴文理学院/page-5182beb72b.html",
+          "sha256": "5b7cca105a11647b606cc7fe714a1433a54d99a93e05c19f08ab8a85e29d8ee3",
+          "bytes": 22760
+        },
+        {
+          "title": "绍兴大学2027年硕士研究生招生简章绍兴大学2027年硕士研究生招生简章",
+          "url": "https://yjsc.usx.edu.cn/info/1186/5766.htm",
+          "effective_url": "https://yjsc.usx.edu.cn/info/1186/5766.htm",
+          "path": "docs/admissions/2027/绍兴文理学院/page-99e1baec09.html",
+          "sha256": "e169fe126338cb2b42774ecc80b0157128123b323093ab7e982cb65c651bf271",
+          "bytes": 62846
+        },
+        {
+          "title": "绍兴大学2027年硕士研究生招生专业目录绍兴大学2027年硕士研究生招生专业目录",
+          "url": "https://yjsc.usx.edu.cn/info/1173/5769.htm",
+          "effective_url": "https://yjsc.usx.edu.cn/info/1173/5769.htm",
+          "path": "docs/admissions/2027/绍兴文理学院/page-151fe022c6.html",
+          "sha256": "9a807d2c3379f8de1977921dd17485d0f4d5c503f039d76d13aa428844b58502",
+          "bytes": 11925
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "蚌埠医科大学",
+      "tier": "从容区",
+      "gate": 293,
+      "region": "安徽",
+      "current_name": "蚌埠医科大学",
+      "plan": 27,
+      "basis": "含推免",
+      "previous_plan": 20,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027普通计划：直属附院方向15+联合培养方向12=27；章程明确目录计划含推免，不能仅取其中一个培养单位。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsy.bbmu.edu.cn/__local/9/99/55/0CF1BDDC2D6AA63A2AB55602496_E1BCCA59_20D63.pdf"
+      ],
+      "files": [
+        {
+          "title": "蚌埠医科大学2027年招生专业目录",
+          "url": "https://yjsy.bbmu.edu.cn/__local/9/99/55/0CF1BDDC2D6AA63A2AB55602496_E1BCCA59_20D63.pdf",
+          "path": "docs/admissions/2027/蚌埠医科大学/蚌埠医科大学2027年招生专业目录.pdf",
+          "sha256": "3cb2e914e2e1bf7fe7f64a483593df361b1d3830a31fb50a93e3a2fd25a50911",
+          "bytes": 134499,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "蚌埠医科大学2027年招收攻读硕士学位研究生招生简章及专业目录-蚌埠医科大学研究生院",
+          "url": "https://yjsy.bbmu.edu.cn/info/1049/8892.htm",
+          "effective_url": "https://yjsy.bbmu.edu.cn/info/1049/8892.htm",
+          "path": "docs/admissions/2027/蚌埠医科大学/page-e97a502faa.html",
+          "sha256": "a32706e2f9c58ac2c9121246d6fe346280209048cabccd4410e536b2b9be1501",
+          "bytes": 81573
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "西安医学院",
+      "tier": "从容区",
+      "gate": 293,
+      "region": "陕西",
+      "current_name": "西安医学院",
+      "plan": 20,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 20,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "官方2027目录单位代码11840、001临床医学、105118拟招20人。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsc.xiyi.edu.cn/__local/4/E0/C9/D9910D2C2C85BEA7C1101A6A28D_17AE892D_122EE.pdf"
+      ],
+      "files": [
+        {
+          "title": "西安医学院2027年招生专业目录",
+          "url": "https://yjsc.xiyi.edu.cn/__local/4/E0/C9/D9910D2C2C85BEA7C1101A6A28D_17AE892D_122EE.pdf",
+          "path": "docs/admissions/2027/西安医学院/西安医学院2027年招生专业目录.pdf",
+          "sha256": "8f1a6f617ccc342e2608c4a3f6127c279dda013f78b87c27f7622b379b26bfe2",
+          "bytes": 74478,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "西安医学院官方招生入口",
+          "url": "https://yjsc.xiyi.edu.cn/zsgl/zsxx.htm",
+          "effective_url": "https://yjsc.xiyi.edu.cn/zsgl/zsxx.htm",
+          "path": "docs/admissions/2027/西安医学院/page-152513b99a.html",
+          "sha256": "47108c7adff714f9d255a6d8dcd6edf0b2f1d083a54e1611bb3dd33cd0de50ba",
+          "bytes": 13600
+        },
+        {
+          "title": "西安医学院2027年硕士研究生招生专业目录西安医学院2027年硕士研究生招生专业目录",
+          "url": "https://yjsc.xiyi.edu.cn/info/1008/4626.htm",
+          "effective_url": "https://yjsc.xiyi.edu.cn/info/1008/4626.htm",
+          "path": "docs/admissions/2027/西安医学院/page-5262e28003.html",
+          "sha256": "f868f0e9811fdc0651c38aafaf3091a60ded9f09bf2647eb576bc9a38511885d",
+          "bytes": 7527
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "齐齐哈尔医学院",
+      "tier": "从容区",
+      "gate": 293,
+      "region": "黑龙江",
+      "current_name": "齐齐哈尔医学院",
+      "plan": 6,
+      "basis": "目录统考列/推免口径待核",
+      "previous_plan": 5,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录全国统考105118分列第二临床医学院1、第三临床医学院5，合计6，旧5人只覆盖一个学院。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://www.qmu.edu.cn/_upload/article/files/91/d7/20cc552b476d8f13f06647b0aeba/e335ae50-e885-4ff5-9ea7-66cf7b819382.pdf"
+      ],
+      "files": [
+        {
+          "title": "附件1：齐齐哈尔医学院2027年硕士研究生招生专业目录.pdf",
+          "url": "https://www.qmu.edu.cn/_upload/article/files/91/d7/20cc552b476d8f13f06647b0aeba/e335ae50-e885-4ff5-9ea7-66cf7b819382.pdf",
+          "path": "docs/admissions/2027/齐齐哈尔医学院/附件1：齐齐哈尔医学院2027年硕士研究生招生专业目录.pdf",
+          "sha256": "54e556220298ab6f0c6916833fbfada24cbbb3bacc888ede8402a82875693047",
+          "bytes": 92191,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "齐齐哈尔医学院2027年硕士研究生招生简章",
+          "url": "https://www.qmu.edu.cn/2026/1008/c345a210827/page.htm",
+          "effective_url": "https://www.qmu.edu.cn/2026/1008/c345a210827/page.htm",
+          "path": "docs/admissions/2027/齐齐哈尔医学院/page-32938d1246.html",
+          "sha256": "83f53073f89b7743a596e67b5a8c06877f48b29a2540621913e37882fc816e79",
+          "bytes": 58253
+        },
+        {
+          "title": "齐齐哈尔医学院2027年硕士研究生招生简章",
+          "url": "https://www.qmu.edu.cn/2026/1008/c6157a210827/page.htm",
+          "effective_url": "https://www.qmu.edu.cn/2026/1008/c6157a210827/page.htm",
+          "path": "docs/admissions/2027/齐齐哈尔医学院/page-171852c26d.html",
+          "sha256": "290bb67398e96f41c55b0def7a3ad1edac4f29507b0f2c699ce914b4b627d9bb",
+          "bytes": 59691
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://www.qmu.edu.cn/2026/1008/c345a210827/附件1：齐齐哈尔医学院2027年硕士研究生招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://www.qmu.edu.cn/2026/1008/c345a210827/%E9%99%84%E4%BB%B61%EF%BC%9A%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E5%8C%BB%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        },
+        {
+          "url": "https://www.qmu.edu.cn/2026/1008/c6157a210827/附件1：齐齐哈尔医学院2027年硕士研究生招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://www.qmu.edu.cn/2026/1008/c6157a210827/%E9%99%84%E4%BB%B61%EF%BC%9A%E9%BD%90%E9%BD%90%E5%93%88%E5%B0%94%E5%8C%BB%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        }
+      ]
+    },
+    {
+      "name": "南华大学",
+      "tier": "从容区",
+      "gate": 294,
+      "region": "湖南",
+      "current_name": "南华大学",
+      "plan": null,
+      "basis": "未知",
+      "previous_plan": null,
+      "previous_basis": "未知",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "已下载2027专业目录；临床专硕按105100大类及方向招生，未将临床医学大类人数当成麻醉学人数。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjs.usc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=999409215&wbfileid=13211384"
+      ],
+      "files": [
+        {
+          "title": "南华大学2027年硕士研究生招生专业目录.pdf",
+          "url": "https://yjs.usc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=999409215&wbfileid=13211384",
+          "path": "docs/admissions/2027/南华大学/南华大学2027年硕士研究生招生专业目录.pdf",
+          "sha256": "4f84b9fc2f7e8991a8d4572bfec7342d64ca120133301418710e6522feadf448",
+          "bytes": 239387,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "南华大学2027年硕士研究生招生简章-南华大学-研究生处（部）",
+          "url": "https://yjs.usc.edu.cn/info/1313/12932.htm",
+          "effective_url": "https://yjs.usc.edu.cn/info/1313/12932.htm",
+          "path": "docs/admissions/2027/南华大学/page-8d5bd4cdb6.html",
+          "sha256": "c1fe5ec30abd513bd242536773a51d3a0d0c64f478fc849a455b2f4194ee74cb",
+          "bytes": 179925
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "长治医学院",
+      "tier": "从容区",
+      "gate": 294,
+      "region": "山西",
+      "current_name": "长治医学院",
+      "plan": 14,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 14,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录105118全日制14人，接收退役专项；未把可接收专项误作已分配专项人数。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "http://yjsc.czmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2039325458&wbfileid=9B721909CEEE9F9FA0E0ED7B2D083CFA"
+      ],
+      "files": [
+        {
+          "title": "长治医学院2027年硕士研究生招生专业目录.pdf",
+          "url": "http://yjsc.czmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2039325458&wbfileid=9B721909CEEE9F9FA0E0ED7B2D083CFA",
+          "path": "docs/admissions/2027/长治医学院/长治医学院2027年硕士研究生招生专业目录.pdf",
+          "sha256": "725c653fc08d003ea6ddf4cd7720036474c5d291dae5f3b686988054a10b20c9",
+          "bytes": 128230,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "长治医学院官方招生入口",
+          "url": "http://yjsc.czmc.edu.cn/info/1022/18302.htm",
+          "effective_url": "http://yjsc.czmc.edu.cn/info/1022/18302.htm",
+          "path": "docs/admissions/2027/长治医学院/page-ed9a7b10df.html",
+          "sha256": "2b33e5e91e114d83562b03cca4fcf675384ead1dd04a97fb1a193011a30dc9d9",
+          "bytes": 46287
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjsc.czmc.edu.cn/info/1022/18302.htm",
+          "title": "长治医学院2027年硕士研究生招生简章-长治医学院研究生学院",
+          "error": "target host name 'yjsc.czmc.edu.cn'\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n"
+        }
+      ]
+    },
+    {
+      "name": "川北医学院",
+      "tier": "从容区",
+      "gate": 295,
+      "region": "四川",
+      "current_name": "川北医学院",
+      "plan": 23,
+      "basis": "统考/不含推免",
+      "previous_plan": 19,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027原目录第一临床医学院105118总21（含拟推免2），第二临床医学院4；扣目录拟推免后普通统考参考23=21-2+4，仍可随实际推免调整。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://www.nsmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1998980164&wbfileid=9B0D013D0F715CB960F0199F9E56931F"
+      ],
+      "files": [
+        {
+          "title": "川北医学院二〇二七年硕士研究生招生简章与专业目录.pdf",
+          "url": "https://www.nsmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1998980164&wbfileid=9B0D013D0F715CB960F0199F9E56931F",
+          "path": "docs/admissions/2027/川北医学院/川北医学院二〇二七年硕士研究生招生简章与专业目录.pdf",
+          "sha256": "a37c493dc6a8cdb599e95e6dd56b48c4d6bceb98ef906d0ea01d1bfe9db037e1",
+          "bytes": 1552911,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "川北医学院2027年招生目录入口",
+          "url": "https://www.nsmc.edu.cn/dwyjsgzb/info/1322/70948.htm",
+          "effective_url": "https://www.nsmc.edu.cn/dwyjsgzb/info/1322/70948.htm",
+          "path": "docs/admissions/2027/川北医学院/page-b2927b97a1.html",
+          "sha256": "531325d5d94997f016f11da3e14222f55bfbbb5e826647f6c53cdd855700c28a",
+          "bytes": 11844
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "新乡医学院",
+      "tier": "从容区",
+      "gate": 295,
+      "region": "河南",
+      "current_name": "河南医药大学",
+      "plan": null,
+      "basis": "未知",
+      "previous_plan": null,
+      "previous_basis": "未知",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "已下载2027专业目录；临床专硕按105100大类及方向招生，未将临床医学大类人数当成麻醉学人数。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://www.hamu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12011265"
+      ],
+      "files": [
+        {
+          "title": "附件2：河南医药大学2027年硕士研究生招生专业目录（专业学位）.pdf",
+          "url": "https://www.hamu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12011265",
+          "path": "docs/admissions/2027/新乡医学院/附件2：河南医药大学2027年硕士研究生招生专业目录（专业学位）.pdf",
+          "sha256": "66041ecabb56fc590a00c586cb8e549ebca6e7896664e498aa38c4e2868b22f1",
+          "bytes": 128101,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "河南医药大学2027年硕士研究生招生章程-党委研究生工作部",
+          "url": "https://www.hamu.edu.cn/yjsc/info/1013/4835.htm",
+          "effective_url": "https://www.hamu.edu.cn/yjsc/info/1013/4835.htm",
+          "path": "docs/admissions/2027/新乡医学院/page-8bcf9d2788.html",
+          "sha256": "53759b128fc1a182aa20d5648566f0a86a0f788f61a8636411979c76e40c1225",
+          "bytes": 97779
+        },
+        {
+          "title": "河南医药大学2027年硕士研究生招生章程-党委研究生工作部",
+          "url": "https://www.xxmu.edu.cn/yjsc/info/1013/4835.htm",
+          "effective_url": "https://www.xxmu.edu.cn/yjsc/info/1013/4835.htm",
+          "path": "docs/admissions/2027/新乡医学院/page-9acb678dbc.html",
+          "sha256": "f30dbfbb2a83ac861c0dadb97be114ec2347b6540a4ec04b2ce9c65259cfba42",
+          "bytes": 97779
+        },
+        {
+          "title": "河南医药大学2027年接收推荐免试硕士研究生招生章程",
+          "url": "https://www.hamu.edu.cn/yjsc/info/1013/4818.htm",
+          "effective_url": "https://www.hamu.edu.cn/yjsc/info/1013/4818.htm",
+          "path": "docs/admissions/2027/新乡医学院/page-b85025d4c9.html",
+          "sha256": "4ae77ef6892a368fe017b4a382e5e466d086125fa153d01d985c9c5f533c943e",
+          "bytes": 52775
+        },
+        {
+          "title": "河南医药大学2027年接收推荐免试硕士研究生招生章程",
+          "url": "https://www.xxmu.edu.cn/yjsc/info/1013/4818.htm",
+          "effective_url": "https://www.xxmu.edu.cn/yjsc/info/1013/4818.htm",
+          "path": "docs/admissions/2027/新乡医学院/page-d33df0f898.html",
+          "sha256": "4430b261f88703180c5004782386064da9447b16bb830b6d264278e5abe2670d",
+          "bytes": 52775
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://www.xxmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12011265",
+          "title": "附件2：河南医药大学2027年硕士研究生招生专业目录（专业学位）.pdf",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://www.hamu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12010262",
+          "title": "附件1：河南医药大学2027年接收推荐免试攻读研究生招生专业目录.pdf",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://www.hamu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12010263",
+          "title": "附件2：河南医药大学接收推荐免试攻读硕士学位研究生申请表.doc",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://www.xxmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12010262",
+          "title": "附件1：河南医药大学2027年接收推荐免试攻读研究生招生专业目录.pdf",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://www.xxmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1518223642&wbfileid=12010263",
+          "title": "附件2：河南医药大学接收推荐免试攻读硕士学位研究生申请表.doc",
+          "error": "attachment response has no recognized file signature"
+        }
+      ]
+    },
+    {
+      "name": "温州医科大学",
+      "tier": "从容区",
+      "gate": 295,
+      "region": "浙江",
+      "current_name": "温州医科大学",
+      "plan": 34,
+      "basis": "统考/不含推免",
+      "previous_plan": 42,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "官方动态目录三个培养单位001/002/102总计划19+23+14=56，统考栏9+12+14=35；002注明含士兵1人，普通统考按35-1=34。推免与转段实际接收后仍可能调整。",
+      "status": "已归档官方网页目录",
+      "official_urls": [
+        "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/zsmlYjfx/2027/001/105118?ksfs=21",
+        "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/zsmlYjfx/2027/002/105118?ksfs=21",
+        "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/zsmlYjfx/2027/102/105118?ksfs=21"
+      ],
+      "files": [
+        {
+          "title": "温州医科大学2027年105118目录-001",
+          "url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/zsmlYjfx/2027/001/105118?ksfs=21",
+          "path": "docs/admissions/2027/温州医科大学/温州医科大学2027年105118目录-001.html",
+          "bytes": 3192,
+          "sha256": "736120559670545c3a567cf3e85282e20a9764a22195e48e390b49a22d771034",
+          "kind": "official_web_catalogue"
+        },
+        {
+          "title": "温州医科大学2027年105118目录-002",
+          "url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/zsmlYjfx/2027/002/105118?ksfs=21",
+          "path": "docs/admissions/2027/温州医科大学/温州医科大学2027年105118目录-002.html",
+          "bytes": 3238,
+          "sha256": "af2e87a3561c1663fd92848ab444871dfc18175d9b70ef869c82aa2442a88f6e",
+          "kind": "official_web_catalogue"
+        },
+        {
+          "title": "温州医科大学2027年105118目录-102",
+          "url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/zsmlYjfx/2027/102/105118?ksfs=21",
+          "path": "docs/admissions/2027/温州医科大学/温州医科大学2027年105118目录-102.html",
+          "bytes": 3193,
+          "sha256": "130b94c3d315ed52370bb13bbd4e157fe84fabb4fdbb5bb58a83506b646faa50",
+          "kind": "official_web_catalogue"
+        }
+      ],
+      "pages": [
+        {
+          "title": "温州医科大学招生官网（查找2027目录）",
+          "url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/index/2027",
+          "effective_url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/index/2027",
+          "path": "docs/admissions/2027/温州医科大学/page-c6351f0864.html",
+          "sha256": "70734292dcccee7e3543444ca7683b946269459821a571293887ec5d153593d4",
+          "bytes": 3308
+        },
+        {
+          "title": "温州医科大学招生官网（查找2027目录）",
+          "url": "https://yjsy.wmu.edu.cn/",
+          "effective_url": "https://yjsy.wmu.edu.cn/",
+          "path": "docs/admissions/2027/温州医科大学/page-a66d00b340.html",
+          "sha256": "c687f4dc1b7dd02f39faad5c123a1f45bce02b79f9e132c3f74fb1051c46b3ba",
+          "bytes": 74020
+        },
+        {
+          "title": "温州医科大学2027年硕士研究生招生简章温州医科大学2027年硕士研究生招生简章",
+          "url": "https://yjsy.wmu.edu.cn/info/2481/164024.htm",
+          "effective_url": "https://yjsy.wmu.edu.cn/info/2481/164024.htm",
+          "path": "docs/admissions/2027/温州医科大学/page-eea74e5b0b.html",
+          "sha256": "24c26a12644891c46580d19325882bfbcccd6db764da68a42c52780b9bd5de3a",
+          "bytes": 42989
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "湖州师范学院",
+      "tier": "从容区",
+      "gate": 295,
+      "region": "浙江",
+      "current_name": "湖州师范大学",
+      "plan": 4,
+      "basis": "含推免及士兵专项",
+      "previous_plan": 3,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027全日制专业学位目录105118拟招4人；表头明确含推免与退役士兵专项。学校现名湖州师范大学。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsy.huznu.edu.cn/_upload/article/files/6a/5d/d3eccf0145679a8a0164498f8f03/e64883fe-2728-442b-9de5-8ea3371f1119.pdf"
+      ],
+      "files": [
+        {
+          "title": "附件2：湖州师范大学2027年硕士研究生招生专业目录（全日制专业学位）.pdf",
+          "url": "https://yjsy.huznu.edu.cn/_upload/article/files/6a/5d/d3eccf0145679a8a0164498f8f03/e64883fe-2728-442b-9de5-8ea3371f1119.pdf",
+          "path": "docs/admissions/2027/湖州师范学院/附件2：湖州师范大学2027年硕士研究生招生专业目录（全日制专业学位）.pdf",
+          "sha256": "3ae89fb59908097d65a07ec91e1cdf91356a30df836c3b3edfcf423af0a24eb1",
+          "bytes": 363277,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "湖州师范大学2027年硕士研究生招生章程",
+          "url": "https://yjsy.huznu.edu.cn/2026/0930/c1784a256202/page.htm",
+          "effective_url": "https://yjsy.huznu.edu.cn/2026/0930/c1784a256202/page.htm",
+          "path": "docs/admissions/2027/湖州师范学院/page-26421b2e57.html",
+          "sha256": "6945f6fa62e7c753f6f606c0cdef7a2e8dbf3538582b1d3989e5f845a45d5c63",
+          "bytes": 92769
+        },
+        {
+          "title": "湖州师范学院招生官网（查找2027目录）",
+          "url": "https://yjsy.huznu.edu.cn/2026/0930/c1785a256211/page.htm",
+          "effective_url": "https://yjsy.huznu.edu.cn/2026/0930/c1785a256211/page.htm",
+          "path": "docs/admissions/2027/湖州师范学院/page-caf2846083.html",
+          "sha256": "466ea044f0b2536570c99c867c5f0d3690fc96a3b421fd1eee839c3e26305a70",
+          "bytes": 22416
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjsy.huznu.edu.cn/2026/0930/c1785a256211/附件1：湖州师范大学2027年硕士研究生招生专业目录（全日制学术学位）.pdf",
+          "title": "内嵌文件",
+          "error": "26/0930/c1785a256211/%E9%99%84%E4%BB%B61%EF%BC%9A%E6%B9%96%E5%B7%9E%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95%EF%BC%88%E5%85%A8%E6%97%A5%E5%88%B6%E5%AD%A6%E6%9C%AF%E5%AD%A6%E4%BD%8D%EF%BC%89.pdf"
+        },
+        {
+          "url": "https://yjsy.huznu.edu.cn/2026/0930/c1785a256211/附件2：湖州师范大学2027年硕士研究生招生专业目录（全日制专业学位）.pdf",
+          "title": "内嵌文件",
+          "error": "26/0930/c1785a256211/%E9%99%84%E4%BB%B62%EF%BC%9A%E6%B9%96%E5%B7%9E%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95%EF%BC%88%E5%85%A8%E6%97%A5%E5%88%B6%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%BD%8D%EF%BC%89.pdf"
+        },
+        {
+          "url": "https://yjsy.huznu.edu.cn/2026/0930/c1785a256211/附件3：湖州师范大学2027年硕士研究生招生专业目录（非全日制专业学位）.pdf",
+          "title": "内嵌文件",
+          "error": "1785a256211/%E9%99%84%E4%BB%B63%EF%BC%9A%E6%B9%96%E5%B7%9E%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95%EF%BC%88%E9%9D%9E%E5%85%A8%E6%97%A5%E5%88%B6%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%BD%8D%EF%BC%89.pdf"
+        }
+      ]
+    },
+    {
+      "name": "佳木斯大学",
+      "tier": "从容区",
+      "gate": 296,
+      "region": "黑龙江",
+      "current_name": "佳木斯大学",
+      "plan": 6,
+      "basis": "统考/不含推免",
+      "previous_plan": 6,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "官网访问受限；本轮未取得可核验的招生计划原件，保留既有数值并标记待核。",
+      "status": "官网访问受限，待补原件",
+      "official_urls": [
+        "https://yjs.jmsu.edu.cn/info/1061/4118.htm",
+        "https://www.jmsu.edu.cn/info/1055/20571.htm"
+      ],
+      "files": [],
+      "pages": [],
+      "failures": [
+        {
+          "url": "https://yjs.jmsu.edu.cn/info/1061/4118.htm",
+          "title": "佳木斯大学官方招生入口",
+          "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to yjs.jmsu.edu.cn:443 \n"
+        },
+        {
+          "url": "https://www.jmsu.edu.cn/info/1055/20571.htm",
+          "title": "佳木斯大学2027年硕士研究生招生简章-佳木斯大学",
+          "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.jmsu.edu.cn:443 \n"
+        }
+      ]
+    },
+    {
+      "name": "徐州医科大学",
+      "tier": "从容区",
+      "gate": 296,
+      "region": "江苏",
+      "current_name": "徐州医科大学",
+      "plan": 91,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 72,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录七处105118：81+3+2+1+1+1+2=91。旧72人不是本轮官方目录总数；统考余额须待实际推免和后续公告。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjs.xzhmu.edu.cn/__local/5/9D/60/C72F5817FC2F99DBF6520FC6F56_46B7D414_38091.pdf",
+        "https://yjs.xzhmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1964998066&wbfileid=43CCF3F2202846AFB2AE6B575F4FBED9"
+      ],
+      "files": [
+        {
+          "title": "徐州医科大学2027年招生章程",
+          "url": "https://yjs.xzhmu.edu.cn/__local/5/9D/60/C72F5817FC2F99DBF6520FC6F56_46B7D414_38091.pdf",
+          "path": "docs/admissions/2027/徐州医科大学/徐州医科大学2027年招生章程.pdf",
+          "sha256": "8a6d43c9cae9f44c8d948042d5615a2818433b4a080a0fa03a19e9d55d086594",
+          "bytes": 229521,
+          "kind": "original"
+        },
+        {
+          "title": "附件1：2027年硕士研究生招生专业目录.pdf",
+          "url": "https://yjs.xzhmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1964998066&wbfileid=43CCF3F2202846AFB2AE6B575F4FBED9",
+          "path": "docs/admissions/2027/徐州医科大学/附件1：2027年硕士研究生招生专业目录.pdf",
+          "sha256": "275b1eddc6254b976e5a6f4db56dc32d87186303c2e7652c53d7de5eacf865e0",
+          "bytes": 748169,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "徐州医科大学2027年公共管理硕士（MPA）招生简章-徐州医科大学MPA中心",
+          "url": "https://mpa.xzhmu.edu.cn/info/1003/1289.htm",
+          "effective_url": "https://mpa.xzhmu.edu.cn/info/1003/1289.htm",
+          "path": "docs/admissions/2027/徐州医科大学/page-aba520de76.html",
+          "sha256": "dbd26c964f3ddaef4c75e5018def699a2b1ca5721fff8631fccc2df648f9a865",
+          "bytes": 19730
+        },
+        {
+          "title": "徐州医科大学招生官网（查找2027目录）",
+          "url": "https://yjs.xzhmu.edu.cn/zs/sszs.htm",
+          "effective_url": "https://yjs.xzhmu.edu.cn/zs/sszs.htm",
+          "path": "docs/admissions/2027/徐州医科大学/page-036dcc2a55.html",
+          "sha256": "c275c4c86ae0410fd6b58c625c6724af54cbf0489faf443567b0958598f1d05a",
+          "bytes": 30093
+        },
+        {
+          "title": "徐州医科大学2027年硕士研究生招生简章 09-302026 徐州医科大学2027年硕士研究生招生简章 查看更多",
+          "url": "https://yjs.xzhmu.edu.cn/info/1247/7238.htm",
+          "effective_url": "https://yjs.xzhmu.edu.cn/info/1247/7238.htm",
+          "path": "docs/admissions/2027/徐州医科大学/page-65a25b5b85.html",
+          "sha256": "27784ca11e88fc140f9bbea78ef39e10bcbb5a24ab017219eaedabdaaf80f5de",
+          "bytes": 24974
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjs.xzhmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1964998066&wbfileid=6C96202CC9FC7FAAB411B4A3E4FE858A",
+          "title": "附件2：2027年硕士招生考试参考范围.pdf",
+          "error": "attachment response has no recognized file signature"
+        }
+      ]
+    },
+    {
+      "name": "山东第一医科大学",
+      "tier": "从容区",
+      "gate": 297,
+      "region": "山东",
+      "current_name": "山东第一医科大学",
+      "plan": 21,
+      "basis": "统考/不含推免",
+      "previous_plan": 21,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "本轮已保存官方招生页面；既有计划数尚缺本轮原文复核，请从官方入口核对，不能视作新确认。",
+      "status": "仅归档招生网页，目录待补",
+      "official_urls": [
+        "https://yz.sdfmu.edu.cn/info/1102/6425.htm",
+        "https://yz.sdfmu.edu.cn/sszs1/zyml.htm"
+      ],
+      "files": [],
+      "pages": [
+        {
+          "title": "山东第一医科大学2027年硕士研究生招生章程-研究生招生信息网",
+          "url": "https://yz.sdfmu.edu.cn/info/1102/6425.htm",
+          "effective_url": "https://yz.sdfmu.edu.cn/info/1102/6425.htm",
+          "path": "docs/admissions/2027/山东第一医科大学/page-f45511fe3b.html",
+          "sha256": "898a4ce9bf9d591400fb0181546fa3afb0f36f0ca16ad5b226b0903d486300eb",
+          "bytes": 70655
+        },
+        {
+          "title": "山东第一医科大学招生官网（查找2027目录）",
+          "url": "https://yz.sdfmu.edu.cn/sszs1/zyml.htm",
+          "effective_url": "https://yz.sdfmu.edu.cn/sszs1/zyml.htm",
+          "path": "docs/admissions/2027/山东第一医科大学/page-b7a59adfba.html",
+          "sha256": "c97ff9d547206834a2790c18cc956f2eeb28411b73146fb83ca25a578157bc23",
+          "bytes": 21234
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjszs.sdfmu.edu.cn/zsml/enterViewZsml?nd=2027",
+          "title": "山东第一医科大学官方招生入口",
+          "error": "502\nhttps://yjszs.sdfmu.edu.cn/zsml/enterViewZsml?nd=2027"
+        }
+      ]
+    },
+    {
+      "name": "赣南医科大学",
+      "tier": "从容区",
+      "gate": 297,
+      "region": "江西",
+      "current_name": "赣南医科大学",
+      "plan": 25,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 25,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "官方2027目录105118拟招25人，仅接受全日制五年及以上临床医学、麻醉学本科。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjs.gmu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1583666434&wbfileid=773AB71AA0791582894264605FA9F816"
+      ],
+      "files": [
+        {
+          "title": "赣南医科大学2027年硕士研究生招生专业目录.pdf",
+          "url": "https://yjs.gmu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1583666434&wbfileid=773AB71AA0791582894264605FA9F816",
+          "path": "docs/admissions/2027/赣南医科大学/赣南医科大学2027年硕士研究生招生专业目录.pdf",
+          "sha256": "4d1ff4fc168b94b1ba9aad722197b0b72ac15d24aff1e3095655a1b60b91a62f",
+          "bytes": 149284,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "赣南医科大学2027年硕士研究生招生简章-赣南医科大学研究生工作部（处）",
+          "url": "https://yjs.gmu.cn/info/1295/14152.htm",
+          "effective_url": "https://yjs.gmu.cn/info/1295/14152.htm",
+          "path": "docs/admissions/2027/赣南医科大学/page-d9f8fece8a.html",
+          "sha256": "0e62380df678fdc90ef9155fcdb63c67f7061a6a0b6abd5ec5e1f0d53fb4273b",
+          "bytes": 90567
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "陕西中医药大学",
+      "tier": "从容区",
+      "gate": 297,
+      "region": "陕西",
+      "current_name": "陕西中医药大学",
+      "plan": 1,
+      "basis": "统考/不含推免",
+      "previous_plan": 1,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "本轮已保存官方招生页面；既有计划数尚缺本轮原文复核，请从官方入口核对，不能视作新确认。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "http://img.sntcm.edu.cn/HIWCMyzb/202610/202610080838027.pdf",
+        "http://img.sntcm.edu.cn/HIWCMyzb/202610/202610010535003.pdf"
+      ],
+      "files": [
+        {
+          "title": "陕西中医药大学2027年硕士研究生招生简章.pdf",
+          "url": "http://img.sntcm.edu.cn/HIWCMyzb/202610/202610080838027.pdf",
+          "path": "docs/admissions/2027/陕西中医药大学/陕西中医药大学2027年硕士研究生招生简章.pdf",
+          "sha256": "313ff5061df745f62708456d439cb55ea10b8b292fd5b5cf71d67670ead6ef33",
+          "bytes": 171889,
+          "kind": "original"
+        },
+        {
+          "title": "陕西中医药大学2027年硕士研究生招生专业目录 .pdf",
+          "url": "http://img.sntcm.edu.cn/HIWCMyzb/202610/202610010535003.pdf",
+          "path": "docs/admissions/2027/陕西中医药大学/陕西中医药大学2027年硕士研究生招生专业目录_.pdf",
+          "sha256": "27cab206ab19351e003e34a0abeebdc27429b9ee5f6672bd8cc75a24f871a501",
+          "bytes": 249823,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "陕西中医药大学2027年招生目录入口",
+          "url": "http://yjsc.sntcm.edu.cn/zsgz/129290.htm",
+          "effective_url": "http://yjsc.sntcm.edu.cn/zsgz/129290.htm",
+          "path": "docs/admissions/2027/陕西中医药大学/page-a9687a15e2.html",
+          "sha256": "9e1979fcccbc7d59d7185c25eaa6596afde60cddae7cf0c297d55882dbe2ee93",
+          "bytes": 9705
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "汕头大学",
+      "tier": "从容区",
+      "gate": 298,
+      "region": "广东",
+      "current_name": "汕头大学",
+      "plan": 2,
+      "basis": "统考/不含推免",
+      "previous_plan": 2,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "官方目录105118总数8，长学制转段5，统招/推免方向3含推免1；普通统考按3-1=2，不使用总数8作统考名额。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://gs.stu.edu.cn/yjszs/ss27/附件1：汕头大学2027年全日制硕士研究生招生专业目录.pdf"
+      ],
+      "files": [
+        {
+          "title": "附件1：汕头大学2027年全日制硕士研究生招生专业目录",
+          "url": "https://gs.stu.edu.cn/yjszs/ss27/附件1：汕头大学2027年全日制硕士研究生招生专业目录.pdf",
+          "path": "docs/admissions/2027/汕头大学/附件1：汕头大学2027年全日制硕士研究生招生专业目录.pdf",
+          "sha256": "b5c2e004c4dff7496f7d393b6e5f416ba347ae16b8249638ae0587c69b9c076b",
+          "bytes": 263939,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "汕头大学招生官网（查找2027目录）",
+          "url": "https://www.gs.stu.edu.cn/Open/RecruitTkss/ZsDir_View.aspx",
+          "effective_url": "https://www.gs.stu.edu.cn/Open/RecruitTkss/ZsDir_View.aspx",
+          "path": "docs/admissions/2027/汕头大学/page-94349637d0.html",
+          "sha256": "c1eb54199ba6cf3a6ed980f98c560202bd09c2da12a0556d72031fa429bad084",
+          "bytes": 59360
+        },
+        {
+          "title": "汕头大学招生官网（查找2027目录）",
+          "url": "https://gs.stu.edu.cn/yjszs/master_zsjz.htm",
+          "effective_url": "https://gs.stu.edu.cn/yjszs/master_zsjz.htm",
+          "path": "docs/admissions/2027/汕头大学/page-dc3e09795a.html",
+          "sha256": "6fe2be677855b87c0a2981030e0fefe7c2bc2844a89d7bb22a471e3c4c4a2a50",
+          "bytes": 31363
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "扬州大学",
+      "tier": "从容区",
+      "gate": 299,
+      "region": "江苏",
+      "current_name": "扬州大学",
+      "plan": 6,
+      "basis": "统考/不含推免",
+      "previous_plan": 6,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "官网访问受限；本轮未取得可核验的招生计划原件，保留既有数值并标记待核。",
+      "status": "官网访问受限，待补原件",
+      "official_urls": [
+        "http://yjsc.yzu.edu.cn/index.htm",
+        "https://yjsc.yzu.edu.cn/"
+      ],
+      "files": [],
+      "pages": [],
+      "failures": [
+        {
+          "url": "http://yjsc.yzu.edu.cn/index.htm",
+          "title": "扬州大学官方招生入口",
+          "error": "412\nhttp://yjsc.yzu.edu.cn/index.htm"
+        },
+        {
+          "url": "https://yjsc.yzu.edu.cn/",
+          "title": "扬州大学招生官网（查找2027目录）",
+          "error": "412\nhttps://yjsc.yzu.edu.cn/"
+        }
+      ]
+    },
+    {
+      "name": "江苏大学",
+      "tier": "从容区",
+      "gate": 299,
+      "region": "江苏",
+      "current_name": "江苏大学",
+      "plan": 8,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 8,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录105118为8人；报考限五年制麻醉学或临床医学全日制本科。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yz.ujs.edu.cn/__local/D/6A/E2/FB84E657B8EF5CBC0B5583C0D6D_0640C056_19E28F.pdf"
+      ],
+      "files": [
+        {
+          "title": "江苏大学2027年招生专业目录",
+          "url": "https://yz.ujs.edu.cn/__local/D/6A/E2/FB84E657B8EF5CBC0B5583C0D6D_0640C056_19E28F.pdf",
+          "path": "docs/admissions/2027/江苏大学/江苏大学2027年招生专业目录.pdf",
+          "sha256": "5c760f761f1d8067824c9e4262bd9739427e986be9f9d78c4d8526de81e30db6",
+          "bytes": 1696399,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "江苏大学招生官网（查找2027目录）",
+          "url": "https://yz.ujs.edu.cn/zsjzml/sszsjzml.htm",
+          "effective_url": "https://yz.ujs.edu.cn/zsjzml/sszsjzml.htm",
+          "path": "docs/admissions/2027/江苏大学/page-7f7d7736df.html",
+          "sha256": "e0b85eeb09ada1f23a684119217f40a625604a70ce08b0192ffe07bf6a6aee8b",
+          "bytes": 24157
+        },
+        {
+          "title": "江苏大学2027年硕士研究生招生章程",
+          "url": "https://yz.ujs.edu.cn/info/1016/8917.htm",
+          "effective_url": "https://yz.ujs.edu.cn/info/1016/8917.htm",
+          "path": "docs/admissions/2027/江苏大学/page-13a4831aed.html",
+          "sha256": "e2ac05c1eed3c0c78508128671a62d98e2980d48710752793ce5e7cb931cc5e3",
+          "bytes": 21966
+        },
+        {
+          "title": "江苏大学2027年硕士研究生招生专业目录",
+          "url": "https://yz.ujs.edu.cn/info/1016/8907.htm",
+          "effective_url": "https://yz.ujs.edu.cn/info/1016/8907.htm",
+          "path": "docs/admissions/2027/江苏大学/page-a6f10f3d66.html",
+          "sha256": "027e29e62d2074431a4d396540c4ad27b5101c2bdc1880062b6e785a42ce35be",
+          "bytes": 23576
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "牡丹江医科大学",
+      "tier": "从容区",
+      "gate": 299,
+      "region": "黑龙江",
+      "current_name": "牡丹江医科大学",
+      "plan": 25,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 25,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027四个规培基地17+4+2+2=25；105118各方向是否接收退役专项均为否。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://www.mdjmu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1389254872&wbfileid=15088932"
+      ],
+      "files": [
+        {
+          "title": "专业目录.pdf",
+          "url": "https://www.mdjmu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1389254872&wbfileid=15088932",
+          "path": "docs/admissions/2027/牡丹江医科大学/专业目录.pdf",
+          "sha256": "6cbf0f58d83be4d26088be3d7867c9a49fe445bf54260312b2b253a3cf0620c3",
+          "bytes": 99673,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "牡丹江医科大学2027年硕士研究生招生简章-牡丹江医科大学研究生处",
+          "url": "https://www.mdjmu.cn/yjsc/info/1044/2340.htm",
+          "effective_url": "https://www.mdjmu.cn/yjsc/info/1044/2340.htm",
+          "path": "docs/admissions/2027/牡丹江医科大学/page-8abc42573e.html",
+          "sha256": "bfb9de0d468e496eebaffb63e568b9b7cfaf74a129d825153cdceecb1c616f05",
+          "bytes": 22652
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "大连理工大学",
+      "tier": "从容区",
+      "gate": 300,
+      "region": "辽宁",
+      "current_name": "大连理工大学",
+      "plan": 2,
+      "basis": "统考/不含推免",
+      "previous_plan": 2,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "已归档2027年105118官方动态目录正文，列导师和考试科目但未给专业人数；章程要求统考拟招人数以中国研招网为准，既有2人本轮未独立核实。",
+      "status": "已归档官方网页目录",
+      "official_urls": [
+        "https://gs.dlut.edu.cn/info/1172/51892.htm",
+        "https://yjszs.dlut.edu.cn/zsbm/zsml/sszsml/index/2027"
+      ],
+      "files": [
+        {
+          "title": "大连理工大学2027年105118专业目录",
+          "url": "https://yjszs.dlut.edu.cn/zsbm/zsml/sszsml/zsmlYjfx/2027/500/105118?ksfs=21",
+          "path": "docs/admissions/2027/大连理工大学/大连理工大学2027年105118专业目录.html",
+          "bytes": 3198,
+          "sha256": "da5e17dc20511f8f08f357e01d9dfdab9aae61476335c836b6503281dd1e664e",
+          "kind": "official_web_catalogue"
+        }
+      ],
+      "pages": [
+        {
+          "title": "大连理工大学官方招生入口",
+          "url": "https://gs.dlut.edu.cn/info/1172/51892.htm",
+          "effective_url": "https://gs.dlut.edu.cn/info/1172/51892.htm",
+          "path": "docs/admissions/2027/大连理工大学/page-7ef3db5e46.html",
+          "sha256": "feccb0489aab19647119b6c158d265a5d9f0787363c36c0a8e6c7950372e5526",
+          "bytes": 43868
+        },
+        {
+          "title": "大连理工大学官方招生入口",
+          "url": "https://yjszs.dlut.edu.cn/zsbm/zsml/sszsml/index/2027",
+          "effective_url": "https://yjszs.dlut.edu.cn/zsbm/zsml/sszsml/index/2027",
+          "path": "docs/admissions/2027/大连理工大学/page-1de8f65524.html",
+          "sha256": "3ab7c72e0258af4734e5e598dafca2a1412946c01b72f7847f6a944ca3549017",
+          "bytes": 4867
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://gs.dlut.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1502106601&wbfileid=814681C9ED5028507E1834C6ACAD643D",
+          "title": "附件1：大连理工大学研究生思想政治与综合文化素质考核表.docx",
+          "error": "attachment response has no recognized file signature"
+        }
+      ]
+    },
+    {
+      "name": "青岛大学",
+      "tier": "从容区",
+      "gate": 300,
+      "region": "山东",
+      "current_name": "青岛大学",
+      "plan": 34,
+      "basis": "含推免、转段及士兵专项",
+      "previous_plan": 16,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录三处105118为27+2+5=34；表头明确总数含推免、转段、退役专项，旧16人不可视作最新统考余额。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://grad.qdu.edu.cn/__local/4/09/90/B0AA1C286546F7A5BD5076C3645_D787C8EB_4E902.pdf"
+      ],
+      "files": [
+        {
+          "title": "青岛大学2027年招生专业目录",
+          "url": "https://grad.qdu.edu.cn/__local/4/09/90/B0AA1C286546F7A5BD5076C3645_D787C8EB_4E902.pdf",
+          "path": "docs/admissions/2027/青岛大学/青岛大学2027年招生专业目录.pdf",
+          "sha256": "9fb207fc8c2f72743055224f29d2d113559f544b2d41fd253e9cfebe7eb2ce04",
+          "bytes": 321794,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "青岛大学2027年招生目录入口",
+          "url": "https://grad.qdu.edu.cn/yzb/zsjz/ssyjs/zyml.htm",
+          "effective_url": "https://grad.qdu.edu.cn/yzb/zsjz/ssyjs/zyml.htm",
+          "path": "docs/admissions/2027/青岛大学/page-994922179a.html",
+          "sha256": "064d68116a0490f2792a97be529871ed0adec8813fd98fbc654dddd9983d23ee",
+          "bytes": 16706
+        },
+        {
+          "title": "青岛大学2027年硕士研究生招生专业目录",
+          "url": "https://grad.qdu.edu.cn/info/1131/4620.htm",
+          "effective_url": "https://grad.qdu.edu.cn/info/1131/4620.htm",
+          "path": "docs/admissions/2027/青岛大学/page-f78aca2518.html",
+          "sha256": "353aa4dc63b114f9a11d7c47bb50149ab4f8b57a7a22347ad969966bc444ab34",
+          "bytes": 20031
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "南通大学",
+      "tier": "稳健区",
+      "gate": 301,
+      "region": "江苏",
+      "current_name": "南通大学",
+      "plan": 25,
+      "basis": "含推免",
+      "previous_plan": 25,
+      "previous_basis": "含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "全日制专硕目录105118总计划25、其中拟推免1；拟扣推免余额24，实际推免可调整。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjszs.ntu.edu.cn/_upload/article/files/5f/40/740bdfc344b1a636306a7c0676e7/9546458d-791b-49fe-bfde-edde42a68d40.pdf",
+        "https://yjszs.ntu.edu.cn/_upload/article/files/5f/40/740bdfc344b1a636306a7c0676e7/baa1c7fe-994a-43f8-845a-8af708e2a528.pdf"
+      ],
+      "files": [
+        {
+          "title": "0-南通大学2027年硕士研究生招生章程.pdf",
+          "url": "https://yjszs.ntu.edu.cn/_upload/article/files/5f/40/740bdfc344b1a636306a7c0676e7/9546458d-791b-49fe-bfde-edde42a68d40.pdf",
+          "path": "docs/admissions/2027/南通大学/0-南通大学2027年硕士研究生招生章程.pdf",
+          "sha256": "142de8cf8983b5185d846877e2161771e41ee8dbc10e215e830090929f942946",
+          "bytes": 294861,
+          "kind": "original"
+        },
+        {
+          "title": "2-2027年全日制专业学位硕士研究生招生专业目录.pdf",
+          "url": "https://yjszs.ntu.edu.cn/_upload/article/files/5f/40/740bdfc344b1a636306a7c0676e7/baa1c7fe-994a-43f8-845a-8af708e2a528.pdf",
+          "path": "docs/admissions/2027/南通大学/2-2027年全日制专业学位硕士研究生招生专业目录.pdf",
+          "sha256": "d1d75741560c0db50c065394fed20069402f0ec4ae2f0f003a708982ed08b37c",
+          "bytes": 347017,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "南通大学2027年硕士研究生招生章程、专业目录和考试科目",
+          "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/page.htm",
+          "effective_url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/page.htm",
+          "path": "docs/admissions/2027/南通大学/page-f0f0319355.html",
+          "sha256": "f899797a3d7f8c702777ba84adbb167798c07752acdae55e97f47178a9c584a0",
+          "bytes": 17678
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://webs.ntu.edu.cn/_upload/article/files/5f/40/740bdfc344b1a636306a7c0676e7/95da7b9f-be47-4722-b6e2-766f8e9c62da.pdf",
+          "title": "0-南通大学2027年硕士研究生招生章程.pdf0-南通大学2027年硕士研究生招生章程.pdf",
+          "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to webs.ntu.edu.cn:443 \n"
+        },
+        {
+          "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/0-南通大学2027年硕士研究生招生章程.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjszs.ntu.edu.cn/2026/1001/c7625a299769/0-%E5%8D%97%E9%80%9A%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E7%AB%A0%E7%A8%8B.pdf"
+        },
+        {
+          "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/1-2027年全日制学术学位硕士研究生招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjszs.ntu.edu.cn/2026/1001/c7625a299769/1-2027%E5%B9%B4%E5%85%A8%E6%97%A5%E5%88%B6%E5%AD%A6%E6%9C%AF%E5%AD%A6%E4%BD%8D%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        },
+        {
+          "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/2-2027年全日制专业学位硕士研究生招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjszs.ntu.edu.cn/2026/1001/c7625a299769/2-2027%E5%B9%B4%E5%85%A8%E6%97%A5%E5%88%B6%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%BD%8D%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        },
+        {
+          "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/3-2027年非全日制专业学位硕士研究生招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjszs.ntu.edu.cn/2026/1001/c7625a299769/3-2027%E5%B9%B4%E9%9D%9E%E5%85%A8%E6%97%A5%E5%88%B6%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%BD%8D%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        },
+        {
+          "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/4-2027年硕士研究生考试科目一览表.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjszs.ntu.edu.cn/2026/1001/c7625a299769/4-2027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E8%80%83%E8%AF%95%E7%A7%91%E7%9B%AE%E4%B8%80%E8%A7%88%E8%A1%A8.pdf"
+        }
+      ]
+    },
+    {
+      "name": "河北北方学院",
+      "tier": "稳健区",
+      "gate": 301,
+      "region": "河北",
+      "current_name": "河北北方学院",
+      "plan": 22,
+      "basis": "统考/不含推免",
+      "previous_plan": 22,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027分专业计划105118总数24、推免2、士兵栏空；按24-2=22记录普通统考参考名额。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjs.hebeinu.edu.cn/uploads/file1/20260926/6ab71e31bec0a.pdf"
+      ],
+      "files": [
+        {
+          "title": "河北北方学院2027年硕士研究生分专业拟招生计划（全日制）.pdf",
+          "url": "https://yjs.hebeinu.edu.cn/uploads/file1/20260926/6ab71e31bec0a.pdf",
+          "path": "docs/admissions/2027/河北北方学院/河北北方学院2027年硕士研究生分专业拟招生计划（全日制）.pdf",
+          "sha256": "fb7ca91bd3067f3f9c6bed2f6abcba9033e772f8d6e1efabeec3c6d4ba511ea0",
+          "bytes": 67134,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "河北北方学院招生栏目",
+          "url": "https://yjs.hebeinu.edu.cn/index.php",
+          "effective_url": "https://yjs.hebeinu.edu.cn/index.php",
+          "path": "docs/admissions/2027/河北北方学院/page-62c1db44cb.html",
+          "sha256": "caa463f57f04c12534b4832ecdfe69e234bf00cc2e2697caf7d3008adf572c6e",
+          "bytes": 16280
+        },
+        {
+          "title": "河北北方学院2027年硕士研究生招生章程-河北北方学院-研究生学院、学位与学科建设办公室",
+          "url": "https://yjs.hebeinu.edu.cn/index.php?s=%2FShow%2Findex%2Fcid%2F11%2Fid%2F491.html",
+          "effective_url": "https://yjs.hebeinu.edu.cn/index.php?s=%2FShow%2Findex%2Fcid%2F11%2Fid%2F491.html",
+          "path": "docs/admissions/2027/河北北方学院/page-4b867a57a9.html",
+          "sha256": "93922a302a0f14ae1a2d969680c424e8e4241cb8a2bbaec928ad4216e60a3a12",
+          "bytes": 35260
+        },
+        {
+          "title": "河北北方学院2027年硕士研究生招生章程",
+          "url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/491.html",
+          "effective_url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/491.html",
+          "path": "docs/admissions/2027/河北北方学院/page-4d608dc649.html",
+          "sha256": "0997de59db18159a4166d15a8274f6b1945a84e731447673c23de6884e51267f",
+          "bytes": 35260
+        },
+        {
+          "title": "河北北方学院2027年硕士研究生分专业拟招生计划",
+          "url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/488.html",
+          "effective_url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/488.html",
+          "path": "docs/admissions/2027/河北北方学院/page-f74d26f115.html",
+          "sha256": "8c1fa5bfce9bd86ee9f1068bc85cf8cc733a488e6fbb6787c1635491ab41e61a",
+          "bytes": 8893
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjs.hebeinu.edu.cn/河北北方学院2027年硕士研究生分专业拟招生计划（全日制）.pdf河北北方学院2027年硕士研究生分专业拟招生计划（非全日制）.pdf",
+          "title": "内嵌文件",
+          "error": "%E5%88%92%EF%BC%88%E5%85%A8%E6%97%A5%E5%88%B6%EF%BC%89.pdf%E6%B2%B3%E5%8C%97%E5%8C%97%E6%96%B9%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%88%86%E4%B8%93%E4%B8%9A%E6%8B%9F%E6%8B%9B%E7%94%9F%E8%AE%A1%E5%88%92%EF%BC%88%E9%9D%9E%E5%85%A8%E6%97%A5%E5%88%B6%EF%BC%89.pdf"
+        },
+        {
+          "url": "https://yjs.hebeinu.edu.cn/河北北方学院2027年硕士研究生分专业拟招生计划（全日制）.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjs.hebeinu.edu.cn/%E6%B2%B3%E5%8C%97%E5%8C%97%E6%96%B9%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%88%86%E4%B8%93%E4%B8%9A%E6%8B%9F%E6%8B%9B%E7%94%9F%E8%AE%A1%E5%88%92%EF%BC%88%E5%85%A8%E6%97%A5%E5%88%B6%EF%BC%89.pdf"
+        },
+        {
+          "url": "https://yjs.hebeinu.edu.cn/河北北方学院2027年硕士研究生分专业拟招生计划（非全日制）.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjs.hebeinu.edu.cn/%E6%B2%B3%E5%8C%97%E5%8C%97%E6%96%B9%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E5%88%86%E4%B8%93%E4%B8%9A%E6%8B%9F%E6%8B%9B%E7%94%9F%E8%AE%A1%E5%88%92%EF%BC%88%E9%9D%9E%E5%85%A8%E6%97%A5%E5%88%B6%EF%BC%89.pdf"
+        }
+      ]
+    },
+    {
+      "name": "内蒙古科技大学（包头医学院）",
+      "tier": "稳健区",
+      "gate": 303,
+      "region": "内蒙古",
+      "current_name": "内蒙古科技大学（包头医学院）",
+      "plan": 25,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 25,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "官方2027目录是单页扫描PDF，已逐页视觉核对：024临床教学医院105118麻醉学25人、全日制、是否接收退役专项为否。未将学硕100217的1人合并。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://www.btmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1275874854&wbfileid=14792125"
+      ],
+      "files": [
+        {
+          "title": "附件1：内蒙古科技大学包头医学院2027年硕士研究生招生专业目录.pdf",
+          "url": "https://www.btmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1275874854&wbfileid=14792125",
+          "path": "docs/admissions/2027/内蒙古科技大学（包头医学院）/附件1：内蒙古科技大学包头医学院2027年硕士研究生招生专业目录.pdf",
+          "sha256": "89a9272d8c44990afce2ef63f3d4f682f51e03ff19ec432ce9149a66c8b24e10",
+          "bytes": 139169,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "内蒙古科技大学包头医学院2027年硕士研究生招生章程-研究生学院",
+          "url": "https://www.btmc.edu.cn/yjsxy/info/1019/3314.htm",
+          "effective_url": "https://www.btmc.edu.cn/yjsxy/info/1019/3314.htm",
+          "path": "docs/admissions/2027/内蒙古科技大学（包头医学院）/page-b694875f6d.html",
+          "sha256": "20ebca1391abb363d58183437e42d3215914bad36e41e426b8bfa640a3efbb7c",
+          "bytes": 91108
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "福建医科大学",
+      "tier": "稳健区",
+      "gate": 303,
+      "region": "福建",
+      "current_name": "福建医科大学",
+      "plan": 43,
+      "basis": "目录总数/含推免转段口径待核",
+      "previous_plan": 30,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027官方专业目录六个培养单位105118依次6+3+4+4+5+21=43；这是目录分项合计，不能仅取单个临床学院。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsy.fjmu.edu.cn/_upload/article/files/0a/b2/9e6667374d21bbe6f8e54a5c889b/c519ddd3-da43-46d0-ba02-d1c0a05a69c8.pdf",
+        "https://yjsy.fjmu.edu.cn/_upload/article/files/0a/b2/9e6667374d21bbe6f8e54a5c889b/3d00f0f9-8d5e-431c-9879-b8c079d9a498.pdf"
+      ],
+      "files": [
+        {
+          "title": "福建医科大2027年攻读硕士学位研究生招生章程及专业目录.pdf",
+          "url": "https://yjsy.fjmu.edu.cn/_upload/article/files/0a/b2/9e6667374d21bbe6f8e54a5c889b/c519ddd3-da43-46d0-ba02-d1c0a05a69c8.pdf",
+          "path": "docs/admissions/2027/福建医科大学/福建医科大2027年攻读硕士学位研究生招生章程及专业目录.pdf",
+          "sha256": "61337bfce68d13d85b06ed871893748e6a557041bcab8ee2c83bff75852cbcc9",
+          "bytes": 1172283,
+          "kind": "original"
+        },
+        {
+          "title": "福建医科大学2027年招生章程",
+          "url": "https://yjsy.fjmu.edu.cn/_upload/article/files/0a/b2/9e6667374d21bbe6f8e54a5c889b/3d00f0f9-8d5e-431c-9879-b8c079d9a498.pdf",
+          "path": "docs/admissions/2027/福建医科大学/福建医科大学2027年招生章程.pdf",
+          "sha256": "4f7629e78273ebcf9886f9d4bbfa973a2e82886b18bb02b4959993dd43020970",
+          "bytes": 411756,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "福建医科大学招生官网（查找2027目录）",
+          "url": "https://yjsy.fjmu.edu.cn/",
+          "effective_url": "https://yjsy.fjmu.edu.cn/",
+          "path": "docs/admissions/2027/福建医科大学/page-9da2818e20.html",
+          "sha256": "f885b1b48de16dd8cfe8ccfdb75ddfd7b595ae6170186d046bdb9184c886a90a",
+          "bytes": 46719
+        },
+        {
+          "title": "福建医科大学2027年攻读硕士学位研究生招生章程及专业目录福建医科大学2027年攻读硕士学位...",
+          "url": "https://yjsy.fjmu.edu.cn/2026/0929/c2437a220123/page.htm",
+          "effective_url": "https://yjsy.fjmu.edu.cn/2026/0929/c2437a220123/page.htm",
+          "path": "docs/admissions/2027/福建医科大学/page-02443136b1.html",
+          "sha256": "dd2f5342f1c5580a98ee5bf7fa9416bbe06975f9f02c165d7e7ce5d50682bcc7",
+          "bytes": 20858
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjsy.fjmu.edu.cn/2026/0929/c2437a220123/福建医科大学2027年攻读硕士学位研究生招生章程及专业目录.pdf福建医科大学各研究生招生学院简介（2026年9月）.pdf",
+          "title": "内嵌文件",
+          "error": "curl: (52) Empty reply from server\n"
+        },
+        {
+          "url": "https://yjsy.fjmu.edu.cn/2026/0929/c2437a220123/福建医科大2027年攻读硕士学位研究生招生章程及专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "curl: (52) Empty reply from server\n"
+        },
+        {
+          "url": "https://yjsy.fjmu.edu.cn/2026/0929/c2437a220123/福建医科大学各研究生招生学院简介（2026年9月）.pdf",
+          "title": "内嵌文件",
+          "error": "curl: (52) Empty reply from server\n"
+        }
+      ]
+    },
+    {
+      "name": "厦门大学",
+      "tier": "稳健区",
+      "gate": 304,
+      "region": "福建",
+      "current_name": "厦门大学",
+      "plan": null,
+      "basis": "未知",
+      "previous_plan": null,
+      "previous_basis": "未知",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "本轮已保存官方招生页面；既有计划数尚缺本轮原文复核，请从官方入口核对，不能视作新确认。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://zs.xmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1929267571&wbfileid=5BF5478862C61AC68C2BBC179AC1C5B8"
+      ],
+      "files": [
+        {
+          "title": "厦门大学2027年硕士研究生分专业招生计划",
+          "url": "https://zs.xmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1929267571&wbfileid=5BF5478862C61AC68C2BBC179AC1C5B8",
+          "path": "docs/admissions/2027/厦门大学/厦门大学2027年硕士研究生分专业招生计划.xlsx",
+          "sha256": "b7cf666fed69bb2e1479f33d351adcb06f467fd2bd9c5b8e2ac0b100cc5ee313",
+          "bytes": 21397,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "厦门大学招生栏目",
+          "url": "https://zs.xmu.edu.cn/sss/zyml.htm",
+          "effective_url": "https://zs.xmu.edu.cn/sss/zyml.htm",
+          "path": "docs/admissions/2027/厦门大学/page-6d2836715c.html",
+          "sha256": "18d200d21c0067855646b402806de52098ef6ab7d3577f0a7e8baca72d5c888f",
+          "bytes": 23167
+        },
+        {
+          "title": "厦门大学2027年硕士研究生招生章程-厦门大学招生网",
+          "url": "https://zs.xmu.edu.cn/info/1174/36942.htm",
+          "effective_url": "https://zs.xmu.edu.cn/info/1174/36942.htm",
+          "path": "docs/admissions/2027/厦门大学/page-cfb53da60a.html",
+          "sha256": "7f29fde3a261bd80bf324a9442c9a6430c4cd8d68a25cf30ec5fcadc1dafef32",
+          "bytes": 101788
+        },
+        {
+          "title": "厦门大学2027年硕士研究生招生章程-厦门大学招生网",
+          "url": "https://zs.xmu.edu.cn/info/1971/36892.htm",
+          "effective_url": "https://zs.xmu.edu.cn/info/1971/36892.htm",
+          "path": "docs/admissions/2027/厦门大学/page-1ae240ead6.html",
+          "sha256": "ed2675c69b787f62e7137366fcbfa9cef5df6240c5176bcced54e924638a709a",
+          "bytes": 101863
+        },
+        {
+          "title": "厦门大学2027年硕士研究生招生专业目录厦门大学2027年硕士研究生招生专业目录",
+          "url": "https://zs.xmu.edu.cn/info/1056/36842.htm",
+          "effective_url": "https://zs.xmu.edu.cn/info/1056/36842.htm",
+          "path": "docs/admissions/2027/厦门大学/page-c9e104f344.html",
+          "sha256": "bc8d84e37ebe7cdb087130e885ba7f9ea1eefba2e8017f69b803a524fb1e6fdf",
+          "bytes": 30214
+        },
+        {
+          "title": "厦门大学2027年硕士研究生招生专业目录",
+          "url": "https://zs.xmu.edu.cn/info/1056/36842.htm",
+          "path": "docs/admissions/2027/厦门大学/page-catalogue.html",
+          "bytes": 30214,
+          "sha256": "bc8d84e37ebe7cdb087130e885ba7f9ea1eefba2e8017f69b803a524fb1e6fdf"
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://zs.xmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1929267571&wbfileid=FA5842C071DB881DD31A4171254E38AC",
+          "title": "厦门大学2027年硕士研究生招生专业目录",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "title": "厦门大学2027年硕士研究生招生专业目录",
+          "url": "https://zs.xmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1929267571&wbfileid=FA5842C071DB881DD31A4171254E38AC",
+          "error": "attachment response has no recognized file signature"
+        }
+      ]
+    },
+    {
+      "name": "滨州医学院",
+      "tier": "稳健区",
+      "gate": 304,
+      "region": "山东",
+      "current_name": "山东医药大学",
+      "plan": 20,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 20,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "现名山东医药大学；官方2027目录第一临床医学院8、第二临床医学院12，合计20。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjszs.sdmpu.edu.cn/_upload/article/files/ac/e8/c690ea5240b1ab878c8d8598f288/0a825fa3-2ccc-4925-84d3-aca3ff05b721.pdf"
+      ],
+      "files": [
+        {
+          "title": "山东医药大学2027年硕士研究生招生专业目录.pdf",
+          "url": "https://yjszs.sdmpu.edu.cn/_upload/article/files/ac/e8/c690ea5240b1ab878c8d8598f288/0a825fa3-2ccc-4925-84d3-aca3ff05b721.pdf",
+          "path": "docs/admissions/2027/滨州医学院/山东医药大学2027年硕士研究生招生专业目录.pdf",
+          "sha256": "fb82efb3d835ad72cd8ca1f7101bf6e580bcba1ef450ac23fad3609c4fc9894b",
+          "bytes": 434414,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "滨州医学院招生官网（查找2027目录）",
+          "url": "https://yjszs.sdmpu.edu.cn/2056/list.htm",
+          "effective_url": "https://yjszs.sdmpu.edu.cn/2056/list.htm",
+          "path": "docs/admissions/2027/滨州医学院/page-a465809905.html",
+          "sha256": "2bb380c6d179a64e5abd49aa3d346fa0e6d2c6441339f6a0027bc596b58a29e5",
+          "bytes": 18294
+        },
+        {
+          "title": "山东医药大学2027年硕士研究生招生章程山东医药大学2027年硕士研究生招生章程",
+          "url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/page.htm",
+          "effective_url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/page.htm",
+          "path": "docs/admissions/2027/滨州医学院/page-e63489e498.html",
+          "sha256": "d8ba9ce080086fd9390b5c44ed04fec828f7bb2bc480a229afeb32c0e9ba7e59",
+          "bytes": 12397
+        },
+        {
+          "title": "山东医药大学2027年硕士研究生招生专业目录山东医药大学2027年硕士研究生招生专业目录",
+          "url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148952/page.htm",
+          "effective_url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148952/page.htm",
+          "path": "docs/admissions/2027/滨州医学院/page-a47cf9d6c6.html",
+          "sha256": "76601c2eb9b1d007eedfc8c2780c698c82e720378f9eeeac1b1e1ccedc1b941e",
+          "bytes": 11973
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/山东医药大学2027年硕士研究生招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/%E5%B1%B1%E4%B8%9C%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        },
+        {
+          "url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/山东医药大学2027年硕士研究生招生章程.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjszs.sdmpu.edu.cn/2026/1002/c2056a148951/%E5%B1%B1%E4%B8%9C%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E7%AB%A0%E7%A8%8B.pdf"
+        },
+        {
+          "url": "https://yjszs.sdmpu.edu.cn/2026/1002/c2056a148952/山东医药大学2027年硕士研究生招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjszs.sdmpu.edu.cn/2026/1002/c2056a148952/%E5%B1%B1%E4%B8%9C%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        }
+      ]
+    },
+    {
+      "name": "解放军医学院（301）",
+      "tier": "稳健区",
+      "gate": 304,
+      "region": "北京",
+      "current_name": "解放军医学院（301）",
+      "plan": 5,
+      "basis": "统考/不含推免",
+      "previous_plan": 5,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "本轮已保存官方招生页面；既有计划数尚缺本轮原文复核，请从官方入口核对，不能视作新确认。",
+      "status": "仅归档招生网页，目录待补",
+      "official_urls": [
+        "https://yz.chsi.com.cn/sch/viewZszc--infoId-25318117%2CcategoryId-10462685%2CschId-367823%2Cmindex-12.dhtml"
+      ],
+      "files": [],
+      "pages": [
+        {
+          "title": "解放军医学院（301）招生官网（查找2027目录）",
+          "url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-25318117%2CcategoryId-10462685%2CschId-367823%2Cmindex-12.dhtml",
+          "effective_url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-25318117%2CcategoryId-10462685%2CschId-367823%2Cmindex-12.dhtml",
+          "path": "docs/admissions/2027/解放军医学院（301）/page-cd853b45bf.html",
+          "sha256": "1c9ec7ec5a49125f259c526ede466cc443798fb24248ca00a65f45c707fbe0e6",
+          "bytes": 1025462
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "东南大学",
+      "tier": "稳健区",
+      "gate": 305,
+      "region": "江苏",
+      "current_name": "东南大学",
+      "plan": null,
+      "basis": "未知",
+      "previous_plan": null,
+      "previous_basis": "未知",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "已保存2027目录官方数据；专硕按105100临床医学09麻醉方向招生，目录未单列方向人数，不能沿用旧105118解释。",
+      "status": "已归档官方网页目录",
+      "official_urls": [
+        "https://xxgk.seu.edu.cn/2026/1008/c10807a585158/page.htm"
+      ],
+      "files": [
+        {
+          "title": "东南大学2027年目录官方数据",
+          "url": "https://gsas.seu.edu.cn/ssmlcx2027/pages/js/data.js",
+          "path": "docs/admissions/2027/东南大学/东南大学2027年目录官方数据.js",
+          "bytes": 521626,
+          "sha256": "be4d8ffefa86fb12ada91a7c87ac1b6e705a62d68289f2b207b0feabb5c74b0c",
+          "kind": "official_directory_data"
+        }
+      ],
+      "pages": [
+        {
+          "title": "东南大学2027年硕士研究生招生章程",
+          "url": "https://xxgk.seu.edu.cn/2026/1008/c10807a585158/page.htm",
+          "effective_url": "https://xxgk.seu.edu.cn/2026/1008/c10807a585158/page.htm",
+          "path": "docs/admissions/2027/东南大学/page-6cbf641317.html",
+          "sha256": "0aa68a11fd2226a08a470f00c6bcc3a636f211b03fc90bcf07b4c8f663e9017c",
+          "bytes": 62340
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "承德医学院",
+      "tier": "稳健区",
+      "gate": 305,
+      "region": "河北",
+      "current_name": "承德医学院",
+      "plan": 15,
+      "basis": "目录统考列/推免口径待核",
+      "previous_plan": 15,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027官方目录001临床医学专硕组105118，全国统考列拟招15人。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjs.cdmc.edu.cn/module/download/downfile.jsp?classid=0&filename=8615b5bdd10a4d278f0e7b51aadd81e2.pdf"
+      ],
+      "files": [
+        {
+          "title": "承德医学院2027年硕士研究生招生专业目录.pdf",
+          "url": "https://yjs.cdmc.edu.cn/module/download/downfile.jsp?classid=0&filename=8615b5bdd10a4d278f0e7b51aadd81e2.pdf",
+          "path": "docs/admissions/2027/承德医学院/承德医学院2027年硕士研究生招生专业目录.pdf",
+          "sha256": "b3340cb62b78437a35d00c129c26824dc71f0c10477ff1ee0129106d8eb0ee7f",
+          "bytes": 121127,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "研究生院 信息发布 承德医学院2027年招收攻读硕士学位研究生招生章程",
+          "url": "https://yjs.cdmc.edu.cn/art/2026/9/30/art_145_105464.html",
+          "effective_url": "https://yjs.cdmc.edu.cn/art/2026/9/30/art_145_105464.html",
+          "path": "docs/admissions/2027/承德医学院/page-9338f6560c.html",
+          "sha256": "e2f8118e86d67221946179e199ac8653a2bc69d3eaa8b28337437472cab2ac35",
+          "bytes": 38525
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "济宁医学院",
+      "tier": "稳健区",
+      "gate": 305,
+      "region": "山东",
+      "current_name": "济宁医学院",
+      "plan": 6,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 6,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027专业目录105118为6人，复试科目临床麻醉学。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://grad.jnmc.edu.cn/_upload/article/files/67/fd/7d227ec142a591c69c4841c73d60/3e7e48c5-c202-47dd-ba80-ea69a17c1a4b.pdf"
+      ],
+      "files": [
+        {
+          "title": "济宁医学院2027年招生专业目录",
+          "url": "https://grad.jnmc.edu.cn/_upload/article/files/67/fd/7d227ec142a591c69c4841c73d60/3e7e48c5-c202-47dd-ba80-ea69a17c1a4b.pdf",
+          "path": "docs/admissions/2027/济宁医学院/济宁医学院2027年招生专业目录.pdf",
+          "sha256": "df6282e97b2cf42e3bfe165692fdaf0f5605d5c30bef985c648edcf3c9dfba2f",
+          "bytes": 128993,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "济宁医学院招生栏目",
+          "url": "https://grad.jnmc.edu.cn/10/list.htm",
+          "effective_url": "https://grad.jnmc.edu.cn/10/list.htm",
+          "path": "docs/admissions/2027/济宁医学院/page-871ca2b651.html",
+          "sha256": "5bf24d8e6adbd9063db0e4bd302304deaee8dd41c295e4d4258bbdfa340c49bb",
+          "bytes": 27693
+        },
+        {
+          "title": "济宁医学院2027年硕士研究生招生章程",
+          "url": "https://grad.jnmc.edu.cn/2026/1001/c10a184209/page.htm",
+          "effective_url": "https://grad.jnmc.edu.cn/2026/1001/c10a184209/page.htm",
+          "path": "docs/admissions/2027/济宁医学院/page-f5bfa2b814.html",
+          "sha256": "a8376d799250a2ab6bacfde97ad14434b3fec79e8f8baa35b90e50a6dadc732b",
+          "bytes": 28673
+        },
+        {
+          "title": "济宁医学院2027年硕士研究生招生专业目录及初试科目说明济宁医学院2027年硕士研究生招生专业目录及初试科目说明",
+          "url": "https://grad.jnmc.edu.cn/2026/1001/c10a184210/page.htm",
+          "effective_url": "https://grad.jnmc.edu.cn/2026/1001/c10a184210/page.htm",
+          "path": "docs/admissions/2027/济宁医学院/page-402564e7da.html",
+          "sha256": "e3a41600400035aab2a35e0c34db45543ded87bb958011c76d922c2081459714",
+          "bytes": 18692
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://grad.jnmc.edu.cn/2026/1001/c10a184210/济宁医学院2027年硕士研究生招生专业目录及初试科目说明.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://grad.jnmc.edu.cn/2026/1001/c10a184210/%E6%B5%8E%E5%AE%81%E5%8C%BB%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95%E5%8F%8A%E5%88%9D%E8%AF%95%E7%A7%91%E7%9B%AE%E8%AF%B4%E6%98%8E.pdf"
+        }
+      ]
+    },
+    {
+      "name": "海南医科大学",
+      "tier": "稳健区",
+      "gate": 305,
+      "region": "海南",
+      "current_name": "海南医科大学",
+      "plan": 15,
+      "basis": "含推免",
+      "previous_plan": 15,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027专业型Excel目录105118麻醉学15人，单元格明确含拟录取推免生1人；仅扣该拟推免可得参考14，实际计划仍可调整。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://www.muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=6C1A6DA42FB4A70D390D20AC95EC48B3"
+      ],
+      "files": [
+        {
+          "title": "海南医科大学2027年硕士研究生招生专业目录（专业型）.xlsx",
+          "url": "https://www.muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=6C1A6DA42FB4A70D390D20AC95EC48B3",
+          "path": "docs/admissions/2027/海南医科大学/海南医科大学2027年硕士研究生招生专业目录（专业型）.xlsx",
+          "sha256": "2b95f705032d6a9b5f1c9c0e704a6c7ef3c8f85e0ad66a66bbe0435f1c308a7d",
+          "bytes": 42193,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "海南医科大学2027年硕士研究生招生简章-海南医科大学招生信息网",
+          "url": "https://www.muhn.edu.cn/zsw/info/1092/12574.htm",
+          "effective_url": "https://www.muhn.edu.cn/zsw/info/1092/12574.htm",
+          "path": "docs/admissions/2027/海南医科大学/page-6e0ab477b2.html",
+          "sha256": "577fe390aa64e32d212bb6966eda8bb643591c7369c0b66ce883bb925a29eafc",
+          "bytes": 41551
+        },
+        {
+          "title": "海南医科大学2027年硕士研究生招生简章-海南医科大学招生信息网",
+          "url": "https://muhn.edu.cn/zsw/info/1092/12574.htm",
+          "effective_url": "https://muhn.edu.cn/zsw/info/1092/12574.htm",
+          "path": "docs/admissions/2027/海南医科大学/page-779962e83a.html",
+          "sha256": "577fe390aa64e32d212bb6966eda8bb643591c7369c0b66ce883bb925a29eafc",
+          "bytes": 41551
+        },
+        {
+          "title": "下一篇：海南医科大学2027年接收优秀应届本科毕业生免试攻读硕士研究生招生简章>",
+          "url": "https://www.muhn.edu.cn/zsw/info/1092/12514.htm",
+          "effective_url": "https://www.muhn.edu.cn/zsw/info/1092/12514.htm",
+          "path": "docs/admissions/2027/海南医科大学/page-eb970d57d5.html",
+          "sha256": "0793b1b6b09aa597982a42f0b5a0f960f92ffe2f2c08f6dcc4ab65d1b035ba0c",
+          "bytes": 88896
+        },
+        {
+          "title": "下一篇：海南医科大学2027年接收优秀应届本科毕业生免试攻读硕士研究生招生简章>",
+          "url": "https://muhn.edu.cn/zsw/info/1092/12514.htm",
+          "effective_url": "https://muhn.edu.cn/zsw/info/1092/12514.htm",
+          "path": "docs/admissions/2027/海南医科大学/page-f433b7dbeb.html",
+          "sha256": "0793b1b6b09aa597982a42f0b5a0f960f92ffe2f2c08f6dcc4ab65d1b035ba0c",
+          "bytes": 88896
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://www.muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=8D482973D4FE4035CC57EDE3DE8C7C59",
+          "title": "海南医科大学2027年硕士研究生招生专业目录（学术型）.xlsx",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=8D482973D4FE4035CC57EDE3DE8C7C59",
+          "title": "海南医科大学2027年硕士研究生招生专业目录（学术型）.xlsx",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=6C1A6DA42FB4A70D390D20AC95EC48B3",
+          "title": "海南医科大学2027年硕士研究生招生专业目录（专业型）.xlsx",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://www.muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=769584E25225B299E65B578F02CA8223",
+          "title": "海南医科大学2027年接收推荐免试攻读研究生专业目录（终版）.xlsx",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://muhn.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1698349489&wbfileid=769584E25225B299E65B578F02CA8223",
+          "title": "海南医科大学2027年接收推荐免试攻读研究生专业目录（终版）.xlsx",
+          "error": "attachment response has no recognized file signature"
+        }
+      ]
+    },
+    {
+      "name": "电子科技大学",
+      "tier": "稳健区",
+      "gate": 305,
+      "region": "四川",
+      "current_name": "电子科技大学",
+      "plan": 4,
+      "basis": "统考/不含推免",
+      "previous_plan": 4,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "本轮已保存官方招生页面；既有计划数尚缺本轮原文复核，请从官方入口核对，不能视作新确认。",
+      "status": "仅归档招生网页，目录待补",
+      "official_urls": [
+        "https://yz.uestc.edu.cn/info/1081/5968.htm"
+      ],
+      "files": [],
+      "pages": [
+        {
+          "title": "电子科技大学2027年硕士研究生招生章程-电子科技大学研究生招生网",
+          "url": "https://yz.uestc.edu.cn/info/1081/5968.htm",
+          "effective_url": "https://yz.uestc.edu.cn/info/1081/5968.htm",
+          "path": "docs/admissions/2027/电子科技大学/page-cfa7c04a09.html",
+          "sha256": "3eeba666269e7a660ef724a55bef1282705811f423155562f501bd9b76c925f5",
+          "bytes": 55678
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "遵义医科大学",
+      "tier": "稳健区",
+      "gate": 306,
+      "region": "贵州",
+      "current_name": "遵义医科大学",
+      "plan": 20,
+      "basis": "统考/不含推免",
+      "previous_plan": 20,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027官网网页目录105118为20人，目录说明明确不包含拟接收推免生计划；可接收退役专项，专项人数另行统筹。",
+      "status": "已归档官方网页目录",
+      "official_urls": [
+        "https://grs.zmu.edu.cn/info/1099/6790.htm"
+      ],
+      "files": [
+        {
+          "title": "遵义医科大学官方招生入口",
+          "url": "https://grs.zmu.edu.cn/info/1099/6790.htm",
+          "effective_url": "https://grs.zmu.edu.cn/info/1099/6790.htm",
+          "path": "docs/admissions/2027/遵义医科大学/page-a669f16627.html",
+          "sha256": "0de7062f52277179b985cf1cb8d448b17004550354f65b3acdf428f93775982c",
+          "bytes": 153695,
+          "kind": "official_web_catalogue"
+        }
+      ],
+      "pages": [
+        {
+          "title": "遵义医科大学官方招生入口",
+          "url": "https://grs.zmu.edu.cn/info/1099/6790.htm",
+          "effective_url": "https://grs.zmu.edu.cn/info/1099/6790.htm",
+          "path": "docs/admissions/2027/遵义医科大学/page-a669f16627.html",
+          "sha256": "0de7062f52277179b985cf1cb8d448b17004550354f65b3acdf428f93775982c",
+          "bytes": 153695
+        },
+        {
+          "title": "遵义医科大学招生官网（查找2027目录）",
+          "url": "https://grs.zmu.edu.cn/",
+          "effective_url": "https://grs.zmu.edu.cn/",
+          "path": "docs/admissions/2027/遵义医科大学/page-939a81f434.html",
+          "sha256": "302171448a88bf5d698a89a30fbdc5d178290391bed8c7cccdd2efa3e3d8207e",
+          "bytes": 30383
+        },
+        {
+          "title": "遵义医科大学2027年全日制硕士研究生招生章程 遵义医科大学2027年全日制硕士研究生招生章程2026-09-29",
+          "url": "https://grs.zmu.edu.cn/info/1068/6810.htm",
+          "effective_url": "https://grs.zmu.edu.cn/info/1068/6810.htm",
+          "path": "docs/admissions/2027/遵义医科大学/page-15e56d2892.html",
+          "sha256": "394fc704150fd452063c69fc7b5272916f1cb5cde243dcc66be403515cc7bfaa",
+          "bytes": 66685
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "宁波大学",
+      "tier": "稳健区",
+      "gate": 307,
+      "region": "浙江",
+      "current_name": "宁波大学",
+      "plan": 13,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 7,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027全日制目录医学院105118为13人、学制3年。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://graduate.nbu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1202972803&wbfileid=ED243B697921E32A29EBE39553E6C08A"
+      ],
+      "files": [
+        {
+          "title": "2027年全日制硕士研究生招生专业目录.pdf",
+          "url": "https://graduate.nbu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1202972803&wbfileid=ED243B697921E32A29EBE39553E6C08A",
+          "path": "docs/admissions/2027/宁波大学/2027年全日制硕士研究生招生专业目录.pdf",
+          "sha256": "3b95047c9312cba6b8e74e49e1761d8af9283dee944e04af177bb11e00399dd0",
+          "bytes": 237807,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "宁波大学招生官网（查找2027目录）",
+          "url": "https://graduate.nbu.edu.cn/zsgz/ssszs.htm",
+          "effective_url": "https://graduate.nbu.edu.cn/zsgz/ssszs.htm",
+          "path": "docs/admissions/2027/宁波大学/page-ab5c48e2c3.html",
+          "sha256": "b9e7e43a599d65f80f5377e3fcfb172c7064a682c2bbb7edf69f81cdd42a060e",
+          "bytes": 38512
+        },
+        {
+          "title": "宁波大学2027年硕士研究生招生章程宁波大学2027年硕士研究生招生章程",
+          "url": "https://graduate.nbu.edu.cn/info/1073/29431.htm",
+          "effective_url": "https://graduate.nbu.edu.cn/info/1073/29431.htm",
+          "path": "docs/admissions/2027/宁波大学/page-c9248c4fc3.html",
+          "sha256": "637bbb5f84bd581a28e52185cd26f1e4de630e55c8182e050d88e28bee68db04",
+          "bytes": 141219
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "浙江中医药大学",
+      "tier": "稳健区",
+      "gate": 307,
+      "region": "浙江",
+      "current_name": "浙江中医药大学",
+      "plan": 18,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 14,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录Excel行79，105118麻醉学18人，备注列出多家临床医学院及联合培养基地。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsgl.zcmu.edu.cn/storage/uploads/file/20260930/1790752776895613.xlsx"
+      ],
+      "files": [
+        {
+          "title": "附件1：浙江中医药大学2027年硕士研究生招生专业目录.xlsx附件1：浙江中医药大学2027年硕士研究生招生专业目录",
+          "url": "https://yjsgl.zcmu.edu.cn/storage/uploads/file/20260930/1790752776895613.xlsx",
+          "path": "docs/admissions/2027/浙江中医药大学/附件1：浙江中医药大学2027年硕士研究生招生专业目录.xlsx附件1：浙江中医药大学2027年硕士研究生招生专业目录.xlsx",
+          "sha256": "4191e442ec2509c9b8610c4241b72773a9601859e2d5cb1e7b93a8dc4acad241",
+          "bytes": 18897,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "浙江中医药大学招生栏目",
+          "url": "https://yjsgl.zcmu.edu.cn/list/20",
+          "effective_url": "https://yjsgl.zcmu.edu.cn/list/20",
+          "path": "docs/admissions/2027/浙江中医药大学/page-d5968cc230.html",
+          "sha256": "e9fc258cfdabd2951f5f98f20f5f5c54342e812177c86340dece170de10b4471",
+          "bytes": 27342
+        },
+        {
+          "title": "浙江中医药大学招生官网（查找2027目录）",
+          "url": "https://yjsgl.zcmu.edu.cn/show/6007",
+          "effective_url": "https://yjsgl.zcmu.edu.cn/show/6007",
+          "path": "docs/admissions/2027/浙江中医药大学/page-9252153b65.html",
+          "sha256": "465776206a6de77ce17634f3d8d8d5d405b8bfd25816f3eee171bcf0c8df50cb",
+          "bytes": 22269
+        },
+        {
+          "title": "浙江中医药大学招生官网（查找2027目录）",
+          "url": "https://yjsgl.zcmu.edu.cn/",
+          "effective_url": "https://yjsgl.zcmu.edu.cn/",
+          "path": "docs/admissions/2027/浙江中医药大学/page-1f394f1bb0.html",
+          "sha256": "a9903ca03d4f25cc613a0dc3b753dec84fe50579418390205bc5ac26bdc101d9",
+          "bytes": 40752
+        },
+        {
+          "title": "浙江中医药大学2027年硕士研究生招生章程及专业目录 浙江中医药大学2027年硕士研究生招生章程及专业目录 2026-09-30",
+          "url": "https://yjsgl.zcmu.edu.cn/show/6133",
+          "effective_url": "https://yjsgl.zcmu.edu.cn/show/6133",
+          "path": "docs/admissions/2027/浙江中医药大学/page-4ea8276e10.html",
+          "sha256": "933fffdfd65c38822b7e3e8f7964ccfe56766d969a9620f8fb6db6cdbe73b6ba",
+          "bytes": 49553
+        },
+        {
+          "title": "浙江中医药大学2027年接收推荐免试攻读硕士学位及本科直博生招生简章及专业目录 浙江中医药大学2027年接收推荐免试攻读硕士学位及本科直博生招生简章及专业目录 2026-09-18",
+          "url": "https://yjsgl.zcmu.edu.cn/show/6112",
+          "effective_url": "https://yjsgl.zcmu.edu.cn/show/6112",
+          "path": "docs/admissions/2027/浙江中医药大学/page-6fa3c85fef.html",
+          "sha256": "6d86d51072ed1f10db444f4587848776ef9785592eaf43d9bc599590b6fe523f",
+          "bytes": 42543
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjsgl.zcmu.edu.cn/storage/uploads/file/20260918/1789718467762672.xls",
+          "title": "附件1：浙江中医药大学2027年推荐免试研究生招生专业目录.xls附件1：浙江中医药大学2027年推荐免试研究生招生专业目录",
+          "error": "attachment response has no recognized file signature"
+        }
+      ]
+    },
+    {
+      "name": "宁夏医科大学",
+      "tier": "稳健区",
+      "gate": 308,
+      "region": "宁夏",
+      "current_name": "宁夏医科大学",
+      "plan": 27,
+      "basis": "目录统考列/推免口径待核",
+      "previous_plan": 6,
+      "previous_basis": "总数",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录三处105118：第一临床医学院20，另两个培养单位1与6，合计27；旧6人仅是其中一处，不能代表全校。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://www.nxmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1673356690&wbfileid=18109943"
+      ],
+      "files": [
+        {
+          "title": "附件1：宁夏医科大学2027年硕士研究生招生专业目录.pdf",
+          "url": "https://www.nxmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1673356690&wbfileid=18109943",
+          "path": "docs/admissions/2027/宁夏医科大学/附件1：宁夏医科大学2027年硕士研究生招生专业目录.pdf",
+          "sha256": "92b2251f42f1418bf74fcb3a8ab41e1fb6cc60be47963c671eb862439231d6c3",
+          "bytes": 218639,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "宁夏医科大学招生官网（查找2027目录）",
+          "url": "https://www.nxmu.edu.cn/yjsy/zsgz/ssszs.htm",
+          "effective_url": "https://www.nxmu.edu.cn/yjsy/zsgz/ssszs.htm",
+          "path": "docs/admissions/2027/宁夏医科大学/page-f29252f2c7.html",
+          "sha256": "345a520b45a42dcef32dca4eae9077b0e8693fbefc0f71d95ad6351e129f2e5f",
+          "bytes": 21347
+        },
+        {
+          "title": "宁夏医科大学2027年硕士研究生招生简章宁夏医科大学2027年硕士研究生招生简章",
+          "url": "https://www.nxmu.edu.cn/yjsy/info/1010/3551.htm",
+          "effective_url": "https://www.nxmu.edu.cn/yjsy/info/1010/3551.htm",
+          "path": "docs/admissions/2027/宁夏医科大学/page-24607cf61a.html",
+          "sha256": "17ddd269cefb0e3663885a469933ef4ecf12fae61d89de6ddf6b5006630ba14d",
+          "bytes": 13993
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "延安大学",
+      "tier": "稳健区",
+      "gate": 308,
+      "region": "陕西",
+      "current_name": "延安大学",
+      "plan": 24,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 24,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027专业目录Excel行1974，105118明确本学科拟计划招收24人，含联培方向。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsy.yau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2130581067&wbfileid=63958A8AA4E9B771B963F903FF16276E"
+      ],
+      "files": [
+        {
+          "title": "附件3：延安大学2027年硕士研究生招生专业目录.xlsx",
+          "url": "https://yjsy.yau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2130581067&wbfileid=63958A8AA4E9B771B963F903FF16276E",
+          "path": "docs/admissions/2027/延安大学/附件3：延安大学2027年硕士研究生招生专业目录.xlsx",
+          "sha256": "a5f7ad62d72e4a865bca99abc100563e9bb5d835744ec066d6925d0296955e52",
+          "bytes": 92283,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "延安大学2027年硕士研究生招生简章-研究生院",
+          "url": "https://yjsy.yau.edu.cn/info/1025/40802.htm",
+          "effective_url": "https://yjsy.yau.edu.cn/info/1025/40802.htm",
+          "path": "docs/admissions/2027/延安大学/page-f15d314118.html",
+          "sha256": "2ee30269e87cdf47187265b2cbe23ce92877ffbdcffeccfb4c209f3df7ea34cb",
+          "bytes": 73332
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjsy.yau.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2130581067&wbfileid=B373266EA750C5E86AD4317D95B39FF3",
+          "title": "附件2：延安大学2027年专业学位硕士研究生招生专业一览表.xlsx",
+          "error": "attachment response has no recognized file signature"
+        }
+      ]
+    },
+    {
+      "name": "华中科技大学",
+      "tier": "稳健区",
+      "gate": 309,
+      "region": "湖北",
+      "current_name": "华中科技大学",
+      "plan": null,
+      "basis": "未知",
+      "previous_plan": null,
+      "previous_basis": "未知",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "已归档2027专业学位530/540两家临床学院官网目录正文，麻醉按105100临床医学下方向展示；独立统考名额仍须结合研招网核实，未用目录内其他数字替代。",
+      "status": "已归档官方网页目录",
+      "official_urls": [
+        "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx"
+      ],
+      "files": [
+        {
+          "title": "华中科技大学2027年专业学位目录-530",
+          "url": "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx",
+          "path": "docs/admissions/2027/华中科技大学/华中科技大学2027年专业学位目录-530.html",
+          "bytes": 139634,
+          "sha256": "14b13aec2cd7fd9cc63c9efe1192a9ef444a1280a54375015b3c9d4a7d852e35",
+          "kind": "official_web_catalogue"
+        },
+        {
+          "title": "华中科技大学2027年专业学位目录-540",
+          "url": "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx",
+          "path": "docs/admissions/2027/华中科技大学/华中科技大学2027年专业学位目录-540.html",
+          "bytes": 139453,
+          "sha256": "3afb0b0866e6d118f39304192916a76833883e3162d746b1aed7f33c135c8650",
+          "kind": "official_web_catalogue"
+        }
+      ],
+      "pages": [
+        {
+          "title": "华中科技大学招生官网（查找2027目录）",
+          "url": "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx",
+          "effective_url": "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx",
+          "path": "docs/admissions/2027/华中科技大学/page-69b3590fef.html",
+          "sha256": "3a06b1c692db62c4629708c807924b74112cf45ab4beef273d6bc2910e39cb21",
+          "bytes": 166047
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "湖北医药学院",
+      "tier": "稳健区",
+      "gate": 309,
+      "region": "湖北",
+      "current_name": "湖北医药学院",
+      "plan": 21,
+      "basis": "统考/不含推免",
+      "previous_plan": 21,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "官网访问受限；本轮未取得可核验的招生计划原件，保留既有数值并标记待核。",
+      "status": "官网访问受限，待补原件",
+      "official_urls": [
+        "http://yjsy.hbmu.edu.cn/2026/0930/c254a172840/page.htm",
+        "https://yjsy.hbmu.edu.cn/2026/0930/c254a172840/page.htm"
+      ],
+      "files": [],
+      "pages": [],
+      "failures": [
+        {
+          "url": "http://yjsy.hbmu.edu.cn/2026/0930/c254a172840/page.htm",
+          "title": "湖北医药学院官方招生入口",
+          "error": "curl: (28) Failed to connect to yjsy.hbmu.edu.cn port 80 after 12004 ms: Timeout was reached\ncurl: (28) Failed to connect to yjsy.hbmu.edu.cn port 80 after 12004 ms: Timeout was reached\n"
+        },
+        {
+          "url": "https://yjsy.hbmu.edu.cn/2026/0930/c254a172840/page.htm",
+          "title": "湖北医药学院2027年硕士研究生招生章程",
+          "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to yjsy.hbmu.edu.cn:443 \n"
+        }
+      ]
+    },
+    {
+      "name": "大连医科大学",
+      "tier": "稳健区",
+      "gate": 310,
+      "region": "辽宁",
+      "current_name": "大连医科大学",
+      "plan": 40,
+      "basis": "统考/不含推免",
+      "previous_plan": 40,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录明确分列总数、推免、士兵、5+3和统考：附一总32-推免4-转段2=统考26；附二总16-推免2=统考14；合计普通统考40。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjs.dmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1383548158&wbfileid=14782967",
+        "https://yjs.dmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1383548158&wbfileid=14782972"
+      ],
+      "files": [
+        {
+          "title": "附件1：《大连医科大学2027年硕士研究生招生专业目录》.pdf",
+          "url": "https://yjs.dmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1383548158&wbfileid=14782967",
+          "path": "docs/admissions/2027/大连医科大学/附件1：《大连医科大学2027年硕士研究生招生专业目录》.pdf",
+          "sha256": "7a7fd7060cdcd8df986fbca6da8c24ee051e7e2aa5d121587943b5675e44ee1a",
+          "bytes": 103489,
+          "kind": "original"
+        },
+        {
+          "title": "附件2：《大连医科大学2027年规培类硕士研究生各培养单位招生计划》.pdf",
+          "url": "https://yjs.dmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1383548158&wbfileid=14782972",
+          "path": "docs/admissions/2027/大连医科大学/附件2：《大连医科大学2027年规培类硕士研究生各培养单位招生计划》.pdf",
+          "sha256": "1063fc9270c64976d22833f44404dbe9b4f6c67f98b2b0f09c8b3c0614b10e1c",
+          "bytes": 71320,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "大连医科大学2027年硕士研究生招生章程-大连医科大学-研究生院",
+          "url": "https://yjs.dmu.edu.cn/info/1017/9470.htm",
+          "effective_url": "https://yjs.dmu.edu.cn/info/1017/9470.htm",
+          "path": "docs/admissions/2027/大连医科大学/page-53dc8ab398.html",
+          "sha256": "f5fd7071b04ca8fc9284864198ab524bcd2c486f677808f6ac9ed5be12c89e61",
+          "bytes": 47119
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "江南大学",
+      "tier": "稳健区",
+      "gate": 310,
+      "region": "江苏",
+      "current_name": "江南大学",
+      "plan": 8,
+      "basis": "含推免",
+      "previous_plan": 8,
+      "previous_basis": "含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录105118为8人；表头明确拟招生人数包含拟招推免生人数。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yz.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1249934898&wbfileid=18215500"
+      ],
+      "files": [
+        {
+          "title": "江南大学2027年硕士研究生招生专业目录（全日制）.pdf",
+          "url": "https://yz.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1249934898&wbfileid=18215500",
+          "path": "docs/admissions/2027/江南大学/江南大学2027年硕士研究生招生专业目录（全日制）.pdf",
+          "sha256": "b2bfd62e8412ffa7db61631221b67e8bee60cb30593c78303decb37843098b83",
+          "bytes": 391794,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "江南大学2027年硕士研究生招生专业目录-江南大学研究生招生信息网",
+          "url": "https://yz.jiangnan.edu.cn/info/1029/3881.htm",
+          "effective_url": "https://yz.jiangnan.edu.cn/info/1029/3881.htm",
+          "path": "docs/admissions/2027/江南大学/page-8a148d43d3.html",
+          "sha256": "7a53a80116451ed8391379905760365033e6edf565de8e0bb2183fb4c2545f00",
+          "bytes": 16187
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "河南科技大学",
+      "tier": "稳健区",
+      "gate": 310,
+      "region": "河南",
+      "current_name": "河南科技大学",
+      "plan": 6,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 5,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "官方2027招生简章所附目录105118为6人；旧5人应更新，公开招考数还受实际推免影响。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsc.haust.edu.cn/__local/9/80/F8/31DB5A59C143D355BD221A77FFA_F28022E2_BE492.pdf"
+      ],
+      "files": [
+        {
+          "title": "河南科技大学2027年招生专业目录",
+          "url": "https://yjsc.haust.edu.cn/__local/9/80/F8/31DB5A59C143D355BD221A77FFA_F28022E2_BE492.pdf",
+          "path": "docs/admissions/2027/河南科技大学/河南科技大学2027年招生专业目录.pdf",
+          "sha256": "debaf77f3ee8e7d47f189d3ca8ce065025d1daa94b5dc079a31c23690f112fc3",
+          "bytes": 779410,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "河南科技大学招生栏目",
+          "url": "https://yjsc.haust.edu.cn/",
+          "effective_url": "https://yjsc.haust.edu.cn/",
+          "path": "docs/admissions/2027/河南科技大学/page-f6d15788d8.html",
+          "sha256": "f3a4ab6ce1cfa79803bae44f831a0e4871040cf7cbdaa969e724efad9379ca9c",
+          "bytes": 34714
+        },
+        {
+          "title": "河南科技大学食品与生物工程学院2027年硕士研究生招生专业目录-河南科技大学食品与生物工程学院",
+          "url": "https://spsw.haust.edu.cn/info/1009/18323.htm",
+          "effective_url": "https://spsw.haust.edu.cn/info/1009/18323.htm",
+          "path": "docs/admissions/2027/河南科技大学/page-fa98d3fbfc.html",
+          "sha256": "3b2a3d4adece2642944433430d5f19f391fcfaba0541cec9436bcd1b5f57c9b9",
+          "bytes": 28276
+        },
+        {
+          "title": "河南科技大学2027年硕士研究生招生简章（含招生专业目录）",
+          "url": "https://yjsc.haust.edu.cn/info/1053/8682.htm",
+          "effective_url": "https://yjsc.haust.edu.cn/info/1053/8682.htm",
+          "path": "docs/admissions/2027/河南科技大学/page-16a9312a08.html",
+          "sha256": "14d31749e73a635acb27ccafb01c61369d8bb698df7f69aed1ba55d3aeec3417",
+          "bytes": 26338
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "广东省心血管病研究所",
+      "tier": "稳健区",
+      "gate": 311,
+      "region": "广东",
+      "current_name": "广东省心血管病研究所",
+      "plan": 2,
+      "basis": "统考/不含推免",
+      "previous_plan": 2,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "本轮已保存官方招生页面；既有计划数尚缺本轮原文复核，请从官方入口核对，不能视作新确认。",
+      "status": "仅归档招生网页，目录待补",
+      "official_urls": [
+        "https://www.gdghospital.org.cn/GraduateEnrollment/info_itemid_72662.html",
+        "https://www.gdghospital.org.cn/GraduateEnrollment/info_itemid_73248.html"
+      ],
+      "files": [],
+      "pages": [
+        {
+          "title": "广东省心血管病研究所官方招生入口",
+          "url": "https://www.gdghospital.org.cn/GraduateEnrollment/info_itemid_72662.html",
+          "effective_url": "https://www.gdghospital.org.cn/GraduateEnrollment/info_itemid_72662.html",
+          "path": "docs/admissions/2027/广东省心血管病研究所/page-97ec68722a.html",
+          "sha256": "92d50db49f84dbfadeae1be692d9f5146717d554f95e51a877716b065845528e",
+          "bytes": 28932
+        },
+        {
+          "title": "广东省心血管病研究所2027年硕士研究生招生简章",
+          "url": "https://www.gdghospital.org.cn/GraduateEnrollment/info_itemid_73248.html",
+          "path": "docs/admissions/2027/广东省心血管病研究所/最新2027招生简章官方网页.html",
+          "sha256": "2c80fe4ac57aebc51bb467364be19299d5275449c07fefaaa5ad2ba0c7e0df4e",
+          "bytes": 34034
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "广州医科大学",
+      "tier": "稳健区",
+      "gate": 313,
+      "region": "广东",
+      "current_name": "广州医科大学",
+      "plan": 15,
+      "basis": "统考/不含推免",
+      "previous_plan": 15,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "官网访问受限；本轮未取得可核验的招生计划原件，保留既有数值并标记待核。",
+      "status": "官网访问受限，待补原件",
+      "official_urls": [
+        "http://yjs.gzhmu.edu.cn/info/1003/39972.htm",
+        "https://yjs.gzhmu.edu.cn/info/1003/39972.htm"
+      ],
+      "files": [],
+      "pages": [],
+      "failures": [
+        {
+          "url": "http://yjs.gzhmu.edu.cn/info/1003/39972.htm",
+          "title": "广州医科大学官方招生入口",
+          "error": "483\nhttps://yjs.gzhmu.edu.cn/info/1003/39972.htm"
+        },
+        {
+          "url": "https://yjs.gzhmu.edu.cn/info/1003/39972.htm",
+          "title": "广州医科大学2027年硕士研究生招生简章-广州医科大学研究生院",
+          "error": "483\nhttps://yjs.gzhmu.edu.cn/info/1003/39972.htm"
+        }
+      ]
+    },
+    {
+      "name": "河南大学",
+      "tier": "稳健区",
+      "gate": 314,
+      "region": "河南",
+      "current_name": "河南大学",
+      "plan": 12,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 14,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027医学院专业目录105118拟招12人；来源为医学院专用PDF，不能使用其他学院目录。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://grs.henu.edu.cn/zyml-036-2027gai.pdf"
+      ],
+      "files": [
+        {
+          "title": "河南大学2027年医学院招生专业目录",
+          "url": "https://grs.henu.edu.cn/zyml-036-2027gai.pdf",
+          "path": "docs/admissions/2027/河南大学/河南大学2027年医学院招生专业目录.pdf",
+          "sha256": "8b70a04153c36b30664101708f9c94ea1c6ce5eb6f2e1f8abfddfed755348bef",
+          "bytes": 253091,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "河南大学官方招生入口",
+          "url": "https://grs.henu.edu.cn/",
+          "effective_url": "https://grs.henu.edu.cn/",
+          "path": "docs/admissions/2027/河南大学/page-76bfe3bcf3.html",
+          "sha256": "9957e39968f7fbdede193768bfea5da77287095a5bfc423ba6b54a20ae8a65a2",
+          "bytes": 105429
+        },
+        {
+          "title": "2026年10月01日 河南大学2027年硕士研究生招生章程",
+          "url": "https://grs.henu.edu.cn/info/1111/61032.htm",
+          "effective_url": "https://grs.henu.edu.cn/info/1111/61032.htm",
+          "path": "docs/admissions/2027/河南大学/page-e43b0b687b.html",
+          "sha256": "c72764c729be5a8bca1bbe04d18f82626dd2a9741b4001f4add150ae0d6c98f2",
+          "bytes": 240903
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://grs.henu.edu.cn/zsgz/sszs.htm",
+          "title": "河南大学招生官网（查找2027目录）",
+          "error": "404\nhttps://grs.henu.edu.cn/zsgz/sszs.htm"
+        }
+      ]
+    },
+    {
+      "name": "贵州医科大学",
+      "tier": "稳健区",
+      "gate": 316,
+      "region": "贵州",
+      "current_name": "贵州医科大学",
+      "plan": 26,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 23,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027专业目录016麻醉学院105118拟招26人，100217学硕5人另列，不合并计数。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsxy.gmc.edu.cn/__local/D/EA/81/1BB3FB4C92886959C6658B0A566_0BB91F7D_1797A.pdf"
+      ],
+      "files": [
+        {
+          "title": "贵州医科大学2027年招生专业目录",
+          "url": "https://yjsxy.gmc.edu.cn/__local/D/EA/81/1BB3FB4C92886959C6658B0A566_0BB91F7D_1797A.pdf",
+          "path": "docs/admissions/2027/贵州医科大学/贵州医科大学2027年招生专业目录.pdf",
+          "sha256": "cb2a7ae5d399729034907c676c166fcf66553bccac928ec91cd7968fb7c49e76",
+          "bytes": 96634,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "贵州医科大学招生官网（查找2027目录）",
+          "url": "https://yjsxy.gmc.edu.cn/",
+          "effective_url": "https://yjsxy.gmc.edu.cn/",
+          "path": "docs/admissions/2027/贵州医科大学/page-969f44cb1c.html",
+          "sha256": "75d2cb7e9f54c4300d6e5d025867adf936e0bc72e3ed9c0eb3cb3596564612c1",
+          "bytes": 44830
+        },
+        {
+          "title": "贵州医科大学2027年硕士研究生招生专业目录贵州医科大学2027年硕士研究生招生专业目录",
+          "url": "https://yjsxy.gmc.edu.cn/info/1118/2581.htm",
+          "effective_url": "https://yjsxy.gmc.edu.cn/info/1118/2581.htm",
+          "path": "docs/admissions/2027/贵州医科大学/page-bd2a90d75d.html",
+          "sha256": "b6f54aa24dcb6dd8d8618e6e1578aae0c1b2483a8b8ad820da44a96f4a0e8c35",
+          "bytes": 12777
+        },
+        {
+          "title": "贵州医科大学2027年硕士研究生招生章程贵州医科大学2027年硕士研究生招生章程",
+          "url": "https://yjsxy.gmc.edu.cn/info/1118/2580.htm",
+          "effective_url": "https://yjsxy.gmc.edu.cn/info/1118/2580.htm",
+          "path": "docs/admissions/2027/贵州医科大学/page-1958b90b6f.html",
+          "sha256": "f2b801936a44819606c0a6a21d75302780b1e0626aa9de312ac0bd7640122265",
+          "bytes": 108542
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "南京医科大学",
+      "tier": "稳健区",
+      "gate": 317,
+      "region": "江苏",
+      "current_name": "南京医科大学",
+      "plan": 31,
+      "basis": "统考/不含推免",
+      "previous_plan": 44,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "采用10月14日更新的统考目录，20个麻醉方向合计31人；官网明确红字为接收推免后剩余招生人数。初版含推免总数59保留作版本证据。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjszs.njmu.edu.cn/_upload/article/files/0b/5f/f98af4f1411ab300de3d69ce79b0/877bb41e-2fa3-4d0f-b018-4a946a8b6d03.pdf",
+        "https://yjszs.njmu.edu.cn/_upload/article/files/0b/5f/f98af4f1411ab300de3d69ce79b0/822df2e2-0486-4068-adca-8eb8acc84ea7.pdf"
+      ],
+      "files": [
+        {
+          "title": "2027年攻读硕士学位研究生招生章程及招生专业目录.pdf",
+          "url": "https://yjszs.njmu.edu.cn/_upload/article/files/0b/5f/f98af4f1411ab300de3d69ce79b0/877bb41e-2fa3-4d0f-b018-4a946a8b6d03.pdf",
+          "path": "docs/admissions/2027/南京医科大学/2027年攻读硕士学位研究生招生章程及招生专业目录.pdf",
+          "sha256": "5fe11e7eb563235d5543c7769e991886a69f64f3dc3fcbc2793427128e94ec81",
+          "bytes": 924032,
+          "kind": "original"
+        },
+        {
+          "title": "2027年攻读硕士学位研究生招生章程及招生专业目录（10月14日更新）.pdf",
+          "url": "https://yjszs.njmu.edu.cn/_upload/article/files/0b/5f/f98af4f1411ab300de3d69ce79b0/822df2e2-0486-4068-adca-8eb8acc84ea7.pdf",
+          "path": "docs/admissions/2027/南京医科大学/2027年攻读硕士学位研究生招生章程及招生专业目录（10月14日更新）.pdf",
+          "sha256": "5c505fab920caedec1fae01d5ee50af03e8e4e8d59346160355111302b790df2",
+          "bytes": 2435768,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "南京医科大学2027年硕士研究生招生章程",
+          "url": "https://yjszs.njmu.edu.cn/2026/1008/c10171a307487/page.htm",
+          "effective_url": "https://yjszs.njmu.edu.cn/2026/1008/c10171a307487/page.htm",
+          "path": "docs/admissions/2027/南京医科大学/page-5891d00316.html",
+          "sha256": "00e2fe0aaae6c8aaa4f65d669c2efe8f9dcb7a1f81ad0f4d6171a0f7287d5f8c",
+          "bytes": 22612
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjszs.njmu.edu.cn/2026/1008/c10171a307487/2027年攻读硕士学位研究生招生简章及招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjszs.njmu.edu.cn/2026/1008/c10171a307487/2027%E5%B9%B4%E6%94%BB%E8%AF%BB%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%E5%8F%8A%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        },
+        {
+          "url": "https://yjszs.njmu.edu.cn/2026/1008/c10171a307487/2027年攻读硕士学位研究生招生简章及招生专业目录（10月14日更新）.pdf",
+          "title": "内嵌文件",
+          "error": "://yjszs.njmu.edu.cn/2026/1008/c10171a307487/2027%E5%B9%B4%E6%94%BB%E8%AF%BB%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%E5%8F%8A%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95%EF%BC%8810%E6%9C%8814%E6%97%A5%E6%9B%B4%E6%96%B0%EF%BC%89.pdf"
+        }
+      ]
+    },
+    {
+      "name": "南方医科大学",
+      "tier": "稳健区",
+      "gate": 317,
+      "region": "广东",
+      "current_name": "南方医科大学",
+      "plan": 19,
+      "basis": "统考/不含推免",
+      "previous_plan": 19,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "已下载2027目录，105118列五个临床方向但未给专业人数；原有数字须另从统考计划核实。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://portal.smu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1322327945&wbfileid=2942DE3C0978189C389015EA8327E1CC"
+      ],
+      "files": [
+        {
+          "title": "南方医科大学2027年硕士研究生招生专业目录",
+          "url": "https://portal.smu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1322327945&wbfileid=2942DE3C0978189C389015EA8327E1CC",
+          "path": "docs/admissions/2027/南方医科大学/南方医科大学2027年硕士研究生招生专业目录.pdf",
+          "sha256": "cc3a56168be38da18ba2f98bb277f9a20ee92b466766cd1b1f6ce8a219c37570",
+          "bytes": 181952,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "南方医科大学2027年硕士研究生招生简章-南方医科大学研究生招生网",
+          "url": "https://portal.smu.edu.cn/yzw/info/1002/12431.htm",
+          "effective_url": "https://portal.smu.edu.cn/yzw/info/1002/12431.htm",
+          "path": "docs/admissions/2027/南方医科大学/page-b5120a8afa.html",
+          "sha256": "1179064a1dc5d6eb647a310f172bbb66101defaad5fc1f21a762681242abf2ae",
+          "bytes": 62565
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "广东医科大学",
+      "tier": "稳健区",
+      "gate": 317,
+      "region": "广东",
+      "current_name": "广东医科大学",
+      "plan": 25,
+      "basis": "含推免及士兵专项",
+      "previous_plan": 21,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录第一临床医学院18+第二临床医学院7=25；表头说明含推免计划及士兵专项计划。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsxy.gdmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2117637288&wbfileid=48C70AB4E08DA33209B86B2A73999D9A"
+      ],
+      "files": [
+        {
+          "title": "附件1 广东医科大学2027年硕士研究生招生专业目录.pdf",
+          "url": "https://yjsxy.gdmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2117637288&wbfileid=48C70AB4E08DA33209B86B2A73999D9A",
+          "path": "docs/admissions/2027/广东医科大学/附件1_广东医科大学2027年硕士研究生招生专业目录.pdf",
+          "sha256": "bcea2c4fdc93f913ee9a7e19eeec450b982e5e6618e2d0aa6ab3cba8d2fd66c9",
+          "bytes": 148780,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "广东医科大学招生官网（查找2027目录）",
+          "url": "https://yjsxy.gdmu.edu.cn/zsgz/sszs.htm",
+          "effective_url": "https://yjsxy.gdmu.edu.cn/zsgz/sszs.htm",
+          "path": "docs/admissions/2027/广东医科大学/page-389beb77e5.html",
+          "sha256": "e9f6427ec899015740014bb370be78ea59d3900b2b55afe7bcea24d4e1381857",
+          "bytes": 23680
+        },
+        {
+          "title": "广东医科大学2027年硕士研究生招生章程",
+          "url": "https://yjsxy.gdmu.edu.cn/info/1300/64797.htm",
+          "effective_url": "https://yjsxy.gdmu.edu.cn/info/1300/64797.htm",
+          "path": "docs/admissions/2027/广东医科大学/page-81e9614efb.html",
+          "sha256": "74771dcb6d0130b84df04b763a7e9aa07664381c481435a07112d6b3d95d697a",
+          "bytes": 145596
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjsxy.gdmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2117637288&wbfileid=791267E1675CB836FFAD22DCE002A127",
+          "title": "附件2 广东医科大学2027年硕士研究生招生专业报考条件.pdf",
+          "error": "attachment response has no recognized file signature"
+        }
+      ]
+    },
+    {
+      "name": "沈阳医学院",
+      "tier": "稳健区",
+      "gate": 319,
+      "region": "辽宁",
+      "current_name": "沈阳医学院",
+      "plan": 7,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 7,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "官方2027专业目录105118麻醉学拟招7人，学制与科目见目录原件。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsjy.symc.edu.cn/__local/E/09/97/1E69A483FB9EA051A0E52EE95BE_A960AAE4_15DC8.pdf"
+      ],
+      "files": [
+        {
+          "title": "沈阳医学院2027年招生专业目录",
+          "url": "https://yjsjy.symc.edu.cn/__local/E/09/97/1E69A483FB9EA051A0E52EE95BE_A960AAE4_15DC8.pdf",
+          "path": "docs/admissions/2027/沈阳医学院/沈阳医学院2027年招生专业目录.pdf",
+          "sha256": "4c4193f3cd380356ce4986d1e801105fd3dd52debea55a27949b80680ffb2270",
+          "bytes": 89544,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "沈阳医学院招生官网（查找2027目录）",
+          "url": "https://yjsjy.symc.edu.cn/",
+          "effective_url": "https://yjsjy.symc.edu.cn/",
+          "path": "docs/admissions/2027/沈阳医学院/page-5e10fa2a62.html",
+          "sha256": "20cd0cd0ab9e560aefb428fd4c6934cf9caa8aec6920267bcd65d99e888b074e",
+          "bytes": 33223
+        },
+        {
+          "title": "沈阳医学院2027年全国硕士研究生招生章程 沈阳医学院2027年全国硕士研究生招生章程 2026年09月29日 根据《2027年全国硕士研究生招生工作管理规定》文件精神，结合我校实际，制定本章程。一、培养目标培养热爱祖国，拥护中国共产党的领导，拥护社会主义制度，遵纪守法，品德良好，具有服务国家、服务人民的社会责任感，掌握本学科坚实的基础理论和系统的专...",
+          "url": "https://yjsjy.symc.edu.cn/info/3401/15992.htm",
+          "effective_url": "https://yjsjy.symc.edu.cn/info/3401/15992.htm",
+          "path": "docs/admissions/2027/沈阳医学院/page-7d744c520e.html",
+          "sha256": "0b2b5cd70c6bb07c2a2221082c64d20a907f0bb2663de8db2505baeac80e736f",
+          "bytes": 38014
+        },
+        {
+          "title": "沈阳医学院2027年全国硕士研究生招生章程 沈阳医学院2027年全国硕士研究生招生章程 2026-09-29",
+          "url": "https://yjsjy.symc.edu.cn/info/3822/15962.htm",
+          "effective_url": "https://yjsjy.symc.edu.cn/info/3822/15962.htm",
+          "path": "docs/admissions/2027/沈阳医学院/page-93fe96151a.html",
+          "sha256": "9fba2c69090ffeefbe4cf5c477d2d0a9a0ff2252d0c121b35cabafcb78064d87",
+          "bytes": 38114
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "大连大学",
+      "tier": "稳健区",
+      "gate": 320,
+      "region": "辽宁",
+      "current_name": "大连大学",
+      "plan": 5,
+      "basis": "含推免",
+      "previous_plan": 4,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录105118拟招5人，表头明确含推免；不能沿用旧4人作为最新普通统考数。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjs.dlu.edu.cn/__local/7/AC/58/653638450D67974839DA8B6DA8D_7A38CB23_B164D.pdf"
+      ],
+      "files": [
+        {
+          "title": "大连大学2027年招生专业目录",
+          "url": "https://yjs.dlu.edu.cn/__local/7/AC/58/653638450D67974839DA8B6DA8D_7A38CB23_B164D.pdf",
+          "path": "docs/admissions/2027/大连大学/大连大学2027年招生专业目录.pdf",
+          "sha256": "9c3dbe2cffb9a691b791654ecb2dbd8d40c950e073264544d82285616fe7b3ce",
+          "bytes": 726605,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "大连大学招生官网（查找2027目录）",
+          "url": "https://yjs.dlu.edu.cn/",
+          "effective_url": "https://yjs.dlu.edu.cn/",
+          "path": "docs/admissions/2027/大连大学/page-d4a6c7fcec.html",
+          "sha256": "f404e2d652dbdfdacb3526e94579b375a4e1a20059a03ba4f3577dd73383164d",
+          "bytes": 36126
+        },
+        {
+          "title": "大连大学2027年硕士研究生招生专业目录、复试科目、加试科目大连大学2027年硕士研究生招生专业目录、复试科目、加试科目",
+          "url": "https://yjs.dlu.edu.cn/info/1065/3891.htm",
+          "effective_url": "https://yjs.dlu.edu.cn/info/1065/3891.htm",
+          "path": "docs/admissions/2027/大连大学/page-467869df3b.html",
+          "sha256": "39dd193deb2f2852ed05c016edc792557f157f558e43278c7b98658aefb64587",
+          "bytes": 14751
+        },
+        {
+          "title": "大连大学2027年全国硕士研究生招生章程大连大学2027年全国硕士研究生招生章程",
+          "url": "https://yjs.dlu.edu.cn/info/1065/3890.htm",
+          "effective_url": "https://yjs.dlu.edu.cn/info/1065/3890.htm",
+          "path": "docs/admissions/2027/大连大学/page-b3650243e7.html",
+          "sha256": "bce0b2fe2a350250be1dcef2378aaa3f870f482713afe29867e7941337a088f9",
+          "bytes": 14178
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "山东大学",
+      "tier": "稳健区",
+      "gate": 320,
+      "region": "山东",
+      "current_name": "山东大学",
+      "plan": 2,
+      "basis": "统考/不含推免",
+      "previous_plan": 2,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "官网2027动态目录：056齐鲁医学院（临床医学）105118麻醉学的“统考招生人数”为2；只接受本科临床医学和麻醉学考生，除国家专项外只招非定向。已核对官方表头，未把含推免总数8作为统考。",
+      "status": "已归档官方网页目录",
+      "official_urls": [
+        "https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/sszs/zsxxfb/index"
+      ],
+      "files": [
+        {
+          "title": "山东大学2027年105118目录官方数据",
+          "url": "https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/sszs/xdeh3mizwpj6Psdm/zsxxfb/list/zymlxqV2",
+          "path": "docs/admissions/2027/山东大学/山东大学2027年105118目录官方数据.json",
+          "bytes": 1892,
+          "sha256": "9f287d6ab50a7090d7fc374d33e99aee150fb145520d8c68734c27b386ae10ee",
+          "kind": "official_directory_data"
+        },
+        {
+          "title": "山东大学2027年目录官方表头",
+          "url": "https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/sszs/xdeh3mizwpj6Psdm/zsxxfb/list/getZymlDetailTableFields",
+          "path": "docs/admissions/2027/山东大学/山东大学2027年目录官方表头.json",
+          "bytes": 686,
+          "sha256": "4d69af8490dcb00f836be4f1b56595549ea13d9123621f8b68501c1fe3b800da",
+          "kind": "official_directory_data"
+        },
+        {
+          "title": "山东大学2027年105118目录正文整理",
+          "url": "https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/sszs/zsxxfb/index",
+          "path": "docs/admissions/2027/山东大学/山东大学2027年105118目录正文整理.html",
+          "bytes": 1390,
+          "sha256": "c50b621a31f839380ba51ff9b2cc057d81b2cb5344dc05c30cbf3070657cbc25",
+          "kind": "research_snapshot"
+        }
+      ],
+      "pages": [
+        {
+          "title": "山东大学招生官网（查找2027目录）",
+          "url": "https://yz.sdu.edu.cn/sszs/zyml.htm",
+          "effective_url": "https://yz.sdu.edu.cn/sszs/zyml.htm",
+          "path": "docs/admissions/2027/山东大学/page-9a192f73b8.html",
+          "sha256": "ac4e917aa31afa38638dd17b191e223064521cccabfb47be98d60bbd6afcb9d3",
+          "bytes": 16156
+        },
+        {
+          "title": "山东大学2027年硕士研究生招生专业目录302026.09山东大学2027年硕士研究生招生专业目录",
+          "url": "https://yz.sdu.edu.cn/info/1004/1487.htm",
+          "effective_url": "https://yz.sdu.edu.cn/info/1004/1487.htm",
+          "path": "docs/admissions/2027/山东大学/page-61d90db89d.html",
+          "sha256": "54c6a66c40b5169d6837ad93b0b44d7fa05f8cee7d75f34bc5cbe85cb541c0d2",
+          "bytes": 22275
+        },
+        {
+          "title": "2027硕士专业目录山东大学2027年硕士研究生招生专业目录",
+          "url": "https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/sszs/zsxxfb/index",
+          "effective_url": "https://sduyjs.sdu.edu.cn/yjszs/plugins/zs/sszs/zsxxfb/index",
+          "path": "docs/admissions/2027/山东大学/page-7243b262b2.html",
+          "sha256": "402a1e5f086e4bee2d42e810852bbbd608900bf4837554f39e3a70bfa496a693",
+          "bytes": 2101
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "锦州医科大学",
+      "tier": "进取区",
+      "gate": 322,
+      "region": "辽宁",
+      "current_name": "锦州医科大学",
+      "plan": 20,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 20,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027目录105118两处计划14+6=20。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsc.jzmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1707086562&wbfileid=3763050"
+      ],
+      "files": [
+        {
+          "title": "1.锦州医科大学2027年全国硕士研究生招生考试专业目录.pdf",
+          "url": "https://yjsc.jzmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1707086562&wbfileid=3763050",
+          "path": "docs/admissions/2027/锦州医科大学/1.锦州医科大学2027年全国硕士研究生招生考试专业目录.pdf",
+          "sha256": "658171a82fd2ad2843ebbe22e70be8ff80ddd9f0b9e132d52890b58703fe0fc6",
+          "bytes": 283882,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "锦州医科大学2027年全国硕士研究生招生章程-锦州医科大学-研究生学院",
+          "url": "https://yjsc.jzmu.edu.cn/info/1097/5488.htm",
+          "effective_url": "https://yjsc.jzmu.edu.cn/info/1097/5488.htm",
+          "path": "docs/admissions/2027/锦州医科大学/page-aedb00691e.html",
+          "sha256": "298c0f83aa461c149edc70a1a7baa2455af744781f5630a2b1204dd7b84a86a3",
+          "bytes": 46106
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "成都中医药大学",
+      "tier": "进取区",
+      "gate": 323,
+      "region": "四川",
+      "current_name": "成都中医药大学",
+      "plan": 5,
+      "basis": "统考/不含推免",
+      "previous_plan": 5,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027攻读硕士学位统招研究生目录网页105118合计5人，方向包括围术期器官保护、慢性疼痛、心血管麻醉。",
+      "status": "已归档官方网页目录",
+      "official_urls": [
+        "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143619"
+      ],
+      "files": [
+        {
+          "title": "成都中医药大学2027年攻读硕士学位统招研究生招生专业目录成都中医药大学2027年攻读硕士学位统招研究生招生专业目录",
+          "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143619",
+          "effective_url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143619",
+          "path": "docs/admissions/2027/成都中医药大学/page-7b18392e04.html",
+          "sha256": "991eb95eebb77e10ece6e9218e7a2a5f84fa6f5ceb81f249ee4edb241ff82002",
+          "bytes": 393665,
+          "kind": "official_web_catalogue"
+        }
+      ],
+      "pages": [
+        {
+          "title": "成都中医药大学招生栏目",
+          "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs",
+          "effective_url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs",
+          "path": "docs/admissions/2027/成都中医药大学/page-626f4a5beb.html",
+          "sha256": "593930937609aadabe9753f6e2a33032b6b1f58bab8551177402cb51327356e4",
+          "bytes": 40959
+        },
+        {
+          "title": "成都中医药大学招生官网（查找2027目录）",
+          "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_142106",
+          "effective_url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_142106",
+          "path": "docs/admissions/2027/成都中医药大学/page-1af2276d79.html",
+          "sha256": "9541b8d698a665a19001ff1d5599fbe34f6a3ac886914bcaf8754785dfe500c0",
+          "bytes": 39859
+        },
+        {
+          "title": "成都中医药大学2027年攻读硕士学位统招研究生招生专业目录成都中医药大学2027年攻读硕士学位统招研究生招生专业目录",
+          "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143619",
+          "effective_url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143619",
+          "path": "docs/admissions/2027/成都中医药大学/page-7b18392e04.html",
+          "sha256": "991eb95eebb77e10ece6e9218e7a2a5f84fa6f5ceb81f249ee4edb241ff82002",
+          "bytes": 393665
+        },
+        {
+          "title": "成都中医药大学2027年攻读硕士学位统招研究生招生章程成都中医药大学2027年攻读硕士学位统招研究生招生章程",
+          "url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143618",
+          "effective_url": "https://zyd.cdutcm.edu.cn/yjs/zsgz/sszs/content_143618",
+          "path": "docs/admissions/2027/成都中医药大学/page-6eef87ba40.html",
+          "sha256": "1051701d129999c500d373ee097ee5031525405ea2221af44b7223ede822c5e5",
+          "bytes": 68233
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjs.cdutcm.edu.cn/",
+          "title": "成都中医药大学招生官网（查找2027目录）",
+          "error": "502\nhttps://yjs.cdutcm.edu.cn/"
+        }
+      ]
+    },
+    {
+      "name": "山东第二医科大学",
+      "tier": "进取区",
+      "gate": 325,
+      "region": "山东",
+      "current_name": "山东第二医科大学",
+      "plan": 43,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 42,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027官方目录麻醉学院105118拟招43人；学硕100217的8人另列，不相加。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjshb.sdsmu.edu.cn/_upload/article/files/69/27/0d0ccd0b41dd94ba418a358e5bab/2674f4c3-6c11-4ee6-940e-d2271f94aeba.pdf"
+      ],
+      "files": [
+        {
+          "title": "山东第二医科大学2027年硕士研究生招生专业目录.pdf",
+          "url": "https://yjshb.sdsmu.edu.cn/_upload/article/files/69/27/0d0ccd0b41dd94ba418a358e5bab/2674f4c3-6c11-4ee6-940e-d2271f94aeba.pdf",
+          "path": "docs/admissions/2027/山东第二医科大学/山东第二医科大学2027年硕士研究生招生专业目录.pdf",
+          "sha256": "5fa688010865a8e66e55851280223420383e1b0ccde8b957364d016d95b75a55",
+          "bytes": 228451,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "山东第二医科大学2027年硕士研究生招生章程",
+          "url": "https://yjshb.sdsmu.edu.cn/yjszsxxw/2026/0928/c9463a180668/page.htm",
+          "effective_url": "https://yjshb.sdsmu.edu.cn/yjszsxxw/2026/0928/c9463a180668/page.htm",
+          "path": "docs/admissions/2027/山东第二医科大学/page-20f2fc92e9.html",
+          "sha256": "664cbc266dab8f1d243e3fd289ccbbda05742b3008153f7a619772e48e62062d",
+          "bytes": 59739
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjshb.sdsmu.edu.cn/yjszsxxw/2026/0928/c9463a180668/山东第二医科大学2027年硕士研究生招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "404\nhttps://yjshb.sdsmu.edu.cn/yjszsxxw/2026/0928/c9463a180668/%E5%B1%B1%E4%B8%9C%E7%AC%AC%E4%BA%8C%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        }
+      ]
+    },
+    {
+      "name": "吉林大学",
+      "tier": "进取区",
+      "gate": 326,
+      "region": "吉林",
+      "current_name": "吉林大学",
+      "plan": 31,
+      "basis": "含推免",
+      "previous_plan": 19,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027全日制总数目录三家白求恩临床医学院105118依次11+6+14=31，不能直接当普通统考余额。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18205630"
+      ],
+      "files": [
+        {
+          "title": "附件1吉林大学2027年全日制硕士研究生招生专业目录.pdf",
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18205630",
+          "path": "docs/admissions/2027/吉林大学/附件1吉林大学2027年全日制硕士研究生招生专业目录.pdf",
+          "sha256": "670f10e7484e655d73be201a36d1e235f951a2ae2d115146216b87359544daef",
+          "bytes": 542829,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "吉林大学2027年硕士研究生招生章程及招生专业目录-吉林大学研究生招生信息网",
+          "url": "https://yzb.jlu.edu.cn/info/1047/3678.htm",
+          "effective_url": "https://yzb.jlu.edu.cn/info/1047/3678.htm",
+          "path": "docs/admissions/2027/吉林大学/page-496f5c4890.html",
+          "sha256": "07b63f1cf43ebd9bbb9789014c9bbea312a2f0e664a6b93dcf31d8dd33d80ea3",
+          "bytes": 116232
+        },
+        {
+          "title": "吉林大学公共卫生学院2027年硕士研究生招生专业目录-吉林大学公共卫生学院",
+          "url": "https://sph.jlu.edu.cn/info/1045/9803.htm",
+          "effective_url": "https://sph.jlu.edu.cn/info/1045/9803.htm",
+          "path": "docs/admissions/2027/吉林大学/page-6616a1546a.html",
+          "sha256": "7702bfceec69aa46ff50f4b62fdae714786b42d4f3d4aaf532ce49628ebe32e0",
+          "bytes": 16583
+        },
+        {
+          "title": "吉林大学2027年接收优秀应届本科毕业生免试攻读研究生招生简章及专业目录",
+          "url": "https://yzb.jlu.edu.cn/info/1047/3637.htm",
+          "effective_url": "https://yzb.jlu.edu.cn/info/1047/3637.htm",
+          "path": "docs/admissions/2027/吉林大学/page-feecc85f9b.html",
+          "sha256": "714c10026971b53445345cd25945f501f5fe43c85d9a83982391c4194c889c5a",
+          "bytes": 85168
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18205632",
+          "title": "附件3吉林大学2027年退役大学生士兵专项计划招生专业目录.pdf",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://zsb.jlu.edu.cn/Public/uploads/ueditor/file/20220919/1663579172479007.pdf",
+          "title": "吉林大学2023年接收推荐免试硕士研究生招生专业目录.pdf吉林大学2027年接收推荐免试硕士研究生招生专业目录",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://zsb.jlu.edu.cn/Public/uploads/ueditor/file/20220919/1663579186950151.pdf",
+          "title": "吉林大学2023年接收推荐免试直博生招生专业目录.pdf吉林大学2027年接收推荐免试直博生招生专业目录",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18196643",
+          "title": "附件1 吉林大学2027年接收推荐免试硕士研究生招生专业目录.pdf",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://yzb.jlu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2109433285&wbfileid=18196644",
+          "title": "附件2 吉林大学2027年接收推荐免试直博生招生专业目录.pdf",
+          "error": "attachment response has no recognized file signature"
+        },
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1047/吉林大学2023年接收推荐免试硕士研究生招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "400\nhttps://yzb.jlu.edu.cn/info/1047/%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A62023%E5%B9%B4%E6%8E%A5%E6%94%B6%E6%8E%A8%E8%8D%90%E5%85%8D%E8%AF%95%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        },
+        {
+          "url": "https://yzb.jlu.edu.cn/info/1047/吉林大学2023年接收推荐免试直博生招生专业目录.pdf",
+          "title": "内嵌文件",
+          "error": "400\nhttps://yzb.jlu.edu.cn/info/1047/%E5%90%89%E6%9E%97%E5%A4%A7%E5%AD%A62023%E5%B9%B4%E6%8E%A5%E6%94%B6%E6%8E%A8%E8%8D%90%E5%85%8D%E8%AF%95%E7%9B%B4%E5%8D%9A%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+        }
+      ]
+    },
+    {
+      "name": "南昌大学",
+      "tier": "进取区",
+      "gate": 327,
+      "region": "江西",
+      "current_name": "南昌大学",
+      "plan": 69,
+      "basis": "目录总数/推免口径待核",
+      "previous_plan": 10,
+      "previous_basis": "未知",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027官方目录三处105118为35+24+10=69；旧10仅第三处培养单位，存在漏加。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsy.ncu.edu.cn/__local/7/52/D6/E5A3BB6B3822CB13430EE9D4066_EFED5706_129DC3.pdf"
+      ],
+      "files": [
+        {
+          "title": "南昌大学2027年招生专业目录",
+          "url": "https://yjsy.ncu.edu.cn/__local/7/52/D6/E5A3BB6B3822CB13430EE9D4066_EFED5706_129DC3.pdf",
+          "path": "docs/admissions/2027/南昌大学/南昌大学2027年招生专业目录.pdf",
+          "sha256": "68156fe041457e48fb0ed69d2038d481c5b7982f8bd2628881954ebda79c64a9",
+          "bytes": 1220035,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "南昌大学官方招生入口",
+          "url": "https://gsas.ncu.edu.cn/zsml/sszsml/index/2027",
+          "effective_url": "https://gsas.ncu.edu.cn/zsml/sszsml/index/2027",
+          "path": "docs/admissions/2027/南昌大学/page-81f9af43df.html",
+          "sha256": "833ce1d313e77165c358dddffc743a6e2f52587df52f97548b61904101894e7c",
+          "bytes": 4840
+        },
+        {
+          "title": "南昌大学招生官网（查找2027目录）",
+          "url": "https://yjsy.ncu.edu.cn/zsgz/sszs.htm",
+          "effective_url": "https://yjsy.ncu.edu.cn/zsgz/sszs.htm",
+          "path": "docs/admissions/2027/南昌大学/page-8fa3fc1405.html",
+          "sha256": "78f0850663bfa1d4701f9dcf23429347da8017a7ead93b60d8e18925ee973938",
+          "bytes": 30461
+        },
+        {
+          "title": "南昌大学2027年硕士研究生招生简章",
+          "url": "https://yjsy.ncu.edu.cn/info/1171/47816.htm",
+          "effective_url": "https://yjsy.ncu.edu.cn/info/1171/47816.htm",
+          "path": "docs/admissions/2027/南昌大学/page-8f4701013e.html",
+          "sha256": "e3069ba84630ab3c1ed5d899682e7a62dc7e0314c871eb081646cce2dc76f588",
+          "bytes": 127690
+        },
+        {
+          "title": "南昌大学2027年硕士研究生招生专业目录",
+          "url": "https://yjsy.ncu.edu.cn/info/1181/47806.htm",
+          "effective_url": "https://yjsy.ncu.edu.cn/info/1181/47806.htm",
+          "path": "docs/admissions/2027/南昌大学/page-04ba2b404e.html",
+          "sha256": "e684adf74f33f3575387304e8a699a0f1402b1e22fd91f1eaa0c33cf0bcfc084",
+          "bytes": 37251
+        },
+        {
+          "title": "南昌大学2027年接收推荐免试研究生招生章程",
+          "url": "https://yjsy.ncu.edu.cn/info/1181/47766.htm",
+          "effective_url": "https://yjsy.ncu.edu.cn/info/1181/47766.htm",
+          "path": "docs/admissions/2027/南昌大学/page-2cac10e552.html",
+          "sha256": "07aba66d6ca7214a98aefeb7b154dae19603361257f7eb773e7a92dc879ded45",
+          "bytes": 68666
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "苏州大学",
+      "tier": "进取区",
+      "gate": 327,
+      "region": "江苏",
+      "current_name": "苏州大学",
+      "plan": 4,
+      "basis": "统考/不含推免",
+      "previous_plan": 4,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "已下载2027目录；105118列报考条件和科目，未列可据以独立核实的专业计划数；原有数字标记待核。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjs.suda.edu.cn/_upload/article/files/2c/a3/123b7f624583b29cd041b2cd9284/8018cb3c-8b8e-4e38-ab26-0338b90c8faf.pdf",
+        "https://yjs.suda.edu.cn/_upload/article/files/2c/a3/123b7f624583b29cd041b2cd9284/41eb0702-96d7-4470-9cbe-eb9fcc9f6ceb.pdf"
+      ],
+      "files": [
+        {
+          "title": "苏州大学2027年招生专业目录",
+          "url": "https://yjs.suda.edu.cn/_upload/article/files/2c/a3/123b7f624583b29cd041b2cd9284/8018cb3c-8b8e-4e38-ab26-0338b90c8faf.pdf",
+          "path": "docs/admissions/2027/苏州大学/苏州大学2027年招生专业目录.pdf",
+          "sha256": "c993ab73c42b4f24eb3eefe609a4f721df6a9bac87323d6dc982992bc0a43c0c",
+          "bytes": 603001,
+          "kind": "original"
+        },
+        {
+          "title": "苏州大学2027年招生专业目录",
+          "url": "https://yjs.suda.edu.cn/_upload/article/files/2c/a3/123b7f624583b29cd041b2cd9284/41eb0702-96d7-4470-9cbe-eb9fcc9f6ceb.pdf",
+          "path": "docs/admissions/2027/苏州大学/苏州大学2027年招生专业目录-2d65da.pdf",
+          "sha256": "2d65da71c35e106a0c79603571183e11cd9d0d1a4a0867f5b6791bf19c15a3e1",
+          "bytes": 603122,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "苏州大学2027年硕士研究生招生专业目录",
+          "url": "https://yjs.suda.edu.cn/ea/63/c8386a715363/page.htm",
+          "effective_url": "https://yjs.suda.edu.cn/ea/63/c8386a715363/page.htm",
+          "path": "docs/admissions/2027/苏州大学/page-f057a2173f.html",
+          "sha256": "6633820da2a93ff466fef0371aee30c16cf5875fb9d43b86bcab93678de633d7",
+          "bytes": 18927
+        },
+        {
+          "title": "苏州大学2027年硕士研究生招生简章",
+          "url": "https://yjs.suda.edu.cn/ea/64/c8365a715364/page.htm",
+          "effective_url": "https://yjs.suda.edu.cn/ea/64/c8365a715364/page.htm",
+          "path": "docs/admissions/2027/苏州大学/page-5307ab7746.html",
+          "sha256": "55d9bb51ab8492acab9bc3d166da059af24b0cdfcaab1788af53c733be1da4d5",
+          "bytes": 126634
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "兰州大学",
+      "tier": "进取区",
+      "gate": 328,
+      "region": "甘肃",
+      "current_name": "兰州大学",
+      "plan": 18,
+      "basis": "统考/不含推免",
+      "previous_plan": 18,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "本轮已保存官方招生页面；既有计划数尚缺本轮原文复核，请从官方入口核对，不能视作新确认。",
+      "status": "仅归档招生网页，目录待补",
+      "official_urls": [
+        "https://yz.chsi.com.cn/sch/viewZszc--infoId-3556155899%2CcategoryId-10461788%2CschId-368587%2Cmindex-12.dhtml"
+      ],
+      "files": [],
+      "pages": [
+        {
+          "title": "兰州大学官方招生入口",
+          "url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-3556155899%2CcategoryId-10461788%2CschId-368587%2Cmindex-12.dhtml",
+          "effective_url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-3556155899%2CcategoryId-10461788%2CschId-368587%2Cmindex-12.dhtml",
+          "path": "docs/admissions/2027/兰州大学/page-271597afe9.html",
+          "sha256": "48e5bc115ac2ec6d94de1fe6fad9aa22586a746e1bb033081993aead9cf707f6",
+          "bytes": 32658
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yz.lzu.edu.cn/shuoshishengzhaosheng/shuoshijianzhang/2026/1009/338207.html",
+          "title": "兰州大学招生官网（查找2027目录）",
+          "error": "412\nhttps://yz.lzu.edu.cn/shuoshishengzhaosheng/shuoshijianzhang/2026/1009/338207.html"
+        },
+        {
+          "url": "https://yz.lzu.edu.cn/",
+          "title": "兰州大学招生官网（查找2027目录）",
+          "error": "412\nhttps://yz.lzu.edu.cn/"
+        }
+      ]
+    },
+    {
+      "name": "上海交通大学",
+      "tier": "进取区",
+      "gate": 331,
+      "region": "上海",
+      "current_name": "上海交通大学",
+      "plan": 6,
+      "basis": "统考/不含推免",
+      "previous_plan": 6,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "已下载2027医学院Excel目录，105118列五个医院方向但未给各方向招生人数；原有数字标记待核。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://www.shsmu.edu.cn/__local/D/17/27/588199B481AA4973FDAE2F6C376_B23C4BE5_3712E.pdf?e=.pdf",
+        "https://www.shsmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1507374392&wbfileid=18110104"
+      ],
+      "files": [
+        {
+          "title": "上海交通大学2027年招生章程",
+          "url": "https://www.shsmu.edu.cn/__local/D/17/27/588199B481AA4973FDAE2F6C376_B23C4BE5_3712E.pdf?e=.pdf",
+          "path": "docs/admissions/2027/上海交通大学/上海交通大学2027年招生章程.pdf",
+          "sha256": "ab855811dc5b54029cd724de7d6aab15a86d27b305c45bd084e69eaa808932c8",
+          "bytes": 225582,
+          "kind": "original"
+        },
+        {
+          "title": "上海交通大学医学院2027年硕士研究生招生目录.xlsx",
+          "url": "https://www.shsmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1507374392&wbfileid=18110104",
+          "path": "docs/admissions/2027/上海交通大学/上海交通大学医学院2027年硕士研究生招生目录.xlsx",
+          "sha256": "94fbd222170bbf42887e16835356894772627f95875c0d7d62d0ac72b949dea7",
+          "bytes": 28527,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "上海交通大学医学院2027年硕士研究生招生简章-上海交通大学医学院研究生院网站",
+          "url": "https://www.shsmu.edu.cn/yjsy/info/1068/8181.htm",
+          "effective_url": "https://www.shsmu.edu.cn/yjsy/info/1068/8181.htm",
+          "path": "docs/admissions/2027/上海交通大学/page-4500bc7569.html",
+          "sha256": "50ec5f48bffeb6d6bd9fe25c9680338716be16509f8417d96918b175e5e445f0",
+          "bytes": 66401
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "成都医学院",
+      "tier": "进取区",
+      "gate": 332,
+      "region": "四川",
+      "current_name": "成都医学院",
+      "plan": 11,
+      "basis": "统考/不含推免",
+      "previous_plan": 11,
+      "previous_basis": "统考/不含推免",
+      "verification": "已检索，人数待复核",
+      "verified": false,
+      "checked_at": "2026-10-18",
+      "note": "本轮已保存官方招生页面；既有计划数尚缺本轮原文复核，请从官方入口核对，不能视作新确认。",
+      "status": "仅归档招生网页，目录待补",
+      "official_urls": [
+        "https://yjsy.cmc.edu.cn/info/1016/2710.htm"
+      ],
+      "files": [],
+      "pages": [
+        {
+          "title": "成都医学院2027年研究生招生指南-成都医学院党委研究生工作部、研究生院",
+          "url": "https://yjsy.cmc.edu.cn/info/1016/2710.htm",
+          "effective_url": "https://yjsy.cmc.edu.cn/info/1016/2710.htm",
+          "path": "docs/admissions/2027/成都医学院/page-8dca92b082.html",
+          "sha256": "47486eb562febb28530974f63b6f7b87d477804500b9a3cfc037850e42c70dce",
+          "bytes": 18126
+        }
+      ],
+      "failures": []
+    },
+    {
+      "name": "安徽医科大学",
+      "tier": "进取区",
+      "gate": 333,
+      "region": "安徽",
+      "current_name": "安徽医科大学",
+      "plan": 52,
+      "basis": "含长学制转段",
+      "previous_plan": 55,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027 Excel九个培养单位暂定人数19+16+8+1+1+1+2+2+2=52，转段预安排17+13+6+1+1+1=39，预安排扣减后13仅供参考，学校说明实际转段数将于10月中下旬确认，不能把52标为普通统考。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://yjsxy.ahmu.edu.cn/_upload/article/files/a6/38/9543533a4307a08eb451bb5b06ec/b72b1906-1b99-4e1c-8858-170b732a955c.xlsx",
+        "https://yjsxy.ahmu.edu.cn/_upload/article/files/a6/38/9543533a4307a08eb451bb5b06ec/63387708-4f33-4c5b-b5b2-525f12327a60.pdf"
+      ],
+      "files": [
+        {
+          "title": "1.2027年硕士研究生招生专业目录.xlsx",
+          "url": "https://yjsxy.ahmu.edu.cn/_upload/article/files/a6/38/9543533a4307a08eb451bb5b06ec/b72b1906-1b99-4e1c-8858-170b732a955c.xlsx",
+          "path": "docs/admissions/2027/安徽医科大学/1.2027年硕士研究生招生专业目录.xlsx",
+          "sha256": "924c96752e4c3dafb30ecefb635bc5d6336b99de1b4bdf22082fa3699ae414e8",
+          "bytes": 49998,
+          "kind": "original"
+        },
+        {
+          "title": "安徽医科大学2027年招生专业目录",
+          "url": "https://yjsxy.ahmu.edu.cn/_upload/article/files/a6/38/9543533a4307a08eb451bb5b06ec/63387708-4f33-4c5b-b5b2-525f12327a60.pdf",
+          "path": "docs/admissions/2027/安徽医科大学/安徽医科大学2027年招生专业目录.pdf",
+          "sha256": "c81b457150f05f62192d0a05bfa9dffa6b6a452c1b9b1bd03dc427c3e51e7213",
+          "bytes": 517046,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "安徽医科大学招生栏目",
+          "url": "https://yjsxy.ahmu.edu.cn/sszs/list.htm",
+          "effective_url": "https://yjsxy.ahmu.edu.cn/sszs/list.htm",
+          "path": "docs/admissions/2027/安徽医科大学/page-83abc2ccd9.html",
+          "sha256": "e9f0f149723fd710a260964c23731ab2a34988bd370ac20b53d00174315c4879",
+          "bytes": 22801
+        },
+        {
+          "title": "安徽医科大学研究生院招生入口",
+          "url": "https://yjsxy.ahmu.edu.cn/",
+          "effective_url": "https://yjsxy.ahmu.edu.cn/",
+          "path": "docs/admissions/2027/安徽医科大学/page-e128416108.html",
+          "sha256": "492b6aea04a17dd7ca7edf6e4aa2a04cd5d6b7968ebeedaa4769289e939e1793",
+          "bytes": 60733
+        },
+        {
+          "title": "安徽医科大学2027年硕士研究生招生章程安徽医科大学2027年硕士研究生招生章程",
+          "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/page.htm",
+          "effective_url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/page.htm",
+          "path": "docs/admissions/2027/安徽医科大学/page-b00abd5b6b.html",
+          "sha256": "e8ddbfc715e28a371f3bd5c754b68ccbc70b0206deb03da0e9982cc3403ab587",
+          "bytes": 17734
+        }
+      ],
+      "failures": [
+        {
+          "url": "https://yjsxy.ahmu.edu.cn/7773/list.htm",
+          "title": "安徽医科大学官方招生入口",
+          "error": "410\nhttps://yjsxy.ahmu.edu.cn/7773/list.psp"
+        },
+        {
+          "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/安徽医科大学2027年硕士研究生招生章程.pdf",
+          "title": "内嵌文件",
+          "error": "curl: (47) Maximum (50) redirects followed\n"
+        },
+        {
+          "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/2.2027年招生二级培养单位及代码表.pdf",
+          "title": "内嵌文件",
+          "error": "curl: (47) Maximum (50) redirects followed\n"
+        },
+        {
+          "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/4.2027年硕士招生初试自命题科目参考书目.pdf",
+          "title": "内嵌文件",
+          "error": "curl: (47) Maximum (50) redirects followed\n"
+        },
+        {
+          "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/5.安徽医科大学研究生资助政策简介.pdf",
+          "title": "内嵌文件",
+          "error": "curl: (47) Maximum (50) redirects followed\n"
+        },
+        {
+          "url": "https://yjsxy.ahmu.edu.cn/2026/0930/c7773a204588/6.安徽医科大学《349药学综合》考试大纲.pdf",
+          "title": "内嵌文件",
+          "error": "curl: (47) Maximum (50) redirects followed\n"
+        }
+      ]
+    },
+    {
+      "name": "中国医科大学",
+      "tier": "进取区",
+      "gate": 335,
+      "region": "辽宁",
+      "current_name": "中国医科大学",
+      "plan": 65,
+      "basis": "含推免及长学制转段",
+      "previous_plan": 52,
+      "previous_basis": "统考/不含推免",
+      "verification": "官方原文已核验",
+      "verified": true,
+      "checked_at": "2026-10-18",
+      "note": "2027规培类拟招生总计划第一/第二/第四临床学院105118为30+31+4=65；原文明确含推免和5+3，并预计10月20日前后公布统考计划。",
+      "status": "已下载官方原附件",
+      "official_urls": [
+        "https://www.cmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1778759152&wbfileid=13265833"
+      ],
+      "files": [
+        {
+          "title": "中国医科大学2027年硕士研究生拟招生总计划（规培类专业）.pdf",
+          "url": "https://www.cmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1778759152&wbfileid=13265833",
+          "path": "docs/admissions/2027/中国医科大学/中国医科大学2027年硕士研究生拟招生总计划（规培类专业）.pdf",
+          "sha256": "1de26ee3ce783a3db428b2e797960df0f19b4a902e31115ce15733466eb1c674",
+          "bytes": 158818,
+          "kind": "original"
+        }
+      ],
+      "pages": [
+        {
+          "title": "中国医科大学招生官网（查找2027目录）",
+          "url": "https://www.cmu.edu.cn/cmuyjs/",
+          "effective_url": "https://www.cmu.edu.cn/cmuyjs/",
+          "path": "docs/admissions/2027/中国医科大学/page-4d84c41840.html",
+          "sha256": "42790a55c4422ce66ed6d28508793ac788f90b422025823c580db96ccb672f23",
+          "bytes": 36003
+        },
+        {
+          "title": "中国医科大学2027年全国硕士研究生招生章程中国医科大学2027年全国硕士研究生招生章程",
+          "url": "https://www.cmu.edu.cn/cmuyjs/info/1900/9894.htm",
+          "effective_url": "https://www.cmu.edu.cn/cmuyjs/info/1900/9894.htm",
+          "path": "docs/admissions/2027/中国医科大学/page-468b11309b.html",
+          "sha256": "6794de76ec643054e3d5e2f94b7499dc400fe28b3d14d45e37698e0a68c0833e",
+          "bytes": 106207
+        }
+      ],
+      "failures": []
+    }
+  ]
+}

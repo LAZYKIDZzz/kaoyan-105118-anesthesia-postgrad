@@ -1,0 +1,81 @@
+{
+  "name": "浙江中医药大学",
+  "tier": "稳健区",
+  "gate": 307,
+  "region": "浙江",
+  "candidates": [
+    {
+      "title": "浙江中医药大学招生栏目",
+      "url": "https://yjsgl.zcmu.edu.cn/list/20"
+    },
+    {
+      "title": "浙江中医药大学招生官网（查找2027目录）",
+      "url": "https://yjsgl.zcmu.edu.cn/show/6007"
+    },
+    {
+      "title": "浙江中医药大学招生官网（查找2027目录）",
+      "url": "https://yjsgl.zcmu.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "浙江中医药大学招生栏目",
+      "url": "https://yjsgl.zcmu.edu.cn/list/20",
+      "effective_url": "https://yjsgl.zcmu.edu.cn/list/20",
+      "path": "docs/admissions/2027/浙江中医药大学/page-d5968cc230.html",
+      "sha256": "e9fc258cfdabd2951f5f98f20f5f5c54342e812177c86340dece170de10b4471",
+      "bytes": 27342
+    },
+    {
+      "title": "浙江中医药大学招生官网（查找2027目录）",
+      "url": "https://yjsgl.zcmu.edu.cn/show/6007",
+      "effective_url": "https://yjsgl.zcmu.edu.cn/show/6007",
+      "path": "docs/admissions/2027/浙江中医药大学/page-9252153b65.html",
+      "sha256": "465776206a6de77ce17634f3d8d8d5d405b8bfd25816f3eee171bcf0c8df50cb",
+      "bytes": 22269
+    },
+    {
+      "title": "浙江中医药大学招生官网（查找2027目录）",
+      "url": "https://yjsgl.zcmu.edu.cn/",
+      "effective_url": "https://yjsgl.zcmu.edu.cn/",
+      "path": "docs/admissions/2027/浙江中医药大学/page-1f394f1bb0.html",
+      "sha256": "a9903ca03d4f25cc613a0dc3b753dec84fe50579418390205bc5ac26bdc101d9",
+      "bytes": 40752
+    },
+    {
+      "title": "浙江中医药大学2027年硕士研究生招生章程及专业目录 浙江中医药大学2027年硕士研究生招生章程及专业目录 2026-09-30",
+      "url": "https://yjsgl.zcmu.edu.cn/show/6133",
+      "effective_url": "https://yjsgl.zcmu.edu.cn/show/6133",
+      "path": "docs/admissions/2027/浙江中医药大学/page-4ea8276e10.html",
+      "sha256": "933fffdfd65c38822b7e3e8f7964ccfe56766d969a9620f8fb6db6cdbe73b6ba",
+      "bytes": 49553
+    },
+    {
+      "title": "浙江中医药大学2027年接收推荐免试攻读硕士学位及本科直博生招生简章及专业目录 浙江中医药大学2027年接收推荐免试攻读硕士学位及本科直博生招生简章及专业目录 2026-09-18",
+      "url": "https://yjsgl.zcmu.edu.cn/show/6112",
+      "effective_url": "https://yjsgl.zcmu.edu.cn/show/6112",
+      "path": "docs/admissions/2027/浙江中医药大学/page-6fa3c85fef.html",
+      "sha256": "6d86d51072ed1f10db444f4587848776ef9785592eaf43d9bc599590b6fe523f",
+      "bytes": 42543
+    }
+  ],
+  "files": [
+    {
+      "title": "附件1：浙江中医药大学2027年硕士研究生招生专业目录.xlsx附件1：浙江中医药大学2027年硕士研究生招生专业目录",
+      "url": "https://yjsgl.zcmu.edu.cn/storage/uploads/file/20260930/1790752776895613.xlsx",
+      "path": "docs/admissions/2027/浙江中医药大学/附件1：浙江中医药大学2027年硕士研究生招生专业目录.xlsx附件1：浙江中医药大学2027年硕士研究生招生专业目录.xlsx",
+      "sha256": "4191e442ec2509c9b8610c4241b72773a9601859e2d5cb1e7b93a8dc4acad241",
+      "bytes": 18897,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjsgl.zcmu.edu.cn/storage/uploads/file/20260918/1789718467762672.xls",
+      "title": "附件1：浙江中医药大学2027年推荐免试研究生招生专业目录.xls附件1：浙江中医药大学2027年推荐免试研究生招生专业目录",
+      "error": "attachment response has no recognized file signature"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

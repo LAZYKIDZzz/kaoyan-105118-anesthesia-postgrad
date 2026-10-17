@@ -1,0 +1,51 @@
+{
+  "name": "沈阳医学院",
+  "tier": "稳健区",
+  "gate": 319,
+  "region": "辽宁",
+  "candidates": [
+    {
+      "title": "沈阳医学院招生官网（查找2027目录）",
+      "url": "https://yjsjy.symc.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "沈阳医学院招生官网（查找2027目录）",
+      "url": "https://yjsjy.symc.edu.cn/",
+      "effective_url": "https://yjsjy.symc.edu.cn/",
+      "path": "docs/admissions/2027/沈阳医学院/page-5e10fa2a62.html",
+      "sha256": "20cd0cd0ab9e560aefb428fd4c6934cf9caa8aec6920267bcd65d99e888b074e",
+      "bytes": 33223
+    },
+    {
+      "title": "沈阳医学院2027年全国硕士研究生招生章程 沈阳医学院2027年全国硕士研究生招生章程 2026年09月29日 根据《2027年全国硕士研究生招生工作管理规定》文件精神，结合我校实际，制定本章程。一、培养目标培养热爱祖国，拥护中国共产党的领导，拥护社会主义制度，遵纪守法，品德良好，具有服务国家、服务人民的社会责任感，掌握本学科坚实的基础理论和系统的专...",
+      "url": "https://yjsjy.symc.edu.cn/info/3401/15992.htm",
+      "effective_url": "https://yjsjy.symc.edu.cn/info/3401/15992.htm",
+      "path": "docs/admissions/2027/沈阳医学院/page-7d744c520e.html",
+      "sha256": "0b2b5cd70c6bb07c2a2221082c64d20a907f0bb2663de8db2505baeac80e736f",
+      "bytes": 38014
+    },
+    {
+      "title": "沈阳医学院2027年全国硕士研究生招生章程 沈阳医学院2027年全国硕士研究生招生章程 2026-09-29",
+      "url": "https://yjsjy.symc.edu.cn/info/3822/15962.htm",
+      "effective_url": "https://yjsjy.symc.edu.cn/info/3822/15962.htm",
+      "path": "docs/admissions/2027/沈阳医学院/page-93fe96151a.html",
+      "sha256": "9fba2c69090ffeefbe4cf5c477d2d0a9a0ff2252d0c121b35cabafcb78064d87",
+      "bytes": 38114
+    }
+  ],
+  "files": [
+    {
+      "title": "沈阳医学院2027年招生专业目录",
+      "url": "https://yjsjy.symc.edu.cn/__local/E/09/97/1E69A483FB9EA051A0E52EE95BE_A960AAE4_15DC8.pdf",
+      "path": "docs/admissions/2027/沈阳医学院/沈阳医学院2027年招生专业目录.pdf",
+      "sha256": "4c4193f3cd380356ce4986d1e801105fd3dd52debea55a27949b80680ffb2270",
+      "bytes": 89544,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

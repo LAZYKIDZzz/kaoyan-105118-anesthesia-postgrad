@@ -1,0 +1,55 @@
+{
+  "name": "延边大学",
+  "tier": "从容区",
+  "gate": 283,
+  "region": "吉林",
+  "candidates": [
+    {
+      "title": "延边大学2027年招收攻读硕士学位研究生招生章程 -研究生院",
+      "url": "https://grad.ybu.edu.cn/info/1188/6824.htm"
+    },
+    {
+      "title": "延边大学招生官网（查找2027目录）",
+      "url": "https://grad.ybu.edu.cn/zsgz/sszs.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "延边大学2027年招收攻读硕士学位研究生招生章程 -研究生院",
+      "url": "https://grad.ybu.edu.cn/info/1188/6824.htm",
+      "effective_url": "https://grad.ybu.edu.cn/info/1188/6824.htm",
+      "path": "docs/admissions/2027/延边大学/page-0087a3a5de.html",
+      "sha256": "d3e7f91459a5da39229847a0ffd7cd55155976bc7fb2c219d6cf9c9eda1356db",
+      "bytes": 83250
+    },
+    {
+      "title": "延边大学招生官网（查找2027目录）",
+      "url": "https://grad.ybu.edu.cn/zsgz/sszs.htm",
+      "effective_url": "https://grad.ybu.edu.cn/zsgz/sszs.htm",
+      "path": "docs/admissions/2027/延边大学/page-f69661fdae.html",
+      "sha256": "33ef14a55519b20f8b8687f70519c3c2acb44dcbd834f79c55f731e50cf4241c",
+      "bytes": 24548
+    },
+    {
+      "title": "延边大学2027年硕士研究生招生专业目录",
+      "url": "https://grad.ybu.edu.cn/info/1188/6825.htm",
+      "effective_url": "https://grad.ybu.edu.cn/info/1188/6825.htm",
+      "path": "docs/admissions/2027/延边大学/page-4fb7ebdc66.html",
+      "sha256": "ffbfb793ab2c2b72ab15b2eac40140081e14ea6af5206a36667fd9cb03d452b3",
+      "bytes": 37714
+    }
+  ],
+  "files": [
+    {
+      "title": "011医学院专业目录（专业型）.pdf",
+      "url": "https://grad.ybu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1254623853&wbfileid=4773933",
+      "path": "docs/admissions/2027/延边大学/011医学院专业目录（专业型）.pdf",
+      "sha256": "11161544c8e89a80defdeb91d6f2818a791c44381741caebc86b5811a4eca927",
+      "bytes": 199339,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "济宁医学院",
+  "tier": "稳健区",
+  "gate": 305,
+  "region": "山东",
+  "candidates": [
+    {
+      "title": "济宁医学院招生栏目",
+      "url": "https://grad.jnmc.edu.cn/10/list.htm"
+    },
+    {
+      "title": "济宁医学院2027年硕士研究生招生章程",
+      "url": "https://grad.jnmc.edu.cn/2026/1001/c10a184209/page.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "济宁医学院招生栏目",
+      "url": "https://grad.jnmc.edu.cn/10/list.htm",
+      "effective_url": "https://grad.jnmc.edu.cn/10/list.htm",
+      "path": "docs/admissions/2027/济宁医学院/page-871ca2b651.html",
+      "sha256": "5bf24d8e6adbd9063db0e4bd302304deaee8dd41c295e4d4258bbdfa340c49bb",
+      "bytes": 27693
+    },
+    {
+      "title": "济宁医学院2027年硕士研究生招生章程",
+      "url": "https://grad.jnmc.edu.cn/2026/1001/c10a184209/page.htm",
+      "effective_url": "https://grad.jnmc.edu.cn/2026/1001/c10a184209/page.htm",
+      "path": "docs/admissions/2027/济宁医学院/page-f5bfa2b814.html",
+      "sha256": "a8376d799250a2ab6bacfde97ad14434b3fec79e8f8baa35b90e50a6dadc732b",
+      "bytes": 28673
+    },
+    {
+      "title": "济宁医学院2027年硕士研究生招生专业目录及初试科目说明济宁医学院2027年硕士研究生招生专业目录及初试科目说明",
+      "url": "https://grad.jnmc.edu.cn/2026/1001/c10a184210/page.htm",
+      "effective_url": "https://grad.jnmc.edu.cn/2026/1001/c10a184210/page.htm",
+      "path": "docs/admissions/2027/济宁医学院/page-402564e7da.html",
+      "sha256": "e3a41600400035aab2a35e0c34db45543ded87bb958011c76d922c2081459714",
+      "bytes": 18692
+    }
+  ],
+  "files": [
+    {
+      "title": "济宁医学院2027年招生专业目录",
+      "url": "https://grad.jnmc.edu.cn/_upload/article/files/67/fd/7d227ec142a591c69c4841c73d60/3e7e48c5-c202-47dd-ba80-ea69a17c1a4b.pdf",
+      "path": "docs/admissions/2027/济宁医学院/济宁医学院2027年招生专业目录.pdf",
+      "sha256": "df6282e97b2cf42e3bfe165692fdaf0f5605d5c30bef985c648edcf3c9dfba2f",
+      "bytes": 128993,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://grad.jnmc.edu.cn/2026/1001/c10a184210/济宁医学院2027年硕士研究生招生专业目录及初试科目说明.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://grad.jnmc.edu.cn/2026/1001/c10a184210/%E6%B5%8E%E5%AE%81%E5%8C%BB%E5%AD%A6%E9%99%A22027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95%E5%8F%8A%E5%88%9D%E8%AF%95%E7%A7%91%E7%9B%AE%E8%AF%B4%E6%98%8E.pdf"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "南京医科大学",
+  "tier": "稳健区",
+  "gate": 317,
+  "region": "江苏",
+  "candidates": [
+    {
+      "title": "南京医科大学2027年硕士研究生招生章程",
+      "url": "https://yjszs.njmu.edu.cn/2026/1008/c10171a307487/page.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "南京医科大学2027年硕士研究生招生章程",
+      "url": "https://yjszs.njmu.edu.cn/2026/1008/c10171a307487/page.htm",
+      "effective_url": "https://yjszs.njmu.edu.cn/2026/1008/c10171a307487/page.htm",
+      "path": "docs/admissions/2027/南京医科大学/page-5891d00316.html",
+      "sha256": "00e2fe0aaae6c8aaa4f65d669c2efe8f9dcb7a1f81ad0f4d6171a0f7287d5f8c",
+      "bytes": 22612
+    }
+  ],
+  "files": [
+    {
+      "title": "2027年攻读硕士学位研究生招生章程及招生专业目录.pdf",
+      "url": "https://yjszs.njmu.edu.cn/_upload/article/files/0b/5f/f98af4f1411ab300de3d69ce79b0/877bb41e-2fa3-4d0f-b018-4a946a8b6d03.pdf",
+      "path": "docs/admissions/2027/南京医科大学/2027年攻读硕士学位研究生招生章程及招生专业目录.pdf",
+      "sha256": "5fe11e7eb563235d5543c7769e991886a69f64f3dc3fcbc2793427128e94ec81",
+      "bytes": 924032,
+      "kind": "original"
+    },
+    {
+      "title": "2027年攻读硕士学位研究生招生章程及招生专业目录（10月14日更新）.pdf",
+      "url": "https://yjszs.njmu.edu.cn/_upload/article/files/0b/5f/f98af4f1411ab300de3d69ce79b0/822df2e2-0486-4068-adca-8eb8acc84ea7.pdf",
+      "path": "docs/admissions/2027/南京医科大学/2027年攻读硕士学位研究生招生章程及招生专业目录（10月14日更新）.pdf",
+      "sha256": "5c505fab920caedec1fae01d5ee50af03e8e4e8d59346160355111302b790df2",
+      "bytes": 2435768,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjszs.njmu.edu.cn/2026/1008/c10171a307487/2027年攻读硕士学位研究生招生简章及招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjszs.njmu.edu.cn/2026/1008/c10171a307487/2027%E5%B9%B4%E6%94%BB%E8%AF%BB%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%E5%8F%8A%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+    },
+    {
+      "url": "https://yjszs.njmu.edu.cn/2026/1008/c10171a307487/2027年攻读硕士学位研究生招生简章及招生专业目录（10月14日更新）.pdf",
+      "title": "内嵌文件",
+      "error": "://yjszs.njmu.edu.cn/2026/1008/c10171a307487/2027%E5%B9%B4%E6%94%BB%E8%AF%BB%E7%A1%95%E5%A3%AB%E5%AD%A6%E4%BD%8D%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E7%AE%80%E7%AB%A0%E5%8F%8A%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95%EF%BC%8810%E6%9C%8814%E6%97%A5%E6%9B%B4%E6%96%B0%EF%BC%89.pdf"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

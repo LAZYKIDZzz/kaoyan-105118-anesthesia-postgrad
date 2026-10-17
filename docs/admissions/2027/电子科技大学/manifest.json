@@ -1,0 +1,26 @@
+{
+  "name": "电子科技大学",
+  "tier": "稳健区",
+  "gate": 305,
+  "region": "四川",
+  "candidates": [
+    {
+      "title": "电子科技大学2027年硕士研究生招生章程-电子科技大学研究生招生网",
+      "url": "https://yz.uestc.edu.cn/info/1081/5968.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "电子科技大学2027年硕士研究生招生章程-电子科技大学研究生招生网",
+      "url": "https://yz.uestc.edu.cn/info/1081/5968.htm",
+      "effective_url": "https://yz.uestc.edu.cn/info/1081/5968.htm",
+      "path": "docs/admissions/2027/电子科技大学/page-cfa7c04a09.html",
+      "sha256": "3eeba666269e7a660ef724a55bef1282705811f423155562f501bd9b76c925f5",
+      "bytes": 55678
+    }
+  ],
+  "files": [],
+  "failures": [],
+  "status": "仅归档招生网页，目录待补",
+  "checked_at": "2026-10-18"
+}

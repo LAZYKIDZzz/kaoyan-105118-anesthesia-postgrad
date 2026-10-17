@@ -1,0 +1,599 @@
+﻿ 
+ 
+     
+         长治医学院2027年硕士研究生招生简章-长治医学院研究生学院 
+ 
+ 
+ 
+
+         
+         
+                 
+         
+  
+     
+ 
+ 
+ 
+ 
+ _jsq_(1022,'/content.jsp',18282,2039325458) 
+ 
+     
+
+         
+             
+                 
+                     
+ 
+ 
+                     
+                         
+  欢迎访问长治医学院研究生学院网站！  今天是： 
+ 
+ 
+    //阳历
+    var c_Calendar1067932EnDateString;
+    //
+    var c_Calendar1067932WeekDayString;
+    //阴历
+    var c_Calendar1067932CnDateString;
+    //节气
+    var c_Calendar1067932JQString;
+    //年
+    var c_Calendar1067932YearString;
+    //月
+    var c_Calendar1067932MonthString;
+    //日
+    var c_Calendar1067932DayString;
+    //周
+    var c_Calendar1067932WeekString;
+    //显示
+    var c_Calendar1067932ShowString;
+
+    function RunGLNL1067932() {
+        var sc = new Simple_Calendar();
+        sc.init();
+        c_Calendar1067932CnDateString = sc.getCnDateString();
+        c_Calendar1067932WeekDayString = sc.getCalendarWeekString();
+        c_Calendar1067932JQString = sc.getJQString();
+        c_Calendar1067932EnDateString = sc.getEnDateString();
+        c_Calendar1067932YearString = sc.getYearString();
+        c_Calendar1067932MonthString = sc.getMonthString();
+        c_Calendar1067932DayString = sc.getDayString();
+        c_Calendar1067932ShowString= "";
+    }
+
+    RunGLNL1067932();
+
+    function update() {
+        $.ajax({
+            type: "post",
+            data: {
+                "sdate": "2013-02-06",
+                "edate": "2099-12-31",
+                "showtext": "第",
+                "isNotStart": "学期未开始",
+                "isEnd": "学期已结束",
+            },
+            dataType: "json",
+            async: false,
+            url: "/system/resource/calendar/getCurrentWeekMap.jsp",
+            success: function (result) {
+                if(result.code==200){
+                    c_Calendar1067932WeekString = result.data;
+                }
+            },
+            error: function () {
+                console.log("出错了")
+            }
+        });
+    }
+    update();
+
+    c_Calendar1067932ShowString+=c_Calendar1067932EnDateString;
+    c_Calendar1067932ShowString+="&nbsp;&nbsp;"+c_Calendar1067932WeekDayString;
+    
+ 
+ 
+ 
+    document.getElementById("c_lunar1067932").innerHTML = c_Calendar1067932ShowString;
+ 
+
+                      
+                     
+                          
+
+
+
+ 
+    #appu3 .qwss{
+        height: 31px;
+        font-size: 12px;
+        min-width: 190px;
+        max-width: 600px;
+        width: 60%;
+        margin-top: -15px;
+        outline: none;
+        padding-left: 10px;
+        border-radius: 2px;
+        border: 1px solid #e4e7ed;}
+    #appu3 .tj{
+        padding-left: 6px;
+        letter-spacing: 5px;
+        color: white;
+        min-width: 53px;
+        max-width: 150px;
+        height: 32px;
+        border: 0;
+        border-radius: 2px;
+        background-color: #1890FF;
+        position: relative;
+        top: 1px;
+        width: 20%;
+        margin-top: -15px;}
+ 
+ 
+ 
+    <div id="appu3">
+        <div v-if="!isError">
+            <input type="text" class="qwss" placeholder="全文搜索" autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+            <input class="tj" name="submit_button" type="button" value="提交" v-on:click="onSubmit()"/>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+ 
+ 
+    $("#divu3").html($("#htmlu3").text());
+ 
+ 
+    var appOwner = "2039325458";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu3",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/aop_views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+ 
+
+ 
+   var appElementu3 = document.querySelector("#appu3");
+   if (appElementu3 && appElementu3.__vue__) {
+
+   } else {
+      $("#divu3").html($("#htmlu3").text());
+      var appOwner = "2039325458";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou3 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu3(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu3();
+        }
+      };
+
+      function onSubmitu3(e) {
+        queryInfou3.query.keyWord= $("#appu3  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou3.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+ 
+                     
+                 
+             
+
+             
+                
+ 
+                         
+                             
+                             首页 
+                         
+         
+
+  新闻动态 
+                           
+                      
+
+  通知公告 
+                           
+                      
+
+  学生风采 
+                           
+                      
+
+  办事指南 
+                           
+                      
+   
+                     
+
+
+   
+ 
+                         
+                             
+                             部门概况 
+                         
+         
+
+  部门简介 
+                           
+                      
+
+  机构设置 
+                           
+                      
+   
+                     
+
+
+   
+ 
+                         
+                             
+                             招生工作 
+                         
+         
+
+  招生信息 
+                           
+                      
+
+  招生政策 
+                           
+                      
+
+  成绩查询 
+                           
+                      
+
+  同等学力 
+                           
+                      
+
+  联系我们 
+                           
+                      
+   
+                     
+
+
+   
+ 
+                         
+                             
+                             培养工作 
+                         
+         
+
+  规章制度 
+                           
+                      
+
+  实践基地 
+                           
+                      
+   
+                     
+
+
+   
+ 
+                         
+                             
+                             学位工作 
+                         
+         
+
+  学位管理 
+                           
+                      
+
+  导师风采 
+                           
+                      
+
+  导师管理 
+                           
+                      
+
+  质量保证 
+                           
+                      
+   
+                     
+
+
+   
+ 
+                         
+                             
+                             学科建设 
+                         
+                     
+
+
+   
+ 
+                         
+                             
+                             党建思政 
+                         
+         
+
+  学生管理 
+                           
+                      
+
+  思政建设 
+                           
+                      
+
+  党团支部工作 
+                           
+                      
+   
+                     
+
+
+   
+ 
+                         
+                             
+                             资料下载 
+                         
+         
+
+  招生 
+                           
+                      
+
+  培养 
+                           
+                      
+
+  学位 
+                           
+                      
+
+  学籍 
+                           
+                      
+
+  学生管理 
+                           
+                      
+   
+                     
+
+
+   
+ 
+             
+
+         
+
+ 
+ 
+
+
+ 
+ 您当前所在的位置：  
+                         首页 
+                ->
+                 招生工作 
+                ->
+                正文
+ 
+      
+
+ 
+ 
+ 
+           长治医学院2027年硕士研究生招生简章 
+             发布日期：2026-09-29　　来源：
+    　　点击量： _showDynClicks("wbnews", 2039325458, 18282) 
+         
+ 
+     
+ 长治医学院 202 7 年硕士研究生招生简章 长治医学院是山西省属全日制普通高等医学院校，创建于 1946年，前身是晋冀鲁豫军区白求恩国际和平医院总院护士学校，是中国共产党最早创建的医学院校之一。 学校从 2013年开始培养硕士研究生，现有硕士生导师847名，在校全日制硕士研究生914名。现有 临床医学、护理、药学 、 公共卫生、医学技术 5 个硕士 专业 学位授权点。 一、 招生 专业与 计划 （一）招生培养类型均为 全日制 ，学位类别均为 专业学位： 1.临床医学（专业学位）（专业代码为：1051**） 2.公共卫生（专业学位）（专业代码：105300） 3.护理（专业学位）（专业代码：105400） 4.药学（专业学位）（专业代码：105500） 5.医学技术（专业学位）（专业代码为：105800） （二）招生计划 2027年我校拟计划招收硕士研究生328名（含退役大学生士兵计划硕士研究生4名），计划为上一年度教育部下达计划的95%，实际招生计划以教育部2027年下达的为准，各学科专业招生计划仅供参考。我校各专业拟招生研究方向、考试科目等详见《长治医学院 202 7年硕士研究生招生专业目录》。 二、报考条件 （一）中华人民共和国公民。 （二）拥护中国共产党领导，遵纪守法，品德良好。 （三）身体健康状况符合国家和我校规定的体检要求。 （四）学历要求 1.国家承认学历的全日制应届本科毕业生（录取当年9月1日前须取得国家承认的本科毕业证书。不包含普通高校、成人高校举办的成人高等学历教育本科毕业生）。 2.具有国家承认的全日制大学本科毕业学历的人员。 3.已获硕士、博士学位的人员。 4.在校研究生报考须在报名前征得所在培养单位同意，录取时不可存在研究生学籍。 5.报考临床医学（专业代码为：1051**）专业学位的人员，只接受临床医学类专业本科毕业生报考，且获得医学学士学位，不接受跨专业报考。 6.其他各专业报考时对前置学历要求见招生专业目录。 （五）学位要求 报考我校的考生，报名时必须获得学士学位（应届本科毕业生须在入学前获得学士学位，第二学士学位不作为报考的有效条件），否则不准考或录取资格无效。 （六）其他要求： 1.临床医学专业学位研究生均须参加山西省住院医师规范化培训（以下简称规培），请考生在报考前根据国家及山西省卫健委有关规定确定本人是否具有规培资格，对于正在参加规培或已经获得住院医师规范化培训合格证书人员，不得报考临床医学专业学位硕士研究生。 2.农村订单定向免费医学生必须严格遵守国家有关规定，我校各专业均不接受报考。 3.在职人员报名时无需出具所在单位同意报考的证明材料，考生与所在单位因报考研究生产生的问题由考生自行处理。若因上述问题而使我校无法调取考生档案，造成考生不能复试或无法被录取的后果，我校不承担责任。 （七）我校 “退役大学生士兵”专项招生仅限临床医学专业学位硕士研究生。报考“退役大学生士兵”专项计划的考生，应为高校学生应征入伍退出现役，同时符合我校报考攻读临床医学专业学位硕士研究生其他报考条件。考生报名时应当选择填报退役大学生士兵专项计划，并按要求填报本人入伍前的入学信息以及入伍、退役等相关信息。 三、报名 （一） 2027年全国硕士研究生报名实行网上报名和网上确认一体化管理。所有考生均须在规定时间内完成报名，逾期不再补办。具体事项要求，请考生登录“中国研究生招生信息网”（网址：https://yz.chsi.com.cn，以下简称“研招网”）浏览报考须知，按省级教育招生考试机构、报考点以及我校网上公告要求报名。 （二）网上报名时间为 202 6年10月15日至10月24日，每日 9:00—22:00 。报名期间，考生可自行修改网上报名信息或重新填报报名信息，但每位考生只能保留一条有效报名信息。逾期不再补报，也不得修改报名信息。 （三）考生报名时只能填报一个招生单位的一个专业。待考试结束，教育部公布考生进入复试的初试成绩基本要求后，考生可通过 “研招网”调剂服务系统了解本单位的调剂办法、计划余额信息，并按相关规定自主多次平行填报多个调剂志愿。 （四） 考生要准确填写本人所受奖惩情况，特别是要如实填写在参加普通和成人高等学校招生考试、全国硕士研究生招生考试、高等教育自学考试等国家教育考试过程中因违纪、作弊所受处罚情况。对弄虚作假者，将按照《国家教育考试违规处理办法》《普通高等学校招生违规行为处理暂行办法 》等 严肃处理。 （五）报名期间将对考生学历（学籍）信息进行网上校验，考生可上网查看学历（学籍）校验结果。考生也可在报名前或报名期间自行登录 “中国高等教育学生信息网”（网址https://www.chsi.com.cn）查询本人学历（学籍）信息。未能通过学历（学籍）网上校验的考生应在我单位规定时间内完成学历（学籍）核验。 （六）考生应当认真了解并严格按照报考条件及相关政策要求选择填报志愿。因不符合报考条件及相关政策要求，造成后续不能现场确认、考试、复试或录取的，后果由考生本人承担。 四、考试 （一）初试 1.考生凭下载打印的《准考证》及有效居民身份证参加初试。考生可登录“研招网”自行下载打印《准考证》。《准考证》使用A4幅面白纸打印，正、反两面在使用期间不得涂改或书写。详细考试时间、考试科目及有关要求等请详见《准考证》。 2.初试考试方式均为笔试。考生须到报考点指定的考场考试。考生在考试前及考试期间须随时关注报考点的官网通知。 3.各专业硕士研究生招生初试设置三个单元考试科目，即思想政治理论、外国语、专业基础综合，满分分别为100分、100分、300分。 临床医学（ 1051XX）、医学技术（105800）初试业务课科目采用全国统一命题306-临床医学综合能力（西医）；公共卫生（105300）、护理（105400）、药学（105500）初试业务课科目为我校自主命题。 4.初试自命题考试科目具体如下： 308－护理综合：试题覆盖护理学导论、基础护理学、内科护理学、外科护理学，总分300分。 349－药学综合：试题覆盖药物化学、药物分析、药理学，总分300分。 353－卫生综合：试题覆盖预防医学绪论、常用医学统计方法、流行病学原理和方法、环境与健康（涉及环境卫生学、职业卫生与职业医学、营养与食品卫生学相关知识），总分300分。 （二）复试 复试时间一般在 2027年3月中下旬，复试的具体时间、地点、内容、方式届时及时发布在长治医学院研究生学院网站，请及时查看。 五、调剂录取 调剂工作的具体要求和程序我校按教育部调剂录取政策确定并公布。届时，考生可通过研招网调剂服务系统填写报考调剂志愿。录取工作将严格按照学校复试录取工作方案的要求，根据国家下达的招生计划和考生入学考试的成绩（含初试和复试）并结合思想政治表现、业务素质以及身体健康状况，择优确定拟录取名单。 六、学制学费 （一）学习年限 基本学习年限为 3年。在规定时间内未达到培养要求者可以延期学习，顺延时间原则上不超过2年。 （二）学费标准 各专业硕士研究生学费 8000元/生/年。 （三）奖助体系 我校研究生奖助体系完备，研究生奖助学金有国家奖学金、国家助学金、学业奖学金等，具体奖助办法、奖助标准及条件要求以学校文件为准。 七、注意事项 1.请考生在报名前认真阅读《2027年全国硕士研究生招生工作管理规定》，了解报考流程、知晓自身责任。 2.2027年国家招生计划尚未下达，“中国研究生招生信息网”硕士专业目录中的拟招生人数为我校根据2026年硕士研究生的实际招生人数拟定的各学科招生计划，仅供参考。各专业实际招生人数将根据2027年国家招生计划及各专业报考情况进行动态调整。 3.我单位硕士研究生招生信息均在中国研究生招生信息网和学校研究生学院网站上公布，未委托任何考研辅导机构公布。我单位不举办任何形式的考研辅导班（初试、复试均不提供），不提供往年考研试题，不出售任何参考资料，不委托任何中介机构或个人进行招生录取工作。 4.我校各专业均不破格复试。 5.本简章如有与教育部2027年硕士研究生招生政策不符之处，以教育部政策为准。 八、联系方式 单位代码： 10117 地      址：山西省长治市潞州区解放东街 161号 网      址： http://yjsc.czmc.edu.cn/ 邮      编： 046000 联系部门：长治医学院研究生学院招生办公室 咨询电话： 0355-3151153 （工作日8:30-12:00，14:30-17:30） 附件： 1.长治医学院2027年硕士研究生招生专业目录 2.2027年自命题科目考试大纲 长治医学院 2026年9月29日 
+ 
+    
+     
+          
+             附件【 长治医学院2027年硕士研究生招生专业目录.pdf 】已下载 getClickTimes(15946421,2039325458,"wbnewsfile","attach") 次 
+             附件【 《308护理综合》考试大纲.pdf 】已下载 getClickTimes(15946423,2039325458,"wbnewsfile","attach") 次 
+             附件【 《349药学综合》考试大纲.pdf 】已下载 getClickTimes(15946422,2039325458,"wbnewsfile","attach") 次 
+             附件【 《353卫生综合》考试大纲.pdf 】已下载 getClickTimes(15946424,2039325458,"wbnewsfile","attach") 次 
+         
+     
+ 
+
+
+
+
+   
+        
+         下一条： 长治医学院2026年接受同等学力人员申请临床医学硕士专业学位报名的通知 
+     
+ 
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+        
+      
+         
+            
+             
+                 
+                     
+                         友情链接 
+                        
+     中国学位与研究生教育信息网(学位网) 
+     中国研究生招生信息网 
+     山西省教育厅 
+     山西省招生考试网 
+     山西省卫生健康委员会 
+     学校首页 
+ 
+                     
+                  
+                     
+                         联系我们 
+                       
+  
+  电 话：0355——3151153  
+  通讯地址：山西省长治市解放东街161号  
+  邮政编码：046000  
+ 
+                     
+                 
+                
+                
+                             
+      
+                
+                       
+                
+       
+ 
+                 
+                
+                 
+                     
+ 地址：山西省长治市解放东街161号  联系电话：0355——3033016  邮编：046000  长治医学院信息版权所有 
+                 
+                
+             
+         
+        
+               
+     
+     
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

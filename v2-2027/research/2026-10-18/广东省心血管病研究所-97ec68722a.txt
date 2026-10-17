@@ -1,0 +1,474 @@
+﻿ 
+ 
+ 
+
+	 
+	 
+	 
+ 
+ 
+
+ 
+ 
+ 
+ 
+  
+ 广东省人民医院 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+	 
+ 
+ 
+ 
+ 
+ 
+ 
+.topBox .logoBox{display:flex;}
+.topBox .logoBox a:first-child{margin-right:30px}
+.topBox .enA{margin-left:20px;margin-right:0;}
+ 
+
+ 
+	 
+		 
+		 
+			 
+		 
+	 
+		 
+		 
+		 
+			 
+			 
+			
+			 
+				 
+				 
+			 
+			 English 
+		 
+		 
+	 
+	 
+ 
+ 
+ 
+	 
+	 
+
+		 
+		 关注我们 
+
+	 
+ 
+ 
+	 
+		 
+			 
+					 首页 
+				 
+
+				 
+					 医院概况 
+					 
+					
+											 医院介绍 
+											 现任领导 
+											 历任领导 
+											 历年大事 
+											 省医往事 
+											 医院文化 
+
+					 
+				 
+
+				 
+					 党群建设 
+					 
+					 学习教育 
+					 学习专栏 
+											 党建工作 
+											 主题教育 
+											 群团工作 
+											 社工服务 
+											 
+
+					 
+				 
+
+				 
+					 就医指南 
+					 
+											 预约诊疗 
+											 疑难病会诊 
+											 MDT 
+											 门诊指南 
+											 住院指南 
+											 健康体检 
+											 医疗保险 
+											 综合服务 
+											 检查指引 
+                               健康讲堂 
+					 
+				 
+
+				 
+					 专科专家介绍 
+					 
+											 科室检索 
+											 分院/研究所 
+
+					 
+				 
+				 
+					 科学研究 
+					 
+						 科研动态 
+						 成果转化 
+						 
+						 科研平台 
+						 临床研究 
+						 学者风姿 
+					 
+				 
+				 
+					 
+					 
+						 
+						 
+						 
+						 
+					 
+				 
+				 
+					 医教研动态 
+					 
+						 
+						 
+						 医学教育 
+						 进修报名 
+						 伦理审查 
+						 招采信息 
+						 研究生管理 
+						 博士后管理 
+						 
+						 GCP临床试验 
+
+					 
+				 
+				 
+					 人力资源 
+					 
+											 招聘信息 
+											 
+
+					 
+				 
+
+				 
+					 新闻中心 
+					 
+											 本院动态 
+											 医技前沿 
+											 综合消息 
+											 媒体聚焦 
+											 宣传视频 
+											 通知公告 
+
+					 
+				 
+
+		 
+		 
+	 
+ 
+ 
+//判断子元素个数
+if ($(window).width()<1026){
+$(".qui-top-sublist").each(function() {
+    if($(this).find("dd").length>0){
+    	$(this).prev('a').attr('href', 'javascript:void(0)');
+    }
+});
+$(".navBox .ullist>li").each(function() {
+$(this).find('.oneA').click(function(event) {
+	$(this).next(".qui-top-sublist").slideToggle().closest('li').siblings('li').find('.qui-top-sublist').hide();
+});
+});
+}
+//搜索
+function seach() {
+    var key = $(".seachkey").val();
+    if (key == "") {
+        alert("请输入关键字！");
+        return false;
+    } else {
+        var pattern = new RegExp("[`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）—|{}【】‘；：”“'。，、？]");
+		if (pattern.test(key)) {
+			alert("请勿输入特殊字符！")
+			return false;
+		} else {
+            window.location.href = "/Search/index.aspx?keystr="+key;
+		}
+    }
+}
+//回车搜索
+$('.seachkey').bind('keydown', function (event) {
+    var event = window.event || arguments.callee.caller.arguments[0];
+    if (event.keyCode == 13) {
+        seach()
+    }
+});
+$("#nav636").hide();
+
+$("#topsub674").find("a").eq(0).attr("target","_blank");
+$("#topsub674").find("a").eq(0).attr("href","http://hr.gdghospital.org.cn:8089");
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+     
+         
+             首页  >  医教研动态  >  研究生管理  >  研究生招生 
+         
+         
+             
+                
+                
+                
+                 科研管理 
+                 成果转化 
+                 医学教育 
+                 进修报名 
+                 伦理审查 
+                 招采信息 
+                 研究生管理 
+                 博士后管理 
+                 GCP临床试验 
+                
+                
+                
+                
+             
+         
+         
+     
+ 
+ 
+$("#menuID329").addClass("onMenu");
+ 
+
+ 
+ 
+	 
+		 
+		
+ 
+    
+         通知公告 
+    
+         规章制度 
+    
+         研究生招生 
+    
+         培养管理 
+    
+         导师风采 
+    
+         研究生风采 
+    
+         学风建设 
+    
+         国际交流与合作 
+    
+         表格下载 
+    
+         招生宣讲 
+    
+ 
+ 
+  $('#subID189').hide();
+  $('#subID329').addClass('on');
+  $("#menuID323").addClass("onMenu");
+ 
+
+
+		 
+					   	 广东省心血管病研究所2027年接收推荐免试研究生预报名通知 
+                 
+                     点击数：
+ 
+$(function(){
+            $.ajax({
+                type: "POST",
+                url: "/label/ajax/hit.aspx",
+                data: "type=0&colid=329&itemid=72662&f=Hits",
+                success: function (result) { $("#whirlabelhit").before(result)  }
+            });
+    });
+
+ 
+ 
+                    
+                    
+                    
+
+                     发布时间：2026-09-10 
+                 
+		   	 为做好我院接收优秀应届本科毕业生免试攻读研究生工作，我院将于9月中上旬开展预报名工作。现将具体事宜公告如下： 一、申请条件 （一）拥护中国共产党，品德良好，遵纪守法。 （二）2027年全国高校优秀应届本科生，获得所在学校的推荐免试生资格，推荐手续完备，材料齐全。 （三）在校期间各方面表现良好，综合素质较高，学习成绩优秀，具备较好的科研素养和学术潜质。 （四）身心健康，符合国家和我院规定的体检标准。 （五）入学前须本科毕业并获得学士学位。 （六）经全国推荐优秀应届本科毕业生免试攻读研究生信息公开暨管理服务系统（以下简称推免服务系统）备案。 （七）部分专业报考要求   1. 考生须按照与本科毕业专业相关或相近专业进行报考。   2. 临床医学硕士学术学位（1002开头）各专业只接受本科专业为医学门类考生报考。    3. 临床医学硕士专业学位报考要求如下： （1）临床医学专业学位（专业代码1051开头）:（除精神病与精神卫生学、放射影像学、超声医学、核医学、眼科学、麻醉学、儿科学以外各专业）只接收全日制本科为五年及以上学制西医临床医学专业的考生报考。 （2） 精神病与精神卫生学：只接收全日制本科为五年及以上学制西医临床医学和精神医学（医学学位）专业的考生报考。 （3）  放射影像学、超声医学、核医学：只接收全日制本科为五年及以上学制西医临床医学和医学影像学（医学学位）专业的考生报考。 （4）  眼科学：只接收全日制本科为五年及以上学制西医临床医学和眼视光医学（医学学位）专业的考生报考。 （5） 麻醉学：只接收全日制本科为五年及以上学制西医临床医学和麻醉学（医学学位）专业的考生报考。 （6） 儿科学：只接收全日制本科为五年及以上学制西医临床医学和儿科学（医学学位）专业的考生报考。 二、接收专业及人数 心研所2027年硕士研究生招生计划数拟定111人，其中接收推荐免试生总人数不超过我院硕士生招生规模的50%。 三、申请与选拔考核程序 （一）报名 1. 报名：9月10日20:00－9月14日17:00在我院推免生预报名系统报名，报名链接如下：https://yjs.gdghospital.org.cn/Open/MasterTm/Signin.aspx。 2. 我院2027年研究生招生专业目录尚未公布，在我院推免招生系统中填报的专业仅为本次推免预报名工作使用。考生最终录取专业以“教育部推免服务系统”中确认录取的专业为准。 3.推免生正式报名和录取工作须在规定的时间内通过“全国推荐免试攻读研究生信息公开管理服务系统”（简称“教育部推免服务系统”，网址：https://yz.chsi.com.cn/tm）进行。 4.考生报名后需准备以下材料（待学科通知，按要求提交） （1） 广东省心血管病研究所接收推荐免试攻读研究生申请表。 （2）本科学校推免公示名单截图或证明，学生证及第二代身份证复印件。 （3）其他各种能力证明材料（如大学英语四、六级考试成绩单、获奖证书、本人代表性学术论文、出版物或原创性工作成果等）复件。 （二）复试组织形式 同一学科组复试组织形式相同，具体由学科组织。 1.复试考核内容及计分办法 （1）考生综合素质（共25分） 重点考核考生对国家时政的了解、学术的认知水平及思想道德品质等综合素质。 （2）外语应用能力（共25分） 重点考查考生外语应用能力。 （3）专业基础能力（共25分） 重点考查考生对专业知识、专业基础知识以及对专业前沿知识了解。 （4）临床技能或科研能力（共25分） 临床技能考核：以临床医学本科生实习结束应具备的基本临床技能水平为考核标准。 科研能力考核：重点考查考生对本专业的科研热情以及所具备的知识结构、综合分析和解决实际问题的能力。 （5）成绩计算方法 考生入学总成绩实行百分制，满分100分。由复试小组对考生综合素质、外语应用能力、专业基础能力、临床技能或科研能力考核进行分项打分，各项成绩之和为考生入学总成绩。 2. 成绩与录取 各复试小组以考生入学总成绩排名为录取唯一原则，确定拟录取名单并进行公示。有以下情况之一者将取消录取资格： （1）不符合报考条件者； （2）复试阶段有违纪行为者； （3）思想政治品德不合格者； （4）入学总成绩低于60 分者； （5）不同意复试小组调配导师者；   （6）自愿放弃录取资格者。 3.复试、体检合格者，即获得心研所免试攻读硕士研究生资格。 四、学费及奖助学金 （一）推免生均须缴纳学费，具体学费标准如下： 1.全日制临床医学学术学位硕士研究生学费标准为8000元/人/年； 2.全日制临床医学专业学位硕士研究生学费标准为12000元/人/年； （二）奖助学金政策： 1.每月发放研究生津贴。 2.按规定发放国家助学金、国家奖学金、学业奖学金。 3.具体内容详见《粤医〔2023〕47号 关于印发我院研究生奖助学金管理规定的通知》。 五、其他事项 （一）所有拟录取的推免生须于2026年9月21日起，及时登录中国研究生招生信息网推免服务系统（http://yz.chsi.cn）进行报名，接收并确认我院的待录取通知。 （二）推免生的招生类别均为非定向就业，学习方式为全日制。 （三）2027年我院临床医学专业学位研究生教育执行与住院医师规范化培训相结合的培养模式（5+3模式）。 （四）考生必须保证提交的信息和申请材料的真实性和准确性。我院将在复试结束后对拟录取的免试生网上公示，若提交的信息不真实或不准确，我院将取消录取资格并通报本科学校；本科毕业时如未获学士学位及毕业证书，我院将取消拟录取资格。 （五）联系方式 广东省心血管病研究所办公室：020-83827812转10280（吴老师） 广东省人民医院研究生科：020-83827812转20976（王老师、张老师） 咨询QQ群：报考广东省心血管病研究所的预推免考生请加入QQ群：873699105。 地址：广州市越秀区中山二路106号                                                             广东省人民医院（广东省医学科学院）                                                                                            2026年9月10日   
+		   	
+			 
+			 
+			     返回列表 
+			     上一篇：关于广东省心血管病研究所2026年秋季学期拟授予学位名单的公示 
+			     下一篇：广东省人民医院 广东省心血管病研究所 研究生缴纳学费的通知 
+			 
+		 
+		 
+		//上下一篇
+		$(".PrevNextBox dl").each(function() {
+		var myhref = $(this).find("a").attr("href");
+		if (myhref == "#") {
+		 $(this).find("a").addClass("none");
+		 $(this).find("a").removeAttr("href");
+		}
+		});
+		 
+	 
+ 
+ 
+ 
+ 
+ 
+	 
+		 
+			 
+			 友情链接   
+             
+         
+		 
+			 主办单位：广东省人民医院 ( 粤ICP备14099214号  粤公网安备44010402002250号 )   地址：广州市中山二路106号   总机：（020）83827812 
+			 document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='https://dcs.conac.cn/js/20/000/0000/60474819/CA200000000604748190001.js' type='text/javascript'%3E%3C/script%3E")); 
+		 
+       
+	  
+	 
+	
+ 
+
+ 
+ 
+  
+       $("#nav8").addClass("on");
+    
+     
+jQuery.each(jQuery("img"), function(i, n){
+    jQuery(n).on("error",function(){
+        n.src = '/uploadfiles/nopic.jpg';
+    });
+    n.src = n.src;
+});
+$("#menuID160").find("a").attr('target','_blank');
+$("#menuID172").find("a").attr('target','_blank');
+$("#menuID174").find("a").attr('target','_blank');
+$("#menuID176").find("a").attr('target','_blank');
+$("#menuID184").find("a").attr('target','_blank');
+$("#topsub160").find("a").attr('target','_blank');
+$("#topsub184").find("a").attr('target','_blank');
+$("#subID199").attr('target','_blank');
+$("#subID201").attr('target','_blank');
+$("#subID203").attr('target','_blank');
+$("#subID205").attr('target','_blank');
+$("#subID207").attr('target','_blank');
+$("#menuID160").find("a").attr('href','http://183.236.15.75:8000/');
+$("#topsub160").find("a").attr('href','http://183.236.15.75:8000/');
+ 
+var _hmt = _hmt || [];
+(function(){
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?fbf997c1355736ce529c723371c3561b";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm,s);
+})();
+ 
+
+	 
+		$(function () {
+			$.post('/Ajax/GetSignature.aspx',
+				{
+					action: "GetSignature",
+					url: location.href.split('#')[0],
+				},
+				function (data) {
+					var jsondata = JSON.parse(data);
+					wx.config({
+						debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+						appId: jsondata.appId, // 必填，公众号的唯一标识
+						timestamp: jsondata.timestamp, // 必填，生成签名的时间戳
+						nonceStr: jsondata.noncestr, // 必填，生成签名的随机串
+						signature: jsondata.signature,// 必填，签名
+						jsApiList: [
+							'onMenuShareTimeline',
+							'onMenuShareAppMessage',
+						] // 必填，需要使用的JS接口列表
+					});
+				});
+		})
+		wx.ready(function () {
+			var title = $(".info_title").html();
+			var desc = $(".info_txt").html();
+			var link = location.href;
+			var imgUrl = $(".logoBox img").attr("src");
+			//分享给朋友
+			wx.onMenuShareAppMessage({
+				title: title, // 分享标题
+				desc: desc, // 分享描述
+				link: link, // 分享链接
+				imgUrl: imgUrl, // 分享图标
+				type: 'link', // 分享类型,music、video或link，不填默认为link
+				success: function () {
+					// 用户确认分享后执行的回调函数
+				},
+				cancel: function () {
+					// 用户取消分享后执行的回调函数
+				}
+			});
+
+			wx.onMenuShareTimeline({
+				title: title, // 分享标题
+				desc: desc, // 分享描述
+				link: link, // 分享链接
+				imgUrl: imgUrl, // 分享图标
+				type: 'link', // 分享类型,music、video或link，不填默认为link
+				success: function () {
+					// 用户确认分享后执行的回调函数
+				},
+				cancel: function () {
+					// 用户取消分享后执行的回调函数
+				}
+			});
+
+		});
+
+		 
+	 
+ 
+ 

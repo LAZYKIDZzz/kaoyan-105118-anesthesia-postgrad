@@ -1,0 +1,357 @@
+﻿ 
+ 
+     
+         
+         
+         
+         武汉科技大学马德里康普顿斯学院2026-2027学年外国硕士研究生学历教育专业招生简章-研究生院、党委研究生工作部、湖北省卓越工程师学院 
+ 
+ 
+
+         
+         
+         
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1831,'/info.jsp',50342,1903045674) 
+ 
+     
+         
+         
+         
+             
+                 
+                 
+                     
+                     
+ 
+ 
+                     
+                     研究生院、党委研究生工作部、湖北省卓越工程师学院 
+                     
+                     
+
+
+ 
+    #appu1 .qwss{
+        height: 30px;
+        font-size: 14px;
+        width: 220px;
+        padding-left: 0px;
+        border-radius: 25px;
+        border:none;
+        text-indent: 25px;}
+    #appu1 .tj{
+        width: 60px;
+        height: 45px;
+        border: 0;
+        background:url(../../images/ss.png) no-repeat 0 0;
+        position: absolute;
+        background-size:42px;
+        top: 0;
+        right: -16px;}
+ 
+ 
+ 
+    <div id="appu1">
+        <div v-if="!isError">
+            <input type="text" class="qwss"  autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+            <input class="tj" name="submit_button" type="button" v-on:click="onSubmit()"/>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+ 
+ 
+    $("#divu1").html($("#htmlu1").text());
+ 
+ 
+    var appOwner = "1903045674";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu1",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "https://wzdtyy.wust.edu.cn/" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+ 
+                 
+                 
+                 
+                     
+                                     部门首页 
+            机构简介                 
+                                        
+                               概况 
+                               机构设置 
+                               院长信箱 
+               
+             
+            招生工作                 
+                                        
+                               通知公告 
+                               博士招生 
+                               硕士招生 
+                               招生简章 
+               
+             
+            培养工作                 
+                                        
+                                 培养教学 
+                                     
+                                             通知公告   
+                                                               
+                                             培养方案   
+                                                               
+                                             教学研究   
+                                                               
+                                             教学信息   
+                                                               
+                                             管理办法   
+                                                               
+                                             学籍管理   
+                                                               
+                                             实习实践   
+                                                               
+                                     
+                                  
+                                 留学生培养 
+                                     
+                                             重要通知   
+                                                               
+                                             规章制度   
+                                                               
+                                             文件下载   
+                                                               
+                                     
+                                  
+                               培养质量监控 
+               
+             
+            学位工作                 
+                                        
+                                 学位点建设 
+                                     
+                                             通知公告   
+                                                               
+                                             学科动态   
+                                                               
+                                             学科专业目录   
+                                                               
+                                             合格评估   
+                                                               
+                                     
+                                  
+                                 学位管理 
+                                     
+                                             通知公告   
+                                                               
+                                             学位管理条例   
+                                                               
+                                             学位授予   
+                                                               
+                                             学位申请指南   
+                                                               
+                                             优秀学位论文   
+                                                               
+                                     
+                                  
+                                 导师队伍 
+                                     
+                                             通知公告   
+                                                               
+                                             博导信息   
+                                                               
+                                             学硕导师信息   
+                                                               
+                                             专硕导师信息   
+                                                               
+                                             导师选聘   
+                                                               
+                                             导师培训   
+                                                               
+                                             优秀导师风采   
+                                                               
+                                     
+                                  
+               
+             
+            思政教育                 
+                                        
+                               通知公告 
+                               校园文化 
+                               创新实践 
+                               资助工作 
+                               心理在线 
+                               研究生就业信息网 
+               
+             
+            卓越工程师学院                 
+                                        
+                               通知公告 
+                               规章制度 
+                               师资队伍 
+                               人才培养 
+               
+             
+            下载中心                 
+                                        
+                                 招生工作 
+                                     
+                                             招生信息   
+                                                               
+                                     
+                                  
+                               培养工作 
+                                 学位工作 
+                                     
+                                             学科建设   
+                                                               
+                                             学位管理   
+                                                               
+                                             导师队伍   
+                                                               
+                                     
+                                  
+                               思政教育 
+               
+             
+             学校主页 
+
+                     
+                 
+             
+         
+         
+ 
+         
+         
+             
+                 
+                     
+    当前位置: 
+                         部门首页 
+                >>
+                 招生工作 
+                >>
+                 通知公告 
+                >>
+                正文
+ 
+                  
+                  
+                  
+
+ 
+ 
+     武汉科技大学马德里康普顿斯学院2026-2027学年外国硕士研究生学历教育专业招生简章 
+     2026-07-25  点击：[ _showDynClicks("wbnews", 1903045674, 50342) ]  
+     
+     
+ var vsb_pdf_image_data = ["/__local/B/C1/C2/3F2CFE3926054211518A67386F3_1182F221_5DA05.jpg","/__local/F/8F/B2/71280896EF1D4B76131D259E343_6C456F3D_43091.jpg","/__local/9/DE/64/AD798947A8C656E14EEFB6B139A_C1B0FA08_494F5.jpg","/__local/C/ED/A7/28A1D17825CF0A7EF2F2B57EE3C_6795AC1D_516B6.jpg","/__local/B/AD/4E/40193FB5C46E491E8321BB68412_A5D00049_48812.jpg","/__local/6/3D/2C/6A00DE79B9CB2306D5ED21F7468_98AFA03E_4EB09.jpg","/__local/C/FC/77/A7809F4B26E0EA56CE8DA89A1D0_D6E245B1_40C42.jpg","/__local/6/EA/F1/BA22D6D5DA17DCD79A01412C153_B7F29E93_27519.jpg"];showVsbpdfIframe("/__local/3/0C/91/B2C692B101BE12C7B157838E48E_7CE3EACE_33C3D.pdf","100%","600","0","border:1px solid #DDDDDD",vsb_pdf_image_data); 
+ 
+         
+        上一条： 武汉科技大学2027年接收推荐免试研究生（含直博生）招生简章 
+        下一条： 关于查收2026级研究生录取通知书的通知 
+     
+     【 关闭 】 
+ 
+ 
+ 
+                 
+             
+         
+         
+
+
+
+         
+         
+             
+                 
+                     
+                         
+                         
+                            
+ Copyright©2023  武汉科技大学研究生院、党委研究生工作部、湖北省卓越工程师学院 邮编:430081  鄂ICP备05003334-1 地址:湖北省武汉市青山区和平大道947号 设计支持 武汉科技大学艺术与设计学院 
+                         
+                     
+                     
+                         
+                                
+                         
+                        
+                     
+                 
+             
+         
+         
+     
+ 

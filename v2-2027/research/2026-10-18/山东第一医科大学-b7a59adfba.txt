@@ -1,0 +1,505 @@
+﻿ 
+ 
+   
+    
+    
+    
+    
+   专业目录-研究生招生信息网 
+ 
+ 
+
+   
+    
+    
+    
+    
+    
+    
+    
+   
+      
+    
+    
+    
+    
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1112,'/list2026.jsp',-1,1816840926) 
+  
+   
+    
+     
+      
+       
+        
+       
+       
+       
+        
+        研招网首页 
+          
+          
+                   通知公告 
+                   招生拓展 
+                   公开公示 
+                   导师风采 
+                   光影校园 
+           
+          
+             
+ 政策文件 
+             
+ 硕士招生 
+          
+          
+                   招生简章 
+                   专业目录 
+                   分数线 
+                   考试科目 
+                   学制学费 
+                   通知公告 
+                   常用下载 
+           
+          
+             
+ 博士招生 
+          
+          
+                   招生简章 
+                   学制学费 
+                   通知公告 
+                   常用下载 
+           
+          
+             
+ 推免生（夏令营） 
+          
+          
+                   通知公告 
+                   常用下载 
+           
+          
+             
+ 报考系统 
+             
+ 联系我们 
+          
+          
+                   联系方式 
+                   学院信息 
+           
+          
+             
+ 
+        
+        
+       
+       
+        
+        
+       
+      
+     
+     
+     
+      
+       
+       
+         
+        
+        
+       
+       
+  
+        
+         研招网首页 
+         
+        
+         
+         
+          通知公告    
+          招生拓展    
+          公开公示    
+          导师风采    
+          光影校园    
+          
+         
+       
+  
+        
+         政策文件 
+       
+  
+        
+         硕士招生 
+         
+        
+         
+         
+          招生简章    
+          专业目录    
+          分数线    
+          考试科目    
+          学制学费    
+          通知公告    
+          常用下载    
+          
+         
+       
+  
+        
+         博士招生 
+         
+        
+         
+         
+          招生简章    
+          学制学费    
+          通知公告    
+          常用下载    
+          
+         
+       
+  
+        
+         推免生（夏令营） 
+         
+        
+         
+         
+          通知公告    
+          常用下载    
+          
+         
+       
+  
+        
+         报考系统 
+       
+  
+        
+         联系我们 
+         
+        
+         
+         
+          联系方式    
+          学院信息    
+          
+         
+       
+
+       
+      
+     
+     
+     
+     
+      
+      
+    
+
+     
+      
+       
+        
+         
+硕士招生 
+        
+       
+ 招生简章 
+  
+ 专业目录 
+  
+ 分数线 
+  
+ 考试科目 
+  
+ 学制学费 
+  
+ 通知公告 
+  
+ 常用下载 
+  
+
+        
+       
+       
+        
+        
+         
+专业目录
+         
+         
+        
+                 研招网首页 
+
+                 > 
+                 硕士招生 
+
+                 > 
+                 专业目录 
+
+         
+        
+        
+         
+         30 2026.09 山东第一医科大学2027年硕士研究生招生专业目录   
+         29 2025.09 山东第一医科大学2026年硕士研究生招生专业目录   
+         03 2024.10 2025年硕士研究生招生专业目录   
+         20 2023.09 2024年硕士研究生招生专业目录   
+              
+         
+         
+         
+         共4条   首页 上页 1 下页 尾页   1/1   到第 页   跳转 
+          
+        _showDynClickBatch(['dynclicks_u6_6435','dynclicks_u6_4185','dynclicks_u6_4485','dynclicks_u6_4755'],[6435,4185,4485,4755],"wbnews", 1816840926) 
+        
+       
+      
+     
+    
+      
+      
+       
+        友情链接
+        
+        
+ 中华人民共和国教育部 
+ 山东省教育厅 
+ 山东省学位委员会办公室 
+ 中华人民共和国教育部 
+ 山东省教育厅 
+ 山东第一医科大学 
+ 山一大研究生院（研究生教育中心） 
+
+       
+       
+      
+      
+       
+        
+         
+        
+       
+         
+         济南校区：济南市槐荫区青岛路6699号行政楼213房间 
+         泰安校区：泰安市长城路619号   
+         招生咨询电话：0531-59556855  
+        
+        
+        
+             
+         
+         研究生招生公众号 
+         
+        
+         
+         山一大官方微信 
+         
+ 
+        
+       
+      
+      
+      
+        
+       山东第一医科大学（山东省医学科学院）研究生院   版权所有    鲁ICP备19027497号-1 
+       
+      
+     
+     
+     
+      
+ 
+
+
+
+ 
+  #appu9 .qwss{
+      height: 31px;
+      font-size: 12px;
+      min-width: 190px;
+      max-width: 600px;
+      width: 60%;
+      margin-top: -15px;
+      outline: none;
+      padding-left: 10px;
+      border-radius: 2px;
+      border: 1px solid #e4e7ed;}
+  #appu9 .tj{
+      padding-left: 6px;
+      letter-spacing: 5px;
+      color: white;
+      min-width: 53px;
+      max-width: 150px;
+      height: 32px;
+      border: 0;
+      border-radius: 2px;
+      background-color: #1890FF;
+      position: relative;
+      top: 1px;
+      width: 20%;
+      margin-top: -15px;}
+ 
+ 
+ 
+<div id="appu9">
+<div v-if="!isError" class="serform">
+<div class="input-group pore">
+  <input name="showkeycode"   class="inp" type="text" placeholder="请输入关键词" autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+   <button class="sub" type="submit" value="提交" v-on:click="onSubmit()"></button>
+   </div>
+  </div>
+  <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+    应用维护中！
+</div>
+</div>
+ 
+ 
+  $("#divu9").html($("#htmlu9").text());
+ 
+ 
+  var appOwner = "1816840926";
+  var token = 'tourist';
+  var urlPrefix = "/aop_component/";
+
+  jQuery.support.cors = true;
+  $.ajaxSetup({
+      beforeSend: function (request, settings) {
+          request.setRequestHeader("Authorization", token);
+          request.setRequestHeader("owner", appOwner);
+      }
+  });
+
+  new Vue({
+      el: "#appu9",
+      data: function () {
+          return {
+              query: {
+                  keyWord: "",//搜索关键词
+                  owner: appOwner,
+                  token: token,
+                  urlPrefix: urlPrefix,
+                  lang:"i18n_zh_CN"
+              },
+              isError: false
+          }
+      },
+      mounted: function () {
+          var _this = this;
+          // _this.init();
+      },
+      methods: {
+          init: function(){
+              $.ajax({
+                  url: "/aop_component//webber/search/test",
+                  type: "get",
+                  success: function (response) {
+                      if (response.code == "0000") {
+                      } else if (response.code == "220") {
+                          _this.isError = true;
+                          console.log(response);
+                      } else if (!response.code) {
+                          _this.isError = true;
+                          console.log(response);
+                      }
+                  },
+                  error: function (response) {
+                      _this.isError = true;
+                  }
+              });
+          },
+          onSubmit: function (e) {
+              var url = "/aop_views/search/modules/resultpc/soso.html";
+              if ("10" == "1" || "10" == "2") {
+                  url = "" + url;
+              }
+              var _this = this;
+              var query = _this.query;
+              if (url.indexOf("?") > -1) {
+                  url = url.split("?")[0];
+              }
+              if (query.keyWord) {
+                  var query = new Base64().encode(JSON.stringify(query));
+                  window.open(url + "?query=" + query);
+              } else {
+                  alert("请填写搜索内容")
+              }
+          },
+      }
+  })
+ 
+
+ 
+   var appElementu9 = document.querySelector("#appu9");
+   if (appElementu9 && appElementu9.__vue__) {
+
+   } else {
+      $("#divu9").html($("#htmlu9").text());
+      var appOwner = "1816840926";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="false";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou9 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu9(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu9();
+        }
+      };
+
+      function onSubmitu9(e) {
+        queryInfou9.query.keyWord= $("#appu9  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou9.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+  
+     
+   
+    
+     
+      
+  
+ 

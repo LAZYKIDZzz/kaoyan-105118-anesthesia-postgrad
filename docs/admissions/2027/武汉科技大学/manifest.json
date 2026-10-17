@@ -1,0 +1,79 @@
+{
+  "name": "武汉科技大学",
+  "tier": "从容区",
+  "gate": 293,
+  "region": "湖北",
+  "candidates": [
+    {
+      "title": "武汉科技大学招生官网（查找2027目录）",
+      "url": "https://ysxy.wust.edu.cn/info/1831/50612.htm"
+    },
+    {
+      "title": "武汉科技大学招生官网（查找2027目录）",
+      "url": "https://ysxy.wust.edu.cn/zsgz/tzgg.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "武汉科技大学招生官网（查找2027目录）",
+      "url": "https://ysxy.wust.edu.cn/info/1831/50612.htm",
+      "effective_url": "https://ysxy.wust.edu.cn/info/1831/50612.htm",
+      "path": "docs/admissions/2027/武汉科技大学/page-fba173fce6.html",
+      "sha256": "67a65c9bf7f4d19e91b4b6d6d05482a8c27214b7abb878895151132d6021656a",
+      "bytes": 52026
+    },
+    {
+      "title": "武汉科技大学招生官网（查找2027目录）",
+      "url": "https://ysxy.wust.edu.cn/zsgz/tzgg.htm",
+      "effective_url": "https://ysxy.wust.edu.cn/zsgz/tzgg.htm",
+      "path": "docs/admissions/2027/武汉科技大学/page-38c0431f10.html",
+      "sha256": "dfd081d1ea106aa171a9b5ab49fc351aec9996af00936f426ac8fa437e6df124",
+      "bytes": 29159
+    },
+    {
+      "title": "武汉科技大学2027年接收推荐免试研究生（含直博生）招生简章武汉科技大学2027年接收推荐免试研究生（含直博生）招生简章",
+      "url": "https://ysxy.wust.edu.cn/info/1831/50482.htm",
+      "effective_url": "https://ysxy.wust.edu.cn/info/1831/50482.htm",
+      "path": "docs/admissions/2027/武汉科技大学/page-3f82829833.html",
+      "sha256": "6cb1bf232016204a9d8ac689ce6ad51c5d30f12a2ab5d335718bbec17f474595",
+      "bytes": 24959
+    },
+    {
+      "title": "武汉科技大学马德里康普顿斯学院2026-2027学年外国硕士研究生学历教育专业招生简章武汉科技大学马德里康普顿斯学院2026-2027学年外国硕士研究生学历教育专业招生简章",
+      "url": "https://ysxy.wust.edu.cn/info/1831/50342.htm",
+      "effective_url": "https://ysxy.wust.edu.cn/info/1831/50342.htm",
+      "path": "docs/admissions/2027/武汉科技大学/page-e6c90fb857.html",
+      "sha256": "9619e0d86ef21a8523cef4ce50b47406e24a9995bd9bd97df9d96b1865570cbd",
+      "bytes": 24298
+    }
+  ],
+  "files": [
+    {
+      "title": "武汉科技大学2027年招生专业目录",
+      "url": "https://ysxy.wust.edu.cn/__local/3/1F/81/3F7A98C6BAE74FCFBCF8042DAC7_1B98D29B_BACD2.pdf",
+      "path": "docs/admissions/2027/武汉科技大学/武汉科技大学2027年招生专业目录.pdf",
+      "sha256": "1078c547a4a8f1451be8daff2364602ccb7159c6ada221f3d6035d4db2627a8d",
+      "bytes": 765138,
+      "kind": "original"
+    },
+    {
+      "title": "武汉科技大学2027年招生专业目录",
+      "url": "https://ysxy.wust.edu.cn/__local/B/6F/80/41363820842F1AB54D78DC96EB8_BD16EBA9_34B97.pdf",
+      "path": "docs/admissions/2027/武汉科技大学/武汉科技大学2027年招生专业目录-978941.pdf",
+      "sha256": "978941c48bed19c3aaac475f06f797325eba285839fd3439b9133affbd68c17c",
+      "bytes": 215959,
+      "kind": "original"
+    },
+    {
+      "title": "武汉科技大学2027年招生章程",
+      "url": "https://ysxy.wust.edu.cn/__local/3/0C/91/B2C692B101BE12C7B157838E48E_7CE3EACE_33C3D.pdf",
+      "path": "docs/admissions/2027/武汉科技大学/武汉科技大学2027年招生章程.pdf",
+      "sha256": "d0d449c05e8fb0fdffb874608fec0eb9609438d7d4ed9474d288774fa9a57ad9",
+      "bytes": 212029,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

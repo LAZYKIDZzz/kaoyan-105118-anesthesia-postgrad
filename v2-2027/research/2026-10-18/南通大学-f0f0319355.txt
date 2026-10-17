@@ -1,0 +1,262 @@
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 南通大学2027年硕士研究生招生章程、专业目录和考试科目 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+        #toolbarViewerRight {
+            visibility: hidden !important;
+        }
+     
+ 
+ 
+ 
+ 
+	 
+		 
+			 
+			 
+				 
+					
+				 					
+			 
+			 
+				 
+					
+				 				
+			 			
+		 
+     
+ 
+ 
+ 
+ 
+	 
+		 
+			 
+				 
+				 
+					 南通大学研究生招生信息网  
+				 
+				 
+			 
+			 
+				  
+					
+				 
+				 
+					
+     
+         
+             
+                 
+                     
+                 
+                 
+					 
+                     
+                 
+             
+         
+     
+
+ 
+    function onKeyEvent(event){
+        if (event.keyCode != '13') {
+            return;
+        }
+        checkValues();
+    }
+    function checkValues(){
+		var url = $("#securl").val();
+        var keyword = $("input[name='keyword']").val();
+		if (keyword === '请输入关键字') {
+			keyword = ''; 
+		}
+		if (keyword !== '') {
+			keyword = encodeURI(encodeURI(keyword));
+			url = url + "&keyword=" + keyword;
+		}
+        window.open(url);
+    }
+ 
+				 			
+			 
+
+		 
+	 
+ 
+ 
+ 
+ 
+	 
+		 
+			 
+				
+  
+#wp_nav_w1 .wp_nav { margin: 0px; padding: 0px; display: block; height: 50px; width: 1100px; }#wp_nav_w1 .wp_nav * { margin: 0px; padding: 0px; }#wp_nav_w1 .wp_nav::after { clear: both; content: "."; display: block; height: 0px; visibility: hidden; }#wp_nav_w1 .wp_nav .nav-item { display: inline-block; float: left; position: relative; vertical-align: bottom; height: 50px; width: 150px; }#wp_nav_w1 .wp_nav .on { z-index: 10; }#wp_nav_w1 .wp_nav .nav-item .mark { display: block; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; z-index: 99; opacity: 1; background-color: rgb(2, 63, 136); }#wp_nav_w1 .wp_nav .nav-item a { display: block; text-align: center; position: relative; z-index: 100; font-size: 16px; color: rgb(255, 255, 255); }#wp_nav_w1 .wp_nav .nav-item a.parent:hover { background-color: rgb(255, 157, 10); }#wp_nav_w1 .wp_nav .nav-item a.parent { color: rgb(255, 255, 255); background-color: rgb(255, 157, 10); }#wp_nav_w1 .wp_nav .nav-item a span.item-name { display: inline-block; padding: 5px 10px; line-height: 40px; cursor: pointer; }#wp_nav_w1 .wp_nav .sub-nav { display: block; width: 100%; position: absolute; z-index: 200; visibility: hidden; border-right: 1px solid rgb(204, 204, 204); border-bottom: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204); border-image: initial; border-top: none; }#wp_nav_w1 .wp_nav .sub-nav .nav-item { white-space: nowrap; height: 50px; width: 150px; }#wp_nav_w1 .wp_nav .sub-nav .nav-item .mark { background: rgb(2, 63, 136); opacity: 1; }#wp_nav_w1 .wp_nav .sub-nav .nav-item a { font-size: 16px; font-weight: normal; color: rgb(255, 255, 255); text-align: left; border-top: 1px solid rgb(216, 225, 204); min-width: 80px; }#wp_nav_w1 .wp_nav .sub-nav .nav-item a.parent:hover { background: rgb(255, 157, 10); color: rgb(255, 255, 255); }#wp_nav_w1 .wp_nav .sub-nav .nav-item a.parent { background: rgb(255, 157, 10); color: rgb(255, 255, 255); }#wp_nav_w1 .wp_nav .sub-nav .nav-item a span.item-name { padding: 5px 10px; line-height: 40px; }#wp_nav_w1 .wp_nav .nav-item a.parent:hover span.item-name { }#wp_nav_w1 .wp_nav .nav-item a.parent span.item-name { }#wp_nav_w1 .wp_nav .sub-nav .nav-item a.parent:hover span.item-name { }#wp_nav_w1 .wp_nav .sub-nav .nav-item a.parent span.item-name { text-decoration: none; }
+  
+  
+
+ 
+ 
+      
+       
+          学校首页  
+          
+       
+      
+       
+          本站首页  
+          
+       
+      
+       
+          招生简章  
+          
+           
+              
+               
+                  博士生招生  
+                  
+               
+              
+               
+                  硕士生招生  
+                  
+               
+              
+               
+                  港澳台招生  
+                  
+               
+              
+           
+          
+       
+      
+       
+          规章制度  
+          
+       
+      
+       
+          常见问题  
+          
+       
+      
+       
+          资料下载  
+          
+       
+      
+       
+          联系我们  
+          
+       
+      
+  
+ 
+ 
+  
+			 
+		 
+	 
+ 
+ 
+ 
+ 
+	 
+		 
+			 
+				
+				   南通大学2027年硕士研究生招生章程、专业目录和考试科目 
+				   
+				   发布者：邢飞燕 发布时间：2026-10-01 浏览次数： 4831 
+				   
+					 各位考生：    我校将2027 年硕士研究生招生章程、招生专业目录等相关信息进行公布，以供参考。各招生学院联系电话详见招生专业目录，也可查看网址 https://yjszs.ntu.edu.cn/lxwm/list.htm 。 南通大学研究生院 0-南通大学2027年硕士研究生招生章程.pdf 1-2027年全日制学术学位硕士研究生招生专业目录.pdf 2-2027年全日制专业学位硕士研究生招生专业目录.pdf 3-2027年非全日制专业学位硕士研究生招生专业目录.pdf 4-2027年硕士研究生考试科目一览表.pdf 
+				   
+				
+			 
+		 
+   
+ 
+ 
+
+ 
+ 
+	 
+		 
+                        
+ 
+                                 版权所有：南通大学研究生院 < 联系电话：0513-85012093 设计与制作：南通大学信息化中心 
+
+
+			 
+
+
+				 
+					 
+						
+					 
+				 	
+		 
+	 
+ 
+ 
+ 
+ 
+ 
+ 
+$(function(){
+if( !('placeholder' in document.createElement('input')) ){
+  $('input[placeholder],textarea[placeholder]').each(function(){
+      var that = $(this),
+      text= that.attr('placeholder');
+      // console.log(text);
+      if(that.val()===""){
+          that.val(text).addClass('placeholder');
+      }
+      that.focus(function(){
+          if(that.val()===text){
+              that.val("").removeClass('placeholder');
+          }
+      }).blur(function(){
+          if(that.val()===""){
+              that.val(text).addClass('placeholder');
+          }
+      }).closest('form').submit(function(){
+          if(that.val() === text){
+          that.val('');
+          }
+      });
+  });
+}
+});
+ 
+ 
+ 

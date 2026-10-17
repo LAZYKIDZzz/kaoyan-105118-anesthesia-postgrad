@@ -1,0 +1,43 @@
+{
+  "name": "宁夏医科大学",
+  "tier": "稳健区",
+  "gate": 308,
+  "region": "宁夏",
+  "candidates": [
+    {
+      "title": "宁夏医科大学招生官网（查找2027目录）",
+      "url": "https://www.nxmu.edu.cn/yjsy/zsgz/ssszs.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "宁夏医科大学招生官网（查找2027目录）",
+      "url": "https://www.nxmu.edu.cn/yjsy/zsgz/ssszs.htm",
+      "effective_url": "https://www.nxmu.edu.cn/yjsy/zsgz/ssszs.htm",
+      "path": "docs/admissions/2027/宁夏医科大学/page-f29252f2c7.html",
+      "sha256": "345a520b45a42dcef32dca4eae9077b0e8693fbefc0f71d95ad6351e129f2e5f",
+      "bytes": 21347
+    },
+    {
+      "title": "宁夏医科大学2027年硕士研究生招生简章宁夏医科大学2027年硕士研究生招生简章",
+      "url": "https://www.nxmu.edu.cn/yjsy/info/1010/3551.htm",
+      "effective_url": "https://www.nxmu.edu.cn/yjsy/info/1010/3551.htm",
+      "path": "docs/admissions/2027/宁夏医科大学/page-24607cf61a.html",
+      "sha256": "17ddd269cefb0e3663885a469933ef4ecf12fae61d89de6ddf6b5006630ba14d",
+      "bytes": 13993
+    }
+  ],
+  "files": [
+    {
+      "title": "附件1：宁夏医科大学2027年硕士研究生招生专业目录.pdf",
+      "url": "https://www.nxmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1673356690&wbfileid=18109943",
+      "path": "docs/admissions/2027/宁夏医科大学/附件1：宁夏医科大学2027年硕士研究生招生专业目录.pdf",
+      "sha256": "92b2251f42f1418bf74fcb3a8ab41e1fb6cc60be47963c671eb862439231d6c3",
+      "bytes": 218639,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

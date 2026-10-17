@@ -1,0 +1,47 @@
+{
+  "name": "汕头大学",
+  "tier": "从容区",
+  "gate": 298,
+  "region": "广东",
+  "candidates": [
+    {
+      "title": "汕头大学招生官网（查找2027目录）",
+      "url": "https://www.gs.stu.edu.cn/Open/RecruitTkss/ZsDir_View.aspx"
+    },
+    {
+      "title": "汕头大学招生官网（查找2027目录）",
+      "url": "https://gs.stu.edu.cn/yjszs/master_zsjz.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "汕头大学招生官网（查找2027目录）",
+      "url": "https://www.gs.stu.edu.cn/Open/RecruitTkss/ZsDir_View.aspx",
+      "effective_url": "https://www.gs.stu.edu.cn/Open/RecruitTkss/ZsDir_View.aspx",
+      "path": "docs/admissions/2027/汕头大学/page-94349637d0.html",
+      "sha256": "c1eb54199ba6cf3a6ed980f98c560202bd09c2da12a0556d72031fa429bad084",
+      "bytes": 59360
+    },
+    {
+      "title": "汕头大学招生官网（查找2027目录）",
+      "url": "https://gs.stu.edu.cn/yjszs/master_zsjz.htm",
+      "effective_url": "https://gs.stu.edu.cn/yjszs/master_zsjz.htm",
+      "path": "docs/admissions/2027/汕头大学/page-dc3e09795a.html",
+      "sha256": "6fe2be677855b87c0a2981030e0fefe7c2bc2844a89d7bb22a471e3c4c4a2a50",
+      "bytes": 31363
+    }
+  ],
+  "files": [
+    {
+      "title": "附件1：汕头大学2027年全日制硕士研究生招生专业目录",
+      "url": "https://gs.stu.edu.cn/yjszs/ss27/附件1：汕头大学2027年全日制硕士研究生招生专业目录.pdf",
+      "path": "docs/admissions/2027/汕头大学/附件1：汕头大学2027年全日制硕士研究生招生专业目录.pdf",
+      "sha256": "b5c2e004c4dff7496f7d393b6e5f416ba347ae16b8249638ae0587c69b9c076b",
+      "bytes": 263939,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

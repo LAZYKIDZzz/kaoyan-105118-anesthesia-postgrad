@@ -1,0 +1,526 @@
+
+  
+  
+  
+ 吉首大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生简章-硕士招生-吉首大学研究生院  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+    .divPlayerImgResponsive{max-width: 480px;overflow: hidden;position: relative;margin: 15px auto;}
+    .divPlayerResponsive2{text-align:center;max-width: 480px;overflow: hidden;position: relative;margin: 15px auto;}
+    .divPlayerResponsive2 video{width:100%;height: auto;}
+    .article i.iconfont{font-style: normal;}
+ 
+ 
+    //2026-04-29 23:33:08
+    if (typeof jQuery == 'undefined') {
+        var myScript= document.createElement("script");
+        myScript.type = "text/javascript";
+        myScript.src="/publish/gpowersoft/js/jquery-3.5.1.min.js";
+        document.head.appendChild(myScript);
+    }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+		 
+			 
+				 
+					 
+						 
+						 
+							 
+								 
+									 
+									 
+									 
+									 
+								 
+							 
+						 
+					 
+				 
+				 
+					 
+						 
+					 
+					 
+						 
+							 
+							 
+								  网站首页  
+							 
+							 
+								  部门概况  
+								 
+								 
+									 概况 
+									 机构设置 
+									 部门职责 
+								 
+							 
+							 
+								  招生管理  
+								 
+								 
+									 硕士招生 
+									 博士招生 
+									 同等学力招生 
+									 2027年硕士研究生招生专业目录 
+									 招生学院及专业介绍 
+								 
+							 
+							 
+								  培养管理  
+								 
+								 
+									 培养过程 
+									 教改教研 
+									 科研创新 
+									 资料下载 
+								 
+							 
+							 
+								  质量管理  
+								 
+								 
+									 日常管理 
+									 暑期学校 
+									 创新论坛 
+								 
+							 
+							 
+								  学位管理  
+								 
+								 
+									 学位论文管理 
+									 学位授予 
+									 导师队伍建设 
+									 学位点建设评估 
+									 资料下载 
+								 
+							 
+							 
+								  教育管理  
+								 
+								 
+									 日常管理 
+									 奖助学金 
+									 研究生活动 
+									 研究生会 
+									 资料下载 
+								 
+							 
+							 
+								  党建工作  
+								 
+								 
+									 组织信息 
+									 党建动态 
+								 
+							 
+						 
+
+					 
+					 
+						 
+					 
+				 
+			 
+
+			 
+			 
+				 
+					 
+				 
+				 
+					 
+				 
+				 
+					 
+					 
+						  网站首页  
+					 
+					 
+						  部门概况  
+						 
+						 
+							 概况 
+							 机构设置 
+							 部门职责 
+						 
+					 
+					 
+						  招生管理  
+						 
+						 
+							 硕士招生 
+							 博士招生 
+							 同等学力招生 
+							 2027年硕士研究生招生专业目录 
+							 招生学院及专业介绍 
+						 
+					 
+					 
+						  培养管理  
+						 
+						 
+							 培养过程 
+							 教改教研 
+							 科研创新 
+							 资料下载 
+						 
+					 
+					 
+						  质量管理  
+						 
+						 
+							 日常管理 
+							 暑期学校 
+							 创新论坛 
+						 
+					 
+					 
+						  学位管理  
+						 
+						 
+							 学位论文管理 
+							 学位授予 
+							 导师队伍建设 
+							 学位点建设评估 
+							 资料下载 
+						 
+					 
+					 
+						  教育管理  
+						 
+						 
+							 日常管理 
+							 奖助学金 
+							 研究生活动 
+							 研究生会 
+							 资料下载 
+						 
+					 
+					 
+						  党建工作  
+						 
+						 
+							 组织信息 
+							 党建动态 
+						 
+					 
+				 
+
+			 
+
+		 		 
+		 
+			 
+		 
+
+		 
+			 
+				 
+					 
+						当前位置：              首页 »
+              招生管理 »
+    硕士招生
+
+					 
+				 
+			 
+			 
+				 
+				 
+					 
+						 
+招生管理 
+					 
+					 
+						 
+
+ 
+
+					 硕士招生 
+ 
+
+					 博士招生 
+ 
+
+					 同等学力招生 
+ 
+
+					 2027年硕士研究生招生专业目录 
+ 
+
+					 招生学院及专业介绍 
+						 
+					 
+				 
+				 
+				 
+					 
+						 
+						 硕士招生 
+						 
+					 
+					 
+
+					 
+						 吉首大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生简章 
+						     
+						         
+						             作者： 
+						             文章来源：  
+						             时间：2026年09月15日 
+						               浏览： 
+						         
+						     
+						     
+							 
+								 .gpCmsArticle00{}.gpCmsArticle00 .gpCmsImg{text-align: center; text-indent: 0 }.gpCmsArticle00 .gpCmsImg img{border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none }.gpCmsArticle00 .gpCmsCreditLine{font-family: "微软雅黑"; text-align: center; text-indent: 0; margin-top: -5px }.gpCmsArticle00 table td p{text-indent: 0; margin-bottom: 0; text-align: left }.gpCmsArticle00 .gpCmsVideo{text-align: center; text-indent: 0 }.gpCmsArticle00 .gpCmsVideo video{border-bottom-style: none; border-right-style: none; border-top-style: none; border-left-style: none }.gpCmsArticle00 p{line-height: 180%; text-indent: 2em; font-size: 16px; margin-bottom: 10px; text-align: justify; word-break: break-all; margin-top: 0 }.gpCmsArticle00 a{color: rgb(30, 80, 162); text-decoration: none }.gpCmsArticle00 a:hover{color: rgb(186, 38, 54) }.gpCmsArticle00 table{border-collapse: collapse; border: 1px solid rgb(204, 204, 204) }.gpCmsArticle00 table th{text-indent: 0px; margin: 0px; font-size: 1px }.gpCmsArticle00 table td{border: 1px solid rgb(204, 204, 204); text-indent: 0px; margin: 0px; font-size: 16px }.gpCmsArticle00 table td img{border-bottom-style: none; border-right-style: none; margin: 5px; border-top-style: none; border-left-style: none }.gpCmsArticle00 .gpTableWrap{overflow-x: auto }  
+  为做好我校2027年接收优秀应届本科毕业生免试攻读硕士学位研究生（以下简称“推免生”）工作。根据《吉首大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生工作办法》，特制定本简章。  
+  一、接收专业  
+  请参考《吉首大学2027年接收推免生专业及联系方式》（附件1）。具体以全国推荐优秀应届本科毕业生免试攻读研究生信息公开暨管理服务系统（以下简称“推免服务系统”）中公布的推免生接收专业目录为准。  
+  二、申请条件  
+  （一）拥护中国共产党的领导，品行良好，遵纪守法。  
+  （二）身心健康，身体状况符合国家规定的体检要求。  
+  （三）获得当年推免生资格。  
+  （四）符合教育部和学校对所申请学科（类别）、专业（领域）报考条件的要求。其中，申请临床医学硕士专业学位的推免生，本科就读专业应符合医师资格考试报名条件。  
+  （五）具有较好的外语水平，符合所申请培养单位对申请者外语水平的要求，同时满足招生学院推免生招生工作实施细则中的相关要求。  
+  三、申请材料  
+  报考学校的推免生，应在学校规定时间内按要求向报考学院提交以下申请材料：  
+  （一）本人学生证、身份证复印件。  
+  （二）吉首大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生复试申请表（附件2）。  
+  （三）加盖所在学校教务处公章的本科学习成绩单。  
+  （四）国家级外语考试成绩或合格证书复印件。  
+  （五）有科研成果或获得重要奖项证书者，提供复印件。  
+  四、申请程序  
+  我校接收推免生复试与录取工作从2026年9月15日开始至10月20日截止，具体程序如下：  
+  （一）9月15日前，学校上传2027年推免生招生工作办法以及专业目录。  
+  （二）具有推免生资格的考生在9月21日至10月18日期间，登录“推免服务系统”注册、填写基本信息，选择报考吉首大学。  
+  （三）我校9月23日至10月18日期间分批审核申请信息。申请人名单经招生学院和研究生院审核后，学校通过“推免服务系统”向符合条件的申请人发送复试通知。收到复试通知后，申请人应及时登录“推免服务系统”进行确认，并与报考学院联系。  
+  （四）学院根据研究生院下发的复试名单组织复试并确定拟录取名单。  
+  （五）研究生院对拟录取名单进行审定，报学校研究生招生委员会审核后公示，向录取的推免生发出拟录取通知，推免生确认待录取通知。学生如对公示名单有疑问，可通过电话与学校或学院进行联系。  
+  （六）10月20日后，学校报送推免生拟录取名单，经上级管理部门审核通过后，对外公布录取名单。  
+  五、复试录取工作  
+  （一）复试采用申请考核制。获得推免生资格的申请人须按我校规定的时间提交申请材料，并参加考核。  
+  （二）考核将在9月中下旬至10月上旬举行。考核方式和内容由我校各招生学院自主确定，于考核前向考生公布。  
+  （三）符合以下全部条件的推免生方可录取：  
+  1.经审查符合推免生接收条件中的各项规定。  
+  2.招生学院根据推免生接收计划，按照申请人的综合成绩择优录取。  
+  3.各学院根据推免生的综合成绩，提出拟录取名单，报研究生院审核，审核确定后在学校研究生招生网站上进行公示。  
+  4.收到学校待录取通知的推免生，及时通过教育部“推免服务系统”进行待录取确定，完成推免生录取工作。  
+  六、奖助政策  
+  学校录取的推免生，可按规定享受以下支持政策：  
+  （一）奖、助学金奖励政策，具体标准以学校当年相关文件为准；  
+  （二）优先选择导师，可提前参与导师项目研究；  
+  （三）同等条件下优先推荐攻读博士学位，按学校当年博士招生相关文件执行。  
+  七、其他说明  
+  （一）推免生招收复试时间另行通知。  
+  （二）申请人必须保证全部申请材料的真实性和准确性，一经发现申请人提交的材料内容不真实或不准确，学校将取消录取资格。  
+  （三）被招收的推免生，大学阶段第四/五学年的政治表现和学业成绩不符合推荐条件者，取消推荐免试生资格。  
+  （四）推免生咨询联系方式  
+  研究生院招生管理科：0743-8561096；  
+  研究生院网站：http://yjsc.jsu.edu.cn。  
+   
+  附件：  
+  1.吉首大学2027年接收推免生专业及联系方式  
+  2.吉首大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生复试申请表  
+ 
+									 
+									 
+										 相关附件 
+										 
+											 附件1：吉首大学2027年接收推免生专业及联系方式.docx 
+											 附件2：吉首大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生复试申请表.doc 
+										 
+									 
+							 
+							 
+							     
+									 上一篇 吉首大学2027年硕士研究生招生学院联系方式 
+									 下一篇 吉首大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生工作办法 
+								 
+							 
+							 【 关闭 】 
+					 
+				 
+			 
+			 
+		 
+
+		 
+
+ 
+			 
+				 
+					 友情链接 
+					 
+						 
+							 校内网址导航 
+							 
+								 吉首大学 
+								 教务处 
+							 
+						 
+						 
+							 校外网址导航 
+							 
+							 
+						 
+					 
+
+				 
+
+				 
+				 
+					
+					 
+						 地 址：湖南省吉首市人民南路120号 
+						 电话：0743-8565122  
+						 邮编：416000 
+					 
+ 
+				 
+			 
+			 版权所有 吉首大学 研究生院 研究生工作部 教QS3-200505-000069 湘ICP备 05003899号-1  
+		 		 
+
+		 
+		 
+		 
+		 
+			$(function() {
+				//超过一定高度导航添加类名
+				var nav = $("header"); //得到导航对象
+				var win = $(window); //得到窗口对象
+				var sc = $(document); //得到document文档对象。
+				win.scroll(function() {
+					if (sc.scrollTop() >= 100) {
+						nav.addClass("on");
+					} else {
+						nav.removeClass("on");
+					}
+				})
+
+				//移动端展开nav
+				$('#navToggle').on('click', function() {
+					$('.m_nav').addClass('open');
+				})
+				//关闭nav
+				$('.m_nav .top .closed').on('click', function() {
+					$('.m_nav').removeClass('open');
+				})
+
+				//二级导航  移动端
+				$(".m_nav .ul li").click(function() {
+					$(this).children("div.dropdown_menu").slideToggle('slow')
+					$(this).siblings('li').children('.dropdown_menu').slideUp('slow');
+				});
+
+			})
+		 
+
+		 
+		 
+			//轮播
+			jQuery(".slideBox").slide({
+				mainCell: ".bd ul",
+				effect: "leftLoop",
+				vis: "auto",
+				autoPlay: true,
+				trigger: "mouseover"
+			});
+			//模块左滑动
+			jQuery(".swiper").slide({
+				mainCell: "ul",
+				autoPlay: true,
+				effect: "leftMarquee",
+				interTime: 50,
+				vis: 4
+			});
+			//信息tab切换
+			jQuery(".notice").slide({
+				titCell: ".tab-hd li",
+				mainCell: ".tab-bd",
+				delayTime: 0
+			});
+			//广告轮播
+			jQuery(".adPart").slide({
+				mainCell: "ul",
+				autoPlay: true,
+				effect: "left",
+				vis: 4,
+				scroll: 1,
+				autoPage: true,
+				pnLoop: false
+			});
+			if (screen.width < 500) {
+				//模块左滑动
+				jQuery(".swiper").slide({
+					mainCell: "ul",
+					autoPlay: true,
+					effect: "leftMarquee",
+					interTime: 50,
+					vis: 2
+				});
+				//信息tab切换
+				jQuery(".notice").slide({
+					titCell: ".tab-hd li",
+					mainCell: ".tab-bd",
+					delayTime: 0
+				});
+				//广告轮播
+				jQuery(".adPart").slide({
+					mainCell: "ul",
+					autoPlay: true,
+					effect: "left",
+					vis: 1,
+					scroll: 1,
+					autoPage: true,
+					pnLoop: false
+				});
+			}
+		 
+		 
+		 
+		 
+		 
+		 
+			if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+				new WOW().init();
+			};
+			//返回顶部
+			$(function() {
+				$(window).scroll(function() {
+					if ($(window).scrollTop() >= 100) { //向下滚动像素大于这个值时，即出现~
+						$('.actGotop').fadeIn(500); //淡入的时间，越小出现的越快~
+					} else {
+						$('.actGotop').fadeOut(500); //淡出的时间，越小消失的越快~
+					}
+				});
+				$('.actGotop').click(function() {
+					$('html,body').animate({
+						scrollTop: '0px'
+					}, 800);
+				}); //火箭动画停留时间，越小消失的越快~
+			});
+		 
+
+	
+ .selectTdClass{background-color:#edf5fa !important}.gpTable{ border-collapse:collapse;border:1px solid #000 }.gpTable td,.gpTable th{border:1px solid #000;  padding: 2px 3px;}.gpTable caption{border:1px dashed #DDD;border-bottom:0;padding:3px;text-align:center;}.gpTable th{border-top:1px solid #BBB;background-color:#F7F7F7;}.gpTable tr.firstRow th{border-top-width:2px;}.ue-table-interlace-color-single{ background-color: #fcfcfc; } .ue-table-interlace-color-double{ background-color: #f7faff; }td p{margin:0;padding:0;} th p{margin:0;padding:0;}blockquote {padding: 0 0 0 15px;margin: 0 0 18px;border-left: 5px solid #EEE;} 

@@ -1,0 +1,69 @@
+{
+  "name": "徐州医科大学",
+  "tier": "从容区",
+  "gate": 296,
+  "region": "江苏",
+  "candidates": [
+    {
+      "title": "徐州医科大学2027年公共管理硕士（MPA）招生简章-徐州医科大学MPA中心",
+      "url": "https://mpa.xzhmu.edu.cn/info/1003/1289.htm"
+    },
+    {
+      "title": "徐州医科大学招生官网（查找2027目录）",
+      "url": "https://yjs.xzhmu.edu.cn/zs/sszs.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "徐州医科大学2027年公共管理硕士（MPA）招生简章-徐州医科大学MPA中心",
+      "url": "https://mpa.xzhmu.edu.cn/info/1003/1289.htm",
+      "effective_url": "https://mpa.xzhmu.edu.cn/info/1003/1289.htm",
+      "path": "docs/admissions/2027/徐州医科大学/page-aba520de76.html",
+      "sha256": "dbd26c964f3ddaef4c75e5018def699a2b1ca5721fff8631fccc2df648f9a865",
+      "bytes": 19730
+    },
+    {
+      "title": "徐州医科大学招生官网（查找2027目录）",
+      "url": "https://yjs.xzhmu.edu.cn/zs/sszs.htm",
+      "effective_url": "https://yjs.xzhmu.edu.cn/zs/sszs.htm",
+      "path": "docs/admissions/2027/徐州医科大学/page-036dcc2a55.html",
+      "sha256": "c275c4c86ae0410fd6b58c625c6724af54cbf0489faf443567b0958598f1d05a",
+      "bytes": 30093
+    },
+    {
+      "title": "徐州医科大学2027年硕士研究生招生简章 09-302026 徐州医科大学2027年硕士研究生招生简章 查看更多",
+      "url": "https://yjs.xzhmu.edu.cn/info/1247/7238.htm",
+      "effective_url": "https://yjs.xzhmu.edu.cn/info/1247/7238.htm",
+      "path": "docs/admissions/2027/徐州医科大学/page-65a25b5b85.html",
+      "sha256": "27784ca11e88fc140f9bbea78ef39e10bcbb5a24ab017219eaedabdaaf80f5de",
+      "bytes": 24974
+    }
+  ],
+  "files": [
+    {
+      "title": "徐州医科大学2027年招生章程",
+      "url": "https://yjs.xzhmu.edu.cn/__local/5/9D/60/C72F5817FC2F99DBF6520FC6F56_46B7D414_38091.pdf",
+      "path": "docs/admissions/2027/徐州医科大学/徐州医科大学2027年招生章程.pdf",
+      "sha256": "8a6d43c9cae9f44c8d948042d5615a2818433b4a080a0fa03a19e9d55d086594",
+      "bytes": 229521,
+      "kind": "original"
+    },
+    {
+      "title": "附件1：2027年硕士研究生招生专业目录.pdf",
+      "url": "https://yjs.xzhmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1964998066&wbfileid=43CCF3F2202846AFB2AE6B575F4FBED9",
+      "path": "docs/admissions/2027/徐州医科大学/附件1：2027年硕士研究生招生专业目录.pdf",
+      "sha256": "275b1eddc6254b976e5a6f4db56dc32d87186303c2e7652c53d7de5eacf865e0",
+      "bytes": 748169,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjs.xzhmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1964998066&wbfileid=6C96202CC9FC7FAAB411B4A3E4FE858A",
+      "title": "附件2：2027年硕士招生考试参考范围.pdf",
+      "error": "attachment response has no recognized file signature"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

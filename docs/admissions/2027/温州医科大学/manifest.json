@@ -1,0 +1,71 @@
+{
+  "name": "温州医科大学",
+  "tier": "从容区",
+  "gate": 295,
+  "region": "浙江",
+  "candidates": [
+    {
+      "title": "温州医科大学招生官网（查找2027目录）",
+      "url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/index/2027"
+    },
+    {
+      "title": "温州医科大学招生官网（查找2027目录）",
+      "url": "https://yjsy.wmu.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "温州医科大学招生官网（查找2027目录）",
+      "url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/index/2027",
+      "effective_url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/index/2027",
+      "path": "docs/admissions/2027/温州医科大学/page-c6351f0864.html",
+      "sha256": "70734292dcccee7e3543444ca7683b946269459821a571293887ec5d153593d4",
+      "bytes": 3308
+    },
+    {
+      "title": "温州医科大学招生官网（查找2027目录）",
+      "url": "https://yjsy.wmu.edu.cn/",
+      "effective_url": "https://yjsy.wmu.edu.cn/",
+      "path": "docs/admissions/2027/温州医科大学/page-a66d00b340.html",
+      "sha256": "c687f4dc1b7dd02f39faad5c123a1f45bce02b79f9e132c3f74fb1051c46b3ba",
+      "bytes": 74020
+    },
+    {
+      "title": "温州医科大学2027年硕士研究生招生简章温州医科大学2027年硕士研究生招生简章",
+      "url": "https://yjsy.wmu.edu.cn/info/2481/164024.htm",
+      "effective_url": "https://yjsy.wmu.edu.cn/info/2481/164024.htm",
+      "path": "docs/admissions/2027/温州医科大学/page-eea74e5b0b.html",
+      "sha256": "24c26a12644891c46580d19325882bfbcccd6db764da68a42c52780b9bd5de3a",
+      "bytes": 42989
+    }
+  ],
+  "files": [
+    {
+      "title": "温州医科大学2027年105118目录-001",
+      "url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/zsmlYjfx/2027/001/105118?ksfs=21",
+      "path": "docs/admissions/2027/温州医科大学/温州医科大学2027年105118目录-001.html",
+      "bytes": 3192,
+      "sha256": "736120559670545c3a567cf3e85282e20a9764a22195e48e390b49a22d771034",
+      "kind": "official_web_catalogue"
+    },
+    {
+      "title": "温州医科大学2027年105118目录-002",
+      "url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/zsmlYjfx/2027/002/105118?ksfs=21",
+      "path": "docs/admissions/2027/温州医科大学/温州医科大学2027年105118目录-002.html",
+      "bytes": 3238,
+      "sha256": "af2e87a3561c1663fd92848ab444871dfc18175d9b70ef869c82aa2442a88f6e",
+      "kind": "official_web_catalogue"
+    },
+    {
+      "title": "温州医科大学2027年105118目录-102",
+      "url": "https://yjszs.wmu.edu.cn/yzbm/zsml/sszsml/zsmlYjfx/2027/102/105118?ksfs=21",
+      "path": "docs/admissions/2027/温州医科大学/温州医科大学2027年105118目录-102.html",
+      "bytes": 3193,
+      "sha256": "130b94c3d315ed52370bb13bbd4e157fe84fabb4fdbb5bb58a83506b646faa50",
+      "kind": "official_web_catalogue"
+    }
+  ],
+  "failures": [],
+  "status": "已归档官方网页目录",
+  "checked_at": "2026-10-18"
+}

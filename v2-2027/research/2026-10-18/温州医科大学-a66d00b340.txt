@@ -1,0 +1,1955 @@
+﻿ 
+ 
+ 
+ 研究生院、研究生工作部（新） 
+ 
+ 
+
+
+ 
+ 
+
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1001,'/index.jsp',-1,1372640907) 
+ 
+ 
+     
+ 
+         
+
+
+          
+             
+               
+         
+        
+     
+
+
+
+
+
+
+
+
+                
+                 
+             
+              
+                 
+                    
+                           
+   温医主页        我的医大        院长信箱        旧版入口 
+                
+                 
+               
+               
+                 
+
+
+
+ 
+ 
+
+ 
+ 
+    <div id="appu1" class="jdjs_app">
+        <div >
+            <input type="text" class="qwss txt fl" placeholder="" autocomplete=off onkeyup="keyUpFunu1(event)"/>         
+            <input class="tj btns" name="submit_button"  type="button" value=""  onclick="onSubmitu1()"/>
+          
+        </div>        
+    </div>
+ 
+
+ 
+   var appElementu1 = document.querySelector("#appu1");
+   if (appElementu1 && appElementu1.__vue__) {
+
+   } else {
+      $("#divu1").html($("#htmlu1").text());
+      var appOwner = "1372640907";   
+      var urlPrefix = "/aop_component/";
+      var ifLogin="false";
+      var token = ifLogin=='true'?gettoken(10, true).trim():'tourist';
+      if (containsHtmlTags(token) || !token) { 
+         token = 'tourist';
+      }
+      jQuery.support.cors = true;
+      $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+      });
+      var queryInfou1 = {
+        query: {
+            keyWord: "",//搜索关键词
+            owner: appOwner,
+            token: token,
+            urlPrefix: urlPrefix,
+            lang:"i18n_zh_CN"
+        },
+        isError: false
+      };
+      function keyUpFunu1(e){
+        var theEvent = e || window.event;
+        var keyCode = theEvent.keyCode || theEvent.which || theEvent.charCode;
+        if(keyCode == 13){
+          onSubmitu1();
+        }
+      };
+
+      function onSubmitu1(e) {
+        queryInfou1.query.keyWord= $("#appu1  .qwss").val();
+        
+        var url = "/aop_views/search/modules/resultpc/soso.html";      
+        if ("10" == "1" || "10" == "2") {
+           url = "" + url;
+        }
+        var query = queryInfou1.query;
+        if (url.indexOf("?") > -1) {
+            url = url.split("?")[0];
+        }
+        if (query.keyWord) {
+            var query = new Base64().encode(JSON.stringify(query));
+            window.open(url + "?query=" + query);
+        } else {
+            alert("请填写搜索内容")
+        }
+      };
+   }
+ 
+                 
+
+             
+
+ 
+
+
+
+ 
+   
+
+
+         
+
+         
+             
+                 
+                        
+ 
+                         
+
+
+                     
+
+  
+                  
+      
+                       
+                              首页 
+  
+
+  
+       部门总览 
+
+     
+             部门简介 
+
+
+ 
+             机构设置 
+
+
+ 
+             学位点设置 
+
+
+ 
+             光荣榜 
+
+
+ 
+
+     
+
+
+  
+
+  
+       党建思政 
+
+     
+             党建领航 
+
+
+ 
+             教育管理 
+
+
+ 
+             辅导员之家 
+
+
+ 
+             党建学习园地 
+
+
+ 
+
+     
+
+
+  
+
+  
+       招生工作 
+
+     
+             通知公告 
+
+
+ 
+             专业简介 
+
+
+ 
+             招生简章 
+
+
+ 
+             硕士招生 
+
+
+ 
+             博士招生 
+
+
+ 
+             港澳台招生 
+
+
+ 
+             历年数据 
+
+
+ 
+             导师风采 
+
+
+ 
+
+     
+
+
+  
+
+  
+       培养工作 
+
+     
+             通知公告 
+
+
+ 
+             出国公示 
+
+
+ 
+             培养过程 
+
+
+ 
+             课程安排 
+
+
+ 
+             考试安排 
+
+
+ 
+             质量工程 
+
+
+ 
+             教学成果 
+
+
+ 
+
+     
+
+
+  
+
+  
+       学位工作 
+
+     
+             通知公告 
+
+
+ 
+             学位申请 
+
+
+ 
+             答辩公告 
+
+
+ 
+             优秀论文及优秀创新成果 
+
+
+ 
+             导师队伍 
+
+
+ 
+             学位点建设 
+
+
+ 
+
+     
+
+
+  
+
+  
+       学科建设 
+
+     
+             通知公告 
+
+
+ 
+             学科资讯 
+
+
+ 
+             重点学科 
+
+
+ 
+             政策文件 
+
+
+ 
+             学科排名 
+
+
+ 
+
+     
+
+
+  
+
+  
+       研究生工作 
+
+     
+             通知公告 
+
+
+ 
+             党建思政 
+
+
+ 
+             资助工作 
+
+
+ 
+             就业服务 
+
+
+ 
+             国际交流 
+
+
+ 
+             创新创业 
+
+
+ 
+             校园文化 
+
+
+ 
+             研究生会 
+
+
+ 
+
+     
+
+
+  
+
+  
+       在职研究生 
+
+     
+             通知公告 
+
+
+ 
+             招生简章 
+
+
+ 
+             课程安排 
+
+
+ 
+             考试安排 
+
+
+ 
+             学位申请 
+
+
+ 
+
+     
+
+
+  
+
+  
+       服务指南 
+
+     
+             资料下载 
+
+
+ 
+             规章制度 
+
+
+ 
+
+     
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+                      
+                       
+                       
+                        
+
+ 
+                       
+                         
+                                                            
+                             
+ 
+
+ 
+                       
+                         
+                                                            
+                             
+                
+                 
+                
+
+
+
+                   
+                
+
+
+             
+
+         
+
+
+
+
+         
+       
+        
+     
+
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+         
+
+
+          
+    
+         
+              
+                   
+                
+                 
+     
+ 
+                
+                
+              
+                
+                
+                 
+     
+ 
+                
+                
+              
+                
+       
+    
+                
+                 
+     
+ 
+                
+                
+              
+                
+                
+                 
+     
+ 
+                
+                
+              
+                
+       
+    
+                
+                 
+     
+ 
+                
+                
+              
+                
+                
+                 
+     
+ 
+                
+                
+              
+                
+       
+    
+                
+                 
+     
+ 
+                
+                
+              
+                
+                
+                 
+     
+ 
+                
+                
+              
+                
+       
+    
+                
+                 
+     
+ 
+                
+                
+              
+                
+                
+                 
+     
+ 
+                
+                
+              
+                
+       
+    
+                
+                 
+     
+ 
+                
+                
+              
+                
+       
+              
+              
+         
+
+
+
+
+         
+
+
+     
+
+        
+          
+             
+              
+                
+    
+
+
+    
+    
+    
+         
+
+
+
+           
+          
+if($(window).width()>1024)
+{
+           // $(".top_body").height($(window).height()+"px");
+
+
+}
+else
+{
+
+    $(".top_body").height($('#products').height()+40+"px");$("#ln").css("display","none");
+}
+$(window).on('load',function(){
+    
+    
+    
+                jQuery('#products').slides({
+                    preload: true,
+                    preloadImage: '/xb/images/loading.gif',
+                    generateNextPrev: true,
+                    hoverPause: true,
+                    effect: 'fade',
+    
+                    crossfade: true,
+                    play: 3000,
+                    pause: 2500,
+                    slidesLoaded: function () {
+                     if($(window).width()>1024)
+{
+           
+
+
+}
+else
+{
+
+    $("#ln").css("display","block");
+}
+      
+                        jQuery('.caption').animate({
+                            bottom: 0
+                        }, 200);
+                    }
+                });
+    
+            });
+         
+    
+    
+     
+
+
+
+
+
+
+ 
+
+   
+
+
+ 
+
+
+
+
+ 
+
+     
+         
+ 
+     
+     
+        新闻动态
+       
+          
+      
+         
+
+        
+        
+        查看更多 —— 
+      
+        
+     
+     
+
+         新闻动态 
+         
+            
+
+     
+     
+
+
+
+        
+  
+
+  
+                 28 2026-09 
+                 温医大研究生培养基地2026级新生“研途开讲啦”第一讲开讲 
+ 
+
+            
+             
+  
+
+  
+                 12 2026-09 
+                 学校举办医教协同促进研究生教育高质量发展研讨会 
+ 
+
+            
+             
+   
+  
+     
+
+ _showDynClickBatch(['dynclicks_u5_163934','dynclicks_u5_163634'],[163934,163634],"wbnews", 1372640907) 
+
+           
+        
+         
+                温医大90名学者入选2026“全球前2%顶尖科学家榜单” 2026-10-09 
+
+   温医大研究生培养基地2026级新生“研途开讲啦”第一讲开讲 2026-09-28 
+
+   学校举办医教协同促进研究生教育高质量发展研讨会 2026-09-12 
+
+   温医大承办2026年全国医科院校研究生院联盟学术会议 2026-08-22 
+
+   温医大举行2026届毕业研究生专场心愿会 2026-06-30 
+
+   温州医科大学金华市医疗卫生人才专场交流合作对接座谈会举行 2026-06-10 
+
+   深耕校院合作 赋能医学人才 共建就业实践新阵地——温州医科大学与台州市中心医院开展党团联建暨就业实践基地共建活动 2026-05-25 
+
+   我校在全国临床医学学科建设及研究生教育高质量发展研讨会暨研究生导师培训班上分享导师队伍建设经验 2026-05-21 
+
+   2026年全国研究生学位论文质量监测研讨班在温州开班 2026-04-04 
+
+   我校承办2026年《学位与研究生教育》通讯员工作会议 2026-03-28 
+
+   温州医科大学“十四五”发展专题成果展 ——研究生教育篇 2026-03-24 
+
+   深化校院融合 共育医学英才 ——副校长朱雪波、林丽带队赴研究生培养基地开展调研指导工作 2026-03-16 
+
+   学校召开学位与研究生教育例会暨2025年度工作交流会 2026-02-02 
+
+   以导学思政新格局赋能医学研究生培养 ——我校举行2025年研究生教育表彰大会暨研究生导师培训会 2025-12-24 
+
+   千余名师生同步开跑！温医大第二届研究生环校园跑圆满落幕 2025-11-30 
+
+   我校与福建医科大学联合承办全国医科院校研究生院联盟数智化时代博士研究生教育高质量发展论坛 2025-11-25 
+
+   市委常委会会议专题研究温州医科大学工作 2025-10-24 
+
+   8个学科上榜，我校“2025软科中国最好学科排名”再进一步! 2025-10-15 
+
+   我校研究生培养基地2025级新生“研途开讲啦”第一讲开讲 2025-09-27 
+
+   2025年度研究生培养基地研究生教育管理工作研讨会顺利召开 2025-09-27 
+
+ _showDynClickBatch(['dynclicks_u6_164094','dynclicks_u6_163934','dynclicks_u6_163634','dynclicks_u6_163264','dynclicks_u6_162454','dynclicks_u6_162014','dynclicks_u6_161674','dynclicks_u6_161644','dynclicks_u6_160334','dynclicks_u6_160244','dynclicks_u6_160043','dynclicks_u6_159853','dynclicks_u6_159332','dynclicks_u6_158701','dynclicks_u6_158261','dynclicks_u6_158041','dynclicks_u6_157251','dynclicks_u6_156891','dynclicks_u6_156081','dynclicks_u6_156181'],[164094,163934,163634,163264,162454,162014,161674,161644,160334,160244,160043,159853,159332,158701,158261,158041,157251,156891,156081,156181],"wbnews", 1372640907) 
+
+          
+             
+
+
+
+
+
+             
+
+                更多> 
+
+  
+  
+           
+
+
+
+ 
+  
+
+ 
+
+ 
+     
+         
+            快捷入口
+           
+             
+        
+         
+
+         
+             
+                  研究生管理信息系统 
+                 
+             
+
+             
+                  招生服务系统 
+                 
+             
+
+             
+                  导师风采 
+                 
+             
+            
+             
+                 研究生培养基地 
+                 
+             
+            
+             
+                 研究生培养基地(宁波) 
+                 
+             
+            
+
+
+             
+
+
+ 
+
+  
+     
+
+    
+    
+ 
+     
+         
+            通知公告
+           
+              
+               招生 
+               |   
+             培养 
+               |   
+             学位 
+               |   
+             研工 
+               |   
+             学科 
+               |   
+             在职研究生 
+    
+            
+            
+            查看更多 —— 
+            查看更多 —— 
+            查看更多 —— 
+            查看更多 —— 
+            查看更多 —— 
+            查看更多 —— 
+          
+            
+         
+
+  
+     
+ 
+      
+         
+
+             招生 
+             
+                
+
+  
+                     15 2026-10 
+                     
+                         温州医科大学关于2027年硕士研究生网上报名信息审核结果的公告（数据截至2026年10月13日上午8:30） 
+
+                        
+                     
+                 
+
+
+  
+  
+                     10 2026-10 
+                     
+                         温州医科大学2027年硕士研究生招生问答 
+
+                        
+                     
+                 
+
+
+  
+  
+                     30 2026-09 
+                     
+                         温州医科大学2027年硕士研究生招生简章 
+
+                        
+                     
+                 
+
+
+  
+  
+                     26 2026-09 
+                     
+                         温州医科大学关于2027年硕士研究生招生咨询的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     20 2026-09 
+                     
+                         温州医科大学关于2027年推荐免试研究生（含直博生）报名系统开放时间的通知（10月12日更新） 
+
+                        
+                     
+                 
+
+
+  
+  
+                     20 2026-09 
+                     
+                         温州医科大学2027年各培养单位推荐免试研究生（含直博生）面试通知（10月10日更新） 
+
+                        
+                     
+                 
+
+
+  
+ _showDynClickBatch(['dynclicks_u7_164244','dynclicks_u7_164134','dynclicks_u7_164024','dynclicks_u7_163894','dynclicks_u7_163824','dynclicks_u7_163794'],[164244,164134,164024,163894,163824,163794],"wbnews", 1372640907) 
+
+
+
+              
+
+                 
+                    更多> 
+
+  
+
+
+                 培养 
+                 
+                    
+                      
+                     16 2026-10 
+                     
+                         关于10月29日-10月31日研究生课程调整的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     16 2026-10 
+                     
+                         关于10月20日《高级医学影像学（英文）》课程调整的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     12 2026-10 
+                     
+                         关于2026级全日制研究生《数智检验医学》开课的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     08 2026-10 
+                     
+                         关于2026-2027学年第一学期《实验室安全与管理》课程考试的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     29 2026-09 
+                     
+                         关于10月19日《急诊医学进展》课程调整的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     28 2026-09 
+                     
+                         关于开展2026-2027学年第一学期研究生教学检查工作的通知 
+
+                        
+                     
+                 
+
+
+  
+ _showDynClickBatch(['dynclicks_u8_164294','dynclicks_u8_164284','dynclicks_u8_164174','dynclicks_u8_164074','dynclicks_u8_164004','dynclicks_u8_163924'],[164294,164284,164174,164074,164004,163924],"wbnews", 1372640907) 
+
+                     
+                        更多> 
+    
+  
+
+
+   
+  学位 
+  
+           
+                     13 2026-10 
+                     
+                         关于开展2026年博导信息采集工作的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     21 2026-07 
+                     
+                         关于开展2026年校级学位论文与实践成果抽检工作的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     13 2026-07 
+                     
+                         关于做好2026年下半年同等学力在职申请硕士学位人员进入学位论文阶段资格审查工作的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     13 2026-07 
+                     
+                         关于做好2026年下半年研究生学位论文评阅工作的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     13 2026-07 
+                     
+                         关于做好温州医科大学2026年度自命题学科综合水平考试缴费工作及考试安排的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     08 2026-07 
+                     
+                         关于开展2026年温州医科大学优秀学位论文和实践成果评选工作的通知 
+
+                        
+                     
+                 
+
+
+  
+ _showDynClickBatch(['dynclicks_u9_164184','dynclicks_u9_163094','dynclicks_u9_162864','dynclicks_u9_162844','dynclicks_u9_162954','dynclicks_u9_162654'],[164184,163094,162864,162844,162954,162654],"wbnews", 1372640907) 
+
+   
+      
+         更多> 
+
+ 
+  
+ 研工 
+ 
+       
+                     10 2026-10 
+                     
+                         @2027届毕业生，就业协议书（三方协议）签约全攻略请仔细阅读！ 
+
+                        
+                     
+                 
+
+
+  
+  
+                     17 2026-09 
+                     
+                         关于做好2026年研究生学业奖学金评审工作的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     17 2026-09 
+                     
+                         关于做好2026年研究生国家奖学金评审工作的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     10 2026-09 
+                     
+                         关于做好2026-2027学年家庭经济困难研究生认定工作的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     10 2026-09 
+                     
+                         关于2027年研究生医疗保险投保的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     10 2026-09 
+                     
+                         关于开展2026-2027学年新生（就读地）国家助学贷款工作的通知 
+
+                        
+                     
+                 
+
+
+  
+ _showDynClickBatch(['dynclicks_u10_164164','dynclicks_u10_163724','dynclicks_u10_163694','dynclicks_u10_163604','dynclicks_u10_163594','dynclicks_u10_163574'],[164164,163724,163694,163604,163594,163574],"wbnews", 1372640907) 
+
+
+     
+        更多> 
+
+ 
+
+
+
+ 
+ 学科 
+ 
+     
+        
+                     09 2026-10 
+                     
+                         关于做好2026年学科建设经费预算工作的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     22 2026-09 
+                     
+                         关于自然大师课堂—空中课堂开课的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     24 2026-03 
+                     
+                         关于报送2025年度学科建设工作总结及2026年度学科建设工作计划的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     09 2026-03 
+                     
+                         关于推选温州医科大学第四届学术委员会委员候选人的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     25 2025-09 
+                     
+                         自然大师课堂-空中课堂：送给温医大师生的专属福利 
+
+                        
+                     
+                 
+
+
+  
+  
+                     16 2025-09 
+                     
+                         关于开展2025年度温州医科大学省登峰学科（药学）学科交叉研究项目申报的通知 
+
+                        
+                     
+                 
+
+
+  
+ _showDynClickBatch(['dynclicks_u11_164084','dynclicks_u11_163754','dynclicks_u11_159903','dynclicks_u11_159703','dynclicks_u11_155891','dynclicks_u11_155421'],[164084,163754,159903,159703,155891,155421],"wbnews", 1372640907) 
+
+  
+ 
+
+     
+        更多> 
+
+ 
+
+
+
+ 在职研究生 
+ 
+    
+  
+                     04 2026-09 
+                     
+                         关于公布2026年度同等学力自命题考试成绩的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     13 2026-07 
+                     
+                         关于做好2026年下半年同等学力在职申请硕士学位人员进入学位论文阶段资格审查工作的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     13 2026-07 
+                     
+                         关于做好温州医科大学2026年度自命题学科综合水平考试缴费工作及考试安排的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     08 2026-07 
+                     
+                         关于2025-2026学年第二学期同等学力申请硕士学位学员期末考试调整的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     03 2026-07 
+                     
+                         温州医科大学2026年度自命题学科综合水平考试报名的通知 
+
+                        
+                     
+                 
+
+
+  
+  
+                     23 2026-06 
+                     
+                         关于2025-2026学年第二学期同等学力申请硕士学位学员期末考试安排的通知 
+
+                        
+                     
+                 
+
+
+  
+ _showDynClickBatch(['dynclicks_u12_163464','dynclicks_u12_162874','dynclicks_u12_162964','dynclicks_u12_162684','dynclicks_u12_162484','dynclicks_u12_162254'],[163464,162874,162964,162684,162484,162254],"wbnews", 1372640907) 
+
+     
+        更多> 
+
+ 
+
+
+ 
+
+
+
+         
+
+
+ 
+
+
+    
+    
+
+    
+    
+     
+     
+
+    
+    
+     
+         
+            办事服务
+           
+             
+            
+            查看更多 —— 
+          
+            
+         
+         办事服务 
+         
+
+
+
+        
+           
+                 
+     
+     研究生成绩单 
+ 
+                 
+     
+     导师培训证明 
+ 
+                 
+     
+     同等学力在读证明 
+ 
+                 
+     
+     研究生在读证明 
+ 
+                 
+     
+     导师带教证明 
+ 
+                 
+     
+     在职博士在读证明 
+ 
+       
+
+    
+       $(' .slick').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    focusOnSelect: true,
+    arrows: true,
+    autoplay:true,
+    autoplaySpeed:3000,
+    lazyLoad:'progressive',
+    dots: true
+  });
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+    资料下载 
+   |   
+ 办事流程 
+
+ 
+     资料下载 
+     
+    
+      
+  学位相关下载 
+  培养相关下载 
+  研工相关下载 
+  学科相关下载 
+  招生相关下载 
+ _showDynClickBatch(['dynclicks_u14_151581','dynclicks_u14_151551','dynclicks_u14_151571','dynclicks_u14_151591','dynclicks_u14_151541'],[151581,151551,151571,151591,151541],"wbnews", 1372640907) 
+
+        
+         
+            更多> 
+
+
+         办事流程 
+         
+                     
+  研究生工作流程 
+  招生办工作流程 
+  培养办工作流程 
+  学位办工作流程 
+  学科办工作流程 
+  日常办公流程 
+ _showDynClickBatch(['dynclicks_u15_84911','dynclicks_u15_84921','dynclicks_u15_84931','dynclicks_u15_84941','dynclicks_u15_84951','dynclicks_u15_84961'],[84911,84921,84931,84941,84951,84961],"wbnews", 1372640907) 
+
+             
+                更多> 
+
+
+ 
+
+
+ 
+
+    
+
+       更多> 
+
+         
+
+
+    
+
+    
+   
+
+     
+         
+            研工风采
+           
+             
+            
+            查看更多 —— 
+          
+            
+         
+ 研工风采 
+ 
+  
+
+
+
+
+      
+
+   
+         
+     温医大研究生培养基地2026级新生“研途开讲啦”第一... 
+
+         26-09-28 
+     
+
+
+
+
+
+
+   
+         
+     温医大举行2026届毕业研究生专场心愿会 
+
+         26-06-30 
+     
+
+
+
+
+ _showDynClickBatch(['dynclicks_u16_163944','dynclicks_u16_162464'],[163944,162464],"wbnews", 1372640907) 
+
+
+
+
+
+
+    更多> 
+   
+    
+ 
+     
+
+    
+ 
+ 
+
+     自然大师 
+   
+     机构知识库 
+
+     学科系统 
+
+     学位评定委员会 
+
+     研究生教育学科专业指导委员会 
+
+     学术委员会 
+
+ 
+ 
+
+   
+     
+
+    
+    
+
+ 
+
+
+ 
+
+ 
+     
+             
+         
+      
+       
+           研究生培养基地 
+
+
+
+ 
+          
+
+ 二级学院链接 
+
+
+ 基础医学院（机能实验教学中心） 
+ 检验医学院（生命科学学院、 生物学实验教学中心） 
+ 药学院（分析测试中心） 
+ 护理学院 
+ 公共卫生学院 
+ 马克思主义学院（哲学社会科学部） 
+ 体育科学部 
+ 外国语学院 
+ 第一临床医学院（信息与工程学院） 
+ 第二临床医学院 
+ 眼视光学院（生物医学工程学院） 
+ 口腔医学院 
+ 国际教育学院 
+ 仁济学院 
+ 精神医学学院 
+ 创新创业教育学院 
+ 阿尔伯塔学院 
+ 康复医学院 
+ 中医药学院 
+ 医学人文与管理学院 
+
+ 
+                 
+
+
+ 上级管理部门 
+
+
+ 中华人民共和国教育部 
+ 国家留学网 
+ 浙江省教育厅 
+
+ 
+          
+         
+        
+        
+        
+        
+        
+  
+ 
+     
+      
+
+        
+        
+        
+         
+  
+         
+            CopyRight © 2024 温州医科大学党委研究生工作部、研究生院版权所有 技术支持：麦拓信息技术
+         
+          
+ 
+
+
+
+ 
+ 
+
+    var bannerjr = new Array();
+    var bannerjrlink = new Array();
+    var jrNum = 0;
+bannerjr[0]='xb/images/yzxxs.png'; bannerjrlink[0]='https://yjsy.wmu.edu.cn/yzxx.htm';
+
+ 
+    var prelojredimages = new Array();
+    for (i = 0; i < bannerjr.length; i++) {
+        prelojredimages[i] = new Image();
+        prelojredimages[i].src = bannerjr[i];
+    }
+    function zqjsetTransition() {
+        if (document.all) {
+            bannerjrrotator.filters.revealTrans.Transition = Math.floor(Math.random() * 23);
+            bannerjrrotator.filters.revealTrans.apply();
+        }
+    }
+    function zqjplayTransition() {
+        if (document.all)
+            bannerjrrotator.filters.revealTrans.play()
+    }
+    function nextjr() {
+        if (jrNum < bannerjr.length - 1) jrNum++;
+        else jrNum = 0;
+        zqjsetTransition();
+        document.images.bannerjrrotator.src = bannerjr[jrNum];
+        zqjplayTransition();
+        theTimer = setTimeout("nextjr()", 4000);
+    }
+    function zqjjump2url() {
+        jumpUrl = bannerjrlink[jrNum];
+        jumpTarget = '_blank';
+        if (jumpUrl != '') {
+            if (jumpTarget != '') window.open(jumpUrl, jumpTarget);
+            else location.href = jumpUrl;
+        }
+    }
+    function zqjdisplayStatusMsg() {
+        status = bannerjrlink[jrNum];
+        document.returnValue = true;
+    }
+    function closeDiv(id) {
+        var o = document.getElementById(id);
+        o.style.display = "none";
+    }
+
+    
+
+
+
+ 
+   function hidead()
+   { document.getElementById("ad").style.display = "none"; }
+ 
+
+
+ 
+     
+     × 
+     
+                                            nextjr() 
+        
+     
+
+
+    
+    var x = 50, y = 60;
+    var xin = true, yin = true;
+    var step = 0.3;
+    var delay = 9;
+    function floatAD() {
+        var l = t = 0;
+        var r = document.documentElement.clientWidth - document.getElementById("ad").offsetWidth;
+        var b = document.documentElement.clientHeight - document.getElementById("ad").offsetHeight;
+        document.getElementById("ad").style.left = x + document.documentElement.scrollLeft + "px";
+        document.getElementById("ad").style.top = y + document.documentElement.scrollTop + "px";
+        x = x + step * (xin ? 1 : -1);
+        if (x < l)
+        { xin = true; x = l; }
+        if (x > r)
+        { xin = false; x = r; }
+        y = y + step * (yin ? 1 : -1);
+        if (y < t)
+        { yin = true; y = t; }
+        if (y > b)
+        { yin = false; y = b; } 
+    }
+    var itl = setInterval("floatAD()", delay);
+ 
+ 
+ 
+ 
+  setTimeout(function() {
+       hidead();
+    }, 250000);
+ 
+ 
+ 
+    $('#ad').hover(function() {
+    
+     clearInterval(itl)
+    // 当鼠标移入时要执行的代码
+ }, function() {
+     itl = setInterval("floatAD()", delay) 
+    // 当鼠标移出时要执行的代码
+ });
+ 
+ 
+   
+ 
+
+ 
+
+
+ 
+ 
+ 
+
+
+
+$(function(){
+
+   $('.lists  .imglist .imgs').each(function(index) {
+       var _id= $(this).attr("data-id") ;
+
+   $('.lists  .tllist ul').each(function(index) {
+       
+            if($(this).attr("data-id")==_id)
+            {
+                $(this).remove();
+            }
+        
+    });
+
+
+    });
+
+   $('.lists  .tllist ul').each(function(index) {
+        if (index < 3) { 
+            $(this).css('display', 'block'); // 显示
+        }
+    });
+
+    $(".xw .tm .tl2 div").each(function (index) {
+            $(this).hover(function () {
+                $(".xw .lists .ds").addClass("hide");
+                $(".xw .me a").addClass("hide");
+                $(".xw .tm .tl2 div").removeClass("s");
+                $(".xw .lists .ds").eq(index).removeClass("hide");
+                $(".xw .me a").eq(index).removeClass("hide");
+                $(this).addClass("s")
+            });
+        })
+        $(".tzgg .tm .tl2 div").each(function (index) {
+            $(this).hover(function () {
+                $(".tzgg .lists .ds").addClass("hide");
+                $(".tzgg .me a").addClass("hide");
+                $(".tzgg .tm .tl2 div").removeClass("s");
+                $(".tzgg .lists .ds").eq(index).removeClass("hide");
+                $(".tzgg .me a").eq(index).removeClass("hide");
+                $(this).addClass("s")
+            });
+        })
+        $(".zlxz .tl div").each(function (index) {
+            $(this).hover(function () {
+                $(".zlxz .cv .ds").addClass("hide");
+              
+                $(".zlxz .tl div").removeClass("s");
+                $(".zlxz .cv .ds").eq(index).removeClass("hide");
+             
+                $(this).addClass("s")
+            });
+        })
+        
+
+
+        if ($(window).width() < 1024) {
+            $("#logo").attr('src', "xb/images/logo_w.png"); $('#ln').removeClass('ln').addClass('lns2');
+        }
+
+
+$(window).on('scroll', function(){
+    animate();
+
+
+if($(window).width()>1024)
+{
+    
+}
+else
+{
+    if($(window).scrollTop() >  20){
+      
+        
+        $("#logo").attr('src', "xb/images/logo_w.png");
+                $('#ln').removeClass('ln').addClass('lns2');
+                if ($(window).scrollTop() > 20) {
+               
+
+                  //  $('.guide ').fadeIn(300);
+                 
+                } else {
+                    //$('#ln').removeClass('lns2').addClass('ln');
+                    //$("#logo").attr('src',"xb/images/logo_w.png");
+                  //  $('.guide').fadeOut(300);
+
+                }
+        
+    }
+}
+
+});
+
+function animate() {
+        var a = $(".c1").offset().top; //元素到浏览器顶部的距离
+ var b= $(".c2").offset().top;
+ var c= $(".c3").offset().top;
+
+ 
+
+        if (a >= $(window).scrollTop() && a < ($(window).scrollTop() + $(window).height())) { //页面上拉元素出现在可视化区域
+        $('.xw').addClass('animated fadeInLeft');            
+        $('.links').addClass('animated fadeInRight');            
+        }
+
+
+  if (b >= $(window).scrollTop() && b < ($(window).scrollTop() + $(window).height())) { //页面上拉元素出现在可视化区域
+   
+         $('.c2 ').addClass('animated fadeInLeft');            
+
+
+    }
+
+    if (c >= $(window).scrollTop() && c < ($(window).scrollTop() + $(window).height())) { //页面上拉元素出现在可视化区域
+   
+        $('.bsfw').addClass('animated fadeInLeft');            
+        $('.ygfc').addClass('animated fadeInRight');            
+        $('.links2').addClass('animated zoomIn');        
+}
+
+
+
+
+    }
+
+});
+var now = new Date();
+var time = now.getFullYear() +((now.getMonth()+1)<10?"0":"")+(now.getMonth()+1)+(now.getDate()<10?"0":"")+now.getDate();
+
+
+console.log(' url(xb/images/'+time+'.JPG?act=1) ');
+
+
+ 

@@ -1,0 +1,74 @@
+{
+  "name": "南通大学",
+  "tier": "稳健区",
+  "gate": 301,
+  "region": "江苏",
+  "candidates": [
+    {
+      "title": "南通大学2027年硕士研究生招生章程、专业目录和考试科目",
+      "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/page.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "南通大学2027年硕士研究生招生章程、专业目录和考试科目",
+      "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/page.htm",
+      "effective_url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/page.htm",
+      "path": "docs/admissions/2027/南通大学/page-f0f0319355.html",
+      "sha256": "f899797a3d7f8c702777ba84adbb167798c07752acdae55e97f47178a9c584a0",
+      "bytes": 17678
+    }
+  ],
+  "files": [
+    {
+      "title": "0-南通大学2027年硕士研究生招生章程.pdf",
+      "url": "https://yjszs.ntu.edu.cn/_upload/article/files/5f/40/740bdfc344b1a636306a7c0676e7/9546458d-791b-49fe-bfde-edde42a68d40.pdf",
+      "path": "docs/admissions/2027/南通大学/0-南通大学2027年硕士研究生招生章程.pdf",
+      "sha256": "142de8cf8983b5185d846877e2161771e41ee8dbc10e215e830090929f942946",
+      "bytes": 294861,
+      "kind": "original"
+    },
+    {
+      "title": "2-2027年全日制专业学位硕士研究生招生专业目录.pdf",
+      "url": "https://yjszs.ntu.edu.cn/_upload/article/files/5f/40/740bdfc344b1a636306a7c0676e7/baa1c7fe-994a-43f8-845a-8af708e2a528.pdf",
+      "path": "docs/admissions/2027/南通大学/2-2027年全日制专业学位硕士研究生招生专业目录.pdf",
+      "sha256": "d1d75741560c0db50c065394fed20069402f0ec4ae2f0f003a708982ed08b37c",
+      "bytes": 347017,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://webs.ntu.edu.cn/_upload/article/files/5f/40/740bdfc344b1a636306a7c0676e7/95da7b9f-be47-4722-b6e2-766f8e9c62da.pdf",
+      "title": "0-南通大学2027年硕士研究生招生章程.pdf0-南通大学2027年硕士研究生招生章程.pdf",
+      "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to webs.ntu.edu.cn:443 \n"
+    },
+    {
+      "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/0-南通大学2027年硕士研究生招生章程.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjszs.ntu.edu.cn/2026/1001/c7625a299769/0-%E5%8D%97%E9%80%9A%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E7%AB%A0%E7%A8%8B.pdf"
+    },
+    {
+      "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/1-2027年全日制学术学位硕士研究生招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjszs.ntu.edu.cn/2026/1001/c7625a299769/1-2027%E5%B9%B4%E5%85%A8%E6%97%A5%E5%88%B6%E5%AD%A6%E6%9C%AF%E5%AD%A6%E4%BD%8D%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+    },
+    {
+      "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/2-2027年全日制专业学位硕士研究生招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjszs.ntu.edu.cn/2026/1001/c7625a299769/2-2027%E5%B9%B4%E5%85%A8%E6%97%A5%E5%88%B6%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%BD%8D%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+    },
+    {
+      "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/3-2027年非全日制专业学位硕士研究生招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjszs.ntu.edu.cn/2026/1001/c7625a299769/3-2027%E5%B9%B4%E9%9D%9E%E5%85%A8%E6%97%A5%E5%88%B6%E4%B8%93%E4%B8%9A%E5%AD%A6%E4%BD%8D%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+    },
+    {
+      "url": "https://yjszs.ntu.edu.cn/2026/1001/c7625a299769/4-2027年硕士研究生考试科目一览表.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjszs.ntu.edu.cn/2026/1001/c7625a299769/4-2027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E8%80%83%E8%AF%95%E7%A7%91%E7%9B%AE%E4%B8%80%E8%A7%88%E8%A1%A8.pdf"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

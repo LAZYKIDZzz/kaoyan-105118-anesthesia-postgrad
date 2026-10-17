@@ -1,0 +1,261 @@
+﻿ 大连大学2027年硕士研究生招生专业目录、复试科目、加试科目-大连大学研究生院 
+
+
+
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1065,'/content.jsp',3891,1314563526) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+         
+             
+                 
+                
+                     首页   
+
+                     
+                     
+                
+                     部门介绍   
+
+                     
+                     
+                         学院简介  
+                         
+                         
+                         组织机构  
+                         
+                         
+                     
+                     
+                     
+                
+                     招生管理   
+
+                     
+                     
+                         博士招生  
+                         
+                         
+                         硕士招生  
+                         
+                         
+                         同等学力招生  
+                         
+                         
+                     
+                     
+                     
+                
+                     培养管理   
+
+                     
+                     
+                         培养工作  
+                         
+                         
+                         导师队伍  
+                         
+                         
+                         案例库建设  
+                         
+                         
+                     
+                     
+                     
+                
+                     学位管理   
+
+                     
+                     
+                
+                     综合管理   
+
+                     
+                     
+                
+                     公示公告   
+
+                     
+                     
+                
+                     政策法规   
+
+                     
+                     
+                         规章制度  
+                         
+                         
+                         招生  
+                         
+                         
+                         培养  
+                         
+                         
+                         学位  
+                         
+                         
+                         综合  
+                         
+                         
+                     
+                     
+                     
+                
+                     下载中心 
+
+                     
+                     
+                         招生管理  
+                         
+                         
+                         培养管理  
+                         
+                         
+                         学位管理  
+                         
+                         
+                         综合管理  
+                         
+                         
+                     
+                     
+                     
+                 
+             
+         
+     
+ 
+                
+ 
+//阳历
+var c_Calendar51580EnDateString;
+
+var c_Calendar51580WeekDayString;
+
+//阴历
+var c_Calendar51580CnDateString;
+//节气
+var c_Calendar51580JQString;
+//年
+var c_Calendar51580YearString;
+//月
+var c_Calendar51580MonthString;
+//日
+var c_Calendar51580DayString;
+//周
+var c_Calendar51580WeekString;
+//显示
+var c_Calendar51580ShowString;
+function RunGLNL51580()
+{          
+    var  sc =new Simple_Calendar ();
+    sc.init();
+    c_Calendar51580CnDateString=sc.getCnDateString();
+    c_Calendar51580WeekDayString=sc.getCalendarWeekString();
+    c_Calendar51580JQString=sc.getJQString();
+    c_Calendar51580EnDateString=sc.getEnDateString();
+    c_Calendar51580YearString=sc.getYearString();
+    c_Calendar51580MonthString=sc.getMonthString();
+    c_Calendar51580DayString=sc.getDayString();
+    c_Calendar51580WeekString=sc.getWeekString();
+    c_Calendar51580ShowString= "";
+}
+RunGLNL51580();
+      
+c_Calendar51580ShowString+=c_Calendar51580EnDateString; 
+c_Calendar51580ShowString+="&nbsp;&nbsp;"+c_Calendar51580WeekDayString; 
+c_Calendar51580ShowString+="&nbsp;&nbsp;"+c_Calendar51580CnDateString;
+
+
+ 
+ 
+ 
+	document.getElementById("c_lunar51580").innerHTML = c_Calendar51580ShowString;
+ 
+ 
+ 
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1123129').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1123129").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1123129").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1123129").value = base64.encode(document.getElementById("lucenenewssearchkey1123129").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1123129"));
+        return true;
+    } 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+招生管理 
+             博士招生 
+        
+         硕士招生 
+        
+         同等学力招生 
+        
+ 
+ 
+ 
+ 
+硕士招生 
+   
+ 当前位置：   
+ 首页 >> 招生管理 >> 硕士招生 >> 正文 
+ 
+ 
+     大连大学2027年硕士研究生招生专业目录、复试科目、加试科目 
+     2026年09月29日 14:59  点击：[ _showDynClicks("wbnews", 1314563526, 3891) ]  
+     
+ 
+  var vsb_pdf_image_data = ["/__local/F/1F/58/7EE8332F2C871911492347EEC73_BA1CC386_34033.jpg","/__local/C/D1/FD/5ED0F4BC94865F8053CA6DCAAEF_466128CE_326CD.jpg","/__local/E/B3/08/8D2994A43682B3BB86D942B2EEB_EE1684C4_32878.jpg","/__local/F/29/6E/AE9D7F547D941697EE4B4BB6CCC_4A328D2C_33AA7.jpg","/__local/2/C5/67/41B1E275EA1925F5442E079251F_47C3C8AA_360A1.jpg","/__local/8/B5/9B/704DBAB166ED5FD0AF2448664EF_0904692D_396F8.jpg","/__local/7/DA/FC/8DE8733886DB01D82C77AF7F50F_B427CCAE_2FFC5.jpg","/__local/C/E4/02/F2DC77EF755D44B60F02DD6D2D8_8E338185_35A3A.jpg","/__local/9/F0/53/8FCDE50786637DC67E56EAEDCD5_664BB144_2B097.jpg","/__local/B/0B/5B/ABD8FB95DF2AE6ED70CD98C15D1_DCAEFB57_47BA5.jpg","/__local/D/3F/81/3C389E273D2AAE8CECF8325DE1D_07586351_426F7.jpg","/__local/C/4C/C5/FAE2046A3215FDC07B82D9DFF59_2DBF9D7C_4630F.jpg","/__local/A/42/73/C3257C3927C55E75FF421D6FBB5_89BDBCAB_436CB.jpg","/__local/A/D1/65/AEEBD21BE546D0DDC90D9C94557_95126731_4D131.jpg","/__local/C/BE/4D/105F44D543D2F4A0CAA195550D0_D8C6EDD1_4283E.jpg","/__local/5/BE/FF/BCC49D4316E62571A324B0A30EC_6CF125C1_446BB.jpg"];showVsbpdfIframe("/__local/7/AC/58/653638450D67974839DA8B6DA8D_7A38CB23_B164D.pdf","100%","600","0","border:1px solid #DDDDDD",vsb_pdf_image_data); 
+ 
+ 
+         
+        上一条： 大连大学2027年初试自命题科目大纲汇总 
+         下一条： 大连大学2027年全国硕士研究生招生章程 
+     
+     【 关闭 】 
+ 
+ 
+
+ 
+ 
+ 版权所有 Copyright©2016 大连大学研究生院 
+
+
+ 

@@ -1,0 +1,454 @@
+﻿ 
+ 
+
+ 
+     
+     
+     徐州医科大学2027年硕士研究生招生简章-徐州医科大学研究生院官网 
+
+     
+     
+     
+     
+     
+     
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1247,'/content.jsp',7238,1964998066) 
+ 
+
+ 
+  
+     
+         
+         
+             
+                 
+                    
+ 
+ 
+                     
+                         
+                             学校首页 
+
+                            
+ 
+function dosuba1097619a()
+{
+    try{
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.indexOf("msie 8")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE8
+        }else if(ua.toLowerCase().indexOf("rv:")>-1)
+        {
+            window.external.AddToFavoritesBar(document.location.href,document.title,"");//IE11+
+        }else{
+            if (document.all) 
+            {
+                window.external.addFavorite(document.location.href, document.title);
+            }else if(window.sidebar)
+            {
+                window.sidebar.addPanel( document.title, document.location.href, "");//firefox
+            }
+            else
+            {
+                alert(hotKeysa1097619a());
+            }
+        }
+
+    }
+    catch (e){alert("无法自动添加到收藏夹，请使用 Ctrl + d 手动添加");}
+}
+function hotKeysa1097619a() 
+{
+    var ua = navigator.userAgent.toLowerCase(); 
+    var str = "";    
+    var isWebkit = (ua.indexOf('webkit') != - 1); 
+    var isMac = (ua.indexOf('mac') != - 1);     
+    if (ua.indexOf('konqueror') != - 1) 
+    {  
+        str = 'CTRL + B'; // Konqueror   
+    } 
+    else if (window.home || isWebkit || isMac) 
+    {        
+        str = (isMac ? 'Command/Cmd' : 'CTRL') + ' + D'; // Netscape, Safari, iCab, IE5/Mac   
+    }
+    return ((str) ? '无法自动添加到收藏夹，请使用' + str + '手动添加' : str);
+}
+function setHomepagea1097619a()
+{
+    var url = document.location.href;
+    if (document.all)
+    {
+        document.body.style.behavior='url(#default#homepage)';
+        document.body.setHomePage(url);
+    }
+    else if (window.sidebar)
+    {
+        if(window.netscape)
+        {
+             try{
+                  netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+             }catch (e){
+                   alert("该操作被浏览器拒绝，如果想启用该功能，请在地址栏内输入 about:config,然后将项 signed.applets.codebase_principal_support 值该为true");
+             }
+        }
+    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+    prefs.setCharPref('browser.startup.homepage',url);
+    }
+    else
+    {
+        alert("浏览器不支持自动设为首页，请手动设置");
+    }
+}
+ 
+
+ |  设为首页  |  加入收藏 
+                         
+                         
+                             
+    function _nl_ys_check() {
+
+        var keyword = document.getElementById('showkeycode1097614').value;
+        if (keyword == null || keyword == "") {
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if (window.toFF == 1) {
+            document.getElementById("lucenenewssearchkey1097614").value = Simplized(keyword);
+        } else {
+            document.getElementById("lucenenewssearchkey1097614").value = keyword;
+        }
+        var base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1097614").value = base64.encode(document.getElementById("lucenenewssearchkey1097614").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1097614"));
+        return true;
+    }
+ 
+ 
+     
+     
+     
+     
+ 
+
+                         
+                     
+                 
+             
+             
+                 
+                    
+ 网站首页 
+                                             
+                    
+ 机构简介 
+                         
+                             部门简介 
+                             办公指南 
+                         
+
+                                             
+                    
+ 招生 
+                         
+                             硕士招生 
+                             博士招生 
+                             推免专栏 
+                             规章制度 
+                         
+
+                                             
+                    
+ 培养 
+                         
+                             教学管理 
+                             培养管理 
+                             创新工程 
+                             科研学术 
+                             同力申硕 
+                             课程课件 
+                             规章制度 
+                         
+
+                                             
+                    
+ 学位 
+                         
+                             开题与中期 
+                             毕业与学位申请 
+                             答辩公告 
+                             规章制度 
+                         
+
+                                             
+                    
+ 学科管理 
+                         
+                             学科建设 
+                             学位授权点 
+                             高水平大学 
+                             规章制度 
+                         
+
+                                             
+                    
+ 学生工作 
+                         
+                             日常管理 
+                             就业工作 
+                             党团工作 
+                             规章制度 
+                         
+
+                                             
+                    
+ 同等学力 
+                         
+                             招生 
+                             培养 
+                             学位 
+                             规章制度 
+                         
+
+                                             
+                    
+ 下载专区 
+                         
+                             招生下载 
+                             培养下载 
+                             学位下载 
+                             同力申硕 
+                             学生工作 
+                             教务考务管理 
+                             系统使用说明 
+                         
+
+                                             
+                    
+ 导师队伍 
+                         
+                             导师风采 
+                             通知公告 
+                             规章制度 
+                         
+
+                                             
+                    
+ 
+             
+         
+         
+         
+                 
+                    
+ 
+             
+ 
+    
+     
+     
+         
+             您当前所在位置：
+     网站首页 
+     >   招生 
+     >   硕士招生 
+     >   正文 
+ 
+             
+ 
+     
+         徐州医科大学2027年硕士研究生招生简章 
+         
+             
+                 来源：
+
+                 
+                 发布时间：2026-09-30 
+                 浏览： _showDynClicks("wbnews", 1964998066, 7238) 
+             
+         
+         
+             
+ 
+  var vsb_pdf_image_data = ["/__local/9/76/94/DF56EC92145727810201A525864_970CC7EB_434F1.jpg","/__local/C/BB/B4/A9D56FBEA70342043C644722F78_122EE791_365A2.jpg","/__local/E/36/35/AB85F77C75C8C16E36AB4AA1201_28768E71_3BE78.jpg","/__local/8/29/A5/BFB4233C038643A0BF907097647_78486D19_3C69E.jpg","/__local/F/9F/ED/27DB4727FBD002F5EFFA5927F80_1ED42A7E_417F0.jpg","/__local/0/E5/F6/4F3A5AC5C77A3981968D6F82BD5_7BBE3A0B_3BCF0.jpg","/__local/9/82/30/E3DEC649C67EBFCF3FF92E02866_07EE667F_3CD9B.jpg","/__local/5/34/E6/3E2451FC29D74168192C7E3C7E3_3D363B42_3B858.jpg","/__local/E/9D/1A/C59404700C5A990AD6BC40A49C5_EB3D8E96_1EA81.jpg"];showVsbpdfIframe("/__local/5/9D/60/C72F5817FC2F99DBF6520FC6F56_46B7D414_38091.pdf","100%","600","0","border:1px solid #DDDDDD",vsb_pdf_image_data); 
+ 
+ 
+         
+     
+
+
+        
+             
+             
+                     附件【 附件1：2027年硕士研究生招生专业目录.pdf 】已下载 getClickTimes(17941888,1964998066,"wbnewsfile","attach") 次
+                     
+                     附件【 附件2：2027年硕士招生考试参考范围.pdf 】已下载 getClickTimes(17941886,1964998066,"wbnewsfile","attach") 次
+                     
+                     附件【 附件3：各学院、基地工作人员联系方式.pdf 】已下载 getClickTimes(17942107,1964998066,"wbnewsfile","attach") 次
+                     
+             
+             
+
+
+     
+             上一篇： 2027年全国硕士研究生招生考试徐州医科大学考点（3239）公告 
+             下一篇： 徐州医科大学2026级在职医师攻读临床医学专业学位博士研究生入学报到须知 
+         
+     
+    
+ 
+ 
+         
+      
+     
+     
+         
+             
+                    
+ 
+
+
+                 
+                         
+                         
+                         研究生院官微 
+                     
+                    
+ 
+                         
+                         学校官微 
+                     
+                    
+
+                 
+             
+             
+                 
+                     
+                         
+                            
+ 校内链接 
+                            
+ 徐州医科大学 
+                            
+ 党政办公网 
+                            
+ 人事处 
+                            
+ 教务处 
+                            
+ 学生工作处 
+                            
+ 科技与产业处 
+                            
+ 对外合作与交流处 
+                            
+ 图书馆 
+                            
+ 档案馆 
+                            
+ 信息化处 
+                            
+ 学报 
+                            
+ 实验动物中心 
+                            
+ 同力人员VPN登录 
+                            
+ 
+                         
+
+                     
+                     
+                         
+                            
+ 友情链接 
+                            
+ 南京医科大学 
+                            
+ 第四军医大学 
+                            
+ 北京大学医学部 
+                            
+ 复旦大学上海医学院 
+                            
+ 中山大学中山医学院 
+                            
+ 四川大学华西医学中心 
+                            
+ 斯福坦大学医学院 
+                            
+ 卡罗林斯卡学院 
+                            
+ 
+                         
+
+                     
+                     
+                         
+                            
+ 其他链接 
+                            
+ 中国研究生招生信息网 
+                            
+ 中国学位与研究生教育信息网 
+                            
+ 江苏省教育考试院 
+                            
+ 中国学位与研究生教育学会 
+                            
+ 
+                         
+
+                     
+                 
+                 
+                     
+ 版权所有：徐州医科大学研究生院 地址：徐州市铜山路209号　邮编：221004 copyright @ 2009-2030 All rights reserved 
+                 
+
+             
+         
+     
+ 
+ 
+ 
+ 
+ 
+    window.onload = function () {
+        if (navigator.appName == "Microsoft Internet Explorer" && parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g, "").replace("MSIE", "")) <= 9) {
+            document.body.innerHTML = '<div id="browser-modal"><div class="browser-modal-cover"></div><div class="browser-content"><div class="browser-text"><h3 class="browser-text-title">请升级浏览器版本</h3><p class="browser-text-desc">你正在使用旧版本浏览器。请升级浏览器以获得更好的体验。</p ></div><div class="browser-list"><div class="browser-item"><div class="iconfont iconchrome iconchrome-img"> </div><h4>Chrome</h4></div><div class="browser-item"><div class="iconfont iconchrome iconchrome-img2"> </div><h4>Firefox</h4></div><div class="browser-item"><div class="iconfont iconchrome iconchrome-img3"> </div><h4>Opera</h4></div><div class="browser-item"><div class="iconfont iconchrome iconchrome-img4"> </div><h4>Edge</h4></div></div></div></div>';
+        }
+    }
+
+    $('.photo_list').slick({
+        pauseOnHover: false,
+        speed: 1500,
+        autoplaySpeed: 5000,
+        slidesToShow: 1,
+        swipeToSlide: true,
+        touchThreshold: 100,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
+    });
+    $('.photo_list2').slick({
+        dots: true, // 启用小圆点
+        pauseOnHover: false,
+        speed: 1500,
+        autoplaySpeed: 5000,
+        slidesToShow: 1,
+        swipeToSlide: true,
+        touchThreshold: 100,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
+    });
+ 
+
+ 

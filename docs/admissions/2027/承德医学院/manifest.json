@@ -1,0 +1,35 @@
+{
+  "name": "承德医学院",
+  "tier": "稳健区",
+  "gate": 305,
+  "region": "河北",
+  "candidates": [
+    {
+      "title": "研究生院 信息发布 承德医学院2027年招收攻读硕士学位研究生招生章程",
+      "url": "https://yjs.cdmc.edu.cn/art/2026/9/30/art_145_105464.html"
+    }
+  ],
+  "pages": [
+    {
+      "title": "研究生院 信息发布 承德医学院2027年招收攻读硕士学位研究生招生章程",
+      "url": "https://yjs.cdmc.edu.cn/art/2026/9/30/art_145_105464.html",
+      "effective_url": "https://yjs.cdmc.edu.cn/art/2026/9/30/art_145_105464.html",
+      "path": "docs/admissions/2027/承德医学院/page-9338f6560c.html",
+      "sha256": "e2f8118e86d67221946179e199ac8653a2bc69d3eaa8b28337437472cab2ac35",
+      "bytes": 38525
+    }
+  ],
+  "files": [
+    {
+      "title": "承德医学院2027年硕士研究生招生专业目录.pdf",
+      "url": "https://yjs.cdmc.edu.cn/module/download/downfile.jsp?classid=0&filename=8615b5bdd10a4d278f0e7b51aadd81e2.pdf",
+      "path": "docs/admissions/2027/承德医学院/承德医学院2027年硕士研究生招生专业目录.pdf",
+      "sha256": "b3340cb62b78437a35d00c129c26824dc71f0c10477ff1ee0129106d8eb0ee7f",
+      "bytes": 121127,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

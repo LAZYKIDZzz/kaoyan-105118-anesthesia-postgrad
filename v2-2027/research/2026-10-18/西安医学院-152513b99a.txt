@@ -1,0 +1,273 @@
+﻿ 
+ 
+ 
+ 
+ 招生信息-研究生处-西安医学院 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1008,'/list.jsp',-1,1696454864) 
+ 
+ 
+     
+ 
+  function check_input(){
+     var tep='';
+     tep=document.searchform.q.value;
+     if(tep==''){
+       alert("请输入关键字!");
+       return false;
+       }else{
+         document.searchform.submit();
+         }
+   }  
+ 
+     
+     
+     
+      
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1014127').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1014127").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1014127").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1014127").value = base64.encode(document.getElementById("lucenenewssearchkey1014127").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1014127"));
+        return true;
+    } 
+ 
+ 
+  
+           
+           
+           
+          
+           
+          
+ 
+
+
+
+
+
+ 
+ 
+     
+    
+    
+       
+     首页 
+     部门概况 
+     招生管理 
+     培养工作 
+     学生工作 
+     党建工作 
+     资料下载 
+ 
+       
+      
+ 
+
+    
+       
+    
+
+
+
+     招生管理 
+     
+     
+    
+    
+     招生简章 
+     招生信息 
+     成绩查询 
+     联系方式 
+    
+     
+    
+
+
+
+
+ 
+    
+     您现在所在位置： 
+                    
+                 首页 
+                
+                >
+            
+                 招生管理 
+                
+                >
+            
+                 招生信息 
+                
+  
+    
+
+ 
+       
+          
+            
+          2026-10-03 
+           2027年全国硕士研究生招生初试考试西安医学院报考点（6145）网报公告 
+          
+        
+        
+        
+          2026-09-29 
+           西安医学院2027年硕士研究生招生专业目录 
+          
+        
+        
+        
+          2026-04-01 
+           西安医学院2026年硕士研究生招生调剂工作办法 
+          
+        
+        
+        
+          2026-03-24 
+           西安医学院2026年硕士研究生复试录取工作方案 
+          
+        
+        
+        
+          2026-02-27 
+           西安医学院关于2026年硕士研究生招生考试初试成绩查询及复核办法的通知 
+          
+        
+        
+        
+          2026-02-04 
+           西安医学院2026年同等学力人员申请硕士学位报名通知 
+          
+        
+        
+        
+          2025-12-11 
+           2026年全国硕士研究生招生考试西安医学院考点（6145）考前温馨提示 
+          
+        
+        
+        
+          2025-10-28 
+           西安医学院考点(6145)2026年全国硕士研究生招生考试网上确认公告 
+          
+        
+        
+        
+          2025-10-11 
+           2026研考网上预报名11个关键注意事项 
+          
+        
+        
+        
+          2025-10-05 
+           2026年全国硕士研究生招生初试考试西安医学院（11840）网报公告 
+          
+        
+        
+        
+          2025-10-02 
+           2026年全国硕士研究生招生初试考试西安医学院报考点（6145）网报公告 
+          
+        
+        
+        
+          2025-09-25 
+           西安医学院关于开展2026年硕士研究生招生网上宣传咨询活动的通知 
+          
+        
+        
+        
+          2025-04-18 
+           西安医学院关于2025年硕士研究生招生考试拟录取考生体检的通知 
+          
+        
+        
+        
+          2025-04-14 
+           西安医学院2025年硕士研究生调剂复试（第二批）工作安排 
+          
+        
+        
+        
+          2025-04-12 
+           西安医学院2025年硕士研究生调剂系统第二次开放公告 
+          
+        
+        
+        
+          2025-04-08 
+           西安医学院2025年硕士研究生调剂复试工作安排 
+          
+        
+        
+        
+          2025-04-01 
+           关于公布西安医学院2025年硕士研究生拟接收调剂专业、缺额和调剂系统开放时... 
+          
+        
+        
+        
+          2025-04-01 
+           西安医学院2025年硕士研究生招生调剂工作办法 
+          
+        
+        
+        
+          2025-03-21 
+           西安医学院2025年硕士研究生一志愿考生复试工作安排 
+          
+        
+        
+        
+          2025-03-20 
+           西安医学院2025年硕士研究生复试录取工作方案 
+          
+        
+        
+     共53条   首页 上页 1 2 3 下页 尾页 
+ 
+          
+         
+        
+          _showDynClickBatch(['dynclicks_u4_4628','dynclicks_u4_4626','dynclicks_u4_4503','dynclicks_u4_4487','dynclicks_u4_4463','dynclicks_u4_4458','dynclicks_u4_4416','dynclicks_u4_4328','dynclicks_u4_4278','dynclicks_u4_4257','dynclicks_u4_4255','dynclicks_u4_4238','dynclicks_u4_3959','dynclicks_u4_3928','dynclicks_u4_3920','dynclicks_u4_3900','dynclicks_u4_3875','dynclicks_u4_3876','dynclicks_u4_3829','dynclicks_u4_3818'],[4628,4626,4503,4487,4463,4458,4416,4328,4278,4257,4255,4238,3959,3928,3920,3900,3875,3876,3829,3818],"wbnews", 1696454864) 
+    
+    
+   
+      
+      
+     
+  
+ 西安医学院研究生处主办  联系电话：17795951157  E-mail:yjsc@xiyi.edu.cn 
+ 
+
+ 
+ 

@@ -1,0 +1,688 @@
+﻿ 
+ 大连大学研究生院 
+
+
+
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1001,'/index.jsp',-1,1314563526) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+         
+             
+                 
+                
+                     首页   
+
+                     
+                     
+                
+                     部门介绍   
+
+                     
+                     
+                         学院简介  
+                         
+                         
+                         组织机构  
+                         
+                         
+                     
+                     
+                     
+                
+                     招生管理   
+
+                     
+                     
+                         博士招生  
+                         
+                         
+                         硕士招生  
+                         
+                         
+                         同等学力招生  
+                         
+                         
+                     
+                     
+                     
+                
+                     培养管理   
+
+                     
+                     
+                         培养工作  
+                         
+                         
+                         导师队伍  
+                         
+                         
+                         案例库建设  
+                         
+                         
+                     
+                     
+                     
+                
+                     学位管理   
+
+                     
+                     
+                
+                     综合管理   
+
+                     
+                     
+                
+                     公示公告   
+
+                     
+                     
+                
+                     政策法规   
+
+                     
+                     
+                         规章制度  
+                         
+                         
+                         招生  
+                         
+                         
+                         培养  
+                         
+                         
+                         学位  
+                         
+                         
+                         综合  
+                         
+                         
+                     
+                     
+                     
+                
+                     下载中心 
+
+                     
+                     
+                         招生管理  
+                         
+                         
+                         培养管理  
+                         
+                         
+                         学位管理  
+                         
+                         
+                         综合管理  
+                         
+                         
+                     
+                     
+                     
+                 
+             
+         
+     
+ 
+
+                
+ 
+//阳历
+var c_Calendar51580EnDateString;
+
+var c_Calendar51580WeekDayString;
+
+//阴历
+var c_Calendar51580CnDateString;
+//节气
+var c_Calendar51580JQString;
+//年
+var c_Calendar51580YearString;
+//月
+var c_Calendar51580MonthString;
+//日
+var c_Calendar51580DayString;
+//周
+var c_Calendar51580WeekString;
+//显示
+var c_Calendar51580ShowString;
+function RunGLNL51580()
+{          
+    var  sc =new Simple_Calendar ();
+    sc.init();
+    c_Calendar51580CnDateString=sc.getCnDateString();
+    c_Calendar51580WeekDayString=sc.getCalendarWeekString();
+    c_Calendar51580JQString=sc.getJQString();
+    c_Calendar51580EnDateString=sc.getEnDateString();
+    c_Calendar51580YearString=sc.getYearString();
+    c_Calendar51580MonthString=sc.getMonthString();
+    c_Calendar51580DayString=sc.getDayString();
+    c_Calendar51580WeekString=sc.getWeekString();
+    c_Calendar51580ShowString= "";
+}
+RunGLNL51580();
+      
+c_Calendar51580ShowString+=c_Calendar51580EnDateString; 
+c_Calendar51580ShowString+="&nbsp;&nbsp;"+c_Calendar51580WeekDayString; 
+c_Calendar51580ShowString+="&nbsp;&nbsp;"+c_Calendar51580CnDateString;
+
+
+ 
+ 
+ 
+	document.getElementById("c_lunar51580").innerHTML = c_Calendar51580ShowString;
+ 
+ 
+ 
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1123129').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1123129").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1123129").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1123129").value = base64.encode(document.getElementById("lucenenewssearchkey1123129").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1123129"));
+        return true;
+    } 
+ 
+ 
+  
+  
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+var u_u3_icn = new ImageChangeNews("u_u3_", 260, 170, 4, 2.0, true, false, false, true, false,"#u_u3_centerCutImg");
+
+//初始化图片, 并启动定时
+function u_u3_init_img()
+{
+
+    u_u3_icn.addimg("\/__local\/4\/A5\/C2\/73480F9702858F43EAD21E595C7_ED1ACADB_BA74.png", "info\/1007\/3834.htm", "学校召开2025-2026学年第二学期研究生教...", "","学校召开2025-2026学年第二学期研究生教育教学期初工作会议暨研究生教育发展研讨会（五）");
+
+    u_u3_icn.addimg("\/__local\/E\/9D\/6C\/5DDDAE5E6206DB1346AE35F289A_26737F66_654A.png", "info\/1007\/3643.htm", "持续打造学术品牌，赋能创新人才培养", "","持续打造学术品牌，赋能创新人才培养");
+
+    u_u3_icn.addimg("\/__local\/D\/11\/6A\/FAA15F44975131998A2CE25F1EA_D909C161_81CA.png", "info\/1085\/3818.htm", "大连大学“2025年新晋研究生导师聘任证...", "","大连大学“2025年新晋研究生导师聘任证书颁发仪式暨省优秀导师讲座”顺利举行");
+
+    u_u3_icn.addimg("\/__local\/5\/B0\/54\/BB6D5110371AED6394491C318DF_3F940384_FCF4.png", "info\/1007\/3538.htm", "深化基地合作 提升培养质量——大连大学...", "","深化基地合作 提升培养质量——大连大学召开医学同等学力申硕联培工作讨论会");
+
+    u_u3_icn.changeimg(0);
+}
+ 
+     
+         
+             
+                 
+             
+             
+ 1 2 3 4 
+             
+       
+     
+         
+     
+    
+ u_u3_init_img(); 
+
+ 
+ 新闻动态 更多>> 
+ 
+ 
+     
+         
+        
+             
+                 
+                 
+                    
+                     
+                     学校召开2025-2026学年第二... 
+                    
+                     03/13 
+                     
+                 
+                 
+                 
+        
+             
+                 
+                 
+                    
+                     
+                     我校召开2025-2026学年第一... 
+                    
+                     01/08 
+                     
+                 
+                 
+                 
+        
+             
+                 
+                 
+                    
+                     
+                     持续打造学术品牌，赋能创 ... 
+                    
+                     11/26 
+                     
+                 
+                 
+                 
+        
+             
+                 
+                 
+                    
+                     
+                     深化基地合作 提升培养质量... 
+                    
+                     07/07 
+                     
+                 
+                 
+                 
+        
+             
+                 
+                 
+                    
+                     
+                     我校召开2024-2025学年第二... 
+                    
+                     07/04 
+                     
+                 
+                 
+                 
+        
+             
+                 
+                 
+                    
+                     
+                     深化医教协同 助力区域医疗... 
+                    
+                     07/01 
+                     
+                 
+                 
+                 
+        
+             
+                 
+                 
+                    
+                     
+                     研究生培养质量提升——我 ... 
+                    
+                     06/03 
+                     
+                 
+                 
+                 
+        
+             
+                 
+                 
+                    
+                     
+                     学校召开2024-2025学年第一... 
+                    
+                     01/09 
+                     
+                 
+                 
+                 
+        
+         
+     
+     
+ 
+  
+    function scrollupMarqueejsu4js()
+    { 
+        try
+        {
+            var scrollup = document.getElementById("scrollupjsu4js");
+            var scrollup1 = document.getElementById("scrollup1jsu4js");
+    
+            //滚动到头继续滚
+            if(scrollup.scrollTop + scrollup.clientHeight == scrollup.scrollHeight)
+            {
+                scrollup.scrollTop-=scrollup1.clientHeight-1; 
+            }
+            else
+            {
+                scrollup.scrollTop++;
+            }
+            
+        } 
+        catch(e)
+        {
+        }
+    } 
+    var scrollupMyMarjsu4js;
+    function scrollupfunjsu4js()
+    {
+        var speed = 30; 
+        var scrollup = document.getElementById("scrollupjsu4js");
+        var scrollup1 = document.getElementById("scrollup1jsu4js");
+        var scrollup2 = document.getElementById("scrollup2jsu4js");
+        
+        scrollup2.innerHTML=scrollup1.innerHTML;
+        
+        if(scrollup1.scrollHeight == 0 || scrollup1.scrollHeight < 180)
+        {
+            scrollup1.style.height="180px";
+        }
+        else
+        {
+            scrollup1.style.height=scrollup1.scrollHeight + "px";
+        }
+
+        if(scrollup2.scrollHeight == 0 || scrollup2.scrollHeight < 180)
+        {
+            scrollup2.style.height="180px";
+        }
+        else
+        {
+            scrollup2.style.height=scrollup2.scrollHeight + "px";
+        }
+    
+        scrollupMyMarjsu4js=setInterval(scrollupMarqueejsu4js,speed); 
+        scrollup.onmouseover=function() {clearInterval(scrollupMyMarjsu4js)} 
+        scrollup.onmouseout=function() {scrollupMyMarjsu4js=setInterval(scrollupMarqueejsu4js,speed)} 
+    }
+    window.setTimeout(scrollupfunjsu4js, 0);
+ 
+
+      
+
+
+                         
+                             
+                           
+
+ 
+ 
+
+
+                         
+                             
+                           
+
+ 
+ 
+
+
+                         
+                             
+                           
+
+ 
+ 
+
+
+                         
+                             
+                           
+
+ 
+ 
+
+
+
+
+
+ 
+ 
+ 
+ 招生信息 更多>> 
+ 
+    大连大学2027年初试自命题科目大纲汇总 2026-09-29 
+    大连大学2027年硕士研究生招生专业目录、复试科目、加试科目 2026-09-29 
+    大连大学2027年全国硕士研究生招生章程 2026-09-29 
+    大连大学2026年同等学力人员申请硕士学位招生简章(第二批） 2026-09-29 
+    大连大学2027年接收推荐免试研究生工作办法 2026-09-17 
+ _showDynClickBatch(['dynclicks_u6_3892','dynclicks_u6_3891','dynclicks_u6_3890','dynclicks_u6_3888','dynclicks_u6_3884'],[3892,3891,3890,3888,3884],"wbnews", 1314563526) 
+ 
+ 
+ 培养信息 更多>> 
+ 
+    关于开展2026年大连大学研究生教学案例建设项目遴选及2025年案例建设项目结题工作... 
+       2026-09-29 
+    关于填报2026-2027学年第1学期科研（实践）任务书的通知 
+       2026-09-17 
+    关于2026级硕士研究生与导师双向选择报送的通知 
+       2026-09-14 
+    关于做好2026级研究生新生安全教育考试工作的通知 
+       2026-09-14 
+    关于组织召开2026级研究生培养方案校学位委员会专家论证会的通知 
+       2026-07-09 
+ _showDynClickBatch(['dynclicks_u7_3893','dynclicks_u7_3885','dynclicks_u7_3882','dynclicks_u7_3881','dynclicks_u7_3878'],[3893,3885,3882,3881,3878],"wbnews", 1314563526) 
+ 
+
+ 
+ 学位信息 更多>> 
+ 
+    关于组织开展2024级两年制硕士研究生学位论文中期考核工作的通知 2025-12-03 
+    关于2025年进入论文阶段的同等学力人员硕士学位论文开题工作的通知 2025-10-30 
+    关于2024年进入学位论文阶段的同等学力人员硕士学位论文中期考核工作的通知 2025-10-30 
+    关于2025年进入论文阶段的同等学力人员硕士学位论文开题工作的通知 2025-03-24 
+    关于开展2024年学位授权点周期性合格评估校外专家评审的通知 2024-10-08 
+ _showDynClickBatch(['dynclicks_u8_3645','dynclicks_u8_3637','dynclicks_u8_3636','dynclicks_u8_3490','dynclicks_u8_3491'],[3645,3637,3636,3490,3491],"wbnews", 1314563526) 
+ 
+
+ 
+ 综合管理 更多>> 
+ 
+    关于开展2026-2027学年秋季学期研究生“助管”岗位选聘工作的通知 2026-09-23 
+    关于组织开展2026级硕士研究生《硕士研究生学籍信息卡》《硕士研究生入学登记表》... 2026-09-15 
+    关于组织开展2026年春季学期预计毕业研究生填报《毕业研究生登记表》的通知 2026-04-13 
+ _showDynClickBatch(['dynclicks_u9_3886','dynclicks_u9_3883','dynclicks_u9_3851'],[3886,3883,3851],"wbnews", 1314563526) 
+ 
+
+ 
+
+
+
+     
+    
+    
+    
+  
+
+    
+     
+<!--    
+    function doLinksu10(o)    
+    {    
+        var link=document.getElementsByName("su10")[0];    
+        var index=link.selectedIndex;    
+        if (index==-1 || index>=link.options.length)    
+        {    
+          return;    
+        }    
+        var value = link.options[index].value;    
+        var obj = document.getElementById("hu10");    
+        obj.href = value;
+        var wburlid =link.options[index].getAttribute("aa1214aa");
+        _addDynClicks('wburl',1314563526,wburlid)
+            
+                     obj.target = "_blank"
+                    
+         if(document.all){
+          obj.click();     
+        }         
+         else 
+        { 
+          window.open(value);
+         }
+       
+       if(o.selectedIndex != 0)    
+       {    
+           o.selectedIndex = 0;    
+       }    
+    }    
+-->    
+   
+     
+         
+                   
+                 
+                 --政府网站--     
+                 中华人民共和国教育部    
+                 辽宁省教育厅    
+                 辽宁省卫生健康委员会    
+                 大连市人民政府    
+                     
+             
+    
+    
+    
+  
+
+    
+     
+<!--    
+    function doLinksu11(o)    
+    {    
+        var link=document.getElementsByName("su11")[0];    
+        var index=link.selectedIndex;    
+        if (index==-1 || index>=link.options.length)    
+        {    
+          return;    
+        }    
+        var value = link.options[index].value;    
+        var obj = document.getElementById("hu11");    
+        obj.href = value;
+        var wburlid =link.options[index].getAttribute("aa1216aa");
+        _addDynClicks('wburl',1314563526,wburlid)
+            
+                     obj.target = "_blank"
+                    
+         if(document.all){
+          obj.click();     
+        }         
+         else 
+        { 
+          window.open(value);
+         }
+       
+       if(o.selectedIndex != 0)    
+       {    
+           o.selectedIndex = 0;    
+       }    
+    }    
+-->    
+   
+     
+         
+                   
+                 
+                 　　　--校内部分网站--     
+                 大连大学图书馆    
+                 大连大学国际交流合作处    
+                 大连大学创新创业学院    
+                     
+             
+    
+    
+    
+  
+
+    
+     
+<!--    
+    function doLinksu12(o)    
+    {    
+        var link=document.getElementsByName("su12")[0];    
+        var index=link.selectedIndex;    
+        if (index==-1 || index>=link.options.length)    
+        {    
+          return;    
+        }    
+        var value = link.options[index].value;    
+        var obj = document.getElementById("hu12");    
+        obj.href = value;
+        var wburlid =link.options[index].getAttribute("aa1218aa");
+        _addDynClicks('wburl',1314563526,wburlid)
+            
+                     obj.target = "_blank"
+                    
+         if(document.all){
+          obj.click();     
+        }         
+         else 
+        { 
+          window.open(value);
+         }
+       
+       if(o.selectedIndex != 0)    
+       {    
+           o.selectedIndex = 0;    
+       }    
+    }    
+-->    
+   
+     
+         
+                   
+                 
+                 　　　--其他友情链接--     
+                 教育部学位与研究生教育发展中心    
+                 中国研究生招生信息网    
+                 中国高等教育学生信息网（学信网）    
+                 中国人力资源市场网    
+                 中国专业学位案例中心    
+                     
+         
+
+ 
+ 版权所有 Copyright©2016 大连大学研究生院 
+
+
+
+
+
+
+
+
+
+ 

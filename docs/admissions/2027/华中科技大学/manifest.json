@@ -1,0 +1,43 @@
+{
+  "name": "华中科技大学",
+  "tier": "稳健区",
+  "gate": 309,
+  "region": "湖北",
+  "candidates": [
+    {
+      "title": "华中科技大学招生官网（查找2027目录）",
+      "url": "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx"
+    }
+  ],
+  "pages": [
+    {
+      "title": "华中科技大学招生官网（查找2027目录）",
+      "url": "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx",
+      "effective_url": "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx",
+      "path": "docs/admissions/2027/华中科技大学/page-69b3590fef.html",
+      "sha256": "3a06b1c692db62c4629708c807924b74112cf45ab4beef273d6bc2910e39cb21",
+      "bytes": 166047
+    }
+  ],
+  "files": [
+    {
+      "title": "华中科技大学2027年专业学位目录-530",
+      "url": "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx",
+      "path": "docs/admissions/2027/华中科技大学/华中科技大学2027年专业学位目录-530.html",
+      "bytes": 139634,
+      "sha256": "14b13aec2cd7fd9cc63c9efe1192a9ef444a1280a54375015b3c9d4a7d852e35",
+      "kind": "official_web_catalogue"
+    },
+    {
+      "title": "华中科技大学2027年专业学位目录-540",
+      "url": "https://yanzhao.hust.edu.cn/Master/Zsml_View.aspx",
+      "path": "docs/admissions/2027/华中科技大学/华中科技大学2027年专业学位目录-540.html",
+      "bytes": 139453,
+      "sha256": "3afb0b0866e6d118f39304192916a76833883e3162d746b1aed7f33c135c8650",
+      "kind": "official_web_catalogue"
+    }
+  ],
+  "failures": [],
+  "status": "已归档官方网页目录",
+  "checked_at": "2026-10-18"
+}

@@ -1,0 +1,384 @@
+
+ 
+ 
+ 
+ 福建医科大学2027年攻读硕士学位研究生招生章程及专业目录 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  $(function(){
+    $(".focus").sudyfocus({
+      p:31,
+	  zWidth: 1400,
+      zHeight: 418, // 窗口高度
+      response: false, // 是否自适应缩放
+	  isNavHover: true,
+	  pagination: true,
+      title: {active: true, // 是否显示标题
+			isAutoWidth: false, // 标题背景自动宽度
+			href: false // 标题是否加文章链接
+},
+      speed:700
+    });
+  });
+ 
+ 
+
+ 
+ 
+     
+         
+             
+                   联系我们 学校主页   
+                 
+                     
+                         
+                             
+                                 
+                             
+                         
+                     
+                     
+                         
+                            
+                         
+                     
+                     
+                         
+                             
+     
+         
+             
+                 
+                     
+                 
+                 
+                     
+                 
+             
+         
+     
+ 
+                         
+                     
+                 
+             
+         
+     
+
+ 
+         
+             
+                 
+                     
+                        
+  
+#wp_nav_w21 .wp_nav { margin: 0px; padding: 0px; display: block; }#wp_nav_w21 .wp_nav * { margin: 0px; padding: 0px; }#wp_nav_w21 .wp_nav::after { clear: both; content: "."; display: block; height: 0px; visibility: hidden; }#wp_nav_w21 .wp_nav .nav-item { display: inline-block; float: left; position: relative; vertical-align: bottom; }#wp_nav_w21 .wp_nav .on { z-index: 10; }#wp_nav_w21 .wp_nav .nav-item .mark { display: block; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; z-index: 99; opacity: 1; }#wp_nav_w21 .wp_nav .nav-item a { display: block; text-align: center; position: relative; z-index: 100; }#wp_nav_w21 .wp_nav .nav-item a.parent:hover { }#wp_nav_w21 .wp_nav .nav-item a.parent { color: rgb(0, 0, 0); }#wp_nav_w21 .wp_nav .nav-item a span.item-name { display: inline-block; padding: 15px 10px 0px; line-height: 22px; cursor: pointer; }#wp_nav_w21 .wp_nav .sub-nav { display: block; width: 100%; position: absolute; z-index: 200; visibility: hidden; border-right: 1px solid rgb(204, 204, 204); border-bottom: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204); border-image: initial; border-top: none; }#wp_nav_w21 .wp_nav .sub-nav .nav-item { white-space: nowrap; }#wp_nav_w21 .wp_nav .sub-nav .nav-item .mark { background: rgb(255, 255, 255); opacity: 1; }#wp_nav_w21 .wp_nav .sub-nav .nav-item a { font-size: 13px; font-weight: normal; color: rgb(0, 0, 0); text-align: left; border-top: 1px solid rgb(216, 225, 204); min-width: 80px; }#wp_nav_w21 .wp_nav .sub-nav .nav-item a.parent:hover { background: rgb(238, 238, 238); color: rgb(0, 0, 0); }#wp_nav_w21 .wp_nav .sub-nav .nav-item a.parent { background: rgb(238, 238, 238); color: rgb(0, 0, 0); }#wp_nav_w21 .wp_nav .sub-nav .nav-item a span.item-name { padding: 5px 10px; line-height: 22px; }#wp_nav_w21 .wp_nav .nav-item a.parent:hover span.item-name { }#wp_nav_w21 .wp_nav .nav-item a.parent span.item-name { }#wp_nav_w21 .wp_nav .sub-nav .nav-item a.parent:hover span.item-name { }#wp_nav_w21 .wp_nav .sub-nav .nav-item a.parent span.item-name { text-decoration: none; }
+  
+  
+
+ 
+ 
+      
+       
+          首页  
+          
+       
+      
+       
+          研院简介  
+          
+           
+              
+               
+                  研究生院简介  
+                  
+               
+              
+               
+                  机构设置  
+                  
+               
+              
+           
+          
+       
+      
+       
+          招生工作  
+          
+           
+              
+               
+                  招收博士学位研究生  
+                  
+               
+              
+               
+                  招收硕士学位研究生  
+                  
+               
+              
+               
+                  招收港澳台硕士学位研...  
+                  
+               
+              
+           
+          
+       
+      
+       
+          培养工作  
+          
+           
+              
+               
+                  文件&规章制度  
+                  
+               
+              
+               
+                  通知公告  
+                  
+               
+              
+               
+                  培养过程  
+                  
+               
+              
+               
+                  课程安排  
+                  
+               
+              
+               
+                  考试安排  
+                  
+               
+              
+               
+                  学术交流  
+                  
+               
+              
+           
+          
+       
+      
+       
+          学位工作  
+          
+           
+              
+               
+                  表格下载  
+                  
+               
+              
+               
+                  博士研究生学位申请  
+                  
+               
+              
+               
+                  硕士研究生学位申请  
+                  
+               
+              
+               
+                  学位点建设  
+                  
+               
+              
+           
+          
+       
+      
+       
+          临床医学联合培养  
+          
+       
+      
+       
+          在职教育  
+          
+           
+              
+               
+                  在职博士  
+                  
+           
+              
+               
+                  通知公告  
+                  
+               
+              
+               
+                  课程与考试  
+                  
+               
+              
+               
+                  学位申请  
+                  
+               
+              
+               
+                  文件下载  
+                  
+               
+              
+           
+          
+               
+              
+               
+                  同等学力申请硕士学位  
+                  
+           
+              
+               
+                  通知公告  
+                  
+               
+              
+               
+                  课程与考试  
+                  
+               
+              
+               
+                  学位申请  
+                  
+               
+              
+               
+                  文件下载  
+                  
+               
+              
+           
+          
+               
+              
+           
+          
+       
+      
+       
+          质量督导  
+          
+       
+      
+       
+          导师队伍建设  
+          
+           
+              
+               
+                  导师风采  
+                  
+               
+              
+           
+          
+       
+      
+       
+          下载专区  
+          
+           
+              
+               
+                  院标专区  
+                  
+               
+              
+               
+                  通知文件  
+                  
+               
+              
+               
+                  全日制研究生手册  
+                  
+               
+              
+               
+                  各式表格  
+                  
+               
+              
+           
+          
+       
+      
+  
+ 
+ 
+  
+                    
+                 
+             
+         
+     
+
+
+
+     
+         
+             
+                 
+                    
+                         福建医科大学2027年攻读硕士学位研究生招生章程及专业目录 
+                         
+                         发布时间：2026-10-02 浏览次数： 12 
+                         
+                             福建医科大2027年攻读硕士学位研究生招生章程及专业目录.pdf 福建医科大学各研究生招生学院简介（2026年9月）.pdf 
+                         
+                    
+                 
+             
+             
+         
+     
+     
+         
+             
+                 
+                     
+                                                       联系我们 
+地址：福州市闽侯县上街镇学府北路1号行政楼C座三楼，邮编：350122 
+电话：0591-22862107（研招办）；22860082（培养办）；22862992（学位办）；22860092（质量监督与在职教育办）；22860092（传真） 
+师生信访邮箱：fjmuyjsc@163.com 
+教师违反师德师风举报投诉邮箱：yjsydzb@fjmu.edu.cn
+  
+                        
+                     
+                 
+             
+         
+     
+ 
+ 
+ 
+ 

@@ -1,0 +1,706 @@
+
+ 
+	 
+     
+     
+     甘肃中医药大学党委研究生工作部（研究生院）_硕士招生 
+         
+     
+         
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+        var winWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidht
+        console.log(winWidth)
+        if (winWidth<1000){
+            document.write('<script type="text/javascript" src="/static/style_yjz/js/flexible_m.js"><\/script>');
+        }else if (winWidth<1500){
+            document.write('<script type="text/javascript" src="/static/style_yjz/js/flexible_1600.js"><\/script>');
+        }else{
+            document.write('<script type="text/javascript" src="/static/style_yjz/js/flexible.js"><\/script>');
+        }
+     
+ 
+	 
+		 
+			
+
+ 
+     
+         
+             
+         
+         
+             
+                 
+                     
+                     
+                     
+                     
+                     
+                     
+                 
+                 
+                    layui.use(['form','layer'], function() {
+                        $ = layui.jquery;
+                        var form = layui.form
+                            , layer = layui.layer;
+                        //自定义验证规则
+                        form.verify({
+                            keywords: function (value) {
+                                if ($('#keywords').val() == '') {
+                                    return '搜索关键词不能为空';
+                                }
+                            }
+                        });
+                    });
+                 
+             
+             
+                 学校首页 
+                  |  
+                 院长信箱 
+             
+             
+                .header_right_a {
+                    position: relative; 
+                    display: inline-block;
+                }
+                .header_right_a .email-link {
+                    position: relative;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+                .header_right_a .email-link:hover::after {
+                    content: 'jysc@gszy.edu.cn';
+                    position: absolute;
+                    left: 0;
+                    top: 100%;          /* 显示在文字正下方 */
+                    margin-top: 5px;    /* 距离文字的间距 */
+                    z-index: 999;       /* 确保在最上层 */
+                    
+                    background-color: #fff; /* 背景颜色 (深灰) */
+                    color: #123b7e;            /* 文字颜色 (白色) */
+                    padding: 5px 10px;      /* 内边距 */
+                    font-size: 12px;        /* 字体大小 */
+                    border-radius: 4px;     /* 圆角 */
+                    white-space: nowrap;    /* 强制不换行 */
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* 阴影效果 */
+                    text-align: center;
+                }
+             
+         
+     
+ 
+ 
+     
+         
+             
+                 网站首页 
+             
+         
+                 
+             
+             机构简介 
+             
+                         
+                 
+                                         
+                         研究生院概况 
+                     
+                                         
+                         研究生院领导 
+                     
+                                         
+                         各科室职责 
+                     
+                                     
+             
+                     
+                 
+             
+             党建工作 
+             
+                         
+                 
+                                         
+                         党建新闻 
+                     
+                                         
+                         办事流程 
+                     
+                                     
+             
+                     
+                 
+             
+             招生工作 
+             
+                         
+                 
+                                         
+                         招生在线 
+                     
+                                         
+                         规章制度 
+                     
+                                         
+                         硕士招生 
+                     
+                                         
+                         博士招生 
+                     
+                                     
+             
+                     
+                 
+             
+             教育培养工作 
+             
+                         
+                 
+                                         
+                         导师队伍建设 
+                     
+                                         
+                         规章制度 
+                     
+                                         
+                         创新能力培养 
+                     
+                                         
+                         教学成果奖与教改项目展示 
+                     
+                                         
+                         培养方案 
+                     
+                                         
+                         实践基地 
+                     
+                                     
+             
+                     
+                 
+             
+             学位工作 
+             
+                         
+                 
+                                         
+                         规章制度 
+                     
+                                         
+                         学位申请 
+                     
+                                         
+                         优博优硕 
+                     
+                                         
+                         办事流程 
+                     
+                                     
+             
+                     
+                 
+             
+             学生管理 
+             
+                         
+                 
+                                         
+                         规章制度 
+                     
+                                         
+                         奖助工作 
+                     
+                                         
+                         学生活动 
+                     
+                                         
+                         学生工作 
+                     
+                                     
+             
+                     
+                 
+             
+             就业工作 
+             
+                         
+                 
+                                         
+                         就业公告 
+                     
+                                         
+                         就业政策 
+                     
+                                     
+             
+                     
+             
+     
+        $(".nav_li").hover(function () {
+            $(this).find(".nav_li_ziul").stop().show()
+        },function () {
+            $(this).find(".nav_li_ziul").stop().hide()
+        });
+     
+ 
+ 
+     
+     
+         
+             
+             
+             
+         
+     
+     
+         首页 
+                 
+             机构简介 
+             
+                                 研究生院概况 
+                                 研究生院领导 
+                                 各科室职责 
+                             
+         
+                         
+             党建工作 
+             
+                                 党建新闻 
+                                 办事流程 
+                             
+         
+                         
+             招生工作 
+             
+                                 招生在线 
+                                 规章制度 
+                                 硕士招生 
+                                 博士招生 
+                             
+         
+                         
+             教育培养工作 
+             
+                                 导师队伍建设 
+                                 规章制度 
+                                 创新能力培养 
+                                 教学成果奖与教改项目展示 
+                                 培养方案 
+                                 实践基地 
+                             
+         
+                         
+             学位工作 
+             
+                                 规章制度 
+                                 学位申请 
+                                 优博优硕 
+                                 办事流程 
+                             
+         
+                         
+             学生管理 
+             
+                                 规章制度 
+                                 奖助工作 
+                                 学生活动 
+                                 学生工作 
+                             
+         
+                         
+             就业工作 
+             
+                                 就业公告 
+                                 就业政策 
+                             
+         
+                     
+     
+        $(".header_m_nav_bnt").click(function () {
+            if($("#nav_bnt1").hasClass("rotate")){
+                $("#nav_bnt1").removeClass("rotate").addClass("rotate1");
+            }else{
+                $("#nav_bnt1").removeClass("rotate1").addClass("rotate");
+            };
+            if($("#nav_bnt3").hasClass("rotate")){
+                $("#nav_bnt3").removeClass("rotate").addClass("rotate2");
+            }else{
+                $("#nav_bnt3").removeClass("rotate2").addClass("rotate");
+            };
+            $("#nav_bnt2").toggle(500);
+            $("#navbox").toggle(300);
+            return false;
+        })
+
+        $(function(){
+            $(document).bind("click",function(e){
+                var target = $(e.target);
+                if(target.closest("#navbox").length == 0){
+                    $('#navbox').hide(300);
+                }
+            })
+            $(".navlist").click(
+                function(){
+                    $(this).children(".navlistbox").toggle(300);
+                    $(this).siblings().children(".navlistbox").hide()
+                }
+            );
+        });
+     
+ 
+			 
+ 
+		 
+	 
+			 
+				 
+					 
+     
+         
+             招生工作 
+         
+         
+     
+ 
+					 
+						 
+	 
+	 招生工作 
+	 
+	 
+ 
+ 
+    $(function(){
+        $(".nav_er_m_but").click(
+            function(){
+                $(".nav_er_m_ul").toggle(300);
+                return false;
+            });
+        $(document).bind("click",function(e){
+            var target = $(e.target);
+            if(target.closest(".nav_er_m_ul").length == 0){
+                $('.nav_er_m_ul').hide(300);
+            }
+        })
+    });
+ 
+ 
+	 
+		 硕士招生 
+		 
+			 当前位置： 首页 > 招生工作 > 硕士招生 
+		 
+		 
+            $(".base_bdcnav_location").find("a:last").addClass("base_bdcnav_location_a_last-child")
+		 
+	 
+ 
+						 
+							 
+							 
+								 
+																		 
+										 
+											 2026-10-14 
+											 甘肃中医药大学2027年硕士研究生招生专业目录 
+											 
+										 
+									 
+																		 
+										 
+											 2026-09-18 
+											 甘肃中医药大学2027年硕士研究生考试招生简章 
+											 
+										 
+									 
+																		 
+										 
+											 2026-09-18 
+											 甘肃中医药大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生（含中医学专业“5+3”一体化学生转段）招生专业目录 
+											 
+										 
+									 
+																		 
+										 
+											 2026-09-14 
+											 甘肃中医药大学2027年接收优秀应届本科毕业生免试攻读硕士学位研究生（含中医学专业“5+3”一体化学生转段）简章 
+											 
+										 
+									 
+																		 
+										 
+											 2025-09-19 
+											 甘肃中医药大学2026年推免（含5+3）一体化转段及硕士研究生统考招生专业目录 
+											 
+										 
+									 
+																		 
+										 
+											 2025-09-15 
+											 甘肃中医药大学2026年硕士研究生考试 招生简章 
+											 
+										 
+									 
+																		 
+										 
+											 2025-09-15 
+											 甘肃中医药大学2026年接收优秀应届本科毕业生免试攻读硕士学位研究生（含中医学专业“5+3”一体化学生转段）简章 
+											 
+										 
+									 
+																		 
+										 
+											 2024-10-02 
+											 甘肃中医药大学2025年硕士研究生考试专业目录 
+											 
+										 
+									 
+																		 
+										 
+											 2024-09-28 
+											 甘肃中医药大学2025年接收优秀应届本科毕业生免试攻读硕士学位研究生（含中医学专业“5+3”一体化学生转段）简章 
+											 
+										 
+									 
+																		 
+										 
+											 2024-09-28 
+											 甘肃中医药大学2025年接收优秀应届本科毕业生免试攻读硕士学位研究生（含中医学5+3转段）专业目录 
+											 
+										 
+									 
+																	 
+								 
+									 共144条 < <   1 2 3 4 ... 14 15   >> 								 
+							 
+						 
+					 
+				 
+			 
+			 
+    function getCategoryList(pid) {
+        // 读取时检查过期
+        const tempData = JSON.parse(localStorage.getItem('tempData'+pid));
+        if (tempData && Date.now() - tempData.timestamp < 60 * 1000) {
+            console.log('缓存有效');
+            console.log(tempData.data);
+            let data = tempData.data;
+            let html = "";
+            let wap = "";
+            data.forEach(item => {
+                // 假设接口返回字段：title（标题）、date（日期字符串如 "09-25"）、url（可选）
+                const title = item.c_name;
+                const url = item.url;
+                const children = item.children;
+                console.log(children);
+                let id = item.id;
+                let cid = "91";
+                if (item.children.length>0){
+                    html += '<div class="nav_er_li on san">';
+                    html += '<a href="javascript:;">'+title+'</a>'
+                    html += '<div class="nav_er_ul1">';
+                    for (let j = 0;j<item.children.length;j++){
+                        let title2 = item.children[j].c_name;
+                        let url2 = item.children[j].url;
+                        let childId = item.children[j].id;
+                        console.log(childId);
+                        if (cid==childId){
+                            html +='<div class="nav_er_li1 on">';
+                        } else {
+                            html +='<div class="nav_er_li1">';
+                        }
+                        html += '<a href="'+url2+'">'+title2+'</a>' +
+                            '</div>';
+                    }
+                    html += '</div>';
+                } else {
+                    if (cid==id){
+                        html += '<div class="nav_er_li on">';
+                    } else {
+                        html += '<div class="nav_er_li">';
+                    }
+
+                    html += '<a href="'+url+'">'+title+'</a>';
+                }
+                html += '</div>';
+                //手机端
+                wap += '<div class="nav_er_m_li">' +
+                    '<a href="'+url+'">'+title+'</a>' +
+                    '</div>'
+            });
+            $("#nav").html(html);
+            $("#nav_m").html(wap);
+            $(".nav_er_li1.on").parent(".nav_er_ul1").show();
+
+            $(".nav_er_li.san a").click(function(){
+                $(this).siblings(".nav_er_ul1").toggle(200)
+            })
+        }else {
+            $.ajax({
+                url:"/index/Api/getCategoryList",
+                data:{pid:pid},
+                dataType:'json',
+                type:"Get",
+                success:function (res) {
+                    let data = res.list;
+                    //console.log(data);
+                    // 设置过期（需手动实现）
+                    const cacheWithExpiry = {
+                        data: data,
+                        timestamp: Date.now()
+                    };
+                    //写入
+                    localStorage.setItem('tempData'+pid, JSON.stringify(cacheWithExpiry));
+                    let html = "";
+                    let wap = "";
+                    data.forEach(item => {
+                        // 假设接口返回字段：title（标题）、date（日期字符串如 "09-25"）、url（可选）
+                        const title = item.c_name;
+                        const url = item.url;
+                        const children = item.children;
+                        console.log(children);
+                        let id = item.id;
+                        let cid = "91";
+                        if (item.children.length>0){
+                            html += '<div class="nav_er_li on san">';
+                            html += '<a href="javascript:;">'+title+'</a>'
+                            html += '<div class="nav_er_ul1">';
+                            for (let j = 0;j<item.children.length;j++){
+                                let title2 = item.children[j].c_name;
+                                let url2 = item.children[j].url;
+                                let childId = item.children[j].id;
+                                console.log(childId);
+                                if (cid==childId){
+                                    html +='<div class="nav_er_li1 on">';
+                                } else {
+                                    html +='<div class="nav_er_li1">';
+                                }
+                                html += '<a href="'+url2+'">'+title2+'</a>' +
+                                    '</div>';
+                            }
+                            html += '</div>';
+                        } else {
+                            if (cid==id){
+                                html += '<div class="nav_er_li on">';
+                            } else {
+                                html += '<div class="nav_er_li">';
+                            }
+
+                            html += '<a href="'+url+'">'+title+'</a>';
+                        }
+                        html += '</div>';
+                        //手机端
+                        wap += '<div class="nav_er_m_li">' +
+                            '<a href="'+url+'">'+title+'</a>' +
+                            '</div>'
+                    });
+                    $("#nav").html(html);
+                    $("#nav_m").html(wap);
+                    $(".nav_er_li1.on").parent(".nav_er_ul1").show();
+
+                    $(".nav_er_li.san a").click(function(){
+                        $(this).siblings(".nav_er_ul1").toggle(200)
+                    })
+                }
+            })
+        }
+
+    }
+    $(function () {
+        let pid = "11";
+        getCategoryList(pid);
+    })
+ 
+			 
+    //友情链接
+    function getLinkList(type_id, sort) {
+        $.ajax({
+            url: "/index/Api/getLinkList",
+            data: { type_id: type_id, show_style: sort },
+            dataType: "json",
+            type: "GET",
+            success: function (res) {
+                const list = res.list || [];
+                let html = '';
+
+                if (list.length === 0) {
+                    html = '<div class="main3_1_img_li"><a href="#">暂无数据</a></div>';
+                } else {
+                    list.forEach(item => {
+                        // 假设字段：title（标题）、create_time 或 publish_time（时间戳）
+                        const title = item.name || '无标题';
+                        const url = item.url || '#';
+                        html += '<li>' +
+                            '<a href="'+url+'" target="_blank">' + title+'</a>' +
+                            '</li>'
+                    });
+                }
+                $('#link').html(html);
+            },
+            error: function (xhr) {
+                console.error('加载失败:', xhr.statusText);
+                $('#link').html('<li><a href="#">加载失败</a></li>');
+            }
+        });
+    }
+    $(function () {
+        getLinkList(1,1);
+    })
+ 
+			 
+	 
+		 友情链接 
+		 
+	 
+	 
+		 
+			 
+				 招生科：5162472 
+				 教育管理科：5162622 5162451 
+			 
+			 
+				 主办单位：甘肃中医药大学党委研究生工作部（研究生院） 
+				 本站由 载鲲软件 提供技术支持 
+			 
+		 
+		 
+			 
+				 Copyright © 2017-2026 甘肃中医药大学党委研究生工作部（研究生院） 
+			 
+			 
+				 备案序号： 陇ICP备17003159号 
+				 甘公网安备62012302000079号 			 
+		 
+		 
+			 
+			 手机站 
+		 
+	 
+ 
+ 
+	 
+		 
+			 招生科：5162472 
+			 教育管理科：5162622 5162451 
+			 主办单位：甘肃中医药大学党委研究生工作部（研究生院） 
+		 
+		 
+			 Copyright © 2017-2026 甘肃中医药大学党委研究生工作部（研究生院） 
+			 备案序号： 陇ICP备17003159号 
+			 甘公网安备62012302000079号 			 本站由 载鲲软件 提供技术支持 
+		 
+	 
+ 
+		 
+	 
+ 

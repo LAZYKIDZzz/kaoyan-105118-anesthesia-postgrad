@@ -1,0 +1,53 @@
+{
+  "name": "河南大学",
+  "tier": "稳健区",
+  "gate": 314,
+  "region": "河南",
+  "candidates": [
+    {
+      "title": "河南大学官方招生入口",
+      "url": "https://grs.henu.edu.cn/"
+    },
+    {
+      "title": "河南大学招生官网（查找2027目录）",
+      "url": "https://grs.henu.edu.cn/zsgz/sszs.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "河南大学官方招生入口",
+      "url": "https://grs.henu.edu.cn/",
+      "effective_url": "https://grs.henu.edu.cn/",
+      "path": "docs/admissions/2027/河南大学/page-76bfe3bcf3.html",
+      "sha256": "9957e39968f7fbdede193768bfea5da77287095a5bfc423ba6b54a20ae8a65a2",
+      "bytes": 105429
+    },
+    {
+      "title": "2026年10月01日 河南大学2027年硕士研究生招生章程",
+      "url": "https://grs.henu.edu.cn/info/1111/61032.htm",
+      "effective_url": "https://grs.henu.edu.cn/info/1111/61032.htm",
+      "path": "docs/admissions/2027/河南大学/page-e43b0b687b.html",
+      "sha256": "c72764c729be5a8bca1bbe04d18f82626dd2a9741b4001f4add150ae0d6c98f2",
+      "bytes": 240903
+    }
+  ],
+  "files": [
+    {
+      "title": "河南大学2027年医学院招生专业目录",
+      "url": "https://grs.henu.edu.cn/zyml-036-2027gai.pdf",
+      "path": "docs/admissions/2027/河南大学/河南大学2027年医学院招生专业目录.pdf",
+      "sha256": "8b70a04153c36b30664101708f9c94ea1c6ce5eb6f2e1f8abfddfed755348bef",
+      "bytes": 253091,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://grs.henu.edu.cn/zsgz/sszs.htm",
+      "title": "河南大学招生官网（查找2027目录）",
+      "error": "404\nhttps://grs.henu.edu.cn/zsgz/sszs.htm"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

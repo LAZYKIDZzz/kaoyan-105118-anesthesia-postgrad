@@ -1,0 +1,138 @@
+
+
+ 
+ 
+	 
+		 招生目录 
+		 
+		
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+     
+     
+		 
+		
+			
+			
+				 大连理工大学2027年招收攻读硕士学位研究生专业目录 
+			
+		
+			
+		 
+		
+			
+			
+				 
+					 
+						 
+						 
+						
+						 
+						  搜索  
+						
+				
+    
+						
+	 
+     
+    
+    
+						 
+						
+						 
+					 
+				 
+				 
+					 
+						 
+					 
+					 
+						 
+							 
+						 
+					 
+				 
+				 
+					var nd = '2027';
+					var zslb = '1';
+					
+					(function($) {
+						initTree();
+						
+					})(jQuery);
+					
+					var setting = {
+					    view : {
+					      showIcon: false,
+					      dblClickExpand: false
+					    },
+					    data : {
+					      key : {
+					        name : "name"
+					      },
+					      simpleData : {
+					        enable : true,
+					        idKey : "id",
+					        pIdKey : "pId"
+					      }
+					    },
+					    callback : {
+					      // 单击事件
+					      onClick : zTreeOnClick
+					    }
+					};
+				
+					  var zTreeObj;
+					  function initTree() {
+					    $.post("/zsbm/zsml/getTreeData", {nd:nd, zslb:zslb}, function(data) {
+					      zTreeObj = $.fn.zTree.init($("#zsml-dept-tree"), setting, data);
+					      var nodes = zTreeObj.getNodes();
+						  var firstNode = nodes[0];
+						  zTreeObj.selectNode(firstNode); //选中第一个节点
+						  zTreeObj.setting.callback.onClick(null, zTreeObj.setting.treeId, firstNode);//调用事件
+					    }, 'json');
+					  }
+					  
+					  function zTreeOnClick(event, treeId, treeNode) {
+				          if (treeNode.isParent) {
+				        	  // 根据院系信息展示专业信息
+				        	  $('#iframeContent').attr('src', '/zsbm'+getZsmlZyUrl(zslb, nd, treeNode.id));
+				        	  // 节点展开/折叠
+				        	  var zTree = $.fn.zTree.getZTreeObj("zsml-dept-tree");
+				  			  zTree.expandNode(treeNode);
+				          } else {
+				        	 // 根据专业信息展示研究方向信息
+				        	 $('#iframeContent').attr('src', '/zsbm'+getZsmlYjfxUrl(zslb, nd, treeNode.pId, treeNode.id,treeNode.scode));
+				          }
+					  }
+					  
+					  $('#search').click(function() {
+						  search();
+					  });
+					  
+					  $('#searchVal').bind('keyup', function(event) {
+						　　if (event.keyCode == "13") {
+						　　　　 search();
+						　　}
+					  });
+					  
+					  function search() {
+						  var val = $('#searchVal').val();
+						  if (val == '') {
+							  alert('请输入专业代码/名称或研究方向代码/名称！');
+							  return;
+						  }
+						  $('#iframeContent').attr('src', '/zsbm'+getSearchUrl(zslb, nd, val));
+					  }
+				 
+			
+		
+     

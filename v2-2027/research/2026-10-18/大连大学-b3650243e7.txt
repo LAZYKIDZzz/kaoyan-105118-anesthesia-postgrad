@@ -1,0 +1,261 @@
+﻿ 大连大学2027年全国硕士研究生招生章程-大连大学研究生院 
+
+
+
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1065,'/content.jsp',3890,1314563526) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     
+         
+             
+                 
+                
+                     首页   
+
+                     
+                     
+                
+                     部门介绍   
+
+                     
+                     
+                         学院简介  
+                         
+                         
+                         组织机构  
+                         
+                         
+                     
+                     
+                     
+                
+                     招生管理   
+
+                     
+                     
+                         博士招生  
+                         
+                         
+                         硕士招生  
+                         
+                         
+                         同等学力招生  
+                         
+                         
+                     
+                     
+                     
+                
+                     培养管理   
+
+                     
+                     
+                         培养工作  
+                         
+                         
+                         导师队伍  
+                         
+                         
+                         案例库建设  
+                         
+                         
+                     
+                     
+                     
+                
+                     学位管理   
+
+                     
+                     
+                
+                     综合管理   
+
+                     
+                     
+                
+                     公示公告   
+
+                     
+                     
+                
+                     政策法规   
+
+                     
+                     
+                         规章制度  
+                         
+                         
+                         招生  
+                         
+                         
+                         培养  
+                         
+                         
+                         学位  
+                         
+                         
+                         综合  
+                         
+                         
+                     
+                     
+                     
+                
+                     下载中心 
+
+                     
+                     
+                         招生管理  
+                         
+                         
+                         培养管理  
+                         
+                         
+                         学位管理  
+                         
+                         
+                         综合管理  
+                         
+                         
+                     
+                     
+                     
+                 
+             
+         
+     
+ 
+                
+ 
+//阳历
+var c_Calendar51580EnDateString;
+
+var c_Calendar51580WeekDayString;
+
+//阴历
+var c_Calendar51580CnDateString;
+//节气
+var c_Calendar51580JQString;
+//年
+var c_Calendar51580YearString;
+//月
+var c_Calendar51580MonthString;
+//日
+var c_Calendar51580DayString;
+//周
+var c_Calendar51580WeekString;
+//显示
+var c_Calendar51580ShowString;
+function RunGLNL51580()
+{          
+    var  sc =new Simple_Calendar ();
+    sc.init();
+    c_Calendar51580CnDateString=sc.getCnDateString();
+    c_Calendar51580WeekDayString=sc.getCalendarWeekString();
+    c_Calendar51580JQString=sc.getJQString();
+    c_Calendar51580EnDateString=sc.getEnDateString();
+    c_Calendar51580YearString=sc.getYearString();
+    c_Calendar51580MonthString=sc.getMonthString();
+    c_Calendar51580DayString=sc.getDayString();
+    c_Calendar51580WeekString=sc.getWeekString();
+    c_Calendar51580ShowString= "";
+}
+RunGLNL51580();
+      
+c_Calendar51580ShowString+=c_Calendar51580EnDateString; 
+c_Calendar51580ShowString+="&nbsp;&nbsp;"+c_Calendar51580WeekDayString; 
+c_Calendar51580ShowString+="&nbsp;&nbsp;"+c_Calendar51580CnDateString;
+
+
+ 
+ 
+ 
+	document.getElementById("c_lunar51580").innerHTML = c_Calendar51580ShowString;
+ 
+ 
+ 
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode1123129').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey1123129").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey1123129").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey1123129").value = base64.encode(document.getElementById("lucenenewssearchkey1123129").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode1123129"));
+        return true;
+    } 
+ 
+ 
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+招生管理 
+             博士招生 
+        
+         硕士招生 
+        
+         同等学力招生 
+        
+ 
+ 
+ 
+ 
+硕士招生 
+   
+ 当前位置：   
+ 首页 >> 招生管理 >> 硕士招生 >> 正文 
+ 
+ 
+     大连大学2027年全国硕士研究生招生章程 
+     2026年09月29日 14:58  点击：[ _showDynClicks("wbnews", 1314563526, 3890) ]  
+     
+ 
+  var vsb_pdf_image_data = ["/__local/E/A1/FD/7CAD384A8C7127C47BB4A192E0B_BCDBB068_3DC5B.jpg","/__local/1/0E/F7/94DA6374647B9D11AF2501F0E99_656B20C9_43E3B.jpg","/__local/F/1C/6B/533AD85DD82681C41B7369B33BC_D0BEF6A0_40080.jpg","/__local/1/6B/26/9F6E957E749A48977919C471679_152F46FA_45A22.jpg","/__local/3/A3/67/DAA8D19DA3B2C75B665469D79C5_EE0DF1E2_3DAF8.jpg","/__local/9/86/A5/596888D5D6AFD6090E36ED51817_A602F0D1_431D9.jpg","/__local/B/B8/07/447ED4BD240DF787248FE2BFF2C_E05247CE_3698C.jpg","/__local/5/5D/84/DC79E3247DCFB83B10264624D65_2D37E127_1F9CF.jpg"];showVsbpdfIframe("/__local/4/95/8F/6D4CA1A6B9595BEFEFBD7A83F1B_76E93C67_5C7A8.pdf","100%","600","0","border:1px solid #DDDDDD",vsb_pdf_image_data); 
+ 
+ 
+         
+        上一条： 大连大学2027年硕士研究生招生专业目录、复试科目、加试科目 
+         下一条： 大连大学2027年接收推荐免试研究生工作办法 
+     
+     【 关闭 】 
+ 
+ 
+
+ 
+ 
+ 版权所有 Copyright©2016 大连大学研究生院 
+
+
+ 

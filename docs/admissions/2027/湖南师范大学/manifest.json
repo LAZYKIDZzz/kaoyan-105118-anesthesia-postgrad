@@ -1,0 +1,47 @@
+{
+  "name": "湖南师范大学",
+  "tier": "从容区",
+  "gate": 293,
+  "region": "湖南",
+  "candidates": [
+    {
+      "title": "湖南师范大学招生栏目",
+      "url": "https://yjsc.hunnu.edu.cn/zsks/sszk1.htm"
+    },
+    {
+      "title": "湖南师范大学2027年硕士研究生招生章程及自命题科目考试大纲-研究生院",
+      "url": "https://yjsc.hunnu.edu.cn/info/1027/16364.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "湖南师范大学招生栏目",
+      "url": "https://yjsc.hunnu.edu.cn/zsks/sszk1.htm",
+      "effective_url": "https://yjsc.hunnu.edu.cn/zsks/sszk1.htm",
+      "path": "docs/admissions/2027/湖南师范大学/page-66e6a215eb.html",
+      "sha256": "0d0765c7889fb14ba9cb245eb815f2f353b3fc9da09f331b86d204b8e1f8dfc4",
+      "bytes": 26286
+    },
+    {
+      "title": "湖南师范大学2027年硕士研究生招生章程及自命题科目考试大纲-研究生院",
+      "url": "https://yjsc.hunnu.edu.cn/info/1027/16364.htm",
+      "effective_url": "https://yjsc.hunnu.edu.cn/info/1027/16364.htm",
+      "path": "docs/admissions/2027/湖南师范大学/page-f6733d72e8.html",
+      "sha256": "f29097afe6f16a1db38cef44bee5c18f2d957038332f47a884d8c57d77498583",
+      "bytes": 55935
+    }
+  ],
+  "files": [
+    {
+      "title": "湖南师范大学2027年硕士研究生招生章程.pdf",
+      "url": "https://yjsc.hunnu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1564202631&wbfileid=15558754",
+      "path": "docs/admissions/2027/湖南师范大学/湖南师范大学2027年硕士研究生招生章程.pdf",
+      "sha256": "138ab892ea8b522db87f52afb16fd3d72cffc6d77027032fc00f291b2e7d55a4",
+      "bytes": 603655,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

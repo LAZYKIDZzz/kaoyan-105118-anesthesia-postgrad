@@ -1,0 +1,43 @@
+{
+  "name": "陕西中医药大学",
+  "tier": "从容区",
+  "gate": 297,
+  "region": "陕西",
+  "candidates": [
+    {
+      "title": "陕西中医药大学2027年招生目录入口",
+      "url": "http://yjsc.sntcm.edu.cn/zsgz/129290.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "陕西中医药大学2027年招生目录入口",
+      "url": "http://yjsc.sntcm.edu.cn/zsgz/129290.htm",
+      "effective_url": "http://yjsc.sntcm.edu.cn/zsgz/129290.htm",
+      "path": "docs/admissions/2027/陕西中医药大学/page-a9687a15e2.html",
+      "sha256": "9e1979fcccbc7d59d7185c25eaa6596afde60cddae7cf0c297d55882dbe2ee93",
+      "bytes": 9705
+    }
+  ],
+  "files": [
+    {
+      "title": "陕西中医药大学2027年硕士研究生招生简章.pdf",
+      "url": "http://img.sntcm.edu.cn/HIWCMyzb/202610/202610080838027.pdf",
+      "path": "docs/admissions/2027/陕西中医药大学/陕西中医药大学2027年硕士研究生招生简章.pdf",
+      "sha256": "313ff5061df745f62708456d439cb55ea10b8b292fd5b5cf71d67670ead6ef33",
+      "bytes": 171889,
+      "kind": "original"
+    },
+    {
+      "title": "陕西中医药大学2027年硕士研究生招生专业目录 .pdf",
+      "url": "http://img.sntcm.edu.cn/HIWCMyzb/202610/202610010535003.pdf",
+      "path": "docs/admissions/2027/陕西中医药大学/陕西中医药大学2027年硕士研究生招生专业目录_.pdf",
+      "sha256": "27cab206ab19351e003e34a0abeebdc27429b9ee5f6672bd8cc75a24f871a501",
+      "bytes": 249823,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

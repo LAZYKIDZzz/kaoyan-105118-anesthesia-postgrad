@@ -1,0 +1,45 @@
+{
+  "name": "兰州大学",
+  "tier": "进取区",
+  "gate": 328,
+  "region": "甘肃",
+  "candidates": [
+    {
+      "title": "兰州大学官方招生入口",
+      "url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-3556155899%2CcategoryId-10461788%2CschId-368587%2Cmindex-12.dhtml"
+    },
+    {
+      "title": "兰州大学招生官网（查找2027目录）",
+      "url": "https://yz.lzu.edu.cn/shuoshishengzhaosheng/shuoshijianzhang/2026/1009/338207.html"
+    },
+    {
+      "title": "兰州大学招生官网（查找2027目录）",
+      "url": "https://yz.lzu.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "兰州大学官方招生入口",
+      "url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-3556155899%2CcategoryId-10461788%2CschId-368587%2Cmindex-12.dhtml",
+      "effective_url": "https://yz.chsi.com.cn/sch/viewZszc--infoId-3556155899%2CcategoryId-10461788%2CschId-368587%2Cmindex-12.dhtml",
+      "path": "docs/admissions/2027/兰州大学/page-271597afe9.html",
+      "sha256": "48e5bc115ac2ec6d94de1fe6fad9aa22586a746e1bb033081993aead9cf707f6",
+      "bytes": 32658
+    }
+  ],
+  "files": [],
+  "failures": [
+    {
+      "url": "https://yz.lzu.edu.cn/shuoshishengzhaosheng/shuoshijianzhang/2026/1009/338207.html",
+      "title": "兰州大学招生官网（查找2027目录）",
+      "error": "412\nhttps://yz.lzu.edu.cn/shuoshishengzhaosheng/shuoshijianzhang/2026/1009/338207.html"
+    },
+    {
+      "url": "https://yz.lzu.edu.cn/",
+      "title": "兰州大学招生官网（查找2027目录）",
+      "error": "412\nhttps://yz.lzu.edu.cn/"
+    }
+  ],
+  "status": "仅归档招生网页，目录待补",
+  "checked_at": "2026-10-18"
+}

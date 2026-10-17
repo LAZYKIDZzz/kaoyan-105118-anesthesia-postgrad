@@ -1,0 +1,32 @@
+{
+  "name": "佳木斯大学",
+  "tier": "从容区",
+  "gate": 296,
+  "region": "黑龙江",
+  "candidates": [
+    {
+      "title": "佳木斯大学官方招生入口",
+      "url": "https://yjs.jmsu.edu.cn/info/1061/4118.htm"
+    },
+    {
+      "title": "佳木斯大学2027年硕士研究生招生简章-佳木斯大学",
+      "url": "https://www.jmsu.edu.cn/info/1055/20571.htm"
+    }
+  ],
+  "pages": [],
+  "files": [],
+  "failures": [
+    {
+      "url": "https://yjs.jmsu.edu.cn/info/1061/4118.htm",
+      "title": "佳木斯大学官方招生入口",
+      "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to yjs.jmsu.edu.cn:443 \n"
+    },
+    {
+      "url": "https://www.jmsu.edu.cn/info/1055/20571.htm",
+      "title": "佳木斯大学2027年硕士研究生招生简章-佳木斯大学",
+      "error": "curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.jmsu.edu.cn:443 \n"
+    }
+  ],
+  "status": "官网访问受限，待补原件",
+  "checked_at": "2026-10-18"
+}

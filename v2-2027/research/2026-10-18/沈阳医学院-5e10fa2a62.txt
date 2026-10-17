@@ -1,0 +1,707 @@
+﻿ 
+ 
+
+    
+         
+         
+         
+         沈阳医学院研究生院 
+ 
+ 
+
+          
+         
+         
+         
+         
+         
+         
+        
+         
+         
+         
+        
+     
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1001,'/index.jsp',-1,1582353907) 
+ 
+     
+    
+#browser-modal{width:100%;height:100%;top:0;left:0;text-align:center;color:#303233;position:fixed;z-index:9999999;display: none;}
+#browser-modal .browser-modal-cover{position:fixed;left:0;top:0;height:100%;width:100%;background-color:#111;opacity:.9;z-index:-1;}
+#browser-modal .browser-content{width:700px;margin-top:120px;margin-left:auto;margin-right:auto;padding-bottom:80px;padding-top:30px;background-color:#fff;border-radius:5px;}
+#browser-modal .browser-content .browser-dpc-logo img{height:62px;margin:45px auto 30px;}
+#browser-modal .browser-content .browser-text-title{text-transform:uppercase;font-size:24px;}
+#browser-modal .browser-content .browser-text-desc{margin-top:30px;margin-bottom:40px;font-size:14px;}
+#browser-modal .browser-content .browser-list{width:600px;margin:40px auto;height:130px;}
+#browser-modal .browser-content .browser-item{float:left;width:150px;padding-top:20px;padding-bottom:20px;margin-left:auto;margin-right:auto;}
+#browser-modal .browser-content .browser-item .iconfont{width:100px;height:100px;margin:0 auto;font-size:80px;line-height:80px;margin-bottom:30px;}
+#browser-modal .browser-content .browser-item a{color:#921041;cursor:pointer;display:block;}
+#browser-modal .browser-content .browser-item a img{display:block;margin:0 auto;max-width:100px;width:100px;height:100px;}
+#browser-modal .browser-content .browser-item a h4{text-align:center;margin-top:20px;font-size:18px;font-weight:700;}
+.fixedok .banner {opacity:0;}
+
+#browser-modal .browser-content .browser-item .iconchrome{background:url(images/bro.png) no-repeat 0 0;}
+#browser-modal .browser-content .browser-item .iconfirefox{background:url(images/bro.png) no-repeat 0 -100px;}
+#browser-modal .browser-content .browser-item .iconopera{background:url(images/bro.png) no-repeat 0 -200px;}
+#browser-modal .browser-content .browser-item .iconEdge{background:url(images/bro.png) no-repeat 0 -300px;}
+
+
+ 
+ 
+     
+     
+     
+         
+            
+             请升级浏览器版本 
+             
+        你正在使用旧版本浏览器。请升级浏览器以获得更好的体验。
+             
+         
+         
+             
+                
+                 
+                 
+                 Chrome 
+                 
+             
+             
+                 
+                 
+                 
+                 Firefox 
+                 
+             
+             
+                 
+                 
+                 
+                 Opera 
+                 
+             
+             
+                 
+                 
+                 
+                 Edge 
+                 
+             
+         
+     
+     
+    if(!!window.ActiveXObject || "ActiveXObject" in window){
+
+           document.getElementById("browser-modal").style.display = "block";
+
+    }
+        if(navigator.appName == "Microsoft Internet Explorer"&&parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g, "").replace("MSIE","")) < 11){
+            document.getElementById('browser-modal').style.display='block';
+            console.log("您的浏览器版本过低，请使用其他版本");
+    }
+     
+ 
+         
+             
+                 
+                    
+ 
+ 
+                 
+                 
+                     
+ 研究生教育与学位管理系统 
+ 沈阳医学院 
+ 
+ 
+                 
+                 
+                     
+ 
+ 首页 
+ 
+ 
+ 
+ 研院概况 
+ 
+ 研院简介 
+ 机构设置 
+ 
+ 
+ 
+ 
+ 导师队伍 
+ 
+ 通知公告 
+ 导师遴选 
+ 师生双选 
+ 一级学科 
+ 
+ 
+ 
+ 
+ 招生工作 
+ 
+ 通知公告 
+ 下载中心 
+ 相关文件 
+ 
+ 
+ 
+ 
+ 同等学力 
+ 
+ 通知公告 
+ 招生简章 
+ 培养计划 
+ 下载中心 
+ 相关规定 
+ 
+ 
+ 
+ 
+ 教学培养 
+ 
+ 通知公告 
+ 规章制度 
+ 开题中期 
+ 课程考试 
+ 规培轮转 
+ 学术活动 
+ 下载中心 
+ 
+ 
+ 
+ 
+ 学位工作 
+ 
+ 通知公告 
+ 规章制度 
+ 下载中心 
+ 
+ 
+ 
+ 
+ 学生管理 
+ 
+ 通知公告 
+ 规章制度 
+ 下载中心 
+ 
+ 
+
+ 
+ 
+                     
+                        
+
+
+ 
+ 
+    <div id="appu3">
+        <div v-if="!isError">
+            <button type="button" class="button" id="button"></button>
+<div id="searchbox" class="searchbox">
+<div class="w1400 clearfix">
+<form>
+<input type="text" placeholder="全文搜索" autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit" class="text">
+<span class="submit"><input type="image" src=""  align="absmiddle" value="" name="submit_button" v-on:click="onSubmit()"/></span>
+</form>
+</div>
+</div>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+ 
+ 
+    $("#divu3").html($("#htmlu3").text());
+ 
+ 
+    var appOwner = "1582353907";
+    var token = gettoken(10);
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu3",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+ 
+    })
+ 
+                     
+                 
+                 
+             
+         
+         
+                 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+         
+         
+             
+                 
+                     通知 · 公告 
+                 
+                 
+                     
+                         
+ 
+ 
+ 沈阳医学院2026年同等学力人员申请硕士学位招生简章 
+ 2026年10月12日 
+ 沈阳医学院是教育部批准设立的全日制普通高等学校。建校77年来，学校实施特色发展、错位发展、转型发展和内涵发展战略，现已发展成为一所以医学为主，多门类、多层次、多种办学形式的市属普通高等院校。沈阳医学院师资力量雄厚，教学科研条件完善。设有基... 
+ 
+ 
+ 
+ 
+ 沈阳医学院2027年全国硕士研究生招生章程 
+ 2026年09月29日 
+ 根据《2027年全国硕士研究生招生工作管理规定》文件精神，结合我校实际，制定本章程。一、培养目标培养热爱祖国，拥护中国共产党的领导，拥护社会主义制度，遵纪守法，品德良好，具有服务国家、服务人民的社会责任感，掌握本学科坚实的基础理论和系统的专... 
+ 
+ 
+ 
+ 
+ 沈阳医学院2026级第二批同等学力研究生拟录取名单公示 
+ 2026年09月23日 
+   请拟录取名单内的申请人缴纳第一阶段学费。缴费成功后，报名生效。缴纳金额:壹万伍仟元整。学费缴纳后不予退还。拟录取名单内的申请人如拒绝缴费，则取消本年度同等学力申请硕士学位报名资格，《报名登记表》随即作废。相关缴费流程会在QQ群通知。 
+ 
+ 
+ 
+ 
+ 
+ 科学规划备考节奏 精准助力公考冲刺——研究生院2026公考指导专题讲座顺利举办 
+ 
+ 
+ _showDynClickBatch(['dynclicks_u5_16042','dynclicks_u5_15992','dynclicks_u5_15942','dynclicks_u5_14372'],[16042,15992,15942,14372],"wbnews", 1582353907) 
+
+                     
+                     
+                         
+                             
+ 
+ 
+ 02 
+ 2026-03 
+ 
+ 
+研究生院召开2026年度师德师风专题培训
+ 
+ 
+ 
+ 
+ 
+ 
+ 06 
+ 2025-06 
+ 
+ 
+我校参加“中国学位与研究生教育学会研究生教育学专业委员会202...
+ 
+ 
+ 
+ 
+ 
+ 
+ 21 
+ 2025-05 
+ 
+ 
+沈阳医学院关于培养大连医科大学2025年（夏季）博士研究生学位...
+ 
+ 
+ 
+ 
+ 
+ 
+ 26 
+ 2025-03 
+ 
+ 
+研究生院党委研究部署深入贯彻中央八项规定精神学习教育工作
+ 
+ 
+ 
+ 
+ 
+ 
+ 26 
+ 2023-05 
+ 
+ 
+【一图读懂】辽宁住院医师规范化培训
+ 
+ 
+ 
+ _showDynClickBatch(['dynclicks_u6_14062','dynclicks_u6_9542','dynclicks_u6_9472','dynclicks_u6_2061','dynclicks_u6_2071'],[14062,9542,9472,2061,2071],"wbnews", 1582353907) 
+
+                         
+                     
+                 
+                 更多新闻 
+             
+         
+         
+             
+                 
+                     
+                         招生 · 工作 
+                         
+                             查看更多 
+                             
+                         
+                     
+                     
+                         下载 · 中心 
+                         
+                             查看更多 
+                             
+                         
+                     
+                 
+                 
+                     
+ 
+ 
+ 沈阳医学院2027年全国硕士研究生招生章程 
+ 
+ 2026-09-29 
+ 
+ 
+ 
+ 
+ 
+ 
+ 沈阳医学院2026年一轮调剂复试安排 
+ 
+ 2026-04-09 
+ 
+ 
+ 
+ 
+ 
+ 
+ 沈阳医学院2026年硕士研究生调剂公告（第一轮） 
+ 
+ 2026-04-03 
+ 
+ 
+ 
+ 
+ _showDynClickBatch(['dynclicks_u7_15962','dynclicks_u7_14192','dynclicks_u7_14172'],[15962,14192,14172],"wbnews", 1582353907) 
+
+                     
+ 
+ 
+ 
+ 沈阳医学院招收攻读硕士学位研究生思想政治资格考察表 
+ 
+ 
+ 
+ 
+ 
+ 沈阳医学院同等学力申请硕士学位人员进入第二阶段申请审批表 
+ 
+ 
+ 
+ 
+ 
+ 沈阳医学院招收攻读硕士学位研究生思想政治资格考察表 
+ 
+ 
+ _showDynClickBatch(['dynclicks_u8_4901','dynclicks_u8_4781','dynclicks_u8_4911'],[4901,4781,4911],"wbnews", 1582353907) 
+
+                 
+             
+         
+         
+             
+                 
+ 研院 · 风采 
+ 
+ 
+ 
+ 
+ 
+ 科学规划备考节奏 精准助力公考冲刺——研究生院2026公考指导专题讲座顺利举办 
+ 科学规划备考节奏 精准助力公考冲刺——研究生院2026公考指导专题讲座顺利举办为帮助广大同学理清公考备考思路、科学规划备考节奏，研究生院团委于5月23日上午在致远楼一阶梯教室举办2026年公考指导专题讲座。主讲人陈健华老师与研究... 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 【医路公考•研帆启航】研究生院2026公考指导交流会顺利举行 
+ 【医路公考•研帆启航】研究生院2026公考指导交流会顺利举行为切实对研究生进行就业帮扶，帮助学生明确2026年公考形势、掌握备考技巧，2026年3月22日上午9时，研究生院团委于致远楼第一阶梯教室举办了2026公考指导交流会，众多意向公... 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 思辨青春，言启未来！——研究生院辩论赛圆满落幕 
+ 思辨青春，言启未来！——研究生院辩论赛圆满落幕为锤炼研究生思辨能力与语言表达素养，丰富校园学术文化氛围，3月5日至 20日，由研究生院团委主办的“思辨青春，言启未来”主题辩论赛在B座101教室顺利举行。研究生踊跃参与，历经初赛... 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 研究生院2026年寒假社会实践总结：青春聚力健康中国，专业服务温暖基层 
+ 研究生院2026年寒假社会实践总结：青春聚力健康中国，专业服务温暖基层为全面落实“健康中国2030”规划纲要和积极应对人口老龄化国家战略，研究生院于2026年寒假组建15支社会实践团队，百余名硕士研究生走出校园、扎根基层，聚焦老年... 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 【筑梦公考•赢在起点】公考模拟活动顺利举行 
+ 【筑梦公考•赢在起点】公考模拟活动顺利举行为助力我校研究生深入了解公务员考试流程，提升应试能力与实战经验，提前做好职业规划，12月28日，研究生院团委于致远楼举办了公考模拟活动。本次活动旨在通过全真模拟，为学生们提供一个... 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 研途共赴，新岁同程——研究生院2026年元旦晚会圆满落幕 
+ 研途共赴，新岁同程——研究生院2026年元旦晚会圆满落幕星霜荏苒，华章日新。2025年12月26日晚，研究生院于图书馆学术报告厅隆重举行2026年元旦晚会。教师代表研究生院副院长杨旸老师、基础医学院解剖教研室教师于晓童老师、研究生院... 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 探医学之秘，筑协作之桥，践未来之路 —— 第二届医学知识挑战赛圆满落幕 
+ 探医学之秘，筑协作之桥，践未来之路 —— 第二届医学知识挑战赛圆满落幕为丰富校园文化生活，夯实研究生科研基础知识，增强团队协作意识与医学素养，历经两天，由研究生院团委举办的“探医学之秘，筑协作之桥，践未来之路”---研究生... 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 研究生院第九届团委（研究生会）干部述职大会暨聘任大会顺利召开 
+ 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 沈阳医学院第五次研究生代表大会倒计时2天 
+ 沈阳医学院第五次研究生代表大会倒计时2天。 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 筑牢校园安全防线，共建平安和谐校园--研究生院开展消防宣传系列活动 
+ 
+ 查看详细 
+ 
+ 
+ 
+ _showDynClickBatch(['dynclicks_u9_14372','dynclicks_u9_14442','dynclicks_u9_14412','dynclicks_u9_14392','dynclicks_u9_14452','dynclicks_u9_14362','dynclicks_u9_14382','dynclicks_u9_13922','dynclicks_u9_13872','dynclicks_u9_13932'],[14372,14442,14412,14392,14452,14362,14382,13922,13872,13932],"wbnews", 1582353907) 
+
+             
+         
+         
+             
+                     
+ 快速链接 
+ 
+ 查看链接 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 就业工作 
+ 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 同等学力 
+ 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 教学培养 
+ 
+ 查看详细 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 导师队伍 
+ 
+ 查看详细 
+ 
+ 
+ 
+ 
+             
+         
+         
+             
+                 
+                    
+ 
+ 
+                 
+                     
+ 
+             
+         
+         
+             
+                 
+ 版权所有©  (中国.辽宁)沈阳医学院研究生院      辽ICP备18008634号      地址：辽宁省沈阳市黄河北大街146#     邮编：110034      传真：+86-24-62215656 
+             
+         
+         
+         
+            //banner
+            $(document).ready(function(){
+                 $('.banner').slick({
+                    autoplay: true,
+                    autoplaySpeed:3500,
+                    pauseOnHover:false,
+                    dots:true
+                 });
+             });
+             //figure
+            $(document).ready(function(){
+                  $('.figurelb').slick({
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    draggable:false,
+                    focusOnSelect: true,
+                    arrows:true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    //centerMode: true,
+                     variableWidth: true,
+                  });
+              });
+              $(document).ready(function(){
+                   $('.linklb').slick({
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    slidesToShow:5,
+                    dots:false,
+                    draggable:false
+                   });
+               });
+              $(document).ready(function(){
+                    $('.servicelb').slick({
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    slidesToShow:4,
+                    draggable:false
+                    });
+                });
+         
+    
+
+ 

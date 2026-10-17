@@ -1,0 +1,55 @@
+{
+  "name": "苏州大学",
+  "tier": "进取区",
+  "gate": 327,
+  "region": "江苏",
+  "candidates": [
+    {
+      "title": "苏州大学2027年硕士研究生招生专业目录",
+      "url": "https://yjs.suda.edu.cn/ea/63/c8386a715363/page.htm"
+    },
+    {
+      "title": "苏州大学2027年硕士研究生招生简章",
+      "url": "https://yjs.suda.edu.cn/ea/64/c8365a715364/page.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "苏州大学2027年硕士研究生招生专业目录",
+      "url": "https://yjs.suda.edu.cn/ea/63/c8386a715363/page.htm",
+      "effective_url": "https://yjs.suda.edu.cn/ea/63/c8386a715363/page.htm",
+      "path": "docs/admissions/2027/苏州大学/page-f057a2173f.html",
+      "sha256": "6633820da2a93ff466fef0371aee30c16cf5875fb9d43b86bcab93678de633d7",
+      "bytes": 18927
+    },
+    {
+      "title": "苏州大学2027年硕士研究生招生简章",
+      "url": "https://yjs.suda.edu.cn/ea/64/c8365a715364/page.htm",
+      "effective_url": "https://yjs.suda.edu.cn/ea/64/c8365a715364/page.htm",
+      "path": "docs/admissions/2027/苏州大学/page-5307ab7746.html",
+      "sha256": "55d9bb51ab8492acab9bc3d166da059af24b0cdfcaab1788af53c733be1da4d5",
+      "bytes": 126634
+    }
+  ],
+  "files": [
+    {
+      "title": "苏州大学2027年招生专业目录",
+      "url": "https://yjs.suda.edu.cn/_upload/article/files/2c/a3/123b7f624583b29cd041b2cd9284/8018cb3c-8b8e-4e38-ab26-0338b90c8faf.pdf",
+      "path": "docs/admissions/2027/苏州大学/苏州大学2027年招生专业目录.pdf",
+      "sha256": "c993ab73c42b4f24eb3eefe609a4f721df6a9bac87323d6dc982992bc0a43c0c",
+      "bytes": 603001,
+      "kind": "original"
+    },
+    {
+      "title": "苏州大学2027年招生专业目录",
+      "url": "https://yjs.suda.edu.cn/_upload/article/files/2c/a3/123b7f624583b29cd041b2cd9284/41eb0702-96d7-4470-9cbe-eb9fcc9f6ceb.pdf",
+      "path": "docs/admissions/2027/苏州大学/苏州大学2027年招生专业目录-2d65da.pdf",
+      "sha256": "2d65da71c35e106a0c79603571183e11cd9d0d1a4a0867f5b6791bf19c15a3e1",
+      "bytes": 603122,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "河南科技大学",
+  "tier": "稳健区",
+  "gate": 310,
+  "region": "河南",
+  "candidates": [
+    {
+      "title": "河南科技大学招生栏目",
+      "url": "https://yjsc.haust.edu.cn/"
+    },
+    {
+      "title": "河南科技大学食品与生物工程学院2027年硕士研究生招生专业目录-河南科技大学食品与生物工程学院",
+      "url": "https://spsw.haust.edu.cn/info/1009/18323.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "河南科技大学招生栏目",
+      "url": "https://yjsc.haust.edu.cn/",
+      "effective_url": "https://yjsc.haust.edu.cn/",
+      "path": "docs/admissions/2027/河南科技大学/page-f6d15788d8.html",
+      "sha256": "f3a4ab6ce1cfa79803bae44f831a0e4871040cf7cbdaa969e724efad9379ca9c",
+      "bytes": 34714
+    },
+    {
+      "title": "河南科技大学食品与生物工程学院2027年硕士研究生招生专业目录-河南科技大学食品与生物工程学院",
+      "url": "https://spsw.haust.edu.cn/info/1009/18323.htm",
+      "effective_url": "https://spsw.haust.edu.cn/info/1009/18323.htm",
+      "path": "docs/admissions/2027/河南科技大学/page-fa98d3fbfc.html",
+      "sha256": "3b2a3d4adece2642944433430d5f19f391fcfaba0541cec9436bcd1b5f57c9b9",
+      "bytes": 28276
+    },
+    {
+      "title": "河南科技大学2027年硕士研究生招生简章（含招生专业目录）",
+      "url": "https://yjsc.haust.edu.cn/info/1053/8682.htm",
+      "effective_url": "https://yjsc.haust.edu.cn/info/1053/8682.htm",
+      "path": "docs/admissions/2027/河南科技大学/page-16a9312a08.html",
+      "sha256": "14d31749e73a635acb27ccafb01c61369d8bb698df7f69aed1ba55d3aeec3417",
+      "bytes": 26338
+    }
+  ],
+  "files": [
+    {
+      "title": "河南科技大学2027年招生专业目录",
+      "url": "https://yjsc.haust.edu.cn/__local/9/80/F8/31DB5A59C143D355BD221A77FFA_F28022E2_BE492.pdf",
+      "path": "docs/admissions/2027/河南科技大学/河南科技大学2027年招生专业目录.pdf",
+      "sha256": "debaf77f3ee8e7d47f189d3ca8ce065025d1daa94b5dc079a31c23690f112fc3",
+      "bytes": 779410,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

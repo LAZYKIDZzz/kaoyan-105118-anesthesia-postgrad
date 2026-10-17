@@ -1,0 +1,35 @@
+{
+  "name": "锦州医科大学",
+  "tier": "进取区",
+  "gate": 322,
+  "region": "辽宁",
+  "candidates": [
+    {
+      "title": "锦州医科大学2027年全国硕士研究生招生章程-锦州医科大学-研究生学院",
+      "url": "https://yjsc.jzmu.edu.cn/info/1097/5488.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "锦州医科大学2027年全国硕士研究生招生章程-锦州医科大学-研究生学院",
+      "url": "https://yjsc.jzmu.edu.cn/info/1097/5488.htm",
+      "effective_url": "https://yjsc.jzmu.edu.cn/info/1097/5488.htm",
+      "path": "docs/admissions/2027/锦州医科大学/page-aedb00691e.html",
+      "sha256": "298c0f83aa461c149edc70a1a7baa2455af744781f5630a2b1204dd7b84a86a3",
+      "bytes": 46106
+    }
+  ],
+  "files": [
+    {
+      "title": "1.锦州医科大学2027年全国硕士研究生招生考试专业目录.pdf",
+      "url": "https://yjsc.jzmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1707086562&wbfileid=3763050",
+      "path": "docs/admissions/2027/锦州医科大学/1.锦州医科大学2027年全国硕士研究生招生考试专业目录.pdf",
+      "sha256": "658171a82fd2ad2843ebbe22e70be8ff80ddd9f0b9e132d52890b58703fe0fc6",
+      "bytes": 283882,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

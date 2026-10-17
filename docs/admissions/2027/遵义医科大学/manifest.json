@@ -1,0 +1,56 @@
+{
+  "name": "遵义医科大学",
+  "tier": "稳健区",
+  "gate": 306,
+  "region": "贵州",
+  "candidates": [
+    {
+      "title": "遵义医科大学官方招生入口",
+      "url": "https://grs.zmu.edu.cn/info/1099/6790.htm"
+    },
+    {
+      "title": "遵义医科大学招生官网（查找2027目录）",
+      "url": "https://grs.zmu.edu.cn/"
+    }
+  ],
+  "pages": [
+    {
+      "title": "遵义医科大学官方招生入口",
+      "url": "https://grs.zmu.edu.cn/info/1099/6790.htm",
+      "effective_url": "https://grs.zmu.edu.cn/info/1099/6790.htm",
+      "path": "docs/admissions/2027/遵义医科大学/page-a669f16627.html",
+      "sha256": "0de7062f52277179b985cf1cb8d448b17004550354f65b3acdf428f93775982c",
+      "bytes": 153695
+    },
+    {
+      "title": "遵义医科大学招生官网（查找2027目录）",
+      "url": "https://grs.zmu.edu.cn/",
+      "effective_url": "https://grs.zmu.edu.cn/",
+      "path": "docs/admissions/2027/遵义医科大学/page-939a81f434.html",
+      "sha256": "302171448a88bf5d698a89a30fbdc5d178290391bed8c7cccdd2efa3e3d8207e",
+      "bytes": 30383
+    },
+    {
+      "title": "遵义医科大学2027年全日制硕士研究生招生章程 遵义医科大学2027年全日制硕士研究生招生章程2026-09-29",
+      "url": "https://grs.zmu.edu.cn/info/1068/6810.htm",
+      "effective_url": "https://grs.zmu.edu.cn/info/1068/6810.htm",
+      "path": "docs/admissions/2027/遵义医科大学/page-15e56d2892.html",
+      "sha256": "394fc704150fd452063c69fc7b5272916f1cb5cde243dcc66be403515cc7bfaa",
+      "bytes": 66685
+    }
+  ],
+  "files": [
+    {
+      "title": "遵义医科大学官方招生入口",
+      "url": "https://grs.zmu.edu.cn/info/1099/6790.htm",
+      "effective_url": "https://grs.zmu.edu.cn/info/1099/6790.htm",
+      "path": "docs/admissions/2027/遵义医科大学/page-a669f16627.html",
+      "sha256": "0de7062f52277179b985cf1cb8d448b17004550354f65b3acdf428f93775982c",
+      "bytes": 153695,
+      "kind": "official_web_catalogue"
+    }
+  ],
+  "failures": [],
+  "status": "已归档官方网页目录",
+  "checked_at": "2026-10-18"
+}

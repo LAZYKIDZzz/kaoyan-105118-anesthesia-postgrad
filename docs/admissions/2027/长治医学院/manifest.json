@@ -1,0 +1,45 @@
+{
+  "name": "长治医学院",
+  "tier": "从容区",
+  "gate": 294,
+  "region": "山西",
+  "candidates": [
+    {
+      "title": "长治医学院官方招生入口",
+      "url": "http://yjsc.czmc.edu.cn/info/1022/18302.htm"
+    },
+    {
+      "title": "长治医学院2027年硕士研究生招生简章-长治医学院研究生学院",
+      "url": "https://yjsc.czmc.edu.cn/info/1022/18302.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "长治医学院官方招生入口",
+      "url": "http://yjsc.czmc.edu.cn/info/1022/18302.htm",
+      "effective_url": "http://yjsc.czmc.edu.cn/info/1022/18302.htm",
+      "path": "docs/admissions/2027/长治医学院/page-ed9a7b10df.html",
+      "sha256": "2b33e5e91e114d83562b03cca4fcf675384ead1dd04a97fb1a193011a30dc9d9",
+      "bytes": 46287
+    }
+  ],
+  "files": [
+    {
+      "title": "长治医学院2027年硕士研究生招生专业目录.pdf",
+      "url": "http://yjsc.czmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2039325458&wbfileid=9B721909CEEE9F9FA0E0ED7B2D083CFA",
+      "path": "docs/admissions/2027/长治医学院/长治医学院2027年硕士研究生招生专业目录.pdf",
+      "sha256": "725c653fc08d003ea6ddf4cd7720036474c5d291dae5f3b686988054a10b20c9",
+      "bytes": 128230,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjsc.czmc.edu.cn/info/1022/18302.htm",
+      "title": "长治医学院2027年硕士研究生招生简章-长治医学院研究生学院",
+      "error": "target host name 'yjsc.czmc.edu.cn'\nMore details here: https://curl.se/docs/sslcerts.html\n\ncurl failed to verify the legitimacy of the server and therefore could not\nestablish a secure connection to it. To learn more about this situation and\nhow to fix it, please visit the web page mentioned above.\n"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

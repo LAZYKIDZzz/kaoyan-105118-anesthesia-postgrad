@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-10-18",
+  "scope_count": 72,
+  "official_plan_reviews": 51,
+  "original_attachment_schools": 54,
+  "official_web_catalogue_schools": 7,
+  "pending_catalogue_schools": 11,
+  "zip_integrity": "passed",
+  "local_download_links": "passed",
+  "file_sha256": "passed",
+  "browser": {
+    "desktop": "passed",
+    "mobile": "visually reviewed",
+    "tier_filter": "passed",
+    "school_alias_search": "passed",
+    "plan_dialog": "passed",
+    "pending_value_warning": "passed",
+    "ybu_2027_policy": "passed",
+    "javascript_errors": 0
+  },
+  "historical_admission_scores": "not modified",
+  "homepage_update": {
+    "date": "2026-10-18",
+    "numeric_revisions": 25,
+    "visible_summary": true,
+    "desktop_and_mobile_browser": "passed",
+    "change_list_and_download_links": "passed",
+    "page_errors": []
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "西安医学院",
+    "tier": "从容区",
+    "gate": 293,
+    "region": "陕西",
+    "candidates": [
+      {
+        "title": "西安医学院官方招生入口",
+        "url": "https://yjsc.xiyi.edu.cn/zsgl/zsxx.htm"
+      }
+    ]
+  },
+  {
+    "name": "大连理工大学",
+    "tier": "从容区",
+    "gate": 300,
+    "region": "辽宁",
+    "candidates": [
+      {
+        "title": "大连理工大学官方招生入口",
+        "url": "https://gs.dlut.edu.cn/info/1172/51892.htm"
+      },
+      {
+        "title": "大连理工大学官方招生入口",
+        "url": "https://yjszs.dlut.edu.cn/zsbm/zsml/sszsml/index/2027"
+      }
+    ]
+  },
+  {
+    "name": "广东省心血管病研究所",
+    "tier": "稳健区",
+    "gate": 311,
+    "region": "广东",
+    "candidates": [
+      {
+        "title": "广东省心血管病研究所官方招生入口",
+        "url": "https://www.gdghospital.org.cn/GraduateEnrollment/info_itemid_72662.html"
+      }
+    ]
+  }
+]

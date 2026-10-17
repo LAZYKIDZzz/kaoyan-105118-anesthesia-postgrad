@@ -1,0 +1,85 @@
+{
+  "name": "厦门大学",
+  "tier": "稳健区",
+  "gate": 304,
+  "region": "福建",
+  "candidates": [
+    {
+      "title": "厦门大学招生栏目",
+      "url": "https://zs.xmu.edu.cn/sss/zyml.htm"
+    },
+    {
+      "title": "厦门大学2027年硕士研究生招生章程-厦门大学招生网",
+      "url": "https://zs.xmu.edu.cn/info/1174/36942.htm"
+    },
+    {
+      "title": "厦门大学2027年硕士研究生招生章程-厦门大学招生网",
+      "url": "https://zs.xmu.edu.cn/info/1971/36892.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "厦门大学招生栏目",
+      "url": "https://zs.xmu.edu.cn/sss/zyml.htm",
+      "effective_url": "https://zs.xmu.edu.cn/sss/zyml.htm",
+      "path": "docs/admissions/2027/厦门大学/page-6d2836715c.html",
+      "sha256": "18d200d21c0067855646b402806de52098ef6ab7d3577f0a7e8baca72d5c888f",
+      "bytes": 23167
+    },
+    {
+      "title": "厦门大学2027年硕士研究生招生章程-厦门大学招生网",
+      "url": "https://zs.xmu.edu.cn/info/1174/36942.htm",
+      "effective_url": "https://zs.xmu.edu.cn/info/1174/36942.htm",
+      "path": "docs/admissions/2027/厦门大学/page-cfb53da60a.html",
+      "sha256": "7f29fde3a261bd80bf324a9442c9a6430c4cd8d68a25cf30ec5fcadc1dafef32",
+      "bytes": 101788
+    },
+    {
+      "title": "厦门大学2027年硕士研究生招生章程-厦门大学招生网",
+      "url": "https://zs.xmu.edu.cn/info/1971/36892.htm",
+      "effective_url": "https://zs.xmu.edu.cn/info/1971/36892.htm",
+      "path": "docs/admissions/2027/厦门大学/page-1ae240ead6.html",
+      "sha256": "ed2675c69b787f62e7137366fcbfa9cef5df6240c5176bcced54e924638a709a",
+      "bytes": 101863
+    },
+    {
+      "title": "厦门大学2027年硕士研究生招生专业目录厦门大学2027年硕士研究生招生专业目录",
+      "url": "https://zs.xmu.edu.cn/info/1056/36842.htm",
+      "effective_url": "https://zs.xmu.edu.cn/info/1056/36842.htm",
+      "path": "docs/admissions/2027/厦门大学/page-c9e104f344.html",
+      "sha256": "bc8d84e37ebe7cdb087130e885ba7f9ea1eefba2e8017f69b803a524fb1e6fdf",
+      "bytes": 30214
+    },
+    {
+      "title": "厦门大学2027年硕士研究生招生专业目录",
+      "url": "https://zs.xmu.edu.cn/info/1056/36842.htm",
+      "path": "docs/admissions/2027/厦门大学/page-catalogue.html",
+      "bytes": 30214,
+      "sha256": "bc8d84e37ebe7cdb087130e885ba7f9ea1eefba2e8017f69b803a524fb1e6fdf"
+    }
+  ],
+  "files": [
+    {
+      "title": "厦门大学2027年硕士研究生分专业招生计划",
+      "url": "https://zs.xmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1929267571&wbfileid=5BF5478862C61AC68C2BBC179AC1C5B8",
+      "path": "docs/admissions/2027/厦门大学/厦门大学2027年硕士研究生分专业招生计划.xlsx",
+      "sha256": "b7cf666fed69bb2e1479f33d351adcb06f467fd2bd9c5b8e2ac0b100cc5ee313",
+      "bytes": 21397,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://zs.xmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1929267571&wbfileid=FA5842C071DB881DD31A4171254E38AC",
+      "title": "厦门大学2027年硕士研究生招生专业目录",
+      "error": "attachment response has no recognized file signature"
+    },
+    {
+      "title": "厦门大学2027年硕士研究生招生专业目录",
+      "url": "https://zs.xmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1929267571&wbfileid=FA5842C071DB881DD31A4171254E38AC",
+      "error": "attachment response has no recognized file signature"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

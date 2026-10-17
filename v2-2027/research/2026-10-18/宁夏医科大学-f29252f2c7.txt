@@ -1,0 +1,395 @@
+﻿
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ _jsq_(1010,'/list.jsp',-1,1673356690) 
+ 硕士生招生-宁夏医科大学研究生院 
+
+ 
+
+
+
+
+ 
+ 
+.search select{
+display: none;}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+	.qdclass{}
+	.qw_jiansuo { margin: 0px; padding: 0px; height: 23px; width: auto; font-size:12px;}
+	.qw_jiansuo .inputbox {}
+	
+		.qw_jiansuo .btn {border-top: 0px; height: 32px; border-right: 0px; width: 65px; background-repeat: no-repeat; border-bottom: 0px; border-left: 0px;background-image: url(../dfiles/5999/images/soso.png); background-repeat: no-repeat;}
+	 
+
+
+ 
+
+
+
+
+ 
+ 
+    function _nl_ys_check(){
+        
+        var keyword = document.getElementById('showkeycode272428').value;
+        if(keyword==null||keyword==""){
+            alert("请输入你要检索的内容！");
+            return false;
+        }
+        if(window.toFF==1)
+        {
+            document.getElementById("lucenenewssearchkey272428").value = Simplized(keyword );
+        }else
+        {
+            document.getElementById("lucenenewssearchkey272428").value = keyword;            
+        }
+        var  base64 = new Base64();
+        document.getElementById("lucenenewssearchkey272428").value = base64.encode(document.getElementById("lucenenewssearchkey272428").value);
+        new VsbFormFunc().disableAutoEnable(document.getElementById("showkeycode272428"));
+        return true;
+    } 
+ 
+ 
+  
+     全文   标题   内容  
+ 
+ 
+                    function sousuo(){
+                        var t=document.getElementById("info_title").value;
+                        var c=document.getElementById("selecttype").value;
+                        if(null==t||t==""){
+                            window.open("/systemFile/show.jsp");
+                        }else if("请输入搜索关键字"==t){
+                            document.getElementById("info_title").focus();
+                        }else{
+                            window.open("/index/s?query="+encodeURI(encodeURI(document.getElementById("info_title").value))+"&c="+c);
+                        }
+                   }
+               
+ 
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+     网站首页   
+     部门简介  
+         
+               历史沿革 
+               机构设置 
+         
+     
+     党建工作  
+         
+               理论知识 
+               三会一课 
+               研究生思政教育平台 
+         
+     
+     招生工作  
+         
+               博士生招生 
+               硕士生招生 
+               推免生工作 
+         
+     
+     培养工作  
+         
+               博士生培养 
+               硕士生培养 
+               留学生培养 
+               同等学力生培养 
+               交流访学 
+               教学督导 
+         
+     
+     学位工作  
+         
+               学位授权点 
+               学位申请程序 
+               答辩公告 
+               期刊目录 
+         
+     
+     研究生管理  
+         
+               校园文化 
+               奖助评优 
+               日常管理 
+         
+     
+     导师管理  
+         
+               导师遴选 
+               导师培训 
+               导师考核 
+         
+     
+     管理制度  
+         
+               国家政策 
+               招生工作 
+               培养工作 
+               学位工作 
+               学生管理 
+               同等学力 
+         
+     
+ 
+ 
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+硕士生招生 
+ 
+	 
+	
+		.clickstyle8a808583613d79290162bd30aeac5411{ line-height: 150%;color: #cf1e06;font-size: 9pt;text-decoration: none;margin-left:6px;}
+		.leaderfont8a808583613d79290162bd30aeac5411{ font-size: 9pt; line-height: 150% ;}
+		.titlestyle8a808583613d79290162bd30aeac5411{ font-size: 9pt; color: #222222; line-height: 150%;}
+		.columnstyle8a808583613d79290162bd30aeac5411{ line-height: 150%;color: #cf1e06;font-size: 9pt;text-decoration: none;}
+		.timestyle8a808583613d79290162bd30aeac5411{ font-size: 9pt; color: #222222; line-height: 150%;}
+		.winstyle1253{ text-align:left;}
+		A.c8a808583613d79290162bd30aeac5411 {
+		font-size: 9pt; line-height: 150%; text-decoration: none;
+		color:#222222;}
+		A.c8a808583613d79290162bd30aeac5411:link {
+		color:#222222;}
+		A.c8a808583613d79290162bd30aeac5411:hover {
+		color:#cc0000;}
+
+	
+		.pageDiv{
+	text-align:right;
+	color:#666;
+	font-size:12px;
+	padding:5px;}
+
+.pageBtn{
+	margin:0px;
+	
+	padding-top:2px;
+	background:#fff;
+	height:18px;
+	text-align:center;
+	line-height:18px;
+	cursor:pointer;
+	border:0px #0e557a solid;
+	margin-left:5px;
+	font-size:12px;}
+		
+  
+ 
+ 
+
+ 
+             
+             ·  宁夏医科大学（代码6403）报考点关于2027年全国硕士研究生招生考试（初试）报名的通告  
+             2026-10-08  
+         
+         
+             ·  关于2027年全国硕士研究生招生考试（初试）报名的通告  
+             2026-10-08  
+         
+         
+             ·  宁夏医科大学2027年硕士研究生招生简章  
+             2026-09-24  
+         
+         
+             ·  关于2026级拟录取硕士研究生录取通知书邮寄、调档、组织关系转移等相关事宜的通知  
+             2026-06-05  
+         
+         
+             ·  关于2026级拟录取硕士研究生体检、政审相关事宜的通知   
+             2026-06-01  
+         
+         
+             ·  宁夏医科大学硕士研究生招生进入复试考生系统缴费流程  
+             2026-04-21  
+         
+         
+             ·  宁夏医科大学2026年硕士研究生招生第三批次调剂公告  
+             2026-04-20  
+         
+         
+             ·  宁夏医科大学2026年硕士研究生招生第二批次调剂公告  
+             2026-04-14  
+         
+         
+             ·  宁夏医科大学2026年硕士研究生招生调剂公告  
+             2026-04-03  
+         
+         
+             ·  宁夏医科大学研究生招生各二级招生单位信息查询地址  
+             2026-03-17  
+         
+         
+             ·  宁夏医科大学2026年硕士研究生第一志愿考生复试通知  
+             2026-03-13  
+         
+         
+             ·  宁夏医科大学2026年硕士研究生第一志愿考生复试名单  
+             2026-03-13  
+         
+         
+             ·  宁夏医科大学2026年硕士研究生招生复试录取工作方案  
+             2026-03-13  
+         
+         
+             ·  宁夏医科大学关于2026年全国硕士研究生招生考试初试成绩查询及成绩复核的通知  
+             2026-02-27  
+         
+ 
+  共34条   首页 上页 1 2 3 下页 尾页 _showDynClickBatch(['dynclicks_u4_3560','dynclicks_u4_3558','dynclicks_u4_3551','dynclicks_u4_3512','dynclicks_u4_3507','dynclicks_u4_3467','dynclicks_u4_3486','dynclicks_u4_3476','dynclicks_u4_3473','dynclicks_u4_3045','dynclicks_u4_3465','dynclicks_u4_3463','dynclicks_u4_3461','dynclicks_u4_3450'],[3560,3558,3551,3512,3507,3467,3486,3476,3473,3045,3465,3463,3461,3450],"wbnews", 1673356690) 
+ 
+ 
+ 
+   
+   
+.pageDiv{
+	text-align:right;
+	color:#666;
+	font-size:12px;
+	padding:0px;
+	margin:0px;
+	background:url(../dfiles/12998/systemfile/images/bg.gif) left top repeat-x;
+	border:1px solid #DADADA;
+	height:30px;
+	 line-height:30px;}
+
+.pageBtn{
+	margin:0px;
+	height:16px;
+	text-align:center;
+	line-height:16px;
+	cursor:pointer;
+	border:0px #0e557a solid;
+	margin-left:5px;
+	font-size:12px;}
+
+.default_pgCurrentPage {
+
+width: 30px;
+height: 16px;
+line-height: 16px;
+text-align: center;
+border: 1px solid #CCCCCC;
+background: url(../dfiles/12998/systemfile/images/text_bg.gif) repeat-x;}
+.default_container {
+	position: relative;}
+
+.default_pgContainer {
+	min-height:100px;
+	_height:100px;}
+
+.default_pgToolbar {
+	height:30px;
+	valign:middle;
+	font-size:12px;
+	border:1px solid #DADADA;
+	background: url(../dfiles/12998/systemfile/images/bg.gif);
+	margin:0px 0 -1px 0;}
+
+.default_pgToolbar td {
+	font-size:12px;
+	padding:0 1px 0 1px;}
+
+.default_pgPanel {
+	float:left;
+	padding:0;}
+
+.default_pgBtn {
+	width: 20px;
+	height: 20px;
+	display: block;
+	cursor: pointer;
+	margin:1px;}
+
+.default_pgPress {
+	margin:2px 0 0 2px;}
+
+.default_pgPrev {
+	background: url(../dfiles/12998/systemfile/images/prev.gif) no-repeat center;}
+
+
+
+.default_pgNext {
+	background: url(../dfiles/12998/systemfile/images/next.gif) no-repeat center;}
+
+
+
+.default_pgFirst {
+	background: url(../dfiles/12998/systemfile/images/first.gif) no-repeat center;}
+
+
+.default_pgLast {
+	background: url(../dfiles/12998/systemfile/images/last.gif) no-repeat center;}
+
+
+.default_pgCurrentPage {
+	width:25px;
+	height:14px;
+	line-height:14px;
+	text-align:center;
+	border:1px solid #CCCCCC;
+	background-color:#FFF;}
+
+.default_pgSearchInfo {
+	padding-left:10px;
+	font-size:12px;}
+.default_pgSearchInfotwo {
+	padding-top:-7px;
+	font-size:12px;}
+
+.default_separator {
+	width:2px;
+	height:20px;
+	background: url(../dfiles/12998/systemfile/images/separator.gif) no-repeat center;}
+ 
+   
+
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 版权所有：宁夏医科大学研究生院 地址：宁夏回族自治区银川市兴庆区胜利街1160号 邮编：750004 电话：400-6600222 
+ 
+
+ 

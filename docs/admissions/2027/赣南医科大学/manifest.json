@@ -1,0 +1,35 @@
+{
+  "name": "赣南医科大学",
+  "tier": "从容区",
+  "gate": 297,
+  "region": "江西",
+  "candidates": [
+    {
+      "title": "赣南医科大学2027年硕士研究生招生简章-赣南医科大学研究生工作部（处）",
+      "url": "https://yjs.gmu.cn/info/1295/14152.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "赣南医科大学2027年硕士研究生招生简章-赣南医科大学研究生工作部（处）",
+      "url": "https://yjs.gmu.cn/info/1295/14152.htm",
+      "effective_url": "https://yjs.gmu.cn/info/1295/14152.htm",
+      "path": "docs/admissions/2027/赣南医科大学/page-d9f8fece8a.html",
+      "sha256": "0e62380df678fdc90ef9155fcdb63c67f7061a6a0b6abd5ec5e1f0d53fb4273b",
+      "bytes": 90567
+    }
+  ],
+  "files": [
+    {
+      "title": "赣南医科大学2027年硕士研究生招生专业目录.pdf",
+      "url": "https://yjs.gmu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1583666434&wbfileid=773AB71AA0791582894264605FA9F816",
+      "path": "docs/admissions/2027/赣南医科大学/赣南医科大学2027年硕士研究生招生专业目录.pdf",
+      "sha256": "4d1ff4fc168b94b1ba9aad722197b0b72ac15d24aff1e3095655a1b60b91a62f",
+      "bytes": 149284,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

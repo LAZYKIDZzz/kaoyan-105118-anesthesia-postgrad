@@ -1,0 +1,35 @@
+{
+  "name": "南方医科大学",
+  "tier": "稳健区",
+  "gate": 317,
+  "region": "广东",
+  "candidates": [
+    {
+      "title": "南方医科大学2027年硕士研究生招生简章-南方医科大学研究生招生网",
+      "url": "https://portal.smu.edu.cn/yzw/info/1002/12431.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "南方医科大学2027年硕士研究生招生简章-南方医科大学研究生招生网",
+      "url": "https://portal.smu.edu.cn/yzw/info/1002/12431.htm",
+      "effective_url": "https://portal.smu.edu.cn/yzw/info/1002/12431.htm",
+      "path": "docs/admissions/2027/南方医科大学/page-b5120a8afa.html",
+      "sha256": "1179064a1dc5d6eb647a310f172bbb66101defaad5fc1f21a762681242abf2ae",
+      "bytes": 62565
+    }
+  ],
+  "files": [
+    {
+      "title": "南方医科大学2027年硕士研究生招生专业目录",
+      "url": "https://portal.smu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1322327945&wbfileid=2942DE3C0978189C389015EA8327E1CC",
+      "path": "docs/admissions/2027/南方医科大学/南方医科大学2027年硕士研究生招生专业目录.pdf",
+      "sha256": "cc3a56168be38da18ba2f98bb277f9a20ee92b466766cd1b1f6ce8a219c37570",
+      "bytes": 181952,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

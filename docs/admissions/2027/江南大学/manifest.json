@@ -1,0 +1,35 @@
+{
+  "name": "江南大学",
+  "tier": "稳健区",
+  "gate": 310,
+  "region": "江苏",
+  "candidates": [
+    {
+      "title": "江南大学2027年硕士研究生招生专业目录-江南大学研究生招生信息网",
+      "url": "https://yz.jiangnan.edu.cn/info/1029/3881.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "江南大学2027年硕士研究生招生专业目录-江南大学研究生招生信息网",
+      "url": "https://yz.jiangnan.edu.cn/info/1029/3881.htm",
+      "effective_url": "https://yz.jiangnan.edu.cn/info/1029/3881.htm",
+      "path": "docs/admissions/2027/江南大学/page-8a148d43d3.html",
+      "sha256": "7a53a80116451ed8391379905760365033e6edf565de8e0bb2183fb4c2545f00",
+      "bytes": 16187
+    }
+  ],
+  "files": [
+    {
+      "title": "江南大学2027年硕士研究生招生专业目录（全日制）.pdf",
+      "url": "https://yz.jiangnan.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1249934898&wbfileid=18215500",
+      "path": "docs/admissions/2027/江南大学/江南大学2027年硕士研究生招生专业目录（全日制）.pdf",
+      "sha256": "b2bfd62e8412ffa7db61631221b67e8bee60cb30593c78303decb37843098b83",
+      "bytes": 391794,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

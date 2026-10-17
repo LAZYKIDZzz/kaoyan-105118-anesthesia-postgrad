@@ -1,0 +1,722 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN"><head>
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="河南科技大学研究生教育始于1983年。现有4个博士学位授权一级学科，38个硕士学位授权一级学科，12个专业学位研究生招生类别，涵盖了理、工、农、医、经、管、文、法、史、教和艺术学等11大学科门类。学校现有28个河南省一级重点学科,拥有国家级、省（部）级重点实验室、工程技术（研究）中心、科研基地和院士工作站78个，省部共建协同创新中心、河南省协同创新中心3个，河南省特聘教授设岗学科12个。">
+
+<title>河南科技大学研究生院</title><meta name="pageType" content="1">
+<meta name="pageTitle" content="河南科技大学研究生院">
+<META Name="keywords" Content="研究生院" />
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/font.css" rel="stylesheet">
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="images/logo_03.png" rel="shortcut icon" type="image/x-icon"> 
+<link href="images/logo_03.png" rel="icon" type="image/gif"> 
+<!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <!--[endif]---->
+    
+<!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="_sitegray/_sitegray_d.css" />
+<script language="javascript" src="_sitegray/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307e7a465553505742000200024752 -->
+<link rel="stylesheet" type="text/css" href="index.vsb.css" />
+<script type="text/javascript" src="/system/resource/js/vsbscreen.min.js" id="_vsbscreen" devices="pc|mobile|pad"></script>
+<script type="text/javascript" src="/system/resource/js/counter.js"></script>
+<script type="text/javascript">_jsq_(1001,'/index.jsp',-1,1721696689)</script>
+</head> 
+
+<body style="background: rgb(255, 255, 255);">
+
+<!--头部-->
+<div class="header">
+    <div class="header-con">
+        <div class="logo">
+            <a href="/index.htm"><img src="images/logo.png"></a>
+        </div>
+
+<div>
+
+
+<script language="javascript" src="/system/resource/js/base64.js"></script><script language="javascript" src="/system/resource/js/jquery/jquery-latest.min.js"></script><script language="javascript" src="/system/resource/vue/vue.js"></script><script language="javascript" src="/system/resource/vue/bluebird.min.js"></script><script language="javascript" src="/system/resource/vue/axios.js"></script><script language="javascript" src="/system/resource/vue/polyfill.js"></script><script language="javascript" src="/system/resource/vue/token.js"></script><LINK href="/system/resource/vue/static/element/index.css" type="text/css" rel="stylesheet"><script language="javascript" src="/system/resource/vue/static/element/index.js"></script><script language="javascript" src="/system/resource/vue/static/public.js"></script><style>
+    #appu1 .qwss{}
+    #appu1 .tj{}
+</style>
+<div id="divu1"></div>
+<script type="text/html" id="htmlu1">
+    <div id="appu1" class="search">
+        <p class="bai12"><a href="https://www.haust.edu.cn/" target="_blank">河南科技大学</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ygb.haust.edu.cn/" target="_blank">党委研究生工作部</a></p>
+        <div v-if="!isError"  class="sousuo">
+            <input type="text" class="qianhui14 shuru" placeholder="全文搜索" autocomplete=off v-model=query.keyWord @keyup.enter="onSubmit">
+            <input class="tijiao bai16" name="submit_button" type="button" value="提交" v-on:click="onSubmit()"/>
+        </div>
+        <div v-if="isError" style="color: #b30216; font-size:18px;text-align: center;padding:20px;">
+            应用维护中！
+        </div>
+    </div>
+</script>
+<script>
+    $("#divu1").html($("#htmlu1").text());
+</script>
+<script>
+    var appOwner = "1721696689";
+    var token = 'tourist';
+    var urlPrefix = "/aop_component/";
+
+    jQuery.support.cors = true;
+    $.ajaxSetup({
+        beforeSend: function (request, settings) {
+            request.setRequestHeader("Authorization", token);
+            request.setRequestHeader("owner", appOwner);
+        }
+    });
+
+    new Vue({
+        el: "#appu1",
+        data: function () {
+            return {
+                query: {
+                    keyWord: "",//搜索关键词
+                    owner: appOwner,
+                    token: token,
+                    urlPrefix: urlPrefix,
+                    lang:"i18n_zh_CN"
+                },
+                isError: false
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            // _this.init();
+        },
+        methods: {
+            init: function(){
+                $.ajax({
+                    url: "/aop_component//webber/search/test",
+                    type: "get",
+                    success: function (response) {
+                        if (response.code == "0000") {
+                        } else if (response.code == "220") {
+                            _this.isError = true;
+                            console.log(response);
+                        } else if (!response.code) {
+                            _this.isError = true;
+                            console.log(response);
+                        }
+                    },
+                    error: function (response) {
+                        _this.isError = true;
+                    }
+                });
+            },
+            onSubmit: function (e) {
+                var url = "/views/search/modules/resultpc/soso.html";
+                if ("10" == "1" || "10" == "2") {
+                    url = "https://wsgapp.haust.edu.cn/" + url;
+                }
+                var _this = this;
+                var query = _this.query;
+                if (url.indexOf("?") > -1) {
+                    url = url.split("?")[0];
+                }
+                if (query.keyWord) {
+                    var query = new Base64().encode(JSON.stringify(query));
+                    window.open(url + "?query=" + query);
+                } else {
+                    alert("请填写搜索内容")
+                }
+            },
+        }
+    })
+</script></div>
+
+        <div class="clear"></div>
+   
+    </div>
+    
+</div>
+
+<!-- 导航-->
+<div class="naviga">
+        <ul class="naviga-con hei18">
+            
+            <li>
+                 <a href="index.htm" title="首页">首页</a>
+            </li>
+            
+            <li>
+                 <a href="jgsz/yjsyjj1.htm" title="机构设置">机构设置</a>
+                <ul class="bai16">
+
+                    <li class="bai16">
+                         <a class="cd" href="jgsz/yjsyjj1.htm" title="研究生院简介">研究生院简介</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="jgsz/zhk.htm" title="综合科">综合科</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="jgsz/zsbgs.htm" title="招生办公室">招生办公室</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="jgsz/pyk.htm" title="培养科">培养科</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="jgsz/xwbgs.htm" title="学位办公室">学位办公室</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="jgsz/zlypgbgs.htm" title="质量与评估办公室">质量与评估办公室</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            <li>
+                 <a href="zszx/zsdt.htm" title="招生在线">招生在线</a>
+                <ul class="bai16">
+
+                    <li class="bai16">
+                         <a class="cd" href="zszx/zsdt.htm" title="招生动态">招生动态</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="zszx/zsjz/sszsjz1.htm" title="招生简章">招生简章</a>
+                        <ul class="hei14">
+
+                            <li class="hei14"> <a class="cd" href="zszx/zsjz/bszsjz1.htm" title="博士招生简章">博士招生简章</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zszx/zsjz/sszsjz1.htm" title="硕士招生简章">硕士招生简章</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zszx/zsjz/tdxlss.htm" title="同等学力申硕">同等学力申硕</a>
+
+</li>
+                            
+                        </ul>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="zszx/lssj.htm" title="历史数据">历史数据</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            <li>
+                 <a href="pygz/jwgl.htm" title="培养工作">培养工作</a>
+                <ul class="bai16">
+
+                    <li class="bai16">
+                         <a class="cd" href="pygz/jwgl.htm" title="教务管理">教务管理</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="pygz/pyfa.htm" title="培养方案">培养方案</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="pygz/xxfw.htm" title="信息服务">信息服务</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="https://hnkjyjs.mh.chaoxing.com/" title="在线课程">在线课程</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            <li>
+                 <a href="xwgz/xwdt1.htm" title="学位工作">学位工作</a>
+                <ul class="bai16">
+
+                    <li class="bai16">
+                         <a class="cd" href="xwgz/xwdt1.htm" title="学位动态">学位动态</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="xwgz/xwpdwyh.htm" title="学位评定委员会">学位评定委员会</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="xwgz/xwsymd/qrzbs1.htm" title="学位授予名单">学位授予名单</a>
+                        <ul class="hei14">
+
+                            <li class="hei14"> <a class="cd" href="xwgz/xwsymd/qrzbs1.htm" title="全日制博士">全日制博士</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="artical_list_xwgz.jsp?urltype=tree.TreeTempUrl&wbtreeid=1118" title="全日制硕士">全日制硕士</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="xwgz/xwsymd/fqrzss1.htm" title="非全日制硕士">非全日制硕士</a>
+
+</li>
+                            
+                        </ul>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="https://xwrz.chsi.com.cn/gateway" target="_blank" title="学位认证">学位认证</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="https://my.chsi.com.cn/archive/index.jsp" target="_blank" title="学历认证">学历认证</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            <li>
+                 <a href="zlgz/pgdt1.htm" title="质量工作">质量工作</a>
+                <ul class="bai16">
+
+                    <li class="bai16">
+                         <a class="cd" href="zlgz/pgdt1.htm" title="评估动态">评估动态</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="zlgz/dsdwjs/dsdw1.htm" title="导师队伍建设">导师队伍建设</a>
+                        <ul class="hei14">
+
+                            <li class="hei14"> <a class="cd" href="zlgz/dsdwjs/dsdw1.htm" title="导师队伍">导师队伍</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zlgz/dsdwjs/dslx1.htm" title="导师遴选">导师遴选</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zlgz/dsdwjs/dspx1.htm" title="导师培训">导师培训</a>
+
+</li>
+                            
+                        </ul>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="zlgz/zldd1.htm" title="质量督导">质量督导</a>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="zlgz/jgxm/sjxm1.htm" title="教改项目">教改项目</a>
+                        <ul class="hei14">
+
+                            <li class="hei14"> <a class="cd" href="zlgz/jgxm/sjxm1.htm" title="省级项目">省级项目</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zlgz/jgxm/xjxm.htm" title="校级项目">校级项目</a>
+
+</li>
+                            
+                        </ul>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="zlgz/yxxwlw/xjyxxwlw1.htm" title="优秀学位论文">优秀学位论文</a>
+                        <ul class="hei14">
+
+                            <li class="hei14"> <a class="cd" href="zlgz/yxxwlw/xjyxxwlw1.htm" title="校级优秀学位论文">校级优秀学位论文</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zlgz/yxxwlw/sjyxxwlw1.htm" title="省级优秀学位论文">省级优秀学位论文</a>
+
+</li>
+                            
+                        </ul>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="zlgz/jxcgj.htm" title="教学成果奖">教学成果奖</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            <li>
+                 <a href="zdylc/gzzd/sjwj1.htm" title="制度与流程">制度与流程</a>
+                <ul class="bai16">
+
+                    <li class="bai16">
+                         <a class="cd" href="zdylc/gzzd/sjwj1.htm" title="规章制度">规章制度</a>
+                        <ul class="hei14">
+
+                            <li class="hei14"> <a class="cd" href="zdylc/gzzd/sjwj1.htm" title="上级文件">上级文件</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zdylc/gzzd/zswj1.htm" title="招生文件">招生文件</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zdylc/gzzd/pywj1.htm" title="培养文件">培养文件</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zdylc/gzzd/xwwj1.htm" title="学位文件">学位文件</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zdylc/gzzd/zlwj1.htm" title="质量文件">质量文件</a>
+
+</li>
+                            
+                        </ul>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="zdylc/gzlc/zsgz1.htm" title="工作流程">工作流程</a>
+                        <ul class="hei14">
+
+                            <li class="hei14"> <a class="cd" href="zdylc/gzlc/zsgz1.htm" title="招生工作">招生工作</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zdylc/gzlc/pygz1.htm" title="培养工作">培养工作</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zdylc/gzlc/xwgz1.htm" title="学位工作">学位工作</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zdylc/gzlc/zlgz.htm" title="质量工作">质量工作</a>
+
+</li>
+                            
+                        </ul>
+                    </li>
+
+                    <li class="bai16">
+                         <a class="cd" href="zdylc/zlxz/zsgz1.htm" title="资料下载">资料下载</a>
+                        <ul class="hei14">
+
+                            <li class="hei14"> <a class="cd" href="zdylc/zlxz/zsgz1.htm" title="招生工作">招生工作</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zdylc/zlxz/pygz1.htm" title="培养工作">培养工作</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zdylc/zlxz/xwgz1.htm" title="学位工作">学位工作</a>
+
+</li>
+
+                            <li class="hei14"> <a class="cd" href="zdylc/zlxz/zlgongzuo.htm" title="质量工作">质量工作</a>
+
+</li>
+                            
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+        </ul>
+</div> 
+
+<!--banner-->
+<div class="carousel slide" id="carousel-example-generic" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators carousel-indicators2">
+    <li class="active" data-slide-to="0" data-target="#carousel-example-generic"></li>
+    <li data-slide-to="1" data-target="#carousel-example-generic"></li>
+    <li data-slide-to="2" data-target="#carousel-example-generic"></li>
+    <li data-slide-to="3" data-target="#carousel-example-generic"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="img-responsive" alt="..." src="images/banner1.jpg">
+    </div>
+    <div class="item">
+      <img class="img-responsive" alt="..." src="images/banner2.jpg">
+    </div>
+    <div class="item">
+      <img class="img-responsive" alt="..." src="images/banner3.jpg">
+    </div>
+    <div class="item">
+      <img class="img-responsive" alt="..." src="images/banner4.jpg">
+    </div>
+  </div>
+  
+  <!-- Controls -->
+    <a class="left carousel-control" role="button" href="#carousel-example-generic" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" role="button" href="#carousel-example-generic" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<!--body-->
+<!--中部1-->
+<div class="con-1">
+    <div class="notice">
+        <div class="title">
+            <div class="tit">
+                <img src="images/icon_notice.png">
+                <span class="hei22">通知公告</span>
+            </div>
+            <div class="qianhui14 more">
+                <a href="yjsyxwtz/tzgg.htm">查看更多</a>
+            </div>
+        </div>
+
+
+        <script language="javascript" src="/system/resource/js/dynclicks.js"></script><script language="javascript" src="/system/resource/js/centerCutImg.js"></script><script language="javascript" src="/system/resource/js/ajax.js"></script><ul class="notice-list">
+<div class="headlines">
+                <div class="headlines-tit">
+                    <span class="lan22 elli"> <a href="info/1053/8712.htm">河南科技大学2027年硕士研究生招生考试自命题科目考试大纲（持续更新中）</a> </span>
+                    <div class="headlines-date">
+                        <span class="bai16">2026/10/14</span>
+                    </div>
+                </div>
+                <p class="hui14 elli">我校所有自命题初试科目均不得携带、使用计算器。</p>
+</div>
+                <li>
+                    <p class="hei16 elli"><a href="info/1053/8702.htm">关于组织申报来华留学研究生全英（外）文授课培养项目建设典型案例的通知</a></p>
+                    <span class="qianhui16">2026/10/09</span>
+                </li>
+                <li>
+                    <p class="hei16 elli"><a href="info/1053/8682.htm">河南科技大学2027年硕士研究生招生简章（含招生专业目录）</a></p>
+                    <span class="qianhui16">2026/10/03</span>
+                </li>
+                <li>
+                    <p class="hei16 elli"><a href="info/1053/8672.htm">河南科技大学2027年接收推荐免试硕士研究生章程</a></p>
+                    <span class="qianhui16">2026/09/16</span>
+                </li>
+                <li>
+                    <p class="hei16 elli"><a href="info/1053/8582.htm">河南科技大学关于2027年硕士研究生招生考试部分专业初试科目调整的通知</a></p>
+                    <span class="qianhui16">2026/07/23</span>
+                </li>
+                <li>
+                    <p class="hei16 elli"><a href="detail.jsp?urltype=news.NewsContentUrl&wbtreeid=1053&wbnewsid=8632">关于河南科技大学2026年度工程案例立项征集项目拟推荐名单的公示</a></p>
+                    <span class="qianhui16">2026/09/02</span>
+                </li>
+                <li>
+                    <p class="hei16 elli"><a href="detail.jsp?urltype=news.NewsContentUrl&wbtreeid=1053&wbnewsid=8612">关于开展河南科技大学2026年度工程案例立项征集工作的通知</a></p>
+                    <span class="qianhui16">2026/07/30</span>
+                </li>
+</ul><script>_showDynClickBatch(['dynclicks_u4_8712','dynclicks_u4_8702','dynclicks_u4_8682','dynclicks_u4_8672','dynclicks_u4_8582','dynclicks_u4_8632','dynclicks_u4_8612'],[8712,8702,8682,8672,8582,8632,8612],"wbnews", 1721696689)</script>
+
+
+
+                </div>
+        <div class="news">
+        <div class="title">
+            <div class="tit">
+               <img src="images/icon_news.png">
+                <span class="hei22">新闻动态</span>
+            </div>
+            <div class="qianhui14 more">
+                <a href="yjsyxwtz/xwdt.htm">查看更多</a>
+            </div>
+        </div>
+ 
+<LINK href="/system/resource/style/component/news/list/imagechangenews.css" type="text/css" rel="stylesheet">
+<script language="javascript" src="/system/resource/js/news/imagechangenews.js"></script><script language="JavaScript">
+var u_u5_icn = new ImageChangeNews("u_u5_", 460, 190, 4, 2.0, true, false, true, true, true,"#u_u5_centerCutImg");
+
+//初始化图片, 并启动定时
+function u_u5_init_img()
+{
+
+    u_u5_icn.addimg("\/__local\/C\/8A\/9A\/3AA72010F039F7298A72BFDB047_F58E5857_2C3AE.jpg", "info\/1054\/7572.htm", "我校在2025年全国农林高校研究生招生培养管理学术年会上分享兽医硕士培养经验", "","我校在2025年全国农林高校研究生招生培养管理学术年会上分享兽医硕士培养经验");
+
+    u_u5_icn.addimg("\/__local\/F\/E7\/D2\/D52BB10442F39059AD974DB6363_8510190A_2A122.png", "info\/1054\/6482.htm", "我校梁坤峰教授在2024年河南省骨干研究生导师（管理干部）研修班上做经验交流发言", "","我校梁坤峰教授在2024年河南省骨干研究生导师（管理干部）研修班上做经验交流发言");
+
+    u_u5_icn.addimg("\/__local\/0\/2A\/43\/6CD9731914DD56381B1464DBEB9_2A3664DB_16440.jpg", "info\/1054\/4217.htm", "学校召开2021年新聘研究生导师培训会议", "","学校召开2021年新聘研究生导师培训会议");
+
+    u_u5_icn.addimg("\/__local\/5\/6E\/D6\/392F470470149C353F81BEAA8E7_E378721B_40E51.jpg?e=.jpg", "info\/1054\/1625.htm", "我校毕业生李建房荣获“全国突出贡献兽医专业学位获得者”荣誉称号", "","我校毕业生李建房荣获“全国突出贡献兽医专业学位获得者”荣誉称号");
+
+    u_u5_icn.changeimg(0);
+}
+</script><table cellspacing="0" cellpadding="0" border="0" style="padding:0px margin:0px; border:0px">
+    <tr><td>
+        <div id="u_u5_centerCutImg" style="OVERFLOW: hidden;height:190px;width:460px">
+            <div id="u_u5_div" align="center" style="padding:0px;margin:0px;border:0px solid black;background-color:#000000;FILTER: progid:DXImageTransform.Microsoft.RevealTrans (duration=2.0,transition=23);height:190px;width:460px">
+                <div id="u_u5_imgdiv" style="padding:0px;border:0px;"><a id="u_u5_url" target="_blank"><img id="u_u5_pic" border="0" src="/system/resource/images/space.gif"></a></div>
+            </div>
+            <div style="filter:alpha(style=1,opacity=10,finishOpacity=80);width:460px;height:19px;text-align:right;top:-19px;position:relative;padding:0px;margin:0px;border:0px;">
+<a href="javascript:u_u5_icn.changeimg(0)" ; id="u_u5_selectNode0" class="imagechangenews_pnode" target="_self">1</a><a href="javascript:u_u5_icn.changeimg(1)" ; id="u_u5_selectNode1" class="imagechangenews_pnode" target="_self">2</a><a href="javascript:u_u5_icn.changeimg(2)" ; id="u_u5_selectNode2" class="imagechangenews_pnode" target="_self">3</a><a href="javascript:u_u5_icn.changeimg(3)" ; id="u_u5_selectNode3" class="imagechangenews_pnode" target="_self">4</a>
+            </div></div></td></tr>
+       
+    <tr><td height="0">
+        <div align="center" style="overflow:hidden;text-overflow:ellipsis;height:0px;width:460px;"><a target="_blank" class="titlestyle249885" id="u_u5_newstitle"></a></div>
+    </td></tr>
+<div align="left" display="none" style="overflow:hidden;text-overflow:ellipsis;height:0px;width:460px;padding-left:2px;padding-right:2px"><a target="_blank" class="summarystyle249885" id="u_u5_newssummary"></a></div>   
+</table><SCRIPT language="JavaScript">u_u5_init_img();</SCRIPT>
+
+
+<ul class="news-list">
+   <li>
+	<p class="hei16 elli"><a href="info/1054/7572.htm" target="_blank" title="我校在2025年全国农林高校研究生招生培养管理学术年会上分享兽医硕士培养经验">我校在2025年全国农林高校研究生招生培养管理学术年会上分享兽医硕士培养经验</a></p>
+   </li>
+   <li>
+	<p class="hei16 elli"><a href="info/1054/6482.htm" target="_blank" title="我校梁坤峰教授在2024年河南省骨干研究生导师（管理干部）研修班上做经验交流发言">我校梁坤峰教授在2024年河南省骨干研究生导师（管理干部）研修班上做经验交流发言</a></p>
+   </li>
+   <li>
+	<p class="hei16 elli"><a href="info/1054/6032.htm" target="_blank" title="研究生院召开2024年研究生教育督导工作会议">研究生院召开2024年研究生教育督导工作会议</a></p>
+   </li>
+   <li>
+	<p class="hei16 elli"><a href="info/1054/6022.htm" target="_blank" title="我校开展新增研究生导师培训">我校开展新增研究生导师培训</a></p>
+   </li>
+   <li>
+	<p class="hei16 elli"><a href="https://www.haust.edu.cn/dyfxgndetail.jsp?urltype=news.NewsContentUrl&wbtreeid=1063&wbnewsid=35294" target="_blank" title="学校召开2022年下半年研究生教育工作会议">学校召开2022年下半年研究生教育工作会议</a></p>
+   </li>
+   <li>
+	<p class="hei16 elli"><a href="info/1054/4333.htm" target="_blank" title="研究生院召开研究生教育督导工作会议">研究生院召开研究生教育督导工作会议</a></p>
+   </li>
+</ul>
+
+<script>_showDynClickBatch(['dynclicks_u6_7572','dynclicks_u6_6482','dynclicks_u6_6032','dynclicks_u6_6022','dynclicks_u6_4369','dynclicks_u6_4333'],[7572,6482,6032,6022,4369,4333],"wbnews", 1721696689)</script>
+
+
+    </div>
+    <div class="clear"></div>
+</div>
+<!-- 中部2 -->
+<div class="con-2">
+    <div class="title">
+        <div class="tit">
+            <img src="images/icon_ksdh.png">
+            <span class="hei22">快速导航</span>
+        </div>
+    </div>
+    <div class="zong">
+        <div class="con2-l">
+            <div class="l-tit">
+                <img src="images/icon1.png">
+                <p class="hei18">研究生系统管理</p>
+            </div>
+
+                <ul class="l-list hui16">
+                    <li>
+                        <img src="images/chaxunxitong.png">
+                        <a href="http://yz.chsi.com.cn/" target="_blank">博士硕士成绩查询</a>
+                    </li>
+                    <li>
+                        <img src="images/mishuguanli.png">
+                        <a href="https://hnkjyjs.mh.chaoxing.com/" target="_blank">研究生智慧教学平台</a>
+                    </li>
+                    
+                    <li>
+                        <img src="images/xiaoneirenyuan.png">
+                        <a href="https://yjsxt.haust.edu.cn/cas/oauth2.0/authorize?client_id=NpbMrtYo3um6KcLJ&amp;redirect_uri=https://yjsxt.haust.edu.cn/allogene/page/home.htm&amp;response_type=code" target="_blank">新研究生系统(校外人员)</a>
+                    </li>
+                    <li>
+                        <img src="images/xiaowairenyuan.png">
+                        <a href="http://yjsxt.haust.edu.cn/" target="_blank">新研究生系统(校内人员)</a>
+                    </li>
+                     <!--<li>
+                        <img src="images/renkejiaoshi.png">
+                        <a href="https://hnkjyjs.mh.chaoxing.com/" target="_blank">研究生智慧教学平台</a>
+                     </li>
+                    <li>
+                    <li>
+                        <img src="images/renkejiaoshi.png">
+                        <a href="http://218.198.196.115/jiaoshi/login3.aspx" target="_blank">任课教师</a>系统
+（20级以前）                    </li>
+                    <li>
+                        <img src="images/guanlixitong.png">
+                        <a href="http://218.198.196.115/xuesheng/login2.aspx" target="_blank">研究生成绩查询（20级以前）</a>
+                    </li>-->
+                    
+                </ul>
+        </div>
+        
+        <div class="con2-r">
+            <div class="bk">
+                <a href="https://yjsxt.haust.edu.cn/degree/nocontrol/dbgl/dbgl_replyplan_public.htm" target="_blank"><img src="images/icon2.png"></a>
+                <p class="hei16"><a href="https://yjsxt.haust.edu.cn/degree/nocontrol/dbgl/dbgl_replyplan_public.htm" target="_blank">答辩信息</a></p>
+            </div>
+            <div class="bk">
+                <a href="https://yjsxt.haust.edu.cn/py/open/pkbjData.htm" target="_blank"><img src="images/icon3.png"></a>
+                <p class="hei16"><a href="https://yjsxt.haust.edu.cn/py/open/pkbjData.htm" target="_blank">课程安排</a></p>
+            </div>
+            <div class="bk">
+                <a href="https://yjsxt.haust.edu.cn/py/open/sqtkInfo.htm" target="_blank"><img src="images/icon4.png"></a>
+                <p class="hei16"><a href="https://yjsxt.haust.edu.cn/py/open/sqtkInfo.htm" target="_blank">调课安排</a></p>
+            </div>
+            <div class="bk">
+                <a href="https://yjsxt.haust.edu.cn/procedure/open/gchjgs.htm" target="_blank"><img src="images/icon5.png"></a>
+                <p class="hei16"><a href="https://yjsxt.haust.edu.cn/procedure/open/gchjgs.htm" target="_blank">培养环节安排</a></p>
+            </div>
+            <div class="bk">
+                <a href="http://yjsxt.haust.edu.cn/py/open/pyfagl.htm" target=" _blank"><img src="images/icon6.png"></a>
+                <p class="hei16"><a href="http://yjsxt.haust.edu.cn/py/open/pyfagl.htm" target=" _blank">培养方案</a></p>
+            </div>
+            <div class="bk">
+                <a href="khgs.htm"><img src="images/icon7.png"></a>
+                <p class="hei16"><a href="khgs.htm">考核公示</a></p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<!--底部-->
+<div class="footer">
+    <div class="footer-con bai12">
+        <div class="footer-tit">
+            <img src="images/icon_links.png">
+            <span class="bai14cu">友情链接：</span>
+            <div class="links">
+                <div><a href="http://www.moe.gov.cn/" target="_blank">中华人民共和国教育部</a></div>
+                <div><a href="https://www.chsi.com.cn/" target="_blank">中国高等教育学生信息网</a></div>
+                <div><a href="https://yz.chsi.com.cn/" target="_blank">中国研究生招生信息网</a></div>
+                <div><a href="http://www.cdgdc.edu.cn/" target="_blank">中国学位与研究生教育信息网</a></div>
+                <div><a href="http://jyt.henan.gov.cn/hasi/" target="_blank">河南省高等教育学生信息网</a></div>
+                <div><a href="http://jyt.henan.gov.cn/xwb/" target="_blank">河南省教育厅学位委员会</a></div>
+            </div>
+        </div>
+        <div class="dibu">
+            <div class="address">
+                <a href="/index.htm"><img src="images/footer_logo.png"></a>
+            </div>
+            <div class="code">
+                <div class="code1">
+                    <p>版权所有 : 河南科技大学研究生院 </p>
+                    <p>邮箱 ：<a href="mailto:yjscb@haust.edu.com">yjscb@haust.edu.com</a></p>
+                </div>
+                <div class="code2">
+                    <p>地址：中国·洛阳 洛龙区开元大道263号</p>
+                    <span>邮编：471023</span>&nbsp;&nbsp;&nbsp;&nbsp;<span title="维护电话：13949202000">网站维护：中原洛科</span>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+
+ <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="js/jquery.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="js/bootstrap.min.js"></script> 
+
+
+
+</body></html>

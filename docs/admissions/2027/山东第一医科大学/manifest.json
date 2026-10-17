@@ -1,0 +1,48 @@
+{
+  "name": "山东第一医科大学",
+  "tier": "从容区",
+  "gate": 297,
+  "region": "山东",
+  "candidates": [
+    {
+      "title": "山东第一医科大学官方招生入口",
+      "url": "https://yjszs.sdfmu.edu.cn/zsml/enterViewZsml?nd=2027"
+    },
+    {
+      "title": "山东第一医科大学2027年硕士研究生招生章程-研究生招生信息网",
+      "url": "https://yz.sdfmu.edu.cn/info/1102/6425.htm"
+    },
+    {
+      "title": "山东第一医科大学招生官网（查找2027目录）",
+      "url": "https://yz.sdfmu.edu.cn/sszs1/zyml.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "山东第一医科大学2027年硕士研究生招生章程-研究生招生信息网",
+      "url": "https://yz.sdfmu.edu.cn/info/1102/6425.htm",
+      "effective_url": "https://yz.sdfmu.edu.cn/info/1102/6425.htm",
+      "path": "docs/admissions/2027/山东第一医科大学/page-f45511fe3b.html",
+      "sha256": "898a4ce9bf9d591400fb0181546fa3afb0f36f0ca16ad5b226b0903d486300eb",
+      "bytes": 70655
+    },
+    {
+      "title": "山东第一医科大学招生官网（查找2027目录）",
+      "url": "https://yz.sdfmu.edu.cn/sszs1/zyml.htm",
+      "effective_url": "https://yz.sdfmu.edu.cn/sszs1/zyml.htm",
+      "path": "docs/admissions/2027/山东第一医科大学/page-b7a59adfba.html",
+      "sha256": "c97ff9d547206834a2790c18cc956f2eeb28411b73146fb83ca25a578157bc23",
+      "bytes": 21234
+    }
+  ],
+  "files": [],
+  "failures": [
+    {
+      "url": "https://yjszs.sdfmu.edu.cn/zsml/enterViewZsml?nd=2027",
+      "title": "山东第一医科大学官方招生入口",
+      "error": "502\nhttps://yjszs.sdfmu.edu.cn/zsml/enterViewZsml?nd=2027"
+    }
+  ],
+  "status": "仅归档招生网页，目录待补",
+  "checked_at": "2026-10-18"
+}

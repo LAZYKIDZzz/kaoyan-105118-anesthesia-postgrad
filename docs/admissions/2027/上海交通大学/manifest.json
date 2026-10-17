@@ -1,0 +1,43 @@
+{
+  "name": "上海交通大学",
+  "tier": "进取区",
+  "gate": 331,
+  "region": "上海",
+  "candidates": [
+    {
+      "title": "上海交通大学医学院2027年硕士研究生招生简章-上海交通大学医学院研究生院网站",
+      "url": "https://www.shsmu.edu.cn/yjsy/info/1068/8181.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "上海交通大学医学院2027年硕士研究生招生简章-上海交通大学医学院研究生院网站",
+      "url": "https://www.shsmu.edu.cn/yjsy/info/1068/8181.htm",
+      "effective_url": "https://www.shsmu.edu.cn/yjsy/info/1068/8181.htm",
+      "path": "docs/admissions/2027/上海交通大学/page-4500bc7569.html",
+      "sha256": "50ec5f48bffeb6d6bd9fe25c9680338716be16509f8417d96918b175e5e445f0",
+      "bytes": 66401
+    }
+  ],
+  "files": [
+    {
+      "title": "上海交通大学2027年招生章程",
+      "url": "https://www.shsmu.edu.cn/__local/D/17/27/588199B481AA4973FDAE2F6C376_B23C4BE5_3712E.pdf?e=.pdf",
+      "path": "docs/admissions/2027/上海交通大学/上海交通大学2027年招生章程.pdf",
+      "sha256": "ab855811dc5b54029cd724de7d6aab15a86d27b305c45bd084e69eaa808932c8",
+      "bytes": 225582,
+      "kind": "original"
+    },
+    {
+      "title": "上海交通大学医学院2027年硕士研究生招生目录.xlsx",
+      "url": "https://www.shsmu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1507374392&wbfileid=18110104",
+      "path": "docs/admissions/2027/上海交通大学/上海交通大学医学院2027年硕士研究生招生目录.xlsx",
+      "sha256": "94fbd222170bbf42887e16835356894772627f95875c0d7d62d0ac72b949dea7",
+      "bytes": 28527,
+      "kind": "original"
+    }
+  ],
+  "failures": [],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}

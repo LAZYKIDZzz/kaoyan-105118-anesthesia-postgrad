@@ -1,0 +1,41 @@
+{
+  "name": "山东第二医科大学",
+  "tier": "进取区",
+  "gate": 325,
+  "region": "山东",
+  "candidates": [
+    {
+      "title": "山东第二医科大学2027年硕士研究生招生章程",
+      "url": "https://yjshb.sdsmu.edu.cn/yjszsxxw/2026/0928/c9463a180668/page.htm"
+    }
+  ],
+  "pages": [
+    {
+      "title": "山东第二医科大学2027年硕士研究生招生章程",
+      "url": "https://yjshb.sdsmu.edu.cn/yjszsxxw/2026/0928/c9463a180668/page.htm",
+      "effective_url": "https://yjshb.sdsmu.edu.cn/yjszsxxw/2026/0928/c9463a180668/page.htm",
+      "path": "docs/admissions/2027/山东第二医科大学/page-20f2fc92e9.html",
+      "sha256": "664cbc266dab8f1d243e3fd289ccbbda05742b3008153f7a619772e48e62062d",
+      "bytes": 59739
+    }
+  ],
+  "files": [
+    {
+      "title": "山东第二医科大学2027年硕士研究生招生专业目录.pdf",
+      "url": "https://yjshb.sdsmu.edu.cn/_upload/article/files/69/27/0d0ccd0b41dd94ba418a358e5bab/2674f4c3-6c11-4ee6-940e-d2271f94aeba.pdf",
+      "path": "docs/admissions/2027/山东第二医科大学/山东第二医科大学2027年硕士研究生招生专业目录.pdf",
+      "sha256": "5fa688010865a8e66e55851280223420383e1b0ccde8b957364d016d95b75a55",
+      "bytes": 228451,
+      "kind": "original"
+    }
+  ],
+  "failures": [
+    {
+      "url": "https://yjshb.sdsmu.edu.cn/yjszsxxw/2026/0928/c9463a180668/山东第二医科大学2027年硕士研究生招生专业目录.pdf",
+      "title": "内嵌文件",
+      "error": "404\nhttps://yjshb.sdsmu.edu.cn/yjszsxxw/2026/0928/c9463a180668/%E5%B1%B1%E4%B8%9C%E7%AC%AC%E4%BA%8C%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A62027%E5%B9%B4%E7%A1%95%E5%A3%AB%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8B%9B%E7%94%9F%E4%B8%93%E4%B8%9A%E7%9B%AE%E5%BD%95.pdf"
+    }
+  ],
+  "status": "已下载官方原附件",
+  "checked_at": "2026-10-18"
+}
