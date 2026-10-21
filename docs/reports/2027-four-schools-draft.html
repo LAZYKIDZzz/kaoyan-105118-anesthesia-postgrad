@@ -75,9 +75,10 @@ tbody tr:hover{background:#fdfbf6}
 .ta-right{text-align:right}
 
 .toc{font-size:13px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 16px 12px}
-.toc h2{font-family:"PingFang SC",sans-serif;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--ink-soft);margin:0 0 10px;border:0;padding:0}
-.toc h2::before{display:none}
+.toc summary{font-family:"PingFang SC",sans-serif;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-soft);cursor:pointer}
+.toc details[open] summary{margin-bottom:10px}
+.toc summary:focus-visible{outline:3px solid var(--focus);outline-offset:4px}
 .toc ol{list-style:none;margin:0;padding:0}
 .toc li{margin:0}
 .toc a{display:block;padding:4px 0 4px 9px;border-left:2px solid transparent;text-decoration:none;color:var(--ink-soft)}
@@ -228,11 +229,21 @@ footer.site p{margin:.3em 0}
 <p><strong>综述 / 机构（仅作参考，需交叉验证）</strong></p>
 <ul><li>《临床医学考研超全择校分析（二）》</li><li>《长治医学院：26 临床拟录取数据整理分享》</li><li>《[调剂] 河南医药大学（新乡医学院）行不行》</li><li>新东方在线《2027 考研：滨州医学院好不好考？》</li><li>启航教育四校"考情分析"系列（<strong>数据存在硬错误，不建议引用</strong>）</li></ul></article>
 </div>
-<nav class="toc" aria-label="目录"><h2>本页目录</h2><ol><li class=""><a href="#sec-1">0. 一句话结论</a></li><li class=""><a href="#sec-2">1. 关于&quot;讨论帖&quot;的检索实况（重要）</a></li><li class="lv3"><a href="#sec-3">实际找到的内容，按可信度分四层</a></li><li class="lv3"><a href="#sec-4">检索结论</a></li><li class=""><a href="#sec-5">2. 逐校情报</a></li><li class="lv3"><a href="#sec-6">2.1 河北北方学院（张家口 · 河北 · A 区）</a></li><li class="lv3"><a href="#sec-7">2.2 长治医学院（长治 · 山西 · A 区）</a></li><li class="lv3"><a href="#sec-8">2.3 河南医药大学（原新乡医学院 · 新乡 · 河南 · A 区）</a></li><li class="lv3"><a href="#sec-9">2.4 山东医药大学（原滨州医学院 · 烟台/滨州 · 山东 · A 区）</a></li><li class=""><a href="#sec-10">3. 横向对比</a></li><li class=""><a href="#sec-11">4. 舆情里的四个共识、三个误区</a></li><li class=""><a href="#sec-12">5. 对 2027 报考的实操建议</a></li><li class=""><a href="#sec-13">6. 待核实清单</a></li><li class=""><a href="#sec-14">7. 主要来源</a></li></ol></nav>
+<nav class="toc" aria-label="目录"><details open><summary>本页目录</summary><ol><li class=""><a href="#sec-1">0. 一句话结论</a></li><li class=""><a href="#sec-2">1. 关于&quot;讨论帖&quot;的检索实况（重要）</a></li><li class="lv3"><a href="#sec-3">实际找到的内容，按可信度分四层</a></li><li class="lv3"><a href="#sec-4">检索结论</a></li><li class=""><a href="#sec-5">2. 逐校情报</a></li><li class="lv3"><a href="#sec-6">2.1 河北北方学院（张家口 · 河北 · A 区）</a></li><li class="lv3"><a href="#sec-7">2.2 长治医学院（长治 · 山西 · A 区）</a></li><li class="lv3"><a href="#sec-8">2.3 河南医药大学（原新乡医学院 · 新乡 · 河南 · A 区）</a></li><li class="lv3"><a href="#sec-9">2.4 山东医药大学（原滨州医学院 · 烟台/滨州 · 山东 · A 区）</a></li><li class=""><a href="#sec-10">3. 横向对比</a></li><li class=""><a href="#sec-11">4. 舆情里的四个共识、三个误区</a></li><li class=""><a href="#sec-12">5. 对 2027 报考的实操建议</a></li><li class=""><a href="#sec-13">6. 待核实清单</a></li><li class=""><a href="#sec-14">7. 主要来源</a></li></ol></details></nav>
 </div>
 <footer class="site">
   <p>105118 麻醉学专业学位硕士 · 公开信息整理 · 报告生成于 2026-10-21</p>
   <p>报告内容为检索与核对记录，录取数据以各校研究生院公示原文为准。</p>
 </footer>
+<script>
+(() => {
+  const details = document.querySelector('.toc details');
+  if (!details) return;
+  const wide = window.matchMedia('(min-width:1024px)');
+  const update = () => { details.open = wide.matches; };
+  update();
+  wide.addEventListener('change', update);
+})();
+</script>
 </body>
 </html>

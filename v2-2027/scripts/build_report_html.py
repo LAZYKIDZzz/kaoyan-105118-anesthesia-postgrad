@@ -43,7 +43,7 @@ CATALOG = [
         'md': '2027四校麻醉专硕全网讨论检索总结.md',
         'kicker': '初稿 · 2026-10-21',
         'badge': 'draft',
-        'summary': '四校 2027 麻醉专硕的舆情画像、三年真实录取分、复试形态差异与报考建议；部分结论已被复核稿修正。',
+        'summary': '保留早期检索中的四校讨论与报考分析；部分结论已被复核稿修正，分数数据与建议尚未完成独立复核。',
         'note': '初稿，其中若干结论已在复核稿中修正，请对照阅读。',
     },
 ]
@@ -76,7 +76,8 @@ def inline(text):
     # 链接 [文字](地址)
     def link(m):
         label, href = m.group(1), m.group(2)
-        href = rewrite_href(href)
+        # 上方已对整段文字转义；地址须先还原，再作为属性转义一次。
+        href = rewrite_href(html.unescape(href))
         ext = ' target="_blank" rel="noopener"' if href.startswith(('http://', 'https://')) else ''
         return hold('<a href="%s"%s>%s</a>' % (html.escape(href, quote=True), ext, label))
 
@@ -380,9 +381,10 @@ tbody tr:hover{background:#fdfbf6}
 .ta-right{text-align:right}
 
 .toc{font-size:13px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 16px 12px}
-.toc h2{font-family:"PingFang SC",sans-serif;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--ink-soft);margin:0 0 10px;border:0;padding:0}
-.toc h2::before{display:none}
+.toc summary{font-family:"PingFang SC",sans-serif;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-soft);cursor:pointer}
+.toc details[open] summary{margin-bottom:10px}
+.toc summary:focus-visible{outline:3px solid var(--focus);outline-offset:4px}
 .toc ol{list-style:none;margin:0;padding:0}
 .toc li{margin:0}
 .toc a{display:block;padding:4px 0 4px 9px;border-left:2px solid transparent;text-decoration:none;color:var(--ink-soft)}
@@ -427,7 +429,17 @@ def page(title, kicker, body, toc_html='', banners='', dek='', crumb_extra='', h
     crumb = ('<div class="crumb"><a href="../index.html">← 三年分数对照</a>'
              '<a href="../nav.html">资料导航</a>'
              '<a href="index.html">检索报告</a>%s</div>' % crumb_extra)
-    toc_block = '<nav class="toc" aria-label="目录"><h2>本页目录</h2>%s</nav>' % toc_html if toc_html else ''
+    toc_block = '<nav class="toc" aria-label="目录"><details open><summary>本页目录</summary>%s</details></nav>' % toc_html if toc_html else ''
+    toc_script = """<script>
+(() => {
+  const details = document.querySelector('.toc details');
+  if (!details) return;
+  const wide = window.matchMedia('(min-width:1024px)');
+  const update = () => { details.open = wide.matches; };
+  update();
+  wide.addEventListener('change', update);
+})();
+</script>""" if toc_html and not hub else ''
     if hub:
         main_open = '<main class="hub">%s' % banners
         main_close = '</main>'
@@ -464,6 +476,7 @@ def page(title, kicker, body, toc_html='', banners='', dek='', crumb_extra='', h
   <p>105118 麻醉学专业学位硕士 · 公开信息整理 · 报告生成于 2026-10-21</p>
   <p>报告内容为检索与核对记录，录取数据以各校研究生院公示原文为准。</p>
 </footer>
+{toc_script}
 </body>
 </html>
 """
@@ -494,8 +507,8 @@ def build_report(item, index_of):
                 f'请以复核稿为准 → <a href="{review["slug"]}.html">阅读《检索与复核总结》</a></div>')
     if item['badge'] == 'review' and other:
         banners.append(
-            f'<div class="banner info">本页为复核稿，结论优先级高于初稿。初稿保留完整的三校三年分数与复试形态对比，'
-            f'可作背景阅读 → <a href="{other[0]["slug"]}.html">打开初稿</a></div>')
+            f'<div class="banner info">建议优先阅读本页。初稿中的部分结论已修正，往年分数数据尚未完成独立复核，'
+            f'仅供检索背景参考 → <a href="{other[0]["slug"]}.html">查看初稿</a></div>')
 
     out = page(
         title=title or item['slug'],
@@ -524,8 +537,8 @@ def build_hub(titles):
             '<span class="sep">｜</span>共 %d 份检索记录</p></div>' % len(CATALOG)
             + ''.join(cards)
             + '<div class="hub-note"><b>阅读顺序建议：</b>先看复核稿（对公开讨论的可见性与可信度做了逐条核对，'
-              '并列出 26 条可回看来源），再用初稿补充三年真实录取分与复试形态的横向对比。'
-              '两份报告均不把机构文章当数据源，也<b>不提供任何 2027 的预测分数线</b>。</div>')
+              '并列出 26 条可回看来源）。初稿仅供检索背景参考，其中的往年分数数据尚未完成独立复核，'
+              '分数建议不能当作 2027 录取门槛。报考前请以当年官方招生文件为准。</div>')
     out = page('四校检索报告', 'Reports · 2026-10-21', body, hub=True,
                dek='2027 考研四校麻醉学专硕的公开讨论检索记录：哪些信息可核验、哪些说法应放下。')
     path = os.path.join(OUT, 'index.html')
