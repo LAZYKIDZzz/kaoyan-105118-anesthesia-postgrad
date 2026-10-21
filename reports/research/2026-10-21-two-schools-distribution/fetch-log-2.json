@@ -1,0 +1,90 @@
+[
+  {
+    "key": "hebei_admit_http",
+    "url": "http://yjs.hebeinu.edu.cn/uploads/file1/20260401/69ccee371982c.pdf",
+    "status": 200,
+    "bytes": 276193
+  },
+  {
+    "key": "hebei_admit_main",
+    "url": "https://www.hebeinu.edu.cn/uploads/file1/20260401/69ccee371982c.pdf",
+    "status": 404,
+    "bytes": 238,
+    "head": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL /uploads/file",
+    "links": []
+  },
+  {
+    "key": "changzhi_index",
+    "url": "https://yjsc.czmc.edu.cn/zsgz.htm",
+    "status": 200,
+    "bytes": 23912,
+    "head": "",
+    "links": [
+      [
+        "info/1022/18252.htm",
+        "长治医学院2026年接受同等学力人员申请临床医学硕士专业学位报名的通知"
+      ],
+      [
+        "info/1022/18172.htm",
+        "长治医学院2026年硕士研究生招生考试调剂考生拟录取名单公示"
+      ],
+      [
+        "info/1022/18132.htm",
+        "长治医学院2026年硕士研究生招生调剂公告（二）"
+      ],
+      [
+        "info/1022/18092.htm",
+        "长治医学院2026年第一批调剂报考临床医学各专业（1051XX）考生考试安排的补充通知"
+      ],
+      [
+        "info/1022/18062.htm",
+        "长治医学院2026年硕士研究生第一批调剂考生复试安排"
+      ],
+      [
+        "info/1022/18032.htm",
+        "长治医学院2026年硕士研究生招生调剂公告（一）"
+      ],
+      [
+        "info/1022/18002.htm",
+        "长治医学院2026年硕士研究生招生调剂工作办法"
+      ],
+      [
+        "info/1022/17962.htm",
+        "长治医学院2026年硕士研究生招生考试一志愿考生拟录取结果公示"
+      ],
+      [
+        "info/1022/17932.htm",
+        "2026年硕士研究生一志愿复试安排"
+      ],
+      [
+        "info/1022/17862.htm",
+        "长治医学院2026年硕士研究生招生考试一志愿复试有关事宜的通知"
+      ],
+      [
+        "info/1022/17832.htm",
+        "长治医学院2026年硕士研究生招生享受加分政策考生复试名单公示"
+      ],
+      [
+        "info/1022/17802.htm",
+        "长治医学院2026年硕士研究生招生一志愿复试名单"
+      ]
+    ]
+  },
+  {
+    "key": "changzhi_retest_page",
+    "url": "https://yjsc.czmc.edu.cn/info/1035/17782.htm",
+    "status": 200,
+    "bytes": 21130,
+    "head": "",
+    "links": [
+      [
+        "17812.htm",
+        "长治医学院2026年硕士研究生招生享受加分政策考生复试名单公示"
+      ],
+      [
+        "17752.htm",
+        "长治医学院2026年硕士研究生复试录取工作方案"
+      ]
+    ]
+  }
+]

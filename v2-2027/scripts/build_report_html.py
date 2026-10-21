@@ -31,6 +31,24 @@ OUT = os.path.join(ROOT, 'docs', 'reports')
 # order 越大越靠前；badge 决定卡片角标配色（review=复核稿 / draft=初稿）
 CATALOG = [
     {
+        'slug': '2026-fushi-lists-hbnu-czmc',
+        'md': '2026复试名单核查-河北北方学院与长治医学院-2026-10-21.md',
+        'kicker': '名单核查 · 2026-10-21',
+        'badge': 'data',
+        'summary': '两校 2026 年 105118 一志愿进入复试的名单原文：河北北方学院 31 人进复试、27 人拟录取，长治医学院 15 人进复试、15 人全部拟录取；含全部考生初试分项与复试成绩。',
+        'note': '直接解析两校官网公示的原始 PDF，逐条可比对。',
+        'dek': '2026 年 105118 一志愿复试名单：河北北方学院 31 人 / 长治医学院 15 人，均为官方公示原文逐条解析',
+    },
+    {
+        'slug': '2026-two-schools-distribution',
+        'md': '2026两校麻醉专硕复试与拟录取分数分布-2026-10-21.md',
+        'kicker': '分数分布 · 2026-10-21',
+        'badge': 'data',
+        'summary': '把两校 2026 年 105118 的复试与拟录取名单按分数段摊开：河北北方录取中位 331、长治 334；300 分以下北院 4 人全刷、长治有 294 分录取，说明「最低分」不是典型录取水平。',
+        'note': '分位数为名单描述，不是学校划线；拟录取不等于最终学籍录取。',
+        'dek': '2026 年两校 105118 分数分布核验：进复试／拟录取逐段人数、中位数与分位数，附原件页码索引',
+    },
+    {
         'slug': '2027-four-schools-review',
         'md': '2027四校考研公开讨论检索复核-2026-10-21.md',
         'kicker': '复核稿 · 2026-10-21',
@@ -52,6 +70,14 @@ CATALOG = [
 ASSETS = [
     ('research/2026-10-21-four-schools/search-results.json',
      'data/2026-10-21-four-schools/search-results.json'),
+] + [
+    ('research/2026-10-21-two-schools-distribution/%s' % name,
+     'data/2026-10-21-two-schools-distribution/%s' % name)
+    for name in (
+        'hebei_retest.pdf', 'hebei_admit_http.pdf', 'hebei_adjust_retest.pdf',
+        'hebei_adjust_vacancy.pdf', 'changzhi_retest.pdf', 'changzhi_admit.pdf',
+        'changzhi_adjust.pdf', 'distribution.json', 'sources.json',
+    )
 ]
 
 BLANK = '—'
@@ -411,6 +437,7 @@ footer.site p{margin:.3em 0}
   border-radius:20px;margin-bottom:9px}
 .card .badge.review{background:#e8f3ec;color:#1f7a45;border:1px solid #bfdcc8}
 .card .badge.draft{background:#fbe9e4;color:#a83d26;border:1px solid #f1cec3}
+.card .badge.data{background:#e9f0f7;color:#1f3a52;border:1px solid #c6d6e6}
 .card h2{margin:0 0 .4rem;font-size:18px;border:0;padding:0}
 .card h2::before{display:none}
 .card p{margin:0 0 .7rem;font-size:13.5px;color:var(--ink-soft);line-height:1.65}
@@ -516,7 +543,7 @@ def build_report(item, index_of):
         body='<article>%s</article>' % body,
         toc_html=toc_html(toc),
         banners=''.join(banners),
-        dek='检索时间 2026-10-21 · 河北北方学院／长治医学院／河南医药大学（原新乡医学院）／山东医药大学（原滨州医学院）',
+        dek=item.get('dek') or ('检索时间 2026-10-21 · 河北北方学院／长治医学院／河南医药大学（原新乡医学院）／山东医药大学（原滨州医学院）'),
     )
     path = os.path.join(OUT, item['slug'] + '.html')
     open(path, 'w', encoding='utf-8').write(out)
@@ -526,7 +553,7 @@ def build_report(item, index_of):
 def build_hub(titles):
     cards = []
     for item in CATALOG:
-        label = '复核稿' if item['badge'] == 'review' else '初稿'
+        label = {'review': '复核稿', 'draft': '初稿', 'data': '名单核查'}.get(item['badge'], '初稿')
         cards.append(
             '<a class="card" href="%s.html">'
             '<span class="badge %s">%s · %s</span>'

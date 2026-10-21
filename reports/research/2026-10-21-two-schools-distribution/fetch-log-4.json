@@ -1,0 +1,23 @@
+[
+  {
+    "key": "hebei_retest",
+    "url": "http://yjs.hebeinu.edu.cn/uploads/file1/20260327/69c60929a656c.pdf",
+    "error": "403 Client Error: Forbidden for url: https://yjs.hebeinu.edu.cn:443/uploads/file1/20260327/69c60929a656c.pdf"
+  },
+  {
+    "key": "changzhi_admit",
+    "url": "https://yjsc.czmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2039325458&wbfileid=813E3B8D8189610D35247E7F474F6538",
+    "final_url": "https://yjsc.czmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2039325458&wbfileid=813E3B8D8189610D35247E7F474F6538",
+    "bytes": 3829,
+    "type": "html",
+    "head": "<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>附件下载</title>\r\n    <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device"
+  },
+  {
+    "key": "changzhi_adjust",
+    "url": "https://yjsc.czmc.edu.cn/2026nianshuoshiyanjiushengzhaoshengkaoshidiaojikaoshengniluqumingdan.pdf",
+    "final_url": "https://yjsc.czmc.edu.cn/2026nianshuoshiyanjiushengzhaoshengkaoshidiaojikaoshengniluqumingdan.pdf",
+    "bytes": 173317,
+    "type": "pdf",
+    "head": ""
+  }
+]

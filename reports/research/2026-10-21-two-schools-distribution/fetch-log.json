@@ -1,0 +1,22 @@
+[
+  {
+    "key": "hebei_admit",
+    "url": "https://yjs.hebeinu.edu.cn/uploads/file1/20260401/69ccee371982c.pdf",
+    "error": "403 Client Error: Forbidden for url: https://yjs.hebeinu.edu.cn/uploads/file1/20260401/69ccee371982c.pdf"
+  },
+  {
+    "key": "hebei_index",
+    "url": "https://yjs.hebeinu.edu.cn/index.php?s=/List/index/cid/11/p/3.html",
+    "error": "403 Client Error: Forbidden for url: https://yjs.hebeinu.edu.cn/index.php?s=/List/index/cid/11/p/3.html"
+  },
+  {
+    "key": "changzhi_index",
+    "url": "https://yjsc.czmc.edu.cn/zsgz.htm",
+    "error": "HTTPSConnectionPool(host='yjsc.czmc.edu.cn', port=443): Max retries exceeded with url: /zsgz.htm (Caused by SSLError(SSLCertVerificationError(\"hostname 'yjsc.czmc.edu.cn' doesn't match either of 'czmc.edu.cn', 'www.czmc.edu.cn'\")))"
+  },
+  {
+    "key": "changzhi_retest_page",
+    "url": "https://yjsc.czmc.edu.cn/info/1035/17782.htm",
+    "error": "HTTPSConnectionPool(host='yjsc.czmc.edu.cn', port=443): Max retries exceeded with url: /info/1035/17782.htm (Caused by SSLError(SSLCertVerificationError(\"hostname 'yjsc.czmc.edu.cn' doesn't match either of 'czmc.edu.cn', 'www.czmc.edu.cn'\")))"
+  }
+]

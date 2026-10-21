@@ -1,0 +1,65 @@
+[
+  {
+    "key": "hebei_retest",
+    "title": "河北北方一志愿复试名单",
+    "page_url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/441.html",
+    "attachment_url": "https://yjs.hebeinu.edu.cn/uploads/file1/20260327/69c60929a656c.pdf",
+    "file": "hebei_retest.pdf",
+    "relevant_pages": "10-11",
+    "sha256": "31ac2a5f8fb018dd043edb96280a11e7404acaea4b743756764776ab90b1a750"
+  },
+  {
+    "key": "hebei_admit_http",
+    "title": "河北北方一志愿复试成绩及拟录取名单",
+    "page_url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/444.html",
+    "attachment_url": "https://yjs.hebeinu.edu.cn/uploads/file1/20260401/69ccee371982c.pdf",
+    "file": "hebei_admit_http.pdf",
+    "relevant_pages": "6-7",
+    "sha256": "c15dd0d36be43e6921469f6443a26cac1b0166e21512f13f0c128a906d260de5"
+  },
+  {
+    "key": "changzhi_retest",
+    "title": "长治一志愿复试名单",
+    "page_url": "https://yjsc.czmc.edu.cn/info/1035/17782.htm",
+    "attachment_url": "https://yjsc.czmc.edu.cn/__local/9/EB/58/E484A9D8E6B67A7069DD92443B7_B1AD70EC_4A008.pdf",
+    "file": "changzhi_retest.pdf",
+    "relevant_pages": "3",
+    "sha256": "5e5326290625ef8141fad6ad37d20c4484121bc8c36906c3912f1445570ff1b8"
+  },
+  {
+    "key": "changzhi_admit",
+    "title": "长治一志愿拟录取结果",
+    "page_url": "https://yjsc.czmc.edu.cn/info/1022/17962.htm",
+    "attachment_url": "https://yjsc.czmc.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=2039325458&wbfileid=813E3B8D8189610D35247E7F474F6538",
+    "file": "changzhi_admit.pdf",
+    "relevant_pages": "5-6",
+    "sha256": "4926276df9658cf92da710b120163b944a06b13d974c9a4c46a0bb1700661a6c"
+  },
+  {
+    "key": "hebei_adjust_retest",
+    "title": "河北北方临床医学调剂复试名单",
+    "page_url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/453.html",
+    "attachment_url": "https://yjs.hebeinu.edu.cn/uploads/file1/20260411/69d9c67c6f694.pdf",
+    "file": "hebei_adjust_retest.pdf",
+    "relevant_pages": "全本",
+    "sha256": "2ac2d3858307e9dcaec2d1fe38c2bebdd4dd872337d48551e0e453538520d7fa"
+  },
+  {
+    "key": "hebei_adjust_vacancy",
+    "title": "河北北方普通全日制调剂缺额",
+    "page_url": "https://yjs.hebeinu.edu.cn/index.php?s=/Show/index/cid/11/id/448.html",
+    "attachment_url": "https://yjs.hebeinu.edu.cn/uploads/file1/20260404/69d092d29b877.pdf",
+    "file": "hebei_adjust_vacancy.pdf",
+    "relevant_pages": "全本",
+    "sha256": "872529346e5a36adf9b21051919e6c065a83a6b29132aa865e78fb340de0b0dc"
+  },
+  {
+    "key": "changzhi_adjust",
+    "title": "长治调剂拟录取名单",
+    "page_url": "https://yjsc.czmc.edu.cn/info/1022/18172.htm",
+    "attachment_url": "https://yjsc.czmc.edu.cn/2026nianshuoshiyanjiushengzhaoshengkaoshidiaojikaoshengniluqumingdan.pdf",
+    "file": "changzhi_adjust.pdf",
+    "relevant_pages": "全本",
+    "sha256": "6cca583d244d120424cc363a5fb1d60d225aa96658be1b2878b9b9a9b1f816cb"
+  }
+]
