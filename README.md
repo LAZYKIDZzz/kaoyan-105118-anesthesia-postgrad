@@ -85,6 +85,27 @@ python3 -m http.server 8000 --directory docs
 
 然后打开 <http://localhost:8000>。
 
+## 本机路径防泄露检查
+
+择校速查页的基础样式保存在 `src/assets/lookup-base.css`，生成脚本按项目内相对位置读取，无需外部参考 HTML。
+
+首次在本机启用提交检查：
+
+```bash
+git config core.hooksPath .githooks
+```
+
+提交钩子检查暂存区里的实际内容，拦截 macOS、Linux、Windows 用户主目录绝对路径；日志只显示文件位置和问题类型，不输出命中内容。GitHub Actions 会检查跟踪文件及分支、标签、远端跟踪分支的可达历史。本机编辑器私有快照不属于公开分支扫描范围。两者都读取 ZIP、XLSX 等 ZIP 容器中的成员，但不保证识别 PDF 压缩流或图片中的文字。
+
+少量官方 Excel 原件自带第三方电脑路径，已在 `.privacy-public-sources.json` 中按文件 SHA-256 固定例外，不改动原件。文件内容改变后例外失效；本机私有词表始终检查这些文件。
+
+可以把需要额外拦截的用户名或其他私人标记写入本机的 `.privacy-local/blocked-terms.txt`，每行一项。该目录已被 Git 忽略，请勿强制加入版本库。私有词表仅在本机生效，CI 使用通用路径规则。
+
+```bash
+python3 scripts/check_private_paths.py --staged  # 检查即将提交的内容
+python3 scripts/check_private_paths.py --history # 同时检查可达历史
+```
+
 <details>
 <summary>重新生成页面数据</summary>
 
